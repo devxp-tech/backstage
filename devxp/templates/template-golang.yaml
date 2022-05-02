@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1beta2
+kind: Template
+metadata:
+  name: go-lang-service-template
+  title: Go lang service
+  description: Create a simple go project microservice that expose RestfulAPI
+  tags:
+   - recommended
+   - go
+   - restAPI
+
+spec:
+  owner: service@example.com
+  type: service
