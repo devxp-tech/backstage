@@ -1,0 +1,38 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bob-cache
+  description: Backoficce Api
+  tags:
+    - memcached
+    - cache
+    - data
+  links:
+    - url: https://bob.devxp.com/user
+      title: Examples Users
+      icon: user
+    - url: https://bob.devxp.com/group
+      title: Example Group
+      icon: group
+    - url: https://bob.devxp.com/cloud
+      title: Link with Cloud Icon
+      icon: cloud
+    - url: https://bob.devxp.com/dashboard
+      title: Dashboard
+      icon: dashboard
+    - url: https://bob.devxp.com/help
+      title: Support
+      icon: help
+    - url: https://bob.devxp.com/web
+      title: Website
+      icon: web
+    - url: https://bob.devxp.com/alert
+      title: Alerts
+      icon: alert
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sre
+  system: bob
+  dependsOn: ['resource:bob-db']
+  apiConsumedBy: ['component:alice']

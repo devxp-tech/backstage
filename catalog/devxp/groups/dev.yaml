@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dev
+  description: Developers Teams
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: devxp
+  children: [devs-a, devs-b]

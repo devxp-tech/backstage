@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: bob
+  description: Back Office System
+  tags:
+    - backoffice
+    - php
+spec:
+  owner: devs-a
+  domain: bob

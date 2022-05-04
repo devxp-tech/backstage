@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: bob-web
+  description: Stores Bob details
+spec:
+  type: service
+  owner: ops-a
+  system: bob

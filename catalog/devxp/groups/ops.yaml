@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: ops
+  description: The infra department
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: devxp
+  children: [ops-a, ops-b]
