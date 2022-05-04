@@ -74,7 +74,7 @@ spec:
       action: catalog:register
       input:
         repoContentsUrl: ${{ steps.publish.output.repoContentsUrl }}
-        catalogInfoPath: '/catalog-info.yaml'
+        catalogInfoPath: '/app/catalog-info.yaml'
 
   # some outputs which are saved along with the job for use in the frontend
   output:
