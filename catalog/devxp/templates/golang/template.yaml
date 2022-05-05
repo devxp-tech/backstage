@@ -49,7 +49,7 @@ spec:
       name: Fetch Skeleton + Template
       action: fetch:template
       input:
-        url: ./skeleton
+        url: https://github.com/diegoluisi/teste-will
         copyWithoutRender:
           - .github/workflows/*
         values:
