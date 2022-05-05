@@ -50,8 +50,8 @@ spec:
       action: fetch:template
       input:
         url: https://github.com/diegoluisi/template-golang
-        copyWithoutRender:
-          - .github/workflows/*
+        #copyWithoutRender:
+        #  - .github/workflows/*
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
