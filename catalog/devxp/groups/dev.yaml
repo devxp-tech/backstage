@@ -5,7 +5,10 @@ metadata:
   description: Developers Teams
 spec:
   type: department
-  # Intentional no profile for testing
+  profile:
+    displayName: Developers Team
+    email: dev@devxp.io
+    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: devxp
   children: [devs-a]
 ---
@@ -13,10 +16,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: dev-a
-  description: Developers Teams
+  description: Developers Teams A
 spec:
   type: department
-  # Intentional no profile for testing
+  profile:
+    displayName: Developers Team
+    email: dev@devxp.io
+    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: dev
   children: []
 ---  
