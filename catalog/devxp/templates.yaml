@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: templates
+  description: A collection of all Backstage Templates
+spec:
+  targets:
+    - ./templates/golang/template.yaml
+    - ./templates/python/template.yaml

@@ -91,15 +91,11 @@ catalog:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
   rules:
-    - allow: [Component, System, API, Resource, Location, Group]
+    - allow: [Component, System, API, Resource, Location]
   locations:
     # Backstage example components
     - type: url
       target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/components.yaml
-
-    ## Backstage example locations
-    #- type: url
-    #  target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/devxp.yaml
 
     # Backstage example systems
     - type: url
@@ -120,6 +116,6 @@ catalog:
         - allow: [Group, User]
     # Backstage example organization template
     - type: url
-      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/templates/golang/template.yaml
+      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/templates.yaml
       rules:
         - allow: [Template]
