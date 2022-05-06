@@ -32,7 +32,7 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: ops-b
+  owner: group:ops
   system: bob
   dependsOn: ['resource:bob-db']
   apiConsumedBy: ['component:alice']

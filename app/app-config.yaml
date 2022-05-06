@@ -80,13 +80,18 @@ auth:
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
+  defaultAuthor:
+    name: devxp-bot # Defaults to `Scaffolder`
+    email: contato@diegoluisi.eti.br # Defaults to `scaffolder@backstage.io`
+  defaultCommitMessage: "🤖 U can't touch this ⚡" # Defaults to 'Initial commit'
+
 
 catalog:
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
   rules:
-    - allow: [Component, System, API, Resource, Location]
+    - allow: [Component, System, API, Resource, Location, Group]
   locations:
     # Backstage example components
     - type: url
@@ -111,7 +116,8 @@ catalog:
     # Backstage example organization groups
     - type: url
       target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/groups.yaml
-
+      rules:
+        - allow: [Group]
     # Backstage example organization template
     - type: url
       target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/templates/golang/template.yaml
