@@ -7,8 +7,18 @@ spec:
   type: department
   # Intentional no profile for testing
   parent: devxp
-  children: [devs-a, devs-b]
+  children: [devs-a]
 ---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dev-a
+  description: Developers Teams
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: dev
+---  
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
