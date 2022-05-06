@@ -34,8 +34,8 @@ metadata:
       icon: alert
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: production
   owner: group:dev
-  system: bob
-  dependsOn: ['resource:bob-db']
+  system: alice
+  dependsOn: ['system:bob']
   apiConsumedBy: ['component:alice']
