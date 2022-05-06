@@ -19,7 +19,7 @@ spec:
   type: department
   # Intentional no profile for testing
   parent: ops
-  #children: [ops-a, ops-b]
+  children: [ops-a, ops-b]
 
 ---
 apiVersion: backstage.io/v1alpha1

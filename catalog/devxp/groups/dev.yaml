@@ -8,3 +8,14 @@ spec:
   # Intentional no profile for testing
   parent: devxp
   children: [devs-a, devs-b]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: gritzko
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: gritzko@devxp.io
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [dev-a]
