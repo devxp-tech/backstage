@@ -66,6 +66,7 @@ spec:
           - github.com
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
+        defaultBranch: main
 
     - id: register
       name: Register
