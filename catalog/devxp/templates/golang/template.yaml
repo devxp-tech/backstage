@@ -1,12 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: create-react-app-template
-  title: Create React App Template
+  name: create-go-app-template
+  title: Create Go App Template
   description: Create a new CRA website project
   tags:
-    - react
-    - cra
+    - go
+    - recommended
 spec:
   owner: web@example.com
   type: website
