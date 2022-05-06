@@ -117,7 +117,7 @@ catalog:
     - type: url
       target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/groups.yaml
       rules:
-        - allow: [Group]
+        - allow: [Group, User]
     # Backstage example organization template
     - type: url
       target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/templates/golang/template.yaml
