@@ -8,6 +8,7 @@ spec:
   # Intentional no profile for testing
   parent: devxp
   children: [mysql, postgres]
+  
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -31,6 +32,7 @@ spec:
   # Intentional no profile for testing
   parent: dba
   children: []
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
