@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: dba
+  description: Database Administrators Team
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: devxp
+  children: [dba1, dba2]
