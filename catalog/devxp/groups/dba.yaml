@@ -7,4 +7,38 @@ spec:
   type: department
   # Intentional no profile for testing
   parent: devxp
-  children: [dba1, dba2]
+  children: [mysql, postgres]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mysql
+  description: The MySQL DBA
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: dba
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: postgres
+  description: The MySQL DBA
+spec:
+  type: department
+  # Intentional no profile for testing
+  parent: dba
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: paulao
+spec:
+  profile:
+    displayName: Paulão DBA
+    email: dba@diegoluisi.eti.br
+    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+  memberOf: [dba, mysql]
