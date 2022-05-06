@@ -1,14 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: bob-web
-  description: Backoficce Api
+  name: alice-web
+  description: Frontend Api
   annotations:
-    github.com/project-slug: diegoluisi/bob-web
+    github.com/project-slug: diegoluisi/alice-web
     backstage.io/techdocs-ref: value    
   tags:
     - web
     - apache
+    - frontend
   links:
     - url: https://bob.devxp.com/user
       title: Examples Users
@@ -36,5 +37,5 @@ spec:
   lifecycle: experimental
   owner: group:dev
   system: bob
-  dependsOn: ['component:bob-cache', 'component:bob-db', 'component:bob-queue']
-  apiConsumedBy: ['system:alice']
+  dependsOn: ['resource:bob-db']
+  apiConsumedBy: ['component:alice']

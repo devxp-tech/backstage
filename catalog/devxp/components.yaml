@@ -5,7 +5,4 @@ metadata:
   description: A collection of all Backstage example components
 spec:
   targets:
-    - ./components/bob-db.yaml
-    - ./components/bob-cache.yaml
-    - ./components/bob-queue.yaml
-    - ./components/bob-web.yaml
+    - ./components/*.yaml
