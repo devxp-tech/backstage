@@ -5,7 +5,10 @@ metadata:
   description: The infra department
 spec:
   type: department
-  # Intentional no profile for testing
+  profile:
+    displayName: Ops Team
+    email: ops@devxp.io
+    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: devxp
   children: [infra]
 
@@ -17,7 +20,10 @@ metadata:
   description: The infra department
 spec:
   type: department
-  # Intentional no profile for testing
+  profile:
+    displayName: Ops Team
+    email: ops@devxp.io
+    picture: https://avatars.dicebear.com/api/identicon/backstage@example.com.svg?background=%23fff&margin=25
   parent: ops
   children: [ops-a, ops-b]
 
