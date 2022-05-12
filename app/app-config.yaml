@@ -28,7 +28,7 @@ backend:
   #     - secret: ${BACKEND_SECRET}
   baseUrl: https://backstage.diegoluisi.eti.br
   listen:
-    port: 443
+    port: 7007
   csp:
     connect-src: ["'self'", 'http:', 'https:']
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
