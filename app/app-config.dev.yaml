@@ -1,6 +1,6 @@
 app:
   title: DevXP IDP 
-  baseUrl: https://backstage.diegoluisi.eti.br
+  baseUrl: http://localhost:3000
 
   support:
     url: https://github.com/backstage/backstage/issues # Used by common ErrorPage
@@ -38,21 +38,8 @@ backend:
     methods: [GET, POST, PUT, DELETE]
     credentials: true
   database:
-    #client: better-sqlite3
-    #connection: ':memory:'    
-    client: pg
-    connection:
-      host: ${POSTGRES_HOST}
-      port: ${POSTGRES_PORT}
-      user: ${POSTGRES_USER}
-      password: ${POSTGRES_PASSWORD}
-    # Refer to Tarn docs for default values on PostgreSQL pool configuration - https://github.com/Vincit/tarn.js
-    knexConfig:
-      pool:
-        min: 3
-        max: 12
-        acquireTimeoutMillis: 60000
-        idleTimeoutMillis: 60000      
+    client: better-sqlite3
+    connection: ':memory:'    
   cache:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
