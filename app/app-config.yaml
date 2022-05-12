@@ -26,7 +26,7 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: https://backstage.diegoluisi.eti.br
+  baseUrl: http://backstage.diegoluisi.eti.br
   listen:
     port: 7007
   csp:
