@@ -31,6 +31,7 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          cd app
-          docker build . --file packages/backend/Dockerfile --tag diegoluisi/backstage:0.5
+          ls -all
+          cd app/
+          docker image build . -f packages/backend/Dockerfile --tag diegoluisi/backstage:0.5
           docker push diegoluisi/backstage
