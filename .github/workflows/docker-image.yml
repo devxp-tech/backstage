@@ -11,7 +11,6 @@ on:
 
 jobs:
   vars:
-    runs-on: std-01 #force
     outputs:
       tag: ${{ steps.vars.outputs.tag }}
     steps:
