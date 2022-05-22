@@ -1,23 +1,11 @@
 app:
-  title: DevXP IDP 
-  baseUrl: https://backstage.diegoluisi.eti.br
+  title: Scaffolded Backstage App
+  baseUrl: http://localhost:3000
 
-  support:
-    url: https://github.com/backstage/backstage/issues # Used by common ErrorPage
-    items: # Used by common SupportButton component
-      - title: Issues
-        icon: github
-        links:
-          - url: https://github.com/diegoluisi/backstage/issues
-            title: GitHub Issues
-      - title: Slack Chatroom
-        icon: chat
-        links:
-          - url: https://devxp.slack.com/archives/C0336UVR2NP
-            title: '#devxp-team'
+
 
 organization:
-  name: DevXP Labs
+  name: DevXP
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
@@ -26,7 +14,7 @@ backend:
   # auth:
   #   keys:
   #     - secret: ${BACKEND_SECRET}
-  baseUrl: http://backstage.diegoluisi.eti.br
+  baseUrl: http://localhost:7007
   listen:
     port: 7007
   csp:
@@ -38,21 +26,8 @@ backend:
     methods: [GET, POST, PUT, DELETE]
     credentials: true
   database:
-    #client: better-sqlite3
-    #connection: ':memory:'    
-    client: pg
-    connection:
-      host: ${POSTGRES_HOST}
-      port: ${POSTGRES_PORT}
-      user: ${POSTGRES_USER}
-      password: ${POSTGRES_PASSWORD}
-    # Refer to Tarn docs for default values on PostgreSQL pool configuration - https://github.com/Vincit/tarn.js
-    knexConfig:
-      pool:
-        min: 3
-        max: 12
-        acquireTimeoutMillis: 60000
-        idleTimeoutMillis: 60000      
+    client: better-sqlite3
+    connection: ':memory:'
   cache:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
@@ -67,15 +42,10 @@ integrations:
     #   apiBaseUrl: https://ghe.example.net/api/v3
     #   token: ${GHE_TOKEN}
 
-#proxy:
-#  '/argocd/api':
-#    target: https://argocd.diegoluisi.eti.br/api/v1/
-#    changeOrigin: true
-#    # only if your argocd api has self-signed cert
-#    secure: false
-#    headers:
-#      Cookie:
-#        $env: ARGOCD_AUTH_TOKEN
+proxy:
+  '/test':
+    target: 'https://example.com'
+    changeOrigin: true
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
@@ -89,51 +59,19 @@ techdocs:
     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
 
 auth:
-  environment: production
-  providers:
-    github:
-      development:
-        clientId: ${AUTH_GITHUB_CLIENT_ID}
-        clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}       
+  # see https://backstage.io/docs/auth/ to learn about auth providers
+  providers: {}
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
-  defaultAuthor:
-    name: devxp-bot # Defaults to `Scaffolder`
-    email: contato@diegoluisi.eti.br # Defaults to `scaffolder@backstage.io`
-  defaultCommitMessage: "🤖 U can't touch this ⚡" # Defaults to 'Initial commit'
-
 
 catalog:
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
   rules:
-    - allow: [Component, System, API, Resource, Location]
+    - allow: [API, Component, Domain, Group, System, User, Template, Resource, Location]
   locations:
     # Backstage example components
     - type: url
-      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/components.yaml
-
-    # Backstage example systems
-    - type: url
-      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/systems.yaml
-
-    # Backstage example APIs
-    - type: url
-      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/apis.yaml
-
-    # Backstage example resources
-    - type: url
-      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/resources.yaml
-
-    # Backstage example organization groups
-    - type: url
-      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/groups.yaml
-      rules:
-        - allow: [Group, User]
-    # Backstage example organization template
-    - type: url
-      target: https://github.com/diegoluisi/backstage/blob/main/catalog/devxp/templates.yaml
-      rules:
-        - allow: [Template]
+      target: https://github.com/diegoluisi/backstage-catalog/blob/main/devxp/all.yaml  

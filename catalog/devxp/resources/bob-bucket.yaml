@@ -1,9 +1,0 @@
-apiVersion: backstage.io/v1alpha1
-kind: Resource
-metadata:
-  name: bob-bucket
-  description: s3://bob-s3.amazonaws.com
-spec:
-  type: service
-  owner: ops-a
-  system: bob

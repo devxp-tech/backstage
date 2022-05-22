@@ -68,10 +68,6 @@ import {
   RELATION_PROVIDES_API,
 } from '@backstage/catalog-model';
 
-import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-github-pull-requests';
-
-import { EntitySecurityInsightsContent } from '@roadiehq/backstage-plugin-security-insights';
-
 const cicdContent = (
   // This is an example of how you can implement your company's logic in entity page.
   // You can for example enforce that all components of type 'service' should use GitHubActions
@@ -138,8 +134,6 @@ const overviewContent = (
   </Grid>
 );
 
-import { EntityGithubInsightsContent } from '@roadiehq/backstage-plugin-github-insights';
-
 const serviceEntityPage = (
   <EntityLayout>
     <EntityLayout.Route path="/" title="Overview">
@@ -148,22 +142,6 @@ const serviceEntityPage = (
 
     <EntityLayout.Route path="/ci-cd" title="CI/CD">
       {cicdContent}
-    </EntityLayout.Route>
-
-    <EntityLayout.Route path="/pull-requests" title="Pull Requests">
-      <EntityGithubPullRequestsContent />
-    </EntityLayout.Route>
-
-    <EntityLayout.Route 
-      path="/code-insights"
-      title="Code Insights">
-      <EntityGithubInsightsContent />
-    </EntityLayout.Route>
-
-    <EntityLayout.Route
-      path="/security-insights"
-      title="Security Insights">
-      <EntitySecurityInsightsContent />
     </EntityLayout.Route>
 
     <EntityLayout.Route path="/api" title="API">
