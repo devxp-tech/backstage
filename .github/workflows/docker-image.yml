@@ -10,6 +10,20 @@ on:
     branches: [ main ]
 
 jobs:
+  vars:
+    runs-on: std-01 #force
+    outputs:
+      tag: ${{ steps.vars.outputs.tag }}
+    steps:
+      - id: vars
+        run: |
+          if [[ ! "$GITHUB_REF" =~ refs/tags ]]; then
+            echo "::set-output name=tag::$(echo $GITHUB_SHA | cut -c 1-8)"
+          else
+            echo "::set-output name=tag::$(echo $GITHUB_REF | cut -d / -f 3)"
+          fi
+      - run: echo "${{ steps.vars.outputs.tag }}"
+
   push_to_registry:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
@@ -35,5 +49,5 @@ jobs:
           yarn install --frozen-lockfile
           yarn tsc
           yarn build
-          docker image build . -f packages/backend/Dockerfile --tag diegoluisi/backstage:0.5
-          docker push diegoluisi/backstage
+          docker image build . -f packages/backend/Dockerfile --tag diegoluisi/backstage:${{ needs.vars.outputs.tag }}
+          docker push diegoluisi/backstage:${{ needs.vars.outputs.tag }}
