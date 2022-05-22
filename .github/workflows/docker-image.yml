@@ -31,8 +31,9 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          ls -all
           cd app/
-          ls -all
+          yarn install --frozen-lockfile
+          yarn tsc
+          yarn build
           docker image build . -f packages/backend/Dockerfile --tag diegoluisi/backstage:0.5
           docker push diegoluisi/backstage
