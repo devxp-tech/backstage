@@ -11,6 +11,7 @@ on:
 
 jobs:
   vars:
+    name: Setup environment variables
     runs-on: ubuntu-latest
     outputs:
       tag: ${{ steps.vars.outputs.tag }}
@@ -49,33 +50,35 @@ jobs:
           docker push diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
   deploy:
+    name: GitOps Deploy
     runs-on: ubuntu-latest
     needs:
       - vars
       - push_to_registry
 
     steps:
-    -
+    - name: Set Kustomize
       uses: imranismail/setup-kustomize@v1
       with:
         kustomize-version: "3.9.4"
-    -
+
+    - name: Clone Argo Repository
       run: git clone https://${REPO_TOKEN}@github.com/diegoluisi/argo.git .
       env:
         REPO_TOKEN: ${{secrets.ACCESS_TOKEN_GITHUB}}
-    -
-      name: update image Backstage
+
+    - name: Update Backstage Tag Image
       run: |
         cd apps/backstage/overlays/production
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
-    -
-      name: commit
+
+    - name: Commit Changes
       run: |
         git version
         git add .
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "[GitHub Action] Set dev image tag to https://github.com/diegoluisi/backstage/commit/${{ needs.vars.outputs.tag }}"
-    -
-      name: Push changes
+        git commit -m ":robot: [GitHub Action] Set new image tag to https://github.com/diegoluisi/backstage/commit/${{ needs.vars.outputs.tag }}"
+
+    - name: Push changes
       run: git push
