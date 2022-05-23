@@ -46,14 +46,14 @@ backend:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
 
-# auth:
-#   providers:
-#     github:
-#       production:
-#         clientId:
-#          $env: AUTH_GITHUB_CLIENT_ID
-#         clientSecret:
-#          $env: AUTH_GITHUB_CLIENT_SECRET
+auth:
+  providers:
+    github:
+      production:
+        clientId:
+         $env: AUTH_GITHUB_CLIENT_ID
+        clientSecret:
+         $env: AUTH_GITHUB_CLIENT_SECRET
         ## uncomment the following three lines if using enterprise
         # enterpriseInstanceUrl:
         #  $env: AUTH_GITHUB_ENTERPRISE_INSTANCE_URL
