@@ -52,8 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - vars
-    needs:
-    - push_to_registry
+      - push_to_registry
 
     steps:
     -
@@ -76,7 +75,7 @@ jobs:
         git add .
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m "[GitHub Action] Set dev image tag to https://github.com/oyas/web-app/commit/${GITHUB_SHA}"
+        git commit -m "[GitHub Action] Set dev image tag to https://github.com/diegoluisi/backstage/commit/${{ needs.vars.outputs.tag }}"
     -
       name: Push changes
       run: git push
