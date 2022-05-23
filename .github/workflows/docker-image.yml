@@ -47,3 +47,36 @@ jobs:
           yarn build
           docker image build . -f packages/backend/Dockerfile --tag diegoluisi/backstage:${{ needs.vars.outputs.tag }}
           docker push diegoluisi/backstage:${{ needs.vars.outputs.tag }}
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs:
+      - vars
+    needs:
+    - push_to_registry
+
+    steps:
+    -
+      uses: imranismail/setup-kustomize@v1
+      with:
+        kustomize-version: "3.9.4"
+    -
+      run: git clone https://${REPO_TOKEN}@github.com/diegoluisi/argo.git .
+      env:
+        REPO_TOKEN: ${{secrets.ACCESS_TOKEN_GITHUB}}
+    -
+      name: update image Backstage
+      run: |
+        cd apps/backstage/overlays/production
+        kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
+    -
+      name: commit
+      run: |
+        git version
+        git add .
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "[GitHub Action] Set dev image tag to https://github.com/oyas/web-app/commit/${GITHUB_SHA}"
+    -
+      name: Push changes
+      run: git push
