@@ -10,7 +10,7 @@ backend:
   # and can't be reached by others.
   baseUrl: http://backstage.diegoluisi.eti.br
   listen:
-    port: 7007    
+    port: 7007
     # The following host directive binds to all IPv4 interfaces when its value
     # is "0.0.0.0". This is the most permissive setting. The right value depends
     # on your specific deployment. If you remove the host line entirely, the
@@ -49,7 +49,7 @@ backend:
   auth:
   providers:
     github:
-      development:
+      production:
         clientId:
          $env: AUTH_GITHUB_CLIENT_ID
         clientSecret:
