@@ -55,14 +55,4 @@ integrations:
     #   apiBaseUrl: https://ghe.example.net/api/v3
     #   token: ${GHE_TOKEN}
 
-auth:
-  providers:
-    github:
-      production:
-        clientId:
-         $env: AUTH_GITHUB_CLIENT_ID
-        clientSecret:
-         $env: AUTH_GITHUB_CLIENT_SECRET
-        ## uncomment the following three lines if using enterprise
-        # enterpriseInstanceUrl:
-        #  $env: AUTH_GITHUB_ENTERPRISE_INSTANCE_URL
+
