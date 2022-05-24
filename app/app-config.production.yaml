@@ -60,6 +60,13 @@ backend:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
 
+scaffolder:
+  # see https://backstage.io/docs/features/software-templates/configuration for software template options
+  defaultAuthor:
+    name: devxp-bot # Defaults to `Scaffolder`
+    email: contato@diegoluisi.eti.br # Defaults to `scaffolder@backstage.io`
+  defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
+
 integrations:
   github:
     - host: github.com
@@ -70,7 +77,7 @@ integrations:
     #   token: ${GHE_TOKEN}
 
 auth:
-  environment: development
+  environment: production
   ### Providing an auth.session.secret will enable session support in the auth-backend
   # session:
   #   secret: custom session secret

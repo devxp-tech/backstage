@@ -74,9 +74,13 @@ techdocs:
 #   # see https://backstage.io/docs/auth/ to learn about auth providers
 #   providers: {}
 
-
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
+  defaultAuthor:
+    name: devxp-bot # Defaults to `Scaffolder`
+    email: contato@diegoluisi.eti.br # Defaults to `scaffolder@backstage.io`
+  defaultCommitMessage: "🤖 U can't touch this ⚡" # Defaults to 'Initial commit'
+
 
 auth:
   environment: development
