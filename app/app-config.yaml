@@ -78,6 +78,19 @@ techdocs:
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
 
+auth:
+  environment: development
+  ### Providing an auth.session.secret will enable session support in the auth-backend
+  # session:
+  #   secret: custom session secret
+  providers:
+    github:
+      development:
+        clientId: ${AUTH_GITHUB_CLIENT_ID}
+        clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
+        # enterpriseInstanceUrl: ${AUTH_GITHUB_ENTERPRISE_INSTANCE_URL}
+
+
 catalog:
   import:
     entityFilename: catalog-info.yaml
