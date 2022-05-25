@@ -22,7 +22,7 @@ backend:
   # reachable not just from within the backend host, but from all of your
   # callers. When its value is "http://localhost:7007", it's strictly private
   # and can't be reached by others.
-  baseUrl: http://backstage.diegoluisi.eti.br
+  baseUrl: https://backstage.diegoluisi.eti.br
   listen:
     port: 7007
     # The following host directive binds to all IPv4 interfaces when its value
