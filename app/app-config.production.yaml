@@ -38,7 +38,7 @@ backend:
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
 
   cors:
-    origin: http://localhost:3000
+    origin: https://backstage.diegoluisi.eti.br
     methods: [GET, POST, PUT, DELETE]
     credentials: true
   # config options: https://node-postgres.com/api/client
