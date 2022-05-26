@@ -87,14 +87,3 @@ auth:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
         # enterpriseInstanceUrl: ${AUTH_GITHUB_ENTERPRISE_INSTANCE_URL}
-
-catalog:
-  import:
-    entityFilename: catalog-info.yaml
-    pullRequestBranchName: backstage-integration
-  rules:
-    - allow: [API, Component, Domain, Group, System, User, Template, Resource, Location]
-  locations:
-    # Backstage example components
-    - type: url
-      target: https://github.com/diegoluisi/backstage-catalog/blob/main/devxp/devxp.yaml
