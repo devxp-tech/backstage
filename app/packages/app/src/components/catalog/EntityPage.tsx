@@ -137,6 +137,8 @@ const overviewContent = (
 import { EntityGithubInsightsContent } from '@roadiehq/backstage-plugin-github-insights';
 import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-github-pull-requests';
 import { EntitySecurityInsightsContent } from '@roadiehq/backstage-plugin-security-insights';
+import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
+
 
 const serviceEntityPage = (
   <EntityLayout>
@@ -163,6 +165,10 @@ const serviceEntityPage = (
       title="Security Insights">
       <EntitySecurityInsightsContent />
     </EntityLayout.Route>    
+
+    <EntityLayout.Route path="/kubernetes" title="Kubernetes">
+      <EntityKubernetesContent />
+    </EntityLayout.Route>
 
     <EntityLayout.Route path="/api" title="API">
       <Grid container spacing={3} alignItems="stretch">
