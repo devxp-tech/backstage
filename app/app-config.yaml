@@ -70,9 +70,25 @@ techdocs:
   publisher:
     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
 
-# auth:
-#   # see https://backstage.io/docs/auth/ to learn about auth providers
-#   providers: {}
+catalog:
+  import:
+    entityFilename: catalog-info.yaml
+    pullRequestBranchName: backstage-integration
+  rules:
+    - allow: 
+        - API
+        - Component
+        - Domain
+        - Group
+        - System
+        - User
+        - Template
+        - Resource
+        - Location
+  locations:
+    # Backstage example components
+    - type: url
+      target: https://github.com/diegoluisi/backstage-catalog/blob/main/devxp/all.yaml
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
@@ -82,26 +98,3 @@ scaffolder:
   defaultCommitMessage: "🤖 U can't touch this ⚡" # Defaults to 'Initial commit'
 
 
-auth:
-  environment: development
-  ### Providing an auth.session.secret will enable session support in the auth-backend
-  # session:
-  #   secret: custom session secret
-  providers:
-    github:
-      development:
-        clientId: ${AUTH_GITHUB_CLIENT_ID}
-        clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
-        # enterpriseInstanceUrl: ${AUTH_GITHUB_ENTERPRISE_INSTANCE_URL}
-
-
-catalog:
-  import:
-    entityFilename: catalog-info.yaml
-    pullRequestBranchName: backstage-integration
-  rules:
-    - allow: [API, Component, Domain, Group, System, User, Template, Resource, Location]
-  locations:
-    # Backstage example components
-    - type: url
-      target: https://github.com/diegoluisi/backstage-catalog/blob/main/devxp/all.yaml

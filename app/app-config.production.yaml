@@ -77,13 +77,13 @@ integrations:
     #   token: ${GHE_TOKEN}
 
 auth:
-  environment: development
+  environment: production
   ### Providing an auth.session.secret will enable session support in the auth-backend
   # session:
   #   secret: custom session secret
   providers:
     github:
-      development:
+      production:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
         # enterpriseInstanceUrl: ${AUTH_GITHUB_ENTERPRISE_INSTANCE_URL}
