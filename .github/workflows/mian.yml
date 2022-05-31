@@ -70,7 +70,7 @@ jobs:
 
     - name: Update Backstage Tag Image
       run: |
-        cd apps/backstage/overlays/production
+        cd apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
     - name: Commit Changes
