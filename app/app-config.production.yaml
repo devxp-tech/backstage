@@ -39,8 +39,8 @@ backend:
 
   cors:
     origin: https://backstage.diegoluisi.eti.br
-    methods: [GET, POST, PUT, DELETE]
-    credentials: true
+    #methods: [GET, POST, PUT, DELETE]
+    #credentials: true
   # config options: https://node-postgres.com/api/client
   database:
     client: pg
@@ -77,13 +77,13 @@ integrations:
     #   token: ${GHE_TOKEN}
 
 auth:
-  environment: production
+  environment: development
   ### Providing an auth.session.secret will enable session support in the auth-backend
   # session:
   #   secret: custom session secret
   providers:
     github:
-      production:
+      development:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
         # enterpriseInstanceUrl: ${AUTH_GITHUB_ENTERPRISE_INSTANCE_URL}
