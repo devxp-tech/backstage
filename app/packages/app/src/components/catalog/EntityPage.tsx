@@ -125,6 +125,14 @@ const overviewContent = (
       <EntityCatalogGraphCard variant="gridItem" height={400} />
     </Grid>
 
+    <EntitySwitch>
+      <EntitySwitch.Case if={e => Boolean(isArgocdAvailable(e))}>
+        <Grid item sm={4}>
+          <EntityArgoCDOverviewCard />
+        </Grid>
+      </EntitySwitch.Case>
+    </EntitySwitch>
+
     <Grid item md={4} xs={12}>
       <EntityLinksCard />
     </Grid>
@@ -138,6 +146,11 @@ import { EntityGithubInsightsContent } from '@roadiehq/backstage-plugin-github-i
 import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-github-pull-requests';
 import { EntitySecurityInsightsContent } from '@roadiehq/backstage-plugin-security-insights';
 import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
+
+import {
+  EntityArgoCDOverviewCard,
+  isArgocdAvailable
+} from '@roadiehq/backstage-plugin-argo-cd';
 
 
 const serviceEntityPage = (
