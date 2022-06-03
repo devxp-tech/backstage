@@ -52,20 +52,7 @@ integrations:
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
-    #   token: ${GHE_TOKEN}
-
-# proxy:
-  # '/test':
-  #   target: 'https://example.com'
-  #   changeOrigin: true
-  # '/argocd/api':
-  #   target: https://argocd.diegoluisi.eti.br/api/v1/
-  #   changeOrigin: true
-  #   # only if your argocd api has self-signed cert
-  #   secure: true
-  #   headers:
-  #     Cookie:
-  #       $env: ARGOCD_AUTH_TOKEN    
+    #   token: ${GHE_TOKEN} 
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs

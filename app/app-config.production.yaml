@@ -80,6 +80,17 @@ integrations:
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
+
+proxy:
+  '/argocd/api':
+    target: https://argocd.diegoluisi.eti.br/api/v1/
+    changeOrigin: true
+    # only if your argocd api has self-signed cert
+    secure: true
+    headers:
+      Cookie:
+        $env: ARGOCD_AUTH_TOKEN
+
 techdocs:
   builder: 'local' # Alternatives - 'external'
   generator:
