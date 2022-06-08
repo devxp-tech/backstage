@@ -1,0 +1,39 @@
+version: "3.8"
+services:
+  app:
+    image: backstage:dev
+    build:
+      context: .
+      target: dev
+    command: sh -c 'yarn dev --config=app-config.yaml --config=app-config.production.yaml'
+    working_dir: /app/app
+    volumes:
+      - ./app:/app
+    ports:
+      - 7007:7007
+      - 3000:3000
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - PGDATABASE=backstage
+      - GITHUB_TOKEN=$GITHUB_TOKEN
+      - POSTGRES_DATABASE=backstage
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=backstage
+      - PGDATA=/var/lib/postgresql/data
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+
+volumes:
+  pgdata: {}
