@@ -68,7 +68,7 @@ function makeCreateEnv(config: Config) {
 }
 
 async function main() {
-  const kubernetesEnv = useHotMemoize(module, () => createEnv('kubernetes'));
+  
   const config = await loadBackendConfig({
     argv: process.argv,
     logger: getRootLogger(),
@@ -82,6 +82,7 @@ async function main() {
   const techdocsEnv = useHotMemoize(module, () => createEnv('techdocs'));
   const searchEnv = useHotMemoize(module, () => createEnv('search'));
   const appEnv = useHotMemoize(module, () => createEnv('app'));
+  const kubernetesEnv = useHotMemoize(module, () => createEnv('kubernetes'));
 
   const apiRouter = Router();
   apiRouter.use('/catalog', await catalog(catalogEnv));
@@ -91,7 +92,7 @@ async function main() {
   apiRouter.use('/proxy', await proxy(proxyEnv));
   apiRouter.use('/search', await search(searchEnv));
   apiRouter.use('/kubernetes', await kubernetes(kubernetesEnv));
-  
+
   // Add backends ABOVE this line; this 404 handler is the catch-all fallback
   apiRouter.use(notFoundHandler());
 
