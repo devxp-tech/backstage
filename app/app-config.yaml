@@ -61,7 +61,7 @@ kubernetes:
     - type: config
       clusters:
         - url: ${K8S_URL}
-          name: production
+          name: development
           authProvider: serviceAccount
           skipTLSVerify: true
           skipMetricsLookup: true
@@ -100,7 +100,7 @@ catalog:
         - Template
         - Resource
         - Location
-        
+
   locations:
     # Backstage example components
     - type: url
