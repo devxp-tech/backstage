@@ -43,6 +43,7 @@ jobs:
       - name: Build and push Docker image
         run: |
           cd app/
+          yarn add --cwd packages/app @backstage/plugin-sonarqube
           yarn install --frozen-lockfile
           yarn tsc
           yarn build
