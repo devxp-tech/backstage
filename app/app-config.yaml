@@ -78,12 +78,34 @@ techdocs:
   publisher:
     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
 
+proxy:
+  '/sonarqube':
+    target: https://sonar.diegoluisi.eti.br/api
+    allowedMethods: ['GET']
+    # note that the colon after the token is required
+    auth: '${SONARQUBE_TOKEN}:'
+    # Environmental variable: SONARQUBE_TOKEN
+    # Fetch the sonar-auth-token from https://sonarcloud.io/account/security/
+
+  '/argocd/api':
+    target: https://argocd.diegoluisi.eti.br/api/v1/
+    changeOrigin: true
+    # only if your argocd api has self-signed cert
+    secure: true
+    headers:
+      Cookie:
+        $env: ARGOCD_AUTH_TOKEN    
+
+sonarQube:
+  baseUrl: https://sonar.diegoluisi.eti.br
+
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
   providers: {}
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
+  defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'  
 
 catalog:
   import:

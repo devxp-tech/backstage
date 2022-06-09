@@ -121,6 +121,11 @@ const overviewContent = (
     <Grid item md={6}>
       <EntityAboutCard variant="gridItem" />
     </Grid>
+
+    <Grid item md={6}>
+      <EntitySonarQubeCard variant="gridItem" />
+    </Grid>
+
     <Grid item md={6} xs={12}>
       <EntityCatalogGraphCard variant="gridItem" height={400} />
     </Grid>
@@ -146,6 +151,7 @@ import { EntityGithubInsightsContent } from '@roadiehq/backstage-plugin-github-i
 import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-github-pull-requests';
 import { EntitySecurityInsightsContent } from '@roadiehq/backstage-plugin-security-insights';
 import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
+import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
 
 import {
   EntityArgoCDOverviewCard,

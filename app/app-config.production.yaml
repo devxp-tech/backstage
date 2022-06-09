@@ -60,13 +60,6 @@ backend:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
 
-scaffolder:
-  # see https://backstage.io/docs/features/software-templates/configuration for software template options
-  defaultAuthor:
-    name: devxp-bot # Defaults to `Scaffolder`
-    email: contato@diegoluisi.eti.br # Defaults to `scaffolder@backstage.io`
-  defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
-
 integrations:
   github:
     - host: github.com
@@ -80,16 +73,6 @@ integrations:
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
-
-proxy:
-  '/argocd/api':
-    target: https://argocd.diegoluisi.eti.br/api/v1/
-    changeOrigin: true
-    # only if your argocd api has self-signed cert
-    secure: true
-    headers:
-      Cookie:
-        $env: ARGOCD_AUTH_TOKEN
 
 techdocs:
   builder: 'local' # Alternatives - 'external'
