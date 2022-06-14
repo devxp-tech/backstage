@@ -37,6 +37,7 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { SignInPage } from '@backstage/core-components';
 
+// import { EntitySnykContent } from 'backstage-plugin-snyk';
 
 const app = createApp({
   apis,
@@ -116,6 +117,7 @@ const routes = (
       />} 
     />
     <Route path="/api-docs" element={<ApiExplorerPage />} />
+    
     <Route
       path="/tech-radar"
       element={<TechRadarPage width={1500} height={800} />}

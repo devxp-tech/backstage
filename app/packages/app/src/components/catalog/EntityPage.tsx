@@ -171,6 +171,10 @@ const serviceEntityPage = (
       {cicdContent}
     </EntityLayout.Route>
 
+    <EntityLayout.Route path="/kubernetes" title="Kubernetes">
+      <EntityKubernetesContent />
+    </EntityLayout.Route>
+
     <EntityLayout.Route 
       path="/code-insights"
       title="Code Insights">
@@ -187,10 +191,6 @@ const serviceEntityPage = (
       <EntitySecurityInsightsContent />
     </EntityLayout.Route>    
 
-    <EntityLayout.Route path="/kubernetes" title="Kubernetes">
-      <EntityKubernetesContent />
-    </EntityLayout.Route>
-
     <EntityLayout.Route path="/api" title="API">
       <Grid container spacing={3} alignItems="stretch">
         <Grid item md={6}>
@@ -200,6 +200,10 @@ const serviceEntityPage = (
           <EntityConsumedApisCard />
         </Grid>
       </Grid>
+    </EntityLayout.Route>
+
+    <EntityLayout.Route path="/todo" title="Todo">
+      <EntityTodoContent />
     </EntityLayout.Route>
 
     <EntityLayout.Route path="/dependencies" title="Dependencies">
@@ -213,13 +217,10 @@ const serviceEntityPage = (
       </Grid>
     </EntityLayout.Route>
 
-    <EntityLayout.Route path="/todo" title="Todo">
-      <EntityTodoContent />
-    </EntityLayout.Route>
-
     <EntityLayout.Route path="/docs" title="Docs">
       <EntityTechdocsContent />
     </EntityLayout.Route>
+
   </EntityLayout>
 );
 
