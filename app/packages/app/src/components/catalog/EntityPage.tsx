@@ -152,6 +152,8 @@ import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-gith
 import { EntitySecurityInsightsContent } from '@roadiehq/backstage-plugin-security-insights';
 import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
 import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
+import { EntityTodoContent } from '@backstage/plugin-todo';
+
 
 import {
   EntityArgoCDOverviewCard,
@@ -209,6 +211,10 @@ const serviceEntityPage = (
           <EntityDependsOnResourcesCard variant="gridItem" />
         </Grid>
       </Grid>
+    </EntityLayout.Route>
+
+    <EntityLayout.Route path="/todo" title="Todo">
+      <EntityTodoContent />
     </EntityLayout.Route>
 
     <EntityLayout.Route path="/docs" title="Docs">
