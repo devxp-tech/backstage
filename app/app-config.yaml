@@ -53,7 +53,7 @@ integrations:
     ### Example for how to add your GitHub Enterprise instance using the API:
     # - host: ghe.example.net
     #   apiBaseUrl: https://ghe.example.net/api/v3
-    #   token: ${GHE_TOKEN} 
+    #   token: ${GHE_TOKEN}
 
 kubernetes:
   serviceLocatorMethod:
@@ -66,7 +66,7 @@ kubernetes:
           authProvider: serviceAccount
           skipTLSVerify: true
           skipMetricsLookup: true
-          serviceAccountToken: ${K8S_TOKEN}    
+          serviceAccountToken: ${K8S_TOKEN}
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
@@ -95,7 +95,7 @@ proxy:
     secure: true
     headers:
       Cookie:
-        $env: ARGOCD_AUTH_TOKEN    
+        $env: ARGOCD_AUTH_TOKEN
 
 sonarQube:
   baseUrl: https://sonar.diegoluisi.eti.br
@@ -106,14 +106,14 @@ auth:
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
-  defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'  
+  defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
 
 catalog:
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
   rules:
-    - allow: 
+    - allow:
         - API
         - Component
         - Domain
@@ -127,6 +127,6 @@ catalog:
   locations:
     # Backstage example components
     - type: url
-      target: https://github.com/diegoluisi/backstage-catalog/blob/main/devxp/all.yaml
+      target: https://github.com/devxp-tech/backstage-catalog/blob/main/devxp/all.yaml
 
 
