@@ -6,10 +6,15 @@ metadata:
   tags:
     - backstage
     - idp
+  name: backstage
+  links:
+    - url: https://backstage.diegoluisi.eti.br
+      title: Backstage
+      icon: dashboard
   annotations:
-    github.com/project-slug: diegoluisi/backstage
-    backstage.io/techdocs-ref: value    
-    backstage.io/kubernetes-namespace: backstage    
+    github.com/project-slug: devxp-tech/backstage
+    backstage.io/techdocs-ref: value
+    backstage.io/kubernetes-namespace: backstage
 spec:
   type: system
   owner: group:sre-team
