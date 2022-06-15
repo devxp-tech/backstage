@@ -99,19 +99,19 @@ const routes = (
     <Route path="/create" element={<ScaffolderPage 
       groups={[
         {
-          title: "Infrastructure",
+          title: "Resources",
           filter: entity =>
-            entity?.metadata?.tags?.includes('infrastructure') ?? false,
+            entity?.metadata?.tags?.includes('resource') ?? false,
         },               
         {
-          title: "Website",
+          title: "Components",
           filter: entity =>
-            entity?.metadata?.tags?.includes('website') ?? false,
+            entity?.metadata?.tags?.includes('component') ?? false,
         },
         {
-          title: "Service",
+          title: "Systems",
           filter: entity =>
-            entity?.metadata?.tags?.includes('service') ?? false,
+            entity?.metadata?.tags?.includes('system') ?? false,
         },        
       ]}
       />} 
