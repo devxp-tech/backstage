@@ -116,7 +116,10 @@ auth:
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
-  defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
+  defaultAuthor:
+    name: ':robot: [backstage-bot]'
+    email: backstage@devxp-tech.io
+  # defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
 
 catalog:
   import:
