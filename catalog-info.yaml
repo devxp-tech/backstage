@@ -1,20 +1,27 @@
 apiVersion: backstage.io/v1alpha1
-kind: System
+kind: Component
 metadata:
-  name: backstage
-  description: Backstage
+  name: backstage-web
+  description: Backstage Frontend
+  annotations:
+    github.com/project-slug: devxp-tech/backstage
+    backstage.io/kubernetes-namespace: backstage
+    backstage.io/techdocs-ref: dir:.
+    argocd/app-name: prd-backstage
+    sonarqube.org/project-key: backstage
   tags:
-    - backstage
-    - idp
+    - web
+    - frontend
   links:
     - url: https://backstage.diegoluisi.eti.br
       title: Backstage
-      icon: dashboard
-  annotations:
-    github.com/project-slug: devxp-tech/backstage
-    backstage.io/techdocs-ref: value
-    backstage.io/kubernetes-namespace: backstage
+      icon: cloud
 spec:
-  type: system
+  type: service
+  lifecycle: production
   owner: group:sre-team
-  domain: idp
+  system: backstage
+  #dependsOn: ['component:bob-cache', 'component:bob-db', 'component:bob-queue']
+  apiConsumedBy: ['system:backstage']
+  providesApis:
+    - backstage
