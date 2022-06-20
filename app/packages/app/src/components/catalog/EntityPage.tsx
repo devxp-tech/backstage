@@ -138,6 +138,13 @@ const overviewContent = (
       </EntitySwitch.Case>
     </EntitySwitch>
 
+    <Grid item md={8}>
+      <EntityPrometheusAlertCard />
+    </Grid>
+    <Grid item md={6}>
+      <EntityPrometheusGraphCard />
+    </Grid>
+
     <Grid item md={4} xs={12}>
       <EntityLinksCard />
     </Grid>
@@ -160,6 +167,14 @@ import {
   isArgocdAvailable
 } from '@roadiehq/backstage-plugin-argo-cd';
 
+import {
+  EntityPrometheusContent,
+} from '@roadiehq/backstage-plugin-prometheus';
+
+import {
+  EntityPrometheusAlertCard,  
+  EntityPrometheusGraphCard,
+} from '@roadiehq/backstage-plugin-prometheus';
 
 const serviceEntityPage = (
   <EntityLayout>
@@ -173,6 +188,10 @@ const serviceEntityPage = (
 
     <EntityLayout.Route path="/kubernetes" title="Kubernetes">
       <EntityKubernetesContent />
+    </EntityLayout.Route>
+
+    <EntityLayout.Route path="/prometheus" title="Prometheus">
+      <EntityPrometheusContent />
     </EntityLayout.Route>
 
     <EntityLayout.Route 

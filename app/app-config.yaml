@@ -107,6 +107,12 @@ proxy:
       Cookie:
         $env: ARGOCD_AUTH_TOKEN
 
+proxy:
+  '/prometheus/api':
+    # url to the api and path of your hosted prometheus instance
+    target: http://prometheus-service.monitoring.svc.lgsk8sp1.grupologos.local:8080
+
+
 sonarQube:
   baseUrl: https://sonar.diegoluisi.eti.br
 
