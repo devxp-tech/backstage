@@ -11,9 +11,11 @@ metadata:
     sonarqube.org/project-key: backstage
     grafana/tag-selector: backstage
     prometheus.io/rule: devxp-tech-alerts
+    prometheus.io/alert: High Pod Memory
   tags:
     - web
     - frontend
+    - backstage
   links:
     - url: https://backstage.diegoluisi.eti.br
       title: Backstage
