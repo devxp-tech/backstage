@@ -118,6 +118,6 @@ jobs:
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK }}
           # Optional Input
           channel: 'github-notifications'
-          name: 'slack-notifications'
-          icon_emoji: ':poop:'
+          name: 'github-notifications'
+          # icon_emoji: ':poop:'
           icon_url: '${{ secrets.SLACK_ICON }}'
