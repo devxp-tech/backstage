@@ -138,6 +138,12 @@ const overviewContent = (
       </EntitySwitch.Case>
     </EntitySwitch>
 
+    <Grid item md={6}>
+      {/* Grafana alert card start */}
+      <EntityGrafanaDashboardsCard />
+      {/* Grafana alert card end */}
+    </Grid>
+
     <Grid item md={8}>
       <EntityPrometheusAlertCard />
     </Grid>
@@ -166,6 +172,10 @@ import {
   EntityArgoCDOverviewCard,
   isArgocdAvailable
 } from '@roadiehq/backstage-plugin-argo-cd';
+
+import {
+  EntityGrafanaDashboardsCard,
+} from '@k-phoen/backstage-plugin-grafana';
 
 import {
   EntityPrometheusContent,
