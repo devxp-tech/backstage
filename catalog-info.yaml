@@ -10,6 +10,7 @@ metadata:
     argocd/app-name: prd-backstage
     sonarqube.org/project-key: backstage
     grafana/tag-selector: backstage
+    prometheus.io/rule: devxp-tech-alerts
   tags:
     - web
     - frontend
