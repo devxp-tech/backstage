@@ -98,3 +98,14 @@ jobs:
 
     - name: Push changes
       run: git push
+
+  slack-notification:
+    name: Slack Notification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_ICON: ${{ secrets.SLACK_ICON }}
