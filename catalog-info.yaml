@@ -9,7 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     argocd/app-name: prd-backstage
     sonarqube.org/project-key: backstage
-    grafana/tag-selector: backstage
+    grafana/tag-selector: kubernetes
     prometheus.io/rule: devxp-tech-alerts
     prometheus.io/alert: High Pod Memory
   tags:
