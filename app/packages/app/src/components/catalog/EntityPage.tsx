@@ -178,6 +178,10 @@ import {
 } from '@k-phoen/backstage-plugin-grafana';
 
 import {
+  EntityGrafanaAlertsCard,
+} from '@k-phoen/backstage-plugin-grafana';
+
+import {
   EntityPrometheusContent,
 } from '@roadiehq/backstage-plugin-prometheus';
 
@@ -203,6 +207,12 @@ const serviceEntityPage = (
     <EntityLayout.Route path="/prometheus" title="Prometheus">
       <EntityPrometheusContent />
     </EntityLayout.Route>
+
+    <Grid item md={6}>
+      {/* Grafana alert card start */}
+      <EntityGrafanaAlertsCard />
+      {/* Grafana alert card end */}
+    </Grid>
 
     <EntityLayout.Route 
       path="/code-insights"
