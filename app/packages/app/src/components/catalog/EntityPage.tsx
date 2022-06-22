@@ -165,6 +165,7 @@ const overviewContent = (
     {/* <Grid item md={6}>
       <EntityPrometheusGraphCard />
     </Grid> */}
+
   </Grid>
 );
 
@@ -193,10 +194,10 @@ import {
   EntityPrometheusContent,
 } from '@roadiehq/backstage-plugin-prometheus';
 
-import {
-  EntityPrometheusAlertCard,  
-  EntityPrometheusGraphCard,
-} from '@roadiehq/backstage-plugin-prometheus';
+// import {
+//   EntityPrometheusAlertCard,  
+//   EntityPrometheusGraphCard,
+// } from '@roadiehq/backstage-plugin-prometheus';
 
 const serviceEntityPage = (
   <EntityLayout>
