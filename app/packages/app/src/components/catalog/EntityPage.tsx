@@ -158,13 +158,13 @@ const overviewContent = (
       {/* Grafana alert card end */}
     </Grid>
 
-    <Grid item md={6}>
+    <Grid item md={12}>
       <EntityPrometheusAlertCard />
     </Grid>
 
-    <Grid item md={6}>
+    {/* <Grid item md={6}>
       <EntityPrometheusGraphCard />
-    </Grid>
+    </Grid> */}
   </Grid>
 );
 
