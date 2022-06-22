@@ -144,6 +144,12 @@ const overviewContent = (
       {/* Grafana alert card end */}
     </Grid>
 
+    <Grid item md={6}>
+      {/* Grafana alert card start */}
+      <EntityGrafanaAlertsCard />
+      {/* Grafana alert card end */}
+    </Grid>
+
     <Grid item md={8}>
       <EntityPrometheusAlertCard />
     </Grid>
@@ -207,12 +213,6 @@ const serviceEntityPage = (
     <EntityLayout.Route path="/ci-cd" title="CI/CD">
       {cicdContent}
     </EntityLayout.Route>
-
-    <Grid item md={6}>
-      {/* Grafana alert card start */}
-      <EntityGrafanaAlertsCard />
-      {/* Grafana alert card end */}
-    </Grid>
 
     <EntityLayout.Route 
       path="/code-insights"
