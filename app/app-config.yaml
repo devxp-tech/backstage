@@ -108,13 +108,13 @@ proxy:
         $env: ARGOCD_AUTH_TOKEN
   '/grafana/api':
     # May be an internal DNS
-    target: https://grafana.diegoluisi.eti.br/
+    target: http://grafana.monitoring.svc:3000/
     headers:
       Authorization: Bearer ${GRAFANA_TOKEN}
 
   '/prometheus/api':
     # url to the api and path of your hosted prometheus instance
-    target: http://prometheus-service.monitoring.svc.lgsk8sp1.grupologos.local:8080/api/v1/
+    target: http://prometheus.monitoring.svc:9090/api/v1/
 
 
 sonarQube:
