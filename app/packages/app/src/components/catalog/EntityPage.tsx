@@ -191,6 +191,7 @@ import {
 } from '@k-phoen/backstage-plugin-grafana';
 
 import {
+  EntityPrometheusAlertCard,
   EntityPrometheusContent,
 } from '@roadiehq/backstage-plugin-prometheus';
 
