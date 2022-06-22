@@ -130,17 +130,17 @@ const overviewContent = (
       <EntityCatalogGraphCard variant="gridItem" height={400} />
     </Grid>
 
-    <Grid item md={4} xs={12}>
+    <Grid item md={6} xs={12}>
       <EntityLinksCard />
     </Grid>
 
-    <Grid item md={8} xs={12}>
+    <Grid item md={6} xs={12}>
       <EntityHasSubcomponentsCard variant="gridItem" />
     </Grid>
 
     <EntitySwitch>
       <EntitySwitch.Case if={e => Boolean(isArgocdAvailable(e))}>
-        <Grid item sm={4}>
+        <Grid item sm={6}>
           <EntityArgoCDOverviewCard />
         </Grid>
       </EntitySwitch.Case>
@@ -158,9 +158,10 @@ const overviewContent = (
       {/* Grafana alert card end */}
     </Grid>
 
-    <Grid item md={8}>
+    <Grid item md={6}>
       <EntityPrometheusAlertCard />
     </Grid>
+
     <Grid item md={6}>
       <EntityPrometheusGraphCard />
     </Grid>
