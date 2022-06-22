@@ -130,6 +130,14 @@ const overviewContent = (
       <EntityCatalogGraphCard variant="gridItem" height={400} />
     </Grid>
 
+    <Grid item md={4} xs={12}>
+      <EntityLinksCard />
+    </Grid>
+
+    <Grid item md={8} xs={12}>
+      <EntityHasSubcomponentsCard variant="gridItem" />
+    </Grid>
+
     <EntitySwitch>
       <EntitySwitch.Case if={e => Boolean(isArgocdAvailable(e))}>
         <Grid item sm={4}>
@@ -155,13 +163,6 @@ const overviewContent = (
     </Grid>
     <Grid item md={6}>
       <EntityPrometheusGraphCard />
-    </Grid>
-
-    <Grid item md={4} xs={12}>
-      <EntityLinksCard />
-    </Grid>
-    <Grid item md={8} xs={12}>
-      <EntityHasSubcomponentsCard variant="gridItem" />
     </Grid>
   </Grid>
 );
