@@ -2,20 +2,6 @@ app:
   title: DevXP Technologies
   baseUrl: https://backstage.diegoluisi.eti.br
 
-  support:
-    url: https://github.com/backstage/backstage/issues # Used by common ErrorPage
-    items: # Used by common SupportButton component
-      - title: Issues
-        icon: github
-        links:
-          - url: https://github.com/devxp-tech/backstage/issues
-            title: GitHub Issues
-      - title: Discord Chatroom
-        icon: chat
-        links:
-          - url: https://discord.gg/MUpMjP2
-            title: '#backstage'
-
 backend:
   # Note that the baseUrl should be the URL that the browser and other clients
   # should use when communicating with the backend, i.e. it needs to be

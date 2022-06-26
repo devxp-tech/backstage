@@ -158,14 +158,6 @@ const overviewContent = (
       {/* Grafana alert card end */}
     </Grid>
 
-    {/* <Grid item md={12}>
-      <EntityPrometheusAlertCard />
-    </Grid> */}
-
-    {/* <Grid item md={6}>
-      <EntityPrometheusGraphCard />
-    </Grid> */}
-
   </Grid>
 );
 
@@ -194,11 +186,6 @@ import {
   // EntityPrometheusAlertCard,
   EntityPrometheusContent,
 } from '@roadiehq/backstage-plugin-prometheus';
-
-// import {
-//   EntityPrometheusAlertCard,  
-//   EntityPrometheusGraphCard,
-// } from '@roadiehq/backstage-plugin-prometheus';
 
 const serviceEntityPage = (
   <EntityLayout>
