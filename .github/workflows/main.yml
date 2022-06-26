@@ -80,7 +80,7 @@ jobs:
         kustomize-version: "3.9.4"
 
     - name: Clone Argo Repository
-      run: git clone https://${REPO_TOKEN}@github.com/diegoluisi/argo.git .
+      run: git clone https://${REPO_TOKEN}@github.com/devxp-tech/gitops.git .
       env:
         REPO_TOKEN: ${{secrets.ACCESS_TOKEN_GITHUB}}
 
@@ -95,7 +95,7 @@ jobs:
         git add .
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit -m ":robot: [GitHub Action] Set new image tag to https://github.com/diegoluisi/backstage/commit/${{ needs.vars.outputs.tag }}"
+        git commit -m ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
 
     - name: Push changes
       run: git push
