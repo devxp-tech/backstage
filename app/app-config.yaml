@@ -99,13 +99,14 @@ proxy:
     # Fetch the sonar-auth-token from https://sonarcloud.io/account/security/
 
   '/argocd/api':
-    target: https://argocd.diegoluisi.eti.br/api/v1/
+    target: http://argocd-server.argocd.svc/api/v1/
     changeOrigin: true
     # only if your argocd api has self-signed cert
     secure: true
     headers:
       Cookie:
         $env: ARGOCD_AUTH_TOKEN
+
   '/grafana/api':
     # May be an internal DNS
     target: http://grafana.monitoring.svc:3000/
