@@ -91,7 +91,7 @@ techdocs:
 
 proxy:
   '/sonarqube':
-    target: https://sonar.diegoluisi.eti.br/api
+    target: http://sonar.sonar.svc/api
     allowedMethods: ['GET']
     # note that the colon after the token is required
     auth: '${SONARQUBE_TOKEN}:'
