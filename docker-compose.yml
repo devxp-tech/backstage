@@ -5,21 +5,27 @@ services:
     build:
       context: .
       target: dev
-    command: sh -c 'yarn dev --config=app-config.yaml --config=app-config.production.yaml'
+    command: sh -c 'yarn dev'
     working_dir: /app/app
+    hostname: backstage.local
     volumes:
       - ./app:/app
     ports:
       - 7007:7007
       - 3000:3000
     environment:
+      - ENV=development
       - POSTGRES_HOST=postgres
       - POSTGRES_PORT=5432
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - PGDATABASE=backstage
-      - GITHUB_TOKEN=$GITHUB_TOKEN
+      - GITHUB_ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN
+      - AUTH_GITHUB_CLIENT_ID=$AUTH_GITHUB_CLIENT_ID
+      - AUTH_GITHUB_CLIENT_SECRET=$AUTH_GITHUB_CLIENT_SECRET
       - POSTGRES_DATABASE=backstage
+      - CIRCLECI_AUTH_TOKEN=$CIRCLECI_AUTH_TOKEN
+      - SONARQUBE_TOKEN=$SONARQUBE_TOKEN
     depends_on:
       - postgres
 
