@@ -37,6 +37,9 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { SignInPage } from '@backstage/core-components';
 
+import { SearchPage } from '@backstage/plugin-search';
+import { searchPage } from './components/search/SearchPage';
+
 // import { EntitySnykContent } from 'backstage-plugin-snyk';
 
 const app = createApp({
@@ -96,6 +99,13 @@ const routes = (
         <ReportIssue />
       </TechDocsAddons>
     </Route>
+
+    <FlatRoutes>
+    <Route path="/search" element={<SearchPage />}>
+      {searchPage}
+    </Route>
+  </FlatRoutes>
+
     <Route path="/create" element={<ScaffolderPage 
       groups={[
         {
