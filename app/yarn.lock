@@ -2703,6 +2703,23 @@
     "@backstage/plugin-permission-common" "^0.6.3"
     "@backstage/types" "^1.0.0"
 
+"@backstage/plugin-search-react@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.0.0.tgz#57658f5cca9122402b5ad22097396468b6be51a8"
+  integrity sha512-ZVh3E7dbaXm2I2PBkqQnRloXmska9lDtGpEIQNT5G8hNzOWRJjjvZJ4/U3bn/YlC2EU3qKwdESIvdo1ey5R+1Q==
+  dependencies:
+    "@backstage/core-components" "^0.10.0"
+    "@backstage/core-plugin-api" "^1.0.4"
+    "@backstage/plugin-search-common" "^1.0.0"
+    "@backstage/theme" "^0.2.16"
+    "@backstage/types" "^1.0.0"
+    "@backstage/version-bridge" "^1.0.1"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    react-router "6.0.0-beta.0"
+    react-use "^17.3.2"
+
 "@backstage/plugin-search-react@^1.0.1-next.0":
   version "1.0.1-next.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.0.1-next.0.tgz#50dc473cd0d6ae09c5e6b72ac51734681e474db3"
@@ -2719,6 +2736,30 @@
     "@material-ui/lab" "4.0.0-alpha.57"
     react-router "6.0.0-beta.0"
     react-use "^17.3.2"
+
+"@backstage/plugin-search@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.0.0.tgz#88f63ef60f7b318bb72d33585aa6c5be59fc6c79"
+  integrity sha512-8BBrAkQyFU3FCuMX70WMVsZmqJHdEiTAU0S9rQVdVWSgQY0H3FolHO5yAPW1Yu9Uxk1GwCPLq0bqgFQl/i1LxQ==
+  dependencies:
+    "@backstage/catalog-model" "^1.1.0"
+    "@backstage/config" "^1.0.1"
+    "@backstage/core-components" "^0.10.0"
+    "@backstage/core-plugin-api" "^1.0.4"
+    "@backstage/errors" "^1.1.0"
+    "@backstage/plugin-catalog-react" "^1.1.2"
+    "@backstage/plugin-search-common" "^1.0.0"
+    "@backstage/plugin-search-react" "^1.0.0"
+    "@backstage/theme" "^0.2.16"
+    "@backstage/types" "^1.0.0"
+    "@backstage/version-bridge" "^1.0.1"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    qs "^6.9.4"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+    react-use "^17.2.4"
 
 "@backstage/plugin-search@^1.0.1-next.0":
   version "1.0.1-next.0"
@@ -6191,7 +6232,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
+"@types/react-dom@*", "@types/react-dom@<18.0.0":
   version "17.0.17"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.17.tgz#2e3743277a793a96a99f1bf87614598289da68a1"
   integrity sha512-VjnqEmqGnasQKV0CWLevqMTXBYG9GbwuE6x3VetERLh0cq2LTptFE73MrQi2S7GkKXCf2GgwItB/melLnxfnsg==
