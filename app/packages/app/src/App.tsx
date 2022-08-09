@@ -12,7 +12,7 @@ import {
 } from '@backstage/plugin-catalog-import';
 import { ScaffolderPage, scaffolderPlugin } from '@backstage/plugin-scaffolder';
 import { orgPlugin } from '@backstage/plugin-org';
-// import { SearchPage } from '@backstage/plugin-search';
+import { SearchPage } from '@backstage/plugin-search';
 import { TechRadarPage } from '@backstage/plugin-tech-radar';
 import {
   TechDocsIndexPage,
@@ -24,7 +24,7 @@ import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
 import { UserSettingsPage } from '@backstage/plugin-user-settings';
 import { apis } from './apis';
 import { entityPage } from './components/catalog/EntityPage';
-// import { searchPage } from './components/search/SearchPage';
+import { searchPage } from './components/search/SearchPage';
 import { Root } from './components/Root';
 
 import { AlertDisplay, OAuthRequestDialog } from '@backstage/core-components';
@@ -36,9 +36,6 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { SignInPage } from '@backstage/core-components';
-
-import { SearchPage } from '@backstage/plugin-search';
-import { searchPage } from './components/search/SearchPage';
 
 // import { EntitySnykContent } from 'backstage-plugin-snyk';
 
@@ -99,12 +96,6 @@ const routes = (
         <ReportIssue />
       </TechDocsAddons>
     </Route>
-
-    <FlatRoutes>
-    <Route path="/search" element={<SearchPage />}>
-      {searchPage}
-    </Route>
-  </FlatRoutes>
 
     <Route path="/create" element={<ScaffolderPage 
       groups={[
