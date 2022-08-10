@@ -57,6 +57,7 @@ jobs:
       - name: Build and push Docker image
         run: |
           cd app/
+          yarn add --cwd packages/app @backstage/plugin-kubernetes @backstage/plugin-search @backstage/plugin-search-react @backstage/plugin-catalog
           yarn install --frozen-lockfile
           yarn tsc
           yarn build
