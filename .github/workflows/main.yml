@@ -83,32 +83,32 @@ jobs:
       with:
         kustomize-version: "3.9.4"
 
-    - name: Git Checkout 🛎️
-      uses: actions/checkout@v3
-      with:
-        repository: 'devxp-tech/gitops'
+    # - name: Git Checkout 🛎️
+    #   uses: actions/checkout@v3
+    #   with:
+    #     repository: 'devxp-tech/gitops'
 
     - name: Git Setup 🔨
       run: |
         git config user.name "$GITHUB_ACTOR"
         git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+        git clone https://${{ secrets.ACCESS_TOKEN_GITHUB }}@github.com/devxp-tech/gitops
 
     - name: Update Backstage Tag Image ✨
       run: |
-        cd apps/backstage/overlays/prd
+        cd gitops/apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
-    - name: Commit Changes 🛠️
+    - name: Commit and Push 🚀
       run: |
-        git config user.name "$GITHUB_ACTOR"
-        git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
         git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
+        git push
 
-    - name: Push changes 🚀
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.ACCESS_TOKEN_GITHUB }}
-        repository: devxp-tech/gitops
+    # - name: Push changes 🚀
+    #   uses: ad-m/github-push-action@master
+    #   with:
+    #     github_token: ${{ secrets.ACCESS_TOKEN_GITHUB }}
+    #     repository: devxp-tech/gitops
 
 
   slack-workflow-status:
