@@ -90,14 +90,14 @@ jobs:
 
     - name: Git Setup 🔨
       run: |
+        git clone https://${{ secrets.ACCESS_TOKEN_GITHUB }}@github.com/devxp-tech/gitops
         cd gitops
         git config user.name "$GITHUB_ACTOR"
         git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
-        git clone https://${{ secrets.ACCESS_TOKEN_GITHUB }}@github.com/devxp-tech/gitops
 
     - name: Update Backstage Tag Image ✨
       run: |
-        cd gitops/apps/backstage/overlays/prd
+        cd apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
     - name: Commit and Push 🚀
