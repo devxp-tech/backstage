@@ -82,7 +82,7 @@ jobs:
     - name: Clone Argo Repository
       run: git clone https://${REPO_TOKEN}@github.com/devxp-tech/gitops.git .
       env:
-        REPO_TOKEN: ${{secrets.ACCESS_TOKEN_GITHUB}}
+        REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
     - name: Update Backstage Tag Image
       run: |
@@ -96,15 +96,11 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git commit -m ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
-
-    - name: Push changes
-      run: git push
-      env:
-        REPO_TOKEN: ${{secrets.ACCESS_TOKEN_GITHUB}}
+        git push
 
   slack-workflow-status:
     if: always()
-    name: Post Workflow Status To Slack
+    name: Post Workflow Status To Slack  📣
     needs:
       - vars
       - sonarqube
@@ -116,7 +112,7 @@ jobs:
         uses: Gamesight/slack-workflow-status@master
         with:
           # Required Input
-          repo_token: ${{secrets.ACCESS_TOKEN_GITHUB}}
+          repo_token: ${{secrets.GITHUB_TOKEN}}
           slack_webhook_url: ${{ secrets.SLACK_WEBHOOK }}
           # Optional Input
           channel: 'github-notifications'
