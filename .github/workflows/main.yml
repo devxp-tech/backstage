@@ -54,7 +54,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push Docker image 📦
+      - name: Build and Push Docker 🚀
         run: |
           cd app/
           yarn add --cwd packages/app @backstage/plugin-kubernetes @backstage/plugin-search @backstage/plugin-search-react @backstage/plugin-catalog
@@ -94,17 +94,16 @@ jobs:
         cd apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
-
     - name: Commit Changes 🚀
       run: |
-        echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
+        echo ${{ secrets.ACCESS_TOKEN_GITHUB }} | gh auth login --with-token
         git add .
         git commit -m ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
         git push
 
   slack-workflow-status:
     if: always()
-    name: Post Workflow Status To Slack  📣
+    name: Post Status To Slack  📣
     needs:
       - vars
       - sonarqube
