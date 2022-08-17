@@ -79,17 +79,24 @@ jobs:
       with:
         kustomize-version: "3.9.4"
 
-    - name: Clone Argo Repository
-      run: git clone https://${REPO_TOKEN}@github.com/devxp-tech/gitops.git .
-      env:
-        REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Git Checkout
+      uses: actions/checkout@v3
+      with:
+        # Repository name with owner. For example, actions/checkout
+        # Default: ${{ github.repository }}
+        repository: 'devxp-tech/gitops'
 
-    - name: Update Backstage Tag Image
+    # - name: Clone Argo Repository
+    #   run: git clone https://${REPO_TOKEN}@github.com/devxp-tech/gitops.git .
+    #   env:
+    #     REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+    - name: Update Backstage Tag Image ✨
       run: |
         cd apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
-    - name: Commit Changes
+    - name: Commit Changes 📦
       run: |
         git version
         git add .
