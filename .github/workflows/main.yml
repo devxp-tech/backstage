@@ -93,12 +93,17 @@ jobs:
         cd apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
-    - name: Commit Changes 🚀
+    - name: Commit Changes 🛠️
       run: |
-        echo ${{ secrets.ACCESS_TOKEN_GITHUB }} | gh auth login --with-token
         git add .
-        git commit -m ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
-        git push
+        git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
+
+    - name: Push changes 🚀
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
+
 
   slack-workflow-status:
     if: always()
