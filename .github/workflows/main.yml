@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   vars:
-    name: Setup environment variables 🛠️
+    name: Setup Environment 🛠️
     runs-on: ubuntu-latest
     outputs:
       tag: ${{ steps.vars.outputs.tag }}
@@ -90,6 +90,7 @@ jobs:
 
     - name: Git Setup 🔨
       run: |
+        cd gitops
         git config user.name "$GITHUB_ACTOR"
         git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
         git clone https://${{ secrets.ACCESS_TOKEN_GITHUB }}@github.com/devxp-tech/gitops
