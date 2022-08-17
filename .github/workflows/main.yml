@@ -32,7 +32,7 @@ jobs:
       - vars
     steps:
     - uses: actions/checkout@master
-    - name: SonarQube Scan
+    - name: SonarQube Scan 🔍
       uses: kitabisa/sonarqube-action@v1.2.0
       with:
         host: ${{ secrets.SONARQUBE_HOST }}
@@ -48,7 +48,7 @@ jobs:
       - name: Check out the repo 🛠️
         uses: actions/checkout@v3
 
-      - name: Log in to Docker Hub 🛠️
+      - name: Log in to Docker Hub 🪪
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
@@ -65,7 +65,7 @@ jobs:
           docker push diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
   deploy:
-    name: GitOps Deploy 📦
+    name: GitOps Deploy 🏗️
 
     runs-on: ubuntu-latest
     needs:
@@ -79,29 +79,26 @@ jobs:
       with:
         kustomize-version: "3.9.4"
 
-    - name: Git Checkout 🛠️
+    - name: Git Checkout 🛎️
       uses: actions/checkout@v3
       with:
-        # Repository name with owner. For example, actions/checkout
-        # Default: ${{ github.repository }}
         repository: 'devxp-tech/gitops'
 
-    # - name: Clone Argo Repository
-    #   run: git clone https://${REPO_TOKEN}@github.com/devxp-tech/gitops.git .
-    #   env:
-    #     REPO_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    - name: Git Setup 🔨
+      run: |
+        git config user.name "$GITHUB_ACTOR"
+        git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
     - name: Update Backstage Tag Image ✨
       run: |
         cd apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
-    - name: Commit Changes 📦
+
+    - name: Commit Changes 🚀
       run: |
-        git version
+        echo ${{ secrets.GITHUB_TOKEN }} | gh auth login --with-token
         git add .
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
         git commit -m ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
         git push
 
