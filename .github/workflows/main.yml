@@ -97,11 +97,12 @@ jobs:
 
     - name: Update Backstage Tag Image ✨
       run: |
-        cd apps/backstage/overlays/prd
+        cd gitops/apps/backstage/overlays/prd
         kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
     - name: Commit and Push 🚀
       run: |
+        cd gitops/
         git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
         git push
 
