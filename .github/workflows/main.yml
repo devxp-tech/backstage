@@ -99,6 +99,8 @@ jobs:
 
     - name: Push changes
       run: git push
+      env:
+        REPO_TOKEN: ${{secrets.ACCESS_TOKEN_GITHUB}}
 
   slack-workflow-status:
     if: always()
