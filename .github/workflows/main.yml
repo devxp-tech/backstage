@@ -11,7 +11,7 @@ on:
 
 jobs:
   vars:
-    name: Setup environment variables
+    name: Setup environment variables 🛠️
     runs-on: ubuntu-latest
     outputs:
       tag: ${{ steps.vars.outputs.tag }}
@@ -26,7 +26,7 @@ jobs:
       - run: echo "${{ steps.vars.outputs.tag }}"
 
   sonarqube:
-    name: SonarQube Scan
+    name: SonarQube Scan 🔍
     runs-on: ubuntu-latest
     needs:
       - vars
@@ -39,22 +39,22 @@ jobs:
         login: ${{ secrets.SONARQUBE_TOKEN }}
 
   build-and-push:
-    name: Push Docker image to Docker Hub
+    name: Push Docker image to Docker Hub 📦
     runs-on: ubuntu-latest
     needs:
       - vars
       - sonarqube
     steps:
-      - name: Check out the repo
+      - name: Check out the repo 🛠️
         uses: actions/checkout@v3
 
-      - name: Log in to Docker Hub
+      - name: Log in to Docker Hub 🛠️
         uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build and push Docker image
+      - name: Build and push Docker image 📦
         run: |
           cd app/
           yarn add --cwd packages/app @backstage/plugin-kubernetes @backstage/plugin-search @backstage/plugin-search-react @backstage/plugin-catalog
@@ -65,7 +65,7 @@ jobs:
           docker push diegoluisi/backstage:${{ needs.vars.outputs.tag }}
 
   deploy:
-    name: GitOps Deploy
+    name: GitOps Deploy 📦
 
     runs-on: ubuntu-latest
     needs:
@@ -74,12 +74,12 @@ jobs:
       - build-and-push
 
     steps:
-    - name: Set Kustomize
+    - name: Set Kustomize 🛠️
       uses: imranismail/setup-kustomize@v1
       with:
         kustomize-version: "3.9.4"
 
-    - name: Git Checkout
+    - name: Git Checkout 🛠️
       uses: actions/checkout@v3
       with:
         # Repository name with owner. For example, actions/checkout
