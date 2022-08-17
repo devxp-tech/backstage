@@ -95,14 +95,15 @@ jobs:
 
     - name: Commit Changes 🛠️
       run: |
-        git add .
+        git config user.name "$GITHUB_ACTOR"
+        git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
         git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
 
     - name: Push changes 🚀
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+        repository: devxp-tech/gitops
 
 
   slack-workflow-status:
