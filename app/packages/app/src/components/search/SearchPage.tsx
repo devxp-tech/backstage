@@ -7,7 +7,7 @@ import {
   DefaultResultListItem,
   SearchFilter,
 } from '@backstage/plugin-search-react';
-import { CatalogSearchResultListItem } from '@backstage/plugin-catalog';
+// import { CatalogSearchResultListItem } from '@backstage/plugin-catalog';
 
 export const searchPage = (
   <Page themeId="home">
@@ -40,13 +40,13 @@ export const searchPage = (
                 {results.map(result => {
                   switch (result.type) {
                     case 'software-catalog':
-                      return (
-                        <CatalogResultListItem
-                          key={result.document.location}
-                          result={result.document}
-                          highlight={result.highlight}
-                        />
-                      );
+                      // return (
+                      //   <CatalogResultListItem
+                      //     key={result.document.location}
+                      //     result={result.document}
+                      //     highlight={result.highlight}
+                      //   />
+                      // );
                     default:
                       return (
                         <DefaultResultListItem

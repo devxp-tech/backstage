@@ -2024,7 +2024,11 @@
     react-router "6.0.0-beta.0"
     react-use "^17.2.4"
 
+<<<<<<< HEAD
 "@backstage/plugin-kubernetes-backend@^0.7.0":
+=======
+"@backstage/plugin-kubernetes-backend@^0.7.1":
+>>>>>>> f6ccff3e9bf64f19391a361ebaab9847d5ca2a59
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.7.1.tgz#82f4187ffb6d832ce3e3d4fbd5a1110921c60f2b"
   integrity sha512-ujMSmjPBiHq7wqChSVVx+UmNA76RLKjSX/ABidZ/Zh1HrAt9oAU62rbkAo3Lc28zhlly4N3PtOqEr9HTHrcLeg==
@@ -2064,7 +2068,11 @@
     "@backstage/catalog-model" "^1.1.0"
     "@kubernetes/client-node" "^0.17.0"
 
+<<<<<<< HEAD
 "@backstage/plugin-kubernetes@^0.7.0":
+=======
+"@backstage/plugin-kubernetes@^0.7.1":
+>>>>>>> f6ccff3e9bf64f19391a361ebaab9847d5ca2a59
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.7.1.tgz#7fe4981980fb59ccd15ec88475ab3bc17ab45d9e"
   integrity sha512-ME7X34D0DNkX9RLo9uL6rAwoz+vwZbYosrz++jfjODrLzWJnfNwiXfjJJIpJwXIiG4we0sgv+IZ8Cxgcbe1EWg==
@@ -2166,9 +2174,15 @@
     yup "^0.32.9"
 
 "@backstage/plugin-scaffolder-backend@^1.4.0":
+<<<<<<< HEAD
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.5.1.tgz#7654deda463563ef7ec59b6c9cbb2b558777500c"
   integrity sha512-XcKFVk8yKn4FRPZeM1VqNIfuHmh79+wKmJtCr70ZwuNFa+fIYCpchp35s1QMqJKkTDpWOSP8FegpWNUlAe6zeA==
+=======
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.5.0.tgz#15372a690c3c9e0897896ea073788b0546a724e6"
+  integrity sha512-e86cfOAzySMWxMKbn0YYOdRhW3Y/N5BIyyAJpbK4FpmLDUMMaDIInN3HRwUY7M/s5hacPnsVTtUW9TgH/Nd5ZA==
+>>>>>>> f6ccff3e9bf64f19391a361ebaab9847d5ca2a59
   dependencies:
     "@backstage/backend-common" "^0.15.0"
     "@backstage/backend-plugin-api" "^0.1.1"
@@ -6536,7 +6550,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/plugin-catalog-import" "^0.8.10"
     "@backstage/plugin-catalog-react" "^1.1.2"
     "@backstage/plugin-github-actions" "^0.5.7"
-    "@backstage/plugin-kubernetes" "^0.7.0"
+    "@backstage/plugin-kubernetes" "^0.7.1"
     "@backstage/plugin-org" "^0.5.7"
     "@backstage/plugin-permission-react" "^0.4.3"
     "@backstage/plugin-scaffolder" "^1.4.0"
