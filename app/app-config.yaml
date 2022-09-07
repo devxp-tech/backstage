@@ -109,7 +109,7 @@ proxy:
 
   '/grafana/api':
     # May be an internal DNS
-    target: http://grafana.monitoring.svc:3000/
+    target: http://grafana.monitoring.svc/
     headers:
       Authorization: Bearer ${GRAFANA_TOKEN}
 
