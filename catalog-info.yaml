@@ -9,7 +9,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     argocd/app-name: prd-backstage
     sonarqube.org/project-key: backstage
-    grafana/tag-selector: "kubernetes"
+    grafana/tag-selector: "Kubernetes"
     prometheus.io/rule: 'sum by (backstage)(changes(kube_pod_status_ready{condition="true"}[5m]))'
     prometheus.io/alert: all
   tags:
