@@ -115,7 +115,7 @@ proxy:
 
   '/prometheus/api':
     # url to the api and path of your hosted prometheus instance
-    target: http://prometheus.monitoring.svc:9090/api/v1/
+    target: http://prometheus-server.monitoring.svc/api/v1/
 
 
 sonarQube:
