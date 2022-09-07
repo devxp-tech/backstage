@@ -48,7 +48,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - vars
-      - sonarqube
+      # - sonarqube
     steps:
       - name: Check out the repo 🛠️
         uses: actions/checkout@v3
@@ -74,7 +74,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - vars
-      - sonarqube
+      # - sonarqube
       - build-and-push
 
     steps:
@@ -118,7 +118,7 @@ jobs:
     name: Post Status To Slack  📣
     needs:
       - vars
-      - sonarqube
+      # - sonarqube
       - build-and-push
       - deploy
     runs-on: ubuntu-latest
