@@ -89,14 +89,14 @@ techdocs:
 #         accessKeyId: ${AWS_ACCESS_KEY_ID}
 #         secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
 
-proxy:
-  '/sonarqube':
-    target: http://sonar.sonar.svc/api
-    allowedMethods: ['GET']
-    # note that the colon after the token is required
-    auth: '${SONARQUBE_TOKEN}:'
-    # Environmental variable: SONARQUBE_TOKEN
-    # Fetch the sonar-auth-token from https://sonarcloud.io/account/security/
+# proxy:
+#   '/sonarqube':
+#     target: http://sonar.sonar.svc/api
+#     allowedMethods: ['GET']
+#     # note that the colon after the token is required
+#     auth: '${SONARQUBE_TOKEN}:'
+#     # Environmental variable: SONARQUBE_TOKEN
+#     # Fetch the sonar-auth-token from https://sonarcloud.io/account/security/
 
   '/argocd/api':
     target: http://argocd-server.argocd.svc/api/v1/
@@ -118,8 +118,9 @@ proxy:
     target: http://prometheus-server.monitoring.svc/api/v1/
 
 
-sonarQube:
+sonarqube:
   baseUrl: https://sonar.diegoluisi.eti.br
+  apiKey: '${SONARQUBE_TOKEN}'
 
 grafana:
   # Publicly accessible domain
