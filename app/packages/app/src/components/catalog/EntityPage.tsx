@@ -146,6 +146,14 @@ const overviewContent = (
       </EntitySwitch.Case>
     </EntitySwitch>
 
+    <EntitySwitch>
+      <EntitySwitch.Case if={isSnykAvailable}>
+        <Grid item md={6}>
+          <SnykOverview />
+        </Grid>
+      </EntitySwitch.Case>
+    </EntitySwitch>    
+
     <Grid item md={6}>
       {/* Grafana alert card start */}
       <EntityGrafanaDashboardsCard />
@@ -167,6 +175,7 @@ import { EntitySecurityInsightsContent } from '@roadiehq/backstage-plugin-securi
 import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
 import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
 import { EntityTodoContent } from '@backstage/plugin-todo';
+import { SnykOverview, EntitySnykContent, isSnykAvailable } from 'backstage-plugin-snyk';
 
 
 import {
@@ -213,6 +222,10 @@ const serviceEntityPage = (
 
     <EntityLayout.Route path="/pull-requests" title="Pull Requests">
       <EntityGithubPullRequestsContent />
+    </EntityLayout.Route>
+
+    <EntityLayout.Route path="/snyk" title="Security">
+      <EntitySnykContent />
     </EntityLayout.Route>
 
     <EntityLayout.Route

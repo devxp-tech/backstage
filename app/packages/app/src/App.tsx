@@ -36,6 +36,8 @@ import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/
 
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
 import { SignInPage } from '@backstage/core-components';
+import { EntitySnykContent } from 'backstage-plugin-snyk';
+
 
 // import { EntitySnykContent } from 'backstage-plugin-snyk';
 
@@ -123,16 +125,23 @@ const routes = (
       path="/tech-radar"
       element={<TechRadarPage width={1500} height={800} />}
     />
+    
     <PermissionedRoute
       path="/catalog-import"
       permission={catalogEntityCreatePermission}
       element={<CatalogImportPage />}
     />
+
     <Route path="/search" element={<SearchPage />}>
       {searchPage}
     </Route>
+
     <Route path="/settings" element={<UserSettingsPage />} />
+
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+
+    <Route path="/snyk" element={<EntitySnykContent />}/>
+
   </FlatRoutes>
 );
 

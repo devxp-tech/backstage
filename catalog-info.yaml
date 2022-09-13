@@ -12,6 +12,8 @@ metadata:
     grafana/tag-selector: "Kubernetes"
     prometheus.io/rule: 'sum by (backstage)(changes(kube_pod_status_ready{condition="true"}[5m]))'
     prometheus.io/alert: all
+    snyk.io/org-name: devxp-tech
+    snyk.io/project-ids: 9f8a27a3-beca-4f7a-9f56-97fb7e0a01a2
   tags:
     - web
     - frontend
