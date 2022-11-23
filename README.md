@@ -58,5 +58,5 @@ We ❤️ contributions big or small. [See our guide](contributing.md) on how to
 ### Thanks to all our contributors!
 
 <a href="https://github.com/devxp-tech/backstage/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=devxp-tech/gitops" />
+  <img src="https://contrib.rocks/image?repo=devxp-tech/backstage" />
 </a>
