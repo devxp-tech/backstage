@@ -97,7 +97,7 @@ jobs:
 
     - name: Update Backstage Tag Image ✨
       run: |
-        cd gitops/apps/backstage/overlays/base
+        cd gitops/apps/backstage/base
         # kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
         sed -i 's/tag:/tag: ${{ needs.vars.outputs.tag }}/g' kustomization.yaml
 
