@@ -93,11 +93,11 @@ jobs:
     - name: Update Backstage Tag Image ✨
       run: |
         cd gitops/apps/backstage/base
-        OLD=$(cat kustomization.yaml | grep 'tag:' |  awk '{print $2}')
+        OLD=`cat kustomization.yaml | grep 'tag:' |  awk '{print $2}'`
         NEW=${{ needs.vars.outputs.tag }}"
-        echo "Change tag: $OLD to $NEW"
+        echo 'Change tag: $OLD to $NEW'
         # kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
-        sed -i "s|$OLD"|$NEW|g" kustomization.yaml
+        sed -i "s|$OLD|$NEW|g" kustomization.yaml
         cat kustomization.yaml | grep 'tag:' |  awk '{print $2}'
 
     - name: Commit and Push 🚀
