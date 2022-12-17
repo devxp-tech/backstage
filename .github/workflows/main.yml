@@ -90,25 +90,14 @@ jobs:
         git config user.name "$GITHUB_ACTOR"
         git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
-    - name: Set old tag
-      id: old_tag
-      run: echo OLD_TAG=$(cat gitops/apps/backstage/base/kustomization.yaml | grep 'tag:' |  awk '{print $2}') >> $GITHUB_ENV
-
-    - name: Set new tag
-      id: new_tag
-      run: echo NEW_TAG$={{ needs.vars.outputs.tag }} >> $GITHUB_ENV
-
-    - name: Display
-      run: |
-        echo "Step 1 test: ${{ steps.old_tag.outputs.OLD_TAG }}"
-        echo "Step 2 test: ${{ steps.new_tag.outputs.NEW_TAG }}"
-
-    - name: Update Backstage Tag Image ✨
+    - name: Update Docker Image Tag ✨
       run: |
         cd gitops/apps/backstage/base
-        echo 'Change tag: ${{ steps.old_tag.outputs.OLD_TAG }} to ${{ steps.new_tag.outputs.NEW_TAG }}'
+        OLD_TAG=$(cat kustomization.yaml | grep 'tag:' |  awk '{print $2}')
+        NEW_TAG=${{ needs.vars.outputs.tag }}
+        echo "Change tag $OLD_TAG  to $NEW_TAG"
         # kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
-        sed -i "s|${{ steps.old_tag.outputs.OLD_TAG }}|${{ steps.new_tag.outputs.NEW_TAG }}'|g" kustomization.yaml
+        sed -i "s|$OLD_TAG|$NEW_TAG|g" kustomization.yaml
         cat kustomization.yaml | grep 'tag:' |  awk '{print $2}'
 
     - name: Commit and Push 🚀
