@@ -92,11 +92,11 @@ jobs:
 
     - name: Set old tag
       id: old_tag
-      run: echo "OLD_TAG=$(cat gitops/apps/backstage/base/kustomization.yaml | grep 'tag:' |  awk '{print $2}') >> $GITHUB_ENV
+      run: echo OLD_TAG=$(cat gitops/apps/backstage/base/kustomization.yaml | grep 'tag:' |  awk '{print $2}') >> $GITHUB_ENV
 
     - name: Set new tag
       id: new_tag
-      run: echo "NEW_TAG$={{ needs.vars.outputs.tag }}" >> $GITHUB_ENV
+      run: echo NEW_TAG$={{ needs.vars.outputs.tag }} >> $GITHUB_ENV
 
     - name: Update Backstage Tag Image ✨
       run: |
