@@ -98,6 +98,11 @@ jobs:
       id: new_tag
       run: echo NEW_TAG$={{ needs.vars.outputs.tag }} >> $GITHUB_ENV
 
+    - name: Display
+      run: |
+        echo "Step 1 test: ${{ steps.old_tag.outputs.OLD_TAG }}"
+        echo "Step 2 test: ${{ steps.new_tag.outputs.NEW_TAG }}"
+
     - name: Update Backstage Tag Image ✨
       run: |
         cd gitops/apps/backstage/base
