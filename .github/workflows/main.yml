@@ -74,7 +74,7 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - vars
-      # - sonarqube
+      - sonarqube
       - build-and-push
 
     steps:
@@ -94,7 +94,7 @@ jobs:
       run: |
         cd gitops/apps/backstage/base
         # kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
-        sed -i "s|tag: \"[a-z0-9]+\"|${{ needs.vars.outputs.tag }}" kustomization.yaml
+        sed -Ei "s|tag: \"[a-z0-9]+\"|${{ needs.vars.outputs.tag }}|" kustomization.yaml
 
     - name: Commit and Push 🚀
       run: |
@@ -107,7 +107,7 @@ jobs:
     name: Post Status To Slack  📣
     needs:
       - vars
-      # - sonarqube
+      - sonarqube
       - build-and-push
       - deploy
     runs-on: ubuntu-latest
