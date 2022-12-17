@@ -83,12 +83,7 @@ jobs:
       with:
         kustomize-version: "3.9.4"
 
-    # - name: Git Checkout 🛎️
-    #   uses: actions/checkout@v3
-    #   with:
-    #     repository: 'devxp-tech/gitops'
-
-    - name: Git Setup 🔨
+    - name: Git Checkout 🛎️
       run: |
         git clone https://${{ secrets.ACCESS_TOKEN_GITHUB }}@github.com/devxp-tech/gitops
         cd gitops
@@ -99,20 +94,13 @@ jobs:
       run: |
         cd gitops/apps/backstage/base
         # kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
-        sed -Ei "s|tag: \"[a-z0-9]+\"|${{ needs.vars.outputs.tag }}" kustomization.yaml
+        sed -i "s|tag: \"[a-z0-9]+\"|${{ needs.vars.outputs.tag }}" kustomization.yaml
 
     - name: Commit and Push 🚀
       run: |
         cd gitops/
         git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
         git push
-
-    # - name: Push changes 🚀
-    #   uses: ad-m/github-push-action@master
-    #   with:
-    #     github_token: ${{ secrets.ACCESS_TOKEN_GITHUB }}
-    #     repository: devxp-tech/gitops
-
 
   slack-workflow-status:
     if: always()
