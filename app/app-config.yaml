@@ -109,12 +109,12 @@ proxy:
     # url to the api and path of your hosted prometheus instance
     target: http://prometheus-server.monitoring.svc/api/v1/
 
-  '/snyk':
-    target: https://snyk.io/api/v1
-    headers:
-      User-Agent: tech-services/backstage-plugin/1.0
-      Authorization:
-        $env: SNYK_TOKEN
+  # '/snyk':
+  #   target: https://snyk.io/api/v1
+  #   headers:
+  #     User-Agent: tech-services/backstage-plugin/1.0
+  #     Authorization:
+  #       $env: SNYK_TOKEN
 
 sonarqube:
   baseUrl: https://sonar.diegoluisi.eti.br
