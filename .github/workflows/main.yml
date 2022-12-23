@@ -120,7 +120,7 @@ jobs:
           password: ${{ github.token }}
 
       - name: Build and Push Docker 🚀
-        run:
+        run: |
           cd app/
           docker image build . -f packages/backend/Dockerfile --tag ghcr.io/devxp-tech/backstage:${{ needs.vars.outputs.tag }}
           docker push ghcr.io/devxp-tech/backstage:${{ needs.vars.outputs.tag }}
