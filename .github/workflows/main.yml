@@ -47,8 +47,11 @@ jobs:
         login: ${{ secrets.SONARQUBE_TOKEN }}
 
   build:
-    name: yarn-build
+    name: Yarn Build 📦
     runs-on: ubuntu-latest
+    needs:
+      - vars
+      - sonarqube
     steps:
       - name: app checkout
         uses: actions/checkout@v3
@@ -89,7 +92,7 @@ jobs:
     needs:
       - vars
       - build
-      # - sonarqube
+      - sonarqube
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.6.0
