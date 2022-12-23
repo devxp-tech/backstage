@@ -11,10 +11,10 @@ on:
   pull_request:
     branches: ["main"]
 
-permissions:
-  pull-requests: write
-  issues: write
-  repository-projects: write
+# permissions:
+#   pull-requests: write
+#   issues: write
+#   repository-projects: write
 
 jobs:
   vars:
@@ -32,85 +32,108 @@ jobs:
           fi
       - run: echo "${{ steps.vars.outputs.tag }}"
 
-  # test:
-  #   name: Test Application 🔎
-  #   runs-on: ubuntu-latest
-  #   needs:
-  #     - vars
-  #   steps:
-  #     - uses: actions/checkout@v3
-  #     - run: yarn tsc
-
   sonarqube:
     name: SonarQube Scan 🔍
     runs-on: ubuntu-latest
     needs:
       - vars
-      # - test
     steps:
     - name: Checkout 🛎️
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2.6.0
     - name: SonarQube Scan 🔍
       uses: kitabisa/sonarqube-action@v1.2.0
       with:
         host: ${{ secrets.SONARQUBE_HOST }}
         login: ${{ secrets.SONARQUBE_TOKEN }}
 
+  build:
+    name: yarn-build
+    runs-on: ubuntu-latest
+    steps:
+      - name: app checkout
+        uses: actions/checkout@v3
+      - name: Configure Node.js 16.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+      - name: Cache node_modules
+        id: cache-modules
+        uses: actions/cache@v2
+        with:
+          path: app/node_modules
+          key: npm-build-${{ hashFiles('app/package-lock.json') }}
+          restore-keys: |
+            npm-build-
+            npm-
+      - name: yarn install and build
+        run: |
+          cd app/
+          yarn add --cwd packages/app @backstage/plugin-sonarqube
+          yarn install --frozen-lockfile
+          yarn tsc
+          yarn build
+      - name: persist build files
+        uses: actions/upload-artifact@v2
+        with:
+          name: app-folder
+          path: app/packages/backend/dist
+          if-no-files-found: error
+
   build-and-push:
     name: Build and Push 📦
     runs-on: ubuntu-latest
     needs:
       - vars
-      # - test
-      - sonarqube
+      - build
+      # - sonarqube
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2.6.0
 
       - name: Set rev.txt 🛠️
         run: git show -s --format="%ai %H %s %aN" HEAD > rev.txt
 
       - name: Set up QEMU 🛠️
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v2.1.0
 
       - name: Set up Docker Buildx 🛠️
-        uses: docker/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v2.2.1
 
       - name: Login Docker Registry 🪪
-        uses: docker/login-action@v2
+        uses: docker/login-action@v2.1.0
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ github.token }}
 
       - name: Build and Push Docker 🚀
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v3.2.0
         with:
           push: true
           secrets: |
             GIT_AUTH_TOKEN=${{ github.token }}
           tags: ghcr.io/devxp-tech/backstage:${{ needs.vars.outputs.tag }},ghcr.io/devxp-tech/backstage:latest
 
-  # trivy:
-  #   name: Trivy Scan 🔒
-  #   runs-on: ubuntu-latest
-  #   needs:
-  #     - vars
-  #     # - test
-  #     - sonarqube
-  #     - build-and-push
-  #   steps:
-  #     - name: Run Trivy vulnerability scanner 🔎
-  #       uses: aquasecurity/trivy-action@master
-  #       with:
-  #         image-ref: ghcr.io/devxp-tech/backstage:${{ needs.vars.outputs.tag }}
-  #         format: 'sarif'
-  #         output: 'trivy-results.sarif'
+  trivy:
+    name: Trivy Scan 🔒
+    runs-on: ubuntu-latest
+    needs:
+      - vars
+      # - test
+      - sonarqube
+      - build-and-push
+    steps:
+      - name: Run Trivy vulnerability scanner 🔎
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: ghcr.io/devxp-tech/backstage:${{ needs.vars.outputs.tag }}
+          format: 'sarif'
+          output: 'trivy-results.sarif'
 
-  #     - name: Upload Trivy scan results to GitHub Security Tab 📈
-  #       uses: github/codeql-action/upload-sarif@v2
-  #       with:
-  #         sarif_file: 'trivy-results.sarif'
+      - name: Upload Trivy scan results to GitHub Security Tab 📈
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: 'trivy-results.sarif'
 
   deploy:
     name: GitOps Deploy 🏗️
@@ -119,7 +142,7 @@ jobs:
       - vars
       - sonarqube
       - build-and-push
-      # - trivy
+      - trivy
 
     steps:
     - name: Set Kustomize 🛠️
@@ -155,7 +178,7 @@ jobs:
       - vars
       - sonarqube
       - build-and-push
-      # - trivy
+      - trivy
       - deploy
     runs-on: ubuntu-latest
     steps:
