@@ -85,7 +85,7 @@ jobs:
           yarn build
 
       - name: persist build files
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: app-folder
           path: app/packages/backend/dist
@@ -109,7 +109,7 @@ jobs:
         run: mkdir -p app/packages/backend/dist
 
       - name: restore build files
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: app-folder
           path: app/packages/backend/dist
