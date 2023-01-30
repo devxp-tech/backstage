@@ -26,9 +26,11 @@ jobs:
       - id: vars
         run: |
           if [[ ! "$GITHUB_REF" =~ refs/tags ]]; then
-            echo "::set-output name=tag::$(echo $GITHUB_SHA | cut -c 1-8)"
+            #echo "::set-output name=tag::$(echo $GITHUB_SHA | cut -c 1-8)"
+            echo "tag=$(echo $GITHUB_SHA | cut -c 1-8)" >> $GITHUB_OUTPUT
           else
-            echo "::set-output name=tag::$(echo $GITHUB_REF | cut -d / -f 3)"
+            #echo "::set-output name=tag::$(echo $GITHUB_REF | cut -d / -f 3)"
+            echo "tag=$(echo $GITHUB_REF | cut -d / -f 3)" >> $GITHUB_OUTPUT
           fi
       - run: echo "${{ steps.vars.outputs.tag }}"
 
