@@ -58,6 +58,20 @@ integrations:
     #   apiBaseUrl: https://ghe.example.net/api/v3
     #   token: ${GHE_TOKEN}
 
+kubernetes:
+  serviceLocatorMethod:
+    type: multiTenant
+  clusterLocatorMethods:
+    - type: config
+      clusters:
+        - url: ${K8S_URL}
+          name: development
+          authProvider: serviceAccount
+          skipTLSVerify: true
+          skipMetricsLookup: true
+          serviceAccountToken: ${K8S_TOKEN}
+
+
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
@@ -81,3 +95,16 @@ auth:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
         # enterpriseInstanceUrl: ${AUTH_GITHUB_ENTERPRISE_INSTANCE_URL}
+
+kubernetes:
+  serviceLocatorMethod:
+    type: multiTenant
+  clusterLocatorMethods:
+    - type: config
+      clusters:
+        - url: ${K8S_URL}
+          name: development
+          authProvider: serviceAccount
+          skipTLSVerify: true
+          skipMetricsLookup: true
+          serviceAccountToken: ${K8S_TOKEN}
