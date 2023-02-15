@@ -35,7 +35,7 @@ export default async function createPlugin(
 
   const gitProvider = GitHubOrgEntityProvider.fromConfig(env.config, {
     id: "github-org-entity-provider",
-    orgUrl: "https://github.com/my-organization", // 🚨 REPLACE
+    orgUrl: "https://github.com/devxp-tech", // 🚨 REPLACE
     logger: env.logger,
     githubCredentialsProvider
   });
