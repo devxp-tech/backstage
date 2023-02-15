@@ -6,7 +6,7 @@ import { PluginEnvironment } from '../types';
 // import { GitHubOrgEntityProvider } from '@backstage/plugin-catalog-backend-module-github';
 
 import { ScmIntegrations, DefaultGithubCredentialsProvider } from '@backstage/integration';
-import { GitHubOrgEntityProvider } from '@backstage/plugin-catalog-backend-module-github';
+// import { GitHubOrgEntityProvider } from '@backstage/plugin-catalog-backend-module-github';
 
 
 export default async function createPlugin(
