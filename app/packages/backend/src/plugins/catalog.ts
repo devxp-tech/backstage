@@ -2,8 +2,7 @@ import { CatalogBuilder } from '@backstage/plugin-catalog-backend';
 import { ScaffolderEntitiesProcessor } from '@backstage/plugin-scaffolder-backend';
 import { Router } from 'express';
 import { PluginEnvironment } from '../types';
-// import { GitHubOrgEntityProvider } from '@backstage/plugin-catalog-backend-module-github';
-import { GithubOrgEntityProvider } from '@backstage/plugin-catalog-backend-module-github';
+import { GitHubOrgEntityProvider } from '@backstage/plugin-catalog-backend-module-github';
 
 
 export default async function createPlugin(
@@ -14,7 +13,7 @@ export default async function createPlugin(
   // The org URL below needs to match a configured integrations.github entry
   // specified in your app-config.
   builder.addEntityProvider(
-    GithubOrgEntityProvider.fromConfig(env.config, {
+    GitHubOrgEntityProvider.fromConfig(env.config, {
       id: 'production',
       orgUrl: 'https://github.com/devxp-tech',
       logger: env.logger,
