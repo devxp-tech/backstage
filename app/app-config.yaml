@@ -72,7 +72,7 @@ backend:
 integrations:
   github:
     - host: github.com
-      token: ${GITHUB_ACCESS_TOKEN}
+      token: ${GITHUB_TOKEN}
 
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
