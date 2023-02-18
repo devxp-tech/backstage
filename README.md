@@ -51,6 +51,26 @@ docker-compose up -d app # to up the backstage application
 
 Backstage in develop mode will be available in <http://backstage.local:3000> and it's using `GitHub SSO integration`
 
+```mermaid
+graph TD;
+    Dev-->Backstage;
+    Backstage-->create-->devxp-app;
+    devxp-app-->backstage-catalog;
+    backstage-catalog-->fetch;
+    fetch-->kubernetes-skelleton;
+    fetch-->template-golang;
+    backstage-catalog-->push;
+    push-->GitHub-->new-application;
+    push-->PullRequest;
+    GitHub-->GitOps;
+    PullRequest-->GitOps;
+    new-application-->github-workflow-->devxp-tech/.github/workflows;
+    GitOps-->helm-charts/devxp-app;
+    GitOps-->Kubernetes;
+    Kubernetes-->ghcr.github.com/devxp-tech;
+    devxp-tech/.github/workflows-->ghcr.github.com/devxp-tech;
+```
+
 
 ## ✨ Contributions
 
@@ -61,3 +81,5 @@ We ❤️ contributions big or small. [See our guide](contributing.md) on how to
 <a href="https://github.com/devxp-tech/backstage/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=devxp-tech/backstage" />
 </a>
+
+Made with 💜 by DevXP-Tech.
