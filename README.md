@@ -51,6 +51,9 @@ docker-compose up -d app # to up the backstage application
 
 Backstage in develop mode will be available in <http://backstage.local:3000> and it's using `GitHub SSO integration`
 
+
+## 🚦 Work Flux
+
 ```mermaid
 graph TD;
     Dev-->Backstage;
@@ -68,12 +71,18 @@ graph TD;
     ArgoCD--deploy-->Kubernetes;
     devxp-tech/.github/workflows--push/docker-image-->ghcr.github.com/devxp-tech;
     Kubernetes--pull/docker-image-->ghcr.github.com/devxp-tech;
+    Kubernetes-->new-application;
 ```
 
-[ArgoCD](https://github.com/devxp-tech/gitops)
+## 🧩 References 
 
-[helm-charts](https://github.com/devxp-tech/helm-charts)
-[backstage-catalog:](https://github.com/devxp-tech/backstage-catalog)
+- [ArgoCD](https://github.com/devxp-tech/gitops)
+- [helm-charts](https://github.com/devxp-tech/helm-charts)
+- [Backstage](https://github.com/devxp-tech/backstage)
+- [backstage-catalog:](https://github.com/devxp-tech/backstage-catalog)
+- [template-golang](https://github.com/devxp-tech/template-golang)
+- [github-workflows](https://github.com/devxp-tech/.github)
+
 
 ## ✨ Contributions
 
