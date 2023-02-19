@@ -54,23 +54,26 @@ Backstage in develop mode will be available in <http://backstage.local:3000> and
 ```mermaid
 graph TD;
     Dev-->Backstage;
-    Backstage-->create-->devxp-app;
-    devxp-app-->backstage-catalog;
-    backstage-catalog-->fetch;
-    fetch-->kubernetes-skelleton;
-    fetch-->template-golang;
-    backstage-catalog-->push;
-    push-->GitHub-->new-application;
-    push-->PullRequest;
-    GitHub-->GitOps;
-    PullRequest-->GitOps;
-    new-application-->github-workflow-->devxp-tech/.github/workflows;
-    GitOps-->helm-charts/devxp-app;
-    GitOps-->Kubernetes;
-    Kubernetes-->ghcr.github.com/devxp-tech;
-    devxp-tech/.github/workflows-->ghcr.github.com/devxp-tech;
+    Backstage--create-->devxp-app;
+    devxp-app-->golang;
+    devxp-app-->python;
+    devxp-app-->node;
+    golang-->backstage-catalog;
+    backstage-catalog--fetch-->github/devxp-tech/template-golang;
+    backstage-catalog--fetch-->kubernetes-skelleton;
+    backstage-catalog--push-->github/devxp-tech/new-application;
+    kubernetes-skelleton--PullRequest-->ArgoCD;
+    github/devxp-tech/new-application--workflow-->devxp-tech/.github/workflows;
+    ArgoCD--pull-->helm-charts/devxp-app;
+    ArgoCD--deploy-->Kubernetes;
+    devxp-tech/.github/workflows--push-->ghcr.github.com/devxp-tech;
+    Kubernetes--pull-->ghcr.github.com/devxp-tech;
 ```
 
+[ArgoCD](https://github.com/devxp-tech/gitops)
+
+[helm-charts](https://github.com/devxp-tech/helm-charts)
+[backstage-catalog:](https://github.com/devxp-tech/backstage-catalog)
 
 ## ✨ Contributions
 
