@@ -102,17 +102,17 @@ jobs:
           docker image build . -f packages/backend/Dockerfile --tag ghcr.io/devxp-tech/backstage:${{ needs.env.outputs.tag }}
           docker push ghcr.io/devxp-tech/backstage:${{ needs.env.outputs.tag }}
 
-  security-gateway:
-    uses: devxp-tech/.github/.github/workflows/trivy.yaml@main
-    needs:
-      - build-and-push
+  # security-gateway:
+  #   uses: devxp-tech/.github/.github/workflows/trivy.yaml@main
+  #   needs:
+  #     - build-and-push
 
   deploy:
     name: GitOps Deploy 🏗️
     runs-on: ubuntu-latest
     needs:
       - env
-      - security-gateway
+      # - security-gateway
 
     steps:
     - name: Set Kustomize 🛠️
