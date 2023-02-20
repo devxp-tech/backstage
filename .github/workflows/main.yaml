@@ -99,8 +99,8 @@ jobs:
       - name: Build and Push Docker 🚀
         run: |
           cd app/
-          docker image build . -f packages/backend/Dockerfile --tag ghcr.io/devxp-tech/backstage:${{ needs.vars.outputs.tag }}
-          docker push ghcr.io/devxp-tech/backstage:${{ needs.vars.outputs.tag }}
+          docker image build . -f packages/backend/Dockerfile --tag ghcr.io/devxp-tech/backstage:${{ needs.env.outputs.tag }}
+          docker push ghcr.io/devxp-tech/backstage:${{ needs.env.outputs.tag }}
 
   security-gateway:
     uses: devxp-tech/.github/.github/workflows/trivy.yaml@main
@@ -131,14 +131,14 @@ jobs:
       run: |
         cd gitops/apps/backstage/base
         OLD_TAG=$(cat kustomization.yaml | grep 'tag:' |  awk '{print $2}')
-        NEW_TAG=${{ needs.vars.outputs.tag }}
-        # kustomize edit set image diegoluisi/backstage:${{ needs.vars.outputs.tag }}
+        NEW_TAG=${{ needs.env.outputs.tag }}
+        # kustomize edit set image diegoluisi/backstage:${{ needs.env.outputs.tag }}
         sed -i "s|$OLD_TAG|$NEW_TAG|g" kustomization.yaml
 
     - name: Commit and Push 🚀
       run: |
         cd gitops/
-        git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.vars.outputs.tag }}"
+        git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.env.outputs.tag }}"
         git push
 
   notify:
