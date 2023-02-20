@@ -130,7 +130,7 @@ jobs:
 
     - name: Update Docker Image Tag ✨
       run: |
-        cd gitops/apps/backstage/base
+        cd gitops/apps/backstage/overlays/prd
         OLD_TAG=$(cat kustomization.yaml | grep 'tag:' |  awk '{print $2}')
         NEW_TAG=${{ needs.env.outputs.tag }}
         # kustomize edit set image diegoluisi/backstage:${{ needs.env.outputs.tag }}
