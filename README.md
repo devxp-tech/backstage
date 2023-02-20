@@ -61,17 +61,17 @@ graph TD;
     devxp-app-->golang;
     devxp-app-->python;
     devxp-app-->node;
-    golang--new-application-->backstage-catalog;
+    golang--new-app-->backstage-catalog;
     backstage-catalog--fetch-->github/devxp-tech/template-golang;
     backstage-catalog--fetch-->kubernetes-skelleton;
-    backstage-catalog--push-->github/devxp-tech/new-application;
+    backstage-catalog--push-->github/devxp-tech/new-app;
     kubernetes-skelleton--PullRequest-->ArgoCD;
-    github/devxp-tech/new-application--workflow-->devxp-tech/.github/workflows;
+    github/devxp-tech/new-app--workflow-->devxp-tech/.github/workflows;
     ArgoCD--pull-->helm-charts/devxp-app;
     ArgoCD--deploy-->Kubernetes;
     devxp-tech/.github/workflows--push/docker-image-->ghcr.github.com/devxp-tech;
     Kubernetes--pull/docker-image-->ghcr.github.com/devxp-tech;
-    Kubernetes-->new-application;
+    Kubernetes-->new-app;
 ```
 
 ## 🧩 References 
