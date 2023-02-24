@@ -15,9 +15,12 @@ WORKDIR /app
 
 # install sqlite3 dependencies, you can skip this if you don't use sqlite3 in the image
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends libsqlite3-dev python3 build-essential && \
+    apt-get install -y --no-install-recommends libsqlite3-dev python3 python3-pip build-essential && \
     rm -rf /var/lib/apt/lists/* && \
     yarn config set python /usr/bin/python3
+
+# TechDocs
+RUN pip3 install mkdocs-techdocs-core==1.1.7
 
 # Copy repo skeleton first, to avoid unnecessary docker cache invalidation.
 # The skeleton contains the package.json of each package in the monorepo,
