@@ -12,6 +12,7 @@ services:
       - ENVIRONMENT=development
     volumes:
       - ./app:/app
+
   app:
     image: backstage:dev
     build:
