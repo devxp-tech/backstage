@@ -63,9 +63,9 @@ kubernetes:
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
 
 techdocs:
-  builder: 'local' # Alternatives - 'external'
-  generator:
-    runIn: 'docker'
+  builder: 'external' # Alternatives - 'external'
+  # generator:
+  #   runIn: 'docker'
   publisher:
     type: 'awsS3'
     awsS3:

@@ -75,11 +75,10 @@ integrations:
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
-
 techdocs:
-  builder: 'local' # Alternatives - 'external'
-  generator:
-    runIn: 'docker'
+  builder: 'external' # Alternatives - 'local' or 'external'
+  # generator:
+  #   runIn: 'local'
   publisher:
     type: 'awsS3'
     awsS3:
@@ -91,7 +90,7 @@ techdocs:
 
 proxy:
   '/argocd/api':
-    target: http://argocd-server.argocd.svc/api/v1/
+    target: https://argocd.diegoluisi.eti.br/api/v1/
     changeOrigin: true
     # only if your argocd api has self-signed cert
     secure: true
@@ -101,7 +100,7 @@ proxy:
 
   '/grafana/api':
     # May be an internal DNS
-    target: http://grafana.monitoring.svc/
+    target: https://grafana.diegoluisi.eti.br/
     headers:
       Authorization: Bearer ${GRAFANA_TOKEN}
 
@@ -130,15 +129,11 @@ grafana:
 
 auth:
   environment: development
-  ### Providing an auth.session.secret will enable session support in the auth-backend
-  # session:
-  #   secret: custom session secret
   providers:
     github:
       development:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
-
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
@@ -146,8 +141,6 @@ scaffolder:
     name: ':robot: [backstage-bot]'
     email: backstage@devxp-tech.io
   # defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
-
-# Force Deploy
 
 catalog:
   import:
