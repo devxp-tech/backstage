@@ -1,4 +1,4 @@
-### Thank you for making `Devxp Tech - Helm Charts` better
+### Thank you for making `Devxp Tech - Backstage` better
 
 Please reference the issue this PR is fixing.
 
