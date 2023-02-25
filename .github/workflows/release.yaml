@@ -1,10 +1,9 @@
 name: release
 
 on:
-  push:
+  pull_request:
     branches:
       - 'release/**'
-  pull_request:
     types: [closed]
 
 env:
