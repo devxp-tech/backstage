@@ -1,0 +1,21 @@
+name: Publish TechDocs Site
+
+on:
+  push:
+    branches: [main]
+    # You can even set it to run only when TechDocs related files are updated.
+    # paths:
+    #   - "docs/**"
+    #   - "mkdocs.yml"
+
+jobs:
+  env:
+    uses: devxp-tech/.github/.github/workflows/env.yaml@main
+
+  docs:
+    uses: devxp-tech/.github/.github/workflows/techdocs.yaml@main
+    secrets: inherit
+    with:
+      repository: ${{ needs.env.outputs.repository }}
+    needs:
+      - env

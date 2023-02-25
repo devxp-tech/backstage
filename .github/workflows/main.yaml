@@ -1,150 +1,30 @@
-# This workflow uses actions that are not certified by GitHub.
-# São fornecidas por terceiros e regidas por
-# termos de serviço, política de privacidade e suporte separados
-# documentação.
-
 name: main
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: ["main"]
+    branches:
+      - main
+    paths-ignore:
+      - 'docs/**'
 
 jobs:
   env:
     uses: devxp-tech/.github/.github/workflows/env.yaml@main
 
-  # test:
-  #   uses: devxp-tech/.github/.github/workflows/test.yaml@main
-
-  quality-gate:
-    uses: devxp-tech/.github/.github/workflows/sonarqube.yaml@main
+  promote:
+    uses: devxp-tech/.github/.github/workflows/promote.yaml@main
     secrets: inherit
-
-  build:
-    name: Yarn Build 🔨
-    runs-on: ubuntu-latest
+    with:
+      tag: ${{ needs.env.outputs.tag }}
+      repository: ${{ needs.env.outputs.repository }}
+      url: https://${{ needs.env.outputs.repository }}.devxp-tech.io
+      environment: production
     needs:
       - env
-      # - test
-      - quality-gate
-    steps:
-      - name: app checkout
-        uses: actions/checkout@v3
-
-      - name: Configure Node.js 16.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-
-      - name: Cache node_modules
-        id: cache-modules
-        uses: actions/cache@v3
-        with:
-          path: app/node_modules
-          key: npm-build-${{ hashFiles('app/package-lock.json') }}
-          restore-keys: |
-            npm-build-
-            npm-
-
-      - name: yarn install and build
-        run: |
-          cd app/
-          yarn add --cwd packages/app @backstage/plugin-sonarqube
-          yarn install --frozen-lockfile
-          yarn tsc
-          yarn build
-
-      - name: persist build files
-        uses: actions/upload-artifact@v3
-        with:
-          name: app-folder
-          path: app/packages/backend/dist
-          if-no-files-found: error
-
-  build-and-push:
-    name: Build and Push 📦
-    runs-on: ubuntu-latest
-    needs:
-      - env
-      - build
-      - quality-gate
-    steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
-
-      - name: Set rev.txt 🛠️
-        run: git show -s --format="%ai %H %s %aN" HEAD > rev.txt
-
-      - name: grant dist folder exists
-        run: mkdir -p app/packages/backend/dist
-
-      - name: restore build files
-        uses: actions/download-artifact@v3
-        with:
-          name: app-folder
-          path: app/packages/backend/dist
-
-      - name: verify artifacts before
-        run: ls -lRa app/packages/backend/dist
-
-      - name: Login Docker Registry 🪪
-        uses: docker/login-action@v2.1.0
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ github.token }}
-
-      - name: Build and Push Docker 🚀
-        run: |
-          cd app/
-          docker image build . -f packages/backend/Dockerfile --tag ghcr.io/devxp-tech/backstage:${{ needs.env.outputs.tag }}
-          docker push ghcr.io/devxp-tech/backstage:${{ needs.env.outputs.tag }}
-
-  # security-gateway:
-  #   uses: devxp-tech/.github/.github/workflows/trivy.yaml@main
-  #   needs:
-  #     - build-and-push
-
-  deploy:
-    name: GitOps Deploy 🏗️
-    runs-on: ubuntu-latest
-    needs:
-      - env
-      - build-and-push
-      # - security-gateway
-
-    steps:
-    - name: Set Kustomize 🛠️
-      uses: imranismail/setup-kustomize@v1
-      with:
-        kustomize-version: "3.9.4"
-
-    - name: GitOps Checkout 🛎️
-      run: |
-        git clone https://${{ secrets.ACCESS_TOKEN_GITHUB }}@github.com/devxp-tech/gitops
-        cd gitops
-        git config user.name "$GITHUB_ACTOR"
-        git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
-
-    - name: Update Docker Image Tag ✨
-      run: |
-        cd gitops/apps/backstage/overlays/prd
-        OLD_TAG=$(cat kustomization.yaml | grep 'tag:' |  awk '{print $2}')
-        NEW_TAG=${{ needs.env.outputs.tag }}
-        # kustomize edit set image diegoluisi/backstage:${{ needs.env.outputs.tag }}
-        sed -i "s|$OLD_TAG|$NEW_TAG|g" kustomization.yaml
-
-    - name: Commit and Push 🚀
-      run: |
-        cd gitops/
-        git commit -am ":robot: [GitHub Action] Set new image tag to https://github.com/devxp-tech/backstage/commit/${{ needs.env.outputs.tag }}"
-        git push
 
   notify:
     uses: devxp-tech/.github/.github/workflows/notify.yaml@main
     if: always()
     secrets: inherit
     needs:
-      - deploy
+      - promote
