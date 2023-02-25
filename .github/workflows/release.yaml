@@ -2,9 +2,9 @@ name: release
 
 on:
   pull_request:
-    types: [closed]
     branches:
-      - 'release/**'    
+      - 'release/**'
+    types: [closed]
 
 env:
   ENVIRONMENT: development
