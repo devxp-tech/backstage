@@ -1,0 +1,44 @@
+name: release
+
+on:
+  push:
+    branches:
+      - 'release/**'
+
+env:
+  ENVIRONMENT: development
+
+jobs:
+  env:
+    uses: devxp-tech/.github/.github/workflows/env.yaml@main
+
+  build-and-push:
+    uses: devxp-tech/.github/.github/workflows/build-and-push.yaml@main
+    with:
+      tag: ${{ needs.env.outputs.tag }}
+    needs:
+      - env
+
+  security-gateway:
+    uses: devxp-tech/.github/.github/workflows/trivy.yaml@main
+    needs:
+      - build-and-push
+
+  deploy:
+    uses: devxp-tech/.github/.github/workflows/deploy.yaml@main
+    secrets: inherit
+    with:
+      tag: ${{ needs.env.outputs.tag }}
+      repository: ${{ needs.env.outputs.repository }}
+      url: https://${{ needs.env.outputs.repository }}.devxp-tech.io
+      environment: development
+    needs:
+      - env
+      - security-gateway
+
+  notify:
+    uses: devxp-tech/.github/.github/workflows/notify.yaml@main
+    if: always()
+    secrets: inherit
+    needs:
+      - deploy
