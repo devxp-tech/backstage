@@ -1,5 +1,17 @@
 version: "3.8"
 services:
+  test: &defaults
+    build:
+      context: .
+      target: dev
+    # depends_on:
+    #   - liquibase
+    working_dir: /app/app
+    command: sh -c 'yarn tsc'
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      - ./app:/app
   app:
     image: backstage:dev
     build:
