@@ -5,10 +5,10 @@ on:
     branches:
       - main
     paths-ignore:
-      - README.md
-      - catalog-info.yaml
-      - mkdocs.yml
+      - 'README.md'
+      - 'mkdocs.yml'
       - 'docs/**'
+      - 'catalog-info.yaml'
 
 jobs:
   env:
