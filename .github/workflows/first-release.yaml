@@ -1,9 +1,7 @@
 name: first-release
 
 on:
-  push:
-    branches:
-      - 'first-release/*'
+  workflow_dispatch:
 
 
 jobs:
@@ -16,6 +14,14 @@ jobs:
   quality-gate:
     uses: devxp-tech/.github/.github/workflows/sonarqube.yaml@main
     secrets: inherit
+
+  docs:
+    uses: devxp-tech/.github/.github/workflows/techdocs.yaml@main
+    secrets: inherit
+    with:
+      repository: ${{ needs.env.outputs.repository }}
+    needs:
+      - env
 
   build-and-push:
     uses: devxp-tech/.github/.github/workflows/build-and-push.yaml@main
@@ -37,13 +43,27 @@ jobs:
     with:
       tag: ${{ needs.env.outputs.tag }}
       repository: ${{ needs.env.outputs.repository }}
+      url: https://${{ needs.env.outputs.repository }}.devxp-tech.io
+      environment: development
     needs:
       - env
       - security-gateway
+
+  promote:
+    uses: devxp-tech/.github/.github/workflows/promote.yaml@main
+    secrets: inherit
+    with:
+      tag: ${{ needs.env.outputs.tag }}
+      repository: ${{ needs.env.outputs.repository }}
+      url: https://${{ needs.env.outputs.repository }}.devxp-tech.io
+      environment: production
+    needs:
+      - env
+      - deploy
 
   notify:
     uses: devxp-tech/.github/.github/workflows/notify.yaml@main
     if: always()
     secrets: inherit
     needs:
-      - deploy
+      - promote

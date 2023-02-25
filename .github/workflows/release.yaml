@@ -1,13 +1,9 @@
 name: release
 
 on:
-  pull_request:
+  push:
     branches:
       - 'release/**'
-    types: [closed]
-
-env:
-  ENVIRONMENT: development
 
 jobs:
   env:

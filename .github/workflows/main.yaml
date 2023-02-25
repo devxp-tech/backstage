@@ -10,6 +10,7 @@ on:
       - 'docs/**'
       - 'catalog-info.yaml'
 
+
 jobs:
   env:
     uses: devxp-tech/.github/.github/workflows/env.yaml@main
