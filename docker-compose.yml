@@ -13,12 +13,6 @@ services:
     volumes:
       - ./app:/app
 
-  ci:
-    <<: *defaults
-    build:
-      context: .
-      target: ci
-    volumes: []
   app:
     image: backstage:dev
     build:
