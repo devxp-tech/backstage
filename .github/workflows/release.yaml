@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'release/**'
+  pull_request:
+    types: [closed]
 
 env:
   ENVIRONMENT: development
