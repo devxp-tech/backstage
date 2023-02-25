@@ -11,11 +11,6 @@ backend:
   baseUrl: https://backstage.diegoluisi.eti.br
   listen:
     port: 7007
-    # The following host directive binds to all IPv4 interfaces when its value
-    # is "0.0.0.0". This is the most permissive setting. The right value depends
-    # on your specific deployment. If you remove the host line entirely, the
-    # backend will bind on the interface that corresponds to the backend.baseUrl
-    # hostname.
     host: 0.0.0.0
 
   csp:
@@ -38,12 +33,6 @@ backend:
       password: ${POSTGRES_PASSWORD}
     # ensureExists: true
     pluginDivisionMode: schema
-      # https://node-postgres.com/features/ssl
-      # you can set the sslmode configuration option via the `PGSSLMODE` environment variable
-      # see https://www.postgresql.org/docs/current/libpq-ssl.html Table 33.1. SSL Mode Descriptions (e.g. require)
-      # ssl:
-      #   ca: # if you have a CA file and want to verify it you can uncomment this section
-      #     $file: <file-path>/ca/server.crt
 
   cache:
     store: memory
@@ -53,10 +42,6 @@ integrations:
   github:
     - host: github.com
       token: ${GITHUB_TOKEN}
-    ### Example for how to add your GitHub Enterprise instance using the API:
-    # - host: ghe.example.net
-    #   apiBaseUrl: https://ghe.example.net/api/v3
-    #   token: ${GHE_TOKEN}
 
 kubernetes:
   serviceLocatorMethod:
@@ -77,17 +62,8 @@ kubernetes:
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
 
-# techdocs:
-#   builder: 'local' # Alternatives - 'external'
-#   generator:
-#     runIn: 'local' # Alternatives - 'local'
-#   publisher:
-#     type: 'local' # Alternatives - 'googleGcs' or 'awsS3'. Read documentation for using alternatives.
-
 techdocs:
-  builder: 'external' # Alternatives - 'external'
-  # generator:
-  #   runIn: 'docker' # Alternatives 'local' or 'docker'
+  builder: 'local' # Alternatives - 'external'
   generator:
     runIn: 'docker'
   publisher:
