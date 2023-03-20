@@ -1,25 +1,12 @@
 version: "3.8"
 services:
-  test: &defaults
-    build:
-      context: .
-      target: dev
-    # depends_on:
-    #   - liquibase
-    working_dir: /app/app
-    command: sh -c 'yarn tsc'
-    environment:
-      - ENVIRONMENT=development
-    volumes:
-      - ./app:/app
-
-  app:
+  app: &def
     image: backstage:dev
     build:
       context: .
       target: dev
     command: sh -c 'yarn dev'
-    working_dir: /app/app
+    working_dir: /app
     hostname: backstage.local
     volumes:
       - ./app:/app
@@ -45,6 +32,33 @@ services:
       - TECHDOCS_BUCKET=$TECHDOCS_BUCKET
     depends_on:
       - postgres
+
+  prd:
+    <<: *def
+    image: backstage:prd-local
+    build:
+      context: .
+    volumes: []
+    command: sh -c "node packages/backend --config app-config.yaml"
+
+  cmd:
+    <<: *def
+    working_dir:  /app
+    volumes:
+      - ./app:/app
+
+  test:
+    <<: *def
+    image: backstage:test
+    build:
+      context: .
+      target: dev
+    working_dir: /app
+    command: sh -c 'yarn tsc'
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      - ./app:/app
 
   postgres:
     image: postgres:latest
