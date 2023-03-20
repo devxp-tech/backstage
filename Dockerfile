@@ -1,14 +1,17 @@
 # this layer is only for development
 FROM node:16 as base
-RUN apt update && apt upgrade -y
+RUN apt update && apt upgrade -y && npm i -g npm yarn --force
+
 # dev layer include git cli
 FROM base as dev
 RUN apt install git -y
+
 # build layer responsible to build app
 FROM dev as build
 WORKDIR /app
 COPY app/ .
-RUN yarn install && yarn tsc && yarn build
+RUN yarn install --frozen-lockfile && yarn tsc && yarn build
+
 # prd layer install only production stuff
 FROM dev as prd
 WORKDIR /app
