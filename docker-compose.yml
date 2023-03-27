@@ -48,7 +48,6 @@ services:
       - ./app:/app
 
   test:
-    <<: *def
     image: backstage:test
     build:
       context: .

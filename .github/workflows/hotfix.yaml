@@ -41,6 +41,8 @@ jobs:
     with:
       tag: ${{ needs.env.outputs.tag }}
       repository: ${{ needs.env.outputs.repository }}
+      url: https://${{ needs.env.outputs.repository }}.devxp-tech.io
+      environment: development
     needs:
       - env
       - security-gateway
