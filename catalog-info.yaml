@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: devxp-tech/backstage
     backstage.io/kubernetes-id: backstage
     backstage.io/techdocs-ref: dir:.
-    argocd/app-name: prd-backstage
+    argocd/app-name: backstage-prd
     sonarqube.org/project-key: backstage
     grafana/tag-selector: "Kubernetes"
     prometheus.io/rule: 'sum by (backstage)(changes(kube_pod_status_ready{condition="true"}[5m]))'
