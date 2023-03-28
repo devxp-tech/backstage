@@ -1,5 +1,5 @@
 # this layer is only for development
-FROM node:16 as base
+FROM node:18 as base
 RUN apt update && apt upgrade -y && npm i -g npm yarn --force
 
 # dev layer include git cli
@@ -25,7 +25,7 @@ RUN rm skeleton.tar.gz bundle.tar.gz
 RUN yarn install --frozen-lockfile --production --network-timeout 300000 && rm -rf "$(yarn cache dir)"
 
 #shipment responsible to pack only needed code
-FROM node:16-alpine as shipment
+FROM node:18-alpine as shipment
 WORKDIR /app
 COPY --from=prd --chown=node:node /app .
 CMD ["node", "packages/backend", "--config", "app-config.yaml", "--config", "app-config.production.yaml"]
