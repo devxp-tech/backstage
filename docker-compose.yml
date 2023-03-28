@@ -5,7 +5,7 @@ services:
     restart: always
     build:
       context: .
-      target: dev
+      target: build
     working_dir: /app
     command: 'yarn test:all'
     # command: sh -c 'echo Sucess!'
