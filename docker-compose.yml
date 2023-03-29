@@ -7,7 +7,7 @@ services:
       context: .
       target: build
     working_dir: /app
-    command: 'yarn tsc'
+    command: 'yarn test:all'
     environment:
       - ENVIRONMENT=development
     volumes:
