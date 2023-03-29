@@ -1,9 +1,16 @@
-name: release
+name: Release 📦
 
 on:
   push:
     branches:
       - 'release/**'
+    paths-ignore:
+      - README.md
+      - catalog-info.yaml
+      - 'docs/**'
+
+env:
+  ENVIRONMENT: development
 
 jobs:
   env:
@@ -18,7 +25,10 @@ jobs:
 
   security-gateway:
     uses: devxp-tech/.github/.github/workflows/trivy.yaml@main
+    with:
+      tag: ${{ needs.env.outputs.tag }}
     needs:
+      - env
       - build-and-push
 
   deploy:

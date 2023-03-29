@@ -1,0 +1,15 @@
+name: CodeQL 🔎
+
+on:
+  schedule:
+    - cron: '30 6 * * *'
+
+jobs:
+  env:
+    uses: devxp-tech/.github/.github/workflows/codeql.yaml@main
+    with:
+      language: javascript
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
