@@ -8,7 +8,6 @@ services:
       target: build
     working_dir: /app
     command: 'yarn test:all'
-    # command: sh -c 'echo Sucess!'
     environment:
       - ENVIRONMENT=development
     volumes:
