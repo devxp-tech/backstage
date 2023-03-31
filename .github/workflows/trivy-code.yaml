@@ -18,7 +18,7 @@ jobs:
         with:
           scan-type: 'fs'
           ignore-unfixed: true
-          format: 'table'
+          format: 'json'
           output: 'trivy-results-fs.sarif'
           # severity: 'CRITICAL'
 
