@@ -1,28 +1,9 @@
 name: Code Scanning 🔎
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '30 6 * * *'
 
 jobs:
   trivy-Scan:
-    name: Trivy Scan
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      - name: Run Trivy vulnerability scanner in fs mode
-        uses: anandg112/trivy-action@feat/add-skip-dirs-option
-        with:
-          scan-type: 'fs'
-          ignore-unfixed: true
-          format: 'sarif'
-          output: 'trivy-results.sarif'
-          severity: 'MEDIUM,HIGH,CRITICAL'
-
-      - name: Upload Trivy scan results to GitHub Security tab
-        uses: github/codeql-action/upload-sarif@v2
-        with:
-          sarif_file: 'trivy-results.sarif'
+    uses: devxp-tech/.github/.github/workflows/env.yaml@main
