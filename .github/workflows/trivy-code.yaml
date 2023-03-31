@@ -18,11 +18,9 @@ jobs:
         with:
           scan-type: 'fs'
           ignore-unfixed: true
-          format: 'template'
-          template: '@/contrib/sarif.tpl'
+          format: 'table'
           output: 'trivy-results-fs.sarif'
           # severity: 'CRITICAL'
-          skip-dirs: "ignored-dir"
 
       - name: Upload Trivy scan results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v2
