@@ -1,13 +1,13 @@
-name: Trivy Code
+name: Code Scanning 🔎
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '30 6 * * *'
-  workflow_dispatch:
 
 jobs:
-  build:
-    name: Build
+  trivy-Scan:
+    name: Trivy Scan
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout code
@@ -19,10 +19,10 @@ jobs:
           scan-type: 'fs'
           ignore-unfixed: true
           format: 'sarif'
-          output: 'trivy-results-fs.sarif'
-          # severity: 'CRITICAL'
+          output: 'trivy-results.sarif'
+          severity: 'MEDIUM,HIGH,CRITICAL'
 
       - name: Upload Trivy scan results to GitHub Security tab
         uses: github/codeql-action/upload-sarif@v2
         with:
-          sarif_file: 'trivy-results-fs.sarif'
+          sarif_file: 'trivy-results.sarif'
