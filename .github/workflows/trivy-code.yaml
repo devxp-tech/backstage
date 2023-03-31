@@ -21,7 +21,7 @@ jobs:
           format: 'template'
           template: '@/contrib/sarif.tpl'
           output: 'trivy-results-fs.sarif'
-          severity: 'CRITICAL'
+          # severity: 'CRITICAL'
           skip-dirs: "ignored-dir"
 
       - name: Upload Trivy scan results to GitHub Security tab
