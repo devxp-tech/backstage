@@ -31,6 +31,15 @@ jobs:
       - env
       - build-and-push
 
+  release:
+    uses: devxp-tech/.github/.github/workflows/create-release.yaml@main
+    secrets: inherit
+    with:
+      tag: ${{ needs.env.outputs.tag }}
+    needs:
+      - env
+      - security-gateway
+
   deploy:
     uses: devxp-tech/.github/.github/workflows/deploy.yaml@main
     secrets: inherit
@@ -42,6 +51,7 @@ jobs:
     needs:
       - env
       - security-gateway
+      - release
 
   notify:
     uses: devxp-tech/.github/.github/workflows/notify.yaml@main
