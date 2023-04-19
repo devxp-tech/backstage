@@ -1,8 +1,12 @@
 version: 2
-
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    target-branch: "hotfix/dependabot"
+- package-ecosystem: "npm"
+  directory: /
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: "hotfix/dependabot"
+- package-ecosystem: github-actions
+  directory: .github/
+  schedule:
+    interval: daily
