@@ -67,52 +67,7 @@ export default async function createPlugin(
           },
         },
       }),
-      gitlab: providers.gitlab.create({
-        signIn: {
-          async resolver({ result: { fullProfile } }, ctx) {
-            return ctx.signInWithCatalogUser({
-              entityRef: {
-                name: fullProfile.id,
-              },
-            });
-          },
-        },
-      }),
-      microsoft: providers.microsoft.create({
-        signIn: {
-          resolver:
-            providers.microsoft.resolvers.emailMatchingUserEntityAnnotation(),
-        },
-      }),
-      google: providers.google.create({
-        signIn: {
-          resolver:
-            providers.google.resolvers.emailLocalPartMatchingUserEntityName(),
-        },
-      }),
-      okta: providers.okta.create({
-        signIn: {
-          resolver:
-            providers.okta.resolvers.emailMatchingUserEntityAnnotation(),
-        },
-      }),
-      bitbucket: providers.bitbucket.create({
-        signIn: {
-          resolver:
-            providers.bitbucket.resolvers.usernameMatchingUserEntityAnnotation(),
-        },
-      }),
-      onelogin: providers.onelogin.create({
-        signIn: {
-          async resolver({ result: { fullProfile } }, ctx) {
-            return ctx.signInWithCatalogUser({
-              entityRef: {
-                name: fullProfile.id,
-              },
-            });
-          },
-        },
-      }),
+      
 
       // This is an example of how to configure the OAuth2Proxy provider as well
       // as how to sign a user in without a matching user entity in the catalog.

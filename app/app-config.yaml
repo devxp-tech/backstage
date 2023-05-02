@@ -143,6 +143,20 @@ scaffolder:
   # defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
 
 catalog:
+  providers:
+    github:
+      # the provider ID can be any camelCase string
+      providerId:
+        organization: 'backstage' # string
+        catalogPath: '/catalog-info.yaml' # string
+        filters:
+          branch: 'main' # string
+          repository: '.*' # Regex
+        schedule: # optional; same options as in TaskScheduleDefinition
+          # supports cron, ISO duration, "human duration" as used in code
+          frequency: { minutes: 30 }
+          # supports ISO duration, "human duration" as used in code
+          timeout: { minutes: 3 }
   import:
     entityFilename: catalog-info.yaml
     pullRequestBranchName: backstage-integration
@@ -160,6 +174,10 @@ catalog:
 
   locations:
     # Backstage example components
+    # - type: github-org
+    #   target: https://github.com/devxp-tech
+    #   rules:
+    #     - allow: [User, Group]
     - type: url
       target: https://github.com/devxp-tech/backstage-catalog/blob/main/devxp/all.yaml
 

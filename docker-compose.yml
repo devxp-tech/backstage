@@ -1,22 +1,15 @@
 version: "3.8"
 services:
-  test: &defaults
-    image: backstage:dev
-    restart: always
-    build:
-      context: .
-      target: build
-    working_dir: /app
-    command: 'yarn test:all'
-    environment:
-      - ENVIRONMENT=development
-    volumes:
-      - ./app:/app
-
-  app:
-    <<: *defaults
+  app: &defaults
     command: sh -c 'yarn dev'
     hostname: backstage.local
+    image: backstage:dev
+    build:
+      context: .
+      target: dev
+    working_dir: /app
+    volumes:
+      - ./app:/app
     ports:
       - 3000:3000
       - 7007:7007
@@ -54,9 +47,17 @@ services:
     volumes:
       - ./app:/app
 
+  test:
+    <<: *defaults
+    command: 'yarn test:all'
+    # command: 'yarn tsc'
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      - ./app:/app
+
   postgres:
     image: postgres:latest
-    restart: always
     environment:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
