@@ -2,7 +2,6 @@ version: "3.8"
 services:
   test: &defaults
     image: backstage:dev
-    # restart: always
     build:
       context: .
       target: dev
@@ -57,7 +56,6 @@ services:
 
   postgres:
     image: postgres:latest
-    restart: always
     environment:
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_USER=postgres
