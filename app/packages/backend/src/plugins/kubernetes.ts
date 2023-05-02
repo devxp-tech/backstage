@@ -1,4 +1,3 @@
-// In packages/backend/src/plugins/kubernetes.ts
 import { KubernetesBuilder } from '@backstage/plugin-kubernetes-backend';
 import { Router } from 'express';
 import { PluginEnvironment } from '../types';
@@ -12,6 +11,7 @@ export default async function createPlugin(
     logger: env.logger,
     config: env.config,
     catalogApi,
+    permissions: env.permissions,
   }).build();
   return router;
 }
