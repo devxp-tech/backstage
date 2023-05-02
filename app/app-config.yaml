@@ -153,6 +153,8 @@ catalog:
         filters:
           branch: 'main' # string
           repository: '.*' # Regex
+          topic:
+            include: ['backstage-include'] # optional array of strings
         schedule: # optional; same options as in TaskScheduleDefinition
           # supports cron, ISO duration, "human duration" as used in code
           frequency: { minutes: 30 }
