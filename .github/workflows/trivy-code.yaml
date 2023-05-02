@@ -3,7 +3,6 @@ name: Code Scanning 🔎
 on:
   schedule:
     - cron: '30 6 * * *'
-  workflow_dispatch:
 
 jobs:
   trivy-Scan:
