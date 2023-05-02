@@ -38,7 +38,7 @@ You'll need to create an entry to your `/etc/hosts` to specify `backstage.local`
 
 ```
 
-## Start project
+## 🚀 Start project
 
 You'll need `Docker` and `docker-compose` installed before you continue!
 
@@ -51,6 +51,12 @@ docker-compose up -d app # to up the backstage application
 
 Backstage in develop mode will be available in <http://backstage.local:3000> and it's using `GitHub SSO integration`
 
+## 🆙 Backstage Update
+
+```sh
+docker-compose run --rm app bash
+yarn backstage-cli versions:bump
+```
 
 ## 🚦 Work Flux
 
