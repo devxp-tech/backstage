@@ -152,9 +152,10 @@ catalog:
         catalogPath: '/catalog-info.yaml' # string
         filters:
           branch: 'main' # string
-          repository: '.*' # Regex
+          # repository: '.*' # Regex
           topic:
             include: ['backstage-include'] # optional array of strings
+            exclude: ['backstage-exclude'] # optional array of strings
         schedule: # optional; same options as in TaskScheduleDefinition
           # supports cron, ISO duration, "human duration" as used in code
           frequency: { minutes: 30 }
