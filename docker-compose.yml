@@ -2,13 +2,13 @@ version: "3.8"
 services:
   test: &defaults
     image: backstage:dev
-    restart: always
+    # restart: always
     build:
       context: .
-      target: build
+      target: dev
     working_dir: /app
-    # command: 'yarn test:all'
-    command: 'echo success'
+    command: 'yarn test:all'
+    # command: 'yarn tsc'
     environment:
       - ENVIRONMENT=development
     volumes:
