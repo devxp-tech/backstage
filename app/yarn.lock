@@ -3104,7 +3104,7 @@
     "@backstage/config" "^1.0.7"
     "@backstage/errors" "^1.1.5"
 
-"@backstage/integration-react@^1.1.11", "@backstage/integration-react@^1.1.6":
+"@backstage/integration-react@^1.1.11", "@backstage/integration-react@^1.1.12":
   version "1.1.12"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.12.tgz#04928a5c68b670ede2f24fcd9a5ae8f379e1c660"
   integrity sha512-Tj5DuDm9jvLt/CI3r989jrkGakXP6vHFAgSnFlENw80dj6m3N9No7cAO8NA0sosMwyLHfXOdP+tS4PmBCKyYSQ==
@@ -6321,6 +6321,11 @@
   resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-13.4.0.tgz#06fe8fda93bf21bdd397fe7ef8805249efda6c06"
   integrity sha512-2mVzW0X1+HDO3jF80/+QFZNzJiTefELKbhMu6yaBYbp/1gSMkVDm4rT472gJljTokWUlXaaE63m7WrWENhMDLw==
 
+"@octokit/openapi-types@^17.1.0":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@octokit/openapi-types/-/openapi-types-17.1.0.tgz#9a712b5bb9d644940d8a1f24115c798c317a64a5"
+  integrity sha512-rnI26BAITDZTo5vqFOmA7oX4xRd18rO+gcK4MiTpJmsRMxAw0JmevNjPsjpry1bb9SVNo56P/0kbiyXXa4QluA==
+
 "@octokit/plugin-enterprise-rest@^6.0.1":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@octokit/plugin-enterprise-rest/-/plugin-enterprise-rest-6.0.1.tgz#e07896739618dab8da7d4077c658003775f95437"
@@ -6446,7 +6451,7 @@
   dependencies:
     "@types/node" ">= 8"
 
-"@octokit/types@^6.0.0", "@octokit/types@^6.0.3", "@octokit/types@^6.14.2", "@octokit/types@^6.16.1", "@octokit/types@^6.39.0", "@octokit/types@^6.40.0", "@octokit/types@^6.8.2":
+"@octokit/types@^6.0.0", "@octokit/types@^6.0.3", "@octokit/types@^6.16.1", "@octokit/types@^6.39.0", "@octokit/types@^6.40.0", "@octokit/types@^6.8.2":
   version "6.41.0"
   resolved "https://registry.yarnpkg.com/@octokit/types/-/types-6.41.0.tgz#e58ef78d78596d2fb7df9c6259802464b5f84a04"
   integrity sha512-eJ2jbzjdijiL3B4PrSQaSjuF2sPEQPVCPzBvTHJD9Nz+9dw2SGH4K4xeQJ77YfTq5bRQ+bD8wT11JbeDPmxmGg==
@@ -6459,6 +6464,13 @@
   integrity sha512-Dx6cNTORyVaKY0Yeb9MbHksk79L8GXsihbG6PtWqTpkyA2TY1qBWE26EQXVG3dHwY9Femdd/WEeRUEiD0+H3TQ==
   dependencies:
     "@octokit/openapi-types" "^13.4.0"
+
+"@octokit/types@^9.0.0":
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-9.2.0.tgz#0358e3de070b1d43c5a8af63b9951c88a09fc9ed"
+  integrity sha512-xySzJG4noWrIBFyMu4lg4tu9vAgNg9S0aoLRONhAEz6ueyi1evBzb40HitIosaYS4XOexphG305IVcLrIX/30g==
+  dependencies:
+    "@octokit/openapi-types" "^17.1.0"
 
 "@octokit/webhooks-methods@^3.0.0":
   version "3.0.0"
@@ -6662,22 +6674,22 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-2.3.1.tgz#4587acaeb2da7648c8305d363c92971206c28c7e"
-  integrity sha512-YECW65Ed7BqGvirZTVZl8Pe3TWXkdz+Qn5jMcp4BfJuPt3HsHAHNag/RbkDjg9WzOUo7JU6cuvvViEjUNpoosw==
+  version "2.3.11"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-2.3.11.tgz#c11c04a5c7e8ed0695edae82145a9e5938aac8ea"
+  integrity sha512-bATVVAELN5P7UhtEWbtltiwF47Ksr7rGPXkQrRX/uj6YzESWE0TRAtwCkh3TRdECG/dhdw3IIrYHDri8QXMOvA==
   dependencies:
-    "@backstage/catalog-model" "^1.1.3"
-    "@backstage/core-components" "^0.12.0"
-    "@backstage/core-plugin-api" "^1.1.0"
-    "@backstage/integration-react" "^1.1.6"
-    "@backstage/plugin-catalog-react" "^1.2.1"
-    "@backstage/theme" "^0.2.16"
+    "@backstage/catalog-model" "^1.3.0"
+    "@backstage/core-components" "^0.13.0"
+    "@backstage/core-plugin-api" "^1.5.1"
+    "@backstage/integration-react" "^1.1.12"
+    "@backstage/plugin-catalog-react" "^1.5.0"
+    "@backstage/theme" "^0.2.19"
     "@date-io/core" "2.10.7"
     "@material-ui/core" "^4.11.0"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
-    "@octokit/rest" "^18.5.3"
-    "@octokit/types" "^6.14.2"
+    "@octokit/rest" "^19.0.3"
+    "@octokit/types" "^9.0.0"
     history "^5.0.0"
     immer "9.0.7"
     react-use "^17.2.4"
