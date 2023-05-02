@@ -10,7 +10,7 @@ RUN apt install git -y
 FROM dev as build
 WORKDIR /app
 COPY app/ .
-RUN yarn install --frozen-lockfile && yarn tsc && yarn build
+RUN yarn install && yarn tsc && yarn build:all
 
 # prd layer install only production stuff
 FROM dev as prd
