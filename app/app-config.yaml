@@ -143,6 +143,7 @@ scaffolder:
   # defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
 
 catalog:
+  orphanStrategy: delete
   providers:
     github:
       # the provider ID can be any camelCase string
