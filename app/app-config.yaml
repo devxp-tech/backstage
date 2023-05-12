@@ -143,15 +143,19 @@ scaffolder:
   # defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
 
 catalog:
+  orphanStrategy: delete
   providers:
     github:
       # the provider ID can be any camelCase string
       providerId:
-        organization: 'backstage' # string
+        organization: 'devxp-tech' # string
         catalogPath: '/catalog-info.yaml' # string
         filters:
           branch: 'main' # string
-          repository: '.*' # Regex
+          # repository: '.*' # Regex
+          topic:
+            include: ['backstage-include'] # optional array of strings
+            exclude: ['backstage-exclude'] # optional array of strings
         schedule: # optional; same options as in TaskScheduleDefinition
           # supports cron, ISO duration, "human duration" as used in code
           frequency: { minutes: 30 }
