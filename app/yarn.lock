@@ -3125,7 +3125,7 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@backstage/plugin-home@^0.5.0":
+"@backstage/plugin-home@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-home/-/plugin-home-0.5.1.tgz#cc4555df49cfefac3a7d577a94d9b0f10636568f"
   integrity sha512-Grtgc4hs0RlqV+T2iRI4yP75CUW9zfiU1ogJ45W4+XJEdB0gG/OqmuJpsDKRBIHjO+9DGOtSAX/tved0dVw26Q==
@@ -5846,7 +5846,7 @@
     "@octokit/plugin-request-log" "^1.0.4"
     "@octokit/plugin-rest-endpoint-methods" "^6.0.0"
 
-"@octokit/rest@^18.0.12", "@octokit/rest@^18.5.3":
+"@octokit/rest@^18.0.12":
   version "18.12.0"
   resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-18.12.0.tgz#f06bc4952fc87130308d810ca9d00e79f6988881"
   integrity sha512-gDPiOHlyGavxr72y0guQEhLsemgVjwRePayJ+FcKc2SJqKUbxbkvf5kAZEWA/MKvsfYlQAMVzNJE3ezQcxMJ2Q==
@@ -5866,14 +5866,7 @@
     "@octokit/plugin-request-log" "^1.0.4"
     "@octokit/plugin-rest-endpoint-methods" "^7.0.0"
 
-"@octokit/types@^5.0.1":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-5.5.0.tgz#e5f06e8db21246ca102aa28444cdb13ae17a139b"
-  integrity sha512-UZ1pErDue6bZNjYOotCNveTXArOMZQFG6hKJfOnGnulVCMcVVi7YIIuuR4WfBhjo7zgpmzn/BkPDnUXtNx+PcQ==
-  dependencies:
-    "@types/node" ">= 8"
-
-"@octokit/types@^6.0.0", "@octokit/types@^6.0.3", "@octokit/types@^6.14.2", "@octokit/types@^6.16.1", "@octokit/types@^6.39.0", "@octokit/types@^6.40.0", "@octokit/types@^6.41.0", "@octokit/types@^6.8.2":
+"@octokit/types@^6.0.0", "@octokit/types@^6.0.3", "@octokit/types@^6.16.1", "@octokit/types@^6.39.0", "@octokit/types@^6.40.0", "@octokit/types@^6.41.0", "@octokit/types@^6.8.2":
   version "6.41.0"
   resolved "https://registry.yarnpkg.com/@octokit/types/-/types-6.41.0.tgz#e58ef78d78596d2fb7df9c6259802464b5f84a04"
   integrity sha512-eJ2jbzjdijiL3B4PrSQaSjuF2sPEQPVCPzBvTHJD9Nz+9dw2SGH4K4xeQJ77YfTq5bRQ+bD8wT11JbeDPmxmGg==
@@ -6024,10 +6017,10 @@
   dependencies:
     "@react-hookz/deep-equal" "^1.0.4"
 
-"@remix-run/router@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.5.0.tgz#57618e57942a5f0131374a9fdb0167e25a117fdc"
-  integrity sha512-bkUDCp8o1MvFO+qxkODcbhSqRa6P2GXgrGZVpt0dCXNW2HCSCqYI0ZoAqEOSAjRWmmlKcYgFvN4B4S+zo/f8kg==
+"@remix-run/router@1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.6.1.tgz#3a3a408481a3796f45223a549c2571517bc8af2d"
+  integrity sha512-YUkWj+xs0oOzBe74OgErsuR3wVn+efrFhXBWrit50kOiED+pvQe2r6MWY0iJMQU/mSVKxvNzL4ZaYvjdX+G7ZA==
 
 "@rjsf/core-v5@npm:@rjsf/core@5.6.0":
   version "5.6.0"
@@ -6111,9 +6104,9 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^2.3.10":
-  version "2.3.10"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-2.3.10.tgz#f04f89d9a23b805ec97bc4db62b5fc3686de5250"
-  integrity sha512-8hBpvdmxOcIgjIqlzN/JSSwaacbPjAjFVmfe3Cr/bb9BQCE0Bg7Pl7pbx1ZPOIQFb91VD6mwJdUQBtNYjz9uOA==
+  version "2.3.12"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-2.3.12.tgz#98db5ab44db2789add03eb1ffc537ee22c6c98ff"
+  integrity sha512-VQepZ9kpEjk1LV7r+4ssUjsoCY/dXohKv46Tkr42T97KyLBsw1O0ZVV2nxTcXZzTM1YWnEvdDs82XbrnBoH6Hw==
   dependencies:
     "@backstage/catalog-model" "^1.3.0"
     "@backstage/core-components" "^0.13.0"
@@ -6125,28 +6118,28 @@
     "@material-ui/core" "^4.11.0"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
-    "@octokit/rest" "^18.5.3"
-    "@octokit/types" "^6.14.2"
+    "@octokit/rest" "^19.0.3"
+    "@octokit/types" "^9.0.0"
     history "^5.0.0"
     immer "9.0.7"
     react-use "^17.2.4"
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^2.5.8":
-  version "2.5.8"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.5.8.tgz#73beb3f8c3351469f43bf910a9f10de13ce3c580"
-  integrity sha512-My06Np7Ki1kqCHs6WuM1nQFP8mBS+VnJRcWSH583I9Eaiz1+L7oD27qkFi0HM3d6aOsYDXUjOJm3oc5xRNxE2w==
+  version "2.5.10"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.5.10.tgz#6f91acb72b56a7fb0b02b6b19b46f9616aee9a24"
+  integrity sha512-sorU19b6MAvoSbOHIGdyFuH6oPPN/ECvuLbD+D7JUSQ/Fburg97AMieyLaOohJiUsvhLJ3zTlA+JJnrMvxRbrw==
   dependencies:
     "@backstage/catalog-model" "^1.3.0"
     "@backstage/core-components" "^0.13.0"
     "@backstage/core-plugin-api" "^1.5.1"
     "@backstage/plugin-catalog-react" "^1.5.0"
-    "@backstage/plugin-home" "^0.5.0"
+    "@backstage/plugin-home" "^0.5.1"
     "@material-ui/core" "^4.11.0"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.60"
-    "@octokit/rest" "^18.5.3"
-    "@octokit/types" "^5.0.1"
+    "@octokit/rest" "^19.0.3"
+    "@octokit/types" "^9.0.0"
     "@types/node-fetch" "^2.5.7"
     history "^5.0.0"
     lodash "^4.17.21"
@@ -6867,6 +6860,20 @@
     lz-string "^1.4.4"
     pretty-format "^27.0.2"
 
+"@testing-library/dom@^9.0.0", "@testing-library/dom@^9.2.0":
+  version "9.2.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-9.2.0.tgz#0e1f45e956f2a16f471559c06edd8827c4832f04"
+  integrity sha512-xTEnpUKiV/bMyEsE5bT4oYA0x0Z/colMtxzUY8bKyPXBNLn/e0V4ZjBZkEhms0xE4pv9QsPfSRu9AWS4y5wGvA==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/runtime" "^7.12.5"
+    "@types/aria-query" "^5.0.1"
+    aria-query "^5.0.0"
+    chalk "^4.1.0"
+    dom-accessibility-api "^0.5.9"
+    lz-string "^1.5.0"
+    pretty-format "^27.0.2"
+
 "@testing-library/jest-dom@^5.10.1":
   version "5.16.5"
   resolved "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.16.5.tgz#3912846af19a29b2dbf32a6ae9c31ef52580074e"
@@ -6890,6 +6897,15 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^8.0.0"
     "@types/react-dom" "<18.0.0"
+
+"@testing-library/react@^14.0.0":
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/@testing-library/react/-/react-14.0.0.tgz#59030392a6792450b9ab8e67aea5f3cc18d6347c"
+  integrity sha512-S04gSNJbYE30TlIMLTzv6QCTzt9AqIF5y6s6SzVFILNcNvbV/jU96GeiTPillGQo+Ny64M/5PV7klNYYgv5Dfg==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    "@testing-library/dom" "^9.0.0"
+    "@types/react-dom" "^18.0.0"
 
 "@testing-library/user-event@^14.0.0":
   version "14.4.3"
@@ -7367,7 +7383,7 @@
     "@types/node" "*"
     form-data "^3.0.0"
 
-"@types/node@*", "@types/node@>= 8", "@types/node@>=12.12.47", "@types/node@>=13.7.0", "@types/node@^20.1.3":
+"@types/node@*", "@types/node@>=12.12.47", "@types/node@>=13.7.0", "@types/node@^20.1.3":
   version "20.1.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.1.3.tgz#bc8e7cd8065a5fc355a3a191a68db8019c58bc00"
   integrity sha512-NP2yfZpgmf2eDRPmgGq+fjGjSwFgYbihA8/gK+ey23qT9RkxsgNTZvGOEpXgzIGqesTYkElELLgtKoMQTys5vA==
@@ -7452,7 +7468,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
+"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17", "@types/react-dom@^18.0.0":
   version "17.0.20"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.20.tgz#e0c8901469d732b36d8473b40b679ad899da1b53"
   integrity sha512-4pzIjSxDueZZ90F52mU3aPoogkHIoSIDG+oQ+wQK7Cy2B9S+MvOqY0uEA/qawKz381qrEDkvpwyt8Bm31I8sbA==
@@ -15763,7 +15779,7 @@ luxon@^3.0.0, luxon@^3.0.1, luxon@^3.2.1, luxon@^3.3.0:
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.3.0.tgz#d73ab5b5d2b49a461c47cedbc7e73309b4805b48"
   integrity sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==
 
-lz-string@^1.4.4:
+lz-string@^1.4.4, lz-string@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/lz-string/-/lz-string-1.5.0.tgz#c1ab50f77887b712621201ba9fd4e3a6ed099941"
   integrity sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==
@@ -19276,19 +19292,19 @@ react-resize-detector@^2.3.0:
     resize-observer-polyfill "^1.5.0"
 
 react-router-dom@^6.3.0:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.10.0.tgz#090ddc5c84dc41b583ce08468c4007c84245f61f"
-  integrity sha512-E5dfxRPuXKJqzwSe/qGcqdwa18QiWC6f3H3cWXM24qj4N0/beCIf/CWTipop2xm7mR0RCS99NnaqPNjHtrAzCg==
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.11.1.tgz#af226bae950deb437208a606a47cf5c2d72c55dc"
+  integrity sha512-dPC2MhoPeTQ1YUOt5uIK376SMNWbwUxYRWk2ZmTT4fZfwlOvabF8uduRKKJIyfkCZvMgiF0GSCQckmkGGijIrg==
   dependencies:
-    "@remix-run/router" "1.5.0"
-    react-router "6.10.0"
+    "@remix-run/router" "1.6.1"
+    react-router "6.11.1"
 
-react-router@6.10.0, react-router@^6.3.0:
-  version "6.10.0"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.10.0.tgz#230f824fde9dd0270781b5cb497912de32c0a971"
-  integrity sha512-Nrg0BWpQqrC3ZFFkyewrflCud9dio9ME3ojHCF/WLsprJVzkq3q3UeEhMCAW1dobjeGbWgjNn/PVF6m46ANxXQ==
+react-router@6.11.1, react-router@^6.3.0:
+  version "6.11.1"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.11.1.tgz#6e58458c03e16834dda2b433c6adb9e7c2b1d7a8"
+  integrity sha512-OZINSdjJ2WgvAi7hgNLazrEV8SGn6xrKA+MkJe9wVDMZ3zQ6fdJocUjpCUCI0cNrelWjcvon0S/QK/j0NzL3KA==
   dependencies:
-    "@remix-run/router" "1.5.0"
+    "@remix-run/router" "1.6.1"
 
 react-side-effect@^2.1.0:
   version "2.1.2"
