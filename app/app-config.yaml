@@ -14,7 +14,7 @@ app:
         icon: chat
         links:
           - url: https://devxp-tech.slack.com/archives/C03L5M16CS2
-            title: '#backstage'
+            title: "#backstage"
 
 organization:
   name: DevXP Tech
@@ -31,8 +31,8 @@ backend:
     port: 7007
     host: 0.0.0.0
   csp:
-    connect-src: ["'self'", 'http:', 'https:']
-    img-src: ["'self'", 'data:', 'https://avatars.githubusercontent.com']
+    connect-src: ["'self'", "http:", "https:"]
+    img-src: ["'self'", "data:", "https://avatars.githubusercontent.com"]
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
@@ -76,11 +76,11 @@ integrations:
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
 techdocs:
-  builder: 'external' # Alternatives - 'local' or 'external'
+  builder: "external" # Alternatives - 'local' or 'external'
   # generator:
   #   runIn: 'local'
   publisher:
-    type: 'awsS3'
+    type: "awsS3"
     awsS3:
       bucketName: ${TECHDOCS_BUCKET}
       region: ${AWS_REGION}
@@ -89,7 +89,7 @@ techdocs:
         secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
 
 proxy:
-  '/argocd/api':
+  "/argocd/api":
     target: https://argocd.diegoluisi.eti.br/api/v1/
     changeOrigin: true
     # only if your argocd api has self-signed cert
@@ -98,13 +98,13 @@ proxy:
       Cookie:
         $env: ARGOCD_AUTH_TOKEN
 
-  '/grafana/api':
+  "/grafana/api":
     # May be an internal DNS
     target: https://grafana.diegoluisi.eti.br/
     headers:
       Authorization: Bearer ${GRAFANA_TOKEN}
 
-  '/prometheus/api':
+  "/prometheus/api":
     # url to the api and path of your hosted prometheus instance
     target: http://prometheus-server.monitoring.svc/api/v1/
 
@@ -117,7 +117,7 @@ proxy:
 
 sonarqube:
   baseUrl: https://sonar.diegoluisi.eti.br
-  apiKey: '${SONARQUBE_TOKEN}'
+  apiKey: "${SONARQUBE_TOKEN}"
 
 grafana:
   # Publicly accessible domain
@@ -135,10 +135,13 @@ auth:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
 
+dependabotAlertsConfiguration:
+  severity: [high, medium]
+
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
   defaultAuthor:
-    name: ':robot: [backstage-bot]'
+    name: ":robot: [backstage-bot]"
     email: backstage@devxp-tech.io
   # defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
 
@@ -148,14 +151,14 @@ catalog:
     github:
       # the provider ID can be any camelCase string
       providerId:
-        organization: 'devxp-tech' # string
-        catalogPath: '/catalog-info.yaml' # string
+        organization: "devxp-tech" # string
+        catalogPath: "/catalog-info.yaml" # string
         filters:
-          branch: 'main' # string
+          branch: "main" # string
           # repository: '.*' # Regex
           topic:
-            include: ['backstage-include'] # optional array of strings
-            exclude: ['backstage-exclude'] # optional array of strings
+            include: ["backstage-include"] # optional array of strings
+            exclude: ["backstage-exclude"] # optional array of strings
         schedule: # optional; same options as in TaskScheduleDefinition
           # supports cron, ISO duration, "human duration" as used in code
           frequency: { minutes: 30 }

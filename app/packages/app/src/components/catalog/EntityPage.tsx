@@ -68,6 +68,37 @@ import {
   RELATION_PROVIDES_API,
 } from '@backstage/catalog-model';
 
+import { EntityGithubInsightsContent } from '@roadiehq/backstage-plugin-github-insights';
+import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-github-pull-requests';
+import {
+  DependabotAlertsWidget,
+  isSecurityInsightsAvailable,
+  EntitySecurityInsightsContent,
+} from '@roadiehq/backstage-plugin-security-insights';
+import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
+import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
+import { EntityTodoContent } from '@backstage/plugin-todo';
+// import { SnykOverview, EntitySnykContent, isSnykAvailable } from 'backstage-plugin-snyk';
+
+
+import {
+  EntityArgoCDOverviewCard,
+  isArgocdAvailable
+} from '@roadiehq/backstage-plugin-argo-cd';
+
+import {
+  EntityGrafanaDashboardsCard,
+} from '@k-phoen/backstage-plugin-grafana';
+
+import {
+  EntityGrafanaAlertsCard,
+} from '@k-phoen/backstage-plugin-grafana';
+
+import {
+  // EntityPrometheusAlertCard,
+  EntityPrometheusContent,
+} from '@roadiehq/backstage-plugin-prometheus';
+
 const cicdContent = (
   // This is an example of how you can implement your company's logic in entity page.
   // You can for example enforce that all components of type 'service' should use GitHubActions
@@ -146,6 +177,14 @@ const overviewContent = (
       </EntitySwitch.Case>
     </EntitySwitch>
 
+    <EntitySwitch>
+      <EntitySwitch.Case if={isSecurityInsightsAvailable}>
+        <Grid item md={6}>
+          <DependabotAlertsWidget />
+        </Grid>
+      </EntitySwitch.Case>
+    </EntitySwitch>
+
     {/* <EntitySwitch>
       <EntitySwitch.Case if={isSnykAvailable}>
         <Grid item md={6}>
@@ -169,33 +208,6 @@ const overviewContent = (
   </Grid>
 );
 
-import { EntityGithubInsightsContent } from '@roadiehq/backstage-plugin-github-insights';
-import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-github-pull-requests';
-import { EntitySecurityInsightsContent } from '@roadiehq/backstage-plugin-security-insights';
-import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
-import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
-import { EntityTodoContent } from '@backstage/plugin-todo';
-// import { SnykOverview, EntitySnykContent, isSnykAvailable } from 'backstage-plugin-snyk';
-
-
-import {
-  EntityArgoCDOverviewCard,
-  isArgocdAvailable
-} from '@roadiehq/backstage-plugin-argo-cd';
-
-import {
-  EntityGrafanaDashboardsCard,
-} from '@k-phoen/backstage-plugin-grafana';
-
-import {
-  EntityGrafanaAlertsCard,
-} from '@k-phoen/backstage-plugin-grafana';
-
-import {
-  // EntityPrometheusAlertCard,
-  EntityPrometheusContent,
-} from '@roadiehq/backstage-plugin-prometheus';
-
 const serviceEntityPage = (
   <EntityLayout>
     <EntityLayout.Route path="/" title="Overview">
@@ -214,7 +226,7 @@ const serviceEntityPage = (
       {cicdContent}
     </EntityLayout.Route>
 
-    <EntityLayout.Route 
+    <EntityLayout.Route
       path="/code-insights"
       title="Code Insights">
       <EntityGithubInsightsContent />
@@ -232,7 +244,13 @@ const serviceEntityPage = (
       path="/security-insights"
       title="Security Insights">
       <EntitySecurityInsightsContent />
-    </EntityLayout.Route>    
+    </EntityLayout.Route>
+
+    <EntityLayout.Route
+      path="/dependabot"
+      title="Dependabot">
+      <EntityGithubDependabotContent />
+    </EntityLayout.Route>
 
     <EntityLayout.Route path="/api" title="API">
       <Grid container spacing={3} alignItems="stretch">
