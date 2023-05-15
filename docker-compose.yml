@@ -1,6 +1,7 @@
 version: "3.8"
 services:
-  app: &defaults
+  app:
+    &defaults
     command: sh -c 'yarn dev'
     hostname: backstage.local
     image: backstage:dev
@@ -26,9 +27,9 @@ services:
       - POSTGRES_DATABASE=backstage
       - SONARQUBE_TOKEN=$SONARQUBE_TOKEN
       - GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-      - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
-      - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
-      - AWS_REGION=$AWS_REGION
+      # - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
+      # - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
+      # - AWS_REGION=$AWS_REGION
       - TECHDOCS_BUCKET=$TECHDOCS_BUCKET
     depends_on:
       - postgres
@@ -43,7 +44,7 @@ services:
 
   cmd:
     <<: *defaults
-    working_dir:  /app
+    working_dir: /app
     volumes:
       - ./app:/app
 
