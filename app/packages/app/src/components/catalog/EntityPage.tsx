@@ -72,8 +72,9 @@ import { EntityGithubInsightsContent } from '@roadiehq/backstage-plugin-github-i
 import { EntityGithubPullRequestsContent } from '@roadiehq/backstage-plugin-github-pull-requests';
 import {
   DependabotAlertsWidget,
-  isSecurityInsightsAvailable,
+  EntityGithubDependabotContent,
   EntitySecurityInsightsContent,
+  isSecurityInsightsAvailable,
 } from '@roadiehq/backstage-plugin-security-insights';
 import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
 import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
