@@ -2650,10 +2650,10 @@
     "@backstage/types" "^1.0.2"
     lodash "^4.17.21"
 
-"@backstage/core-app-api@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.7.0.tgz#5a50fd95568a9f751f79f1234ee40e8aea004e1e"
-  integrity sha512-LutecBkyjN5eHQuSWO1mHKUk3/rVXgn6gVCiB5PjbDNIhvvJCvMwisXlz4YkL+8Y6+epuER+q3SleKpiT6u5kA==
+"@backstage/core-app-api@^1.7.0", "@backstage/core-app-api@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.8.0.tgz#b027cb069954041714be6bb0fba2802c10fa073a"
+  integrity sha512-oipXAcr8FT+Bd97MZ6yQ4GQ1coPsNJs0M/OsdfR6eWMjUmyigq4XpZ+NG5E6zK9jxIDjV/fauDkIAnR8HxC9gQ==
   dependencies:
     "@backstage/config" "^1.0.7"
     "@backstage/core-plugin-api" "^1.5.1"
@@ -3930,16 +3930,16 @@
     cross-fetch "^3.1.5"
 
 "@backstage/test-utils@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.3.0.tgz#40a2a702de4a7dfa2832c94aecd0104687f2a76b"
-  integrity sha512-R2cAEdn9xougNp7FVxDmkZ4QH7EWdw41VYZSnt195z9p94hDq7QxlaYzspZCbC1xQ6rzjBARUvc0w9D/Z/zc7A==
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.3.1.tgz#aac959c23a444544d679e56c93ea38772c09254a"
+  integrity sha512-f9B4vRRi21rsLuK15cUd8wfslFFxzqZ1Jv0JQc9e6hIT/N6k1p52lTHRFFg+nKEkfRz3x3pD8S+LGeYZHKSiIg==
   dependencies:
     "@backstage/config" "^1.0.7"
-    "@backstage/core-app-api" "^1.7.0"
+    "@backstage/core-app-api" "^1.8.0"
     "@backstage/core-plugin-api" "^1.5.1"
     "@backstage/plugin-permission-common" "^0.7.5"
     "@backstage/plugin-permission-react" "^0.4.12"
-    "@backstage/theme" "^0.2.19"
+    "@backstage/theme" "^0.3.0"
     "@backstage/types" "^1.0.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
