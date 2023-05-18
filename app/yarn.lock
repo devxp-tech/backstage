@@ -2580,28 +2580,7 @@
     yn "^4.0.0"
     zod "^3.21.4"
 
-"@backstage/config-loader@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.2.0.tgz#bfce0d76f910db8e4ce4fd90c4060b80d7e93ef5"
-  integrity sha512-V7WnumwiALYLozQzCLToABnj7Rl2hc5JE5W7+8X8TxgrbNwwCUbYHqh+ojIz+YCG0+bgUfV5FWkpaBF8I7Z7nQ==
-  dependencies:
-    "@backstage/cli-common" "^0.1.12"
-    "@backstage/config" "^1.0.7"
-    "@backstage/errors" "^1.1.5"
-    "@backstage/types" "^1.0.2"
-    "@types/json-schema" "^7.0.6"
-    ajv "^8.10.0"
-    chokidar "^3.5.2"
-    fs-extra "10.1.0"
-    json-schema "^0.4.0"
-    json-schema-merge-allof "^0.8.1"
-    json-schema-traverse "^1.0.0"
-    node-fetch "^2.6.7"
-    typescript-json-schema "^0.55.0"
-    yaml "^2.0.0"
-    yup "^0.32.9"
-
-"@backstage/config-loader@^1.3.0":
+"@backstage/config-loader@^1.2.0", "@backstage/config-loader@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.3.0.tgz#4dd1419617e88f5d796a7c8f471fcafdf029e7bd"
   integrity sha512-MWsWX5hYCK3HRZlypPSjJX2RGUgwAMOD3mwO+g/DhdhDH6k1ylbpDXrBUcUFXcz7CPFZwJD2E5Yooaq1KaFIVQ==
@@ -2835,14 +2814,14 @@
     swagger-ui-react "^4.11.1"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.44"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.44.tgz#afa7356e44b9d4fcf4916bfb1f8f2a79659278fb"
-  integrity sha512-YiwURHjznfSWdeW/uEDjODZXar71TiMBkelfz1PMcOkBOYvG2zSkbVR7gEesgsua1iQ5H6J8MPy6zrnDG7YaZQ==
+  version "0.3.45"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.45.tgz#5289fd359a884c1596e8780230f783008dbf86bc"
+  integrity sha512-rdKVghMDWFD1ry+8Hs45Keg770/6UXky5nFXjuQjGVaFz9BtHV8040IHVaSUOpEmSz/mbtMcFhUZNP8x/OqLkw==
   dependencies:
-    "@backstage/backend-common" "^0.18.4"
-    "@backstage/backend-plugin-api" "^0.5.1"
+    "@backstage/backend-common" "^0.18.5"
+    "@backstage/backend-plugin-api" "^0.5.2"
     "@backstage/config" "^1.0.7"
-    "@backstage/config-loader" "^1.2.0"
+    "@backstage/config-loader" "^1.3.0"
     "@backstage/types" "^1.0.2"
     "@types/express" "^4.17.6"
     express "^4.17.1"
