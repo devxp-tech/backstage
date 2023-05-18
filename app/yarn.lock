@@ -2414,25 +2414,7 @@
     express "^4.17.1"
     knex "^2.0.0"
 
-"@backstage/backend-tasks@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.5.1.tgz#b2a7e119db89bc1bd603e25bffdfbfc687af7b84"
-  integrity sha512-v7WglgF83ptqV9ukOYtXOT/YDi+bOrhK5nXBcustAEFzxgcBgCqMPKI5IrrmvbowFy/zXPOzmj2gB5r7kQ5xUg==
-  dependencies:
-    "@backstage/backend-common" "^0.18.4"
-    "@backstage/config" "^1.0.7"
-    "@backstage/errors" "^1.1.5"
-    "@backstage/types" "^1.0.2"
-    "@types/luxon" "^3.0.0"
-    cron "^2.0.0"
-    knex "^2.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-    uuid "^8.0.0"
-    winston "^3.2.1"
-    zod "^3.21.4"
-
-"@backstage/backend-tasks@^0.5.2":
+"@backstage/backend-tasks@^0.5.1", "@backstage/backend-tasks@^0.5.2":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.5.2.tgz#28403d5d979b4311983cc18df82633bcab24e977"
   integrity sha512-LZTDWutQ/xexv7Np3Q2TZIajgF+xzcRdTR1qTDnkuylpzWrYyXHggqBSkfCgSzGVDDLdWNkViyutALhZR2SePQ==
