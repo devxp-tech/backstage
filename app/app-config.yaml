@@ -115,6 +115,7 @@ proxy:
   #     Authorization:
   #       $env: SNYK_TOKEN
 
+
 sonarqube:
   baseUrl: https://sonar.devxp-tech.io
   apikey: ${SONARQUBE_TOKEN}
