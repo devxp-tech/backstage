@@ -115,10 +115,9 @@ proxy:
   #     Authorization:
   #       $env: SNYK_TOKEN
 
-
 sonarqube:
-  baseUrl: https://sonar.devxp-tech.io
-  apikey: ${SONARQUBE_TOKEN}
+  baseUrl: https://sonarqube.devxp-tech.io
+  apiKey: ${SONARQUBE_TOKEN}
 
 grafana:
   # Publicly accessible domain
