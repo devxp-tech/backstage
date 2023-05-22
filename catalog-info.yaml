@@ -19,7 +19,7 @@ metadata:
     - frontend
     - backstage
   links:
-    - url: https://backstage.diegoluisi.eti.br
+    - url: https://backstage.devxp-tech.io
       title: Backstage
       icon: cloud
 spec:
@@ -28,7 +28,7 @@ spec:
   owner: group:sre-team
   system: backstage
   #dependsOn: ['component:bob-cache', 'component:bob-db', 'component:bob-queue']
-  apiConsumedBy: ['system:backstage']
-  dependsOn: ['resource:backstage-db', 'resource:backstage-bucket']
+  apiConsumedBy: ["system:backstage"]
+  dependsOn: ["resource:backstage-db", "resource:backstage-bucket"]
   providesApis:
     - backstage
