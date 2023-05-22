@@ -90,7 +90,7 @@ techdocs:
 
 proxy:
   "/argocd/api":
-    target: https://argocd.diegoluisi.eti.br/api/v1/
+    target: https://argocd.devxp-tech.io/api/v1/
     changeOrigin: true
     # only if your argocd api has self-signed cert
     secure: true
@@ -100,7 +100,7 @@ proxy:
 
   "/grafana/api":
     # May be an internal DNS
-    target: https://grafana.diegoluisi.eti.br/
+    target: https://grafana.devxp-tech.io/
     headers:
       Authorization: Bearer ${GRAFANA_TOKEN}
 
@@ -121,7 +121,7 @@ sonarQube:
 
 grafana:
   # Publicly accessible domain
-  domain: https://grafana.diegoluisi.eti.br
+  domain: https://grafana.devxp-tech.io
 
 # auth:
 #   # see https://backstage.io/docs/auth/ to learn about auth providers
