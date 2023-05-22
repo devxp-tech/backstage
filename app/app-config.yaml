@@ -113,11 +113,15 @@ proxy:
   #   headers:
   #     User-Agent: tech-services/backstage-plugin/1.0
   #     Authorization:
-  #       $env: SNYK_TOKEN
+  #       $env: SNYK_TOKEN/
 
-sonarqube:
+"/sonarqube":
+  target: https://sonar.devxp-tech.io/api
+  allowedMethods: ["GET"]
+  auth: "${SONARQUBE_TOKEN}:"
+
+sonarQube:
   baseUrl: https://sonar.devxp-tech.io
-  apiKey: "${SONARQUBE_TOKEN}"
 
 grafana:
   # Publicly accessible domain
