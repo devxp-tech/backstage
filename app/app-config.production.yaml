@@ -1,6 +1,6 @@
 app:
   title: DevXP Technologies
-  baseUrl: https://backstage.diegoluisi.eti.br
+  baseUrl: https://backstage.devxp-tech.io
 
 backend:
   # Note that the baseUrl should be the URL that the browser and other clients
@@ -8,18 +8,18 @@ backend:
   # reachable not just from within the backend host, but from all of your
   # callers. When its value is "http://localhost:7007", it's strictly private
   # and can't be reached by others.
-  baseUrl: https://backstage.diegoluisi.eti.br
+  baseUrl: https://backstage.devxp-tech.io
   listen:
     port: 7007
     host: 0.0.0.0
 
   csp:
-    connect-src: ["'self'", 'http:', 'https:']
+    connect-src: ["'self'", "http:", "https:"]
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
 
   cors:
-    origin: https://backstage.diegoluisi.eti.br
+    origin: https://backstage.devxp-tech.io
     #methods: [GET, POST, PUT, DELETE]
     #credentials: true
   # config options: https://node-postgres.com/api/client
@@ -56,18 +56,17 @@ kubernetes:
           skipMetricsLookup: true
           serviceAccountToken: ${K8S_TOKEN}
 
-
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
 
 techdocs:
-  builder: 'external' # Alternatives - 'external'
+  builder: "external" # Alternatives - 'external'
   # generator:
   #   runIn: 'docker'
   publisher:
-    type: 'awsS3'
+    type: "awsS3"
     awsS3:
       bucketName: ${TECHDOCS_BUCKET}
       region: ${AWS_REGION}
