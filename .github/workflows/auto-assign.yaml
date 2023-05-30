@@ -1,0 +1,15 @@
+name: Auto Assign 🦾
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+
+jobs:
+  env:
+    uses: devxp-tech/.github/.github/workflows/auto-assign.yaml@main
+    secrets: inherit
+    with:
+      assignees: diegoluisi
+      numOfAssignee: 1
