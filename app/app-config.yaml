@@ -1,3 +1,6 @@
+organization:
+  name: DevXP Tech
+
 app:
   title: DevXP Tech Backstage - Development
   baseUrl: http://backstage.local:3000
@@ -15,9 +18,6 @@ app:
         links:
           - url: https://devxp-tech.slack.com/archives/C03L5M16CS2
             title: "#backstage"
-
-organization:
-  name: DevXP Tech
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
