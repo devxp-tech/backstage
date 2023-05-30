@@ -1,4 +1,3 @@
-
 import {
   createRouter,
   DefaultSonarqubeInfoProvider,
