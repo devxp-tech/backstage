@@ -161,6 +161,13 @@
     "@aws-sdk/types" "3.337.0"
     tslib "^2.5.0"
 
+"@aws-sdk/abort-controller@^3.310.0":
+  version "3.342.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/abort-controller/-/abort-controller-3.342.0.tgz#a84a5fc884d87ae4adfe852aa6a43effc63e7af1"
+  integrity sha512-W1lAYldbzDjfn8vwnwNe+6qNWfSu1+JrdiVIRSwsiwKvF2ahjKuaLoc8rJM09C6ieNWRi5634urFgfwAJuv6vg==
+  dependencies:
+    "@aws-sdk/types" "3.342.0"
+    tslib "^2.5.0"
 
 "@aws-sdk/chunked-blob-reader@3.310.0":
   version "3.310.0"
@@ -916,10 +923,10 @@
   dependencies:
     tslib "^2.5.0"
 
-"@aws-sdk/types@3.341.0":
-  version "3.341.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.341.0.tgz#b4282a2d3a9f7ae85650a4b61a80326588ca9400"
-  integrity sha512-2KJf64BhJly/Ty35oWKlCElIqUP4kQ0LA+meSrgAmwl7oE0AYuO7V0ar1nsTGlsubYkLRvOuEhMcuNuumaUdoQ==
+"@aws-sdk/types@3.342.0":
+  version "3.342.0"
+  resolved "https://registry.yarnpkg.com/@aws-sdk/types/-/types-3.342.0.tgz#0bcba3b5966f28e0725122697a19ece8647afbec"
+  integrity sha512-5uyXVda/AgUpdZNJ9JPHxwyxr08miPiZ/CKSMcRdQVjcNnrdzY9m/iM9LvnQT44sQO+IEEkF2IoZIWvZcq199A==
   dependencies:
     tslib "^2.5.0"
 
@@ -3218,9 +3225,9 @@
     "@kubernetes/client-node" "0.18.1"
 
 "@backstage/plugin-kubernetes@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.9.0.tgz#861cff107aa463026abe4208ebde3d68cadb6649"
-  integrity sha512-u7TV0+fisB4tDGkaGkBhYC+AlcKEXeODyVGpKbHgt7OGsZabMlGna+sGgsUNa37SYH+OB4o47OPrJZUEjC0wxQ==
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.9.1.tgz#83b3f05c038c94f9a0672942aca3039fbaa7d59d"
+  integrity sha512-QsNUGKxc6QX685DlsmfOHmCO4hT8f8Z0Hk6wY93VuQK6vQZ2h626gDQEDabyoy70/lDceyWMsBrDu/D5ROTIUA==
   dependencies:
     "@backstage/catalog-model" "^1.3.0"
     "@backstage/config" "^1.0.7"
@@ -6015,15 +6022,9 @@
     lodash-es "^4.17.15"
 
 "@roadiehq/backstage-plugin-argo-cd@^2.2.12":
-<<<<<<< HEAD
-  version "2.2.14"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.2.14.tgz#48498dab5a6eb5bbf616b071aa6e67d211240e6a"
-  integrity sha512-c7kS7QwdVsZZLtkr6E+1s/QXfNBz5RK15coWpFa2VqRJi3Z/0Eg7PFbTPSTabAPfNnrkTAN1t0VrFC++AJEp1g==
-=======
   version "2.2.13"
   resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.2.13.tgz#75c75faae8bd2881edbd0b21aae902f064dc92d4"
   integrity sha512-8D63PRlL4D957icvPWY946aXfBBWLjZ60IKEziODLd0noptBC1pxbY0Uehn4q0HbaU9LkeNSZrtNdCJab1wVig==
->>>>>>> 29620dc8 (hotfix/dependabot Update Dependencies  (#164))
   dependencies:
     "@backstage/catalog-model" "^1.3.0"
     "@backstage/core-components" "^0.13.0"
@@ -10628,7 +10629,6 @@ dataloader@^2.0.0:
   resolved "https://registry.yarnpkg.com/dataloader/-/dataloader-2.2.2.tgz#216dc509b5abe39d43a9b9d97e6e5e473dfbe3e0"
   integrity sha512-8YnDaaf7N3k/q5HnTJVuzSyLETjoZjVmHc4AeKAzOvKHEFQKcn64OKBfzHYtE9zGjctNM7V9I0MfnUVLpi7M5g==
 
-<<<<<<< HEAD
 date-fns@^2.16.1, date-fns@^2.21.1, date-fns@^2.29.3:
   version "2.30.0"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
