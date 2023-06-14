@@ -1,7 +1,7 @@
 # Backstage
 
 [![main](https://github.com/devxp-tech/backstage/actions/workflows/main.yaml/badge.svg)](https://github.com/devxp-tech/backstage/actions/workflows/main.yaml)
-[![Quality Gate Status](https://sonar.devxp-tech.io/api/project_badges/measure?project=backstage&metric=alert_status&token=sqb_74c9f64189d6254e4a656602ea00fc84f25ad5f5)](https://sonar.devxp-tech.io/dashboard?id=backstage)
+[![Quality Gate Status](https://sonar.devxp-tech.io/api/project_badges/measure?project=backstage&metric=alert_status&token=sqb_66b4ef3606ea0e1e3fa5ceec3d643dd0158586a8)](https://sonar.devxp-tech.io/dashboard?id=backstage)
 [![App Status](https://argocd.devxp-tech.io/api/badge?name=backstage-prd&revision=true)](https://argocd.devxp-tech.io/applications/backstage-prd)
 
 ## Backstage - IDP
@@ -11,7 +11,7 @@
 | Name                      | Where to get?                                                                                                   |
 | :------------------------ | :-------------------------------------------------------------------------------------------------------------- |
 | GITHUB_ACCESS_TOKEN       | Generate a new personal access token in [GIthub Secure page](https://github.com/settings/tokens)                |
-| AUTH_GITHUB_CLIENT_ID     | Get in [Github app ID](https://github.com/organizations/devxp-tech/settings/applications/1927877)             |
+| AUTH_GITHUB_CLIENT_ID     | Get in [Github app ID](https://github.com/organizations/devxp-tech/settings/applications/1927877)               |
 | AUTH_GITHUB_CLIENT_SECRET | Open a tiket to Devxp to share this value                                                                       |
 | SONARQUBE_TOKEN           | Create a `Sonarqube` token using this [documentation](https://docs.sonarqube.org/latest/user-guide/user-token/) |
 
