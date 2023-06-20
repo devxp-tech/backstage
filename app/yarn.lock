@@ -3535,14 +3535,14 @@
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.12.tgz#8e1ea10da38554b9bc910e0da532b73af4669a2f"
   integrity sha512-CoXAcIQprLAuk4gsJyqrZHRyZ5Mpfpr87lBzhSBWgriMTVgKH5bfMqZmGzm5TTZRlOIX09RLINp9e3kLkfO3Fg==
 
-"@backstage/cli-node@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.1.0.tgz#187e4ce67536971bdcf13bd3f6f4bdd8962a302a"
-  integrity sha512-BP9F5VACQueW/PClvXg1N7NNcsSXNOzW87CDuAe4HzO1H6rBmT13i18HdX7JjHdBLQvwi+vy/yLt4Viejr4Rug==
+"@backstage/cli-node@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.1.1.tgz#c6410a52411262780730543f9d4726a49a72818a"
+  integrity sha512-Mvx/TTMT3/ctfliMEWnA82H9ElyRWgAY30t5M8Vkcoi7BHm11DC8URhFB+hLcThV7yTdO2FzMIk6/z9szHW6Zw==
   dependencies:
     "@backstage/cli-common" "^0.1.12"
-    "@backstage/errors" "^1.1.5"
-    "@backstage/types" "^1.0.2"
+    "@backstage/errors" "^1.2.0"
+    "@backstage/types" "^1.1.0"
     "@manypkg/get-packages" "^1.1.3"
     "@yarnpkg/parsers" "^3.0.0-rc.4"
     fs-extra "10.1.0"
@@ -3550,20 +3550,24 @@
     zod "^3.21.4"
 
 "@backstage/cli@^0.22.6":
-  version "0.22.7"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.22.7.tgz#777fb9be41c541b404567b1460356398888b13ae"
-  integrity sha512-+lhTVNMIuN2C1tiasTRydoO9F9QYQwXJT87eQODvRzw590oi4cyD51BaZYdXy4w8pcaOUn1Vcs52pb5JGKwdfQ==
+  version "0.22.8"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.22.8.tgz#b03efa5fc0db643a240ff5ede614faa5d03505cb"
+  integrity sha512-MSI8fgouvrw8OMqnC9UaryMy7lqGMj5aqq+KItrxO7GxCIIhfjROestSZb3MBMA6KNsSCXkVPiBDCA/Ok/RneQ==
   dependencies:
+    "@backstage/catalog-model" "^1.4.0"
     "@backstage/cli-common" "^0.1.12"
-    "@backstage/cli-node" "^0.1.0"
-    "@backstage/config" "^1.0.7"
-    "@backstage/config-loader" "^1.3.0"
-    "@backstage/errors" "^1.1.5"
+    "@backstage/cli-node" "^0.1.1"
+    "@backstage/config" "^1.0.8"
+    "@backstage/config-loader" "^1.3.1"
+    "@backstage/errors" "^1.2.0"
     "@backstage/eslint-plugin" "^0.1.3"
+    "@backstage/integration" "^1.5.0"
     "@backstage/release-manifests" "^0.0.9"
-    "@backstage/types" "^1.0.2"
+    "@backstage/types" "^1.1.0"
     "@esbuild-kit/cjs-loader" "^2.4.1"
     "@manypkg/get-packages" "^1.1.3"
+    "@octokit/graphql" "^5.0.0"
+    "@octokit/graphql-schema" "^13.7.0"
     "@octokit/oauth-app" "^4.2.0"
     "@octokit/request" "^6.0.0"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
@@ -3594,6 +3598,7 @@
     chalk "^4.0.0"
     chokidar "^3.3.1"
     commander "^9.1.0"
+    cross-fetch "^3.1.5"
     cross-spawn "^7.0.3"
     css-loader "^6.5.1"
     diff "^5.0.0"
@@ -3612,6 +3617,7 @@
     express "^4.17.1"
     fork-ts-checker-webpack-plugin "^7.0.0-alpha.8"
     fs-extra "10.1.0"
+    git-url-parse "^13.0.0"
     glob "^7.1.7"
     global-agent "^3.0.0"
     handlebars "^4.7.3"
@@ -4060,15 +4066,6 @@
     zod "^3.21.4"
 
 "@backstage/plugin-catalog-common@^1.0.13", "@backstage/plugin-catalog-common@^1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.0.14.tgz#2f1e1ea5b5a651c3659bf3a2c39e8d90730ad94e"
-  integrity sha512-0LWt3HRjyvVcx36s1+dGRQEdLW7UvO80MRKpJk+JKlgtf1jYl0W2j8AzXzB6YO6dMh06KKujkNqLUrzUx3ch6A==
-  dependencies:
-    "@backstage/catalog-model" "^1.4.0"
-    "@backstage/plugin-permission-common" "^0.7.6"
-    "@backstage/plugin-search-common" "^1.2.4"
-
-"@backstage/plugin-catalog-common@^1.0.14":
   version "1.0.14"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.0.14.tgz#2f1e1ea5b5a651c3659bf3a2c39e8d90730ad94e"
   integrity sha512-0LWt3HRjyvVcx36s1+dGRQEdLW7UvO80MRKpJk+JKlgtf1jYl0W2j8AzXzB6YO6dMh06KKujkNqLUrzUx3ch6A==
@@ -6783,6 +6780,14 @@
     "@octokit/types" "^9.0.0"
     is-plain-object "^5.0.0"
     universal-user-agent "^6.0.0"
+
+"@octokit/graphql-schema@^13.7.0":
+  version "13.10.0"
+  resolved "https://registry.yarnpkg.com/@octokit/graphql-schema/-/graphql-schema-13.10.0.tgz#7e47d846a7f3f0f57e23ad5fcd75dcfd57fea967"
+  integrity sha512-D9ci/oCYOIea/AFmWUxD67aMaoMw392Nu4sxaO+kW+w/aeDeyECpGuztzXASyCn53ROPTweAg1fk7Payzmu5xQ==
+  dependencies:
+    graphql "^16.0.0"
+    graphql-tag "^2.10.3"
 
 "@octokit/graphql@^5.0.0":
   version "5.0.6"
@@ -13998,6 +14003,13 @@ graphql-language-service@^5.0.6:
   dependencies:
     nullthrows "^1.0.0"
     vscode-languageserver-types "^3.17.1"
+
+graphql-tag@^2.10.3:
+  version "2.12.6"
+  resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.12.6.tgz#d441a569c1d2537ef10ca3d1633b48725329b5f1"
+  integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
+  dependencies:
+    tslib "^2.1.0"
 
 graphql-ws@^5.4.1:
   version "5.13.1"
