@@ -15,10 +15,10 @@ jobs:
         id: dependabot-metadata
         uses: dependabot/fetch-metadata@v1.4.0
 
-      - name: Enable Pull Request Automerge
-        run: gh pr merge --merge --auto "1"
-        env:
-          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+#       - name: Enable Pull Request Automerge
+#         run: gh pr merge --merge --auto "1"
+#         env:
+#           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Enable auto-merge for Dependabot PRs
         run: gh pr merge --auto --merge "$PR_URL"
