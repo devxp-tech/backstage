@@ -3353,24 +3353,36 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@backstage/plugin-home@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-home/-/plugin-home-0.5.2.tgz#9a2609fed8e7ab3a7d88921ceb94eb97f6b2aef0"
-  integrity sha512-MFrIjz6mGw28pCw8F4e1R+2+uVGB+XP8tEoIOpxTA1YIQOuoAub4cKJ+iRdCd41yskqGjckZ14pjnwR3bmwoZQ==
+"@backstage/plugin-home-react@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-home-react/-/plugin-home-react-0.1.0.tgz#43140c47f65e973a4d3019f0ef8d7921b392b86a"
+  integrity sha512-ILlrnDMb8EO0q5cESCwemtW/GjsZpBfJ5NaCe8Ir9eFWZESvrsCymLh7v/ap1pN5nUa+sT5NsQtXcaRUaN1oHg==
   dependencies:
-    "@backstage/catalog-model" "^1.3.0"
-    "@backstage/config" "^1.0.7"
-    "@backstage/core-components" "^0.13.1"
-    "@backstage/core-plugin-api" "^1.5.1"
-    "@backstage/plugin-catalog-react" "^1.6.0"
-    "@backstage/theme" "^0.3.0"
+    "@backstage/core-components" "^0.13.2"
+    "@backstage/core-plugin-api" "^1.5.2"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@rjsf/utils" "5.7.3"
+
+"@backstage/plugin-home@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-home/-/plugin-home-0.5.3.tgz#3fa0dbe8394d3bd2dd0251c6ad6b60cbdaa2277d"
+  integrity sha512-t4CdQpmDbe5+x4p8YgaW9DcEsvb7GAPcss5/7EpduuXIuRESdeZkFl8i1bGa0TB4Aw9ey19VWIgJKr2J3jjgUg==
+  dependencies:
+    "@backstage/catalog-model" "^1.4.0"
+    "@backstage/config" "^1.0.8"
+    "@backstage/core-components" "^0.13.2"
+    "@backstage/core-plugin-api" "^1.5.2"
+    "@backstage/plugin-catalog-react" "^1.7.0"
+    "@backstage/plugin-home-react" "^0.1.0"
+    "@backstage/theme" "^0.4.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
-    "@rjsf/core-v5" "npm:@rjsf/core@5.6.0"
-    "@rjsf/material-ui" "5.6.0"
-    "@rjsf/utils" "5.6.0"
-    "@rjsf/validator-ajv8" "5.6.0"
+    "@rjsf/core-v5" "npm:@rjsf/core@5.7.3"
+    "@rjsf/material-ui" "5.7.3"
+    "@rjsf/utils" "5.7.3"
+    "@rjsf/validator-ajv8" "5.7.3"
     "@types/react" "^16.13.1 || ^17.0.0"
     lodash "^4.17.21"
     react-grid-layout "^1.3.4"
@@ -6220,17 +6232,6 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.7.0.tgz#550a8d5760b78efc5d60f62b5829b0f74c1fde81"
   integrity sha512-Eu1V3kz3mV0wUpVTiFHuaT8UD1gj/0VnoFHQYX35xlslQUpe8CuYoKFn9d4WZFHm3yDywz6ALZuGdnUPKrNeAw==
 
-"@rjsf/core-v5@npm:@rjsf/core@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@rjsf/core/-/core-5.6.0.tgz#2dd103fbd10b2c9ee7574753d152d1ce46880968"
-  integrity sha512-F61pIBgTrLzvGZvM16aGUUvro5QIDtI5pDdy24cfs5d9w1C/2Vc6Du6QMkml4d6B232IfQtYNHVo4Sg/8U3IYg==
-  dependencies:
-    lodash "^4.17.15"
-    lodash-es "^4.17.15"
-    markdown-to-jsx "^7.2.0"
-    nanoid "^3.3.4"
-    prop-types "^15.7.2"
-
 "@rjsf/core-v5@npm:@rjsf/core@5.7.3":
   version "5.7.3"
   resolved "https://registry.yarnpkg.com/@rjsf/core/-/core-5.7.3.tgz#7d49b65a6f9bad5fa9773d25473f361f1b6a71de"
@@ -6257,31 +6258,16 @@
     prop-types "^15.7.2"
     react-is "^16.9.0"
 
-"@rjsf/material-ui-v5@npm:@rjsf/material-ui@5.7.3":
+"@rjsf/material-ui-v5@npm:@rjsf/material-ui@5.7.3", "@rjsf/material-ui@5.7.3":
+  name "@rjsf/material-ui-v5"
   version "5.7.3"
   resolved "https://registry.yarnpkg.com/@rjsf/material-ui/-/material-ui-5.7.3.tgz#2f8c35d83f7d53c748804031c7f78c299ce98f00"
   integrity sha512-PeaVjiBhw8N1PxGzcC03gE/eq3Kcu6p84i0EI80A0VFQ5Xbu2V2YI0Bc4imiXehbCn+AthMt6zzBZXKlbhu+Sw==
-
-"@rjsf/material-ui@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@rjsf/material-ui/-/material-ui-5.6.0.tgz#f547dfd17e24036ba1e495760d16cbce6d5da985"
-  integrity sha512-e2YMo2XfgPaHuzh5A18Dw+k33n52Mr2AaGEAkrWPI83yar6i+XT4RZLUp1VwO9pm0PqahKBtyvTEyV+ewdLmWQ==
 
 "@rjsf/material-ui@^3.2.1":
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/@rjsf/material-ui/-/material-ui-3.2.1.tgz#84fbf322485aee3a84101e189161f0687779ec8d"
   integrity sha512-8UiDeDbjCImFSfOegGu13otQ7OdP9FOYpcLjeouppnhs+MPeIEAtYS+jCcBKmi3reyTagC15/KVSRhde1wS1vg==
-
-"@rjsf/utils@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@rjsf/utils/-/utils-5.6.0.tgz#0edfd9d099b45da6310f406be507d7b1703ae5aa"
-  integrity sha512-R7PkIu6Ea+DlPlUrWM0LSJ8aFxz/gAUs4yACgTwg03f55vD1efTmYg6McscY5AuFLYCp841fjGJlnRLac0kVcQ==
-  dependencies:
-    json-schema-merge-allof "^0.8.1"
-    jsonpointer "^5.0.1"
-    lodash "^4.17.15"
-    lodash-es "^4.17.15"
-    react-is "^18.2.0"
 
 "@rjsf/utils@5.7.3":
   version "5.7.3"
@@ -6293,16 +6279,6 @@
     lodash "^4.17.21"
     lodash-es "^4.17.21"
     react-is "^18.2.0"
-
-"@rjsf/validator-ajv8@5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@rjsf/validator-ajv8/-/validator-ajv8-5.6.0.tgz#6e34c47f9ab0e2fa054bc525b3e22ef3f09bd503"
-  integrity sha512-QVBE7khOAW67BPk+1KG4agF/P1lQ00oGjqGZU9lkObDAMaVxRo20585+a81AWdz+TJh0tBtBMrhTZuIh14fjMw==
-  dependencies:
-    ajv "^8.12.0"
-    ajv-formats "^2.1.1"
-    lodash "^4.17.15"
-    lodash-es "^4.17.15"
 
 "@rjsf/validator-ajv8@5.7.3":
   version "5.7.3"
@@ -6360,15 +6336,15 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^2.5.8":
-  version "2.5.12"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.5.12.tgz#7ef3a99c1d71030eacafa2aa964c0bcc06886d09"
-  integrity sha512-WjrrAcBIpCXjTIuLXzfWLVCK8PqDnPalLXuam+bWIxSt8rA0D22Nk/lnTxywAWWzDgT3mRrAy4j/TZ2ZU9dZfg==
+  version "2.5.13"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.5.13.tgz#b0606d5662e895decd054a475a4c2eb9df8b9aeb"
+  integrity sha512-N1rIdP0e8e8QbtQi8uTWPw58Fy28VmdqZMdaRw1QmFSMAcbrCrgW+TYJvaIvLftwd4vi6FvyPiEOKK9QuLju3Q==
   dependencies:
-    "@backstage/catalog-model" "^1.3.0"
-    "@backstage/core-components" "^0.13.1"
-    "@backstage/core-plugin-api" "^1.5.1"
-    "@backstage/plugin-catalog-react" "^1.6.0"
-    "@backstage/plugin-home" "^0.5.2"
+    "@backstage/catalog-model" "^1.4.0"
+    "@backstage/core-components" "^0.13.2"
+    "@backstage/core-plugin-api" "^1.5.2"
+    "@backstage/plugin-catalog-react" "^1.7.0"
+    "@backstage/plugin-home" "^0.5.3"
     "@material-ui/core" "^4.11.0"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.60"
@@ -15667,7 +15643,7 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
-lodash-es@^4.17.15, lodash-es@^4.17.21:
+lodash-es@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
@@ -16911,7 +16887,7 @@ nanoclone@^0.2.1:
   resolved "https://registry.yarnpkg.com/nanoclone/-/nanoclone-0.2.1.tgz#dd4090f8f1a110d26bb32c49ed2f5b9235209ed4"
   integrity sha512-wynEP02LmIbLpcYw8uBKpcfF6dmg2vcpKqxeH5UcoKEYdExslsdUA4ugFauuaeYdTB76ez6gJW8XAZ6CgkXYxA==
 
-nanoid@^3.1.23, nanoid@^3.3.4, nanoid@^3.3.6:
+nanoid@^3.1.23, nanoid@^3.3.6:
   version "3.3.6"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
