@@ -4160,13 +4160,6 @@
   dependencies:
     "@material-ui/core" "^4.12.2"
 
-"@backstage/theme@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.3.0.tgz#453f1200578dac1a9e65182cccceb6e5bac14b50"
-  integrity sha512-em6tubxECvYBEJrboPGwc0pEtt0BZD0ujPSHbxXMslUfhpMfGELYvfupKmegm//iQl8D6wP8D/B6tIMx5YvjtQ==
-  dependencies:
-    "@material-ui/core" "^4.12.2"
-
 "@backstage/theme@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.4.0.tgz#37d3dca1bb4b18353afb03f821cb6bbcbea1af4c"
@@ -8496,7 +8489,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/plugin-techdocs-react" "^1.1.5"
     "@backstage/plugin-todo" "^0.2.19"
     "@backstage/plugin-user-settings" "^0.7.2"
-    "@backstage/theme" "^0.3.0"
+    "@backstage/theme" "^0.4.0"
     "@k-phoen/backstage-plugin-grafana" "^0.1.22"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
