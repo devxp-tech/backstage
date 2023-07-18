@@ -2602,6 +2602,19 @@
     lodash "^4.17.21"
     uuid "^8.0.0"
 
+"@backstage/catalog-model@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.4.1.tgz#8d57217647a3eef68ad7c7c268af573be9974201"
+  integrity sha512-RpPhE15B9HMMKHLuPwRyi8cXVcX10FZpK0N767t/Nxplin8NALacKXSOa4jNqVXqj3ZYULeJHri0/dI6y4C5Iw==
+  dependencies:
+    "@backstage/config" "^1.0.8"
+    "@backstage/errors" "^1.2.1"
+    "@backstage/types" "^1.1.0"
+    ajv "^8.10.0"
+    json-schema "^0.4.0"
+    lodash "^4.17.21"
+    uuid "^8.0.0"
+
 "@backstage/cli-common@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.12.tgz#8e1ea10da38554b9bc910e0da532b73af4669a2f"
@@ -2886,6 +2899,15 @@
     zen-observable "^0.10.0"
 
 "@backstage/errors@^1.1.5", "@backstage/errors@^1.2.0", "@backstage/errors@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.1.tgz#07e794c5c48488bade6df7759c3d8f3124594199"
+  integrity sha512-h/sMf/scTmlImVHToXTHatb1jRR1BRkdbFxRC3APNg/16TlnVgmgyNzrkYFm/hFyDHqrdyfhU+bs9l6+LNjD3w==
+  dependencies:
+    "@backstage/types" "^1.1.0"
+    cross-fetch "^3.1.5"
+    serialize-error "^8.0.1"
+
+"@backstage/errors@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.1.tgz#07e794c5c48488bade6df7759c3d8f3124594199"
   integrity sha512-h/sMf/scTmlImVHToXTHatb1jRR1BRkdbFxRC3APNg/16TlnVgmgyNzrkYFm/hFyDHqrdyfhU+bs9l6+LNjD3w==
@@ -3912,16 +3934,16 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-module-addons-contrib@^1.0.12":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.0.14.tgz#c4de6565386a6408c307772f95866e90a846967d"
-  integrity sha512-R8I5fF3lil1M0q0t1LkEesCALf4uwEvbfODG1TQQKSrBujZKCCXf9IamZm5piB5yK8DQAHPP6NRZyAQfPV8arw==
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.0.15.tgz#943e1af1d44ee93a73c09bb45305957ec64099a6"
+  integrity sha512-wrYdUnWHKaJpn5vCr3azGgEB45SQ8AiFr3ZKMIpksq8l39K3Lg/uAWYIJjAsqHpR11/PeSqBIowsMyn9kJ4Qqw==
   dependencies:
-    "@backstage/core-components" "^0.13.2"
-    "@backstage/core-plugin-api" "^1.5.2"
-    "@backstage/integration" "^1.5.0"
-    "@backstage/integration-react" "^1.1.14"
-    "@backstage/plugin-techdocs-react" "^1.1.7"
-    "@backstage/theme" "^0.4.0"
+    "@backstage/core-components" "^0.13.3"
+    "@backstage/core-plugin-api" "^1.5.3"
+    "@backstage/integration" "^1.5.1"
+    "@backstage/integration-react" "^1.1.15"
+    "@backstage/plugin-techdocs-react" "^1.1.8"
+    "@backstage/theme" "^0.4.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
