@@ -3839,32 +3839,32 @@
     winston "^3.2.1"
     yn "^5.0.0"
 
-"@backstage/plugin-sonarqube-react@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.6.tgz#b417eabc0a1c9ee93a74c77bbc58bf2e6a3987dc"
-  integrity sha512-JvwFT+dHDaEs4DAhC/IRGJkXX+C0VGiIrK0fPWyye9r0TKk44nXOHv82v/k6urzWVeByUYGuhUfGvkgszA/vgg==
+"@backstage/plugin-sonarqube-react@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.7.tgz#15f379f5e32a952d2f8d823d4438d5b2acc06d24"
+  integrity sha512-QZAKcQGE6UNHaCtWHxiNBH58USfX80oG6gH1eKlgXVHRIH73I5R35+h5/vygM69wnxLYvyi7Oh/ptVsNivwjvA==
   dependencies:
-    "@backstage/catalog-model" "^1.4.0"
-    "@backstage/core-plugin-api" "^1.5.2"
+    "@backstage/catalog-model" "^1.4.1"
+    "@backstage/core-plugin-api" "^1.5.3"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.0.tgz#d71d64ade638894dfd7fd887e4dedaa559425cb5"
-  integrity sha512-SKgAqB4QDUaC05au6mV5t0GrGqfntG+muMGa97suqTn/+HuZgLtN0d27SWk46cLBLThntIQL/NMQo4fSLfPh1A==
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.1.tgz#48340325ee672ff55a338c853c52db214d5b2165"
+  integrity sha512-Xj45LAcdoDNRt8Gzn83Q1p/GSBSivR6DbSQrSW2i0S+vRDIfWO0FL3guxtS2OBHQqSIWhSB7WGqeP/2SZwd0kA==
   dependencies:
-    "@backstage/catalog-model" "^1.4.0"
-    "@backstage/core-components" "^0.13.2"
-    "@backstage/core-plugin-api" "^1.5.2"
-    "@backstage/plugin-catalog-react" "^1.7.0"
-    "@backstage/plugin-sonarqube-react" "^0.1.6"
-    "@backstage/theme" "^0.4.0"
+    "@backstage/catalog-model" "^1.4.1"
+    "@backstage/core-components" "^0.13.3"
+    "@backstage/core-plugin-api" "^1.5.3"
+    "@backstage/plugin-catalog-react" "^1.8.0"
+    "@backstage/plugin-sonarqube-react" "^0.1.7"
+    "@backstage/theme" "^0.4.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
     "@material-ui/styles" "^4.10.0"
     cross-fetch "^3.1.5"
     luxon "^3.0.0"
-    rc-progress "3.4.1"
+    rc-progress "3.4.2"
     react-use "^17.2.4"
 
 "@backstage/plugin-tech-radar@^0.6.3":
@@ -4105,15 +4105,6 @@
     "@material-ui/core" "^4.12.2"
 
 "@backstage/theme@^0.4.0", "@backstage/theme@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.4.1.tgz#7156a7e781ed8cc42d767cba2f1c7f26e957200d"
-  integrity sha512-WtCh8y3SBOXAqOUKZVgHDyBbz6fxUF4e08o00+EuXHqpYmYJlVfMvTKcPGM2Ngs2bQ2fSi3+XOJeYnnasjs6Qg==
-  dependencies:
-    "@emotion/react" "^11.10.5"
-    "@emotion/styled" "^11.10.5"
-    "@mui/material" "^5.12.2"
-
-"@backstage/theme@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.4.1.tgz#7156a7e781ed8cc42d767cba2f1c7f26e957200d"
   integrity sha512-WtCh8y3SBOXAqOUKZVgHDyBbz6fxUF4e08o00+EuXHqpYmYJlVfMvTKcPGM2Ngs2bQ2fSi3+XOJeYnnasjs6Qg==
