@@ -2602,19 +2602,6 @@
     lodash "^4.17.21"
     uuid "^8.0.0"
 
-"@backstage/catalog-model@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.4.1.tgz#8d57217647a3eef68ad7c7c268af573be9974201"
-  integrity sha512-RpPhE15B9HMMKHLuPwRyi8cXVcX10FZpK0N767t/Nxplin8NALacKXSOa4jNqVXqj3ZYULeJHri0/dI6y4C5Iw==
-  dependencies:
-    "@backstage/config" "^1.0.8"
-    "@backstage/errors" "^1.2.1"
-    "@backstage/types" "^1.1.0"
-    ajv "^8.10.0"
-    json-schema "^0.4.0"
-    lodash "^4.17.21"
-    uuid "^8.0.0"
-
 "@backstage/cli-common@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.12.tgz#8e1ea10da38554b9bc910e0da532b73af4669a2f"
@@ -2899,15 +2886,6 @@
     zen-observable "^0.10.0"
 
 "@backstage/errors@^1.1.5", "@backstage/errors@^1.2.0", "@backstage/errors@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.1.tgz#07e794c5c48488bade6df7759c3d8f3124594199"
-  integrity sha512-h/sMf/scTmlImVHToXTHatb1jRR1BRkdbFxRC3APNg/16TlnVgmgyNzrkYFm/hFyDHqrdyfhU+bs9l6+LNjD3w==
-  dependencies:
-    "@backstage/types" "^1.1.0"
-    cross-fetch "^3.1.5"
-    serialize-error "^8.0.1"
-
-"@backstage/errors@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.1.tgz#07e794c5c48488bade6df7759c3d8f3124594199"
   integrity sha512-h/sMf/scTmlImVHToXTHatb1jRR1BRkdbFxRC3APNg/16TlnVgmgyNzrkYFm/hFyDHqrdyfhU+bs9l6+LNjD3w==
@@ -3733,26 +3711,7 @@
     p-limit "^3.1.0"
     winston "^3.2.1"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.2.tgz#2cd261cfba2efeeca83e7e8b08a81956c125d095"
-  integrity sha512-wLUV0kGngzrQQtkukL7cS8oVGVMNzBUwN+rzSxEfOKoYfUkCiO0/rn8K5w5esZI69SHO6xrkgNiFpZXj/6KvKQ==
-  dependencies:
-    "@backstage/backend-common" "^0.19.0"
-    "@backstage/backend-plugin-api" "^0.5.3"
-    "@backstage/backend-tasks" "^0.5.3"
-    "@backstage/config" "^1.0.8"
-    "@backstage/errors" "^1.2.0"
-    "@backstage/plugin-permission-common" "^0.7.6"
-    "@backstage/plugin-search-common" "^1.2.4"
-    "@types/lunr" "^2.3.3"
-    lodash "^4.17.21"
-    lunr "^2.3.9"
-    ndjson "^2.0.0"
-    uuid "^8.3.2"
-    winston "^3.2.1"
-
-"@backstage/plugin-search-backend-node@^1.2.3":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.2", "@backstage/plugin-search-backend-node@^1.2.3":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.3.tgz#1ac0e9cdbed8e77e60b35ddd45712b1b84fe8edc"
   integrity sha512-ySZEp6EhpRiVgW/I9azEoCNEnSYhI332IxroZDltIeJMgfOFAUx3SJlHUpCRh7ieHT3UhJqEKVkCcXlc/snMPA==
@@ -3986,7 +3945,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.1.7", "@backstage/plugin-techdocs-react@^1.1.8":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.1.8":
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.1.8.tgz#5bfb3369f70c65acbc4dbee4f880c4293ecfe970"
   integrity sha512-BcFKQCdodcuQiXjdUwaS/nZvBgoL3HHIgvo3Ue7xlZWFR+dhLCjBGzuNEV0lrrDC63ik4sbkJUPlMXOTt/Uu2g==
