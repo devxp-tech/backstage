@@ -3039,7 +3039,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-auth-node@^0.2.13", "@backstage/plugin-auth-node@^0.2.15", "@backstage/plugin-auth-node@^0.2.16":
+"@backstage/plugin-auth-node@^0.2.13", "@backstage/plugin-auth-node@^0.2.16":
   version "0.2.16"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.2.16.tgz#39b50d0a62fc50f4e17bf411a4819345b5e68923"
   integrity sha512-wJG1eERzsbZJ2u2ovhyXWmWTpMDgdB9BV1YX9BLUdPPYjgzjXDEtgz6TaSZuEC33DVekLzfRc5isnb6tTlT+rg==
@@ -3426,7 +3426,7 @@
     uuid "^8.0.0"
     zod "^3.21.4"
 
-"@backstage/plugin-permission-node@^0.7.10", "@backstage/plugin-permission-node@^0.7.7", "@backstage/plugin-permission-node@^0.7.9":
+"@backstage/plugin-permission-node@^0.7.10", "@backstage/plugin-permission-node@^0.7.7":
   version "0.7.10"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.10.tgz#a4471bcf97a0dfe4f71d64c35a45118577b7a8a9"
   integrity sha512-Ky9nFwW35+2Y2SirO5Jk/cr2+ymlJfqnpNhg3Nvwrx1eD3Oj6qiXpjnH8tmce0XZIeWVMD6WC6xrRDZufhEPgw==
@@ -4002,16 +4002,16 @@
     yn "^4.0.0"
 
 "@backstage/plugin-todo@^0.2.19":
-  version "0.2.21"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.21.tgz#88187064fa21df5505a2d8aa67631b90422e4567"
-  integrity sha512-x9+ckU8kAFcjDeJV6pGA/y9nnQ7HuYOkaYgm+3AWQl7stKB0WrZk7JIo83qxbauQ3M1yM1hF9F4oxeGsnLcikQ==
+  version "0.2.22"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.22.tgz#27a823df96204264c447e59c018f5ee6efd935a7"
+  integrity sha512-yYe4OhACQQexL2azGnB/F/TyR7IfuPEykYMtS+tzxiv51IJAm/rwD/dQic350i/p1CS3SC7ywFfkAnKYTun86A==
   dependencies:
-    "@backstage/catalog-model" "^1.4.0"
-    "@backstage/core-components" "^0.13.2"
-    "@backstage/core-plugin-api" "^1.5.2"
-    "@backstage/errors" "^1.2.0"
-    "@backstage/plugin-catalog-react" "^1.7.0"
-    "@backstage/theme" "^0.4.0"
+    "@backstage/catalog-model" "^1.4.1"
+    "@backstage/core-components" "^0.13.3"
+    "@backstage/core-plugin-api" "^1.5.3"
+    "@backstage/errors" "^1.2.1"
+    "@backstage/plugin-catalog-react" "^1.8.0"
+    "@backstage/theme" "^0.4.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
