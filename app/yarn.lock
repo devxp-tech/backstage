@@ -2734,7 +2734,7 @@
     yn "^4.0.0"
     zod "^3.21.4"
 
-"@backstage/config-loader@^1.3.1", "@backstage/config-loader@^1.3.2":
+"@backstage/config-loader@^1.3.2":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.3.2.tgz#9c048517d7068c93666e899ff4f70c2de4eec60e"
   integrity sha512-pfN6FG0qOBW3U6wi2VimeIjBojkx57oGuWRqkWAJv+vFJE/BkFLZ/WpCe8fNTEi/odljKFR0xnwgIhSngXv3Uw==
@@ -3793,13 +3793,13 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-sonarqube-backend@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-backend/-/plugin-sonarqube-backend-0.2.0.tgz#2eeed06a9974d67e092ca043c231f355ba3001ff"
-  integrity sha512-qSgJKCxqhsQtCyPl4293CJ+ciNS1nTF7/UTTtkd03j5vDJfUkfqCqSFHetZ4C656phScBmM+aX4thCwd4MECXg==
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-backend/-/plugin-sonarqube-backend-0.2.1.tgz#ba4c84fd9279a185227a15b4a393df9fa821707e"
+  integrity sha512-SMH302TTB5qWmHHSKdmeEZEiiZqIcNWfe945vTK702eg15cX0ALqz58KiBxOVIp2u6C1rZf7aXeuqR0UtfYcMw==
   dependencies:
-    "@backstage/backend-common" "^0.19.0"
+    "@backstage/backend-common" "^0.19.1"
     "@backstage/config" "^1.0.8"
-    "@backstage/errors" "^1.2.0"
+    "@backstage/errors" "^1.2.1"
     "@types/express" "*"
     express "^4.18.1"
     express-promise-router "^4.1.0"
