@@ -135,6 +135,32 @@ auth:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
 
+kubernetes:
+  serviceLocatorMethod:
+    type: multiTenant
+  clusterLocatorMethods:
+    - type: config
+      clusters:
+        - url: ${K8S_URL}
+          name: development
+          authProvider: serviceAccount
+          skipTLSVerify: true
+          skipMetricsLookup: true
+          serviceAccountToken: ${K8S_TOKEN}
+          customResources:
+            - group: "argoproj.io"
+              apiVersion: "v1alpha1"
+              plural: "rollouts"
+            - group: "argoproj.io"
+              apiVersion: "v1alpha1"
+              plural: "applications"
+            - group: "argoproj.io"
+              apiVersion: "v1alpha1"
+              plural: "appprojects"
+            - group: "networking.istio.io"
+              apiVersion: "v1beta1"
+              plural: "virtualservices"
+
 dependabotAlertsConfiguration:
   severity: [high, medium]
 
