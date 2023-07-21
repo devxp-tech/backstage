@@ -29,7 +29,7 @@
     ]
   },
   "devDependencies": {
-    "@backstage/cli": "^0.22.8",
+    "@backstage/cli": "^0.22.9",
     "@spotify/prettier-config": "^15.0.0",
     "concurrently": "^8.0.1",
     "lerna": "^7.0.2",
@@ -50,5 +50,8 @@
     "*.{json,md}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@types/react": "^17"
   }
 }
