@@ -55,6 +55,10 @@ kubernetes:
           skipTLSVerify: true
           skipMetricsLookup: true
           serviceAccountToken: ${K8S_TOKEN}
+          customResources:
+            - group: "argoproj.io"
+              apiVersion: "v1alpha1"
+              plural: "rollouts"
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
