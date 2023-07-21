@@ -50,15 +50,24 @@ kubernetes:
     - type: config
       clusters:
         - url: ${K8S_URL}
-          name: development
+          name: lgseksd1
           authProvider: serviceAccount
           skipTLSVerify: true
-          skipMetricsLookup: true
+          # skipMetricsLookup: true
           serviceAccountToken: ${K8S_TOKEN}
           customResources:
             - group: "argoproj.io"
               apiVersion: "v1alpha1"
               plural: "rollouts"
+            - group: "argoproj.io"
+              apiVersion: "v1alpha1"
+              plural: "applications"
+            - group: "argoproj.io"
+              apiVersion: "v1alpha1"
+              plural: "appprojects"
+            - group: "networking.istio.io"
+              apiVersion: "v1beta1"
+              plural: "virtualservices"
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
