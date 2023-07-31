@@ -4,6 +4,7 @@ services:
     &defaults
     command: sh -c 'yarn dev'
     hostname: backstage.local
+    platform: linux/amd64
     image: backstage:dev
     build:
       context: .

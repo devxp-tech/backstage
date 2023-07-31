@@ -4,14 +4,15 @@ metadata:
   name: backstage-web
   description: Backstage Frontend
   annotations:
-    github.com/project-slug: devxp-tech/backstage
+    argocd/app-name: backstage-prd
     backstage.io/kubernetes-id: backstage
     backstage.io/techdocs-ref: dir:.
-    argocd/app-name: backstage-prd
-    sonarqube.org/project-key: backstage
+    github.com/project-slug: devxp-tech/backstage
     grafana/tag-selector: "Kubernetes"
+    kubecost.com/deployment-name: "backstage"
     prometheus.io/rule: 'sum by (backstage)(changes(kube_pod_status_ready{condition="true"}[5m]))'
     prometheus.io/alert: all
+    sonarqube.org/project-key: backstage
     snyk.io/org-name: devxp-tech
     snyk.io/project-ids: c3c91d87-e14d-40cd-85c6-141e543350ab
   tags:

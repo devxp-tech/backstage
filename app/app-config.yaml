@@ -115,14 +115,6 @@ proxy:
   #     Authorization:
   #       $env: SNYK_TOKEN
 
-sonarqube:
-  baseUrl: https://sonar.devxp-tech.io
-  apiKey: ${SONARQUBE_TOKEN}
-
-grafana:
-  # Publicly accessible domain
-  domain: https://grafana.devxp-tech.io
-
 # auth:
 #   # see https://backstage.io/docs/auth/ to learn about auth providers
 #   providers: {}
@@ -134,6 +126,17 @@ auth:
       development:
         clientId: ${AUTH_GITHUB_CLIENT_ID}
         clientSecret: ${AUTH_GITHUB_CLIENT_SECRET}
+
+dependabotAlertsConfiguration:
+  severity: [high, medium]
+
+grafana:
+  # Publicly accessible domain
+  domain: https://grafana.devxp-tech.io
+
+kubecost:
+  baseUrl: https://kubecost.devxp-tech.io
+  queryframes: month
 
 kubernetes:
   serviceLocatorMethod:
@@ -148,6 +151,9 @@ kubernetes:
           skipMetricsLookup: true
           serviceAccountToken: ${K8S_TOKEN}
           customResources:
+            # - group: "autoscaling"
+            #   apiVersion: "v1"
+            #   plural: "resourcequotas"
             - group: "argoproj.io"
               apiVersion: "v1alpha1"
               plural: "rollouts"
@@ -160,9 +166,9 @@ kubernetes:
             - group: "networking.istio.io"
               apiVersion: "v1beta1"
               plural: "virtualservices"
-
-dependabotAlertsConfiguration:
-  severity: [high, medium]
+            - group: "autoscaling"
+              apiVersion: "v2"
+              plural: "horizontalpodautoscalers"
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
@@ -170,6 +176,10 @@ scaffolder:
     name: ":robot: [backstage-bot]"
     email: backstage@devxp-tech.io
   # defaultCommitMessage: "🤖 U can't touch this" # Defaults to 'Initial commit'
+
+sonarqube:
+  baseUrl: https://sonar.devxp-tech.io
+  apiKey: ${SONARQUBE_TOKEN}
 
 catalog:
   orphanStrategy: delete

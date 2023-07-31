@@ -81,6 +81,10 @@ import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
 import { EntityTodoContent } from '@backstage/plugin-todo';
 // import { SnykOverview, EntitySnykContent, isSnykAvailable } from 'backstage-plugin-snyk';
 
+import {
+  BackstagePluginKubecostPage,
+  isKubecostAvailable
+} from '@suxess-it/backstage-plugin-kubecost';
 
 import {
   EntityArgoCDOverviewCard,
@@ -217,6 +221,10 @@ const serviceEntityPage = (
 
     <EntityLayout.Route path="/kubernetes" title="Kubernetes">
       <EntityKubernetesContent />
+    </EntityLayout.Route>
+
+    <EntityLayout.Route if={isKubecostAvailable} path="/kubecost" title="Kubecost">
+      <BackstagePluginKubecostPage />
     </EntityLayout.Route>
 
     <EntityLayout.Route path="/prometheus" title="Prometheus">
