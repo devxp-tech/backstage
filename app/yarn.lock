@@ -2480,7 +2480,7 @@
     winston "^3.2.1"
     winston-transport "^4.5.0"
 
-"@backstage/backend-common@^0.19.0", "@backstage/backend-common@^0.19.1", "@backstage/backend-common@^0.19.2":
+"@backstage/backend-common@^0.19.0", "@backstage/backend-common@^0.19.2":
   version "0.19.2"
   resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.19.2.tgz#adcb8738be70aee87618515b4aae8dc4122eab94"
   integrity sha512-GVjLuwJN2vS7p97pD3sIhJdISyR6jSYRQHUEiD/Q58+H0FoGWCgLCWKJ0EcZhHiU9rSZEX8UrEgkcw3LT/QHmA==
@@ -2946,7 +2946,7 @@
     "@material-ui/lab" "4.0.0-alpha.61"
     react-use "^17.2.4"
 
-"@backstage/integration@^1.5.1", "@backstage/integration@^1.6.0":
+"@backstage/integration@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.0.tgz#7d720052053cdfbf4a9e8490e38be94d0ad4eadc"
   integrity sha512-nb4iqrQQv+rUf50HwUM7DHF1dmp742bGAjqs1xf940Zp2dVUyJugq0/WbxrTJpcPBrC7dBGnT5WJ9L/6ik1Fog==
@@ -3017,16 +3017,16 @@
     express "^4.17.1"
 
 "@backstage/plugin-auth-backend@^0.18.2":
-  version "0.18.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend/-/plugin-auth-backend-0.18.5.tgz#89105134f90103aec3361a107e70ba482f842422"
-  integrity sha512-AADP0N8BmY8kz/uVZUzlXqZsTzBjre8DQygvm6m6ojA3xsWXgv4DZV1nebXHlulamhs0refKHybPXTMhwyvtyA==
+  version "0.18.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend/-/plugin-auth-backend-0.18.6.tgz#db3299a111a211e28c321afc02088a98777a9d68"
+  integrity sha512-5Xnjecgi97YPeUtx2SR6R+D4EZ5J8Q9u6zK4aG/xsYLO7Y4AfyVtAXxgPcGYyuE4695K6Qw3g1acLouxHjXoxA==
   dependencies:
-    "@backstage/backend-common" "^0.19.1"
+    "@backstage/backend-common" "^0.19.2"
     "@backstage/catalog-client" "^1.4.3"
     "@backstage/catalog-model" "^1.4.1"
     "@backstage/config" "^1.0.8"
     "@backstage/errors" "^1.2.1"
-    "@backstage/plugin-auth-node" "^0.2.16"
+    "@backstage/plugin-auth-node" "^0.2.17"
     "@backstage/types" "^1.1.0"
     "@davidzemon/passport-okta-oauth" "^0.0.5"
     "@google-cloud/firestore" "^6.0.0"
@@ -3065,7 +3065,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-auth-node@^0.2.13", "@backstage/plugin-auth-node@^0.2.16", "@backstage/plugin-auth-node@^0.2.17":
+"@backstage/plugin-auth-node@^0.2.13", "@backstage/plugin-auth-node@^0.2.17":
   version "0.2.17"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.2.17.tgz#74d42988d991cbf32400d0a0d26fe366ca117b0b"
   integrity sha512-+gHRmUMQSjX1QLgyx2Tzq5xvl7g184KS3co0UOediNtgzF+CyCm4EtEeUCCMxk5CGiGjK7HDbgKRjpzv1OZ3vg==
