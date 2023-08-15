@@ -3027,6 +3027,21 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
+"@backstage/integration@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.0.tgz#7d720052053cdfbf4a9e8490e38be94d0ad4eadc"
+  integrity sha512-nb4iqrQQv+rUf50HwUM7DHF1dmp742bGAjqs1xf940Zp2dVUyJugq0/WbxrTJpcPBrC7dBGnT5WJ9L/6ik1Fog==
+  dependencies:
+    "@azure/identity" "^3.2.1"
+    "@backstage/config" "^1.0.8"
+    "@backstage/errors" "^1.2.1"
+    "@octokit/auth-app" "^4.0.0"
+    "@octokit/rest" "^19.0.3"
+    cross-fetch "^3.1.5"
+    git-url-parse "^13.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+
 "@backstage/plugin-api-docs@^0.9.2":
   version "0.9.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.9.6.tgz#c1f29bf79e1f38421f45b01fe45264860387c2c3"
@@ -3493,14 +3508,14 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-org@^0.6.7":
-  version "0.6.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.10.tgz#c7feb391ebfa584a8de9c6a2a05a230c87f9a32e"
-  integrity sha512-oMBVC5D5x14FOyWRKj/R6nD+qMXx9O1A68emEY6HFWdEfkLt/cuyoiConHfAxTAS2Q/jXGxp0j4n6es+EqILgg==
+  version "0.6.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.11.tgz#c17f1d1df06bffb04f46a2ed512ebfd22d2d0908"
+  integrity sha512-SAQPrrrcM/wUfVeKOPaSX2htjL9p/e0Zabk4DzBjmrgg/rKUYmQg8ysGD/K0yywROO5x2vqF4ygelVfkbK7yzQ==
   dependencies:
     "@backstage/catalog-model" "^1.4.1"
-    "@backstage/core-components" "^0.13.3"
+    "@backstage/core-components" "^0.13.4"
     "@backstage/core-plugin-api" "^1.5.3"
-    "@backstage/plugin-catalog-react" "^1.8.0"
+    "@backstage/plugin-catalog-react" "^1.8.1"
     "@backstage/theme" "^0.4.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
