@@ -2825,10 +2825,10 @@
     zen-observable "^0.10.0"
     zod "~3.18.0"
 
-"@backstage/core-components@^0.13.0", "@backstage/core-components@^0.13.3":
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.13.3.tgz#902250e78a8e4deac6d3d364a378d7ce0c7fb098"
-  integrity sha512-nIggdzIOQmz6mrOLqX06R3akIDM0WWNnj1oGhuiF+vX8PoJC7ZLqeQRg2jpVkVYLkYTRnjcwb1aWFc4S7m89cQ==
+"@backstage/core-components@^0.13.0", "@backstage/core-components@^0.13.3", "@backstage/core-components@^0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.13.4.tgz#0275bf4c1e2495c4357db560eec33f15f941f90b"
+  integrity sha512-rkiGtAm9JAHHmSEAOzafFfTbBzlOb6Ecu/Ng78fn4H1qig7Vdm7zJ6FwXcnfREMgiSV+xnoOioN7XMyZAfjMgg==
   dependencies:
     "@backstage/config" "^1.0.8"
     "@backstage/core-plugin-api" "^1.5.3"
@@ -3836,11 +3836,11 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-tech-radar@^0.6.3":
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-tech-radar/-/plugin-tech-radar-0.6.6.tgz#de611b4c9ab766e868b442241200275f0dba40bb"
-  integrity sha512-uIaVqi824t1U0SMgOlm3Ks4/3Jmp21PjcPoH8i4tFonsGKR1L5R8Y0B7DOaMsTYj/CANBTNCCTp19CPz2vBy1Q==
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-tech-radar/-/plugin-tech-radar-0.6.7.tgz#514997a0cb85be3bc130c0d5843fee5e10455937"
+  integrity sha512-w15oLT6IUpm5KPz/W/4Z5LoogzWZHLtnGirfI795F0qsh55mhJfMULDc6ex1dpQzCaQW6PATrfkusDuMN4+I3Q==
   dependencies:
-    "@backstage/core-components" "^0.13.3"
+    "@backstage/core-components" "^0.13.4"
     "@backstage/core-plugin-api" "^1.5.3"
     "@backstage/theme" "^0.4.1"
     "@material-ui/core" "^4.12.2"
