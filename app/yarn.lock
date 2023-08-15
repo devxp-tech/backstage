@@ -3012,21 +3012,6 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/integration@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.0.tgz#7d720052053cdfbf4a9e8490e38be94d0ad4eadc"
-  integrity sha512-nb4iqrQQv+rUf50HwUM7DHF1dmp742bGAjqs1xf940Zp2dVUyJugq0/WbxrTJpcPBrC7dBGnT5WJ9L/6ik1Fog==
-  dependencies:
-    "@azure/identity" "^3.2.1"
-    "@backstage/config" "^1.0.8"
-    "@backstage/errors" "^1.2.1"
-    "@octokit/auth-app" "^4.0.0"
-    "@octokit/rest" "^19.0.3"
-    cross-fetch "^3.1.5"
-    git-url-parse "^13.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-
 "@backstage/plugin-api-docs@^0.9.2":
   version "0.9.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.9.6.tgz#c1f29bf79e1f38421f45b01fe45264860387c2c3"
@@ -3969,15 +3954,15 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-module-addons-contrib@^1.0.12":
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.0.15.tgz#943e1af1d44ee93a73c09bb45305957ec64099a6"
-  integrity sha512-wrYdUnWHKaJpn5vCr3azGgEB45SQ8AiFr3ZKMIpksq8l39K3Lg/uAWYIJjAsqHpR11/PeSqBIowsMyn9kJ4Qqw==
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.0.16.tgz#e1419022540dc682e29b4617cc5a621788ba8470"
+  integrity sha512-FU/xbGtQDglE9OqpJ/rNOy8Gtc17ZN+/8YJWO4csqcR/EoqVMob0bOm4isKRRhwfOJHtZGuiMoLl//hcHEldZA==
   dependencies:
-    "@backstage/core-components" "^0.13.3"
+    "@backstage/core-components" "^0.13.4"
     "@backstage/core-plugin-api" "^1.5.3"
-    "@backstage/integration" "^1.5.1"
-    "@backstage/integration-react" "^1.1.15"
-    "@backstage/plugin-techdocs-react" "^1.1.8"
+    "@backstage/integration" "^1.6.0"
+    "@backstage/integration-react" "^1.1.16"
+    "@backstage/plugin-techdocs-react" "^1.1.9"
     "@backstage/theme" "^0.4.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -4021,7 +4006,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.1.8":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.1.8", "@backstage/plugin-techdocs-react@^1.1.9":
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.1.9.tgz#b27baa3909787b0a8df609ec2af12a7ed60bc4a1"
   integrity sha512-HrXmIf4pdCVd5fodq4jYB0I/a5yIMJgyB3BTR0XqvE79Sp6SOW3VPiTMQYUEtCcYb/94gHNF4n1BA11DcE9Dqw==
