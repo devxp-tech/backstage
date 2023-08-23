@@ -2946,10 +2946,10 @@
     "@material-ui/lab" "4.0.0-alpha.61"
     react-use "^17.2.4"
 
-"@backstage/integration@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.1.tgz#7243dce252b8b502784a350202434ac983009ed6"
-  integrity sha512-hwDAMIAfNage1GhAST7SoLCDauG2nxZNBk+gWV36rdUm7kd9H5MPUDn/1W+MZV3SWJ689oM0AXmsyWrxQfpqbw==
+"@backstage/integration@^1.6.1", "@backstage/integration@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.2.tgz#83e70aea9d78624a2b6c0c4c3a37675752cdbede"
+  integrity sha512-10XNwGmzoLwcsRPieZLoYRXBBYvdkakT+TY5ucNaGw9QwxvlFZxDel1hIPLJIEctV9yFCkf1iw4ufJBiaHNJjQ==
   dependencies:
     "@azure/identity" "^3.2.1"
     "@backstage/config" "^1.0.8"
@@ -3224,16 +3224,16 @@
     "@backstage/types" "^1.1.0"
 
 "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0", "@backstage/plugin-catalog-react@^1.8.0", "@backstage/plugin-catalog-react@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.8.2.tgz#de5821a55f01c9a00dc6a4a7829fab7612f17041"
-  integrity sha512-HA9ggYiahHpNdj0/JbnbHXnefkouS73r2UY5VWNTySnYysejZWJ1zK6QmJC3WNWcUqAMVZr5ZvjTKCIn5VdGhA==
+  version "1.8.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.8.3.tgz#06103b2707de6d2f2c6e2d1514c3237eb98d1f3e"
+  integrity sha512-rY01QsZvVt87K+pVv1moP1cGUXyYV/1d/XLYb+mAvd5wX81nqZ3WWfn6jQQm4mgLMm/spfl/lt1D3lUgHDvQiQ==
   dependencies:
     "@backstage/catalog-client" "^1.4.3"
     "@backstage/catalog-model" "^1.4.1"
     "@backstage/core-components" "^0.13.4"
     "@backstage/core-plugin-api" "^1.5.3"
     "@backstage/errors" "^1.2.1"
-    "@backstage/integration" "^1.6.1"
+    "@backstage/integration" "^1.6.2"
     "@backstage/plugin-catalog-common" "^1.0.15"
     "@backstage/plugin-permission-common" "^0.7.7"
     "@backstage/plugin-permission-react" "^0.4.14"
