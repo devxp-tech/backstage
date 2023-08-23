@@ -2596,6 +2596,24 @@
     winston "^3.2.1"
     zod "^3.21.4"
 
+"@backstage/backend-tasks@^0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.5.7.tgz#49b761bd8906fc4252a806305811e94ab6a21eb3"
+  integrity sha512-ksWvho3zJQz6Xrx/ecLoi4Q4poLncexXKw/Y1aNhsVFbvBtajgGn+atsjSY9vK/GWv9WjFjr7n5zg+3Bm7mW8Q==
+  dependencies:
+    "@backstage/backend-common" "^0.19.4"
+    "@backstage/config" "^1.0.8"
+    "@backstage/errors" "^1.2.1"
+    "@backstage/types" "^1.1.0"
+    "@types/luxon" "^3.0.0"
+    cron "^2.0.0"
+    knex "^2.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+    uuid "^8.0.0"
+    winston "^3.2.1"
+    zod "^3.21.4"
+
 "@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.4.3":
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.4.3.tgz#e7631dcae97a7620b1532666a12e92be092a9f34"
@@ -3079,6 +3097,20 @@
     node-fetch "^2.6.7"
     winston "^3.2.1"
 
+"@backstage/plugin-auth-node@^0.2.19":
+  version "0.2.19"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.2.19.tgz#bae4befc72ad79a4a805a2e847f6d68f75dc0195"
+  integrity sha512-E/GuS0OzcrauE5b4ODKXOT59EEuCaNHSWnBeerXlxoqBaGSVdXodOjpfmcU7sxMHmJvT0W04G4gOR9Jc+VPLEw==
+  dependencies:
+    "@backstage/backend-common" "^0.19.4"
+    "@backstage/config" "^1.0.8"
+    "@backstage/errors" "^1.2.1"
+    "@types/express" "*"
+    express "^4.17.1"
+    jose "^4.6.0"
+    node-fetch "^2.6.7"
+    winston "^3.2.1"
+
 "@backstage/plugin-catalog-backend-module-github@^0.3.0":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.3.4.tgz#ed65180fff2c450b68df67505d69568722b773e0"
@@ -3455,6 +3487,23 @@
     zod "^3.21.4"
 
 "@backstage/plugin-permission-node@^0.7.12", "@backstage/plugin-permission-node@^0.7.13", "@backstage/plugin-permission-node@^0.7.7":
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.13.tgz#ac071912ac7608ee695328cf22a7007f8f4418e3"
+  integrity sha512-u7STVvR0IExRzrl4VHhe0iHKnVvSvxtjqwI0hJS+zy2nid9koceCDeDDVzZ+gCY0IBqX470mysbA8yGciMDywA==
+  dependencies:
+    "@backstage/backend-common" "^0.19.4"
+    "@backstage/backend-plugin-api" "^0.6.2"
+    "@backstage/config" "^1.0.8"
+    "@backstage/errors" "^1.2.1"
+    "@backstage/plugin-auth-node" "^0.2.19"
+    "@backstage/plugin-permission-common" "^0.7.7"
+    "@types/express" "^4.17.6"
+    express "^4.17.1"
+    express-promise-router "^4.1.0"
+    zod "^3.21.4"
+    zod-to-json-schema "^3.20.4"
+
+"@backstage/plugin-permission-node@^0.7.13":
   version "0.7.13"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.13.tgz#ac071912ac7608ee695328cf22a7007f8f4418e3"
   integrity sha512-u7STVvR0IExRzrl4VHhe0iHKnVvSvxtjqwI0hJS+zy2nid9koceCDeDDVzZ+gCY0IBqX470mysbA8yGciMDywA==
