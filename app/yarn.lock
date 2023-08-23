@@ -2964,10 +2964,10 @@
     "@material-ui/lab" "4.0.0-alpha.61"
     react-use "^17.2.4"
 
-"@backstage/integration@^1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.1.tgz#7243dce252b8b502784a350202434ac983009ed6"
-  integrity sha512-hwDAMIAfNage1GhAST7SoLCDauG2nxZNBk+gWV36rdUm7kd9H5MPUDn/1W+MZV3SWJ689oM0AXmsyWrxQfpqbw==
+"@backstage/integration@^1.6.1", "@backstage/integration@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.2.tgz#83e70aea9d78624a2b6c0c4c3a37675752cdbede"
+  integrity sha512-10XNwGmzoLwcsRPieZLoYRXBBYvdkakT+TY5ucNaGw9QwxvlFZxDel1hIPLJIEctV9yFCkf1iw4ufJBiaHNJjQ==
   dependencies:
     "@azure/identity" "^3.2.1"
     "@backstage/config" "^1.0.8"
@@ -3258,12 +3258,12 @@
     react-use "^17.2.4"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-node@^1.4.2":
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.4.2.tgz#9a5d4cfcaa86198a083d790866c96f4c3ce0592e"
-  integrity sha512-3YMF/tmpjRvbl1uSY6XMtR79k+gg//Pe1+U8mdzED5mDpcgZFTBS66RTXLXCrVRLtd6E1iJ7Byyy1MAtnYAvQA==
+"@backstage/plugin-catalog-node@^1.4.2", "@backstage/plugin-catalog-node@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.4.3.tgz#5a495c215ad279a7b9b307145d4aa2654b0c393a"
+  integrity sha512-HpeKeBSJFEahQ5jCDHe0fnUghp8Pnh7NgT0FFAKiptYYLhnBt7AOZt/0tGdKxWdSQ1/43sGDn6VWywaknp0Nmg==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.1"
+    "@backstage/backend-plugin-api" "^0.6.2"
     "@backstage/catalog-client" "^1.4.3"
     "@backstage/catalog-model" "^1.4.1"
     "@backstage/errors" "^1.2.1"
@@ -4082,19 +4082,19 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-todo-backend@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.2.1.tgz#4dbbf23e8241d0be5a8a8e5bec018cf0fca8d00e"
-  integrity sha512-/sCzOOL6INfPUkuTTcikTDlssxwK1eE1UPsc7l2kBZT12ozOJ4CpPjmtiTmiznk2Xzu16WQU1HQNwc72fmkSKQ==
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.2.2.tgz#35334119fd552b1fa9756701a3026a4464ea7c15"
+  integrity sha512-nXnHOhR5C+EPnq4rol5jwkUEaV80SCLdKJVI9DvjImDtoj2vVhogO+Hsg7q5ej0reXCGTZCo1ywShcuZLFvgiQ==
   dependencies:
-    "@backstage/backend-common" "^0.19.3"
+    "@backstage/backend-common" "^0.19.4"
     "@backstage/backend-openapi-utils" "^0.0.3"
-    "@backstage/backend-plugin-api" "^0.6.1"
+    "@backstage/backend-plugin-api" "^0.6.2"
     "@backstage/catalog-client" "^1.4.3"
     "@backstage/catalog-model" "^1.4.1"
     "@backstage/config" "^1.0.8"
     "@backstage/errors" "^1.2.1"
-    "@backstage/integration" "^1.6.1"
-    "@backstage/plugin-catalog-node" "^1.4.2"
+    "@backstage/integration" "^1.6.2"
+    "@backstage/plugin-catalog-node" "^1.4.3"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     express-promise-router "^4.1.0"
