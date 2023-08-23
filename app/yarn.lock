@@ -3082,6 +3082,21 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
+"@backstage/integration@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.6.2.tgz#83e70aea9d78624a2b6c0c4c3a37675752cdbede"
+  integrity sha512-10XNwGmzoLwcsRPieZLoYRXBBYvdkakT+TY5ucNaGw9QwxvlFZxDel1hIPLJIEctV9yFCkf1iw4ufJBiaHNJjQ==
+  dependencies:
+    "@azure/identity" "^3.2.1"
+    "@backstage/config" "^1.0.8"
+    "@backstage/errors" "^1.2.1"
+    "@octokit/auth-app" "^4.0.0"
+    "@octokit/rest" "^19.0.3"
+    cross-fetch "^3.1.5"
+    git-url-parse "^13.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+
 "@backstage/plugin-api-docs@^0.9.2":
   version "0.9.9"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.9.9.tgz#6aeb0ba71b4ecddd9d1fa0ba2956ae92c9457bec"
@@ -4018,14 +4033,14 @@
     "@backstage/core-plugin-api" "^1.5.3"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.3.tgz#29c62afd939bab4500d5be969e8858dcb4a93873"
-  integrity sha512-P1M571wWEuRB+9bBTLlZ8wBue0ntglGFW3ZqrJ3VXpH217hAH/q/fgjVu6vPeMh3qYAthzsEGCdWQFrTIDKMSQ==
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.4.tgz#72c631d0cc1f7bf6c9f82a5dff477098d81f9cb8"
+  integrity sha512-r5S2PunP4mfo43a4PvNIiurpVWYWzwyTgjjY/3oWofT5K8L2J9sDNcSCwUxADcDCpE1qPzhHV/lJNi53TCYdtA==
   dependencies:
     "@backstage/catalog-model" "^1.4.1"
     "@backstage/core-components" "^0.13.4"
     "@backstage/core-plugin-api" "^1.5.3"
-    "@backstage/plugin-catalog-react" "^1.8.2"
+    "@backstage/plugin-catalog-react" "^1.8.3"
     "@backstage/plugin-sonarqube-react" "^0.1.7"
     "@backstage/theme" "^0.4.1"
     "@material-ui/core" "^4.12.2"
