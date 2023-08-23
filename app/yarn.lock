@@ -3080,22 +3080,22 @@
     winston "^3.2.1"
 
 "@backstage/plugin-catalog-backend-module-github@^0.3.0":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.3.4.tgz#ed65180fff2c450b68df67505d69568722b773e0"
-  integrity sha512-9xSJaXDfDtyQTr9vwS5hErDvkHjCk3UW5GK4m1OgnT3iHS1u79cGmZy6vTWJjvygX/wBfijnRI+GP7zV01/fMg==
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.3.6.tgz#f8a716e11fb88bce118db98471548bc32fa3b1de"
+  integrity sha512-/8fpblzJxE9pSXn/34ysQBvjAfWVKI4nCOgeuDb52vKizuccGLSdmeHJsurPooGfAVMZiyzwnKsliynGL3vq5Q==
   dependencies:
-    "@backstage/backend-common" "^0.19.3"
-    "@backstage/backend-plugin-api" "^0.6.1"
-    "@backstage/backend-tasks" "^0.5.6"
+    "@backstage/backend-common" "^0.19.4"
+    "@backstage/backend-plugin-api" "^0.6.2"
+    "@backstage/backend-tasks" "^0.5.7"
     "@backstage/catalog-client" "^1.4.3"
     "@backstage/catalog-model" "^1.4.1"
     "@backstage/config" "^1.0.8"
     "@backstage/errors" "^1.2.1"
-    "@backstage/integration" "^1.6.1"
-    "@backstage/plugin-catalog-backend" "^1.12.1"
+    "@backstage/integration" "^1.6.2"
+    "@backstage/plugin-catalog-backend" "^1.12.3"
     "@backstage/plugin-catalog-common" "^1.0.15"
-    "@backstage/plugin-catalog-node" "^1.4.2"
-    "@backstage/plugin-events-node" "^0.2.10"
+    "@backstage/plugin-catalog-node" "^1.4.3"
+    "@backstage/plugin-events-node" "^0.2.11"
     "@backstage/types" "^1.1.0"
     "@octokit/graphql" "^5.0.0"
     "@octokit/rest" "^19.0.3"
@@ -3106,7 +3106,7 @@
     uuid "^8.0.0"
     winston "^3.2.1"
 
-"@backstage/plugin-catalog-backend@^1.12.1", "@backstage/plugin-catalog-backend@^1.12.3", "@backstage/plugin-catalog-backend@^1.9.0":
+"@backstage/plugin-catalog-backend@^1.12.3", "@backstage/plugin-catalog-backend@^1.9.0":
   version "1.12.3"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.12.3.tgz#3665a170cefe1e422edb93107479374a97db1a39"
   integrity sha512-goPJ30qnnSMS/2oQj3mJCYIjpknjkHXYzdnWnlnuteESl8N9dyJG6nYZgkCd9+80KY1WgPHjXP1RfGIs1yV4eg==
@@ -3283,13 +3283,6 @@
     react-use "^17.2.4"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-events-node@^0.2.10":
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-events-node/-/plugin-events-node-0.2.10.tgz#70ede0c6b1d8a611ff53b3d37ffa3a6672451d89"
-  integrity sha512-XBvP/U63LkIWM1sQkyOAeHCxoPhuUzHucDDGGR4RhW1N139FWo5r3CzEZmSPiOJ+y0qXn+7erEg2JhNYBm81dg==
-  dependencies:
-    "@backstage/backend-plugin-api" "^0.6.1"
-
 "@backstage/plugin-events-node@^0.2.11":
   version "0.2.11"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-events-node/-/plugin-events-node-0.2.11.tgz#967bf2080aae69c4c3b7b9278d66d9c1608831f0"
@@ -3461,7 +3454,7 @@
     uuid "^8.0.0"
     zod "^3.21.4"
 
-"@backstage/plugin-permission-node@^0.7.12", "@backstage/plugin-permission-node@^0.7.13", "@backstage/plugin-permission-node@^0.7.7":
+"@backstage/plugin-permission-node@^0.7.13", "@backstage/plugin-permission-node@^0.7.7":
   version "0.7.13"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.13.tgz#ac071912ac7608ee695328cf22a7007f8f4418e3"
   integrity sha512-u7STVvR0IExRzrl4VHhe0iHKnVvSvxtjqwI0hJS+zy2nid9koceCDeDDVzZ+gCY0IBqX470mysbA8yGciMDywA==
