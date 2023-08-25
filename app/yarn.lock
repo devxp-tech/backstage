@@ -3080,9 +3080,9 @@
     winston "^3.2.1"
 
 "@backstage/plugin-catalog-backend-module-github@^0.3.0":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.3.6.tgz#f8a716e11fb88bce118db98471548bc32fa3b1de"
-  integrity sha512-/8fpblzJxE9pSXn/34ysQBvjAfWVKI4nCOgeuDb52vKizuccGLSdmeHJsurPooGfAVMZiyzwnKsliynGL3vq5Q==
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.3.7.tgz#9aeae39aefecf6693c98a3cb97b33527f83b5e3c"
+  integrity sha512-bJu46HpXoycqpKPjuBurt/Yc1JKTB8K/3CSRhVX1w/FyeuJCOWphfbzjFGgWve/1g0rKaKPI8Y5NoDZ7Hc2/hQ==
   dependencies:
     "@backstage/backend-common" "^0.19.4"
     "@backstage/backend-plugin-api" "^0.6.2"
@@ -3092,7 +3092,7 @@
     "@backstage/config" "^1.0.8"
     "@backstage/errors" "^1.2.1"
     "@backstage/integration" "^1.6.2"
-    "@backstage/plugin-catalog-backend" "^1.12.3"
+    "@backstage/plugin-catalog-backend" "^1.12.4"
     "@backstage/plugin-catalog-common" "^1.0.15"
     "@backstage/plugin-catalog-node" "^1.4.3"
     "@backstage/plugin-events-node" "^0.2.11"
@@ -3106,10 +3106,10 @@
     uuid "^8.0.0"
     winston "^3.2.1"
 
-"@backstage/plugin-catalog-backend@^1.12.3", "@backstage/plugin-catalog-backend@^1.9.0":
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.12.3.tgz#3665a170cefe1e422edb93107479374a97db1a39"
-  integrity sha512-goPJ30qnnSMS/2oQj3mJCYIjpknjkHXYzdnWnlnuteESl8N9dyJG6nYZgkCd9+80KY1WgPHjXP1RfGIs1yV4eg==
+"@backstage/plugin-catalog-backend@^1.12.3", "@backstage/plugin-catalog-backend@^1.12.4", "@backstage/plugin-catalog-backend@^1.9.0":
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.12.4.tgz#d1d932777777eda83ffd81dcd60a5b878eb2da4f"
+  integrity sha512-sgImzpaCkIKCGLDC9jKkacOZ+EOBFUd/YAX2Ku4A4GvLQvf/gK5+gJ+rO6YKXz3tGSxyylztuCMw/GPj05BWpw==
   dependencies:
     "@backstage/backend-common" "^0.19.4"
     "@backstage/backend-openapi-utils" "^0.0.3"
