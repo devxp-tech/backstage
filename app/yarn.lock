@@ -3567,18 +3567,19 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-org@^0.6.7":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.13.tgz#a25779bcd2e72d52d33d8b6449e19398c5edf43f"
-  integrity sha512-36Ux26OK1yF+tJLKG5SQULjuBKlANg4oPTj3DBSdK6RVSc3V8WZypJ9KAbBWuLQwzqBZ7x4c6uC6rdlZwSEtdw==
+  version "0.6.14"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.14.tgz#f85a320d36bdc67426bea55539daf672e8218934"
+  integrity sha512-W6C5LQEKiv1mXrLSfQV+Ez90IZWI8Q7JWp7M4sEdLAYnlXOg/UPqSAZnpvVYHGVN7guKJb95t9nyIBKBBbXGCA==
   dependencies:
-    "@backstage/catalog-model" "^1.4.1"
-    "@backstage/core-components" "^0.13.4"
-    "@backstage/core-plugin-api" "^1.5.3"
-    "@backstage/plugin-catalog-react" "^1.8.3"
-    "@backstage/theme" "^0.4.1"
+    "@backstage/catalog-model" "^1.4.2"
+    "@backstage/core-components" "^0.13.5"
+    "@backstage/core-plugin-api" "^1.6.0"
+    "@backstage/plugin-catalog-react" "^1.8.4"
+    "@backstage/theme" "^0.4.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
+    "@types/react" "^16.13.1 || ^17.0.0"
     p-limit "^3.1.0"
     pluralize "^8.0.0"
     qs "^6.10.1"
