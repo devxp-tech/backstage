@@ -3473,18 +3473,19 @@
     "@kubernetes/client-node" "0.18.1"
 
 "@backstage/plugin-kubernetes@^0.10.0":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.10.2.tgz#2b17cdb87a7b58f9c3ddfe0abb2bf94c212d0a2e"
-  integrity sha512-PcP8bUgHqtyIgq7dIci1yipyjoba0cLZY6KAkiu/LdFcLacp5QfCRVyP7wQL8PlP2mX4/MHboKaXNRebPQmyXA==
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.10.3.tgz#2580b46c4d086764a85b9fffaf9901656951cd5d"
+  integrity sha512-YhmZG2D6cJpQf6UTxWqzDKY572VAzYO6hoKtkZsJpZWDZkZhNn+TP30COJG2bVoB/Yj+aUCSsb48RWyf1RMXvQ==
   dependencies:
-    "@backstage/catalog-model" "^1.4.1"
-    "@backstage/config" "^1.0.8"
-    "@backstage/core-components" "^0.13.4"
-    "@backstage/core-plugin-api" "^1.5.3"
-    "@backstage/errors" "^1.2.1"
-    "@backstage/plugin-catalog-react" "^1.8.3"
-    "@backstage/plugin-kubernetes-common" "^0.6.5"
-    "@backstage/theme" "^0.4.1"
+    "@backstage/catalog-model" "^1.4.2"
+    "@backstage/config" "^1.1.0"
+    "@backstage/core-components" "^0.13.5"
+    "@backstage/core-plugin-api" "^1.6.0"
+    "@backstage/errors" "^1.2.2"
+    "@backstage/plugin-catalog-react" "^1.8.4"
+    "@backstage/plugin-kubernetes-common" "^0.6.6"
+    "@backstage/theme" "^0.4.2"
+    "@backstage/types" "^1.1.1"
     "@kubernetes-models/apimachinery" "^1.1.0"
     "@kubernetes-models/base" "^4.0.1"
     "@kubernetes/client-node" "0.18.1"
@@ -3498,6 +3499,9 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
     react-use "^17.2.4"
+    xterm "^5.2.1"
+    xterm-addon-attach "^0.8.0"
+    xterm-addon-fit "^0.7.0"
 
 "@backstage/plugin-org@^0.6.7":
   version "0.6.14"
@@ -23127,6 +23131,21 @@ xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+
+xterm-addon-attach@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/xterm-addon-attach/-/xterm-addon-attach-0.8.0.tgz#86e0ed08460efffb7d4bad74a57b600226594def"
+  integrity sha512-k8N5boSYn6rMJTTNCgFpiSTZ26qnYJf3v/nJJYexNO2sdAHDN3m1ivVQWVZ8CHJKKnZQw1rc44YP2NtgalWHfQ==
+
+xterm-addon-fit@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/xterm-addon-fit/-/xterm-addon-fit-0.7.0.tgz#b8ade6d96e63b47443862088f6670b49fb752c6a"
+  integrity sha512-tQgHGoHqRTgeROPnvmtEJywLKoC/V9eNs4bLLz7iyJr1aW/QFzRwfd3MGiJ6odJd9xEfxcW36/xRU47JkD5NKQ==
+
+xterm@^5.2.1:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/xterm/-/xterm-5.3.0.tgz#867daf9cc826f3d45b5377320aabd996cb0fce46"
+  integrity sha512-8QqjlekLUFTrU6x7xck1MsPzPA571K5zNqWm0M0oroYEWVOptZ0+ubQSkQ3uxIEhcIHRujJy6emDWX4A7qyFzg==
 
 y18n@^5.0.5:
   version "5.0.8"
