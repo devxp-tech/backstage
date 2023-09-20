@@ -2572,6 +2572,21 @@
     lodash "^4.17.21"
     openapi3-ts "^3.1.2"
 
+"@backstage/backend-openapi-utils@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-openapi-utils/-/backend-openapi-utils-0.0.4.tgz#2fdfbc20c073c9775041f0a919827e402bfff194"
+  integrity sha512-oNTPrnISXHpOcTcnic4MnvID56960M2QmzsA6jis/iSZYzU7ajvTLmbr19HWPnLdpLbSCC1U5tYr+z7lK0tYyA==
+  dependencies:
+    "@backstage/errors" "^1.2.2"
+    "@types/express" "^4.17.6"
+    "@types/express-serve-static-core" "^4.17.5"
+    express "^4.17.1"
+    express-openapi-validator "^5.0.4"
+    express-promise-router "^4.1.0"
+    json-schema-to-ts "^2.6.2"
+    lodash "^4.17.21"
+    openapi3-ts "^3.1.2"
+
 "@backstage/backend-plugin-api@^0.6.2", "@backstage/backend-plugin-api@^0.6.3":
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-0.6.3.tgz#33a31b3e4dec5e83dbcaa28bf233a9fa4932e3c8"
@@ -3427,7 +3442,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-kubernetes-common@^0.6.5", "@backstage/plugin-kubernetes-common@^0.6.6":
+"@backstage/plugin-kubernetes-common@^0.6.6":
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.6.6.tgz#475c5a75cdbd921a760a1c521fc3b48150296c16"
   integrity sha512-SlJcXJTiCKzZMq0Gp28tjGh5Z5JdWCTK+/gkVqkcTVvYQosOZB97QY5KFr1hjL4zXRw0PyOjYjm0W+sZSUjGnA==
@@ -4101,20 +4116,20 @@
     react-helmet "6.1.0"
     react-use "^17.2.4"
 
-"@backstage/plugin-todo-backend@^0.2.0":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.2.2.tgz#35334119fd552b1fa9756701a3026a4464ea7c15"
-  integrity sha512-nXnHOhR5C+EPnq4rol5jwkUEaV80SCLdKJVI9DvjImDtoj2vVhogO+Hsg7q5ej0reXCGTZCo1ywShcuZLFvgiQ==
+"@backstage/plugin-todo-backend@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.1.tgz#7a4e4d1950609eed4715bea50b5bc46c614b988c"
+  integrity sha512-71gkM4JZ/moL21vWxoza530upz6Fitk8+hW7GdSDfudcaOEZDDo8O1r0R0S6x7Oq2ZWbyvntlA2UtOBjiBKw4Q==
   dependencies:
-    "@backstage/backend-common" "^0.19.4"
-    "@backstage/backend-openapi-utils" "^0.0.3"
-    "@backstage/backend-plugin-api" "^0.6.2"
-    "@backstage/catalog-client" "^1.4.3"
-    "@backstage/catalog-model" "^1.4.1"
-    "@backstage/config" "^1.0.8"
-    "@backstage/errors" "^1.2.1"
-    "@backstage/integration" "^1.6.2"
-    "@backstage/plugin-catalog-node" "^1.4.3"
+    "@backstage/backend-common" "^0.19.5"
+    "@backstage/backend-openapi-utils" "^0.0.4"
+    "@backstage/backend-plugin-api" "^0.6.3"
+    "@backstage/catalog-client" "^1.4.4"
+    "@backstage/catalog-model" "^1.4.2"
+    "@backstage/config" "^1.1.0"
+    "@backstage/errors" "^1.2.2"
+    "@backstage/integration" "^1.7.0"
+    "@backstage/plugin-catalog-node" "^1.4.4"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     express-promise-router "^4.1.0"
