@@ -3427,7 +3427,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-kubernetes-common@^0.6.5", "@backstage/plugin-kubernetes-common@^0.6.6":
+"@backstage/plugin-kubernetes-common@^0.6.6":
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.6.6.tgz#475c5a75cdbd921a760a1c521fc3b48150296c16"
   integrity sha512-SlJcXJTiCKzZMq0Gp28tjGh5Z5JdWCTK+/gkVqkcTVvYQosOZB97QY5KFr1hjL4zXRw0PyOjYjm0W+sZSUjGnA==
@@ -4123,19 +4123,20 @@
     yn "^4.0.0"
 
 "@backstage/plugin-todo@^0.2.19":
-  version "0.2.25"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.25.tgz#65075545ab179290ed669fcaa4106b3b5866c158"
-  integrity sha512-Nko150VFdSRFafTT2aUIXgA970oCQ3/0RsgMbtr05i6Q2TubShZ1ihu9JzkLSd8uA5IZjj07Rzipv6AJ5OVxUw==
+  version "0.2.27"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.27.tgz#4ac05263417a270f228c9f3e731fe78b2488b3ae"
+  integrity sha512-g+trID5o0p46maIV1SIxm+wb8HyXXC+QFEh1tHTP/vKovOYH0qv5dafz+9Ba+evq8QCUJwu88HDHIDG5+NgDyg==
   dependencies:
-    "@backstage/catalog-model" "^1.4.1"
-    "@backstage/core-components" "^0.13.4"
-    "@backstage/core-plugin-api" "^1.5.3"
-    "@backstage/errors" "^1.2.1"
-    "@backstage/plugin-catalog-react" "^1.8.3"
-    "@backstage/theme" "^0.4.1"
+    "@backstage/catalog-model" "^1.4.2"
+    "@backstage/core-components" "^0.13.5"
+    "@backstage/core-plugin-api" "^1.6.0"
+    "@backstage/errors" "^1.2.2"
+    "@backstage/plugin-catalog-react" "^1.8.4"
+    "@backstage/theme" "^0.4.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
+    "@types/react" "^16.13.1 || ^17.0.0"
     react-use "^17.2.4"
 
 "@backstage/plugin-user-settings@^0.7.2":
