@@ -3778,15 +3778,15 @@
     "@backstage/plugin-search-common" "^1.2.6"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.11.tgz#04438d2b18baf3e4cfca37c364bcac4d490142c1"
-  integrity sha512-Usot/sGrxwXwyE4xxGOZAitk2OcAxFwY+aYB8em98MWCR05jPQaASG1hHcldDsidxyTTNCtWNUM3o1ebFCwlmQ==
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.12.tgz#91fd117ecfafbec77f78357c67a491fdaf793879"
+  integrity sha512-C7o/UEwuGIeEfJq+UB9tmpjoalkSqeDHXxBzswhX5JjCeSNtq/nzrhRj1b0ez82dlHfyKn205U02zmsBx01TRw==
   dependencies:
-    "@backstage/backend-common" "^0.19.4"
-    "@backstage/backend-plugin-api" "^0.6.2"
-    "@backstage/config" "^1.0.8"
-    "@backstage/plugin-search-backend-node" "^1.2.6"
-    "@backstage/plugin-search-common" "^1.2.5"
+    "@backstage/backend-common" "^0.19.5"
+    "@backstage/backend-plugin-api" "^0.6.3"
+    "@backstage/config" "^1.1.0"
+    "@backstage/plugin-search-backend-node" "^1.2.7"
+    "@backstage/plugin-search-common" "^1.2.6"
     knex "^2.0.0"
     lodash "^4.17.21"
     uuid "^8.3.2"
@@ -3814,26 +3814,7 @@
     p-limit "^3.1.0"
     winston "^3.2.1"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.6.tgz#f521db4222207255bf6a62f81fa2b6d85f363e2b"
-  integrity sha512-5NzAp4BrqGrWZGI7MxZji3v87P7hge7a9z9zl++cC5dw4dsLUeo5w2DY9IRlsPyV4LBotgL04b1G4yev3R50xQ==
-  dependencies:
-    "@backstage/backend-common" "^0.19.4"
-    "@backstage/backend-plugin-api" "^0.6.2"
-    "@backstage/backend-tasks" "^0.5.7"
-    "@backstage/config" "^1.0.8"
-    "@backstage/errors" "^1.2.1"
-    "@backstage/plugin-permission-common" "^0.7.7"
-    "@backstage/plugin-search-common" "^1.2.5"
-    "@types/lunr" "^2.3.3"
-    lodash "^4.17.21"
-    lunr "^2.3.9"
-    ndjson "^2.0.0"
-    uuid "^8.3.2"
-    winston "^3.2.1"
-
-"@backstage/plugin-search-backend-node@^1.2.7":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.6", "@backstage/plugin-search-backend-node@^1.2.7":
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.7.tgz#4fda13682c0ef326b9323e5c2c9e4a4b7e20ea20"
   integrity sha512-qd+p3OhlY1uTM+XFdCEAVKCCLSsJSKd0VpsY5ZvSqyrgFPfXMLxtQ06O+IdIp7e+avajmC9c0wHT5Stkh4C95Q==
