@@ -2774,7 +2774,7 @@
     yn "^4.0.0"
     zod "^3.21.4"
 
-"@backstage/config-loader@^1.4.0", "@backstage/config-loader@^1.5.0":
+"@backstage/config-loader@^1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.5.0.tgz#48568a0b83d7546eebf0f5c3f6f0a46842488f96"
   integrity sha512-XG+7mCZxgecFJkgAv8gCtriBy7gfBAO54vgpUwQc75JNvTkHSLydbBXtCOMEvrp35c3jlDo8cmkCqxyzQkTybQ==
@@ -3014,16 +3014,16 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.50"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.50.tgz#a07087358da44c1e6c7254a76e82c59099ef7380"
-  integrity sha512-DwdD4cbpt3yssdxpJ4be0ExfbnXWpcNkaUZi/ZHmngPWT2xchgEHiOMbs5ZBKllKfEChZGWGhNTSy9bmzrJadg==
+  version "0.3.51"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.51.tgz#0bba187bf3f2c22d866e8a1ac92d8490a4d5c43f"
+  integrity sha512-A2HThoj3rFqx/r6gXsUzuSbHgMgKRQlmUjhRued5xXjZOD3wKrpvh/YVaA9yqM59wvVcOyO2Vein5dqfQF1b3Q==
   dependencies:
-    "@backstage/backend-common" "^0.19.4"
-    "@backstage/backend-plugin-api" "^0.6.2"
-    "@backstage/config" "^1.0.8"
-    "@backstage/config-loader" "^1.4.0"
-    "@backstage/plugin-app-node" "^0.1.2"
-    "@backstage/types" "^1.1.0"
+    "@backstage/backend-common" "^0.19.5"
+    "@backstage/backend-plugin-api" "^0.6.3"
+    "@backstage/config" "^1.1.0"
+    "@backstage/config-loader" "^1.5.0"
+    "@backstage/plugin-app-node" "^0.1.3"
+    "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     express-promise-router "^4.1.0"
@@ -3036,12 +3036,12 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.2.tgz#7f87053bd2ae2e4d066826b4ac277d629a7c38dc"
-  integrity sha512-9s/9NyTriPiftmE+yhtSpg2CuMUyGpkqaDrR17YNp5iDJe422GwqQ28d3a7oGcaNIVnTWurYZtoDxVqj2VWihQ==
+"@backstage/plugin-app-node@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.3.tgz#d6fd6962152b516a765a880499662215c2a54150"
+  integrity sha512-Yib60JbGLnxi0Gz30oax+lrpjbjAWQ7EClaQ+INaj2S6LOyG3+UljBFJRm30HmdF5+gIFBeFvyJ1jdM/zvh5Xg==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.2"
+    "@backstage/backend-plugin-api" "^0.6.3"
     "@types/express" "^4.17.6"
     express "^4.17.1"
 
