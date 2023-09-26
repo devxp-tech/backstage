@@ -3165,22 +3165,22 @@
     zod-to-json-schema "^3.21.4"
 
 "@backstage/plugin-catalog-backend-module-github@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.4.0.tgz#2e417fd78c7e536a36d91fb5fcd268225d369470"
-  integrity sha512-jPzvrHAjIguDLFkqu3gp6fmqhOqvPWZj4Bu2LupBTo45gqK/RfhzVgW6VFlEYB3xFyuT3j5IYm0FWrkFofWTSQ==
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.4.2.tgz#f4e6d5e7b448ac606f188ed099cc517fdaddc5f8"
+  integrity sha512-EzBCHWE5Utv2BcFTFTcyUTuJK2I54nvyHbMxwhgB9vgWG03skQMuqYXw2Xrl8goYJhWly4OilYQctlalr6jw/Q==
   dependencies:
-    "@backstage/backend-common" "^0.19.5"
-    "@backstage/backend-plugin-api" "^0.6.3"
-    "@backstage/backend-tasks" "^0.5.8"
+    "@backstage/backend-common" "^0.19.6"
+    "@backstage/backend-plugin-api" "^0.6.4"
+    "@backstage/backend-tasks" "^0.5.9"
     "@backstage/catalog-client" "^1.4.4"
     "@backstage/catalog-model" "^1.4.2"
     "@backstage/config" "^1.1.0"
     "@backstage/errors" "^1.2.2"
     "@backstage/integration" "^1.7.0"
-    "@backstage/plugin-catalog-backend" "^1.13.0"
+    "@backstage/plugin-catalog-backend" "^1.13.2"
     "@backstage/plugin-catalog-common" "^1.0.16"
-    "@backstage/plugin-catalog-node" "^1.4.4"
-    "@backstage/plugin-events-node" "^0.2.12"
+    "@backstage/plugin-catalog-node" "^1.4.5"
+    "@backstage/plugin-events-node" "^0.2.13"
     "@backstage/types" "^1.1.1"
     "@octokit/graphql" "^5.0.0"
     "@octokit/rest" "^19.0.3"
@@ -3203,7 +3203,7 @@
     "@backstage/plugin-catalog-node" "^1.4.4"
     "@backstage/plugin-scaffolder-common" "^1.4.1"
 
-"@backstage/plugin-catalog-backend@^1.13.0", "@backstage/plugin-catalog-backend@^1.9.0":
+"@backstage/plugin-catalog-backend@^1.13.0", "@backstage/plugin-catalog-backend@^1.13.2", "@backstage/plugin-catalog-backend@^1.9.0":
   version "1.13.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.13.2.tgz#1c0a3b15dbe87a88674b44977f295d20517a4ace"
   integrity sha512-kFN4ab1OIs0fYBsRKvJWKsJbmDv8fXwzvZNeRfq4yhV//N0+T7Lnzj30DZji798ZtRwHtRcP+TaUAl3IZwa9tA==
@@ -3380,7 +3380,7 @@
     react-use "^17.2.4"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-events-node@^0.2.12", "@backstage/plugin-events-node@^0.2.13":
+"@backstage/plugin-events-node@^0.2.13":
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-events-node/-/plugin-events-node-0.2.13.tgz#8151e67629701536c0f9f45a1afe0aa98e3adfb6"
   integrity sha512-R63ILC3ANmh8a2ny+7jWaplZypNAomfnAWGjRZCRlIGe0j8gSVkNDi277uiD5KAsm4LdXxdMTt469Nhe57t9LQ==
