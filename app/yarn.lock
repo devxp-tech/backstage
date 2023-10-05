@@ -2451,21 +2451,21 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/backend-app-api@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-app-api/-/backend-app-api-0.5.4.tgz#7bfc48ad6c70bd83b7d818a5b108267a730fe299"
-  integrity sha512-tgF616GnqK/5y4xy9FnAON5b2b8f1NugAgfKcbtQur7/u28teac37CA5Y+oOl7pu/d4W4zNRD0+dB8Cvo5bdYw==
+"@backstage/backend-app-api@^0.5.5":
+  version "0.5.5"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-app-api/-/backend-app-api-0.5.5.tgz#1f67f423ed78c339a0bb2af65e9b77e3bb59f399"
+  integrity sha512-U+GUpSqAzO+bEeW+zB1WHZgTex87mUNv/NSB/4FrRJI+DXU3JqPT84xZCkJfSkdsA3n5CFBAE+zIJw12oM7vcQ==
   dependencies:
-    "@backstage/backend-common" "^0.19.6"
-    "@backstage/backend-plugin-api" "^0.6.4"
-    "@backstage/backend-tasks" "^0.5.9"
+    "@backstage/backend-common" "^0.19.7"
+    "@backstage/backend-plugin-api" "^0.6.5"
+    "@backstage/backend-tasks" "^0.5.10"
     "@backstage/cli-common" "^0.1.12"
     "@backstage/cli-node" "^0.1.4"
     "@backstage/config" "^1.1.0"
     "@backstage/config-loader" "^1.5.0"
     "@backstage/errors" "^1.2.2"
-    "@backstage/plugin-auth-node" "^0.3.1"
-    "@backstage/plugin-permission-node" "^0.7.15"
+    "@backstage/plugin-auth-node" "^0.3.2"
+    "@backstage/plugin-permission-node" "^0.7.16"
     "@backstage/types" "^1.1.1"
     "@manypkg/get-packages" "^1.1.3"
     "@types/cors" "^2.8.6"
@@ -2487,18 +2487,18 @@
     winston "^3.2.1"
     winston-transport "^4.5.0"
 
-"@backstage/backend-common@^0.19.0", "@backstage/backend-common@^0.19.5", "@backstage/backend-common@^0.19.6":
-  version "0.19.6"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.19.6.tgz#f6792e63125076fdb230019a00ede41f2f1b1e8b"
-  integrity sha512-36ayqLTSYa7p0nKSxMt7fDpn5bKU6VH2qddhu64z33Ex1sC/gXMX+BnPk9lLPTpb5l0LEvlmYWu2PoGt9bM29w==
+"@backstage/backend-common@^0.19.0", "@backstage/backend-common@^0.19.6", "@backstage/backend-common@^0.19.7":
+  version "0.19.7"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.19.7.tgz#69ec9e4ea8b75745e4a320711501b50604d8e049"
+  integrity sha512-0n52fRmakaeOH2nsTB13i2pbmxdcnzpGOxupYMlmwsaAiOnzKJ0Tu9FJCixwaCrg2EjL/AWh9BWthcNDFpduag==
   dependencies:
     "@aws-sdk/abort-controller" "^3.347.0"
     "@aws-sdk/client-s3" "^3.350.0"
     "@aws-sdk/credential-providers" "^3.350.0"
     "@aws-sdk/types" "^3.347.0"
-    "@backstage/backend-app-api" "^0.5.4"
+    "@backstage/backend-app-api" "^0.5.5"
     "@backstage/backend-dev-utils" "^0.1.1"
-    "@backstage/backend-plugin-api" "^0.6.4"
+    "@backstage/backend-plugin-api" "^0.6.5"
     "@backstage/cli-common" "^0.1.12"
     "@backstage/config" "^1.1.0"
     "@backstage/config-loader" "^1.5.0"
@@ -2572,14 +2572,14 @@
     lodash "^4.17.21"
     openapi3-ts "^3.1.2"
 
-"@backstage/backend-plugin-api@^0.6.3", "@backstage/backend-plugin-api@^0.6.4":
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-0.6.4.tgz#9bb743a686e741350a8c2d0e62c5b3375c58507b"
-  integrity sha512-HlPkPqj2SNup9Eo9iQEGspFdR19Hjzn7yQ3BMP3XH5HmHRkV3JzqdkY6x6evFxEDt7wPSI6koQFPuzSsg8wzaw==
+"@backstage/backend-plugin-api@^0.6.4", "@backstage/backend-plugin-api@^0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-0.6.5.tgz#ec156b30518a0fd16be866bd5efe812afc10a9b3"
+  integrity sha512-axwWnQ7jGGNDytEAhmhqAHsDGnoS1g8nkPPbVbVoiHOSck8VVJIxORwmjoOI70TpW9SiRooN/NzpXeLREkV8PA==
   dependencies:
-    "@backstage/backend-tasks" "^0.5.9"
+    "@backstage/backend-tasks" "^0.5.10"
     "@backstage/config" "^1.1.0"
-    "@backstage/plugin-auth-node" "^0.3.1"
+    "@backstage/plugin-auth-node" "^0.3.2"
     "@backstage/plugin-permission-common" "^0.7.8"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
@@ -2592,6 +2592,24 @@
   integrity sha512-omT2JpP63yaBLAC7O9bo6PicK6ffFmsgHghT2ayJtfEYYlfUnEmz52TK54ESa1D2qQ3DFStkM4i0ApTNLT4PnA==
   dependencies:
     "@backstage/backend-common" "^0.19.6"
+    "@backstage/config" "^1.1.0"
+    "@backstage/errors" "^1.2.2"
+    "@backstage/types" "^1.1.1"
+    "@types/luxon" "^3.0.0"
+    cron "^2.0.0"
+    knex "^2.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+    uuid "^8.0.0"
+    winston "^3.2.1"
+    zod "^3.21.4"
+
+"@backstage/backend-tasks@^0.5.10":
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.5.10.tgz#2832655080d2f4ed7d81d095f84ed23bdb743502"
+  integrity sha512-Ky3PbTIZNPOLRtVeP4FOC7lqTUAG9v/b0B9eOy34FKhjpOyR/Vf2TXIMtBohKX9MubwyFCZggUXf1hFEwQpl/w==
+  dependencies:
+    "@backstage/backend-common" "^0.19.7"
     "@backstage/config" "^1.1.0"
     "@backstage/errors" "^1.2.2"
     "@backstage/types" "^1.1.1"
@@ -3030,79 +3048,79 @@
     "@types/express" "^4.17.6"
     express "^4.17.1"
 
-"@backstage/plugin-auth-backend-module-gcp-iap-provider@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-gcp-iap-provider/-/plugin-auth-backend-module-gcp-iap-provider-0.1.0.tgz#2d3f6f4d905ef1892d2bd28fe237cbe5b76bc60a"
-  integrity sha512-6jtig7Mo53gEIovkfAmYaNG7Z91SmkSnYcSkfxBq9W++y4mVnFJvLjugifPkzcpFvW6blpCVotRPixnq8DeFYA==
+"@backstage/plugin-auth-backend-module-gcp-iap-provider@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-gcp-iap-provider/-/plugin-auth-backend-module-gcp-iap-provider-0.1.2.tgz#b98ec98760edc7b4731dfdc490c5c26a3135c51f"
+  integrity sha512-Gx0kk07eoA5bI5+QrIh+mEFiDDHSCtCGrcUjkgNjbvfCSAnx3RjlwgDkNmOoZpKd/xmzAs/Cxc2oSImQeyg+UA==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.3"
+    "@backstage/backend-plugin-api" "^0.6.5"
     "@backstage/errors" "^1.2.2"
-    "@backstage/plugin-auth-node" "^0.3.0"
+    "@backstage/plugin-auth-node" "^0.3.2"
     "@backstage/types" "^1.1.1"
     google-auth-library "^8.0.0"
 
-"@backstage/plugin-auth-backend-module-github-provider@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-github-provider/-/plugin-auth-backend-module-github-provider-0.1.0.tgz#022c5f780c900e382fe163ef60ca62464ce5fca2"
-  integrity sha512-bBbC5Gq4jENfS8U0dyyb977Z7s1OP9HEIjyUZNFd0eIN1Q+zjdJSFpxHO0VW685tHrzxTQU7yG618JP79Dl++w==
+"@backstage/plugin-auth-backend-module-github-provider@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-github-provider/-/plugin-auth-backend-module-github-provider-0.1.2.tgz#9ddde4efbdaca60638df7a9049d1915cdc790ae8"
+  integrity sha512-F6anB2Q/xddONMyz49mLM3sa5AbLsGcgzxofbIrtjgCPfVAfP5W2Ql/3hlcMeAYJYAwxr4vqyblVBNSIdRupzg==
   dependencies:
-    "@backstage/backend-common" "^0.19.5"
-    "@backstage/backend-plugin-api" "^0.6.3"
-    "@backstage/plugin-auth-node" "^0.3.0"
+    "@backstage/backend-common" "^0.19.7"
+    "@backstage/backend-plugin-api" "^0.6.5"
+    "@backstage/plugin-auth-node" "^0.3.2"
     passport-github2 "^0.1.12"
 
-"@backstage/plugin-auth-backend-module-gitlab-provider@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-gitlab-provider/-/plugin-auth-backend-module-gitlab-provider-0.1.0.tgz#dec28b9a575a99b6f9bddfdb23d6917250b89e99"
-  integrity sha512-sU10Zqy3vlNfyHxrcCAIu++GUUXcOAl5mAdgDz5j/uzLVjFYHXlfmcmsji524lFXBBk/K2gfddwcDz3HfI+xdA==
+"@backstage/plugin-auth-backend-module-gitlab-provider@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-gitlab-provider/-/plugin-auth-backend-module-gitlab-provider-0.1.2.tgz#58bbfada6f11f7f35034aea281e3e021b0fd9dac"
+  integrity sha512-BD0YptVp6jpVSZy0HUHn1pLVDhX39Hyj4kWSDzgypra4r6LFeXfRdystyqKWtPVPH9/Ke27a/TzWbBXkgwnneA==
   dependencies:
-    "@backstage/backend-common" "^0.19.5"
-    "@backstage/backend-plugin-api" "^0.6.3"
-    "@backstage/plugin-auth-node" "^0.3.0"
+    "@backstage/backend-common" "^0.19.7"
+    "@backstage/backend-plugin-api" "^0.6.5"
+    "@backstage/plugin-auth-node" "^0.3.2"
     express "^4.18.2"
     passport "^0.6.0"
     passport-gitlab2 "^5.0.0"
 
-"@backstage/plugin-auth-backend-module-google-provider@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-google-provider/-/plugin-auth-backend-module-google-provider-0.1.0.tgz#eb7f096fefb921a0d2298ee5e8b165afbf2c8332"
-  integrity sha512-gatqAX0uIo+APlh16GYyNDAljfMCdNN8qb5m6ntVqg8ylTixq+2Vdv3CBEWd82yYcD2ouiWwL32TVun3lLCeJA==
+"@backstage/plugin-auth-backend-module-google-provider@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-google-provider/-/plugin-auth-backend-module-google-provider-0.1.2.tgz#5ea680dce86f0dda4976b849474549cf4906c895"
+  integrity sha512-tEkU+k3JPkVsZ8g0E7qfnKKBZKZfj6OllpJ0bS5c/IHBMI2IYasxJzYcAr1oRB2GdvSIMQj86Lwoh07B5YKnGQ==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.3"
-    "@backstage/plugin-auth-node" "^0.3.0"
+    "@backstage/backend-plugin-api" "^0.6.5"
+    "@backstage/plugin-auth-node" "^0.3.2"
     google-auth-library "^8.0.0"
     passport-google-oauth20 "^2.0.0"
 
-"@backstage/plugin-auth-backend-module-oauth2-provider@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-oauth2-provider/-/plugin-auth-backend-module-oauth2-provider-0.1.0.tgz#04bec90ba2d422710fa776adb58ca447429da2e4"
-  integrity sha512-fUHQeRiTWusBPYsVKfnnOORCJz1GVe5PVSVS7PeiQPstdMSQUC/6Zxh4UB8Z320Sld/W/aZH9DhsEg5REGVvTQ==
+"@backstage/plugin-auth-backend-module-oauth2-provider@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend-module-oauth2-provider/-/plugin-auth-backend-module-oauth2-provider-0.1.2.tgz#bb90715999e8388a3eb1baf659e2bd2aa98792f4"
+  integrity sha512-6Pd7X3+U4sGtMNnq/f+3Yyebo/V0sTGTRUkJmDnG3ph8OGAa+dfkHepT1n2vyTm+FMj8srz0uNfI/vVVpe1XEw==
   dependencies:
-    "@backstage/backend-common" "^0.19.5"
-    "@backstage/backend-plugin-api" "^0.6.3"
-    "@backstage/plugin-auth-node" "^0.3.0"
+    "@backstage/backend-common" "^0.19.7"
+    "@backstage/backend-plugin-api" "^0.6.5"
+    "@backstage/plugin-auth-node" "^0.3.2"
     express "^4.18.2"
     passport "^0.6.0"
     passport-oauth2 "^1.6.1"
 
 "@backstage/plugin-auth-backend@^0.19.0":
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend/-/plugin-auth-backend-0.19.0.tgz#9dec3dcb0e5aa45cbd7b9a254569ee1f5c902aed"
-  integrity sha512-nzoHmJ4gdRXBZU35Hm1qCBaVHmdIit8mJG7At+jiIHS9zCp6zNRUTbapDOksFAoBQK3CEXuTHqdO1QeFX3PL9g==
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend/-/plugin-auth-backend-0.19.2.tgz#bd838ead04b19da63e58c83ce084bd1e0ef2766e"
+  integrity sha512-020qGX3VyuJl7UIzpY97b/iA63WsNUzINnDfjg/Pj2pg5/rAawEM0cWteKhnnVHk+0Q6AHUCfAp9qaEjNIAr1w==
   dependencies:
-    "@backstage/backend-common" "^0.19.5"
-    "@backstage/backend-plugin-api" "^0.6.3"
+    "@backstage/backend-common" "^0.19.7"
+    "@backstage/backend-plugin-api" "^0.6.5"
     "@backstage/catalog-client" "^1.4.4"
     "@backstage/catalog-model" "^1.4.2"
     "@backstage/config" "^1.1.0"
     "@backstage/errors" "^1.2.2"
-    "@backstage/plugin-auth-backend-module-gcp-iap-provider" "^0.1.0"
-    "@backstage/plugin-auth-backend-module-github-provider" "^0.1.0"
-    "@backstage/plugin-auth-backend-module-gitlab-provider" "^0.1.0"
-    "@backstage/plugin-auth-backend-module-google-provider" "^0.1.0"
-    "@backstage/plugin-auth-backend-module-oauth2-provider" "^0.1.0"
-    "@backstage/plugin-auth-node" "^0.3.0"
-    "@backstage/plugin-catalog-node" "^1.4.4"
+    "@backstage/plugin-auth-backend-module-gcp-iap-provider" "^0.1.2"
+    "@backstage/plugin-auth-backend-module-github-provider" "^0.1.2"
+    "@backstage/plugin-auth-backend-module-gitlab-provider" "^0.1.2"
+    "@backstage/plugin-auth-backend-module-google-provider" "^0.1.2"
+    "@backstage/plugin-auth-backend-module-oauth2-provider" "^0.1.2"
+    "@backstage/plugin-auth-node" "^0.3.2"
+    "@backstage/plugin-catalog-node" "^1.4.6"
     "@backstage/types" "^1.1.1"
     "@davidzemon/passport-okta-oauth" "^0.0.5"
     "@google-cloud/firestore" "^6.0.0"
@@ -3141,13 +3159,13 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-auth-node@^0.3.0", "@backstage/plugin-auth-node@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.3.1.tgz#61a29a129261198088478c930d7a81d21ee39431"
-  integrity sha512-GKlJHx9XG5EouWfKG5B50oTcrDCoJ5i3QfxWu5KzYNuW1ici9PQqzBMvcwLj064JlSDZlGp50pFCve8sEYFbjA==
+"@backstage/plugin-auth-node@^0.3.0", "@backstage/plugin-auth-node@^0.3.1", "@backstage/plugin-auth-node@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.3.2.tgz#d0334eab4b44f6d10a083416406aa156e7b689e3"
+  integrity sha512-pr8uJZpw1GahIURIhYc1o50BfziXNpfyCGa3zTHRDweiArQHdc2u7PKKQuFJ2XrVH3xYoGhUzUCzxKZsNZbJsA==
   dependencies:
-    "@backstage/backend-common" "^0.19.6"
-    "@backstage/backend-plugin-api" "^0.6.4"
+    "@backstage/backend-common" "^0.19.7"
+    "@backstage/backend-plugin-api" "^0.6.5"
     "@backstage/catalog-client" "^1.4.4"
     "@backstage/catalog-model" "^1.4.2"
     "@backstage/config" "^1.1.0"
@@ -3308,12 +3326,12 @@
     react-use "^17.2.4"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-node@^1.4.4", "@backstage/plugin-catalog-node@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.4.5.tgz#ffa82d219939a205fada8941ddcef8516f7e495a"
-  integrity sha512-BjxJKphQBJ30RjhMjotvLT8w6UufzgdEhB8UH/5wttyKwSGJqpSk/lKzugxYfb7Pz5y+ucwZTAq9H2L+O0vo8w==
+"@backstage/plugin-catalog-node@^1.4.5", "@backstage/plugin-catalog-node@^1.4.6":
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.4.6.tgz#ec5da49ed9537f697e034724be15e8c778b25125"
+  integrity sha512-ymZ4ibpHcTCltln+C7V0LpIf/kPbe7zuaOkVQqMMH0+wi6WJoO8IrydfDK2sddWbbJSMAXkDCowIfcvocdBeUg==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.4"
+    "@backstage/backend-plugin-api" "^0.6.5"
     "@backstage/catalog-client" "^1.4.4"
     "@backstage/catalog-model" "^1.4.2"
     "@backstage/errors" "^1.2.2"
@@ -3570,6 +3588,23 @@
     "@backstage/config" "^1.1.0"
     "@backstage/errors" "^1.2.2"
     "@backstage/plugin-auth-node" "^0.3.1"
+    "@backstage/plugin-permission-common" "^0.7.8"
+    "@types/express" "^4.17.6"
+    express "^4.17.1"
+    express-promise-router "^4.1.0"
+    zod "^3.21.4"
+    zod-to-json-schema "^3.20.4"
+
+"@backstage/plugin-permission-node@^0.7.16":
+  version "0.7.16"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.16.tgz#f17d972e34e9f78e430da7ce54d4b8d9cdcd1786"
+  integrity sha512-YRqKeHf/bxwlw3GCtFgEBvS6zTrIoAyotMZn+9HTx6NSUtI2rXgGnsX/UdLHOg19B6to4Dy17VhCZLd0Hz7Eew==
+  dependencies:
+    "@backstage/backend-common" "^0.19.7"
+    "@backstage/backend-plugin-api" "^0.6.5"
+    "@backstage/config" "^1.1.0"
+    "@backstage/errors" "^1.2.2"
+    "@backstage/plugin-auth-node" "^0.3.2"
     "@backstage/plugin-permission-common" "^0.7.8"
     "@types/express" "^4.17.6"
     express "^4.17.1"
