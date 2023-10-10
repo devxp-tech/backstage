@@ -2487,7 +2487,7 @@
     winston "^3.2.1"
     winston-transport "^4.5.0"
 
-"@backstage/backend-common@^0.19.0", "@backstage/backend-common@^0.19.6", "@backstage/backend-common@^0.19.7":
+"@backstage/backend-common@^0.19.0", "@backstage/backend-common@^0.19.7":
   version "0.19.7"
   resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.19.7.tgz#69ec9e4ea8b75745e4a320711501b50604d8e049"
   integrity sha512-0n52fRmakaeOH2nsTB13i2pbmxdcnzpGOxupYMlmwsaAiOnzKJ0Tu9FJCixwaCrg2EjL/AWh9BWthcNDFpduag==
@@ -2572,7 +2572,7 @@
     lodash "^4.17.21"
     openapi3-ts "^3.1.2"
 
-"@backstage/backend-plugin-api@^0.6.4", "@backstage/backend-plugin-api@^0.6.5":
+"@backstage/backend-plugin-api@^0.6.5":
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-0.6.5.tgz#ec156b30518a0fd16be866bd5efe812afc10a9b3"
   integrity sha512-axwWnQ7jGGNDytEAhmhqAHsDGnoS1g8nkPPbVbVoiHOSck8VVJIxORwmjoOI70TpW9SiRooN/NzpXeLREkV8PA==
@@ -3308,7 +3308,7 @@
     react-use "^17.2.4"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-node@^1.4.5", "@backstage/plugin-catalog-node@^1.4.6":
+"@backstage/plugin-catalog-node@^1.4.6":
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.4.6.tgz#ec5da49ed9537f697e034724be15e8c778b25125"
   integrity sha512-ymZ4ibpHcTCltln+C7V0LpIf/kPbe7zuaOkVQqMMH0+wi6WJoO8IrydfDK2sddWbbJSMAXkDCowIfcvocdBeUg==
@@ -4102,19 +4102,19 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-todo-backend@^0.3.1":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.2.tgz#42440f7fd429b27807b0da1bce0994e70da6c616"
-  integrity sha512-p+GqA4Rvg5Pwsq6GOI2y60tKZ5co9flaEkNqz2PMvde9ZbpzNNfG9SeiooaLNKYMTlmxBjTxRYXMLqCLyAEOtg==
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.3.tgz#689a18de22c850ccc8d7a102bbc64601e6e87b81"
+  integrity sha512-AUfOykubcxscxYtOdTfd4POUgYktTfHn+ToudZubbV374MpQQn+CZlN7RKkO2zRU17HNQVXREe7KqfSZ0TAJgA==
   dependencies:
-    "@backstage/backend-common" "^0.19.6"
+    "@backstage/backend-common" "^0.19.7"
     "@backstage/backend-openapi-utils" "^0.0.4"
-    "@backstage/backend-plugin-api" "^0.6.4"
+    "@backstage/backend-plugin-api" "^0.6.5"
     "@backstage/catalog-client" "^1.4.4"
     "@backstage/catalog-model" "^1.4.2"
     "@backstage/config" "^1.1.0"
     "@backstage/errors" "^1.2.2"
     "@backstage/integration" "^1.7.0"
-    "@backstage/plugin-catalog-node" "^1.4.5"
+    "@backstage/plugin-catalog-node" "^1.4.6"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     express-promise-router "^4.1.0"
