@@ -2779,30 +2779,7 @@
     yn "^4.0.0"
     zod "^3.21.4"
 
-"@backstage/config-loader@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.5.0.tgz#48568a0b83d7546eebf0f5c3f6f0a46842488f96"
-  integrity sha512-XG+7mCZxgecFJkgAv8gCtriBy7gfBAO54vgpUwQc75JNvTkHSLydbBXtCOMEvrp35c3jlDo8cmkCqxyzQkTybQ==
-  dependencies:
-    "@backstage/cli-common" "^0.1.12"
-    "@backstage/config" "^1.1.0"
-    "@backstage/errors" "^1.2.2"
-    "@backstage/types" "^1.1.1"
-    "@types/json-schema" "^7.0.6"
-    ajv "^8.10.0"
-    chokidar "^3.5.2"
-    fs-extra "10.1.0"
-    json-schema "^0.4.0"
-    json-schema-merge-allof "^0.8.1"
-    json-schema-traverse "^1.0.0"
-    lodash "^4.17.21"
-    minimist "^1.2.5"
-    node-fetch "^2.6.7"
-    typescript-json-schema "^0.55.0"
-    yaml "^2.0.0"
-    yup "^0.32.9"
-
-"@backstage/config-loader@^1.5.1":
+"@backstage/config-loader@^1.5.0", "@backstage/config-loader@^1.5.1":
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.5.1.tgz#c61de8ead70fc0997c51051536549565a65e5738"
   integrity sha512-Qoc8mVZHgwwnPlBkPwBRlUXwIF6qqSkyPvuVqgkdcLyxp/hoxC9ZUyOlO5e4TYyuoBvNB4ZTWzUL3qAdaYDcsw==
@@ -3079,15 +3056,15 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.53"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.53.tgz#01dd286e6d25f9e36bb439df389362f1a46400d7"
-  integrity sha512-mLgSTLweZPxlK2aPQIv6B+LHvi3YRRMax37er67IB9Hd4aHcb5s6xrDZ4vqklpCNWIJ/I3g383Sq8/qnDBMgTQ==
+  version "0.3.54"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.54.tgz#37a7c2a78fd0ce7f29a130bd40b566d805979aa8"
+  integrity sha512-bHjMxJbXZKYYagDZB9MrO45JRDJhStgEvbltW3HXztHhpimIzOsg66mLjvkKDFp3TXsKou2q4nEHUBQf4kZl7g==
   dependencies:
-    "@backstage/backend-common" "^0.19.7"
-    "@backstage/backend-plugin-api" "^0.6.5"
-    "@backstage/config" "^1.1.0"
-    "@backstage/config-loader" "^1.5.0"
-    "@backstage/plugin-app-node" "^0.1.5"
+    "@backstage/backend-common" "^0.19.8"
+    "@backstage/backend-plugin-api" "^0.6.6"
+    "@backstage/config" "^1.1.1"
+    "@backstage/config-loader" "^1.5.1"
+    "@backstage/plugin-app-node" "^0.1.6"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
@@ -3101,12 +3078,12 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.5.tgz#c07ec791232bdc2e2c4a9a9e99fa2f5249b4cb6c"
-  integrity sha512-w8bJP+4kUNXj1jApKW5eZAMuSY2pLJG9VvBsf+cVpEVXE22nZ0IZ66P0Y4YiTEgem24aedKHQjF0FKpT0BxNkA==
+"@backstage/plugin-app-node@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.6.tgz#94e08577212aef1579ebe6ca4d8842e5ea63c2ab"
+  integrity sha512-lVNr1krMA5EQGHsgFmd2SHV68RLCC5o27z64fvEHG5Bo57iCMkc78sRWZpG6EBzJL+3+iqzEMugvvUOMdugMaA==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.5"
+    "@backstage/backend-plugin-api" "^0.6.6"
     "@types/express" "^4.17.6"
     express "^4.17.1"
 
@@ -18609,7 +18586,7 @@ path-browserify@0.0.1:
   resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-0.0.1.tgz#e6c4ddd7ed3aa27c68a20cc4e50e1a4ee83bbc4a"
   integrity sha512-BapA40NHICOS+USX9SN4tyhq+A2RrN/Ws5F0Z5aMHDp98Fl86lX8Oti8B7uN93L4Ifv4fHOEA+pQw87gmMO/lQ==
 
-path-equal@^1.1.2, path-equal@^1.2.5:
+path-equal@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/path-equal/-/path-equal-1.2.5.tgz#9fcbdd5e5daee448e96f43f3bac06c666b5e982a"
   integrity sha512-i73IctDr3F2W+bsOWDyyVm/lqsXO47aY9nsFZUjTT/aljSbkxHxxCoyZ9UUrM8jK0JVod+An+rl48RCsvWM+9g==
@@ -22392,20 +22369,6 @@ types-ramda@^0.29.3:
   dependencies:
     ts-toolbelt "^9.6.0"
 
-typescript-json-schema@^0.55.0:
-  version "0.55.0"
-  resolved "https://registry.yarnpkg.com/typescript-json-schema/-/typescript-json-schema-0.55.0.tgz#f268d27ac0b76284a929c6f72714c6ca4e1b5e20"
-  integrity sha512-BXaivYecUdiXWWNiUqXgY6A9cMWerwmhtO+lQE7tDZGs7Mf38sORDeQZugfYOZOHPZ9ulsD+w0LWjFDOQoXcwg==
-  dependencies:
-    "@types/json-schema" "^7.0.9"
-    "@types/node" "^16.9.2"
-    glob "^7.1.7"
-    path-equal "^1.1.2"
-    safe-stable-stringify "^2.2.0"
-    ts-node "^10.9.1"
-    typescript "~4.8.2"
-    yargs "^17.1.1"
-
 typescript-json-schema@^0.61.0:
   version "0.61.0"
   resolved "https://registry.yarnpkg.com/typescript-json-schema/-/typescript-json-schema-0.61.0.tgz#6f09f249469b2a8bb642578de0801e1e1d22f969"
@@ -22424,11 +22387,6 @@ typescript-json-schema@^0.61.0:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.2.2.tgz#5ebb5e5a5b75f085f22bc3f8460fba308310fa78"
   integrity sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==
-
-typescript@~4.8.2:
-  version "4.8.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.4.tgz#c464abca159669597be5f96b8943500b238e60e6"
-  integrity sha512-QCh+85mCy+h0IGff8r5XWzOVSbBO+KfeYrMQh7NJ58QujwcE22u+NUSmUxqF+un70P9GXKxa2HCNiTTMJknyjQ==
 
 typescript@~5.1.0:
   version "5.1.6"
