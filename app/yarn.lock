@@ -4116,13 +4116,14 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-sonarqube-backend@^0.2.0":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-backend/-/plugin-sonarqube-backend-0.2.7.tgz#dc02f9de051ee722935b674a2fb03b5f0042e266"
-  integrity sha512-n4HeYV9SMLMrVlf4tdDcI/7O0aq6zuVWA2K9mMRFcvfJJDuT5VFbSIijM1cOMnnRpcYnVFWNZtatxJG1CtbxDA==
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-backend/-/plugin-sonarqube-backend-0.2.8.tgz#17e05620b56a1f964e632e738afaa8382d5bb9e7"
+  integrity sha512-kfH5Yo/RqCA3BZCvUHVGzT3DGjEKjeUOh1z+WEG3wBySU1+R90yNMgwlIB8Q/CZZ2J8SltAenKDBjSZX3jUY0Q==
   dependencies:
-    "@backstage/backend-common" "^0.19.7"
-    "@backstage/config" "^1.1.0"
-    "@backstage/errors" "^1.2.2"
+    "@backstage/backend-common" "^0.19.8"
+    "@backstage/backend-plugin-api" "^0.6.6"
+    "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
     "@types/express" "*"
     express "^4.18.1"
     express-promise-router "^4.1.0"
