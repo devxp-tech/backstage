@@ -3057,6 +3057,18 @@
     "@types/react" "^16.13.1 || ^17.0.0"
     react-use "^17.2.4"
 
+"@backstage/integration-react@^1.1.20":
+  version "1.1.20"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.20.tgz#f2e6049494b3945cfc8588ec5641c4460ce967fa"
+  integrity sha512-aJbCeU91wmhl+I2HgJFgKR3/QmCfIzzeF/bIcUwzYNbNuzgk+V8I7tizLumysjlt2iQT+6vsIscDMn5YTLki/w==
+  dependencies:
+    "@backstage/config" "^1.1.1"
+    "@backstage/core-plugin-api" "^1.7.0"
+    "@backstage/integration" "^1.7.1"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@types/react" "^16.13.1 || ^17.0.0"
+
 "@backstage/integration@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.7.0.tgz#8f398411c13a87c94f1550f9b9e454d79c3780ed"
@@ -3087,17 +3099,17 @@
     luxon "^3.0.0"
 
 "@backstage/plugin-api-docs@^0.9.2":
-  version "0.9.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.9.11.tgz#66c10f38f5b40d45c6c26fe13e674ee380256eda"
-  integrity sha512-QtT5kBO43LAoDKiv2sp+9IOvbxJ3U2P8HQQM4Af85KowFlwwg1+nn1eepgoNp6n5k+granaX4GKk0ba1uEH4sQ==
+  version "0.9.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.9.12.tgz#76166304bfd96c1ad54fb552bbdb62cfc6fd0b88"
+  integrity sha512-WokEH1GQAkrM9yjkkINzujnWIEo/xVgB+ITreCoxJlYajJRN10p4gj99WejBSUgT49+N1F55CVJASIAlfGWDVw==
   dependencies:
     "@asyncapi/react-component" "1.0.0-next.48"
-    "@backstage/catalog-model" "^1.4.2"
-    "@backstage/core-components" "^0.13.5"
-    "@backstage/core-plugin-api" "^1.6.0"
-    "@backstage/plugin-catalog" "^1.13.0"
-    "@backstage/plugin-catalog-react" "^1.8.4"
-    "@backstage/theme" "^0.4.2"
+    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/core-components" "^0.13.6"
+    "@backstage/core-plugin-api" "^1.7.0"
+    "@backstage/plugin-catalog" "^1.14.0"
+    "@backstage/plugin-catalog-react" "^1.8.5"
+    "@backstage/theme" "^0.4.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
@@ -3493,23 +3505,24 @@
     yaml "^2.0.0"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.13.0.tgz#fd2a0288eacad8209b80792e29d62571da51b799"
-  integrity sha512-VciuTKfeJXy1SbzDUOejkg3/hyZLG7XEGATpKxNPSt2Yd5xPQ0hxMdit2wke2b4dDFyuBFXzc3/aTIgzJ3xKhg==
+"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.14.0.tgz#cd2c764a506107d40205a1e0b4da51e4ec517738"
+  integrity sha512-7gIYpEVrF07RHPdsf9vxfkR66Go9RI81m2ktImSxicC1l9L+Cs7Yv13S9PdsN/RmSZ1wW7BrgQnleHjjVXtlAA==
   dependencies:
-    "@backstage/catalog-client" "^1.4.4"
-    "@backstage/catalog-model" "^1.4.2"
-    "@backstage/core-components" "^0.13.5"
-    "@backstage/core-plugin-api" "^1.6.0"
-    "@backstage/errors" "^1.2.2"
-    "@backstage/integration-react" "^1.1.19"
-    "@backstage/plugin-catalog-common" "^1.0.16"
-    "@backstage/plugin-catalog-react" "^1.8.4"
-    "@backstage/plugin-scaffolder-common" "^1.4.1"
-    "@backstage/plugin-search-common" "^1.2.6"
-    "@backstage/plugin-search-react" "^1.7.0"
-    "@backstage/theme" "^0.4.2"
+    "@backstage/catalog-client" "^1.4.5"
+    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/core-components" "^0.13.6"
+    "@backstage/core-plugin-api" "^1.7.0"
+    "@backstage/errors" "^1.2.3"
+    "@backstage/frontend-plugin-api" "^0.2.0"
+    "@backstage/integration-react" "^1.1.20"
+    "@backstage/plugin-catalog-common" "^1.0.17"
+    "@backstage/plugin-catalog-react" "^1.8.5"
+    "@backstage/plugin-scaffolder-common" "^1.4.2"
+    "@backstage/plugin-search-common" "^1.2.7"
+    "@backstage/plugin-search-react" "^1.7.1"
+    "@backstage/theme" "^0.4.3"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -3518,7 +3531,6 @@
     history "^5.0.0"
     lodash "^4.17.21"
     pluralize "^8.0.0"
-    react-helmet "6.1.0"
     react-use "^17.2.4"
     zen-observable "^0.10.0"
 
@@ -3851,6 +3863,15 @@
   dependencies:
     "@backstage/catalog-model" "^1.4.2"
     "@backstage/plugin-permission-common" "^0.7.8"
+    "@backstage/types" "^1.1.1"
+
+"@backstage/plugin-scaffolder-common@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.4.2.tgz#0c74a483e11a3d063792c327bb97213958bf8f7a"
+  integrity sha512-dl9cKYhjg/riXzLZRWSoWzgnregyCilmtUIXyZPj2w29WAmC6z0KRBs+oOV2f+txVlCastr07onN3IrZMI2cRg==
+  dependencies:
+    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/plugin-permission-common" "^0.7.9"
     "@backstage/types" "^1.1.1"
 
 "@backstage/plugin-scaffolder-node@^0.2.5":
