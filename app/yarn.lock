@@ -4148,25 +4148,25 @@
     winston "^3.2.1"
     yn "^5.0.0"
 
-"@backstage/plugin-sonarqube-react@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.8.tgz#4d758a4ddb0e20e0dd65bf5a5d7801dfb98167a9"
-  integrity sha512-f740JVAYYPmM0B4UvyUi4iVLr3bg+ixKpefwTz/S3OJ1i3j+WhxiJTrA7rkbP3Q7KcGcITKHqDEs0uXV8yHJeQ==
+"@backstage/plugin-sonarqube-react@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.9.tgz#19c2fe9449e01f6ec1d5691dcdcd53fa3d43d57f"
+  integrity sha512-xybwtW6uCIr26nekVsiF3fqV1mp4tzrIGtxIY4lot53G/rs3+nLWOjeE7KmTJRyXr85ZS4INX9IyT8ru8Yq3fg==
   dependencies:
-    "@backstage/catalog-model" "^1.4.2"
-    "@backstage/core-plugin-api" "^1.6.0"
+    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/core-plugin-api" "^1.7.0"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.5.tgz#828af55ee4558f933264a59922e39230ccca5a22"
-  integrity sha512-kweYuzhmqUNkDJzfQxu4dPjTksHCA2yVyOrTvVm1GJ5PP7JvMWGqIwQWBGgQf150LbTOYrmukPYW+Ep8Wslnig==
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.6.tgz#edd89d22fc2e78ac7f5214c3bd419a9bb084c6f2"
+  integrity sha512-cN9EQGXpVHSs9epYfzasLvAttnsZE6lj1u7Ud7QL/ROj2XzOiBMu6h/T9fZNgdRXhbfu5T4sjNj2/1+v5wn35g==
   dependencies:
-    "@backstage/catalog-model" "^1.4.2"
-    "@backstage/core-components" "^0.13.5"
-    "@backstage/core-plugin-api" "^1.6.0"
-    "@backstage/plugin-catalog-react" "^1.8.4"
-    "@backstage/plugin-sonarqube-react" "^0.1.8"
-    "@backstage/theme" "^0.4.2"
+    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/core-components" "^0.13.6"
+    "@backstage/core-plugin-api" "^1.7.0"
+    "@backstage/plugin-catalog-react" "^1.8.5"
+    "@backstage/plugin-sonarqube-react" "^0.1.9"
+    "@backstage/theme" "^0.4.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
