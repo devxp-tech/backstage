@@ -3255,13 +3255,13 @@
     zod "^3.21.4"
 
 "@backstage/plugin-catalog-common@^1.0.13", "@backstage/plugin-catalog-common@^1.0.17":
-  version "1.0.17"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.0.17.tgz#c7347f6fecc8237d2042c73a516ae8b743345b35"
-  integrity sha512-/oP8/3Kzqks09ZO/sfO/fgl7bnt8jcQCBfTYEYGaCUkRTdH6xLRx+hLkdImBfUEGpe5y48LnS7qmfblkVqHsDw==
+  version "1.0.18"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.0.18.tgz#c60bc17ac6cf7c112713c9adc2a9eca6c08e0a09"
+  integrity sha512-k8EQHv7x6ZmJlkyrC3cQByyiUh/mBxM83LbZcGDVR0WZw2+yP23rV3+NGMYuFW6P9c8jL47YuRFoqQ8FkmDs0Q==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/plugin-permission-common" "^0.7.9"
-    "@backstage/plugin-search-common" "^1.2.7"
+    "@backstage/plugin-permission-common" "^0.7.10"
+    "@backstage/plugin-search-common" "^1.2.8"
 
 "@backstage/plugin-catalog-graph@^0.2.29":
   version "0.2.37"
@@ -3589,15 +3589,15 @@
     qs "^6.10.1"
     react-use "^17.2.4"
 
-"@backstage/plugin-permission-common@^0.7.5", "@backstage/plugin-permission-common@^0.7.8", "@backstage/plugin-permission-common@^0.7.9":
-  version "0.7.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.7.9.tgz#ea4401b7160f3f3f2cc075b691d1594d9560183c"
-  integrity sha512-8/yrybvyEYkSkSnk/7NMNjqBkgvl0yj1VI8jJydYgIBoZj93V7qsaYfGEfpf1Af0NYDoTgPS2vI4lz0jB1RMKg==
+"@backstage/plugin-permission-common@^0.7.10", "@backstage/plugin-permission-common@^0.7.5", "@backstage/plugin-permission-common@^0.7.8", "@backstage/plugin-permission-common@^0.7.9":
+  version "0.7.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.7.10.tgz#0169967f9f5ebf042e49c558aff6bfee6583524b"
+  integrity sha512-E9vWuPbn/Qskg1x4o6dFMMgOVo5ZFEEiMpmAEz4+kuo/XwaKTQFLj5bbA9QwL4iUObeG3Y8GATlTICp3L0Ekbw==
   dependencies:
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
     "@backstage/types" "^1.1.1"
-    cross-fetch "^3.1.5"
+    cross-fetch "^4.0.0"
     uuid "^8.0.0"
     zod "^3.21.4"
 
@@ -3927,12 +3927,12 @@
     yn "^4.0.0"
     zod "^3.21.4"
 
-"@backstage/plugin-search-common@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.7.tgz#69871340797e317b583c2863eadc0e54774d8023"
-  integrity sha512-2cl0Q/FHR41XnJgHYbKfLlhLTowslMjEgcmzOTIPyfwebM++tB2KYTBOYvupCyOC7rVyOu1nMvL6bEBHtQmkYg==
+"@backstage/plugin-search-common@^1.2.7", "@backstage/plugin-search-common@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.8.tgz#8a7db72d0fb8ec51f8b794f7b32c5ff75f6bdff4"
+  integrity sha512-bUg8NFFkEC6sRMkqzj4y1MkDRAgHnCTBFsqby2bjPv5WLDmSd5z9dtxCL4NGn2QOlYaHAKH7sYyLvWSq5yUstg==
   dependencies:
-    "@backstage/plugin-permission-common" "^0.7.9"
+    "@backstage/plugin-permission-common" "^0.7.10"
     "@backstage/types" "^1.1.1"
 
 "@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.7.1":
@@ -10921,6 +10921,13 @@ cross-fetch@^3.1.4, cross-fetch@^3.1.5:
   dependencies:
     node-fetch "^2.6.11"
 
+cross-fetch@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-4.0.0.tgz#f037aef1580bb3a1a35164ea2a848ba81b445983"
+  integrity sha512-e4a5N8lVvuLgAWgnCrLr2PP0YyDOTHa9H/Rj54dirp61qXnNq46m82bRhNqIA5VccJtWBvPTFRV3TtvHUKPB1g==
+  dependencies:
+    node-fetch "^2.6.12"
+
 cross-spawn@^7.0.0, cross-spawn@^7.0.1, cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
@@ -17784,6 +17791,13 @@ node-fetch@^2.6.0, node-fetch@^2.6.1, node-fetch@^2.6.11, node-fetch@^2.6.7:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.11.tgz#cde7fc71deef3131ef80a738919f999e6edfff25"
   integrity sha512-4I6pdBY1EthSqDmJkiNk3JIT8cswwR9nfeW/cPdUagJYEQG7R95WRH74wpz7ma8Gh/9dI9FP+OU+0E4FvtA55w==
+  dependencies:
+    whatwg-url "^5.0.0"
+
+node-fetch@^2.6.12:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
   dependencies:
     whatwg-url "^5.0.0"
 
