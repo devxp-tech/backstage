@@ -2779,29 +2779,7 @@
     yn "^4.0.0"
     zod "^3.21.4"
 
-"@backstage/config-loader@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.5.1.tgz#c61de8ead70fc0997c51051536549565a65e5738"
-  integrity sha512-Qoc8mVZHgwwnPlBkPwBRlUXwIF6qqSkyPvuVqgkdcLyxp/hoxC9ZUyOlO5e4TYyuoBvNB4ZTWzUL3qAdaYDcsw==
-  dependencies:
-    "@backstage/cli-common" "^0.1.13"
-    "@backstage/config" "^1.1.1"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/types" "^1.1.1"
-    "@types/json-schema" "^7.0.6"
-    ajv "^8.10.0"
-    chokidar "^3.5.2"
-    fs-extra "10.1.0"
-    json-schema "^0.4.0"
-    json-schema-merge-allof "^0.8.1"
-    json-schema-traverse "^1.0.0"
-    lodash "^4.17.21"
-    minimist "^1.2.5"
-    node-fetch "^2.6.7"
-    typescript-json-schema "^0.61.0"
-    yaml "^2.0.0"
-
-"@backstage/config-loader@^1.5.3":
+"@backstage/config-loader@^1.5.1", "@backstage/config-loader@^1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.5.3.tgz#5a011cf9dd0242d83c2a116f3703bcdb1942bb78"
   integrity sha512-4w21LCoPztNcEV5vUg/A8A5sbbLQJI8tqrKc/cv2gyqIUPRosAPFihignKrdZ9/FZUwJo172XXrJ5xwgKlAq7g==
@@ -3059,15 +3037,15 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.54"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.54.tgz#37a7c2a78fd0ce7f29a130bd40b566d805979aa8"
-  integrity sha512-bHjMxJbXZKYYagDZB9MrO45JRDJhStgEvbltW3HXztHhpimIzOsg66mLjvkKDFp3TXsKou2q4nEHUBQf4kZl7g==
+  version "0.3.55"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.55.tgz#b750490e991dada1090716b0c257f12fbc37cdc4"
+  integrity sha512-qwRmjwZGKFFJ/JcQ2U1aMjG+yA60jlkxG+3yhZd6Q/eY4AF2PJs4GB26j6qTtBOcomY0YQ6Vvdd4GsjFHRClJg==
   dependencies:
-    "@backstage/backend-common" "^0.19.8"
-    "@backstage/backend-plugin-api" "^0.6.6"
+    "@backstage/backend-common" "^0.19.9"
+    "@backstage/backend-plugin-api" "^0.6.7"
     "@backstage/config" "^1.1.1"
-    "@backstage/config-loader" "^1.5.1"
-    "@backstage/plugin-app-node" "^0.1.6"
+    "@backstage/config-loader" "^1.5.3"
+    "@backstage/plugin-app-node" "^0.1.7"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
@@ -3075,18 +3053,18 @@
     fs-extra "10.1.0"
     globby "^11.0.0"
     helmet "^6.0.0"
-    knex "^2.0.0"
+    knex "^3.0.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.6.tgz#94e08577212aef1579ebe6ca4d8842e5ea63c2ab"
-  integrity sha512-lVNr1krMA5EQGHsgFmd2SHV68RLCC5o27z64fvEHG5Bo57iCMkc78sRWZpG6EBzJL+3+iqzEMugvvUOMdugMaA==
+"@backstage/plugin-app-node@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.7.tgz#0c4920d2e4ea83e2a46efd505bc0f3da2a3ac1f8"
+  integrity sha512-1uQOm9DlqUOK218QmcRm/qumynV3NABE9WOIRCbnWvPwIfoAsMrlFbJlsVIHMxZF+oWgsfceEZRll0GYJsGIyg==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.6"
+    "@backstage/backend-plugin-api" "^0.6.7"
     "@types/express" "^4.17.6"
     express "^4.17.1"
 
@@ -22729,20 +22707,6 @@ types-ramda@^0.29.3:
   integrity sha512-6z8/UCI5/kRorQ91Mo+TUXImHpGAhmhg8ZIdT/tNrG+xSQvDwJXYyT5Nlw2U5VpoKetUZVqQXYYLQyq5Bzccsg==
   dependencies:
     ts-toolbelt "^9.6.0"
-
-typescript-json-schema@^0.61.0:
-  version "0.61.0"
-  resolved "https://registry.yarnpkg.com/typescript-json-schema/-/typescript-json-schema-0.61.0.tgz#6f09f249469b2a8bb642578de0801e1e1d22f969"
-  integrity sha512-sYKnLJjvh9ljdSQkh91LM9PEzgzrgnYfvU226IauISFd+379VCti/VtAFXd00Z9euLkVffh5LRTAO8eamsxUlw==
-  dependencies:
-    "@types/json-schema" "^7.0.9"
-    "@types/node" "^16.9.2"
-    glob "^7.1.7"
-    path-equal "^1.2.5"
-    safe-stable-stringify "^2.2.0"
-    ts-node "^10.9.1"
-    typescript "~5.1.0"
-    yargs "^17.1.1"
 
 typescript-json-schema@^0.62.0:
   version "0.62.0"
