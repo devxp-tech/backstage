@@ -4055,31 +4055,31 @@
     winston "^3.2.1"
     yn "^5.0.0"
 
-"@backstage/plugin-sonarqube-react@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.9.tgz#19c2fe9449e01f6ec1d5691dcdcd53fa3d43d57f"
-  integrity sha512-xybwtW6uCIr26nekVsiF3fqV1mp4tzrIGtxIY4lot53G/rs3+nLWOjeE7KmTJRyXr85ZS4INX9IyT8ru8Yq3fg==
+"@backstage/plugin-sonarqube-react@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.10.tgz#cbb026c74698ead5ebe8bc61da531330b72b452f"
+  integrity sha512-Btd4AZF0+vPUtHqHvavbHUTPcQXSVPAo4VyT7oUVFuzfJzo7T+Oa0DASM1JKb7uKz4f7/PH2+kdcKvYR6N25/A==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-plugin-api" "^1.7.0"
+    "@backstage/core-plugin-api" "^1.8.0"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.7.tgz#a46139a59b0465b26650f2ebeac7ce8c37bf1bf1"
-  integrity sha512-wvf1vus65vUMv2nnmb3WyjNsQu2h9zbaAn09QVfrLfLN3CvSI82mH35zPk9U2Rs42CF+tbO36cZ2aLdu0zDUTg==
+  version "0.7.8"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.8.tgz#79b00cc4a293a54abeb553a562c873ac9d703561"
+  integrity sha512-lNg3PF4b1o9mfH6VJVZcaTEvLhEBS7/qShBiXXa+qv1cF2NBRduJw1ooNaoPZlElLTleWojWysvNxFIRRsarTw==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.6"
-    "@backstage/core-plugin-api" "^1.7.0"
-    "@backstage/plugin-catalog-react" "^1.8.5"
-    "@backstage/plugin-sonarqube-react" "^0.1.9"
-    "@backstage/theme" "^0.4.3"
+    "@backstage/core-components" "^0.13.8"
+    "@backstage/core-plugin-api" "^1.8.0"
+    "@backstage/plugin-catalog-react" "^1.9.0"
+    "@backstage/plugin-sonarqube-react" "^0.1.10"
+    "@backstage/theme" "^0.4.4"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
     "@material-ui/styles" "^4.10.0"
     "@types/react" "^16.13.1 || ^17.0.0"
-    cross-fetch "^3.1.5"
+    cross-fetch "^4.0.0"
     luxon "^3.0.0"
     rc-progress "3.5.1"
     react-use "^17.2.4"
