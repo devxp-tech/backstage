@@ -3274,9 +3274,9 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-catalog-import@^0.10.0":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.10.2.tgz#905fb6be8adc00f04fc39cf5528b3936a8d4c0e3"
-  integrity sha512-YnrWcV82TKTQGysDmJL3PDgr7sk/LR6VlqPRpgVlB5t/IeV6aIETkYs3wEzOFqp4uszOQhN4B6lsaveliA+xWg==
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.10.3.tgz#1c956dd8e02022a2a171e571cd1d9ad6117f6807"
+  integrity sha512-r+irIhVsvAyA3HVe/xeFuQ3Kv5h0hW/svC00bpMFABkOC/g2I+oaVUMD6YMYxMtdFAcysTg8sLlNkfmJLiX7+w==
   dependencies:
     "@backstage/catalog-client" "^1.4.6"
     "@backstage/catalog-model" "^1.4.3"
@@ -3288,7 +3288,7 @@
     "@backstage/integration" "^1.7.2"
     "@backstage/integration-react" "^1.1.21"
     "@backstage/plugin-catalog-common" "^1.0.18"
-    "@backstage/plugin-catalog-react" "^1.9.0"
+    "@backstage/plugin-catalog-react" "^1.9.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
@@ -3313,10 +3313,10 @@
     "@backstage/plugin-catalog-common" "^1.0.18"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0", "@backstage/plugin-catalog-react@^1.8.5", "@backstage/plugin-catalog-react@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.9.0.tgz#9077d78d7c382b9017840c896c44678a1f2960ed"
-  integrity sha512-/hGRgnaHNpyZkt062v1xJbLSdh6fx0WTipafWIP++sVaoU6xE3zZdzbyMZxfgC8KIxIij6tRB+fWx1gNYg+RUg==
+"@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0", "@backstage/plugin-catalog-react@^1.8.5", "@backstage/plugin-catalog-react@^1.9.0", "@backstage/plugin-catalog-react@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.9.1.tgz#80d3ba027499c704bffbb11d877b3e871f557499"
+  integrity sha512-ucuJCVfHEdEsRLv3nv9Ds1eybkKzaDYKqt7KUb2rc/WfNiSZpsaf0/fWYfR/hNIAmxlE3o9PRuLN6wv5v8Ah9w==
   dependencies:
     "@backstage/catalog-client" "^1.4.6"
     "@backstage/catalog-model" "^1.4.3"
