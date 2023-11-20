@@ -3313,10 +3313,10 @@
     "@backstage/plugin-catalog-common" "^1.0.18"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0", "@backstage/plugin-catalog-react@^1.8.5", "@backstage/plugin-catalog-react@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.9.0.tgz#9077d78d7c382b9017840c896c44678a1f2960ed"
-  integrity sha512-/hGRgnaHNpyZkt062v1xJbLSdh6fx0WTipafWIP++sVaoU6xE3zZdzbyMZxfgC8KIxIij6tRB+fWx1gNYg+RUg==
+"@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0", "@backstage/plugin-catalog-react@^1.8.5", "@backstage/plugin-catalog-react@^1.9.0", "@backstage/plugin-catalog-react@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.9.1.tgz#80d3ba027499c704bffbb11d877b3e871f557499"
+  integrity sha512-ucuJCVfHEdEsRLv3nv9Ds1eybkKzaDYKqt7KUb2rc/WfNiSZpsaf0/fWYfR/hNIAmxlE3o9PRuLN6wv5v8Ah9w==
   dependencies:
     "@backstage/catalog-client" "^1.4.6"
     "@backstage/catalog-model" "^1.4.3"
@@ -3977,14 +3977,14 @@
     "@backstage/core-plugin-api" "^1.8.0"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.8.tgz#79b00cc4a293a54abeb553a562c873ac9d703561"
-  integrity sha512-lNg3PF4b1o9mfH6VJVZcaTEvLhEBS7/qShBiXXa+qv1cF2NBRduJw1ooNaoPZlElLTleWojWysvNxFIRRsarTw==
+  version "0.7.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.9.tgz#eb05b81c616ecc45baae512f9046629958ba0c3f"
+  integrity sha512-IECsTYLcPS/M8KvUMRDFedtHWtkxztVMu+PVYhlSg0Kjaj4+3+MR1DC+lFdGQR9JoK3AgjookDrgccYuCCRZSw==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
     "@backstage/core-components" "^0.13.8"
     "@backstage/core-plugin-api" "^1.8.0"
-    "@backstage/plugin-catalog-react" "^1.9.0"
+    "@backstage/plugin-catalog-react" "^1.9.1"
     "@backstage/plugin-sonarqube-react" "^0.1.10"
     "@backstage/theme" "^0.4.4"
     "@material-ui/core" "^4.12.2"
