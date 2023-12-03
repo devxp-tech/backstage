@@ -1,0 +1,98 @@
+version: v2beta1
+name: backstage
+
+# `vars` specifies variables which may be used as ${VAR_NAME} in devspace.yaml
+vars:
+  IMAGE: ghcr.io/devxp-tech/backstage
+
+pullSecrets:
+  ghcr:
+    registry: ghcr.io
+    username: ${REGISTRY_USER}
+    password: ${REGISTRY_PASSWORD}
+
+pipelines:
+  # Override the default pipeline for 'devspace dev'
+  dev:
+    run: |-
+      run_dependencies --all       # 1. Deploy any projects this project needs (see "dependencies")
+      create_deployments --all     # 2. Deploy Helm charts and manifests specfied as "deployments"
+      start_dev --all              # 3. Start dev mode "app" (see "dev" section
+
+# This is a list of `images` that DevSpace can build for this project
+# We recommend to skip image building during development (devspace dev) as much as possible
+images:
+  app:
+    image: ${IMAGE}
+    dockerfile: ./Dockerfile
+    createPullSecret: true
+
+# This is a list of `deployments` that DevSpace can create for this project
+deployments:
+  app:
+    helm:
+      chart:
+        name: devxp-dev
+        version: 0.0.3
+        repo: https://devxp-tech.github.io/helm-charts
+      values:
+        name: backstage-dev
+        imagePullSecrets:
+          enabled: true
+          name: ghcr
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "256Mi"
+          limits:
+            cpu: "200m"
+            memory: "512Mi"
+
+# This is a list of `dev` containers that are based on the containers created by your deployments
+dev:
+  app:
+    # Search for the container that runs this image
+    imageSelector: ${IMAGE}
+    # Replace the container image with this dev-optimized image (allows to skip image building during development)
+    # devImage: ghcr.io/loft-sh/devspace-containers/java-maven:3-openjdk-17-slim
+    logs: {}
+    command:
+      - yarn
+      - dev
+    workingDir: /app
+    # Sync files between the local filesystem and the development container
+    sync:
+      - path: ./app:/app
+        excludePaths:
+          - .git/
+        uploadExcludePaths:
+          - Dockerfile
+          - target/
+          - .git/
+    terminal:
+      command: yarn dev
+    # Forward the following ports to be able access your application via localhost
+    ports:
+      - port: 23450:2345
+      - port: 3000:3000
+    # Open the following URLs once they return an HTTP status code other than 502 or 503
+    open:
+      - url: http://backstage.local:3000
+      - url: http://localhost:8090
+
+# Use the `commands` section to define repeatable dev workflows for this project
+commands:
+  migrate-db:
+    command: |-
+      echo 'This is a cross-platform, shared command that can be used to codify any kind of dev task.'
+      echo 'Anyone using this project can invoke it via "devspace run migrate-db"'
+  test:
+    command: |-
+      go test -v ./...
+
+# Define dependencies to other projects with a devspace.yaml
+# dependencies:
+#   homepage:
+#     git: https://github.com/devxp-tech/homepage
+#     branch: main
+#     pipeline: dev

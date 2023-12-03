@@ -5,7 +5,7 @@ services:
     command: sh -c 'yarn dev'
     hostname: backstage.local
     platform: linux/amd64
-    image: backstage:dev
+    image: backstage
     build:
       context: .
       target: dev
@@ -21,14 +21,15 @@ services:
       - ENV=development
       - GITHUB_ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN
       - GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-      - K8S_URL=$K8S_URL
       - K8S_TOKEN=$K8S_TOKEN
-      - POSTGRES_HOST=postgres
-      - POSTGRES_PORT=5432
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - K8S_URL=$K8S_URL
       - PGDATABASE=backstage
       - POSTGRES_DATABASE=backstage
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=postgres
+      - PROMETHEUS_URL="https://prometheus.devxp-tech.io/api/v1/"
       - SONARQUBE_TOKEN=$SONARQUBE_TOKEN
       - TECHDOCS_BUCKET=$TECHDOCS_BUCKET
       # - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
