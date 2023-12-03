@@ -21,11 +21,11 @@ pipelines:
 
 # This is a list of `images` that DevSpace can build for this project
 # We recommend to skip image building during development (devspace dev) as much as possible
-images:
-  app:
-    image: ${IMAGE}
-    dockerfile: ./Dockerfile
-    createPullSecret: true
+# images:
+#   app:
+#     image: ${IMAGE}
+#     dockerfile: ./Dockerfile
+#     createPullSecret: true
 
 # This is a list of `deployments` that DevSpace can create for this project
 deployments:
@@ -36,7 +36,9 @@ deployments:
         version: 0.0.3
         repo: https://devxp-tech.github.io/helm-charts
       values:
-        name: backstage-dev
+        name: backstage
+        serviceAccount:
+          name: backstage
         imagePullSecrets:
           enabled: true
           name: ghcr
