@@ -10,6 +10,7 @@ RUN apt install git -y
 FROM dev as build
 WORKDIR /app
 COPY app/ .
+RUN yarn config set network-timeout 500000 -g
 RUN yarn install 
 RUN yarn tsc 
 RUN yarn build:backend
