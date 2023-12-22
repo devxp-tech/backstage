@@ -4265,25 +4265,25 @@
     winston "^3.2.1"
     yn "^5.0.0"
 
-"@backstage/plugin-sonarqube-react@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.10.tgz#cbb026c74698ead5ebe8bc61da531330b72b452f"
-  integrity sha512-Btd4AZF0+vPUtHqHvavbHUTPcQXSVPAo4VyT7oUVFuzfJzo7T+Oa0DASM1JKb7uKz4f7/PH2+kdcKvYR6N25/A==
+"@backstage/plugin-sonarqube-react@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.11.tgz#24fd7382142e5344f066757c01d7d28f1d95e02b"
+  integrity sha512-Bm1oXFLj2aPHwSY/0izdj/fTyaXDblboBCav6G1/glPph6jxPRf2MGlHR0tb1lttX38NtKUcq+fwHLhtcooCYA==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-plugin-api" "^1.8.0"
+    "@backstage/core-plugin-api" "^1.8.1"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.9.tgz#eb05b81c616ecc45baae512f9046629958ba0c3f"
-  integrity sha512-IECsTYLcPS/M8KvUMRDFedtHWtkxztVMu+PVYhlSg0Kjaj4+3+MR1DC+lFdGQR9JoK3AgjookDrgccYuCCRZSw==
+  version "0.7.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.10.tgz#0ef5a61d0ee3a3b80726f1b18c423d627446503d"
+  integrity sha512-TtZQNLNiacsKqKSy5/QtWVC+uGBKMDXPzNvCMGI0+l0dIcxQ0aZ+Wq1+2YT7F8pT9Ff6s6UJSnGADK7QtEqOzQ==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.8"
-    "@backstage/core-plugin-api" "^1.8.0"
-    "@backstage/plugin-catalog-react" "^1.9.1"
-    "@backstage/plugin-sonarqube-react" "^0.1.10"
-    "@backstage/theme" "^0.4.4"
+    "@backstage/core-components" "^0.13.9"
+    "@backstage/core-plugin-api" "^1.8.1"
+    "@backstage/plugin-catalog-react" "^1.9.2"
+    "@backstage/plugin-sonarqube-react" "^0.1.11"
+    "@backstage/theme" "^0.5.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
