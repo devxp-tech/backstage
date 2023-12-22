@@ -3767,7 +3767,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.17", "@backstage/plugin-permission-react@^0.4.18":
+"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.18":
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.18.tgz#4339f4738e7991858d7d599e7c9802f9bb38e408"
   integrity sha512-KU8kFiPM/lODGlGLVzite9hIf9nh8MAToqZamtgsyEQF/omkPWJ24rVqo4XW01dmjm4jUJi3nGIzXZoo5l5ysQ==
@@ -3917,7 +3917,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-common@^1.4.3", "@backstage/plugin-scaffolder-common@^1.4.4":
+"@backstage/plugin-scaffolder-common@^1.4.4":
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.4.4.tgz#f5f94dce9b1488e3a6c105b724705dbf57330e9e"
   integrity sha512-VgIsvXHJiYVF8j1krK3zm8b6Ba79ReZlylZPMaA0P7pt7BKZTydnsf4BGm8RMfe+lZa6bWme768fzgdXSLvAaA==
@@ -4405,16 +4405,16 @@
     yn "^4.0.0"
 
 "@backstage/plugin-todo@^0.2.19":
-  version "0.2.31"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.31.tgz#af35f6704480d3556c48a2aafd1b211316531e66"
-  integrity sha512-h2Xep1m9lzln1f6OUP7+NyHr87Lq35o9BgzzZZLsf/zAdmH0cbjwHObipFPhjg94iXC7hNNymw+49bw6GmaKHA==
+  version "0.2.32"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.32.tgz#fda1763005ef7946c195061f0a56406ccf0c1900"
+  integrity sha512-cor1dO/uGZtqaiPwXC2Fi+UuXYc+i7PinoA/eiifDmYzH7J7XfN/THfKy7g58HbNO3i3VzhSgIMmVHK1iFAlig==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.8"
-    "@backstage/core-plugin-api" "^1.8.0"
+    "@backstage/core-components" "^0.13.9"
+    "@backstage/core-plugin-api" "^1.8.1"
     "@backstage/errors" "^1.2.3"
-    "@backstage/plugin-catalog-react" "^1.9.1"
-    "@backstage/theme" "^0.4.4"
+    "@backstage/plugin-catalog-react" "^1.9.2"
+    "@backstage/theme" "^0.5.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
