@@ -3767,7 +3767,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.17", "@backstage/plugin-permission-react@^0.4.18":
+"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.18":
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.18.tgz#4339f4738e7991858d7d599e7c9802f9bb38e408"
   integrity sha512-KU8kFiPM/lODGlGLVzite9hIf9nh8MAToqZamtgsyEQF/omkPWJ24rVqo4XW01dmjm4jUJi3nGIzXZoo5l5ysQ==
@@ -3917,7 +3917,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-common@^1.4.3", "@backstage/plugin-scaffolder-common@^1.4.4":
+"@backstage/plugin-scaffolder-common@^1.4.4":
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.4.4.tgz#f5f94dce9b1488e3a6c105b724705dbf57330e9e"
   integrity sha512-VgIsvXHJiYVF8j1krK3zm8b6Ba79ReZlylZPMaA0P7pt7BKZTydnsf4BGm8RMfe+lZa6bWme768fzgdXSLvAaA==
@@ -4189,12 +4189,12 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-sonarqube-backend@^0.2.0":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-backend/-/plugin-sonarqube-backend-0.2.9.tgz#984845fb0fb5c402a1fb1048e4d8ed8d59abf03e"
-  integrity sha512-7G4a3AwTlv823erxEPd/3YdefsV5RZwFfLnqzOo1/eYI6Em7YyNVLE4odFfV6gPWeB46rdG/CgT9QHp6T4gl4w==
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-backend/-/plugin-sonarqube-backend-0.2.10.tgz#d00d117cdb090fb5b623d1236640621eedb6073d"
+  integrity sha512-HMsNtu/03hZe315eQbrdDzMMqEC7fECxyLiDe7uVz3UZN7kWgJXbymiNZLIgXYuifoDfaJpDmOy3AQVLjuohBw==
   dependencies:
-    "@backstage/backend-common" "^0.19.9"
-    "@backstage/backend-plugin-api" "^0.6.7"
+    "@backstage/backend-common" "^0.20.0"
+    "@backstage/backend-plugin-api" "^0.6.8"
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
     "@types/express" "*"
