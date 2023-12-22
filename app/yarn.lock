@@ -3767,7 +3767,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.17", "@backstage/plugin-permission-react@^0.4.18":
+"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.18":
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.18.tgz#4339f4738e7991858d7d599e7c9802f9bb38e408"
   integrity sha512-KU8kFiPM/lODGlGLVzite9hIf9nh8MAToqZamtgsyEQF/omkPWJ24rVqo4XW01dmjm4jUJi3nGIzXZoo5l5ysQ==
@@ -3917,7 +3917,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-common@^1.4.3", "@backstage/plugin-scaffolder-common@^1.4.4":
+"@backstage/plugin-scaffolder-common@^1.4.4":
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.4.4.tgz#f5f94dce9b1488e3a6c105b724705dbf57330e9e"
   integrity sha512-VgIsvXHJiYVF8j1krK3zm8b6Ba79ReZlylZPMaA0P7pt7BKZTydnsf4BGm8RMfe+lZa6bWme768fzgdXSLvAaA==
@@ -4054,15 +4054,15 @@
     "@backstage/plugin-search-common" "^1.2.8"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.16.tgz#7c725723f4bf30223dc193cd6afe0eb33415ff46"
-  integrity sha512-UtAgk/Jqyn1uSRG1BH5hE2q14YJ47FZz+SOwrAbu9Gb8pAjIgN8/De6d7yr8o96UNS7B5j4eGatQJALf0HsKFw==
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.17.tgz#83116e3ab55e7d3f537e2dba8b1f64f8a7c18274"
+  integrity sha512-SoiLGAV80f6UuYLRwrWJjmlDWm0uQhyzfB1qjJl7g+bLe/tJs9N+FwMvrYq2ZIwQMu7ECtaZ+fr9LCDyB5e3Gg==
   dependencies:
-    "@backstage/backend-common" "^0.19.9"
-    "@backstage/backend-plugin-api" "^0.6.7"
+    "@backstage/backend-common" "^0.20.0"
+    "@backstage/backend-plugin-api" "^0.6.8"
     "@backstage/config" "^1.1.1"
-    "@backstage/plugin-search-backend-node" "^1.2.11"
-    "@backstage/plugin-search-common" "^1.2.8"
+    "@backstage/plugin-search-backend-node" "^1.2.12"
+    "@backstage/plugin-search-common" "^1.2.9"
     knex "^3.0.0"
     lodash "^4.17.21"
     uuid "^8.3.2"
