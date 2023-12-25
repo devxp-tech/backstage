@@ -4,6 +4,7 @@ services:
     &defaults
     command: sh -c 'yarn dev'
     hostname: backstage.local
+    platform: linux/amd64
     image: backstage:dev
     build:
       context: .
@@ -15,22 +16,24 @@ services:
       - 3000:3000
       - 7007:7007
     environment:
+      - AUTH_GITHUB_CLIENT_ID=$AUTH_GITHUB_CLIENT_ID
+      - AUTH_GITHUB_CLIENT_SECRET=$AUTH_GITHUB_CLIENT_SECRET
       - ENV=development
+      - GITHUB_ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN
+      - GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+      - K8S_URL=$K8S_URL
+      - K8S_TOKEN=$K8S_TOKEN
       - POSTGRES_HOST=postgres
       - POSTGRES_PORT=5432
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - PGDATABASE=backstage
-      - GITHUB_ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN
-      - AUTH_GITHUB_CLIENT_ID=$AUTH_GITHUB_CLIENT_ID
-      - AUTH_GITHUB_CLIENT_SECRET=$AUTH_GITHUB_CLIENT_SECRET
       - POSTGRES_DATABASE=backstage
       - SONARQUBE_TOKEN=$SONARQUBE_TOKEN
-      - GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+      - TECHDOCS_BUCKET=$TECHDOCS_BUCKET
       # - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
       # - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
       # - AWS_REGION=$AWS_REGION
-      - TECHDOCS_BUCKET=$TECHDOCS_BUCKET
     depends_on:
       - postgres
 
