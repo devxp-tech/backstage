@@ -1,6 +1,8 @@
 # this layer is only for development
 FROM node:20 AS base
 RUN apt update && apt upgrade -y && npm i -g npm yarn --force
+RUN apt install -y python3 g++ build-essential
+RUN yarn config set python $(which python3)
 # dev layer include git cli
 FROM base AS dev
 RUN apt install git -y

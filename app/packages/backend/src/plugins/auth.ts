@@ -1,4 +1,8 @@
 import {
+  DEFAULT_NAMESPACE,
+  stringifyEntityRef,
+} from '@backstage/catalog-model';
+import {
   createRouter,
   providers,
   defaultAuthProviderFactories,
