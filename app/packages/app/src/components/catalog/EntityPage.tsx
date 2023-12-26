@@ -178,7 +178,7 @@ const overviewContent = (
     <Grid item md={6} xs={12}>
       <EntityLinksCard />
     </Grid>
-    
+
     <Grid item md={6} xs={12}>
       <EntityHasSubcomponentsCard variant="gridItem" />
     </Grid>
