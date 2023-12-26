@@ -15,7 +15,7 @@ import {
   notFoundHandler,
   CacheManager,
   DatabaseManager,
-  SingleHostDiscovery,
+  HostDiscovery,
   UrlReaders,
   ServerTokenManager,
 } from '@backstage/backend-common';
@@ -39,11 +39,11 @@ import todo from './plugins/todo';
 function makeCreateEnv(config: Config) {
   const root = getRootLogger();
   const reader = UrlReaders.default({ logger: root, config });
-  const discovery = SingleHostDiscovery.fromConfig(config);
+  const discovery = HostDiscovery.fromConfig(config);
   const cacheManager = CacheManager.fromConfig(config);
   const databaseManager = DatabaseManager.fromConfig(config, { logger: root });
   const tokenManager = ServerTokenManager.noop();
-  const taskScheduler = TaskScheduler.fromConfig(config);
+  const taskScheduler = TaskScheduler.fromConfig(config, { databaseManager });
 
   const identity = DefaultIdentityClient.create({
     discovery,
@@ -110,7 +110,7 @@ async function main() {
 
   const service = createServiceBuilder(module)
     .loadConfig(config)
-    .addRouter('', await healthcheck(healthcheckEnv))
+.addRouter('', await healthcheck(healthcheckEnv))
     .addRouter('/api', apiRouter)
     .addRouter('', await app(appEnv));
 
