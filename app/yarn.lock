@@ -2805,7 +2805,7 @@
     express "^4.18.2"
     passport "^0.7.0"
 
-"@backstage/plugin-auth-backend@^0.20.1":
+"@backstage/plugin-auth-backend@^0.20.2":
   version "0.20.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend/-/plugin-auth-backend-0.20.2.tgz#3d9cf93530706af04e4d8e07edb3f02c53a43459"
   integrity sha512-Afi3Cq0fwFnDsXIMlFLuJyLHX+ChU8v0D4CpWpKjgZhdmUDBIr7x9acAqmto3O4Lz4QxMwYZhrwifsYnMHQuuQ==
@@ -8984,7 +8984,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.7.tgz#50ae4353eaaddc04044279812f52c8c65857dbcb"
   integrity sha512-hKormJbkJqzQGhziax5PItDUTMAM9uE2XXQmM37dyd4hVM+5aVl7oVxMVUiVQn2oCQFN/LKCZdvSM0pFRqbSmQ==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0":
+"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
   version "17.0.25"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.25.tgz#e0e5b3571e1069625b3a3da2b279379aa33a0cb5"
   integrity sha512-urx7A7UxkZQmThYA4So0NelOVjx3V4rNFVJwp0WZlbIK5eM4rNJDiN3R/E9ix0MBh6kAEojk/9YL+Te6D9zHNA==
@@ -9876,6 +9876,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@roadiehq/backstage-plugin-github-pull-requests" "^2.5.20"
     "@roadiehq/backstage-plugin-prometheus" "^2.8.2"
     "@roadiehq/backstage-plugin-security-insights" "^2.3.11"
+    "@suxess-it/backstage-plugin-kubecost" "^0.2.6"
     history "^5.0.0"
     react "^17.0.2"
     react-dom "^17.0.2"
