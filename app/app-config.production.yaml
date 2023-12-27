@@ -32,7 +32,7 @@ backend:
       port: ${POSTGRES_PORT}
       user: ${POSTGRES_USER}
       password: ${POSTGRES_PASSWORD}
-    # ensureExists: true
+    ensureExists: true
     pluginDivisionMode: schema
 
   cache:
