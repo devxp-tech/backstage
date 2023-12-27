@@ -24,16 +24,16 @@ backend:
     #credentials: true
   # config options: https://node-postgres.com/api/client
 
-  # database:
-  #   client: pg
-  #   connection:
-  #     database: ${POSTGRES_DATABASE}
-  #     host: ${POSTGRES_HOST}
-  #     port: ${POSTGRES_PORT}
-  #     user: ${POSTGRES_USER}
-  #     password: ${POSTGRES_PASSWORD}
-  #   # ensureExists: true
-  #   pluginDivisionMode: schema
+  database:
+    client: pg
+    connection:
+      database: ${POSTGRES_DATABASE}
+      host: ${POSTGRES_HOST}
+      port: ${POSTGRES_PORT}
+      user: ${POSTGRES_USER}
+      password: ${POSTGRES_PASSWORD}
+    ensureExists: true
+    pluginDivisionMode: schema
 
   cache:
     store: memory
