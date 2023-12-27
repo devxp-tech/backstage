@@ -1,7 +1,7 @@
 # Backstage
 
 [![main](https://github.com/devxp-tech/backstage/actions/workflows/main.yaml/badge.svg)](https://github.com/devxp-tech/backstage/actions/workflows/main.yaml)
-[![Quality Gate Status](https://sonar.devxp-tech.io/api/project_badges/measure?project=backstage&metric=alert_status&token=sqb_66b4ef3606ea0e1e3fa5ceec3d643dd0158586a8)](https://sonar.devxp-tech.io/dashboard?id=backstage)
+[![Quality Gate Status](https://sonar.devxp-tech.io/api/project_badges/measure?project=backstage&metric=alert_status&token=sqb_75874b86dd51377e19e0a63680ce408a315f5327)](https://sonar.devxp-tech.io/dashboard?id=backstage)
 [![App Status](https://argocd.devxp-tech.io/api/badge?name=backstage-prd&revision=true)](https://argocd.devxp-tech.io/applications/backstage-prd)
 
 ## Backstage - IDP
