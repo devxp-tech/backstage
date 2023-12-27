@@ -42,9 +42,10 @@ kubernetes:
         - url: ${K8S_URL}
           name: lgseksd1
           authProvider: serviceAccount
-          skipTLSVerify: true
-          # skipMetricsLookup: true
-          serviceAccountToken: ${K8S_TOKEN}
+          skipTLSVerify: false
+          skipMetricsLookup: true
+          serviceAccountToken: ${SA_TOKEN}
+          caData: ${CA_DATA}
           customResources:
             - group: "argoproj.io"
               apiVersion: "v1alpha1"
