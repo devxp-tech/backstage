@@ -114,7 +114,8 @@ proxy:
 
   "/prometheus/api":
     # url to the api and path of your hosted prometheus instance
-    target: https://prometheus.devxp-tech.io//api/v1/
+    target: https://prometheus.devxp-tech.io/api/v1/
+
 
   # '/snyk':
   #   target: https://snyk.io/api/v1

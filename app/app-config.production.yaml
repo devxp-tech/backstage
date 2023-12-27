@@ -24,18 +24,6 @@ backend:
     #credentials: true
   # config options: https://node-postgres.com/api/client
 
-  # database:
-  #   client: pg
-  #   connection:
-  #     database: ${POSTGRES_DATABASE}
-  #     host: ${POSTGRES_HOST}
-  #     port: ${POSTGRES_PORT}
-  #     user: ${POSTGRES_USER}
-  #     password: ${POSTGRES_PASSWORD}
-  #   ensureExists: true
-  #   pluginDivisionMode: schema
-
-
   cache:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
@@ -54,9 +42,10 @@ kubernetes:
         - url: ${K8S_URL}
           name: lgseksd1
           authProvider: serviceAccount
-          skipTLSVerify: true
-          # skipMetricsLookup: true
-          serviceAccountToken: ${K8S_TOKEN}
+          skipTLSVerify: false
+          skipMetricsLookup: true
+          serviceAccountToken: ${SA_TOKEN}
+          caData: ${CA_DATA}
           customResources:
             - group: "argoproj.io"
               apiVersion: "v1alpha1"
@@ -107,7 +96,7 @@ proxy:
 
   "/prometheus/api":
     # url to the api and path of your hosted prometheus instance
-    target: http://prometheus-prometheus.monitoring.svc/api/v1/
+    target: http://prometheus-prometheus.monitoring.svc:9090/api/v1/
 
 auth:
   environment: production
