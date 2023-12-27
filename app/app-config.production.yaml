@@ -24,18 +24,6 @@ backend:
     #credentials: true
   # config options: https://node-postgres.com/api/client
 
-  # database:
-  #   client: pg
-  #   connection:
-  #     database: ${POSTGRES_DATABASE}
-  #     host: ${POSTGRES_HOST}
-  #     port: ${POSTGRES_PORT}
-  #     user: ${POSTGRES_USER}
-  #     password: ${POSTGRES_PASSWORD}
-  #   ensureExists: true
-  #   pluginDivisionMode: schema
-
-
   cache:
     store: memory
   # workingDirectory: /tmp # Use this to configure a working directory for the scaffolder, defaults to the OS temp-dir
@@ -88,6 +76,26 @@ techdocs:
       credentials:
         accessKeyId: ${AWS_ACCESS_KEY_ID}
         secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
+
+proxy:
+  "/argocd/api":
+    target: https://argocd.devxp-tech.io/api/v1/
+    changeOrigin: true
+    # only if your argocd api has self-signed cert
+    secure: true
+    headers:
+      Cookie:
+        $env: ARGOCD_AUTH_TOKEN
+
+  "/grafana/api":
+    # May be an internal DNS
+    target: http://grafana.monitoring.svc/
+    headers:
+      Authorization: Bearer ${GRAFANA_TOKEN}
+
+  "/prometheus/api":
+    # url to the api and path of your hosted prometheus instance
+    target: http://prometheus-prometheus.monitoring.svc:9090/api/v1/
 
 auth:
   environment: production
