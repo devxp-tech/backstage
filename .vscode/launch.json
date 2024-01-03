@@ -1,0 +1,15 @@
+{
+  "name": "Start Backend",
+  "type": "node",
+  "request": "launch",
+  "args": [
+    "package",
+    "start"
+  ],
+  "cwd": "${workspaceFolder}/app/packages/backend",
+  "program": "${workspaceFolder}/app/node_modules/.bin/backstage-cli",
+  "skipFiles": [
+    "<node_internals>/**"
+  ],
+  "console": "integratedTerminal"
+}

@@ -5,12 +5,6 @@ name: backstage
 vars:
   IMAGE: ghcr.io/devxp-tech/backstage
 
-pullSecrets:
-  ghcr:
-    registry: ghcr.io
-    username: ${REGISTRY_USER}
-    password: ${REGISTRY_PASSWORD}
-
 pipelines:
   # Override the default pipeline for 'devspace dev'
   dev:
@@ -21,10 +15,12 @@ pipelines:
 
 # This is a list of `images` that DevSpace can build for this project
 # We recommend to skip image building during development (devspace dev) as much as possible
-# images:
-#   app:
-#     image: ${IMAGE}
-#     dockerfile: ./Dockerfile
+images:
+  app:
+    image: ${IMAGE}
+    dockerfile: ./Dockerfile
+    build:
+      disabled: true
 #     createPullSecret: true
 
 # This is a list of `deployments` that DevSpace can create for this project
@@ -39,9 +35,47 @@ deployments:
         name: backstage
         serviceAccount:
           name: backstage
-        imagePullSecrets:
-          enabled: true
-          name: ghcr
+        service:
+          port: 3000
+        container:
+          port: 7007
+        envs:
+          - name: POSTGRES_HOST
+            value: db-postgresql
+          - name: POSTGRES_PORT
+            value: 5432
+          - name: POSTGRES_USER
+            value: ${POSTGRES_USER}
+          - name: POSTGRES_PASSWORD
+            value: ${POSTGRES_PASSWORD}
+          - name: POSTGRES_DATABASE
+            value: backstage
+          - name: PGDATABASE
+            value: backstage
+          - name: ARGOCD_AUTH_TOKEN
+            value: ${ARGOCD_AUTH_TOKEN}
+          - name: AUTH_GITHUB_CLIENT_ID
+            value: ${AUTH_GITHUB_CLIENT_ID}
+          - name: AUTH_GITHUB_CLIENT_SECRET
+            value: ${AUTH_GITHUB_CLIENT_SECRET}
+          - name: ENV
+            value: development
+          - name: GITHUB_ACCESS_TOKEN
+            value: ${GITHUB_ACCESS_TOKEN}
+          - name: GIT_DISCOVERY_ACROSS_FILESYSTEM
+            value: 1
+          - name: GRAFANA_TOKEN
+            value: ${GRAFANA_TOKEN}
+          - name: GITHUB_TOKEN
+            value: ${GITHUB_TOKEN}
+          - name: K8S_TOKEN
+            value: ${K8S_TOKEN}
+          - name: K8S_URL
+            value: ${K8S_URL}
+          - name: SONARQUBE_TOKEN
+            value: ${SONARQUBE_TOKEN}
+          - name: TECHDOCS_BUCKET
+            value: ${TECHDOCS_BUCKET}
         resources:
           requests:
             cpu: "100m"
@@ -49,6 +83,25 @@ deployments:
           limits:
             cpu: "200m"
             memory: "512Mi"
+  db:
+    helm:
+      chart:
+        name: postgresql
+        version: 12.2.1
+        repo: https://charts.bitnami.com/bitnami
+      values:
+        global:
+          postgresql:
+            auth:
+              username: ${POSTGRES_USER}
+              password: ${POSTGRES_PASSWORD}
+              postgresPassword: ${POSTGRES_PASSWORD}
+              database: "backstage"
+        auth:
+          username: ${POSTGRES_USER}
+          password: ${POSTGRES_PASSWORD}
+          postgresPassword: ${POSTGRES_PASSWORD}
+          database: "backstage"
 
 # This is a list of `dev` containers that are based on the containers created by your deployments
 dev:
@@ -56,11 +109,9 @@ dev:
     # Search for the container that runs this image
     imageSelector: ${IMAGE}
     # Replace the container image with this dev-optimized image (allows to skip image building during development)
-    # devImage: ghcr.io/loft-sh/devspace-containers/java-maven:3-openjdk-17-slim
+    devImage: ghcr.io/loft-sh/devspace-containers/javascript:18-alpine
     logs: {}
-    command:
-      - yarn
-      - dev
+    # command: ["node", "packages/backend", "--config", "app-config.yaml"]
     workingDir: /app
     # Sync files between the local filesystem and the development container
     sync:
@@ -71,15 +122,19 @@ dev:
           - Dockerfile
           - target/
           - .git/
+        uploadExcludeFile: .dockerignore
+        # onUpload:
+        #   restartContainer: true
     terminal:
-      command: yarn dev
+      command: ./devspace_start.sh
     # Forward the following ports to be able access your application via localhost
     ports:
       - port: 23450:2345
-      - port: 3000:3000
+      # - port: 3000:3000
+      - port: 7007:7007
     # Open the following URLs once they return an HTTP status code other than 502 or 503
     open:
-      - url: http://backstage.local:3000
+      - url: http://backstage.local:7007
       - url: http://localhost:8090
 
 # Use the `commands` section to define repeatable dev workflows for this project
@@ -98,3 +153,5 @@ commands:
 #     git: https://github.com/devxp-tech/homepage
 #     branch: main
 #     pipeline: dev
+
+## Teste
