@@ -5,12 +5,6 @@ name: backstage
 vars:
   IMAGE: ghcr.io/devxp-tech/backstage
 
-# pullSecrets:
-#   ghcr:
-#     registry: ghcr.io
-#     username: ${REGISTRY_USER}
-#     password: ${REGISTRY_PASSWORD}
-
 pipelines:
   # Override the default pipeline for 'devspace dev'
   dev:
@@ -25,6 +19,8 @@ images:
   app:
     image: ${IMAGE}
     dockerfile: ./Dockerfile
+    build:
+      disabled: true
 #     createPullSecret: true
 
 # This is a list of `deployments` that DevSpace can create for this project
@@ -113,7 +109,7 @@ dev:
     # Search for the container that runs this image
     imageSelector: ${IMAGE}
     # Replace the container image with this dev-optimized image (allows to skip image building during development)
-    # devImage: ghcr.io/loft-sh/devspace-containers/javascript:17-alpine
+    devImage: ghcr.io/loft-sh/devspace-containers/javascript:18-alpine
     logs: {}
     # command: ["node", "packages/backend", "--config", "app-config.yaml"]
     workingDir: /app
