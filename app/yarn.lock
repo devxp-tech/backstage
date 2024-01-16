@@ -3435,7 +3435,7 @@
     "@backstage/plugin-permission-node" "^0.7.20"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0", "@backstage/plugin-catalog-react@^1.9.1", "@backstage/plugin-catalog-react@^1.9.2":
+"@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0", "@backstage/plugin-catalog-react@^1.9.1", "@backstage/plugin-catalog-react@^1.9.2", "@backstage/plugin-catalog-react@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.9.3.tgz#d5910989bc62e1827be00bc4e9650985f2ea338e"
   integrity sha512-JeJp4uGiC4gFmCRV8Pk50rzKxAtvKZFuMZ1N7n7t39NtvcmKJemrYKE+5q9RMGi/hRE5+i2D0tqX90JDKlNdVA==
@@ -4179,28 +4179,26 @@
     winston "^3.2.1"
     yn "^5.0.0"
 
-"@backstage/plugin-sonarqube-react@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.11.tgz#24fd7382142e5344f066757c01d7d28f1d95e02b"
-  integrity sha512-Bm1oXFLj2aPHwSY/0izdj/fTyaXDblboBCav6G1/glPph6jxPRf2MGlHR0tb1lttX38NtKUcq+fwHLhtcooCYA==
+"@backstage/plugin-sonarqube-react@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.12.tgz#b7ae65515733beb21f8b2cf146019c41d32b13bb"
+  integrity sha512-FwlemFXlr8mGd57QcYaRkFFUq0dT4T0nQ/9UEHe6HzrEWQIRjL4GS7yVydCbz5EtQtYoFU6sNrtmPfz2eBSSRQ==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-plugin-api" "^1.8.1"
+    "@backstage/core-plugin-api" "^1.8.2"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.10.tgz#0ef5a61d0ee3a3b80726f1b18c423d627446503d"
-  integrity sha512-TtZQNLNiacsKqKSy5/QtWVC+uGBKMDXPzNvCMGI0+l0dIcxQ0aZ+Wq1+2YT7F8pT9Ff6s6UJSnGADK7QtEqOzQ==
+  version "0.7.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.11.tgz#faf2024bd95f28283fbe69039abd414500b75959"
+  integrity sha512-U7cbBsQftJc4cYuzpkEWzN/YmZbvyO+qWsoODFieUQhWoy4ArKdqUMsU8bNNpSxrLYveMUkwGDqqxLc5c58Vqw==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.9"
-    "@backstage/core-plugin-api" "^1.8.1"
-    "@backstage/plugin-catalog-react" "^1.9.2"
-    "@backstage/plugin-sonarqube-react" "^0.1.11"
-    "@backstage/theme" "^0.5.0"
+    "@backstage/core-components" "^0.13.10"
+    "@backstage/core-plugin-api" "^1.8.2"
+    "@backstage/plugin-catalog-react" "^1.9.3"
+    "@backstage/plugin-sonarqube-react" "^0.1.12"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
-    "@material-ui/lab" "4.0.0-alpha.61"
     "@material-ui/styles" "^4.10.0"
     "@types/react" "^16.13.1 || ^17.0.0"
     cross-fetch "^4.0.0"
