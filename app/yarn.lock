@@ -2633,7 +2633,7 @@
     express "^4.17.1"
     knex "^3.0.0"
 
-"@backstage/backend-tasks@^0.5.1", "@backstage/backend-tasks@^0.5.13", "@backstage/backend-tasks@^0.5.14":
+"@backstage/backend-tasks@^0.5.1", "@backstage/backend-tasks@^0.5.14":
   version "0.5.14"
   resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.5.14.tgz#0c0022339daf528ecd6d39fca891642b5ed7ddb5"
   integrity sha512-bVRAOM86lhOk/tG0z+oXvPdIqtusgPxMO93WaayXbr0R7Tx4Ogp8pg49s7XU4WB7Mdq+fmyiqp1VQt0NR3FCwQ==
@@ -2806,7 +2806,7 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/config-loader@^1.6.0", "@backstage/config-loader@^1.6.1":
+"@backstage/config-loader@^1.6.1":
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.6.1.tgz#bd5bc282cddc3b26dd0346962f814bad5dbe164b"
   integrity sha512-wWbM7LGrN559HPzAKMczpv2mv1OXvhtgBMCgFw0jHZx5IrR3bdRZRapFQ8rmZAtj76vSLZv58qZfpOkSR6cWVQ==
@@ -3078,15 +3078,15 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.56"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.56.tgz#fd64f89530febc579dd621b7f6241ed44a13ece2"
-  integrity sha512-SPTEefStO3ynhmE5yIp5c/eLozu8dQCSqny9zwrgLlhCJWQ6fVyOdvxzfcSqXy6u8t/w+gCEv9Wlw9CYcqOj7g==
+  version "0.3.57"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.57.tgz#2ac5cb7aa2c9851a64ba00831d3654991f239259"
+  integrity sha512-G7PHT6SyZXG1PUdBSxFkHgR2QkmX0gj6r74JOsbyYrXH4T4DkHnS6qCmr6paBowVMuzO6T3C5zdFIsXcTozdsw==
   dependencies:
-    "@backstage/backend-common" "^0.20.0"
-    "@backstage/backend-plugin-api" "^0.6.8"
+    "@backstage/backend-common" "^0.20.1"
+    "@backstage/backend-plugin-api" "^0.6.9"
     "@backstage/config" "^1.1.1"
-    "@backstage/config-loader" "^1.6.0"
-    "@backstage/plugin-app-node" "^0.1.8"
+    "@backstage/config-loader" "^1.6.1"
+    "@backstage/plugin-app-node" "^0.1.9"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
@@ -3100,12 +3100,12 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.8.tgz#efa10219918aa7be62643c2b0eb4b5e4b2f2a57e"
-  integrity sha512-jnD6VvV4y+hK7kOn6qjOmz/VAPDMiwuZ2MXTKFdU0sHyAl5pHOHmKY0YOybokO/EfeAe/MIIND/O13GP0zmLoQ==
+"@backstage/plugin-app-node@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.9.tgz#1a2d6df65d98de2cb86bebde2a2a06046fbe4b1f"
+  integrity sha512-n/1mPYY5HEhGXlpRWIpyNuB8piHm9ch2jPtDecPTv2sKdppHOCc0mwVSEZxGh7ga/NpPrwJASTInhp51MSpETw==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.8"
+    "@backstage/backend-plugin-api" "^0.6.9"
     "@types/express" "^4.17.6"
     express "^4.17.1"
 
