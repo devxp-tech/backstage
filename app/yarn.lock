@@ -4334,22 +4334,21 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-todo-backend@^0.3.1":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.6.tgz#d76589cf9825681472f4f3bc28dcfaa71dd9820a"
-  integrity sha512-QoYkaCEZ8qbsmUzl33Sd/BuXce9m0SgH8OpjSVKR/OyFb7suo4lp0W0B0vnxbpRgSfdDOz1XANqY1Lopn3JHQA==
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.7.tgz#18b433ebf1e335e2e9c43906ba3313882f38a09b"
+  integrity sha512-3AsRV5syKYJOqlGpX9LPgZW7kMEb/VLUszKFTvQMeiHQzHvl4n5lR8JnzSWW6QRnb87YCItORBcf7+XyHeFMIA==
   dependencies:
-    "@backstage/backend-common" "^0.20.0"
-    "@backstage/backend-openapi-utils" "^0.1.1"
-    "@backstage/backend-plugin-api" "^0.6.8"
-    "@backstage/catalog-client" "^1.5.0"
+    "@backstage/backend-common" "^0.20.1"
+    "@backstage/backend-openapi-utils" "^0.1.2"
+    "@backstage/backend-plugin-api" "^0.6.9"
+    "@backstage/catalog-client" "^1.5.2"
     "@backstage/catalog-model" "^1.4.3"
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
     "@backstage/integration" "^1.8.0"
-    "@backstage/plugin-catalog-node" "^1.6.0"
+    "@backstage/plugin-catalog-node" "^1.6.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
-    express-promise-router "^4.1.0"
     leasot "^12.0.0"
     winston "^3.2.1"
     yn "^4.0.0"
