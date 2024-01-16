@@ -2488,14 +2488,14 @@
     to-fast-properties "^2.0.0"
 
 "@backstage/app-defaults@^1.3.0":
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.4.6.tgz#84a7954b41978862ecc53e61e4f8be4cf91dd72c"
-  integrity sha512-dKyQHxe03Lntf1OuFgA0lcyL2GLoGIUMMozEhRBgKnvk5Q6ZlKK/gY8cr5JPsBTi4m0A+ZHUajBWRKqWwy929w==
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.4.7.tgz#9ad472a4db7324040cdd42ed3896b7605c6f7ba8"
+  integrity sha512-C6T0NGT3DN9IGHrnt5Z/YlS0ysPl2YrgSZuZIJDkkW0oJssnCz07aiLEAXddh3SyKC2v+pNY25NbEJlk/eB52A==
   dependencies:
-    "@backstage/core-app-api" "^1.11.2"
-    "@backstage/core-components" "^0.13.9"
-    "@backstage/core-plugin-api" "^1.8.1"
-    "@backstage/plugin-permission-react" "^0.4.18"
+    "@backstage/core-app-api" "^1.11.3"
+    "@backstage/core-components" "^0.13.10"
+    "@backstage/core-plugin-api" "^1.8.2"
+    "@backstage/plugin-permission-react" "^0.4.19"
     "@backstage/theme" "^0.5.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -2874,25 +2874,6 @@
     lodash "^4.17.21"
 
 "@backstage/core-app-api@^1.11.2", "@backstage/core-app-api@^1.11.3", "@backstage/core-app-api@^1.7.0":
-  version "1.11.3"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.11.3.tgz#49d97c6fd1ed051b4520e8afb1400951d93d587f"
-  integrity sha512-GVs4M5SarJXXW4MByqRQIHTb6B3RHsNsdoLVmd9BmdKJ9hoPh+UFQTUoXhQyO9sbbGLutiQEV5L6kZAaXkW9Fw==
-  dependencies:
-    "@backstage/config" "^1.1.1"
-    "@backstage/core-plugin-api" "^1.8.2"
-    "@backstage/types" "^1.1.1"
-    "@backstage/version-bridge" "^1.0.7"
-    "@types/prop-types" "^15.7.3"
-    "@types/react" "^16.13.1 || ^17.0.0"
-    history "^5.0.0"
-    i18next "^22.4.15"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-use "^17.2.4"
-    zen-observable "^0.10.0"
-    zod "^3.22.4"
-
-"@backstage/core-app-api@^1.11.3":
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.11.3.tgz#49d97c6fd1ed051b4520e8afb1400951d93d587f"
   integrity sha512-GVs4M5SarJXXW4MByqRQIHTb6B3RHsNsdoLVmd9BmdKJ9hoPh+UFQTUoXhQyO9sbbGLutiQEV5L6kZAaXkW9Fw==
