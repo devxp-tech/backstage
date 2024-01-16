@@ -2837,7 +2837,7 @@
     "@backstage/types" "^1.1.1"
     lodash "^4.17.21"
 
-"@backstage/core-app-api@^1.11.2", "@backstage/core-app-api@^1.11.3", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.11.3", "@backstage/core-app-api@^1.7.0":
   version "1.11.3"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.11.3.tgz#49d97c6fd1ed051b4520e8afb1400951d93d587f"
   integrity sha512-GVs4M5SarJXXW4MByqRQIHTb6B3RHsNsdoLVmd9BmdKJ9hoPh+UFQTUoXhQyO9sbbGLutiQEV5L6kZAaXkW9Fw==
@@ -4378,18 +4378,18 @@
     "@types/react" "^16.13.1 || ^17.0.0"
     react-use "^17.2.4"
 
-"@backstage/plugin-user-settings@^0.7.2":
-  version "0.7.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.7.14.tgz#03a44baa6df51f0d5bc43bc7aed26219f5a535a5"
-  integrity sha512-fX2tN6GmGn8L1ByB6Pw0TUL3sE0VK8x8KkZpcK+P4Ash2x+64m8VJ8E9XeQE4dTLyEWS1Kss//cZdXv/XbdryQ==
+"@backstage/plugin-user-settings@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.0.tgz#a82c10651b559b15b2fdd12652388705fdbb9d2c"
+  integrity sha512-H6tNvjqLWiSM3MS/sBkKdrUGgT7ou7DMPXYWy6dl1bSRMLeYrmLwH7gjbkwhAo6wojjCG6cbcnWOFcYZ9EQHoA==
   dependencies:
-    "@backstage/core-app-api" "^1.11.2"
-    "@backstage/core-compat-api" "^0.1.0"
-    "@backstage/core-components" "^0.13.9"
-    "@backstage/core-plugin-api" "^1.8.1"
+    "@backstage/core-app-api" "^1.11.3"
+    "@backstage/core-compat-api" "^0.1.1"
+    "@backstage/core-components" "^0.13.10"
+    "@backstage/core-plugin-api" "^1.8.2"
     "@backstage/errors" "^1.2.3"
-    "@backstage/frontend-plugin-api" "^0.4.0"
-    "@backstage/plugin-catalog-react" "^1.9.2"
+    "@backstage/frontend-plugin-api" "^0.5.0"
+    "@backstage/plugin-catalog-react" "^1.9.3"
     "@backstage/theme" "^0.5.0"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
@@ -9795,7 +9795,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/plugin-techdocs-module-addons-contrib" "^1.0.12"
     "@backstage/plugin-techdocs-react" "^1.1.5"
     "@backstage/plugin-todo" "^0.2.19"
-    "@backstage/plugin-user-settings" "^0.7.2"
+    "@backstage/plugin-user-settings" "^0.8.0"
     "@backstage/theme" "^0.5.0"
     "@k-phoen/backstage-plugin-grafana" "^0.1.22"
     "@material-ui/core" "^4.12.2"
