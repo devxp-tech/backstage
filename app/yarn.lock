@@ -2677,10 +2677,10 @@
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.13.tgz#cbeda6a359ca4437fc782f0ac51bb957e8d49e73"
   integrity sha512-UMgNAIJSeEPSMkzxiWCP8aFR8APsG21XczDnzwHdL/41F7g2C+KA6UeQc/3tzbe8XQo+PxbNLpReZeKSSnSPSQ==
 
-"@backstage/cli-node@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.1.tgz#7e7da0d6f3471e6843c55b547694def7dce9ee4a"
-  integrity sha512-S67miZbAjVVlQrLyc0hyci4grtSFcnh25Hg9XkPKs28bYEXFC6d0246sl0gpSG9+EMO2TdVQezwVfV3pZn/41w==
+"@backstage/cli-node@^0.2.1", "@backstage/cli-node@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.2.tgz#f7a6062da90a20ce9d1af161ed841fbeb96337b8"
+  integrity sha512-YsEeT3sAF2sxNXv7IyI/d73TEZnivSBpyiJ4STnVpFi00woN440NeRWZfqaabS1XiuGbQibxJT3xTxORw1tMFA==
   dependencies:
     "@backstage/cli-common" "^0.1.13"
     "@backstage/errors" "^1.2.3"
@@ -2706,15 +2706,15 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.25.0.tgz#a68af4bda6059086e299a04025f935f6549950e7"
-  integrity sha512-2HJR6Q+N9X9GBI65hjAeuFba9b7SCwYws8T6EHjpWnmJWnJsgxwXmPEGpjEed9YJFOrgjIpel5ndm2KnbnhsTg==
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.25.1.tgz#463129d48584bcbc6d953c4ed6f089e97d88c320"
+  integrity sha512-xx3RHnyqmsaEI7b1gzmRh2wz44e4kWKB/22+UP/ySVlhSxqvfepJjq/cX8sAYycdL/CcL0XkmiStjkShZsHg9g==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
     "@backstage/cli-common" "^0.1.13"
-    "@backstage/cli-node" "^0.2.1"
+    "@backstage/cli-node" "^0.2.2"
     "@backstage/config" "^1.1.1"
-    "@backstage/config-loader" "^1.6.0"
+    "@backstage/config-loader" "^1.6.1"
     "@backstage/errors" "^1.2.3"
     "@backstage/eslint-plugin" "^0.1.4"
     "@backstage/integration" "^1.8.0"
@@ -2820,10 +2820,10 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/config-loader@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.6.0.tgz#f3486f099923838620f7e557753e0180a05cc955"
-  integrity sha512-T8knDbAJYdTqvXqXwyzRQiKQwjeBasy5I7wgKCCzM7xuZSswN6C2Y7Ljx0qmdVHejKclVxXpiUq5uRB9b0IVjg==
+"@backstage/config-loader@^1.6.0", "@backstage/config-loader@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.6.1.tgz#bd5bc282cddc3b26dd0346962f814bad5dbe164b"
+  integrity sha512-wWbM7LGrN559HPzAKMczpv2mv1OXvhtgBMCgFw0jHZx5IrR3bdRZRapFQ8rmZAtj76vSLZv58qZfpOkSR6cWVQ==
   dependencies:
     "@backstage/cli-common" "^0.1.13"
     "@backstage/config" "^1.1.1"
