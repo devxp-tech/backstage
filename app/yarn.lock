@@ -4352,21 +4352,17 @@
     yn "^4.0.0"
 
 "@backstage/plugin-todo@^0.2.19":
-  version "0.2.32"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.32.tgz#fda1763005ef7946c195061f0a56406ccf0c1900"
-  integrity sha512-cor1dO/uGZtqaiPwXC2Fi+UuXYc+i7PinoA/eiifDmYzH7J7XfN/THfKy7g58HbNO3i3VzhSgIMmVHK1iFAlig==
+  version "0.2.33"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo/-/plugin-todo-0.2.33.tgz#f3a79c48b862979a626f8c51a1d5fe1ddfac4f14"
+  integrity sha512-shqkpOAKab7c8SsQSCmnE0xrzswhEtSOvZzLV7U5KFSneXVCOnPsxObkEHWg6FZ+LedxBTCFENMFqNEjn67OrA==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.9"
-    "@backstage/core-plugin-api" "^1.8.1"
+    "@backstage/core-components" "^0.13.10"
+    "@backstage/core-plugin-api" "^1.8.2"
     "@backstage/errors" "^1.2.3"
-    "@backstage/plugin-catalog-react" "^1.9.2"
-    "@backstage/theme" "^0.5.0"
-    "@material-ui/core" "^4.12.2"
+    "@backstage/plugin-catalog-react" "^1.9.3"
     "@material-ui/icons" "^4.9.1"
-    "@material-ui/lab" "4.0.0-alpha.61"
     "@types/react" "^16.13.1 || ^17.0.0"
-    react-use "^17.2.4"
 
 "@backstage/plugin-user-settings@^0.8.0":
   version "0.8.0"
