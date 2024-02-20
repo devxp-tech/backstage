@@ -3004,20 +3004,6 @@
     semver "^7.5.3"
     zod "^3.22.4"
 
-"@backstage/cli-node@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.3.tgz#76d31a0ccd44326d110fb3a38c0db507b79e3ddf"
-  integrity sha512-gSsRds/xm9nh6jV/XoOipOA8rFwlMPOAoy3vkUyB5+Z5bfEM56NSccYjPdPMt52R9zZhVWhnsMNBHVoaqr+zeg==
-  dependencies:
-    "@backstage/cli-common" "^0.1.13"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/types" "^1.1.1"
-    "@manypkg/get-packages" "^1.1.3"
-    "@yarnpkg/parsers" "^3.0.0-rc.4"
-    fs-extra "^11.2.0"
-    semver "^7.5.3"
-    zod "^3.22.4"
-
 "@backstage/cli@^0.25.0":
   version "0.25.2"
   resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.25.2.tgz#53f27c99c988f17edffb9e77b1864a53bccb3334"
@@ -3135,28 +3121,6 @@
     zod "^3.22.4"
 
 "@backstage/config-loader@^1.6.1", "@backstage/config-loader@^1.6.2":
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.6.2.tgz#b3dea400ec18dc64e1f1236e450668fb5d27e221"
-  integrity sha512-RFFK1NGhg2n6OKRxkBPCO8qRmuRJ8gtEwjQdMv17V8AuaituOVDIduKW7omrq2RNr1CNJFodhGmpkHxqSkpkiQ==
-  dependencies:
-    "@backstage/cli-common" "^0.1.13"
-    "@backstage/config" "^1.1.1"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/types" "^1.1.1"
-    "@types/json-schema" "^7.0.6"
-    ajv "^8.10.0"
-    chokidar "^3.5.2"
-    fs-extra "^11.2.0"
-    json-schema "^0.4.0"
-    json-schema-merge-allof "^0.8.1"
-    json-schema-traverse "^1.0.0"
-    lodash "^4.17.21"
-    minimist "^1.2.5"
-    node-fetch "^2.6.7"
-    typescript-json-schema "^0.63.0"
-    yaml "^2.0.0"
-
-"@backstage/config-loader@^1.6.2":
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.6.2.tgz#b3dea400ec18dc64e1f1236e450668fb5d27e221"
   integrity sha512-RFFK1NGhg2n6OKRxkBPCO8qRmuRJ8gtEwjQdMv17V8AuaituOVDIduKW7omrq2RNr1CNJFodhGmpkHxqSkpkiQ==
@@ -4044,7 +4008,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-kubernetes-common@^0.7.3", "@backstage/plugin-kubernetes-common@^0.7.4":
+"@backstage/plugin-kubernetes-common@^0.7.4":
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.7.4.tgz#fe3f8ec6a23d367a6b119482c8cfa61628195d0e"
   integrity sha512-M/XsMAkEPY7hy0dxNxoIIhFwsMn+ypLLOXwQcIelPC2S6b5lLtueJZbdVWBUJ84obaq9GJaHnjL3r2uEMQIoCw==
@@ -4070,16 +4034,16 @@
     node-fetch "^2.6.7"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.2.1.tgz#cd62a15639f36b0e1ac3bc03cb34d901a885bb14"
-  integrity sha512-f5tNbBzfn5/DHavPW3pj/zuqsnIyDFGjZhxf9sCvakPiq18eh9P6FH8CMlsr9I5WzHeE+sbtPjLuHySFZbnVVg==
+"@backstage/plugin-kubernetes-react@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.3.0.tgz#656ff823aa7d79daf2e8994506d1f3a3cdfdac6f"
+  integrity sha512-OLKYrpKJBsTUykiID2Ol1uxYg3R+rIME/DxjicaR66Nt36qWTaem6XZbkEeHqGnQSuLPGfmZQSnwYFKe5/Z9yw==
   dependencies:
-    "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.10"
-    "@backstage/core-plugin-api" "^1.8.2"
+    "@backstage/catalog-model" "^1.4.4"
+    "@backstage/core-components" "^0.14.0"
+    "@backstage/core-plugin-api" "^1.9.0"
     "@backstage/errors" "^1.2.3"
-    "@backstage/plugin-kubernetes-common" "^0.7.3"
+    "@backstage/plugin-kubernetes-common" "^0.7.4"
     "@backstage/types" "^1.1.1"
     "@kubernetes-models/apimachinery" "^1.1.0"
     "@kubernetes-models/base" "^4.0.1"
@@ -4087,7 +4051,7 @@
     "@material-ui/core" "^4.9.13"
     "@material-ui/icons" "^4.11.3"
     "@material-ui/lab" "^4.0.0-alpha.61"
-    "@types/react" "^16.13.1 || ^17.0.0"
+    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     cronstrue "^2.32.0"
     js-yaml "^4.1.0"
     kubernetes-models "^4.3.1"
@@ -4099,21 +4063,21 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-kubernetes@^0.11.0":
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.4.tgz#7c8fca7219df57b35b1cfc94d0c1bc16d24c275f"
-  integrity sha512-I/86dpa1sVH472huUt+PpJXEMRtTEqKZLJj+vYFs2a+aXOU9hWBF0fqBC+CoIaX1GLw8dCsy83jpIIzUa0PEww==
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.5.tgz#b4a14859cc99db802dbd868b72e2a9faad10a297"
+  integrity sha512-wrqvCulW6Hxb+Ttmrc22dhMXnPU3u/Ve5LXxr7JMvz80ipWfJthf2G9qumY4TBvk0MQdmX53G+n3xkjycXtwTA==
   dependencies:
-    "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.10"
-    "@backstage/core-plugin-api" "^1.8.2"
-    "@backstage/plugin-catalog-react" "^1.9.3"
-    "@backstage/plugin-kubernetes-common" "^0.7.3"
-    "@backstage/plugin-kubernetes-react" "^0.2.1"
+    "@backstage/catalog-model" "^1.4.4"
+    "@backstage/core-components" "^0.14.0"
+    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/plugin-catalog-react" "^1.10.0"
+    "@backstage/plugin-kubernetes-common" "^0.7.4"
+    "@backstage/plugin-kubernetes-react" "^0.3.0"
     "@kubernetes-models/apimachinery" "^1.1.0"
     "@kubernetes-models/base" "^4.0.1"
     "@kubernetes/client-node" "0.20.0"
     "@material-ui/core" "^4.12.2"
-    "@types/react" "^16.13.1 || ^17.0.0"
+    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     cronstrue "^2.2.0"
     js-yaml "^4.0.0"
     kubernetes-models "^4.1.0"
@@ -25008,20 +24972,6 @@ types-ramda@^0.29.3:
   integrity sha512-6z8/UCI5/kRorQ91Mo+TUXImHpGAhmhg8ZIdT/tNrG+xSQvDwJXYyT5Nlw2U5VpoKetUZVqQXYYLQyq5Bzccsg==
   dependencies:
     ts-toolbelt "^9.6.0"
-
-typescript-json-schema@^0.63.0:
-  version "0.63.0"
-  resolved "https://registry.yarnpkg.com/typescript-json-schema/-/typescript-json-schema-0.63.0.tgz#55ef6c4dde71625425b169d37e0de3d2ea14e093"
-  integrity sha512-vBfMBq4U/rZ5FIRi7u4o/YAdeRHsSabdGHogUlCPi0cYU0CGvS4Bdu8bSzyUsF+Kf5PTQUGh2TictJuQTDK6eQ==
-  dependencies:
-    "@types/json-schema" "^7.0.9"
-    "@types/node" "^16.9.2"
-    glob "^7.1.7"
-    path-equal "^1.2.5"
-    safe-stable-stringify "^2.2.0"
-    ts-node "^10.9.1"
-    typescript "~5.1.0"
-    yargs "^17.1.1"
 
 typescript-json-schema@^0.63.0:
   version "0.63.0"
