@@ -4028,19 +4028,21 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-org@^0.6.7":
-  version "0.6.19"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.19.tgz#f7b52a0759180f2c289964a16c1a4a749e55ed23"
-  integrity sha512-MY22oEwI7iy53m2P8L2my8MFVIke7TJ6cHMcJxbMpmzN70H/Zp+JH2DQ20kQy5bdzOiTTuXCRd/r0trlvG61Og==
+  version "0.6.20"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.20.tgz#b54f2abe46afaece16c2691ffc069c530a5365b9"
+  integrity sha512-CVMB1XHAs/4DbhsMG5a4wa5SGvuys2qpt53aCcat+UWHkryzdMVbcaNISPidhER2CmoDaPhxtjA3XSL9i7nwvw==
   dependencies:
-    "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.10"
-    "@backstage/core-plugin-api" "^1.8.2"
-    "@backstage/plugin-catalog-common" "^1.0.20"
-    "@backstage/plugin-catalog-react" "^1.9.3"
+    "@backstage/catalog-model" "^1.4.4"
+    "@backstage/core-compat-api" "^0.2.0"
+    "@backstage/core-components" "^0.14.0"
+    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/frontend-plugin-api" "^0.6.0"
+    "@backstage/plugin-catalog-common" "^1.0.21"
+    "@backstage/plugin-catalog-react" "^1.10.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
-    "@types/react" "^16.13.1 || ^17.0.0"
+    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     lodash "^4.17.21"
     p-limit "^3.1.0"
     pluralize "^8.0.0"
