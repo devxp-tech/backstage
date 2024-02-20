@@ -4501,26 +4501,7 @@
     p-limit "^3.1.0"
     winston "^3.2.1"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.13":
-  version "1.2.13"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.13.tgz#2b6af884321b2550ed43a0d092feae9facb5f68b"
-  integrity sha512-Vg/XFIqKN3Q/oCFivGwra8eoq8w+WmC5i+uyEIUJyB3hisDe57zg5m89fKQGuNSZVRYxWMbyqZvqj8izBkqp4g==
-  dependencies:
-    "@backstage/backend-common" "^0.20.1"
-    "@backstage/backend-plugin-api" "^0.6.9"
-    "@backstage/backend-tasks" "^0.5.14"
-    "@backstage/config" "^1.1.1"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-search-common" "^1.2.10"
-    "@types/lunr" "^2.3.3"
-    lodash "^4.17.21"
-    lunr "^2.3.9"
-    ndjson "^2.0.0"
-    uuid "^8.3.2"
-    winston "^3.2.1"
-
-"@backstage/plugin-search-backend-node@^1.2.14":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.13", "@backstage/plugin-search-backend-node@^1.2.14":
   version "1.2.14"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.14.tgz#2918bce66f87b03eff0a5c79302c7ff95ac31fca"
   integrity sha512-4NLChCVQpZbGFb8mqcMQAY/GJOkBEHFfpvZd7VyK46p5ucTCej719VHv/7oZQ1m9IhDVeMzQORArZ3TH9NUZHA==
@@ -4540,19 +4521,19 @@
     winston "^3.2.1"
 
 "@backstage/plugin-search-backend@^1.3.0":
-  version "1.4.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-1.4.9.tgz#2f4420196f75a963769fd1f9d6f4788c4686e7f6"
-  integrity sha512-d3qVkd42sF6k6P1YknApbwwLeFXn0dIy2nzaaZ9BHrproHE2cwAYxtjZSJjKy9GSqxWLvI5BZQSnXmA/DKR2/A==
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-1.5.0.tgz#78712cbdcab464e2ca2e5ac1f5933eb62a9ef721"
+  integrity sha512-CcrMnIlxKjXA0tdNKXUwThhPhult/iraMT2ZqRVSxJAU9/OX/bFAj91c7Gq4mMcS2O7P9Zwmq43M6DBYZt2hpA==
   dependencies:
-    "@backstage/backend-common" "^0.20.1"
-    "@backstage/backend-openapi-utils" "^0.1.2"
-    "@backstage/backend-plugin-api" "^0.6.9"
+    "@backstage/backend-common" "^0.21.0"
+    "@backstage/backend-openapi-utils" "^0.1.3"
+    "@backstage/backend-plugin-api" "^0.6.10"
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
-    "@backstage/plugin-auth-node" "^0.4.3"
+    "@backstage/plugin-auth-node" "^0.4.4"
     "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-permission-node" "^0.7.20"
-    "@backstage/plugin-search-backend-node" "^1.2.13"
+    "@backstage/plugin-permission-node" "^0.7.21"
+    "@backstage/plugin-search-backend-node" "^1.2.14"
     "@backstage/plugin-search-common" "^1.2.10"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
