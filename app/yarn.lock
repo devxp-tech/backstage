@@ -3410,20 +3410,20 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.57"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.57.tgz#2ac5cb7aa2c9851a64ba00831d3654991f239259"
-  integrity sha512-G7PHT6SyZXG1PUdBSxFkHgR2QkmX0gj6r74JOsbyYrXH4T4DkHnS6qCmr6paBowVMuzO6T3C5zdFIsXcTozdsw==
+  version "0.3.58"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.58.tgz#1f9fc9183e55743d1d3110c2c3080b81ec8ec65f"
+  integrity sha512-Ip7x00nExaxNlCvWO9Fa5TUC9/1JvXk00lQU7UsPuvX09EjlsXG5oeY+6lD5F91HEtwfj4AsiNI/ydAf+KAd/g==
   dependencies:
-    "@backstage/backend-common" "^0.20.1"
-    "@backstage/backend-plugin-api" "^0.6.9"
+    "@backstage/backend-common" "^0.21.0"
+    "@backstage/backend-plugin-api" "^0.6.10"
     "@backstage/config" "^1.1.1"
-    "@backstage/config-loader" "^1.6.1"
-    "@backstage/plugin-app-node" "^0.1.9"
+    "@backstage/config-loader" "^1.6.2"
+    "@backstage/plugin-app-node" "^0.1.10"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     express-promise-router "^4.1.0"
-    fs-extra "10.1.0"
+    fs-extra "^11.2.0"
     globby "^11.0.0"
     helmet "^6.0.0"
     knex "^3.0.0"
@@ -3432,14 +3432,16 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.9.tgz#1a2d6df65d98de2cb86bebde2a2a06046fbe4b1f"
-  integrity sha512-n/1mPYY5HEhGXlpRWIpyNuB8piHm9ch2jPtDecPTv2sKdppHOCc0mwVSEZxGh7ga/NpPrwJASTInhp51MSpETw==
+"@backstage/plugin-app-node@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.10.tgz#d9dad8a404cf1babdc1f67fddf067009ba5bdfff"
+  integrity sha512-dXfcaE0R4OGhvhC4MTHUCKcQn5cmSE4Nnn0x55/x8BeLs/vFYRnMru3JRE/1pNI2vurCnRiQ/L+J+dlkMsgFmA==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.9"
+    "@backstage/backend-plugin-api" "^0.6.10"
+    "@backstage/config-loader" "^1.6.2"
     "@types/express" "^4.17.6"
     express "^4.17.1"
+    fs-extra "^11.2.0"
 
 "@backstage/plugin-auth-backend-module-atlassian-provider@^0.1.2":
   version "0.1.2"
