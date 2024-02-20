@@ -4466,14 +4466,14 @@
     "@backstage/plugin-search-common" "^1.2.10"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.18"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.18.tgz#63846cd6cd744f057f96330d8586490a4bd8dd6c"
-  integrity sha512-jC+uTIKBxltj8huFRz7x+c1xCi/VD4efa+fWOtY7ZfWfDUm3OsOeXAMhwl7mC8gMYMdvF4kEKWLYCUi3r6KGrw==
+  version "0.5.19"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.19.tgz#8abc2b9da0292797b4c859f5f4372c27386450c8"
+  integrity sha512-oyhafqgFH9NxD1h00lZkYGSrR79PBV0RLSI5/Aal1RRE/P0MRFrn+l0Z3pn/aaxZR7R/R8VcDhzpm3BF8fkr6A==
   dependencies:
-    "@backstage/backend-common" "^0.20.1"
-    "@backstage/backend-plugin-api" "^0.6.9"
+    "@backstage/backend-common" "^0.21.0"
+    "@backstage/backend-plugin-api" "^0.6.10"
     "@backstage/config" "^1.1.1"
-    "@backstage/plugin-search-backend-node" "^1.2.13"
+    "@backstage/plugin-search-backend-node" "^1.2.14"
     "@backstage/plugin-search-common" "^1.2.10"
     knex "^3.0.0"
     lodash "^4.17.21"
@@ -4502,26 +4502,7 @@
     p-limit "^3.1.0"
     winston "^3.2.1"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.13":
-  version "1.2.13"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.13.tgz#2b6af884321b2550ed43a0d092feae9facb5f68b"
-  integrity sha512-Vg/XFIqKN3Q/oCFivGwra8eoq8w+WmC5i+uyEIUJyB3hisDe57zg5m89fKQGuNSZVRYxWMbyqZvqj8izBkqp4g==
-  dependencies:
-    "@backstage/backend-common" "^0.20.1"
-    "@backstage/backend-plugin-api" "^0.6.9"
-    "@backstage/backend-tasks" "^0.5.14"
-    "@backstage/config" "^1.1.1"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-search-common" "^1.2.10"
-    "@types/lunr" "^2.3.3"
-    lodash "^4.17.21"
-    lunr "^2.3.9"
-    ndjson "^2.0.0"
-    uuid "^8.3.2"
-    winston "^3.2.1"
-
-"@backstage/plugin-search-backend-node@^1.2.14":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.13", "@backstage/plugin-search-backend-node@^1.2.14":
   version "1.2.14"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.14.tgz#2918bce66f87b03eff0a5c79302c7ff95ac31fca"
   integrity sha512-4NLChCVQpZbGFb8mqcMQAY/GJOkBEHFfpvZd7VyK46p5ucTCej719VHv/7oZQ1m9IhDVeMzQORArZ3TH9NUZHA==
