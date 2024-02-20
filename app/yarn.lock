@@ -2955,15 +2955,16 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.8.0", "@backstage/core-plugin-api@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.8.2.tgz#1e6f54f0ef1669ffeff56490fbde92c766312230"
-  integrity sha512-+KvbbMp4L5fz14zhiucG4TevrKcyyS59LjBL7yeoHQO+PdGQFbFaGhispNb/Y+Yjyo/tEuk0+JktRyTBUa1dEg==
+"@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.8.0", "@backstage/core-plugin-api@^1.8.2", "@backstage/core-plugin-api@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.9.0.tgz#49cda87ab82b968c9c7439da99549a4c34c4f720"
+  integrity sha512-k+w9TfJCFv/5YyiATuZfnlg/8KkJEL0fo9MHGFcOTOeqX0rcb0eecEWmb2kiA4NfPzLmEeNSSc4Nv8zdRQwCQA==
   dependencies:
     "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.7"
-    "@types/react" "^16.13.1 || ^17.0.0"
+    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     history "^5.0.0"
 
 "@backstage/errors@^1.1.5", "@backstage/errors@^1.2.3":
@@ -3011,28 +3012,29 @@
     "@backstage/errors" "^1.2.3"
 
 "@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.21", "@backstage/integration-react@^1.1.23":
-  version "1.1.23"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.23.tgz#259bcfcf450ff5fdb6f51604649e976cb3385db4"
-  integrity sha512-3cFQyWl6mVH6z1cVTJ8aZZdwk4+wsGZkk6smtOpoamSZ7PtodR+V3ZXU/eeb3Sz2GCMUK/r9XWmOnPF1+nuEpw==
+  version "1.1.24"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.24.tgz#2ae41ca6ad73cf5064bbe988229f0c942ba39198"
+  integrity sha512-C7aIYFCU14drZx9k0knDZeY4uq4oN5gbI4OVYJtQFVdZlgWwUuycxtw8ar9XAEzIl+UgPcpIpIWsbvOLBb8Qaw==
   dependencies:
     "@backstage/config" "^1.1.1"
-    "@backstage/core-plugin-api" "^1.8.2"
-    "@backstage/integration" "^1.8.0"
+    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/integration" "^1.9.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/integration@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.8.0.tgz#affc54e1c12c5a4e68a92de4e42c6cf001bdf6ec"
-  integrity sha512-FCFOubvpKK2dt38sNATrImHrS0pkmvS2LPzvLQ01JzRy5F/QxsdRGxJmzB9irpLOUh7F3/Ilr7cBdG5nYyYVOA==
+"@backstage/integration@^1.8.0", "@backstage/integration@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.9.0.tgz#c60b33a7ec9b3970ccd4e8d54662b686b7ad27bf"
+  integrity sha512-lqZcjcfLeDyHxDdmTKxiko3GX+vQCyhoNM/lgPFLJFih9TiE3V+hTc9isEfkpQqRE9dCEy1w7rgUrNHXlz0pTA==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
     "@octokit/auth-app" "^4.0.0"
     "@octokit/rest" "^19.0.3"
     cross-fetch "^4.0.0"
-    git-url-parse "^13.0.0"
+    git-url-parse "^14.0.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
 
@@ -9042,7 +9044,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.13.1 || ^17.0.0", "@types/react@^17":
+"@types/react@*", "@types/react@^16.13.1 || ^17.0.0", "@types/react@^16.13.1 || ^17.0.0 || ^18.0.0", "@types/react@^17":
   version "17.0.75"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.75.tgz#cffbc76840a12fcadaf5a3cf14878bb06efcf73d"
   integrity sha512-MSA+NzEzXnQKrqpO63CYqNstFjsESgvJAdAyyJ1n6ZQq/GLgf6nOfIKwk+Twuz0L1N6xPe+qz5xRCJrbhMaLsw==
@@ -14694,6 +14696,13 @@ git-url-parse@13.1.0, git-url-parse@^13.0.0:
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-13.1.0.tgz#07e136b5baa08d59fabdf0e33170de425adf07b4"
   integrity sha512-5FvPJP/70WkIprlUZ33bm4UAaFdjcLkJLpWft1BeZKqwR0uhhNGoKwlUaPtVb4LxCSQ++erHapRak9kWGj+FCA==
+  dependencies:
+    git-up "^7.0.0"
+
+git-url-parse@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-14.0.0.tgz#18ce834726d5fbca0c25a4555101aa277017418f"
+  integrity sha512-NnLweV+2A4nCvn4U/m2AoYu0pPKlsmhK9cknG7IMwsjFY1S2jxM+mAhsDxyxfCIGfGaD+dozsyX4b6vkYc83yQ==
   dependencies:
     git-up "^7.0.0"
 
