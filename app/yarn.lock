@@ -3807,28 +3807,28 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-catalog-import@^0.10.0":
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.10.5.tgz#f7da41a1547c09432610292843211cc202c69bf8"
-  integrity sha512-ia8gt8EK/zg5ahfb4/iTEx+lQ+4nxjeL8O563YMXvRvnr1gSfJbStPL6Yi44kISwUfHFqCcVWikXmhH9TpSZDg==
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.10.6.tgz#4c372783c8aa40f6938b6ef13c054d3d23a2bdc7"
+  integrity sha512-b4XYKXDWiVeNuhblyobs6AdND9mF0+QgOmO2mfuKJJYQ8hEnOVGkGUtfmBS57PolQ8/P5CaUG+58OLVGg7ETdw==
   dependencies:
-    "@backstage/catalog-client" "^1.5.2"
-    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/catalog-client" "^1.6.0"
+    "@backstage/catalog-model" "^1.4.4"
     "@backstage/config" "^1.1.1"
-    "@backstage/core-compat-api" "^0.1.1"
-    "@backstage/core-components" "^0.13.10"
-    "@backstage/core-plugin-api" "^1.8.2"
+    "@backstage/core-compat-api" "^0.2.0"
+    "@backstage/core-components" "^0.14.0"
+    "@backstage/core-plugin-api" "^1.9.0"
     "@backstage/errors" "^1.2.3"
-    "@backstage/frontend-plugin-api" "^0.5.0"
-    "@backstage/integration" "^1.8.0"
-    "@backstage/integration-react" "^1.1.23"
-    "@backstage/plugin-catalog-common" "^1.0.20"
-    "@backstage/plugin-catalog-react" "^1.9.3"
+    "@backstage/frontend-plugin-api" "^0.6.0"
+    "@backstage/integration" "^1.9.0"
+    "@backstage/integration-react" "^1.1.24"
+    "@backstage/plugin-catalog-common" "^1.0.21"
+    "@backstage/plugin-catalog-react" "^1.10.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
     "@octokit/rest" "^19.0.3"
-    "@types/react" "^16.13.1 || ^17.0.0"
-    git-url-parse "^13.0.0"
+    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
+    git-url-parse "^14.0.0"
     js-base64 "^3.6.0"
     lodash "^4.17.21"
     react-hook-form "^7.12.2"
@@ -26524,12 +26524,7 @@ yaml@^1.10.0, yaml@^1.10.2, yaml@^1.7.2:
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
-yaml@^2.0.0, yaml@^2.2.1, yaml@^2.2.2:
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.3.1.tgz#02fe0975d23cd441242aa7204e09fc28ac2ac33b"
-  integrity sha512-2eHWfjaoXgTBC2jNM1LRef62VQa0umtvRiDSk6HSzW7RvS5YtkabJrwYLLEKWBc8a5U2PTSCs+dJjUTJdlHsWQ==
-
-yaml@^2.0.0-10:
+yaml@^2.0.0, yaml@^2.0.0-10, yaml@^2.2.1, yaml@^2.2.2:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.3.4.tgz#53fc1d514be80aabf386dc6001eb29bf3b7523b2"
   integrity sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==
