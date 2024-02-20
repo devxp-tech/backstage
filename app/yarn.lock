@@ -3789,21 +3789,23 @@
     "@backstage/plugin-permission-common" "^0.7.12"
     "@backstage/plugin-search-common" "^1.2.10"
 
-"@backstage/plugin-catalog-graph@^0.3.0":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.3.3.tgz#fc35db8f9c3ea67560a5ffaff71f9cfe459ed611"
-  integrity sha512-SXQmcET2o0yFMc9ecx794/P5NNSTb03Xpc6KKdJwlIyon2ZoCvrcAcAur3Vp6vvHdrcQCgejwlgRvVJKXRQTlg==
+"@backstage/plugin-catalog-graph@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.0.tgz#b06fefb2dabe7f2024e59fa7f65570a8c4cab730"
+  integrity sha512-ZEKdE15KnZonllrdQxH64oGGKcUco0twzyezKg2oYvGdPmIdDW4Av2fxzYtDVtJoG78Yci/im/RWnj1HmeUWbw==
   dependencies:
-    "@backstage/catalog-client" "^1.5.2"
-    "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.10"
-    "@backstage/core-plugin-api" "^1.8.2"
-    "@backstage/plugin-catalog-react" "^1.9.3"
+    "@backstage/catalog-client" "^1.6.0"
+    "@backstage/catalog-model" "^1.4.4"
+    "@backstage/core-compat-api" "^0.2.0"
+    "@backstage/core-components" "^0.14.0"
+    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/frontend-plugin-api" "^0.6.0"
+    "@backstage/plugin-catalog-react" "^1.10.0"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
-    "@types/react" "^16.13.1 || ^17.0.0"
+    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     classnames "^2.3.1"
     lodash "^4.17.15"
     p-limit "^3.1.0"
@@ -10583,7 +10585,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/plugin-api-docs" "^0.11.0"
     "@backstage/plugin-catalog" "^1.10.0"
     "@backstage/plugin-catalog-common" "^1.0.13"
-    "@backstage/plugin-catalog-graph" "^0.3.0"
+    "@backstage/plugin-catalog-graph" "^0.4.0"
     "@backstage/plugin-catalog-import" "^0.10.0"
     "@backstage/plugin-catalog-react" "^1.5.0"
     "@backstage/plugin-github-actions" "^0.6.0"
