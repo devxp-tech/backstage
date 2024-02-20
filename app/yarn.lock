@@ -4088,12 +4088,12 @@
     swr "^2.0.0"
 
 "@backstage/plugin-proxy-backend@^0.4.0":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.4.7.tgz#4bc5f7f9118ce253063bc6132170340c7a1a4795"
-  integrity sha512-imY9bl94PBxHqOOCAGJBKC9lngzcoR5BxQ4fgwZgYCvbinnFBrLNzd5baazvgWt+ZDloAQ/X3xQMAd4o2N1cqw==
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.4.8.tgz#a0a2a4195880fb27f37654854a5a88fe46a3bd50"
+  integrity sha512-ah/F+xqq1UqYePmKt8g6k/BfxxpiUq2wMQ952JTTMqB6geJd9338nzIHa4+8+zarzky0EnydBll7ogXT6L7l8Q==
   dependencies:
-    "@backstage/backend-common" "^0.20.1"
-    "@backstage/backend-plugin-api" "^0.6.9"
+    "@backstage/backend-common" "^0.21.0"
+    "@backstage/backend-plugin-api" "^0.6.10"
     "@backstage/config" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
