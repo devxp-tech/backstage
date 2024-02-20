@@ -2920,7 +2920,7 @@
     zen-observable "^0.10.0"
     zod "~3.18.0"
 
-"@backstage/core-components@^0.13.0", "@backstage/core-components@^0.13.10", "@backstage/core-components@^0.13.8":
+"@backstage/core-components@^0.13.10", "@backstage/core-components@^0.13.8":
   version "0.13.10"
   resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.13.10.tgz#f423b56c81cade3df20ec5eccb209f0315320290"
   integrity sha512-njqtxt0J4eHBcU+tuZgL0yba8Fhie/OtefVwCx5K6+vPWLGQNMnXzJCX7Q/4iLtwBXoMyP+pk3r90sDja3ZV9Q==
@@ -4466,10 +4466,10 @@
     "@emotion/styled" "^11.10.5"
     "@mui/material" "^5.12.2"
 
-"@backstage/theme@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.0.tgz#4a4d0fa7dcf5335628f6c261e8bc82516327578a"
-  integrity sha512-lqYzmnNtnv0lkO6XOexUW/wzDFZNMg950WjEi6iTNpFn+D4T1XwC4n+CsF5uAMgYiGAoqZRkRYfGsK+xKciENw==
+"@backstage/theme@^0.5.0", "@backstage/theme@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.1.tgz#3134874f464990a043127c3fdbc634ea770a911b"
+  integrity sha512-dVX4xVx9TkNUkubgZqmRjIFTjJeOPRVM9U1aG8S2TRVSUzv9pNK0jDHDN2kyfdSUb9prrC9iEi3+g2lvCwjgKQ==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
@@ -10036,7 +10036,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@backstage/catalog-model" "^1.3.0"
     "@backstage/cli" "^0.25.0"
     "@backstage/core-app-api" "^1.7.0"
-    "@backstage/core-components" "^0.13.0"
+    "@backstage/core-components" "^0.14.0"
     "@backstage/core-plugin-api" "^1.5.1"
     "@backstage/integration-react" "^1.1.12"
     "@backstage/plugin-api-docs" "^0.10.0"
