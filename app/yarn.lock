@@ -2860,7 +2860,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/backend-dev-utils/-/backend-dev-utils-0.1.4.tgz#65d204939c49b5df6a2148e8ad4dc718ccd1df07"
   integrity sha512-5YgAPz4CRtnqdaUlYCHwGmXvpkGQ1jaUMoDtiQ81WDxQrf+0iYZCwS4ftVyQmB0Ga6BaGOUf6GG/OuFA56Y5mA==
 
-"@backstage/backend-openapi-utils@^0.1.3", "@backstage/backend-openapi-utils@^0.1.4":
+"@backstage/backend-openapi-utils@^0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@backstage/backend-openapi-utils/-/backend-openapi-utils-0.1.4.tgz#1382ba96fc2670555cf55333cc015bc8e1074d31"
   integrity sha512-3k33wbWCTRpfgv1N5rSKYCsfkv8jU5+P+M0NJWG6ncNoMEYkxUQ+nEBkeVoZvAZGhna0WsZqheiusiBjcqjI5Q==
@@ -4416,7 +4416,7 @@
     p-limit "^3.1.0"
     winston "^3.2.1"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.14", "@backstage/plugin-search-backend-node@^1.2.15":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.15":
   version "1.2.15"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.15.tgz#c9228c948e7b1db1a95e06e7b4442d8c4fd64d3d"
   integrity sha512-92D+oMa93xF7oZXEQ32/7oV79Hzs+9pTN1KCgrhaD34vdxfv9IYnJwr5M1DZaDHj9/WnjZsUYY3KnHQkwOCLDg==
@@ -4436,19 +4436,19 @@
     winston "^3.2.1"
 
 "@backstage/plugin-search-backend@^1.3.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-1.5.0.tgz#78712cbdcab464e2ca2e5ac1f5933eb62a9ef721"
-  integrity sha512-CcrMnIlxKjXA0tdNKXUwThhPhult/iraMT2ZqRVSxJAU9/OX/bFAj91c7Gq4mMcS2O7P9Zwmq43M6DBYZt2hpA==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-1.5.1.tgz#5c6375531e8a6ea1528a72a1d1c8ed9f5ff1e372"
+  integrity sha512-myj36k4NRZEzwOeF3yNWvgh49S2ZbFmB2XIeKeVsdb2nG5QMQ/o40TYuDo/LHZVVwKLhMBUb+F6/KrE8SzM39g==
   dependencies:
-    "@backstage/backend-common" "^0.21.0"
-    "@backstage/backend-openapi-utils" "^0.1.3"
-    "@backstage/backend-plugin-api" "^0.6.10"
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-openapi-utils" "^0.1.4"
+    "@backstage/backend-plugin-api" "^0.6.11"
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
-    "@backstage/plugin-auth-node" "^0.4.4"
+    "@backstage/plugin-auth-node" "^0.4.6"
     "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-permission-node" "^0.7.21"
-    "@backstage/plugin-search-backend-node" "^1.2.14"
+    "@backstage/plugin-permission-node" "^0.7.22"
+    "@backstage/plugin-search-backend-node" "^1.2.15"
     "@backstage/plugin-search-common" "^1.2.10"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
