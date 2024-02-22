@@ -2929,6 +2929,25 @@
     winston "^3.2.1"
     zod "^3.22.4"
 
+"@backstage/backend-tasks@^0.5.16":
+  version "0.5.16"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.5.16.tgz#3c96aa729729080545ce99e1e9fd519cf7f51a8a"
+  integrity sha512-AKqE7pfmsQ0FHJzt07afMYNkUMhzYFJk0vgbHB2NjKUa8nElUrpGp16BhQ//opqgeXH+YNLe3hu6l0XjgUvPWw==
+  dependencies:
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
+    "@backstage/types" "^1.1.1"
+    "@opentelemetry/api" "^1.3.0"
+    "@types/luxon" "^3.0.0"
+    cron "^3.0.0"
+    knex "^3.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+    uuid "^8.0.0"
+    winston "^3.2.1"
+    zod "^3.22.4"
+
 "@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.6.0.tgz#d4ba505f84a58f03177d0998becc6eb8ed54f40e"
@@ -3651,6 +3670,29 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.21.4"
 
+"@backstage/plugin-auth-node@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.4.6.tgz#646b819c69719b521262c971274571b170862167"
+  integrity sha512-cYtxI3Daczf7vD26ExOmcgK2rLRGDg1db0fGbtMrzz2n/6eXBv9yUPTT4Kn9RpIkbYQ0CwHWemMd3A1ZlM9ytg==
+  dependencies:
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
+    "@backstage/catalog-client" "^1.6.0"
+    "@backstage/catalog-model" "^1.4.4"
+    "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
+    "@backstage/types" "^1.1.1"
+    "@types/express" "*"
+    "@types/passport" "^1.0.3"
+    express "^4.17.1"
+    jose "^4.6.0"
+    lodash "^4.17.21"
+    node-fetch "^2.6.7"
+    passport "^0.7.0"
+    winston "^3.2.1"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
 "@backstage/plugin-catalog-backend-module-github@^0.5.0":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.5.1.tgz#5d2c27ce78f2e85316e84d9a41d35ed3364ac7b3"
@@ -4112,12 +4154,12 @@
     swr "^2.0.0"
 
 "@backstage/plugin-proxy-backend@^0.4.0":
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.4.8.tgz#a0a2a4195880fb27f37654854a5a88fe46a3bd50"
-  integrity sha512-ah/F+xqq1UqYePmKt8g6k/BfxxpiUq2wMQ952JTTMqB6geJd9338nzIHa4+8+zarzky0EnydBll7ogXT6L7l8Q==
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.4.9.tgz#0e7bd306ad3b3a327abef25415a4acabbd42fa24"
+  integrity sha512-M8OliG97tcCvrg9txdf0R6ZcdbM8nQG6YGSUJ+l0N2dgez+gN53CzpG0JQcuIt1VQsqVjxsH6gWBUYYY1AYZ8w==
   dependencies:
-    "@backstage/backend-common" "^0.21.0"
-    "@backstage/backend-plugin-api" "^0.6.10"
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
     "@backstage/config" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
