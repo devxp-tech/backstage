@@ -3868,27 +3868,27 @@
     "@types/react" "^16.13.1 || ^17.0.0"
 
 "@backstage/plugin-kubernetes-backend@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.15.0.tgz#696255253004d2c39c6cdd7b0de0f32a9b21a2bd"
-  integrity sha512-p+IgOJeQmpFG8h7KrQLiYrb706ELvCEHe6Fu1a0dgRnoOeBg8fKFo+Gz5CNHXf+Zq+cfOv0MQCgpcGU25yj95A==
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.15.1.tgz#7280369c7e4f11977b89f11955eaeab81ff8a9ee"
+  integrity sha512-59X+KNNbXUVGMvlCwGgROTxoFWPoBe5b5SzYVd77TvoY5ubTedFFpUTcR2m3SOGaJbrZovB5hcNQuhhRlwOZog==
   dependencies:
     "@aws-crypto/sha256-js" "^5.0.0"
     "@aws-sdk/credential-providers" "^3.350.0"
     "@aws-sdk/signature-v4" "^3.347.0"
     "@azure/identity" "^4.0.0"
-    "@backstage/backend-common" "^0.21.0"
-    "@backstage/backend-plugin-api" "^0.6.10"
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
     "@backstage/catalog-client" "^1.6.0"
     "@backstage/catalog-model" "^1.4.4"
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
     "@backstage/integration-aws-node" "^0.1.9"
-    "@backstage/plugin-auth-node" "^0.4.4"
-    "@backstage/plugin-catalog-node" "^1.7.0"
+    "@backstage/plugin-auth-node" "^0.4.6"
+    "@backstage/plugin-catalog-node" "^1.7.1"
     "@backstage/plugin-kubernetes-common" "^0.7.4"
-    "@backstage/plugin-kubernetes-node" "^0.1.4"
+    "@backstage/plugin-kubernetes-node" "^0.1.5"
     "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-permission-node" "^0.7.21"
+    "@backstage/plugin-permission-node" "^0.7.22"
     "@backstage/types" "^1.1.1"
     "@google-cloud/container" "^5.0.0"
     "@jest-mock/express" "^2.0.1"
@@ -3924,12 +3924,12 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/plugin-kubernetes-node@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.1.4.tgz#b6fd4c84ef4fa3426c1f021448901fcdb977e7a4"
-  integrity sha512-wlP6wNkjeR0oEaXIl/OCdzsCTP7VcldtFcwNGQKtvydItVI09hYS6VKQ8SOIVIoKJkLFbg5W2FQF3+p5o/wMBQ==
+"@backstage/plugin-kubernetes-node@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.1.5.tgz#790bc3870ea32a4d4a2c6880b5cc39471e0fd16b"
+  integrity sha512-udpviGmQJEHRejA3b047FSWnm8HEEHlcwdnSMEx3k/c2/MbK0kF4ALFy+qOQsl5Xzr4T7ZvzUEnf+wzj5DhJuA==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.10"
+    "@backstage/backend-plugin-api" "^0.6.11"
     "@backstage/catalog-model" "^1.4.4"
     "@backstage/plugin-kubernetes-common" "^0.7.4"
     "@backstage/types" "^1.1.1"
