@@ -2948,6 +2948,25 @@
     winston "^3.2.1"
     zod "^3.22.4"
 
+"@backstage/backend-tasks@^0.5.16":
+  version "0.5.16"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.5.16.tgz#3c96aa729729080545ce99e1e9fd519cf7f51a8a"
+  integrity sha512-AKqE7pfmsQ0FHJzt07afMYNkUMhzYFJk0vgbHB2NjKUa8nElUrpGp16BhQ//opqgeXH+YNLe3hu6l0XjgUvPWw==
+  dependencies:
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
+    "@backstage/types" "^1.1.1"
+    "@opentelemetry/api" "^1.3.0"
+    "@types/luxon" "^3.0.0"
+    cron "^3.0.0"
+    knex "^3.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+    uuid "^8.0.0"
+    winston "^3.2.1"
+    zod "^3.22.4"
+
 "@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.6.0.tgz#d4ba505f84a58f03177d0998becc6eb8ed54f40e"
@@ -3693,6 +3712,29 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.21.4"
 
+"@backstage/plugin-auth-node@^0.4.6":
+  version "0.4.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.4.6.tgz#646b819c69719b521262c971274571b170862167"
+  integrity sha512-cYtxI3Daczf7vD26ExOmcgK2rLRGDg1db0fGbtMrzz2n/6eXBv9yUPTT4Kn9RpIkbYQ0CwHWemMd3A1ZlM9ytg==
+  dependencies:
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
+    "@backstage/catalog-client" "^1.6.0"
+    "@backstage/catalog-model" "^1.4.4"
+    "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
+    "@backstage/types" "^1.1.1"
+    "@types/express" "*"
+    "@types/passport" "^1.0.3"
+    express "^4.17.1"
+    jose "^4.6.0"
+    lodash "^4.17.21"
+    node-fetch "^2.6.7"
+    passport "^0.7.0"
+    winston "^3.2.1"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
 "@backstage/plugin-catalog-backend-module-github@^0.5.0":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.5.1.tgz#5d2c27ce78f2e85316e84d9a41d35ed3364ac7b3"
@@ -3836,6 +3878,20 @@
     yaml "^2.0.0"
 
 "@backstage/plugin-catalog-node@^1.7.0", "@backstage/plugin-catalog-node@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.7.1.tgz#2e7805ce31daba56c734aed41c72d5f0f4d0c50f"
+  integrity sha512-vbVLqccBiA9wWKSUYPJmpYowhIXOSxOpih0eC2OA+ddT0FFzhX3A7FuBY6n0KLyg4xE5vwS9L4sCmw1gfkemNw==
+  dependencies:
+    "@backstage/backend-plugin-api" "^0.6.11"
+    "@backstage/catalog-client" "^1.6.0"
+    "@backstage/catalog-model" "^1.4.4"
+    "@backstage/errors" "^1.2.3"
+    "@backstage/plugin-catalog-common" "^1.0.21"
+    "@backstage/plugin-permission-common" "^0.7.12"
+    "@backstage/plugin-permission-node" "^0.7.22"
+    "@backstage/types" "^1.1.1"
+
+"@backstage/plugin-catalog-node@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.7.1.tgz#2e7805ce31daba56c734aed41c72d5f0f4d0c50f"
   integrity sha512-vbVLqccBiA9wWKSUYPJmpYowhIXOSxOpih0eC2OA+ddT0FFzhX3A7FuBY6n0KLyg4xE5vwS9L4sCmw1gfkemNw==
@@ -4495,29 +4551,48 @@
     uuid "^8.3.2"
     winston "^3.2.1"
 
-"@backstage/plugin-search-backend-module-techdocs@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-techdocs/-/plugin-search-backend-module-techdocs-0.1.14.tgz#702c24e830f50addeb316af195164fa8f2a1b0a8"
-  integrity sha512-JXf3PeD6q/nVuwIXBePTWk4ZZkLEPmK3sVS4N5ZKmjGPN3hcW3B3Up4fcXRDuYPS84kQ72kpBH4/NLwXYJXLhg==
+"@backstage/plugin-search-backend-module-techdocs@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-techdocs/-/plugin-search-backend-module-techdocs-0.1.15.tgz#496d511e178e9124a2e02b6b15bbdc410a179c0d"
+  integrity sha512-4H4TSSCU3u0dRp7lOCI+ULfV4b7bczftzBq/O8vjlIWpU5KgvpuvNoldZ9FkEfmjFMdthpmcaWknDoCNYuVRxw==
   dependencies:
-    "@backstage/backend-common" "^0.21.0"
-    "@backstage/backend-plugin-api" "^0.6.10"
-    "@backstage/backend-tasks" "^0.5.15"
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
+    "@backstage/backend-tasks" "^0.5.16"
     "@backstage/catalog-client" "^1.6.0"
     "@backstage/catalog-model" "^1.4.4"
     "@backstage/config" "^1.1.1"
     "@backstage/plugin-catalog-common" "^1.0.21"
-    "@backstage/plugin-catalog-node" "^1.7.0"
+    "@backstage/plugin-catalog-node" "^1.7.1"
     "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-search-backend-node" "^1.2.14"
+    "@backstage/plugin-search-backend-node" "^1.2.15"
     "@backstage/plugin-search-common" "^1.2.10"
-    "@backstage/plugin-techdocs-node" "^1.11.2"
+    "@backstage/plugin-techdocs-node" "^1.11.3"
     lodash "^4.17.21"
     node-fetch "^2.6.7"
     p-limit "^3.1.0"
     winston "^3.2.1"
 
 "@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.2.14", "@backstage/plugin-search-backend-node@^1.2.15":
+  version "1.2.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.15.tgz#c9228c948e7b1db1a95e06e7b4442d8c4fd64d3d"
+  integrity sha512-92D+oMa93xF7oZXEQ32/7oV79Hzs+9pTN1KCgrhaD34vdxfv9IYnJwr5M1DZaDHj9/WnjZsUYY3KnHQkwOCLDg==
+  dependencies:
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
+    "@backstage/backend-tasks" "^0.5.16"
+    "@backstage/config" "^1.1.1"
+    "@backstage/errors" "^1.2.3"
+    "@backstage/plugin-permission-common" "^0.7.12"
+    "@backstage/plugin-search-common" "^1.2.10"
+    "@types/lunr" "^2.3.3"
+    lodash "^4.17.21"
+    lunr "^2.3.9"
+    ndjson "^2.0.0"
+    uuid "^8.3.2"
+    winston "^3.2.1"
+
+"@backstage/plugin-search-backend-node@^1.2.15":
   version "1.2.15"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.2.15.tgz#c9228c948e7b1db1a95e06e7b4442d8c4fd64d3d"
   integrity sha512-92D+oMa93xF7oZXEQ32/7oV79Hzs+9pTN1KCgrhaD34vdxfv9IYnJwr5M1DZaDHj9/WnjZsUYY3KnHQkwOCLDg==
@@ -4670,12 +4745,12 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-techdocs-backend@^1.6.1":
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-backend/-/plugin-techdocs-backend-1.9.3.tgz#cbae21d45e1ab8919d374e0ba70edf4b5c065dd3"
-  integrity sha512-JEyTVKpFAUXHpE7QzNr+ToKQR/0smZa+FspIPxykr9q+hGa4DTH/vfkQm3p0nbbYy7SBPyrY6lqeYiEjwfZKLQ==
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-backend/-/plugin-techdocs-backend-1.9.4.tgz#e88a70e07aa9d5c762b1688c66806a400aa391b1"
+  integrity sha512-+kW4qu2u14GndRZ8zEnpXpa5wbxh6Q+d9qVCilY06A8ZdGet4NRIrQ85fsOvRACDf6QiZShYZSAHfYwO8X+amQ==
   dependencies:
-    "@backstage/backend-common" "^0.21.0"
-    "@backstage/backend-plugin-api" "^0.6.10"
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
     "@backstage/catalog-client" "^1.6.0"
     "@backstage/catalog-model" "^1.4.4"
     "@backstage/config" "^1.1.1"
@@ -4683,8 +4758,8 @@
     "@backstage/integration" "^1.9.0"
     "@backstage/plugin-catalog-common" "^1.0.21"
     "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-search-backend-module-techdocs" "^0.1.14"
-    "@backstage/plugin-techdocs-node" "^1.11.2"
+    "@backstage/plugin-search-backend-module-techdocs" "^0.1.15"
+    "@backstage/plugin-techdocs-node" "^1.11.3"
     "@types/express" "^4.17.6"
     dockerode "^4.0.0"
     express "^4.17.1"
@@ -4712,10 +4787,10 @@
     git-url-parse "^14.0.0"
     photoswipe "^5.3.7"
 
-"@backstage/plugin-techdocs-node@^1.11.2":
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-node/-/plugin-techdocs-node-1.11.2.tgz#41400b5ade2d138c281bec2bd691f205a7350c30"
-  integrity sha512-lluzKyODxDnBGfBrzJUaod8yxeo4DBqfb1KCc6z+7b9n0ngfP5HIsgXNXSWFEj8B5qicctv6BvQ5nlQQLr9M0A==
+"@backstage/plugin-techdocs-node@^1.11.3":
+  version "1.11.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-node/-/plugin-techdocs-node-1.11.3.tgz#edaa690c5b1e1d00549cbad0b3125cbdebe20732"
+  integrity sha512-r0nOhWNzxLsiSNYjdeq8iB0Nzmt6IUr21G8y/oY9uESPS+9U8cHzcESNIbd4+yNqwAG/nagNdQ0cBzrkmy12xw==
   dependencies:
     "@aws-sdk/client-s3" "^3.350.0"
     "@aws-sdk/credential-providers" "^3.350.0"
@@ -4723,8 +4798,8 @@
     "@aws-sdk/types" "^3.347.0"
     "@azure/identity" "^4.0.0"
     "@azure/storage-blob" "^12.5.0"
-    "@backstage/backend-common" "^0.21.0"
-    "@backstage/backend-plugin-api" "^0.6.10"
+    "@backstage/backend-common" "^0.21.1"
+    "@backstage/backend-plugin-api" "^0.6.11"
     "@backstage/catalog-model" "^1.4.4"
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
