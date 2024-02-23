@@ -2860,7 +2860,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/backend-dev-utils/-/backend-dev-utils-0.1.4.tgz#65d204939c49b5df6a2148e8ad4dc718ccd1df07"
   integrity sha512-5YgAPz4CRtnqdaUlYCHwGmXvpkGQ1jaUMoDtiQ81WDxQrf+0iYZCwS4ftVyQmB0Ga6BaGOUf6GG/OuFA56Y5mA==
 
-"@backstage/backend-openapi-utils@^0.1.4", "@backstage/backend-openapi-utils@^0.1.5":
+"@backstage/backend-openapi-utils@^0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@backstage/backend-openapi-utils/-/backend-openapi-utils-0.1.5.tgz#b2be5d5b7cedacbd804c68a08e3b0e69dcc1efde"
   integrity sha512-Giv2q1N+0VbzrBe1f9af/8mJpAYj2hGsV7c8TEjH0nvp2Uryod/fgKozQcLQRrafctNgNOzJ5jO2GnGau57f2A==
@@ -4696,20 +4696,20 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-todo-backend@^0.3.1":
-  version "0.3.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.9.tgz#6aa4266a739cbe505a82b09a133ea9d17933f1c8"
-  integrity sha512-WaQwVyIES9C8lCbmKxsCxIraYrB9FuHu5fgIIBvK1qrtgMUAHANdvOuYcEH5mUjzNzpsxMtuBW4uNlEgKOinUg==
+  version "0.3.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.10.tgz#4941a45899bb98d2cf02176696b2453f8f797e1f"
+  integrity sha512-06jzrhHYSMLUBkRZ4kjy9y8leCxt2tMdzJ+nCiI3lSlrCpO2AVZEFoVygdwIVjGQmxHF3pAKa2KjrTW5kjpbMg==
   dependencies:
-    "@backstage/backend-common" "^0.21.1"
-    "@backstage/backend-openapi-utils" "^0.1.4"
-    "@backstage/backend-plugin-api" "^0.6.11"
+    "@backstage/backend-common" "^0.21.2"
+    "@backstage/backend-openapi-utils" "^0.1.5"
+    "@backstage/backend-plugin-api" "^0.6.12"
     "@backstage/catalog-client" "^1.6.0"
     "@backstage/catalog-model" "^1.4.4"
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
     "@backstage/integration" "^1.9.0"
-    "@backstage/plugin-catalog-node" "^1.7.1"
-    "@backstage/repo-tools" "^0.6.1"
+    "@backstage/plugin-catalog-node" "^1.7.2"
+    "@backstage/repo-tools" "^0.6.2"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     leasot "^12.0.0"
@@ -4757,7 +4757,7 @@
   dependencies:
     cross-fetch "^4.0.0"
 
-"@backstage/repo-tools@^0.6.1", "@backstage/repo-tools@^0.6.2":
+"@backstage/repo-tools@^0.6.2":
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/@backstage/repo-tools/-/repo-tools-0.6.2.tgz#31446e7613b3dd21ffc77fcf299c2a215f080ff0"
   integrity sha512-voJR4xR51Io55LnShqAgI5NtQ9l9sVOsK9ZWc564ZQCuWv8dbAbAN0wEPutq2FpTsqVhvyDwK1fK/QyiW1J0QQ==
