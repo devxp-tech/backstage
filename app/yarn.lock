@@ -8060,23 +8060,23 @@
     recharts "^1.8.5"
 
 "@roadiehq/backstage-plugin-security-insights@^2.3.2":
-  version "2.3.11"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-2.3.11.tgz#0bb3e743fdb727e6e2e7c10610e0c3411eaca6e5"
-  integrity sha512-LWGiNk9Ce3+M1QlUIDhMZGOTi4K3u8OIrn18bfktxP8k0qjC8eFKNcYv7cR+9qub4UT3bIyAiNVw5KNsE0I5Sg==
+  version "2.3.14"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-2.3.14.tgz#fc6aa2d22a7124be6308c9fce2a4eabe5fd01f3c"
+  integrity sha512-Xr/NdEiiWPQ3y+7oHZiOniy+4O5QO/Bk53ZjKsFEBLJZaB1xGMl+tMbMDXtnfVcfjOLRCDZLAbYrX6u4xr5XUg==
   dependencies:
     "@backstage/catalog-model" "^1.4.3"
-    "@backstage/core-components" "^0.13.8"
-    "@backstage/core-plugin-api" "^1.8.0"
-    "@backstage/plugin-catalog-react" "^1.9.1"
-    "@backstage/theme" "^0.4.4"
-    "@material-ui/core" "^4.11.0"
+    "@backstage/core-components" "^0.14.0"
+    "@backstage/core-plugin-api" "^1.8.1"
+    "@backstage/plugin-catalog-react" "^1.9.2"
+    "@backstage/theme" "^0.5.0"
+    "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.45"
     "@octokit/graphql" "^5.0.0"
     "@octokit/rest" "^19.0.3"
     cross-fetch "^3.1.4"
     history "^5.0.0"
-    luxon "^3.0.1"
+    luxon "^3.0.0"
     moment "^2.27.0"
     react-minimal-pie-chart "^8.2.0"
     react-use "^17.2.4"
