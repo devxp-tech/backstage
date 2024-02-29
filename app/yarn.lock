@@ -3270,7 +3270,7 @@
     "@backstage/config" "^1.1.1"
     "@backstage/errors" "^1.2.3"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.22", "@backstage/integration-react@^1.1.24":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.24":
   version "1.1.24"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.24.tgz#2ae41ca6ad73cf5064bbe988229f0c942ba39198"
   integrity sha512-C7aIYFCU14drZx9k0knDZeY4uq4oN5gbI4OVYJtQFVdZlgWwUuycxtw8ar9XAEzIl+UgPcpIpIWsbvOLBb8Qaw==
@@ -7932,16 +7932,16 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^2.3.10":
-  version "2.3.26"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-2.3.26.tgz#0b480d6d247d8ee46058483f67e6aca276621190"
-  integrity sha512-M+DFt2Zf/CNamxN38+zJvMmPpwbG1EUSqQ5p54Ongy/TMXdq9R5hcVTmI1XWTxlB7bxYLzhqIqre20F2uIaHgg==
+  version "2.3.27"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-2.3.27.tgz#edf6f8a235eef1017483800a94502bf9a16b662e"
+  integrity sha512-DYBiXpyU1wqypObAi7yb02C4r9Y8Nd1nU15UD3OzRmOxgH63mK2qS2ym567hG+CI6CeLxVLXN+5256nRn6jJGg==
   dependencies:
-    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/catalog-model" "^1.4.4"
     "@backstage/core-components" "^0.14.0"
-    "@backstage/core-plugin-api" "^1.8.1"
-    "@backstage/integration-react" "^1.1.22"
-    "@backstage/plugin-catalog-react" "^1.9.2"
-    "@backstage/theme" "^0.5.0"
+    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/integration-react" "^1.1.24"
+    "@backstage/plugin-catalog-react" "^1.10.0"
+    "@backstage/theme" "^0.5.1"
     "@date-io/core" "2.10.7"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
