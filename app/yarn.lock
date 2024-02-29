@@ -3810,7 +3810,7 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@backstage/plugin-home-react@^0.1.6":
+"@backstage/plugin-home-react@^0.1.8":
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-home-react/-/plugin-home-react-0.1.8.tgz#0667e246db12232b2cbcb57b6d46f7b81b74c2a1"
   integrity sha512-IQ8goSKFvkzdFwQdT0KKt272LTSwyS7xWC0t7zP6AknK94NontF/bSngehBT8LaEGNuehROcUi9mqXLkZIufjw==
@@ -7954,15 +7954,15 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^2.5.8":
-  version "2.5.23"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.5.23.tgz#048eaa9783f710aed94da71583be20586811ef9c"
-  integrity sha512-HYs2wp8SfprN9BOvQ27ygJO5eV2WP8LsHVAGvwNz84aBLVH7VrrDtjArzBz7eVc8Bo/YfBplUUdYoLjdtfyRgQ==
+  version "2.5.24"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-2.5.24.tgz#a6044d0a6f98e7d9749f5ebc012178b83c69d1ff"
+  integrity sha512-OPE8B+a83QCYXkOuojLhefkZaFcb4mgFDoaVtx936ZQq6BFsphWYe43gGaX8aSQd4/v82j/JW6htpaIH1v1Oyw==
   dependencies:
-    "@backstage/catalog-model" "^1.4.3"
+    "@backstage/catalog-model" "^1.4.4"
     "@backstage/core-components" "^0.14.0"
-    "@backstage/core-plugin-api" "^1.8.1"
-    "@backstage/plugin-catalog-react" "^1.9.2"
-    "@backstage/plugin-home-react" "^0.1.6"
+    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/plugin-catalog-react" "^1.10.0"
+    "@backstage/plugin-home-react" "^0.1.8"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.60"
