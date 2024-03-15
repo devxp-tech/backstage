@@ -1,0 +1,487 @@
+repo_name: devxp-tech/backstage
+report_id: 7ec31176c0708f2a7d99fca8952d6363
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T10:25:36+00:00'
+requested_by: diegoluisi
+provider: github
+branch: main
+detected_tools_count: 36
+tools:
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/devxp-tech/backstage
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/devxp-tech/backstage
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-26 18:06:44.000000000 Z
+- name: Material-UI
+  description: Material UI is a library of React UI components that implements Google's
+    Material Design.
+  website_url: https://github.com/mui/material-ui
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/packages/app/package.json
+  detection_source: app/packages/app/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  version: 20.0.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2023-07-21 20:22:53.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/packages/backend/package.json
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: Backstage.io
+  description: An open platform for building developer portals
+  website_url: https://backstage.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservice Catalog
+  image_url: https://img.stackshare.io/service/25383/default_8c8908fec7692e3304706fa3ca1d6bac174b6885.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Diego Luisi
+  last_updated_on: 2023-12-27 21:37:12.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/devxp-tech/backstage
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/devxp-tech/backstage
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/.github/workflows/auto-assign.yaml
+  detection_source: ".github/workflows/auto-assign.yaml"
+  last_updated_by: Diego Luisi
+  last_updated_on: 2023-05-30 09:31:08.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/.yarnrc
+  detection_source: app/.yarnrc
+  last_updated_by: Diego Luisi
+  last_updated_on: 2024-01-03 15:06:16.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/packages/backend/package.json
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: Lerna
+  description: A tool for managing JavaScript projects
+  website_url: https://lerna.js.org/
+  version: 7.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/devxp-tech/backstage
+  detection_source: Repo Metadata
+- name: Winston
+  description: a multi-transport async logging library for node.js
+  website_url: https://github.com/winstonjs/winston
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6668/9682013.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/packages/backend/package.json
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: "@material-ui/core"
+  description: React components that implement Google's Material Design
+  package_url: https://www.npmjs.com/@material-ui/core
+  version: 4.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: "@material-ui/icons"
+  description: Material Design Svg Icons converted to Material-UI React components
+  package_url: https://www.npmjs.com/@material-ui/icons
+  version: 4.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 12.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: "@types/express"
+  description: TypeScript definitions for Express
+  package_url: https://www.npmjs.com/@types/express
+  version: 4.17.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.74
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.25
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: dockerode
+  description: Docker Remote API module
+  package_url: https://www.npmjs.com/dockerode
+  version: 3.3.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17460/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-26 18:06:44.000000000 Z
+- name: history
+  description: Manage session history with JavaScript
+  package_url: https://www.npmjs.com/history
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16209/default_dc80ff0a17bac19253430a4f0f586714841116db.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: node-gyp
+  description: Node.js native addon build tool
+  package_url: https://www.npmjs.com/node-gyp
+  version: 9.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16669/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 6.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/app/package.json
+  last_updated_by: Gritzko Daniel Kleiner
+  last_updated_on: 2023-12-26 19:52:09.000000000 Z
+- name: winston
+  description: A logger for just about everything
+  package_url: https://www.npmjs.com/winston
+  version: 3.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16003/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/devxp-tech/backstage/blob/main/app/yarn.lock
+  detection_source: app/packages/backend/package.json
+  last_updated_by: Diego Luisi
+  last_updated_on: 2022-05-02 14:26:57.000000000 Z
