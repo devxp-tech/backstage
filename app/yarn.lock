@@ -3174,14 +3174,14 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-compat-api@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.2.0.tgz#7bd18842ac10272f22134ed74bc8468a4ee3befe"
-  integrity sha512-ZU1wQUyYVnNbhMvbdVfghJonGFTjf+troFZYMzFekJEPT9BJyuk4gJtywE/xhc1HgMC8JPfuAh6idFgy8i0v8w==
+"@backstage/core-compat-api@^0.2.0", "@backstage/core-compat-api@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.2.1.tgz#89059b8b1df1550d12c1875b13cc6bb0510c71f3"
+  integrity sha512-6ZAVKk0d2t43D0IBh7BWkJQpB1c+pxzGPAXkWDpQsNjBFoGDSER64G23P1C+uPVCMU8oBH+k4cWx5+6RosA0HQ==
   dependencies:
-    "@backstage/core-app-api" "^1.12.0"
-    "@backstage/core-plugin-api" "^1.9.0"
-    "@backstage/frontend-plugin-api" "^0.6.0"
+    "@backstage/core-app-api" "^1.12.1"
+    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/frontend-plugin-api" "^0.6.1"
     "@backstage/version-bridge" "^1.0.7"
     "@types/react" "^16.13.1 || ^17.0.0"
 
@@ -3750,17 +3750,17 @@
     "@backstage/plugin-search-common" "^1.2.11"
 
 "@backstage/plugin-catalog-graph@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.0.tgz#b06fefb2dabe7f2024e59fa7f65570a8c4cab730"
-  integrity sha512-ZEKdE15KnZonllrdQxH64oGGKcUco0twzyezKg2oYvGdPmIdDW4Av2fxzYtDVtJoG78Yci/im/RWnj1HmeUWbw==
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.1.tgz#9216c426e1f3ec2b83ad88aa06130093c51234f5"
+  integrity sha512-YXNfPUfm3E/TeWWsT1FuVc2OYuBSmGvqZK0Atpcb7LqisU7/XNY/xMOuetUGdg1wA6Fv9cBhZ95gT2XAR0MUKQ==
   dependencies:
-    "@backstage/catalog-client" "^1.6.0"
-    "@backstage/catalog-model" "^1.4.4"
-    "@backstage/core-compat-api" "^0.2.0"
-    "@backstage/core-components" "^0.14.0"
-    "@backstage/core-plugin-api" "^1.9.0"
-    "@backstage/frontend-plugin-api" "^0.6.0"
-    "@backstage/plugin-catalog-react" "^1.10.0"
+    "@backstage/catalog-client" "^1.6.1"
+    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/core-compat-api" "^0.2.1"
+    "@backstage/core-components" "^0.14.1"
+    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/frontend-plugin-api" "^0.6.1"
+    "@backstage/plugin-catalog-react" "^1.11.0"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
