@@ -3104,7 +3104,7 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.12.0", "@backstage/core-app-api@^1.12.1", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.12.1", "@backstage/core-app-api@^1.7.0":
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.1.tgz#10ba4f1d4994c48bcffaf4374e6c20c8fd44eb11"
   integrity sha512-Qaj+f5khZf3tAXwXnjaka727sqFSy5qAhCmfTZuS7cSjW7ujBkrVEECOBWIjSj+CIjcCyHFw2ObWVRHB+rFVGQ==
@@ -4017,7 +4017,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.20", "@backstage/plugin-permission-react@^0.4.21":
+"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.21":
   version "0.4.21"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.21.tgz#bbdc098fa8eee7d99093b811884528aefc1b1d2c"
   integrity sha512-bW5jxhIGbI7Iijt7DK8P8Kh9PhE18v0YdkDIUkX0OkpT8mCIgkP2IP7TuRfTU+HJhOcJp5YDdCbnDP/8uCyD1Q==
@@ -4766,16 +4766,16 @@
     yaml-diff-patch "^2.0.0"
 
 "@backstage/test-utils@^1.3.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.0.tgz#567b10ea5b57013507306267c4b1b222a830721f"
-  integrity sha512-camk3gxGX0Y7FiaCNLMucgA7Sq87EjFsracqE3/GHrNMU1EscMxSfC+CEntNbwqTvujS5eyMWY/efmVhLNxdLA==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.1.tgz#8e1cd78560639c8775f0247fc68991eaf45d0419"
+  integrity sha512-L5p3ORl+ZfViAKmp7IL1zpsid62NkQq/8fHItOvQ7Rb7nijdgKh+Ykm0xh/zWpSD73M9o10SeF9MDtwS9hjnTQ==
   dependencies:
-    "@backstage/config" "^1.1.1"
-    "@backstage/core-app-api" "^1.12.0"
-    "@backstage/core-plugin-api" "^1.9.0"
-    "@backstage/plugin-permission-common" "^0.7.12"
-    "@backstage/plugin-permission-react" "^0.4.20"
-    "@backstage/theme" "^0.5.1"
+    "@backstage/config" "^1.2.0"
+    "@backstage/core-app-api" "^1.12.1"
+    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/plugin-permission-common" "^0.7.13"
+    "@backstage/plugin-permission-react" "^0.4.21"
+    "@backstage/theme" "^0.5.2"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
