@@ -3169,14 +3169,14 @@
     zod "~3.18.0"
 
 "@backstage/core-components@^0.14.0":
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.14.0.tgz#f9208617f569badd4dbf3bf270179e1d6dd41e26"
-  integrity sha512-uIoQJFOghQX9kNk/RjWKYzqc/euq6p6HLYU01ptrCwY81dIChXUU/XulxuT0l1LQq8oAzQPbg6v9l4nU7EJ1yg==
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.14.1.tgz#46bc175fd4bd6e4e4cfe45c009c7d186e4c1b984"
+  integrity sha512-RHdynFoD1Te3BUU8V99DTwR9BSNVQV875JDjLMmxqIkjD3NttCP3CNCdvwk2WDRLU+1FUzc8WfgyOz7jvOaRsQ==
   dependencies:
-    "@backstage/config" "^1.1.1"
-    "@backstage/core-plugin-api" "^1.9.0"
-    "@backstage/errors" "^1.2.3"
-    "@backstage/theme" "^0.5.1"
+    "@backstage/config" "^1.2.0"
+    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/theme" "^0.5.2"
     "@backstage/version-bridge" "^1.0.7"
     "@date-io/core" "^1.3.13"
     "@material-table/core" "^3.1.0"
@@ -3201,7 +3201,7 @@
     rc-progress "3.5.1"
     react-helmet "6.1.0"
     react-hook-form "^7.12.2"
-    react-idle-timer "5.6.2"
+    react-idle-timer "5.7.2"
     react-markdown "^8.0.0"
     react-sparklines "^1.7.0"
     react-syntax-highlighter "^15.4.5"
@@ -3225,10 +3225,10 @@
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     history "^5.0.0"
 
-"@backstage/errors@^1.1.5", "@backstage/errors@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.3.tgz#6418d3ece63b13d14e32d44ec4db0f8866b0b1c9"
-  integrity sha512-3YtYRKLNeRaSCzKSikNFoemesacDoEY0UwZAq7lnzCCpiCpSCfg7UA4y7wfjadFFU9Pd6nckUg2BzOk9keL15w==
+"@backstage/errors@^1.1.5", "@backstage/errors@^1.2.3", "@backstage/errors@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.4.tgz#2ba79c6308e87b0de99edf499e1c82477d3d6e8a"
+  integrity sha512-JBhKn9KwZTzp/AaOC0vBncKCM1vI9Z8rKKyr9vj3wt3SSgCnDPxNwVz7SlXa2Rc9TOQq0Yk3olkmQE9U+S5uWg==
   dependencies:
     "@backstage/types" "^1.1.1"
     serialize-error "^8.0.1"
@@ -4782,10 +4782,10 @@
   dependencies:
     "@material-ui/core" "^4.12.2"
 
-"@backstage/theme@^0.5.0", "@backstage/theme@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.1.tgz#3134874f464990a043127c3fdbc634ea770a911b"
-  integrity sha512-dVX4xVx9TkNUkubgZqmRjIFTjJeOPRVM9U1aG8S2TRVSUzv9pNK0jDHDN2kyfdSUb9prrC9iEi3+g2lvCwjgKQ==
+"@backstage/theme@^0.5.0", "@backstage/theme@^0.5.1", "@backstage/theme@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.2.tgz#7908830507a472fca8d6fa8b76362bdb08797bb7"
+  integrity sha512-9J+mx254+P0lQ0s//sGcdpoUVsr+WpeDYbqnGHIJxmjFGCCg2h7+255JlA+SE3AHCbpr8CYWI7ZseyzF0r9+BQ==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
@@ -22275,10 +22275,10 @@ react-hook-form@^7.12.2:
   resolved "https://registry.yarnpkg.com/react-hook-form/-/react-hook-form-7.44.2.tgz#220186d3e380b3d6b15083b094a6ca77d3797a8b"
   integrity sha512-IyihmIbCwzDI/iqlecTRa7+4BCnzNx40upSlGvIU7qwENhTf6APatm4bmL9ANtWKPYlD67SIlxfls7GwCUe+Lg==
 
-react-idle-timer@5.6.2:
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/react-idle-timer/-/react-idle-timer-5.6.2.tgz#0342b381ca26ea46e8232dbdc7f2b948bc4ddb0d"
-  integrity sha512-X7zjDv7duCopQ4v3X2Gun8QunvYplPWkvW2y7suDSREu1vQRQ0mr1ESv325QoJuvSIE5QCSbLaJlrbbooNaUNg==
+react-idle-timer@5.7.2:
+  version "5.7.2"
+  resolved "https://registry.yarnpkg.com/react-idle-timer/-/react-idle-timer-5.7.2.tgz#f506db28a86645dd1b87987116501703e512142b"
+  integrity sha512-+BaPfc7XEUU5JFkwZCx6fO1bLVK+RBlFH+iY4X34urvIzZiZINP6v2orePx3E6pAztJGE7t4DzvL7if2SL/0GQ==
 
 react-immutable-proptypes@2.2.0:
   version "2.2.0"
