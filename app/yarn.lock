@@ -4498,24 +4498,24 @@
     winston "^3.2.1"
     yn "^5.0.0"
 
-"@backstage/plugin-sonarqube-react@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.13.tgz#5091ee444cbe3f85bef6d94dff7d45df5353e1d2"
-  integrity sha512-GMMP9JQAsnrVgJnJlCoq3LbaJlRGz4YnW2BG0PNZ3v77jOkq7dluUbGtSwroL4iyqsjHP/Cb1XtAHkGZkVMGew==
+"@backstage/plugin-sonarqube-react@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.14.tgz#8de1561769b93e7b8907a0086bf79569a173b0f5"
+  integrity sha512-8W0ta6s02USfZcZUGW2v1ujwNysgtBY213nzcA7k3ans2toMatztveH8uteMkKWsaETryIaV56FWOeGl+GfYag==
   dependencies:
-    "@backstage/catalog-model" "^1.4.4"
-    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/core-plugin-api" "^1.9.1"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.12"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.12.tgz#8755d500a1aec6084a30ba6a9fcb5d58303149c7"
-  integrity sha512-jWHg6Fvsy523i7hgIP0pRV5TTPIHJMWCkh711kXVEYPeSFDQCIrAa9SaQwSCAhlVM9WVuPiU6upr0SysoRIw+w==
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.13.tgz#023308312d12173ba6fbd424f2f3dffbf2062b94"
+  integrity sha512-JFNomGhGsJCQpzxExhMlFiGEBeRVFhWTp9UfnzwviPIDh9VYz4+0jxK5T2FJImT+tBPCyndwAr0qvX91gOE1CQ==
   dependencies:
-    "@backstage/catalog-model" "^1.4.4"
-    "@backstage/core-components" "^0.14.0"
-    "@backstage/core-plugin-api" "^1.9.0"
-    "@backstage/plugin-catalog-react" "^1.10.0"
-    "@backstage/plugin-sonarqube-react" "^0.1.13"
+    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/core-components" "^0.14.1"
+    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/plugin-catalog-react" "^1.11.0"
+    "@backstage/plugin-sonarqube-react" "^0.1.14"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/styles" "^4.10.0"
