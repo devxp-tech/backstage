@@ -2746,15 +2746,15 @@
     to-fast-properties "^2.0.0"
 
 "@backstage/app-defaults@^1.3.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.0.tgz#772e34818b2bfe47423d01f4060ceb11035e257c"
-  integrity sha512-NiFPfs03sfWHYv5gqDFPuDdaht9vbuQ3y2n3EoFxbcxuUjUoFv8VJ9mQXlEv7t0v25p3QnVOxPZEE25xamhdFw==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.1.tgz#430d65dd7bb2a9254eb62f6a989844972f8ad63f"
+  integrity sha512-XYA9jwrlie88otBoxqflPRR6u5jvi2PPp7QIGGw/vPkf+6LtrWzEcl/x6Unr0/bA8GmXdvv0k68BUcJlUAjbCA==
   dependencies:
-    "@backstage/core-app-api" "^1.12.0"
-    "@backstage/core-components" "^0.14.0"
-    "@backstage/core-plugin-api" "^1.9.0"
-    "@backstage/plugin-permission-react" "^0.4.20"
-    "@backstage/theme" "^0.5.1"
+    "@backstage/core-app-api" "^1.12.1"
+    "@backstage/core-components" "^0.14.1"
+    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/plugin-permission-react" "^0.4.21"
+    "@backstage/theme" "^0.5.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
@@ -3095,13 +3095,21 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.12.0", "@backstage/core-app-api@^1.7.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.0.tgz#9e010a938fbfe31a581581da9e842f0e7c248f6c"
-  integrity sha512-tR/2OcRM7Wlx2cLD5rfcwWpU65A31fjxLAkATYp8i49IGL8rtpJe4udrmws4uppjj27Qc+1PgRzG4qb0UDvllg==
+"@backstage/config@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.2.0.tgz#6a4d93197d0586ee3a40f9e4877c5cfd76c128f3"
+  integrity sha512-tW8hNzDTClotYmpOrUrutymzZ0Zimx/WeU2+5tLv+ZI8ssRV64KGRe8hi7PuQz2lARVF1DxjwV//Bq2VjR5veA==
   dependencies:
-    "@backstage/config" "^1.1.1"
-    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/types" "^1.1.1"
+
+"@backstage/core-app-api@^1.12.0", "@backstage/core-app-api@^1.12.1", "@backstage/core-app-api@^1.7.0":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.1.tgz#10ba4f1d4994c48bcffaf4374e6c20c8fd44eb11"
+  integrity sha512-Qaj+f5khZf3tAXwXnjaka727sqFSy5qAhCmfTZuS7cSjW7ujBkrVEECOBWIjSj+CIjcCyHFw2ObWVRHB+rFVGQ==
+  dependencies:
+    "@backstage/config" "^1.2.0"
+    "@backstage/core-plugin-api" "^1.9.1"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.7"
     "@types/prop-types" "^15.7.3"
@@ -3226,6 +3234,14 @@
     history "^5.0.0"
 
 "@backstage/errors@^1.1.5", "@backstage/errors@^1.2.3", "@backstage/errors@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.4.tgz#2ba79c6308e87b0de99edf499e1c82477d3d6e8a"
+  integrity sha512-JBhKn9KwZTzp/AaOC0vBncKCM1vI9Z8rKKyr9vj3wt3SSgCnDPxNwVz7SlXa2Rc9TOQq0Yk3olkmQE9U+S5uWg==
+  dependencies:
+    "@backstage/types" "^1.1.1"
+    serialize-error "^8.0.1"
+
+"@backstage/errors@^1.2.4":
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.4.tgz#2ba79c6308e87b0de99edf499e1c82477d3d6e8a"
   integrity sha512-JBhKn9KwZTzp/AaOC0vBncKCM1vI9Z8rKKyr9vj3wt3SSgCnDPxNwVz7SlXa2Rc9TOQq0Yk3olkmQE9U+S5uWg==
@@ -3967,6 +3983,18 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-permission-common@^0.7.12", "@backstage/plugin-permission-common@^0.7.13", "@backstage/plugin-permission-common@^0.7.5":
+  version "0.7.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.7.13.tgz#ea8509d2a38063309b8726ee6be8b95e1f99e5b9"
+  integrity sha512-FGC6qrQc96SuovRCWQARDKss7TRenusMX9i0k0Devx/0+h2jM0TYYtuJ52jAFSAx9Db3BRRSlj9M5AQFgjoNmg==
+  dependencies:
+    "@backstage/config" "^1.2.0"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/types" "^1.1.1"
+    cross-fetch "^4.0.0"
+    uuid "^9.0.0"
+    zod "^3.22.4"
+
+"@backstage/plugin-permission-common@^0.7.13":
   version "0.7.13"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.7.13.tgz#ea8509d2a38063309b8726ee6be8b95e1f99e5b9"
   integrity sha512-FGC6qrQc96SuovRCWQARDKss7TRenusMX9i0k0Devx/0+h2jM0TYYtuJ52jAFSAx9Db3BRRSlj9M5AQFgjoNmg==
