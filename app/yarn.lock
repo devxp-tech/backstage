@@ -3249,6 +3249,14 @@
     "@backstage/types" "^1.1.1"
     serialize-error "^8.0.1"
 
+"@backstage/errors@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.4.tgz#2ba79c6308e87b0de99edf499e1c82477d3d6e8a"
+  integrity sha512-JBhKn9KwZTzp/AaOC0vBncKCM1vI9Z8rKKyr9vj3wt3SSgCnDPxNwVz7SlXa2Rc9TOQq0Yk3olkmQE9U+S5uWg==
+  dependencies:
+    "@backstage/types" "^1.1.1"
+    serialize-error "^8.0.1"
+
 "@backstage/eslint-plugin@^0.1.5":
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.5.tgz#0c34170b3b5be356500e26c3617a87c3b6608408"
@@ -4636,14 +4644,14 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-react@^1.1.16", "@backstage/plugin-techdocs-react@^1.1.5":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.1.16.tgz#e71757282b450708184058f2e3c7124c3909a454"
-  integrity sha512-AQd373U13riDaWbPg+EiyIqNh4T00tM2OviDPmY0DjV2TCNOGczH/WiNt3y/Q56HYBvN02vbmGt1RnjBlvkQKw==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.0.tgz#93f61ac0337a6b645935835ee8f235a5c3d81e66"
+  integrity sha512-xyf1o6WBZc/3QbRF5BWBs7W91mI1v4Q8tVL5y3Z2EPvnYG8tcvnE3ElxNsllAyxek9IuhwxSFvazLNVeipMIsQ==
   dependencies:
-    "@backstage/catalog-model" "^1.4.4"
-    "@backstage/config" "^1.1.1"
-    "@backstage/core-components" "^0.14.0"
-    "@backstage/core-plugin-api" "^1.9.0"
+    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/config" "^1.2.0"
+    "@backstage/core-components" "^0.14.1"
+    "@backstage/core-plugin-api" "^1.9.1"
     "@backstage/version-bridge" "^1.0.7"
     "@material-ui/core" "^4.12.2"
     "@material-ui/styles" "^4.11.0"
@@ -4811,6 +4819,15 @@
     "@material-ui/core" "^4.12.2"
 
 "@backstage/theme@^0.5.0", "@backstage/theme@^0.5.1", "@backstage/theme@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.2.tgz#7908830507a472fca8d6fa8b76362bdb08797bb7"
+  integrity sha512-9J+mx254+P0lQ0s//sGcdpoUVsr+WpeDYbqnGHIJxmjFGCCg2h7+255JlA+SE3AHCbpr8CYWI7ZseyzF0r9+BQ==
+  dependencies:
+    "@emotion/react" "^11.10.5"
+    "@emotion/styled" "^11.10.5"
+    "@mui/material" "^5.12.2"
+
+"@backstage/theme@^0.5.2":
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.2.tgz#7908830507a472fca8d6fa8b76362bdb08797bb7"
   integrity sha512-9J+mx254+P0lQ0s//sGcdpoUVsr+WpeDYbqnGHIJxmjFGCCg2h7+255JlA+SE3AHCbpr8CYWI7ZseyzF0r9+BQ==
