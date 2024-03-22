@@ -3641,10 +3641,10 @@
     react-use "^17.2.4"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-node@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.8.0.tgz#b464cdfda921c04b1c16719185c519539c410f82"
-  integrity sha512-jQX/O/9gEQ57MlYzInTsCF73UfYYRJtzWogdZBvvQhSi6y0iXi4quQ6KCyBJDAz7R15p7IFFmnAhnQSdahc6YA==
+"@backstage/plugin-catalog-node@^1.8.0", "@backstage/plugin-catalog-node@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.9.0.tgz#e54e53327e40d5db749a9be64d6afca2e959b110"
+  integrity sha512-+9pxhGhOZYScLdjthCA/MpfkrykQ2nkbL2F/28BOp1x8TfobooRbnpY77ORNlAPuOFzvwDOjdOu/bnsL3DLCmQ==
   dependencies:
     "@backstage/backend-plugin-api" "^0.6.14"
     "@backstage/catalog-client" "^1.6.1"
@@ -3758,9 +3758,9 @@
     "@types/react" "^16.13.1 || ^17.0.0"
 
 "@backstage/plugin-kubernetes-backend@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.16.0.tgz#13a35a1742887da6fa55e1b23d200546be1507c1"
-  integrity sha512-9f+X64c/m9G1fit6xyLU7BdU+utBtrbgRPed1gJyPx3eahSpuELxomIA5yA5S9g6Wbc9NDQmttEpaIGgXG+O0w==
+  version "0.16.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.16.1.tgz#a98a79374515e8ee7eff4281e5fecffb4a71cf97"
+  integrity sha512-cW370XSKgSNIeb0FS4EFqHcQ5/wmMwo+IDiLWEaC9egCbwXz5pWlTXhTlVHE9kqMqE6UX39VGyDQ92eCZJImZg==
   dependencies:
     "@aws-crypto/sha256-js" "^5.0.0"
     "@aws-sdk/credential-providers" "^3.350.0"
@@ -3774,7 +3774,7 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/integration-aws-node" "^0.1.10"
     "@backstage/plugin-auth-node" "^0.4.9"
-    "@backstage/plugin-catalog-node" "^1.8.0"
+    "@backstage/plugin-catalog-node" "^1.9.0"
     "@backstage/plugin-kubernetes-common" "^0.7.5"
     "@backstage/plugin-kubernetes-node" "^0.1.8"
     "@backstage/plugin-permission-common" "^0.7.13"
