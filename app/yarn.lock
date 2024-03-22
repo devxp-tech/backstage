@@ -3655,6 +3655,20 @@
     "@backstage/plugin-permission-node" "^0.7.25"
     "@backstage/types" "^1.1.1"
 
+"@backstage/plugin-catalog-node@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.9.0.tgz#e54e53327e40d5db749a9be64d6afca2e959b110"
+  integrity sha512-+9pxhGhOZYScLdjthCA/MpfkrykQ2nkbL2F/28BOp1x8TfobooRbnpY77ORNlAPuOFzvwDOjdOu/bnsL3DLCmQ==
+  dependencies:
+    "@backstage/backend-plugin-api" "^0.6.14"
+    "@backstage/catalog-client" "^1.6.1"
+    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/plugin-catalog-common" "^1.0.22"
+    "@backstage/plugin-permission-common" "^0.7.13"
+    "@backstage/plugin-permission-node" "^0.7.25"
+    "@backstage/types" "^1.1.1"
+
 "@backstage/plugin-catalog-react@^1.10.0", "@backstage/plugin-catalog-react@^1.11.0", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.11.0.tgz#d0884d520de9185905349d4424a8ef96c17401f5"
@@ -4281,10 +4295,10 @@
     uuid "^9.0.0"
     winston "^3.2.1"
 
-"@backstage/plugin-search-backend-module-techdocs@^0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-techdocs/-/plugin-search-backend-module-techdocs-0.1.18.tgz#657129e49f2f490cc0b043de2fa93178f9d2c83a"
-  integrity sha512-suk8snq+eLqoPTdCNZw5VxjsrvZkJIjNTqJYf+kCPeMg92KH7Jr4rCAOsYp+GPEECkMV1xsb4+Qo2RSpaCouGQ==
+"@backstage/plugin-search-backend-module-techdocs@^0.1.19":
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-techdocs/-/plugin-search-backend-module-techdocs-0.1.19.tgz#0d45022aa88cdf5f493b693eea08d1fa6a03b350"
+  integrity sha512-P1L/pxrrxrxV0CZt+CQzB9mhe53YE2i/02MJAvGp8a2aJgrz0gaFyWP3TnDkXWDEwf6TpLHHcWaWASlLpa+LQg==
   dependencies:
     "@backstage/backend-common" "^0.21.4"
     "@backstage/backend-plugin-api" "^0.6.14"
@@ -4293,7 +4307,7 @@
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/config" "^1.2.0"
     "@backstage/plugin-catalog-common" "^1.0.22"
-    "@backstage/plugin-catalog-node" "^1.8.0"
+    "@backstage/plugin-catalog-node" "^1.9.0"
     "@backstage/plugin-permission-common" "^0.7.13"
     "@backstage/plugin-search-backend-node" "^1.2.18"
     "@backstage/plugin-search-common" "^1.2.11"
@@ -4455,9 +4469,9 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-techdocs-backend@^1.6.1":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-backend/-/plugin-techdocs-backend-1.10.0.tgz#f1b9aa7a21b0f02b35090a337f0bbe22afc9068a"
-  integrity sha512-js73nrQCewJ5wqJS1pmm2Q4kM2RstWrin5kbFPR3zQHdgTeqzFbmvKGE63jSli4HOgRd83MrOy+k/nElQbKPTA==
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-backend/-/plugin-techdocs-backend-1.10.1.tgz#b32b205c6a281d14b4b44ba584173af97271c6a1"
+  integrity sha512-RHhDmaa/t9bih5RQxkP497LOchGXlneczhukE4lb4WkK+JV7sezfuYCjRSPxM4ZKkK4ohfIsVyAX1hJ4OVH3wg==
   dependencies:
     "@backstage/backend-common" "^0.21.4"
     "@backstage/backend-plugin-api" "^0.6.14"
@@ -4468,7 +4482,7 @@
     "@backstage/integration" "^1.9.1"
     "@backstage/plugin-catalog-common" "^1.0.22"
     "@backstage/plugin-permission-common" "^0.7.13"
-    "@backstage/plugin-search-backend-module-techdocs" "^0.1.18"
+    "@backstage/plugin-search-backend-module-techdocs" "^0.1.19"
     "@backstage/plugin-techdocs-node" "^1.12.0"
     "@types/express" "^4.17.6"
     dockerode "^4.0.0"
