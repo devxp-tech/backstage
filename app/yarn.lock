@@ -3641,10 +3641,10 @@
     react-use "^17.2.4"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-node@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.8.0.tgz#b464cdfda921c04b1c16719185c519539c410f82"
-  integrity sha512-jQX/O/9gEQ57MlYzInTsCF73UfYYRJtzWogdZBvvQhSi6y0iXi4quQ6KCyBJDAz7R15p7IFFmnAhnQSdahc6YA==
+"@backstage/plugin-catalog-node@^1.8.0", "@backstage/plugin-catalog-node@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.9.0.tgz#e54e53327e40d5db749a9be64d6afca2e959b110"
+  integrity sha512-+9pxhGhOZYScLdjthCA/MpfkrykQ2nkbL2F/28BOp1x8TfobooRbnpY77ORNlAPuOFzvwDOjdOu/bnsL3DLCmQ==
   dependencies:
     "@backstage/backend-plugin-api" "^0.6.14"
     "@backstage/catalog-client" "^1.6.1"
@@ -4583,9 +4583,9 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-todo-backend@^0.3.1":
-  version "0.3.12"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.12.tgz#9666c0e126eb6416a044f5a3d7fe59391484b407"
-  integrity sha512-6dqwuHuReLrDDFh3YmniQ9BelzNaD5d/ObW5KC/MXb/Z8goCMG/d0qdGxZFiIiNmEfK1Hyif6hmnztxbOLh+1g==
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.13.tgz#dc5c694f5afb7c590d3ab54049cc5dc05777b309"
+  integrity sha512-vMMm4M5a1QvYtHPA0pEW9IV7IgpvhvhMu1ilqVwue+GLJyG1x1LfcrIVQQjUgA6G5rV/s4/vPucmZJ3vdumu7g==
   dependencies:
     "@backstage/backend-common" "^0.21.4"
     "@backstage/backend-openapi-utils" "^0.1.7"
@@ -4595,7 +4595,7 @@
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
     "@backstage/integration" "^1.9.1"
-    "@backstage/plugin-catalog-node" "^1.8.0"
+    "@backstage/plugin-catalog-node" "^1.9.0"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     leasot "^12.0.0"
