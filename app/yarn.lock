@@ -3526,15 +3526,15 @@
     uuid "^9.0.0"
     winston "^3.2.1"
 
-"@backstage/plugin-catalog-backend-module-scaffolder-entity-model@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-scaffolder-entity-model/-/plugin-catalog-backend-module-scaffolder-entity-model-0.1.11.tgz#7e7f727f94657117e98a9716f96c402050032251"
-  integrity sha512-Hoe0a2BxyLCK/DJLrB224AvMXDjd/RQUm3yb8+kVoY3OTEeEkj0RDAEKd73Ffh34Qv4qevpiDetfOARgNqLneA==
+"@backstage/plugin-catalog-backend-module-scaffolder-entity-model@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-scaffolder-entity-model/-/plugin-catalog-backend-module-scaffolder-entity-model-0.1.12.tgz#8eba97f11a60ff120189ae8fd36a7394bf0e1786"
+  integrity sha512-aWtOpM/3zuBO8jmEfxbRv3hNsZuOFnZqdHscTM+b5Ih3d+fl1euxNDUOJr1MQGzWTsDhNp777rF/3Eo/iVVEJA==
   dependencies:
     "@backstage/backend-plugin-api" "^0.6.14"
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/plugin-catalog-common" "^1.0.22"
-    "@backstage/plugin-catalog-node" "^1.8.0"
+    "@backstage/plugin-catalog-node" "^1.9.0"
     "@backstage/plugin-scaffolder-common" "^1.5.1"
 
 "@backstage/plugin-catalog-backend@^1.18.0", "@backstage/plugin-catalog-backend@^1.9.0":
@@ -3641,10 +3641,10 @@
     react-use "^17.2.4"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-node@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.8.0.tgz#b464cdfda921c04b1c16719185c519539c410f82"
-  integrity sha512-jQX/O/9gEQ57MlYzInTsCF73UfYYRJtzWogdZBvvQhSi6y0iXi4quQ6KCyBJDAz7R15p7IFFmnAhnQSdahc6YA==
+"@backstage/plugin-catalog-node@^1.8.0", "@backstage/plugin-catalog-node@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-node/-/plugin-catalog-node-1.9.0.tgz#e54e53327e40d5db749a9be64d6afca2e959b110"
+  integrity sha512-+9pxhGhOZYScLdjthCA/MpfkrykQ2nkbL2F/28BOp1x8TfobooRbnpY77ORNlAPuOFzvwDOjdOu/bnsL3DLCmQ==
   dependencies:
     "@backstage/backend-plugin-api" "^0.6.14"
     "@backstage/catalog-client" "^1.6.1"
@@ -4081,9 +4081,9 @@
     zod "^3.22.4"
 
 "@backstage/plugin-scaffolder-backend@^1.13.1":
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.22.0.tgz#adbd6fbbc24d2b81f4fa4b607840baa5531f612d"
-  integrity sha512-xPXYr3qBobc1+SJiWSoWwkPlxUtQfktRztBAdtPc6Zz10/OxFK/Xnk7aPguU/z1OJK/OIDDYdpLhl6HGYRA7aQ==
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.22.1.tgz#17ac45c8747900771392e0c06674eebaf1902a9f"
+  integrity sha512-vQbd7rP/ANzHoovL6BEzJBHzMSQewJRrsqTEdrMNtJKssHoJQuEencnkwmRy95nc/oZFm9b4LqPTu9IJrQpFxA==
   dependencies:
     "@backstage/backend-common" "^0.21.4"
     "@backstage/backend-plugin-api" "^0.6.14"
@@ -4094,8 +4094,8 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/integration" "^1.9.1"
     "@backstage/plugin-auth-node" "^0.4.9"
-    "@backstage/plugin-catalog-backend-module-scaffolder-entity-model" "^0.1.11"
-    "@backstage/plugin-catalog-node" "^1.8.0"
+    "@backstage/plugin-catalog-backend-module-scaffolder-entity-model" "^0.1.12"
+    "@backstage/plugin-catalog-node" "^1.9.0"
     "@backstage/plugin-permission-common" "^0.7.13"
     "@backstage/plugin-permission-node" "^0.7.25"
     "@backstage/plugin-scaffolder-backend-module-azure" "^0.1.6"
