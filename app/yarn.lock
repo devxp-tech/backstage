@@ -3844,13 +3844,13 @@
     node-fetch "^2.6.7"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.3.1.tgz#6aa9fbcf0abb6a16ae66cfb92d7d297fef009216"
-  integrity sha512-j8FXUJYtof3Zg+s3pYNBl0vSBN5t1FFvFQLWk1JgnhDMotggidsE2NrNDaIDIRhfnelOzff+pSVTdasaReo6IA==
+"@backstage/plugin-kubernetes-react@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.3.2.tgz#89b731e25e54dc117e95c6b1c544ac991b6d1ce4"
+  integrity sha512-dc8b9dDkBqfSEyOQrdHQK3qeRJh71SAVkdRUdv0ksymbuu5RfEJc3iR8PDqhlLiMApVReJZOKAaMv7gAFhqiNQ==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-components" "^0.14.1"
+    "@backstage/core-components" "^0.14.2"
     "@backstage/core-plugin-api" "^1.9.1"
     "@backstage/errors" "^1.2.4"
     "@backstage/plugin-kubernetes-common" "^0.7.5"
@@ -3873,16 +3873,16 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-kubernetes@^0.11.0":
-  version "0.11.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.6.tgz#70ffe39328b24a707e58e6ca303c51e39797463e"
-  integrity sha512-zHD03n6uzpaL0RBw/B5UNfnF20TDIZVO1dKTYfJxUkU5t+q6qbgtimP45U/hBQmzP9kK6mt1Y718ZEmfEtLJZw==
+  version "0.11.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.7.tgz#eae435e11179a73f1119687ce2796bbf310316da"
+  integrity sha512-4O+Yd9p98lX8pWtpD+JNtdil5kY9Di6R5gYQ7INhParbD5SPi/E7EjBzjPdtTjaFBeqvJfHV4qq1ZOZSFl+x6A==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-components" "^0.14.1"
+    "@backstage/core-components" "^0.14.2"
     "@backstage/core-plugin-api" "^1.9.1"
-    "@backstage/plugin-catalog-react" "^1.11.0"
+    "@backstage/plugin-catalog-react" "^1.11.1"
     "@backstage/plugin-kubernetes-common" "^0.7.5"
-    "@backstage/plugin-kubernetes-react" "^0.3.1"
+    "@backstage/plugin-kubernetes-react" "^0.3.2"
     "@kubernetes-models/apimachinery" "^1.1.0"
     "@kubernetes-models/base" "^4.0.1"
     "@kubernetes/client-node" "0.20.0"
