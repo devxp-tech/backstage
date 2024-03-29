@@ -3267,15 +3267,15 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.63"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.63.tgz#211d9d58a298e78359e766c73545f03f2f12fef8"
-  integrity sha512-vW+szsDUuGnqVMi4Bs/2HIBUHxbQmqxmMdkzlBdtY6o9qeRbKjJpq/MJkP1/QiT/PkI5QRNomekmQTqxt/YRtg==
+  version "0.3.64"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.64.tgz#c73e331eb15567895ae3d0739b64ebb07b070da1"
+  integrity sha512-mxhJWLVCvaWs4F7oo1vVpObFFaQ/f4d8+qAF8RNvdmsBATbMOf0CKGAJphgNtuFLxVvy+3sHgAHqcLsBf+0zsg==
   dependencies:
-    "@backstage/backend-common" "^0.21.5"
-    "@backstage/backend-plugin-api" "^0.6.15"
+    "@backstage/backend-common" "^0.21.6"
+    "@backstage/backend-plugin-api" "^0.6.16"
     "@backstage/config" "^1.2.0"
     "@backstage/config-loader" "^1.7.0"
-    "@backstage/plugin-app-node" "^0.1.15"
+    "@backstage/plugin-app-node" "^0.1.16"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
@@ -3289,12 +3289,12 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.15.tgz#8211023c518677dbb72088f40efa863637c377ec"
-  integrity sha512-rgQdktHaZyHsnddyx+xo97pnI8Z837G5gm/L9PtS05SSRFnOSxXzuRmxJRcq9zVnbkxD890GmVq6nGq66WGSyw==
+"@backstage/plugin-app-node@^0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.16.tgz#235556a1ee90e725099f69bcf22c65ffe8dda382"
+  integrity sha512-y5kELgbkbCg4Izur/3sOwdbGZPLG/8wf2kMnt/Fe3Z9BG+iZf55k4Rmlxg/O8RI8Fqgt0okWgojZwgf6U/2HDQ==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.15"
+    "@backstage/backend-plugin-api" "^0.6.16"
     "@backstage/config-loader" "^1.7.0"
     "@types/express" "^4.17.6"
     express "^4.17.1"
