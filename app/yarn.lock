@@ -3240,19 +3240,19 @@
     luxon "^3.0.0"
 
 "@backstage/plugin-api-docs@^0.11.0":
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.11.2.tgz#e8394eac8abdf793afad6cc11934308b6f7c08e4"
-  integrity sha512-13VbPpbOvwet6FzuruEBCarkamuDfg1lJQgmU7Y2wMXjSzdVRuucEHvbMdKgonUKXbcIZ6l5MJ72SZcu0Yxjuw==
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.11.3.tgz#4d208f3b570cac7f1f96efa8ba352b5e7b6ae2e8"
+  integrity sha512-uWYFvB4g7xEWIyzQoChKsCYY5CdLXFTYJsxm3PW+UFtW4v2+UOgiuMSK7nSKyAqX9YN/+bJqr0L8ELohpohQGQ==
   dependencies:
     "@asyncapi/react-component" "1.3.1"
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-compat-api" "^0.2.2"
-    "@backstage/core-components" "^0.14.2"
+    "@backstage/core-compat-api" "^0.2.3"
+    "@backstage/core-components" "^0.14.3"
     "@backstage/core-plugin-api" "^1.9.1"
-    "@backstage/frontend-plugin-api" "^0.6.2"
-    "@backstage/plugin-catalog" "^1.18.1"
+    "@backstage/frontend-plugin-api" "^0.6.3"
+    "@backstage/plugin-catalog" "^1.18.2"
     "@backstage/plugin-catalog-common" "^1.0.22"
-    "@backstage/plugin-catalog-react" "^1.11.1"
+    "@backstage/plugin-catalog-react" "^1.11.2"
     "@backstage/plugin-permission-react" "^0.4.21"
     "@graphiql/react" "^0.20.0"
     "@material-ui/core" "^4.12.2"
@@ -3702,25 +3702,25 @@
     yaml "^2.0.0"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.18.1":
-  version "1.18.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.18.1.tgz#32c09a2297a19594e0c39db6ad4778ca3f00d924"
-  integrity sha512-eIP3vpLYjSCWY/eUm6GD9R3r+2U6J/QRtzxJ6f+gLViCoBDSu94+9Tpb0Xf/tmxjjUYkB1mG70Fwx+upvuJTKQ==
+"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.18.2":
+  version "1.18.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.18.2.tgz#517cfbcf622dfc68c46a6571d84195b6ceaefa27"
+  integrity sha512-tpMnjM5KZ7Ko5DK3vtm4LrIY3I1ddGhPsq6L5e7zDrIir6GvwaTSny/7uSLq54agQiaPBPFmTiK2cmTnKHx6CQ==
   dependencies:
-    "@backstage/catalog-client" "^1.6.2"
+    "@backstage/catalog-client" "^1.6.3"
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-compat-api" "^0.2.2"
-    "@backstage/core-components" "^0.14.2"
+    "@backstage/core-compat-api" "^0.2.3"
+    "@backstage/core-components" "^0.14.3"
     "@backstage/core-plugin-api" "^1.9.1"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.2"
+    "@backstage/frontend-plugin-api" "^0.6.3"
     "@backstage/integration-react" "^1.1.25"
     "@backstage/plugin-catalog-common" "^1.0.22"
-    "@backstage/plugin-catalog-react" "^1.11.1"
+    "@backstage/plugin-catalog-react" "^1.11.2"
     "@backstage/plugin-permission-react" "^0.4.21"
     "@backstage/plugin-scaffolder-common" "^1.5.1"
     "@backstage/plugin-search-common" "^1.2.11"
-    "@backstage/plugin-search-react" "^1.7.8"
+    "@backstage/plugin-search-react" "^1.7.9"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
