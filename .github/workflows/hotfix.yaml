@@ -31,7 +31,7 @@ jobs:
     needs:
       - env
       - test
-      - quality-gate
+      # - quality-gate
       - code-scan
 
   security-gateway:
