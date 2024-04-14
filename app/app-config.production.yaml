@@ -95,7 +95,7 @@ proxy:
 
   "/prometheus/api":
     # url to the api and path of your hosted prometheus instance
-    target: http://prometheus-prometheus.monitoring.svc:9090/api/v1/
+    target: http://prometheus-community-kube-prometheus.monitoring.svc.cluster.local:9090/api/v1/
 
 auth:
   environment: production
