@@ -3220,7 +3220,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/backend-dev-utils/-/backend-dev-utils-0.1.4.tgz#65d204939c49b5df6a2148e8ad4dc718ccd1df07"
   integrity sha512-5YgAPz4CRtnqdaUlYCHwGmXvpkGQ1jaUMoDtiQ81WDxQrf+0iYZCwS4ftVyQmB0Ga6BaGOUf6GG/OuFA56Y5mA==
 
-"@backstage/backend-openapi-utils@^0.1.10", "@backstage/backend-openapi-utils@^0.1.9":
+"@backstage/backend-openapi-utils@^0.1.10":
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/@backstage/backend-openapi-utils/-/backend-openapi-utils-0.1.10.tgz#924b70a692e1374003ea2b27dfd7dd19b8ad5230"
   integrity sha512-U4mJxZHHK45R7klNNer2e7cUpz+FTfQ9Zpt3GPhyjO4t5RNjNP98CWqZV2HiZH81IcrACQMGYLo0TUnCi40JbA==
@@ -5056,23 +5056,22 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-todo-backend@^0.3.1":
-  version "0.3.15"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.15.tgz#ca10215f200dc067c587d311e9c240baa6b1e70a"
-  integrity sha512-FyO2GF3IwSCpMGfHiE5Bvc4xzYyhiDJIwTWBZnwZdxGwrxw4HtQ1qBFd07OtzcF63lk8Ex88urBxedjHoG9+yQ==
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-todo-backend/-/plugin-todo-backend-0.3.16.tgz#0f0fa0dea88fe8c9ccbdcf5e144e4b5b9334f4dd"
+  integrity sha512-U967PM3vxIiv/wnkUa5T2Qvnyzy0ioYkMG0UfVFWbm8bN/82ZKlnjqT5djGreEMBJTg8LrxDWmVZHeqX/bvXxw==
   dependencies:
-    "@backstage/backend-common" "^0.21.6"
-    "@backstage/backend-openapi-utils" "^0.1.9"
-    "@backstage/backend-plugin-api" "^0.6.16"
-    "@backstage/catalog-client" "^1.6.3"
+    "@backstage/backend-common" "^0.21.7"
+    "@backstage/backend-openapi-utils" "^0.1.10"
+    "@backstage/backend-plugin-api" "^0.6.17"
+    "@backstage/catalog-client" "^1.6.4"
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
-    "@backstage/integration" "^1.9.1"
-    "@backstage/plugin-catalog-node" "^1.11.0"
+    "@backstage/integration" "^1.10.0"
+    "@backstage/plugin-catalog-node" "^1.11.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     leasot "^12.0.0"
-    winston "^3.2.1"
     yn "^4.0.0"
 
 "@backstage/plugin-todo@^0.2.19":
