@@ -3309,20 +3309,6 @@
     semver "^7.5.3"
     zod "^3.22.4"
 
-"@backstage/cli-node@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.5.tgz#553257a70cb7bc5c8097ed0c801eb87295164771"
-  integrity sha512-qe2Sb3777lcimkt0zSv183vPr1892luAeBURgVb+8BmSChExYnibw7/QRPdv20p5qDayHb4HDVmlCo66OYBHtw==
-  dependencies:
-    "@backstage/cli-common" "^0.1.13"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/types" "^1.1.1"
-    "@manypkg/get-packages" "^1.1.3"
-    "@yarnpkg/parsers" "^3.0.0-rc.4"
-    fs-extra "^11.2.0"
-    semver "^7.5.3"
-    zod "^3.22.4"
-
 "@backstage/cli@^0.26.0":
   version "0.26.3"
   resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.3.tgz#d53a4807b0d635c4ec82dd4aa5c4cdd0fd4471ae"
@@ -3438,28 +3424,6 @@
     yml-loader "^2.1.0"
     yn "^4.0.0"
     zod "^3.22.4"
-
-"@backstage/config-loader@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.8.0.tgz#6b526475c45cd93ee51a0ddcb7e1f5bd49469eeb"
-  integrity sha512-35a9eD1DbQvPG0/JjG8cgOuN2Il4GP6w9EaGTaDWORiYqzqYsZko+5tCXZPIWF8rzptUbSkr4SIT6Bt+ujfKqg==
-  dependencies:
-    "@backstage/cli-common" "^0.1.13"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/types" "^1.1.1"
-    "@types/json-schema" "^7.0.6"
-    ajv "^8.10.0"
-    chokidar "^3.5.2"
-    fs-extra "^11.2.0"
-    json-schema "^0.4.0"
-    json-schema-merge-allof "^0.8.1"
-    json-schema-traverse "^1.0.0"
-    lodash "^4.17.21"
-    minimist "^1.2.5"
-    node-fetch "^2.6.7"
-    typescript-json-schema "^0.63.0"
-    yaml "^2.0.0"
 
 "@backstage/config-loader@^1.8.0":
   version "1.8.0"
@@ -4390,17 +4354,17 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-org@^0.6.7":
-  version "0.6.23"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.23.tgz#18a278481ab006e24798cbdf993fff5963d949b1"
-  integrity sha512-0S+zw6pblAdz/0b7+bXqYIa91Nw+/QVI0/D6b3x88XR8ipfOMZ0GdIYkAvLukChbzALR/UTRwKp3PHe4voNnLw==
+  version "0.6.24"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.24.tgz#351a8ec244135acccfc3c886df0da8d36d7a6fa2"
+  integrity sha512-G7ULM8EJMDtcRTWpq5AHjMKitla3EZkCpnrWtdJ5QgEquSY+DnABd3Aadbct1g8rwuN03/7t8oQ/kCaUuvXA0w==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-compat-api" "^0.2.3"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
-    "@backstage/frontend-plugin-api" "^0.6.3"
+    "@backstage/core-compat-api" "^0.2.4"
+    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/frontend-plugin-api" "^0.6.4"
     "@backstage/plugin-catalog-common" "^1.0.22"
-    "@backstage/plugin-catalog-react" "^1.11.2"
+    "@backstage/plugin-catalog-react" "^1.11.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
