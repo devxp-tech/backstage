@@ -4404,24 +4404,24 @@
     winston "^3.2.1"
     yn "^5.0.0"
 
-"@backstage/plugin-sonarqube-react@^0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.14.tgz#8de1561769b93e7b8907a0086bf79569a173b0f5"
-  integrity sha512-8W0ta6s02USfZcZUGW2v1ujwNysgtBY213nzcA7k3ans2toMatztveH8uteMkKWsaETryIaV56FWOeGl+GfYag==
+"@backstage/plugin-sonarqube-react@^0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube-react/-/plugin-sonarqube-react-0.1.15.tgz#8bb8aa0d39d22649f46f80676762fa30e6580bd2"
+  integrity sha512-XPGPnVHsM+EumQFZs2hTm8S9I2FJ6H/co62j+9XzUeNPflq5BFD6fJ0yVaVTUsS4JAuUB/TglyMz17Wi+ghIUw==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/core-plugin-api" "^1.9.2"
 
 "@backstage/plugin-sonarqube@^0.7.0":
-  version "0.7.15"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.15.tgz#723aa6e9403eff17036cfb46a0e68768c1da4b70"
-  integrity sha512-noE3ko4jJvOhj/k56UcHVQP/mC/VStdvMcjU6RArRs8i0Y1cLK3mByl5oC2u4zSJe9nvyq+9WCb6gKeeXxAL4Q==
+  version "0.7.16"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-sonarqube/-/plugin-sonarqube-0.7.16.tgz#830cfcedf036214883286d6ddf7c117dbe4b58bf"
+  integrity sha512-qbdT86juBFXW7O4bSFRjn3WQ0iLtE1aVGo574dM9cNSM/pLRo6WJYFhMJEE31wBM0RNBCuvrTLdp6mzs+9xI0g==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
-    "@backstage/plugin-catalog-react" "^1.11.2"
-    "@backstage/plugin-sonarqube-react" "^0.1.14"
+    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/plugin-catalog-react" "^1.11.3"
+    "@backstage/plugin-sonarqube-react" "^0.1.15"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/styles" "^4.10.0"
