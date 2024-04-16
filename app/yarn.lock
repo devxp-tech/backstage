@@ -4230,34 +4230,34 @@
     "@rjsf/utils" "5.17.1"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/plugin-kubernetes-backend@^0.16.0":
-  version "0.16.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.16.4.tgz#92a620a24ec6f5c86416b32d518496d8e587ea02"
-  integrity sha512-4DmQSnuUIRcC0mPhiOWC2K+/MjqAEnUWPek+Ea9UVtTK1El3wCZ3Xgmv4bNCuXpQuZqhBohTI4ZyqzEYBvlMqQ==
+"@backstage/plugin-kubernetes-backend@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.17.0.tgz#e1a8e83e83381e33361790758014f8f83bdd9b49"
+  integrity sha512-lBEIwevOz4deBrDDoW3tGgN/C0zArXvuy+H0ykrg0yxTv+MikQnXG/05xYJC76E5vJSGjidHldpAh86aq8w/GA==
   dependencies:
     "@aws-crypto/sha256-js" "^5.0.0"
     "@aws-sdk/credential-providers" "^3.350.0"
     "@aws-sdk/signature-v4" "^3.347.0"
     "@azure/identity" "^4.0.0"
-    "@backstage/backend-common" "^0.21.6"
-    "@backstage/backend-plugin-api" "^0.6.16"
-    "@backstage/catalog-client" "^1.6.3"
+    "@backstage/backend-common" "^0.21.7"
+    "@backstage/backend-plugin-api" "^0.6.17"
+    "@backstage/catalog-client" "^1.6.4"
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
     "@backstage/integration-aws-node" "^0.1.12"
-    "@backstage/plugin-auth-node" "^0.4.11"
-    "@backstage/plugin-catalog-node" "^1.11.0"
+    "@backstage/plugin-auth-node" "^0.4.12"
+    "@backstage/plugin-catalog-node" "^1.11.1"
     "@backstage/plugin-kubernetes-common" "^0.7.5"
-    "@backstage/plugin-kubernetes-node" "^0.1.10"
+    "@backstage/plugin-kubernetes-node" "^0.1.11"
     "@backstage/plugin-permission-common" "^0.7.13"
-    "@backstage/plugin-permission-node" "^0.7.27"
+    "@backstage/plugin-permission-node" "^0.7.28"
     "@backstage/types" "^1.1.1"
     "@google-cloud/container" "^5.0.0"
     "@jest-mock/express" "^2.0.1"
     "@kubernetes/client-node" "0.20.0"
     "@types/express" "^4.17.6"
-    "@types/http-proxy-middleware" "^0.19.3"
+    "@types/http-proxy-middleware" "^1.0.0"
     "@types/luxon" "^3.0.0"
     compression "^1.7.4"
     cors "^2.8.5"
@@ -4287,12 +4287,12 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/plugin-kubernetes-node@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.1.10.tgz#1aeeb5806bf161996ece76022ab0647b7df5f57e"
-  integrity sha512-wgYa5FUDvI4IGaCRTvLLlA8w2/x1V3dlXvgco1PG3jJy4bJhxhTP9ttqv9OQjh6BR/ko/IYvICBD+3Rjo2vb0A==
+"@backstage/plugin-kubernetes-node@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.1.11.tgz#7b6c8d05536b897e0bcf43548bdb832bcdd34d34"
+  integrity sha512-3s7/ASAcbl51CmF1sJQ/S1NRfgGYBKYHgTy45zP7Psd5POt2k4yvzDv407evxm8zRRX1Ium5uN/eIZcCRehZwQ==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.6.16"
+    "@backstage/backend-plugin-api" "^0.6.17"
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/plugin-kubernetes-common" "^0.7.5"
     "@backstage/types" "^1.1.1"
@@ -10282,19 +10282,17 @@
   resolved "https://registry.yarnpkg.com/@types/http-errors/-/http-errors-2.0.4.tgz#7eb47726c391b7345a6ec35ad7f4de469cf5ba4f"
   integrity sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==
 
-"@types/http-proxy-middleware@^0.19.3":
-  version "0.19.3"
-  resolved "https://registry.yarnpkg.com/@types/http-proxy-middleware/-/http-proxy-middleware-0.19.3.tgz#b2eb96fbc0f9ac7250b5d9c4c53aade049497d03"
-  integrity sha512-lnBTx6HCOUeIJMLbI/LaL5EmdKLhczJY5oeXZpX/cXE4rRqb3RmV7VcMpiEfYkmTjipv3h7IAyIINe4plEv7cA==
+"@types/http-proxy-middleware@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/http-proxy-middleware/-/http-proxy-middleware-1.0.0.tgz#4370a52766782e9c4f0be2ef79c3dd47aef5f428"
+  integrity sha512-/s8lFX6rT43hSPqjjD8KNuu0SkPKY7uIdR6u9DCxVqCRhAvfKxGbVOixJsAT2mdpSnCyrGFAGoB39KFh6tmRxw==
   dependencies:
-    "@types/connect" "*"
-    "@types/http-proxy" "*"
-    "@types/node" "*"
+    http-proxy-middleware "*"
 
-"@types/http-proxy@*":
-  version "1.17.12"
-  resolved "https://registry.yarnpkg.com/@types/http-proxy/-/http-proxy-1.17.12.tgz#86e849e9eeae0362548803c37a0a1afc616bd96b"
-  integrity sha512-kQtujO08dVtQ2wXAuSFfk9ASy3sug4+ogFR8Kd8UgP8PEuc1/G/8yjYRmp//PcDNJEUKOza/MrQu15bouEUCiw==
+"@types/http-proxy@^1.17.10":
+  version "1.17.14"
+  resolved "https://registry.yarnpkg.com/@types/http-proxy/-/http-proxy-1.17.14.tgz#57f8ccaa1c1c3780644f8a94f9c6b5000b5e2eec"
+  integrity sha512-SSrD0c1OQzlFX7pGu1eXxSEjemej64aaNPRhhVYUGqXh0BtldAAx37MG8btcumvpgKyZp1F5Gn3JkktdxiFv6w==
   dependencies:
     "@types/node" "*"
 
@@ -17078,6 +17076,18 @@ http-proxy-agent@^7.0.0:
   dependencies:
     agent-base "^7.1.0"
     debug "^4.3.4"
+
+http-proxy-middleware@*:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-3.0.0.tgz#550790357d6f92a9b82ab2d63e07343a791cf26b"
+  integrity sha512-36AV1fIaI2cWRzHo+rbcxhe3M3jUDCNzc4D5zRl57sEWRAxdXYtw7FSQKYY6PDKssiAKjLYypbssHk+xs/kMXw==
+  dependencies:
+    "@types/http-proxy" "^1.17.10"
+    debug "^4.3.4"
+    http-proxy "^1.18.1"
+    is-glob "^4.0.1"
+    is-plain-obj "^3.0.0"
+    micromatch "^4.0.5"
 
 http-proxy-middleware@^2.0.0, http-proxy-middleware@^2.0.3, http-proxy-middleware@^2.0.6:
   version "2.0.6"
