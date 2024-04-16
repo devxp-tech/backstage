@@ -3455,7 +3455,7 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.12.3", "@backstage/core-app-api@^1.12.4", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.12.4", "@backstage/core-app-api@^1.7.0":
   version "1.12.4"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.4.tgz#97d17a0e86ad45fe0000f371916a6e1d923e1416"
   integrity sha512-PvlcCSTn+mRMbk2iuAMJjcAh6P2VeHZDJbEEf6m2mSOWPoJuJOA5ynosW/oqNUuuRq4jBybQiiTIoYtvgIitpw==
@@ -3940,7 +3940,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-auth-node@^0.4.0", "@backstage/plugin-auth-node@^0.4.11", "@backstage/plugin-auth-node@^0.4.12":
+"@backstage/plugin-auth-node@^0.4.0", "@backstage/plugin-auth-node@^0.4.12":
   version "0.4.12"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.4.12.tgz#a93c80df77bd03a81b612e7bacc8a028d09ce50a"
   integrity sha512-83sY5Bji+0F320xm/KkQUwneK+HdkM/bYxSpVJ5+rUqqQw0LbylCYW4vrh9qPUehc7laN+RShPvqr6ughZNWfQ==
@@ -4387,7 +4387,7 @@
     uuid "^9.0.0"
     zod "^3.22.4"
 
-"@backstage/plugin-permission-node@^0.7.27", "@backstage/plugin-permission-node@^0.7.28", "@backstage/plugin-permission-node@^0.7.7":
+"@backstage/plugin-permission-node@^0.7.28", "@backstage/plugin-permission-node@^0.7.7":
   version "0.7.28"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.28.tgz#1cec06c18748bd2591dc3c4ce99b318b75eb02fd"
   integrity sha512-AzHE5YgqpwQW7ZxcGBrwVHhFCknMZiplkgr0ayse4ly/6Wfge85hofsFJI/Ds/Dj+qIwmOIvJmTwZyefrTtZqw==
@@ -5086,18 +5086,18 @@
     "@types/react" "^16.13.1 || ^17.0.0"
 
 "@backstage/plugin-user-settings@^0.8.0":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.4.tgz#31bdcac9669941423875c5852b21b403ac9aea3e"
-  integrity sha512-6+3TyoV3J0nMeLL0fTPQM1TgAiwB3eIF7re9Gqw311DPgQNsOC1waWSDLjK8Uto9zgms/mxYnvK1HxeUwov1MQ==
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.5.tgz#5d70a498956e5f995cea4d3c542826333a855f91"
+  integrity sha512-fgN8B0M7ouh5Iq6q+HHVpSdOqd1aoE/RDBKpY4q5AIN1rmMMCdvJBizhNAGzo4j5YxLGPXsRko10iExPj6Txjw==
   dependencies:
-    "@backstage/core-app-api" "^1.12.3"
-    "@backstage/core-compat-api" "^0.2.3"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/core-app-api" "^1.12.4"
+    "@backstage/core-compat-api" "^0.2.4"
+    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-plugin-api" "^1.9.2"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.3"
-    "@backstage/plugin-catalog-react" "^1.11.2"
-    "@backstage/theme" "^0.5.2"
+    "@backstage/frontend-plugin-api" "^0.6.4"
+    "@backstage/plugin-catalog-react" "^1.11.3"
+    "@backstage/theme" "^0.5.3"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
