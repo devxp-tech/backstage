@@ -4632,20 +4632,20 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-react@^1.8.3":
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.8.3.tgz#682fcc5f0dff553676188f1a94e69710a9f147dc"
-  integrity sha512-ytSU/QvLO7DI7B+MfY5IHNwc5aY6yhzpvdby4/nJCnW0FCGep4MFA+Jx6UmXGTCQ0SLcuy5a3c8jUwd54HIbSw==
+"@backstage/plugin-scaffolder-react@^1.8.4":
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.8.4.tgz#cb2797bd94b60d4e0c65e9c25792bf161f5f611a"
+  integrity sha512-RpOJ9Ou7GUT9gJhQh1ZYz4hV99KU8mwfsmyIEITHp/bEjeschea+hSxHs3iT3a6p/e9ooXsSkOpwigHpOSmjJw==
   dependencies:
-    "@backstage/catalog-client" "^1.6.3"
+    "@backstage/catalog-client" "^1.6.4"
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
-    "@backstage/plugin-catalog-react" "^1.11.2"
+    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/plugin-catalog-react" "^1.11.3"
     "@backstage/plugin-scaffolder-common" "^1.5.1"
-    "@backstage/theme" "^0.5.2"
+    "@backstage/theme" "^0.5.3"
     "@backstage/types" "^1.1.1"
-    "@backstage/version-bridge" "^1.0.7"
+    "@backstage/version-bridge" "^1.0.8"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
@@ -4660,7 +4660,7 @@
     flatted "3.3.1"
     humanize-duration "^3.25.1"
     json-schema "^0.4.0"
-    json-schema-library "^7.3.9"
+    json-schema-library "^9.0.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
     qs "^6.9.4"
@@ -4671,24 +4671,24 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.19.2.tgz#190edc75775865fb44848f15bd21f56c1e7a84e9"
-  integrity sha512-2Yp/6yftNXW61knkvFzErMHE/SETqxHuWSbX/6hj3oycMN3I3RA5pYsWV2pBmDp6hVe95HG/dYw6HOJRDVmDGg==
+  version "1.19.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.19.3.tgz#f46458bdd5186930264d3bf5c57e18906d3a6185"
+  integrity sha512-b3kF+E8TYZKVLvYk1Aziw4E0QLBz9OKMR0Lpq7pEUwGtX4wk2bQKCaFRsjLGJfZIqIIgNb/gDOR0rTLGs/woSA==
   dependencies:
-    "@backstage/catalog-client" "^1.6.3"
+    "@backstage/catalog-client" "^1.6.4"
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-compat-api" "^0.2.3"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/core-compat-api" "^0.2.4"
+    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-plugin-api" "^1.9.2"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.3"
-    "@backstage/integration" "^1.9.1"
-    "@backstage/integration-react" "^1.1.25"
+    "@backstage/frontend-plugin-api" "^0.6.4"
+    "@backstage/integration" "^1.10.0"
+    "@backstage/integration-react" "^1.1.26"
     "@backstage/plugin-catalog-common" "^1.0.22"
-    "@backstage/plugin-catalog-react" "^1.11.2"
-    "@backstage/plugin-permission-react" "^0.4.21"
+    "@backstage/plugin-catalog-react" "^1.11.3"
+    "@backstage/plugin-permission-react" "^0.4.22"
     "@backstage/plugin-scaffolder-common" "^1.5.1"
-    "@backstage/plugin-scaffolder-react" "^1.8.3"
+    "@backstage/plugin-scaffolder-react" "^1.8.4"
     "@backstage/types" "^1.1.1"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
@@ -4708,7 +4708,7 @@
     git-url-parse "^14.0.0"
     humanize-duration "^3.25.1"
     json-schema "^0.4.0"
-    json-schema-library "^7.3.9"
+    json-schema-library "^9.0.0"
     jszip "^3.10.1"
     lodash "^4.17.21"
     luxon "^3.0.0"
@@ -5190,7 +5190,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/types/-/types-1.1.1.tgz#c9ccb30357005e7fb5fa2ac140198059976eb076"
   integrity sha512-1cUGu+FwiJZCBOuecd0BOhIRkQYllb+7no9hHhxpAsx/DvsPGMVQMGOMvtdTycdT9SQ5MuSyFwI9wpXp2DwVvQ==
 
-"@backstage/version-bridge@^1.0.3", "@backstage/version-bridge@^1.0.7", "@backstage/version-bridge@^1.0.8":
+"@backstage/version-bridge@^1.0.3", "@backstage/version-bridge@^1.0.8":
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.8.tgz#c6664708bcd20744e7b2c440a03f1e44f7c4a2a1"
   integrity sha512-f4u5YEq/+TLe/W4UnsiD8u15qcuyFx2tuO/RDrJ2c/ulm4TuSeEcupMs7b9oa2Pge5IQAISadz0em1c+VDIB+g==
@@ -8592,18 +8592,18 @@
     argparse "~1.0.9"
     string-argv "~0.3.1"
 
-"@sagold/json-pointer@^5.0.0":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@sagold/json-pointer/-/json-pointer-5.0.1.tgz#94319addbd798c2da571bd6eab86fb0b3265349d"
-  integrity sha512-cKY4N+3YC7CHUW28lOgqH6020EMqFS5nW9cT+/MBdUNXWEmLWeTsOtiaHxXuixL5jCJNv4AFqtGi4dQIYGG8XQ==
+"@sagold/json-pointer@^5.1.2":
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@sagold/json-pointer/-/json-pointer-5.1.2.tgz#7f07884050fd2139eeb5d7423e917160ee7e0b8d"
+  integrity sha512-+wAhJZBXa6MNxRScg6tkqEbChEHMgVZAhTHVJ60Y7sbtXtu9XA49KfUkdWlS2x78D6H9nryiKePiYozumauPfA==
 
-"@sagold/json-query@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@sagold/json-query/-/json-query-6.0.0.tgz#a250a98d19cc20d8c06e8e9eeaf9d1de833f1ed4"
-  integrity sha512-fk9BimvNrzlhXiy+dvlwyA97W2N6GmPWCJo/2kwKEtU9oc93cVKamca9NcnjKx1hhjECjPfu30NQ8Tg2JGv/pA==
+"@sagold/json-query@^6.1.3":
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/@sagold/json-query/-/json-query-6.2.0.tgz#2204a0259ea10f36cd5cb0a1505078e6d751eecd"
+  integrity sha512-7bOIdUE6eHeoWtFm8TvHQHfTVSZuCs+3RpOKmZCDBIOrxpvF/rNFTeuvIyjHva/RR0yVS3kQtr+9TW72LQEZjA==
   dependencies:
-    "@sagold/json-pointer" "^5.0.0"
-    ebnf "^1.9.0"
+    "@sagold/json-pointer" "^5.1.2"
+    ebnf "^1.9.1"
 
 "@sideway/address@^4.1.3":
   version "4.1.4"
@@ -14220,7 +14220,7 @@ deep-is@^0.1.3, deep-is@~0.1.3:
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
 
-deepmerge@^4.2.2, deepmerge@~4.3.0:
+deepmerge@^4.2.2, deepmerge@^4.3.1, deepmerge@~4.3.0:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.3.1.tgz#44b5f2147cd3b00d4b56137685966f26fd25dd4a"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
@@ -14628,10 +14628,10 @@ easy-table@1.1.0:
   optionalDependencies:
     wcwidth ">=1.0.1"
 
-ebnf@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/ebnf/-/ebnf-1.9.0.tgz#9c2dd6052f3ed43a69c1f0b07b15bd03cefda764"
-  integrity sha512-LKK899+j758AgPq00ms+y90mo+2P86fMKUWD28sH0zLKUj7aL6iIH2wy4jejAMM9I2BawJ+2kp6C3mMXj+Ii5g==
+ebnf@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/ebnf/-/ebnf-1.9.1.tgz#64c25d8208ec0d221ec11c3c5e8094015131a9d3"
+  integrity sha512-uW2UKSsuty9ANJ3YByIQE4ANkD8nqUPO7r6Fwcc1ADKPe9FRdcPpMl3VEput4JSvKBJ4J86npIC2MLP0pYkCuw==
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
@@ -15619,6 +15619,11 @@ extsprintf@^1.2.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.1.tgz#8d172c064867f235c0c84a596806d279bf4bcc07"
   integrity sha512-Wrk35e8ydCKDj/ArClo1VrPVmN8zph5V4AtHwIuHhvMXsKf73UT3BOD+azBIW+3wOJ4FhEH7zyaJCFvChjYvMA==
+
+fast-copy@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-3.0.2.tgz#59c68f59ccbcac82050ba992e0d5c389097c9d35"
+  integrity sha512-dl0O9Vhju8IrcLndv2eU4ldt1ftXMqqfgN4H1cpmGV7P6jeB9FwpN9a2c8DPGE1Ys88rNUJVYDHq73CGAGOPfQ==
 
 fast-decode-uri-component@^1.0.1:
   version "1.0.1"
@@ -18695,15 +18700,17 @@ json-schema-compare@^0.2.2:
   dependencies:
     lodash "^4.17.4"
 
-json-schema-library@^7.3.9:
-  version "7.4.8"
-  resolved "https://registry.yarnpkg.com/json-schema-library/-/json-schema-library-7.4.8.tgz#97e911f53c0ec9a1e0187faffa3ab03b50b58824"
-  integrity sha512-az9m/AuE9AZLC4OocYvswfLYDGbMN8hlxwH/+6ElPG8Dc5kWPhDNmjMTOCYoa+SKEsibx4ts/xnsvp7uiWrXEQ==
+json-schema-library@^9.0.0:
+  version "9.3.4"
+  resolved "https://registry.yarnpkg.com/json-schema-library/-/json-schema-library-9.3.4.tgz#e9ed78d289eece9d59bf8157d637e0bced9cd6cb"
+  integrity sha512-220lm9RVt9BUeF2QhBT711aX4IogUHhPT8Tjhkksc4CUw8WmChFMuf0mJdpDAHDfJDkI064jcZIH8P70HdPAOA==
   dependencies:
-    "@sagold/json-pointer" "^5.0.0"
-    "@sagold/json-query" "^6.0.0"
-    deepmerge "^4.2.2"
+    "@sagold/json-pointer" "^5.1.2"
+    "@sagold/json-query" "^6.1.3"
+    deepmerge "^4.3.1"
+    fast-copy "^3.0.2"
     fast-deep-equal "^3.1.3"
+    smtp-address-parser "1.0.10"
     valid-url "^1.0.9"
 
 json-schema-merge-allof@^0.8.1:
@@ -24579,7 +24586,7 @@ smart-buffer@^4.2.0:
   resolved "https://registry.yarnpkg.com/smart-buffer/-/smart-buffer-4.2.0.tgz#6e1d71fa4f18c05f7d0ff216dd16a481d0e8d9ae"
   integrity sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==
 
-smtp-address-parser@^1.0.3:
+smtp-address-parser@1.0.10, smtp-address-parser@^1.0.3:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/smtp-address-parser/-/smtp-address-parser-1.0.10.tgz#9fc4ed6021f13dc3d8f591e0ad0d50454073025e"
   integrity sha512-Osg9LmvGeAG/hyao4mldbflLOkkr3a+h4m1lwKCK5U8M6ZAr7tdXEz/+/vr752TSGE4MNUlUl9cIK2cB8cgzXg==
