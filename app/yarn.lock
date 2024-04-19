@@ -3310,9 +3310,9 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.26.0":
-  version "0.26.3"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.3.tgz#d53a4807b0d635c4ec82dd4aa5c4cdd0fd4471ae"
-  integrity sha512-WwNR4Ay4z0rAv9r86w3R+FuAeq4TknMrvGlrWPRUui5kFCeM3gk5NujUrTeI1zwjwYnX1tJYD59clJDx5t/thQ==
+  version "0.26.4"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.4.tgz#c044b818568899b4aae5e08716e7f933d1a846a0"
+  integrity sha512-ywMa+wcHy1gGTxuBwkFiyTP1bRx14OXfrMz4oW0gmFnfiCy8ycKAqNhKcRYXlJuMi/YAA5GbDj/oQOEg37uYiQ==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/cli-common" "^0.1.13"
@@ -3404,6 +3404,7 @@
     react-dev-utils "^12.0.0-next.60"
     react-refresh "^0.14.0"
     recursive-readdir "^2.2.2"
+    replace-in-file "^7.1.0"
     rollup "^4.0.0"
     rollup-plugin-dts "^6.1.0"
     rollup-plugin-esbuild "^6.1.1"
@@ -16491,7 +16492,7 @@ glob@^10.2.2, glob@^10.3.10, glob@^10.3.7:
     minipass "^7.0.4"
     path-scurry "^1.10.2"
 
-glob@^8.0.0, glob@^8.0.1, glob@^8.0.3:
+glob@^8.0.0, glob@^8.0.1, glob@^8.0.3, glob@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/glob/-/glob-8.1.0.tgz#d388f656593ef708ee3e34640fdfb99a9fd1c33e"
   integrity sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==
@@ -23785,6 +23786,15 @@ repeat-string@^1.5.2:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
   integrity sha512-PV0dzCYDNfRi1jCDbJzpW7jNNDRuCOG/jI5ctQcGKt/clZD+YcPS3yIlWuTJMmESC8aevCFmWJy5wjAFgNqN6w==
+
+replace-in-file@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/replace-in-file/-/replace-in-file-7.1.0.tgz#ec5d50283a3ce835d62c99d90700aacbada1d2f8"
+  integrity sha512-1uZmJ78WtqNYCSuPC9IWbweXkGxPOtk2rKuar8diTw7naVIQZiE3Tm8ACx2PCMXDtVH6N+XxwaRY2qZ2xHPqXw==
+  dependencies:
+    chalk "^4.1.2"
+    glob "^8.1.0"
+    yargs "^17.7.2"
 
 request-progress@^3.0.0:
   version "3.0.0"
