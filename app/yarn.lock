@@ -3270,7 +3270,7 @@
     uuid "^9.0.0"
     zod "^3.22.4"
 
-"@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.6.3", "@backstage/catalog-client@^1.6.4":
+"@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.6.4":
   version "1.6.4"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.6.4.tgz#b0823a97606c5a92a78df365b8c4f48b8456f5f1"
   integrity sha512-sItchBGNqZBCXqTu/U+EZhimhiKdZBEJOQ28fFeFYGJ+wm8Kfz82d2KbwVPgK41aN20gftChN5ZXBkcyddiUFQ==
@@ -3641,7 +3641,7 @@
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.9.1":
+"@backstage/integration@^1.10.0":
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.10.0.tgz#81f37dcb506a4c6febaf9b3be88b5c4d2a40e6ec"
   integrity sha512-OSXo6yHKl8kZ2xKAk7CM8d3jfWuoRXjhg1oOxxLq0t2CNzCRfD8f8swCFKs3PJl0HDygwf/vFjTsbP7UXlAtkA==
@@ -4086,22 +4086,22 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-catalog-import@^0.10.0":
-  version "0.10.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.10.9.tgz#c26c98a0a2a57ad2921b7fc3248099471c488352"
-  integrity sha512-p0vWJzFNAyuXQeH7Il+esb1xcT0c9iixQehAKzK+BVSsL6gRDfWk2KzpjfCKaeM+8qNEAXs+Al/XTm5IrFtokw==
+  version "0.10.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.10.10.tgz#d3341435784fbdeea89a7426fd4780863931e681"
+  integrity sha512-NdiztMIS1zznvxF/je7UBV8dLm7TN+sAL0quTAiFG1/HUcAqI8YmyCpqG+ytvyZ1xp3+KADa1ilfefzT1HgvUA==
   dependencies:
-    "@backstage/catalog-client" "^1.6.3"
+    "@backstage/catalog-client" "^1.6.4"
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-compat-api" "^0.2.3"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
+    "@backstage/core-compat-api" "^0.2.4"
+    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-plugin-api" "^1.9.2"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.3"
-    "@backstage/integration" "^1.9.1"
-    "@backstage/integration-react" "^1.1.25"
+    "@backstage/frontend-plugin-api" "^0.6.4"
+    "@backstage/integration" "^1.10.0"
+    "@backstage/integration-react" "^1.1.26"
     "@backstage/plugin-catalog-common" "^1.0.22"
-    "@backstage/plugin-catalog-react" "^1.11.2"
+    "@backstage/plugin-catalog-react" "^1.11.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
