@@ -4553,9 +4553,9 @@
     zod "^3.22.4"
 
 "@backstage/plugin-scaffolder-backend@^1.13.1":
-  version "1.22.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.22.4.tgz#8bb4b188441f0b72735687d1267af46c0c0819f6"
-  integrity sha512-g8f7hdx3/2x9cEFOKssuomBipphK2OUIL4X6gUJOsrZ7+J/Q/1daFy9RuLzVJPA0aDeirSjgE27n5wl4Mt8YJQ==
+  version "1.22.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.22.5.tgz#db81592e28ff1399742fc15f50187fab8729d97c"
+  integrity sha512-HJ9FxafG4di0tq9MZsnNoh4aY5pzLUfsE8JJiQvzEEO2geOozhs3BFEHfQ/x6wCJuleUq9FPLX4+ymmLgTIgQw==
   dependencies:
     "@backstage/backend-common" "^0.21.7"
     "@backstage/backend-plugin-api" "^0.6.17"
@@ -4600,6 +4600,7 @@
     prom-client "^15.0.0"
     uuid "^9.0.0"
     winston "^3.2.1"
+    winston-transport "^4.7.0"
     yaml "^2.0.0"
     zen-observable "^0.10.0"
     zod "^3.22.4"
