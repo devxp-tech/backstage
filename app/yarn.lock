@@ -3528,7 +3528,7 @@
     zen-observable "^0.10.0"
     zod "~3.18.0"
 
-"@backstage/core-components@^0.14.0", "@backstage/core-components@^0.14.3", "@backstage/core-components@^0.14.4":
+"@backstage/core-components@^0.14.0", "@backstage/core-components@^0.14.3", "@backstage/core-components@^0.14.4", "@backstage/core-components@^0.14.6":
   version "0.14.6"
   resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.14.6.tgz#50bfc6a418b45885cd353d5ecf49710eca661345"
   integrity sha512-9HkJLPFG/XqMJJUIDw1DZ4Y0DUz7yjFc4227ZpIXhhC9GtDrvQQIBdZhg35Wu0CmlO6aezp7dHKs0vh4eFdS2g==
@@ -8313,15 +8313,15 @@
     lodash-es "^4.17.21"
 
 "@roadiehq/backstage-plugin-argo-cd@^2.2.12":
-  version "2.6.4"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.6.4.tgz#c07c41ef2510c42c65189b7cce27a6a05ec8256e"
-  integrity sha512-dQ3InmLbaG3kv4hrgMsaCzJNBLmKYR8Wpb5VZK9i9HaMOl86bba5e/f0qxstOfQULypd8AJxNo2Z4VSuEboJ2Q==
+  version "2.6.5"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.6.5.tgz#5de33bee305bbdf332b8a168e1403ec9775ec033"
+  integrity sha512-pR8+DI8PB1rfcV9mf6Vu6L2S6L4ks5dzntnstfaLDIuAKdZWK9drolTlnXxHbMqxlso7LObOptDLP3bEHdtHbg==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
-    "@backstage/plugin-catalog-react" "^1.11.2"
-    "@backstage/theme" "^0.5.2"
+    "@backstage/core-components" "^0.14.6"
+    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/plugin-catalog-react" "^1.11.3"
+    "@backstage/theme" "^0.5.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
