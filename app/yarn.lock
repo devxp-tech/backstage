@@ -3528,7 +3528,7 @@
     zen-observable "^0.10.0"
     zod "~3.18.0"
 
-"@backstage/core-components@^0.14.0", "@backstage/core-components@^0.14.3", "@backstage/core-components@^0.14.4":
+"@backstage/core-components@^0.14.0", "@backstage/core-components@^0.14.3", "@backstage/core-components@^0.14.4", "@backstage/core-components@^0.14.6":
   version "0.14.6"
   resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.14.6.tgz#50bfc6a418b45885cd353d5ecf49710eca661345"
   integrity sha512-9HkJLPFG/XqMJJUIDw1DZ4Y0DUz7yjFc4227ZpIXhhC9GtDrvQQIBdZhg35Wu0CmlO6aezp7dHKs0vh4eFdS2g==
@@ -8381,15 +8381,15 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-prometheus@^2.4.6":
-  version "2.8.7"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-2.8.7.tgz#1f393edace73db6b0746fa3ac80a3c0e30d26ddb"
-  integrity sha512-p6T0fEsPhjM3omSQzzb9Mx1rh5sN+HQVBfZ1g34+c+7Qn3aITWXGtXkeDczSl2fluZHD5Xggmys5/RMOWWrlEA==
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-2.8.8.tgz#d4f2db70bf76432fbd90f016ae980ceac11e9ef5"
+  integrity sha512-41pGPtEZA33X4PEkIQIqaFt2l5UQ77sjVenoVy9dHTVNIR0pROGYDsEbU4FhgxPgWbnrpJDaWLKDtS5dIQ/0Qg==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-components" "^0.14.3"
-    "@backstage/core-plugin-api" "^1.9.1"
-    "@backstage/plugin-catalog-react" "^1.11.2"
-    "@backstage/theme" "^0.5.2"
+    "@backstage/core-components" "^0.14.6"
+    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/plugin-catalog-react" "^1.11.3"
+    "@backstage/theme" "^0.5.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
