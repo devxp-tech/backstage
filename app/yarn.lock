@@ -3280,10 +3280,10 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
-"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.4.5.tgz#b8f6309ff12b72dffdfe852d615c553ae13452c0"
-  integrity sha512-I4QOCy0pSXJikQWgC8MWj2zDRCgQnnmvnNOOnPFcg7hIIIzeV0sGp6d3Qi7bc2tvzXt3fT3biSOCgGOWi1IJKA==
+"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.5.0.tgz#7f5c4a80a3341555db5209fbc6fc2d25f6500707"
+  integrity sha512-CfLO5/DMGahneuLU4KTQEs1tgNhBciUtyGUDZB4Ii9i1Uha1poWcqp4HKg61lj1hmXNDUHmlbFqY9W7kmzRC0A==
   dependencies:
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
@@ -3310,18 +3310,18 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.26.0":
-  version "0.26.4"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.4.tgz#c044b818568899b4aae5e08716e7f933d1a846a0"
-  integrity sha512-ywMa+wcHy1gGTxuBwkFiyTP1bRx14OXfrMz4oW0gmFnfiCy8ycKAqNhKcRYXlJuMi/YAA5GbDj/oQOEg37uYiQ==
+  version "0.26.5"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.5.tgz#07b44673de9f220c8d928723e168eeb8a6f6cd47"
+  integrity sha512-Q5TdVA6jvs0oEgZEsneudyawnKjoeT/g5+G+bjPWKuAV9iweePSWgsb0mLCP/9BD8E6D8y9e8WFHGPaCMwHREQ==
   dependencies:
-    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/catalog-model" "^1.5.0"
     "@backstage/cli-common" "^0.1.13"
     "@backstage/cli-node" "^0.2.5"
     "@backstage/config" "^1.2.0"
     "@backstage/config-loader" "^1.8.0"
     "@backstage/errors" "^1.2.4"
-    "@backstage/eslint-plugin" "^0.1.7"
-    "@backstage/integration" "^1.10.0"
+    "@backstage/eslint-plugin" "^0.1.8"
+    "@backstage/integration" "^1.11.0"
     "@backstage/release-manifests" "^0.0.11"
     "@backstage/types" "^1.1.1"
     "@manypkg/get-packages" "^1.1.3"
@@ -3593,10 +3593,10 @@
     "@backstage/types" "^1.1.1"
     serialize-error "^8.0.1"
 
-"@backstage/eslint-plugin@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.7.tgz#9fe844f5075a8b449b09b37b4eb11f5e24b5e597"
-  integrity sha512-a2vPwtw5UpfCjVeBtyiP/fdbZ1NqjcpF5z5iAVsgDUiJKwfMSpoQNrbh4SuUxgG+PFkftR1GkdQPBuJZnimXKA==
+"@backstage/eslint-plugin@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.8.tgz#4c554916ae9bdce17ab7082a5c341646f170c9b7"
+  integrity sha512-pYAGh3LoTlM0JhW+5ujEim+AjGs6xnGJcZAlnQ0jnlqdItSvMklL1mIkpwgY2i9NM6AxYzoYnXF8AQxnz6RSTg==
   dependencies:
     "@manypkg/get-packages" "^1.1.3"
     minimatch "^9.0.0"
@@ -3641,10 +3641,10 @@
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/integration@^1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.10.0.tgz#81f37dcb506a4c6febaf9b3be88b5c4d2a40e6ec"
-  integrity sha512-OSXo6yHKl8kZ2xKAk7CM8d3jfWuoRXjhg1oOxxLq0t2CNzCRfD8f8swCFKs3PJl0HDygwf/vFjTsbP7UXlAtkA==
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.11.0.tgz#0a04b6d3e15569c1074b7f39a7a3a17eefd1b89b"
+  integrity sha512-RRci3a/uEmfYCCFxuw+8GgLPuWeCxt7iGOJYUZlyDEPfvUL+GSIdB2GQm4nzktRCUrNaJPd7QxaagmQgPCaIzg==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@backstage/config" "^1.2.0"
