@@ -4338,7 +4338,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-kubernetes-common@^0.7.5", "@backstage/plugin-kubernetes-common@^0.7.6":
+"@backstage/plugin-kubernetes-common@^0.7.6":
   version "0.7.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.7.6.tgz#32862a46a58f3af7b9c77a29d92ee4ea4fdfb319"
   integrity sha512-gYs+fnnN1VHbBlOil9B443jATZCuvL4hM7afIG4DLbanv6OSMi34hPmI71kZItyvcxQEmcP0QlF7MwArbL12jg==
@@ -4804,14 +4804,14 @@
     "@backstage/plugin-search-common" "^1.2.11"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.26"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.26.tgz#10e3c05d44c0ffa0f0070fd88924381b8d98dfa9"
-  integrity sha512-/S3CLPHUaOoVtaXSdf04OfTzPQp1IExLixVe0YRdjjavQ9+QSqsz4lxbTe79ZLPxWxzs0lIFiA/wUVHs+LTmzw==
+  version "0.5.27"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.27.tgz#0171583ce6a27c6b485bcb819100f6d13070c076"
+  integrity sha512-EEpYvXUe44xvENcIoEMzvWueEk4VRiMjtB72RQIg50rLKBkK/syATvpSfA8rfkp/XfGM1OShHUqs7tWt3KgjOg==
   dependencies:
-    "@backstage/backend-common" "^0.21.7"
-    "@backstage/backend-plugin-api" "^0.6.17"
+    "@backstage/backend-common" "^0.22.0"
+    "@backstage/backend-plugin-api" "^0.6.18"
     "@backstage/config" "^1.2.0"
-    "@backstage/plugin-search-backend-node" "^1.2.21"
+    "@backstage/plugin-search-backend-node" "^1.2.22"
     "@backstage/plugin-search-common" "^1.2.11"
     knex "^3.0.0"
     lodash "^4.17.21"
