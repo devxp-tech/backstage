@@ -3522,7 +3522,7 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.12.4", "@backstage/core-app-api@^1.12.5", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.12.5", "@backstage/core-app-api@^1.7.0":
   version "1.12.5"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.5.tgz#d82396137d80f0b9cc3faa79ad4240faae1566b9"
   integrity sha512-tDWjBtg7fz734hmymNDX+emnjeqyzBWxkcCJTgD1nxdt6eGYfAnqVp2kGbZfnuHe4QGA1yxjJvN+xazARlXqyQ==
@@ -5216,16 +5216,16 @@
     yaml-diff-patch "^2.0.0"
 
 "@backstage/test-utils@^1.3.0":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.4.tgz#096769bbd80af7b57670283cd929d2a44c967899"
-  integrity sha512-o1cSMMAyqxqhzRJhHPdEHdtaKDgsSlAy/INpx8fj0YcUCu/vYoyEJdNTSALyXY9jGnugsuXKdiBMJl91zskBDA==
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.5.tgz#ef550ca8fa5e55bad8230a619557b578e11810dd"
+  integrity sha512-PJWpdATs0kumQbEDS472stuF4/xTiyz0vaMRK/rXrlAVN7HA6b6L6KMShj1yux2nic/GsoFLCtChH9D798mFaw==
   dependencies:
     "@backstage/config" "^1.2.0"
-    "@backstage/core-app-api" "^1.12.4"
+    "@backstage/core-app-api" "^1.12.5"
     "@backstage/core-plugin-api" "^1.9.2"
     "@backstage/plugin-permission-common" "^0.7.13"
     "@backstage/plugin-permission-react" "^0.4.22"
-    "@backstage/theme" "^0.5.3"
+    "@backstage/theme" "^0.5.4"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
