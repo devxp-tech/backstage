@@ -5105,15 +5105,15 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-module-addons-contrib@^1.0.12":
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.9.tgz#e166cc11c6f31c575d8dd2fc3cfc448f5e2f4187"
-  integrity sha512-So5PYjI35E29fo885J/hPAdhkCdhCFWO2GGBreno9ZQGN8n7UNSiTrcDPhYwbqaLT4TW3nQuYpfhG7qfWDVfBQ==
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.10.tgz#e38bb24a4218507ce0f76ebd51f7455b72ce7c71"
+  integrity sha512-7xzNs7mr3yyFy1ceQ6udnztr+MNNoCuD76DV0NrDLGVwUg+lFzmWyb0hbAvm3NmAdBDFvz17KBtDRd+DX7wdhQ==
   dependencies:
-    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-components" "^0.14.7"
     "@backstage/core-plugin-api" "^1.9.2"
-    "@backstage/integration" "^1.10.0"
-    "@backstage/integration-react" "^1.1.26"
-    "@backstage/plugin-techdocs-react" "^1.2.3"
+    "@backstage/integration" "^1.11.0"
+    "@backstage/integration-react" "^1.1.27"
+    "@backstage/plugin-techdocs-react" "^1.2.4"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@react-hookz/web" "^24.0.0"
@@ -5154,14 +5154,14 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.3.tgz#95c9cfdc2c83177155190b8b11259d94c8f6b82a"
-  integrity sha512-bvQjB0R4LlevnW9yj9rgOocTJc19p8JhdwfZPeP8CnF34xX4lyRqtuN/rqJ7vFbELS4HgVMkujAq5LgObAkZkQ==
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.3", "@backstage/plugin-techdocs-react@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.4.tgz#84271e195a3728dfd9b1a8dee804cc67e7f6f485"
+  integrity sha512-6w2J9Y7SB7todpjBhT8ebUu3O/iAh2dUCOnPbSlTNSoJFD46R454Fs+6c1GENaNXx9zdoCtnTHvzmAP/pNo66Q==
   dependencies:
-    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/catalog-model" "^1.5.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-components" "^0.14.7"
     "@backstage/core-plugin-api" "^1.9.2"
     "@backstage/version-bridge" "^1.0.8"
     "@material-ui/core" "^4.12.2"
