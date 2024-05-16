@@ -3098,15 +3098,15 @@
     to-fast-properties "^2.0.0"
 
 "@backstage/app-defaults@^1.3.0":
-  version "1.5.4"
-  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.4.tgz#db646dfba05730100d9d6daf0d0c6cf4d4d84aaf"
-  integrity sha512-kcQ2aFXgyY/374MQvfmJzMWjXgW9tP1DWjz6ZfqpA9YFBZDKQ1PX9hh422hvhKeP/j3+aIY7cvC6Nirn9WpUYg==
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.5.tgz#0a5e8e25c4941efc974a31fe0cb83d00e3c52325"
+  integrity sha512-BtNf5h7thalS1nW3L76ji4xnubCb3frERTJVuYhULflgIJSGQGF1dR+XhwZmYDljUteDmdRlgK+ZCNCivkMSLg==
   dependencies:
-    "@backstage/core-app-api" "^1.12.4"
-    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-app-api" "^1.12.5"
+    "@backstage/core-components" "^0.14.7"
     "@backstage/core-plugin-api" "^1.9.2"
     "@backstage/plugin-permission-react" "^0.4.22"
-    "@backstage/theme" "^0.5.3"
+    "@backstage/theme" "^0.5.4"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
@@ -3564,7 +3564,7 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.12.4", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.12.4", "@backstage/core-app-api@^1.12.5", "@backstage/core-app-api@^1.7.0":
   version "1.12.5"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.5.tgz#d82396137d80f0b9cc3faa79ad4240faae1566b9"
   integrity sha512-tDWjBtg7fz734hmymNDX+emnjeqyzBWxkcCJTgD1nxdt6eGYfAnqVp2kGbZfnuHe4QGA1yxjJvN+xazARlXqyQ==
@@ -5329,16 +5329,7 @@
   dependencies:
     "@material-ui/core" "^4.12.2"
 
-"@backstage/theme@^0.5.0", "@backstage/theme@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.3.tgz#bc715ad0f2215f1ad9683d15a460240feabbafca"
-  integrity sha512-0d9tyLfbrjdIugSQHVA4ww/XT/VR7Kt2SvkhX/ZvQkcud85P4MN2P0aF/9q7BZeog7wpjI00AGHoWzMX4MdDIw==
-  dependencies:
-    "@emotion/react" "^11.10.5"
-    "@emotion/styled" "^11.10.5"
-    "@mui/material" "^5.12.2"
-
-"@backstage/theme@^0.5.4":
+"@backstage/theme@^0.5.0", "@backstage/theme@^0.5.3", "@backstage/theme@^0.5.4":
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.4.tgz#6509672e47f07edd64d5cdf9e8ac4c5d9c0bc3c3"
   integrity sha512-uUswMJvEYiRiJWShcxrxWZui2KFLGXeBrxbmoCxpIKF+WmN1B7u8Q9uraCDprXHvEyYo87DDE21AaE255ldsUA==
