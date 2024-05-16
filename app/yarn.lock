@@ -3654,21 +3654,6 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/integration@^1.11.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.11.0.tgz#0a04b6d3e15569c1074b7f39a7a3a17eefd1b89b"
-  integrity sha512-RRci3a/uEmfYCCFxuw+8GgLPuWeCxt7iGOJYUZlyDEPfvUL+GSIdB2GQm4nzktRCUrNaJPd7QxaagmQgPCaIzg==
-  dependencies:
-    "@azure/identity" "^4.0.0"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@octokit/auth-app" "^4.0.0"
-    "@octokit/rest" "^19.0.3"
-    cross-fetch "^4.0.0"
-    git-url-parse "^14.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-
 "@backstage/plugin-api-docs@^0.11.0":
   version "0.11.5"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.11.5.tgz#8647ba6084f91ca6848a49df94cf2ede2ef98c31"
@@ -5045,13 +5030,13 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.3.tgz#95c9cfdc2c83177155190b8b11259d94c8f6b82a"
-  integrity sha512-bvQjB0R4LlevnW9yj9rgOocTJc19p8JhdwfZPeP8CnF34xX4lyRqtuN/rqJ7vFbELS4HgVMkujAq5LgObAkZkQ==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.4.tgz#84271e195a3728dfd9b1a8dee804cc67e7f6f485"
+  integrity sha512-6w2J9Y7SB7todpjBhT8ebUu3O/iAh2dUCOnPbSlTNSoJFD46R454Fs+6c1GENaNXx9zdoCtnTHvzmAP/pNo66Q==
   dependencies:
-    "@backstage/catalog-model" "^1.4.5"
+    "@backstage/catalog-model" "^1.5.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-components" "^0.14.4"
+    "@backstage/core-components" "^0.14.7"
     "@backstage/core-plugin-api" "^1.9.2"
     "@backstage/version-bridge" "^1.0.8"
     "@material-ui/core" "^4.12.2"
