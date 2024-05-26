@@ -35,6 +35,7 @@ import { ServerPermissionClient } from '@backstage/plugin-permission-node';
 import { DefaultIdentityClient } from '@backstage/plugin-auth-node';
 import kubernetes from './plugins/kubernetes';
 import todo from './plugins/todo';
+import { metricsHandler } from './metrics';
 
 function makeCreateEnv(config: Config) {
   const root = getRootLogger();
@@ -110,7 +111,8 @@ async function main() {
 
   const service = createServiceBuilder(module)
     .loadConfig(config)
-.addRouter('', await healthcheck(healthcheckEnv))
+    .addRouter('', await healthcheck(healthcheckEnv))
+    .addRouter('', metricsHandler())
     .addRouter('/api', apiRouter)
     .addRouter('', await app(appEnv));
 
