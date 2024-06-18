@@ -3637,10 +3637,10 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.9.2.tgz#1a75865e567708829f5a8056ad23ea94233f4b7f"
-  integrity sha512-VbMzgbp5c14B+xi5qFDXEd/LMsrM9D9IpU9tLPSaN2fn9FWhxmeHILNaiLHO2mdLd6RxLopKKbKWduBYbqyu5Q==
+"@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.9.3.tgz#66b4b7dc620823c66b123c8a2d6db088e2936027"
+  integrity sha512-MV/RQv8nAPYVkVX926Z+VPW2W4ZzU9VN2s9NhWSWqoYuOzsmA4FgmfNDuwiPEAUKW7AlVCGI4A0deUZ22Orgyw==
   dependencies:
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
@@ -3694,21 +3694,21 @@
     "@backstage/errors" "^1.2.4"
 
 "@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.1.27":
-  version "1.1.27"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.27.tgz#df215f67e63d7c75e4e98c257b19d8e092836811"
-  integrity sha512-F4NZoUeUtE0sHrEkZ1vye1tQVG3gc/xMng4c+9lCVEZjEjM5c9geZaL1vJNoVHRpFjknYlqeqBwFoP2iqnfV4w==
+  version "1.1.28"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.28.tgz#ea9394d0c144cf9d14c94ea81a1187aeb8041360"
+  integrity sha512-Qo5b2rS9tatuMAgoQTnC1lIBdRMo61gxDSeamq/C8Yu8ytThb1XDGciKP8JHe3pitIVvWXVXGht+EEL+IaPC4Q==
   dependencies:
     "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.9.2"
-    "@backstage/integration" "^1.11.0"
+    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/integration" "^1.12.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.11.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.11.0.tgz#0a04b6d3e15569c1074b7f39a7a3a17eefd1b89b"
-  integrity sha512-RRci3a/uEmfYCCFxuw+8GgLPuWeCxt7iGOJYUZlyDEPfvUL+GSIdB2GQm4nzktRCUrNaJPd7QxaagmQgPCaIzg==
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.11.0", "@backstage/integration@^1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.12.0.tgz#3e65aae7984dfc85de5a42140b8a581d76656459"
+  integrity sha512-4MpRYuV+IkzZ+BzMIkmtxR1YyhidIq7+JccqXXhorI8BoAQLUmTZqlryTh9uiWIwY4u/GrIUIvZ81fPVxALjCQ==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@backstage/config" "^1.2.0"
