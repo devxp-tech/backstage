@@ -3716,13 +3716,13 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.12.5", "@backstage/core-app-api@^1.7.0":
-  version "1.12.5"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.5.tgz#d82396137d80f0b9cc3faa79ad4240faae1566b9"
-  integrity sha512-tDWjBtg7fz734hmymNDX+emnjeqyzBWxkcCJTgD1nxdt6eGYfAnqVp2kGbZfnuHe4QGA1yxjJvN+xazARlXqyQ==
+"@backstage/core-app-api@^1.12.5", "@backstage/core-app-api@^1.12.6", "@backstage/core-app-api@^1.7.0":
+  version "1.12.6"
+  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.12.6.tgz#42ec06430a4055b3ccae70e235797ce5860368d3"
+  integrity sha512-wgRb254HG+v6ELKb927Bmpvp66eN/ihV0uhPI2qRL5Hua+3xPX30fXxPGWA/ShgeGFozPY+yF/RnOwYeuiDYVg==
   dependencies:
     "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.8"
     "@types/prop-types" "^15.7.3"
@@ -4707,14 +4707,14 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.22":
-  version "0.4.22"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.22.tgz#7a6d60a7ada0748ca7c23ccba64b1afc7b33045c"
-  integrity sha512-FPGbx3jasbC/PoKTud7qYgprMop1MejmgqoV3CtWFnWlhICjxEcTTl+guK5EkYWxjIiJPRFrUjEuDqQ42Fsiqg==
+"@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.22", "@backstage/plugin-permission-react@^0.4.23":
+  version "0.4.23"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.23.tgz#3a09d8bd31f10fb46727e3b0468cc322e2a11fcb"
+  integrity sha512-ERqb9o9Hk+iDyu3krZNCe0OGBUw7ci426WPq76mSCszHbYiOgbdHDmujnEX/qHdbek3MYvf/Z+ZsjGjKiGm6Iw==
   dependencies:
     "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.9.2"
-    "@backstage/plugin-permission-common" "^0.7.13"
+    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/plugin-permission-common" "^0.7.14"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     swr "^2.0.0"
 
@@ -5421,16 +5421,16 @@
     cross-fetch "^4.0.0"
 
 "@backstage/test-utils@^1.3.0":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.5.tgz#ef550ca8fa5e55bad8230a619557b578e11810dd"
-  integrity sha512-PJWpdATs0kumQbEDS472stuF4/xTiyz0vaMRK/rXrlAVN7HA6b6L6KMShj1yux2nic/GsoFLCtChH9D798mFaw==
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.5.6.tgz#6d10e2485bc06dc9cdb3f7f7541f8129c7577b6c"
+  integrity sha512-9s7YPakCnDqWPNl2WKdrsiM9MrdcFmZqrW9WoJCK2/vzDnIE8+P3tYEwqlhA4b+jowy8tWGz1de8Nz/hCwO3jQ==
   dependencies:
     "@backstage/config" "^1.2.0"
-    "@backstage/core-app-api" "^1.12.5"
-    "@backstage/core-plugin-api" "^1.9.2"
-    "@backstage/plugin-permission-common" "^0.7.13"
-    "@backstage/plugin-permission-react" "^0.4.22"
-    "@backstage/theme" "^0.5.4"
+    "@backstage/core-app-api" "^1.12.6"
+    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/plugin-permission-common" "^0.7.14"
+    "@backstage/plugin-permission-react" "^0.4.23"
+    "@backstage/theme" "^0.5.6"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -5446,10 +5446,10 @@
   dependencies:
     "@material-ui/core" "^4.12.2"
 
-"@backstage/theme@^0.5.0", "@backstage/theme@^0.5.3", "@backstage/theme@^0.5.4", "@backstage/theme@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.5.tgz#cf6556d123c998612c734d56be60a0c8a211c8d6"
-  integrity sha512-KRgRHCD38tcBkSlkAje+pOY2anfZzaO3QHgv5VqiSL2mpaI/RQLv6/PhRjCcWm/yx5WXBK1S5uG/8x7VeSEcwA==
+"@backstage/theme@^0.5.0", "@backstage/theme@^0.5.3", "@backstage/theme@^0.5.4", "@backstage/theme@^0.5.5", "@backstage/theme@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.5.6.tgz#18645cbe42fb5667946e0a5dd38f2fb0bb056597"
+  integrity sha512-7/0sZYAS+2p/eEWC8eBINWHNv4jas6R20e0R5f0fc1YvLnVQ8HhnpZ6+d2vDMe7X2A2TBBcyJbSCybHdRAKpAA==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
