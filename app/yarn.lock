@@ -4376,24 +4376,24 @@
     zen-observable "^0.10.0"
 
 "@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.20.0":
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.20.0.tgz#6014e41886fc1a33b6a5de7ce387c0fa52c9f55e"
-  integrity sha512-T+Hif/whZtVhSxhvoRGI7/qh4Yq9+aZeoFe/LSDNAbZXjMeWNePMYKA39reEDMhdrF/EkE4PwUy6iAnEfZpWcA==
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.21.0.tgz#3535508bc2026fb44182c99b94d4ec4cfdbbfed1"
+  integrity sha512-jMQtxqBUp9vZBtwpf1vJ3LcC+VziLVQ1obqBDxfNTErBgCAw0/ELkAeW4IqSPVCrUqTSpSwk2vR8dE73QpuyAg==
   dependencies:
     "@backstage/catalog-client" "^1.6.5"
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-compat-api" "^0.2.5"
-    "@backstage/core-components" "^0.14.7"
-    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/core-compat-api" "^0.2.6"
+    "@backstage/core-components" "^0.14.8"
+    "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.5"
-    "@backstage/integration-react" "^1.1.27"
-    "@backstage/plugin-catalog-common" "^1.0.23"
-    "@backstage/plugin-catalog-react" "^1.12.0"
-    "@backstage/plugin-permission-react" "^0.4.22"
-    "@backstage/plugin-scaffolder-common" "^1.5.2"
-    "@backstage/plugin-search-common" "^1.2.11"
-    "@backstage/plugin-search-react" "^1.7.11"
+    "@backstage/frontend-plugin-api" "^0.6.6"
+    "@backstage/integration-react" "^1.1.28"
+    "@backstage/plugin-catalog-common" "^1.0.24"
+    "@backstage/plugin-catalog-react" "^1.12.1"
+    "@backstage/plugin-permission-react" "^0.4.23"
+    "@backstage/plugin-scaffolder-common" "^1.5.3"
+    "@backstage/plugin-search-common" "^1.2.12"
+    "@backstage/plugin-search-react" "^1.7.12"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -4826,13 +4826,13 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-common@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.5.2.tgz#f16d88a3594e02961bd2facd13bf7fc013cab3a2"
-  integrity sha512-lBet98Oxx+sLsKv84Ke8yF+47svpfzOmGdK8H0YBg+/BQ5M8SrfE05VNXF6VQw5NLsRundgcPMSIrpwKNGJxmQ==
+"@backstage/plugin-scaffolder-common@^1.5.2", "@backstage/plugin-scaffolder-common@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.5.3.tgz#8243821a807ad4b92b9ea6cb6828ebf8bd5b5b47"
+  integrity sha512-fgwENB+s4OLrxCzRB1laRYSDejjfiYwfWXutu12lg04BBavs+mLVJIn1g8mcxcXCQ6a547dqUIzNDQEWZYu+jA==
   dependencies:
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/plugin-permission-common" "^0.7.13"
+    "@backstage/plugin-permission-common" "^0.7.14"
     "@backstage/types" "^1.1.1"
 
 "@backstage/plugin-scaffolder-node@^0.4.4":
@@ -5048,16 +5048,16 @@
     "@backstage/plugin-permission-common" "^0.7.14"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.7.11":
-  version "1.7.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.7.11.tgz#0590bb66647ec5f3470ed84da9bfd84103f2351b"
-  integrity sha512-2jQXiX6kyCACswzCZbSGcRp2hE01adC7uJKHtIDxJ32oaeLumBXDd9NuupkIssuic64/G4+Sn1HYR3JWm2MA6Q==
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.7.11", "@backstage/plugin-search-react@^1.7.12":
+  version "1.7.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.7.12.tgz#21f8833480d8928517222bc76eb38edfa64ce935"
+  integrity sha512-qg2c6mT/JcIEDUFMld1OGa2DcGwVp8GorPYtfKMvr0yrcOj8TlYxp1XUePs7l4MwieBJ0aJX2vClZ4soFeNfOw==
   dependencies:
-    "@backstage/core-components" "^0.14.7"
-    "@backstage/core-plugin-api" "^1.9.2"
-    "@backstage/frontend-plugin-api" "^0.6.5"
-    "@backstage/plugin-search-common" "^1.2.11"
-    "@backstage/theme" "^0.5.4"
+    "@backstage/core-components" "^0.14.8"
+    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/frontend-plugin-api" "^0.6.6"
+    "@backstage/plugin-search-common" "^1.2.12"
+    "@backstage/theme" "^0.5.6"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.8"
     "@material-ui/core" "^4.12.2"
