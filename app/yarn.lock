@@ -3473,29 +3473,10 @@
     ajv "^8.10.0"
     lodash "^4.17.21"
 
-"@backstage/cli-common@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.13.tgz#cbeda6a359ca4437fc782f0ac51bb957e8d49e73"
-  integrity sha512-UMgNAIJSeEPSMkzxiWCP8aFR8APsG21XczDnzwHdL/41F7g2C+KA6UeQc/3tzbe8XQo+PxbNLpReZeKSSnSPSQ==
-
-"@backstage/cli-common@^0.1.14":
+"@backstage/cli-common@^0.1.13", "@backstage/cli-common@^0.1.14":
   version "0.1.14"
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.14.tgz#2291520acfbac860a05dd48fc3b876d5cd789b76"
   integrity sha512-4kGWGrFuxoaCne2aHCOVW+vi8y2MLEMEj785SEApMG2J8jXJXUuIOzWw0MrN0pM1FqBXDb6aeQd+bmQMK/Ci+w==
-
-"@backstage/cli-node@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.5.tgz#553257a70cb7bc5c8097ed0c801eb87295164771"
-  integrity sha512-qe2Sb3777lcimkt0zSv183vPr1892luAeBURgVb+8BmSChExYnibw7/QRPdv20p5qDayHb4HDVmlCo66OYBHtw==
-  dependencies:
-    "@backstage/cli-common" "^0.1.13"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/types" "^1.1.1"
-    "@manypkg/get-packages" "^1.1.3"
-    "@yarnpkg/parsers" "^3.0.0-rc.4"
-    fs-extra "^11.2.0"
-    semver "^7.5.3"
-    zod "^3.22.4"
 
 "@backstage/cli-node@^0.2.6":
   version "0.2.6"
@@ -3512,18 +3493,18 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.26.0":
-  version "0.26.6"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.6.tgz#7da045d08dad2c797904b00402b76355e420f24f"
-  integrity sha512-g9/0smHu6ltcWuDVJBRbAzEDzj0ijb1jbfk7qqyWqIkWLnK0VqbTzgLPPEvIgOMG4VSCqDop46DCVPcOi3qeUQ==
+  version "0.26.9"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.9.tgz#6614c6d4e7808d2ac23bf8f69de0657709ce5e58"
+  integrity sha512-lfGaFJd7koGO2WpUhy/hDa9oHgPHR/84Ev4I+RBFsTEmyi3SqOWV68kJzOE6u4LRXPoSCcmSUxDv982cBkwYGQ==
   dependencies:
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/cli-common" "^0.1.13"
-    "@backstage/cli-node" "^0.2.5"
+    "@backstage/cli-common" "^0.1.14"
+    "@backstage/cli-node" "^0.2.6"
     "@backstage/config" "^1.2.0"
-    "@backstage/config-loader" "^1.8.0"
+    "@backstage/config-loader" "^1.8.1"
     "@backstage/errors" "^1.2.4"
     "@backstage/eslint-plugin" "^0.1.8"
-    "@backstage/integration" "^1.11.0"
+    "@backstage/integration" "^1.12.0"
     "@backstage/release-manifests" "^0.0.11"
     "@backstage/types" "^1.1.1"
     "@manypkg/get-packages" "^1.1.3"
@@ -3553,7 +3534,7 @@
     "@typescript-eslint/eslint-plugin" "^6.12.0"
     "@typescript-eslint/parser" "^6.7.2"
     "@yarnpkg/lockfile" "^1.1.0"
-    "@yarnpkg/parsers" "^3.0.0-rc.4"
+    "@yarnpkg/parsers" "^3.0.0"
     bfj "^8.0.0"
     buffer "^6.0.3"
     chalk "^4.0.0"
@@ -11338,7 +11319,7 @@
   resolved "https://registry.yarnpkg.com/@yarnpkg/lockfile/-/lockfile-1.1.0.tgz#e77a97fbd345b76d83245edcd17d393b1b41fb31"
   integrity sha512-GpSwvyXOcOOlV70vbnzjj4fW5xW/FdUF6nQEt1ENy7m4ZCczi1+/buVUPAqmGfqznsORNFzUMjctTIp8a9tuCQ==
 
-"@yarnpkg/parsers@3.0.0-rc.46", "@yarnpkg/parsers@^3.0.0-rc.4":
+"@yarnpkg/parsers@3.0.0-rc.46":
   version "3.0.0-rc.46"
   resolved "https://registry.yarnpkg.com/@yarnpkg/parsers/-/parsers-3.0.0-rc.46.tgz#03f8363111efc0ea670e53b0282cd3ef62de4e01"
   integrity sha512-aiATs7pSutzda/rq8fnuPwTglyVwjM22bNnK2ZgjrpAjQHSSl3lztd2f9evst1W/qnC58DRz7T7QndUDumAR4Q==
