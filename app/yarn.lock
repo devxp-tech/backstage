@@ -4491,6 +4491,19 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
+"@backstage/plugin-kubernetes-common@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.8.0.tgz#8f61277eef59b603d6bbece55a71a5dcf6ddc05a"
+  integrity sha512-VlGh7MxChF07Hy1nx39KpJpaaMWKaZrx0TbVTllWeahCTWxEvHAw4oIrDfvw4S8nT+aanbS90ucbv6lcT6wLuA==
+  dependencies:
+    "@backstage/catalog-model" "^1.5.0"
+    "@backstage/plugin-permission-common" "^0.7.14"
+    "@backstage/types" "^1.1.1"
+    "@kubernetes/client-node" "0.20.0"
+    kubernetes-models "^4.3.1"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+
 "@backstage/plugin-kubernetes-node@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.1.12.tgz#64d74b55fc9ae9f4502e38e5e4c833254d92c53b"
@@ -4504,16 +4517,16 @@
     node-fetch "^2.6.7"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.3.5.tgz#f0943f05bebf48f54bce3e362e89d07047dd7ccd"
-  integrity sha512-oayHPifloJDJVg2s8K5bFL7FIADjgep2BeXUgHPo8SuB8+NHaakjlQdYAkrfdrEdz7f9Ez9i7MLohsV1Zqsxmg==
+"@backstage/plugin-kubernetes-react@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.4.0.tgz#719489bcb7726d3788adf88d76ad66ca5420211b"
+  integrity sha512-xfSujzFxicMH8A9MZl/ag1MvugnH3K5xLBym/ezSxoWfnXyLynbbLDhAacJ6pT2wJq5VxbDbjHNIW9u0IknVMg==
   dependencies:
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-components" "^0.14.7"
-    "@backstage/core-plugin-api" "^1.9.2"
+    "@backstage/core-components" "^0.14.8"
+    "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/errors" "^1.2.4"
-    "@backstage/plugin-kubernetes-common" "^0.7.6"
+    "@backstage/plugin-kubernetes-common" "^0.8.0"
     "@backstage/types" "^1.1.1"
     "@kubernetes-models/apimachinery" "^1.1.0"
     "@kubernetes-models/base" "^4.0.1"
@@ -4533,16 +4546,16 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-kubernetes@^0.11.0":
-  version "0.11.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.10.tgz#9c291eac7b1500270db9c2c9b6f43361218fb8e6"
-  integrity sha512-Kvugp6o2cnykJlbnZ79r/eaHDYJEquC9vn6L83gdt1QEA9vqNFtMfl8KPcpnUY6MCqA1p6ZdSnRQonLgz+jbMg==
+  version "0.11.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.11.tgz#780f38d19fc0dced88e275cca6711ba6f032e88a"
+  integrity sha512-NgHPwDL441UobU9iM+fXbWtDcrgjmnnNy2yTWnyNJZv796guTq33MyAG7HuZjUbrGc2jPR/TfWG7A1wPEVQXrg==
   dependencies:
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-components" "^0.14.7"
-    "@backstage/core-plugin-api" "^1.9.2"
-    "@backstage/plugin-catalog-react" "^1.12.0"
-    "@backstage/plugin-kubernetes-common" "^0.7.6"
-    "@backstage/plugin-kubernetes-react" "^0.3.5"
+    "@backstage/core-components" "^0.14.8"
+    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/plugin-catalog-react" "^1.12.1"
+    "@backstage/plugin-kubernetes-common" "^0.8.0"
+    "@backstage/plugin-kubernetes-react" "^0.4.0"
     "@kubernetes-models/apimachinery" "^1.1.0"
     "@kubernetes-models/base" "^4.0.1"
     "@kubernetes/client-node" "0.20.0"
