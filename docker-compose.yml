@@ -1,9 +1,5 @@
 version: "3.8"
 
-secrets:
-  aws_creds:
-    file: ~/.aws
-
 services:
   app:
     &defaults
@@ -17,9 +13,6 @@ services:
     working_dir: /app
     volumes:
       - ./app:/app
-    secrets:
-      - source: aws_creds
-        target: /node/.aws
     ports:
       - 3000:3000
       - 7007:7007
