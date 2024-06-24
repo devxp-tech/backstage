@@ -1,4 +1,9 @@
 version: "3.8"
+
+secrets:
+  aws_creds:
+    file: ~/.aws
+
 services:
   app:
     &defaults
@@ -12,6 +17,9 @@ services:
     working_dir: /app
     volumes:
       - ./app:/app
+    secrets:
+      - source: aws_creds
+        target: /node/.aws
     ports:
       - 3000:3000
       - 7007:7007
@@ -33,9 +41,9 @@ services:
       - POSTGRES_USER=postgres
       - SONARQUBE_TOKEN=$SONARQUBE_TOKEN
       - TECHDOCS_BUCKET=$TECHDOCS_BUCKET
-      # - AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
-      # - AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
-      # - AWS_REGION=$AWS_REGION
+      - AWS_ACCESS_KEY_ID=$TECHDOCS_AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY=$TECHDOCS_AWS_SECRET_ACCESS_KEY
+      - AWS_REGION=us-east-1
     depends_on:
       - postgres
 

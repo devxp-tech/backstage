@@ -1,7 +1,7 @@
 import {
   createRouter,
   DefaultSonarqubeInfoProvider,
-} from '@backstage/plugin-sonarqube-backend';
+} from '@backstage-community/plugin-sonarqube-backend';
 import { Router } from 'express';
 import { PluginEnvironment } from '../types';
 

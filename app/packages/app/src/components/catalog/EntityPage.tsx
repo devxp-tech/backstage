@@ -31,7 +31,7 @@ import {
 import {
   isGithubActionsAvailable,
   EntityGithubActionsContent,
-} from '@backstage/plugin-github-actions';
+} from '@backstage-community/plugin-github-actions';
 import {
   EntityUserProfileCard,
   EntityGroupProfileCard,
@@ -69,8 +69,8 @@ import {
   isSecurityInsightsAvailable,
 } from '@roadiehq/backstage-plugin-security-insights';
 import { EntityKubernetesContent } from '@backstage/plugin-kubernetes';
-import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
-import { EntityTodoContent } from '@backstage/plugin-todo';
+import { EntitySonarQubeCard } from '@backstage-community/plugin-sonarqube';
+import { EntityTodoContent } from '@backstage-community/plugin-todo';
 // import { SnykOverview, EntitySnykContent, isSnykAvailable } from 'backstage-plugin-snyk';
 
 import {

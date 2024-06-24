@@ -74,19 +74,23 @@ integrations:
       # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
       # about setting up the GitHub integration here: https://backstage.io/docs/getting-started/configuration#setting-up-a-github-integration
       token: ${GITHUB_TOKEN}
-    ### Example for how to add your GitHub Enterprise instance using the API:
-    # - host: ghe.example.net
-    #   apiBaseUrl: https://ghe.example.net/api/v3
-    #   token: ${GHE_TOKEN}
+  aws:
+    mainAccount:
+      profile: development
+    accounts:
+      - accountId: ${AWS_ACCOUNT_ID}
+        accessKeyId: ${AWS_ACCESS_KEY_ID}
+        secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
+        profile: development
 
 # Reference documentation http://backstage.io/docs/features/techdocs/configuration
 # Note: After experimenting with basic setup, use CI/CD to generate docs
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
 techdocs:
-  builder: "local" # Alternatives - 'external'
-  generator:
-    runIn: "docker" # Alternatives - 'local'
+  builder: "external" # Alternatives - 'external'
+  # generator:
+  #   runIn: 'docker'
   publisher:
     type: "awsS3"
     awsS3:
@@ -97,24 +101,25 @@ techdocs:
         secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
 
 proxy:
-  "/argocd/api":
-    target: https://argocd.devxp-tech.io/api/v1/
-    changeOrigin: true
-    # only if your argocd api has self-signed cert
-    secure: true
-    headers:
-      Cookie:
-        $env: ARGOCD_AUTH_TOKEN
+  endpoints:
+    "/argocd/api":
+      target: https://argocd.devxp-tech.io/api/v1/
+      changeOrigin: true
+      # only if your argocd api has self-signed cert
+      secure: true
+      headers:
+        Cookie:
+          $env: ARGOCD_AUTH_TOKEN
 
-  "/grafana/api":
-    # May be an internal DNS
-    target: https://grafana.devxp-tech.io/
-    headers:
-      Authorization: Bearer ${GRAFANA_TOKEN}
+    "/grafana/api":
+      # May be an internal DNS
+      target: https://grafana.devxp-tech.io/
+      headers:
+        Authorization: Bearer ${GRAFANA_TOKEN}
 
-  "/prometheus/api":
-    # url to the api and path of your hosted prometheus instance
-    target: https://prometheus.devxp-tech.io/api/v1/
+    "/prometheus/api":
+      # url to the api and path of your hosted prometheus instance
+      target: https://prometheus.devxp-tech.io/api/v1/
 
   # '/snyk':
   #   target: https://snyk.io/api/v1

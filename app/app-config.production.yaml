@@ -32,6 +32,14 @@ integrations:
   github:
     - host: github.com
       token: ${GITHUB_TOKEN}
+  aws:
+    mainAccount:
+      profile: development
+    accounts:
+      - accountId: ${AWS_ACCOUNT_ID}
+        accessKeyId: ${AWS_ACCESS_KEY_ID}
+        secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
+        profile: development
 
 kubernetes:
   serviceLocatorMethod:
@@ -65,12 +73,6 @@ kubernetes:
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
 
-aws:
-  accounts:
-    - accountId: ${AWS_ACCOUNT_ID}
-      accessKeyId: ${AWS_ACCESS_KEY_ID}
-      secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
-
 techdocs:
   builder: "external" # Alternatives - 'external'
   # generator:
@@ -83,24 +85,25 @@ techdocs:
       region: ${AWS_REGION}
 
 proxy:
-  "/argocd/api":
-    target: https://argocd.devxp-tech.io/api/v1/
-    changeOrigin: true
-    # only if your argocd api has self-signed cert
-    secure: true
-    headers:
-      Cookie:
-        $env: ARGOCD_AUTH_TOKEN
+  endpoints:
+    "/argocd/api":
+      target: https://argocd.devxp-tech.io/api/v1/
+      changeOrigin: true
+      # only if your argocd api has self-signed cert
+      secure: true
+      headers:
+        Cookie:
+          $env: ARGOCD_AUTH_TOKEN
 
-  "/grafana/api":
-    # May be an internal DNS
-    target: http://grafana.monitoring.svc/
-    headers:
-      Authorization: Bearer ${GRAFANA_TOKEN}
+    "/grafana/api":
+      # May be an internal DNS
+      target: http://grafana.monitoring.svc/
+      headers:
+        Authorization: Bearer ${GRAFANA_TOKEN}
 
-  "/prometheus/api":
-    # url to the api and path of your hosted prometheus instance
-    target: http://prometheus-community-kube-prometheus.monitoring.svc.cluster.local:9090/api/v1/
+    "/prometheus/api":
+      # url to the api and path of your hosted prometheus instance
+      target: http://prometheus-community-kube-prometheus.monitoring.svc.cluster.local:9090/api/v1/
 
 auth:
   environment: production
