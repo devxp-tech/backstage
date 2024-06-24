@@ -65,6 +65,12 @@ kubernetes:
 # and an external cloud storage when deploying TechDocs for production use-case.
 # https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
 
+aws:
+  accounts:
+    - accountId: ${AWS_ACCOUNT_ID}
+      accessKeyId: ${AWS_ACCESS_KEY_ID}
+      secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
+
 techdocs:
   builder: "external" # Alternatives - 'external'
   # generator:
@@ -73,9 +79,8 @@ techdocs:
     type: "awsS3"
     awsS3:
       bucketName: ${TECHDOCS_BUCKET}
+      accountId: ${AWS_ACCOUNT_ID}
       region: ${AWS_REGION}
-      credentials:
-        roleArn: ${AWS_ROLE}
 
 proxy:
   "/argocd/api":
