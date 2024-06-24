@@ -184,6 +184,9 @@ kubernetes:
             - group: "autoscaling"
               apiVersion: "v2"
               plural: "horizontalpodautoscalers"
+            - group: "bitnami.com"
+              apiVersion: "v1alpha1"
+              plural: "sealedsecrets"
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
