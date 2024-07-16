@@ -4811,16 +4811,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-common@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.5.3.tgz#8243821a807ad4b92b9ea6cb6828ebf8bd5b5b47"
-  integrity sha512-fgwENB+s4OLrxCzRB1laRYSDejjfiYwfWXutu12lg04BBavs+mLVJIn1g8mcxcXCQ6a547dqUIzNDQEWZYu+jA==
-  dependencies:
-    "@backstage/catalog-model" "^1.5.0"
-    "@backstage/plugin-permission-common" "^0.7.14"
-    "@backstage/types" "^1.1.1"
-
-"@backstage/plugin-scaffolder-common@^1.5.4":
+"@backstage/plugin-scaffolder-common@^1.5.3", "@backstage/plugin-scaffolder-common@^1.5.4":
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.5.4.tgz#b1fed2735b1a373f8e56e4d99d8e1af972e11f4c"
   integrity sha512-oSyKLv+055SIOKge1NrQQrnwb9944Ov1aWm9jWCcQ20+ejWCc9STJWtiZ0POZbtbo6fVpJiBLdzQDqnmLzyuLA==
@@ -4850,18 +4841,18 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-react@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.9.0.tgz#90920d42afc33684cffd637376ed5f3d0fd8456d"
-  integrity sha512-k5O+dn7jcO+meZ1UOaBVnTivPqAfBa8zA71TXHW89ht9w0KGOeEko0dayH9lPSXmv33i0GhJDQ9Qf4CVP23QPg==
+"@backstage/plugin-scaffolder-react@^1.10.0":
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.10.0.tgz#3f439cae9622a379fbfc4c3c9f0cd1b12f89156f"
+  integrity sha512-rfYFlp9Tq9NIuSSLyNQa0KZfqrv/hsSIoUn0qGpMYgK4yIeS3KZNbbzsurmt8ldBtwzvWAR2pacftpWDcL6jkg==
   dependencies:
     "@backstage/catalog-client" "^1.6.5"
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-components" "^0.14.8"
+    "@backstage/core-components" "^0.14.9"
     "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/plugin-catalog-react" "^1.12.1"
-    "@backstage/plugin-permission-react" "^0.4.23"
-    "@backstage/plugin-scaffolder-common" "^1.5.3"
+    "@backstage/plugin-catalog-react" "^1.12.2"
+    "@backstage/plugin-permission-react" "^0.4.24"
+    "@backstage/plugin-scaffolder-common" "^1.5.4"
     "@backstage/theme" "^0.5.6"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.8"
@@ -4869,10 +4860,10 @@
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
     "@react-hookz/web" "^24.0.0"
-    "@rjsf/core" "5.18.4"
-    "@rjsf/material-ui" "5.18.4"
-    "@rjsf/utils" "5.18.4"
-    "@rjsf/validator-ajv8" "5.18.4"
+    "@rjsf/core" "5.18.5"
+    "@rjsf/material-ui" "5.18.5"
+    "@rjsf/utils" "5.18.5"
+    "@rjsf/validator-ajv8" "5.18.5"
     "@types/json-schema" "^7.0.9"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     classnames "^2.2.6"
@@ -4890,24 +4881,24 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.22.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.22.0.tgz#ae18082d0dfb0540146a69589741ef805ae9a42d"
-  integrity sha512-nfm7gNVQNe6anOCeJ2lTJEitAnOJPs7wzE+0ZHuXD8Be0pG/L3XbAd/AmaTeOc2YusEzo2m2BCkJQo9PnJ4Yhg==
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.23.0.tgz#ffdf0ee5e7ce27ec151907f7f833bc08376d8c9f"
+  integrity sha512-gz8QakYcjnanhovOHKLcl3+ZN4eTu5XyH9X1os4bK+16dfHtZw4smLA0rPKR9vnVT7yVDeNkp6oUJ1jj+REDjA==
   dependencies:
     "@backstage/catalog-client" "^1.6.5"
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-compat-api" "^0.2.6"
-    "@backstage/core-components" "^0.14.8"
+    "@backstage/core-compat-api" "^0.2.7"
+    "@backstage/core-components" "^0.14.9"
     "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.6"
-    "@backstage/integration" "^1.12.0"
-    "@backstage/integration-react" "^1.1.28"
-    "@backstage/plugin-catalog-common" "^1.0.24"
-    "@backstage/plugin-catalog-react" "^1.12.1"
-    "@backstage/plugin-permission-react" "^0.4.23"
-    "@backstage/plugin-scaffolder-common" "^1.5.3"
-    "@backstage/plugin-scaffolder-react" "^1.9.0"
+    "@backstage/frontend-plugin-api" "^0.6.7"
+    "@backstage/integration" "^1.13.0"
+    "@backstage/integration-react" "^1.1.29"
+    "@backstage/plugin-catalog-common" "^1.0.25"
+    "@backstage/plugin-catalog-react" "^1.12.2"
+    "@backstage/plugin-permission-react" "^0.4.24"
+    "@backstage/plugin-scaffolder-common" "^1.5.4"
+    "@backstage/plugin-scaffolder-react" "^1.10.0"
     "@backstage/types" "^1.1.1"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
@@ -4917,10 +4908,10 @@
     "@material-ui/lab" "4.0.0-alpha.61"
     "@microsoft/fetch-event-source" "^2.0.1"
     "@react-hookz/web" "^24.0.0"
-    "@rjsf/core" "5.18.4"
-    "@rjsf/material-ui" "5.18.4"
-    "@rjsf/utils" "5.18.4"
-    "@rjsf/validator-ajv8" "5.18.4"
+    "@rjsf/core" "5.18.5"
+    "@rjsf/material-ui" "5.18.5"
+    "@rjsf/utils" "5.18.5"
+    "@rjsf/validator-ajv8" "5.18.5"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     "@uiw/react-codemirror" "^4.9.3"
     classnames "^2.2.6"
@@ -4932,6 +4923,7 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
     qs "^6.9.4"
+    react-resizable "^3.0.5"
     react-use "^17.2.4"
     react-window "^1.8.10"
     yaml "^2.0.0"
@@ -8584,10 +8576,10 @@
   resolved "https://registry.yarnpkg.com/@repeaterjs/repeater/-/repeater-3.0.5.tgz#b77571685410217a548a9c753aa3cdfc215bfc78"
   integrity sha512-l3YHBLAol6d/IKnB9LhpD0cEZWAoe3eFKUyTYWmFmCO2Q/WOckxLQAUyMZWwZV2M/m3+4vgRoaolFqaII82/TA==
 
-"@rjsf/core@5.18.4":
-  version "5.18.4"
-  resolved "https://registry.yarnpkg.com/@rjsf/core/-/core-5.18.4.tgz#a0e5a77a54dd07bcd40dd287db7002b8973421f4"
-  integrity sha512-OUPC+l44X1geYT9sSsmQC2pakvFWCQB+5Iy/ITfLMJq3MIjJn0gakCwYHXMMBGUAKM1SSMIyKWyCazt3kY9fhg==
+"@rjsf/core@5.18.5":
+  version "5.18.5"
+  resolved "https://registry.yarnpkg.com/@rjsf/core/-/core-5.18.5.tgz#580209de5cf66fac975b0a649df9b8e921aac96a"
+  integrity sha512-TTG6zSybzfSp+ko4U/WIeyVX5dRLbl7C0ZU2lpK/f6ruuLbBji8A523iLYINOzyDQL5uBtMdmRdO6oMdCz79tw==
   dependencies:
     lodash "^4.17.21"
     lodash-es "^4.17.21"
@@ -8595,10 +8587,10 @@
     nanoid "^3.3.7"
     prop-types "^15.8.1"
 
-"@rjsf/material-ui@5.18.4":
-  version "5.18.4"
-  resolved "https://registry.yarnpkg.com/@rjsf/material-ui/-/material-ui-5.18.4.tgz#9135ccd544b0e4cfb75c33a37f94d1c33863c85b"
-  integrity sha512-jShLQ7AGDGK+b5MDdMzSSu97YaIk4OTtWYfjlbKlVMOFIWW4AGO/exPZfLtcGW3ST4LYWWQE02g8O0SQpnLWaA==
+"@rjsf/material-ui@5.18.5":
+  version "5.18.5"
+  resolved "https://registry.yarnpkg.com/@rjsf/material-ui/-/material-ui-5.18.5.tgz#bbb68519217a67b80679429fb97dd3e57c56e823"
+  integrity sha512-1JiXnwvvnOin6/PfmbFVxSUN7ZQA780QSFEoscoi2VlB008rLpLPQcxFxPJFNGw37QjXvCiySjsFpHKJKqvqIw==
 
 "@rjsf/utils@5.17.1":
   version "5.17.1"
@@ -8611,10 +8603,10 @@
     lodash-es "^4.17.21"
     react-is "^18.2.0"
 
-"@rjsf/utils@5.18.4":
-  version "5.18.4"
-  resolved "https://registry.yarnpkg.com/@rjsf/utils/-/utils-5.18.4.tgz#098c767f6bfbbf660f201d864bf8bba247453dfd"
-  integrity sha512-svLMk5aW6q3JQRYVTJradFc9tLeQ1vX5/k6fPwxf+08eweqPbINq7aokLBSStUNr8FfYgThTl8IfehLoVP2dvw==
+"@rjsf/utils@5.18.5":
+  version "5.18.5"
+  resolved "https://registry.yarnpkg.com/@rjsf/utils/-/utils-5.18.5.tgz#638724740b29784804dd244b0574213aa181469b"
+  integrity sha512-b39ZSPv2lpH+VXUKrVsPnPyOKcTa9P08h50J0A1+7xHj6dm4KG1KY/mY4QCaNavZVXsQoieHOe8kmdFDlXirzA==
   dependencies:
     json-schema-merge-allof "^0.8.1"
     jsonpointer "^5.0.1"
@@ -8622,10 +8614,10 @@
     lodash-es "^4.17.21"
     react-is "^18.2.0"
 
-"@rjsf/validator-ajv8@5.18.4":
-  version "5.18.4"
-  resolved "https://registry.yarnpkg.com/@rjsf/validator-ajv8/-/validator-ajv8-5.18.4.tgz#ffdf91f0641affc0b40b3259d07528cc5b147753"
-  integrity sha512-D0bUtruWbUmXG8z3VBbCky0Cx65rmcdG/QypB9ri5YTSNTQIxuq28StBpZUZn84CO/oMOtociGy4afW1aj5C0g==
+"@rjsf/validator-ajv8@5.18.5":
+  version "5.18.5"
+  resolved "https://registry.yarnpkg.com/@rjsf/validator-ajv8/-/validator-ajv8-5.18.5.tgz#0f02f39462b3cdc15641df9dd63263600556b374"
+  integrity sha512-R1kPl86NzhbVYyRQ7Sa3GLDEmZdum7Qcvi9wKBy0GmnONM9dX6wZGikzr5/7x8mVYCIjukAd3eL129uchIv95w==
   dependencies:
     ajv "^8.12.0"
     ajv-formats "^2.1.1"
@@ -13156,7 +13148,7 @@ clone@^1.0.2:
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
 
-clsx@^1.0.2, clsx@^1.0.4, clsx@^1.2.1:
+clsx@^1.0.2, clsx@^1.0.4, clsx@^1.1.1, clsx@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
   integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
@@ -23015,7 +23007,7 @@ promzard@^1.0.0:
   dependencies:
     read "^2.0.0"
 
-prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@15.x, prop-types@^15.0.0, prop-types@^15.5.10, prop-types@^15.5.7, prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -23444,6 +23436,14 @@ react-double-scrollbar@0.0.15:
   resolved "https://registry.yarnpkg.com/react-double-scrollbar/-/react-double-scrollbar-0.0.15.tgz#e915ab8cb3b959877075f49436debfdb04288fe4"
   integrity sha512-dLz3/WBIpgFnzFY0Kb4aIYBMT2BWomHuW2DH6/9jXfS6/zxRRBUFQ04My4HIB7Ma7QoRBpcy8NtkPeFgcGBpgg==
 
+react-draggable@^4.0.3:
+  version "4.4.6"
+  resolved "https://registry.yarnpkg.com/react-draggable/-/react-draggable-4.4.6.tgz#63343ee945770881ca1256a5b6fa5c9f5983fe1e"
+  integrity sha512-LtY5Xw1zTPqHkVmtM3X8MUOxNDOUhv/khTgBgrUvwaS064bwVvxT+q5El0uUFNx5IEPKXuRejr7UqLwBIg5pdw==
+  dependencies:
+    clsx "^1.1.1"
+    prop-types "^15.8.1"
+
 react-error-overlay@^6.0.11:
   version "6.0.11"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
@@ -23586,6 +23586,14 @@ react-remove-scroll@2.5.5:
     tslib "^2.1.0"
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
+
+react-resizable@^3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-3.0.5.tgz#362721f2efbd094976f1780ae13f1ad7739786c1"
+  integrity sha512-vKpeHhI5OZvYn82kXOs1bC8aOXktGU5AmKAgaZS4F5JPburCtbmDPqE7Pzp+1kN4+Wb81LlF33VpGwWwtXem+w==
+  dependencies:
+    prop-types "15.x"
+    react-draggable "^4.0.3"
 
 react-resize-detector@^2.3.0:
   version "2.3.0"
