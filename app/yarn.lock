@@ -4236,13 +4236,13 @@
     zod "^3.22.4"
 
 "@backstage/plugin-catalog-common@^1.0.13", "@backstage/plugin-catalog-common@^1.0.24":
-  version "1.0.24"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.0.24.tgz#022c408b0e8c6b55e89779c6f4fef5f09e9f8e89"
-  integrity sha512-LozPOa/HgDdobb4/p54W02+exZfuu0tIdKs3OCdvcd8xRh4Y30Qxqpi/kGwsSXCLCBNZv3ffNRuzmYe58VlX/w==
+  version "1.0.25"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.0.25.tgz#48f15c7887f72756f26a0ae13850e2e564187ec8"
+  integrity sha512-q9TyM0Lh/4T+B7kHdnOALtGVPD93pqGaShiAYOH+9UzTh0CceUHOSkE1QtQq6RrRS5Wqq9YD+ZXkEo+TwMuV+w==
   dependencies:
     "@backstage/catalog-model" "^1.5.0"
-    "@backstage/plugin-permission-common" "^0.7.14"
-    "@backstage/plugin-search-common" "^1.2.12"
+    "@backstage/plugin-permission-common" "^0.8.0"
+    "@backstage/plugin-search-common" "^1.2.13"
 
 "@backstage/plugin-catalog-graph@^0.4.0":
   version "0.4.6"
@@ -5020,12 +5020,12 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/plugin-search-common@^1.2.12":
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.12.tgz#0575788183ad7a66d6496e2ba765ee11bada4f2d"
-  integrity sha512-tjRhkgUYenK+dr+PHiS6pnXASGEVmxqjgoWfYoVNlKcwrXYHbddDoUJ1n51P/urhHqGGiz9zJyt8og+gN+TNaQ==
+"@backstage/plugin-search-common@^1.2.12", "@backstage/plugin-search-common@^1.2.13":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.13.tgz#393899d80d9efad53fd0a285d5aea7acccef1d5a"
+  integrity sha512-DgkQ6ld8vz3NoRYmk7U0lUy6H6K82mXaDbDuBZoWJm8fActA0ZGU2YkkhSq+W0yUYn6xmLIB5rC5AwRkGSYcSw==
   dependencies:
-    "@backstage/plugin-permission-common" "^0.7.14"
+    "@backstage/plugin-permission-common" "^0.8.0"
     "@backstage/types" "^1.1.1"
 
 "@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.7.12":
