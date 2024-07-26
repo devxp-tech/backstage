@@ -8702,9 +8702,9 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-prometheus@^2.4.6":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-2.9.0.tgz#d3eb037d808f3b36c407dcc20f33440bd217d014"
-  integrity sha512-ff1R3WZeAzWmxS98Wmjy+6g8quVERXCvakOKdh9SDw0azUkn1xXb/zKIqCvV1X7v0O7/ehJ30lk/42BMYT9nSA==
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-2.10.0.tgz#4218e8c293721f66ebc29df46eede4db569480ad"
+  integrity sha512-6q7fqw5uBU5tuJyEzQOuH9ZPFdM7QOIDolEUHzemouaQPsuJcZ3mZ20RQfoMQn1+ChXWTK4FxkQCsd4FElkDYw==
   dependencies:
     "@backstage/catalog-model" "^1.4.5"
     "@backstage/core-components" "^0.14.6"
@@ -8719,6 +8719,7 @@
     history "^5.0.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
+    nunjucks "^3.2.4"
     react-use "^17.2.4"
     react-use-dimensions "^1.2.1"
     recharts "^1.8.5"
@@ -21451,7 +21452,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha512-4jbtZXNAsfZbAHiiqjLPBiCl16dES1zI4Hpzzxw61Tk+loF+sBDBKx1ICKKKwIqQ7M0mFn1TmkN7euSncWgHiQ==
 
-nunjucks@^3.2.3:
+nunjucks@^3.2.3, nunjucks@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.2.4.tgz#f0878eef528ce7b0aa35d67cc6898635fd74649e"
   integrity sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ==
