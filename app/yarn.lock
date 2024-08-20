@@ -3935,21 +3935,21 @@
     luxon "^3.0.0"
 
 "@backstage/plugin-api-docs@^0.11.0":
-  version "0.11.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.11.7.tgz#189edf9de81d5392fa35ffc453a0e35b79a3749b"
-  integrity sha512-48fOzG6nBTgiCWkjSW/v7hhsaH8KcqT5PZqjiwtrGvoGrtzF9PypHJ0YtfGZD0lTysn6maMzoTK6CgPfaiVsLg==
+  version "0.11.8"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.11.8.tgz#807833efe9af266e52757d858acb6a3a2570d1c5"
+  integrity sha512-SKk5bwLqr5az1ZtyMHtskY/YhDuMicng2QfHgOTd/KQ1iLrcfzK4egvbh/9acUdE4amYqVrDMB99x+IvWqfRFQ==
   dependencies:
     "@asyncapi/react-component" "1.3.1"
-    "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-compat-api" "^0.2.7"
-    "@backstage/core-components" "^0.14.9"
+    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/core-compat-api" "^0.2.8"
+    "@backstage/core-components" "^0.14.10"
     "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/frontend-plugin-api" "^0.6.7"
-    "@backstage/plugin-catalog" "^1.21.1"
-    "@backstage/plugin-catalog-common" "^1.0.25"
-    "@backstage/plugin-catalog-react" "^1.12.2"
-    "@backstage/plugin-permission-react" "^0.4.24"
-    "@graphiql/react" "^0.20.0"
+    "@backstage/frontend-plugin-api" "^0.7.0"
+    "@backstage/plugin-catalog" "^1.22.0"
+    "@backstage/plugin-catalog-common" "^1.0.26"
+    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/plugin-permission-react" "^0.4.25"
+    "@graphiql/react" "^0.23.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
@@ -4478,7 +4478,7 @@
     yaml "^2.0.0"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.21.1":
+"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.22.0":
   version "1.22.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.22.0.tgz#624994d0acda8b9bced8f7050a99eaf6d54e1622"
   integrity sha512-ObPlq90Olikc+L/GBYcHEnFMReyF7bsSY30EOmgbZ76Ne55WvR1Za24AH/cRhlDaGdvxs+sptdPi6W7Y7/BcqA==
@@ -6266,7 +6266,7 @@
     teeny-request "^9.0.0"
     uuid "^8.0.0"
 
-"@graphiql/react@^0.20.0", "@graphiql/react@^0.20.3":
+"@graphiql/react@^0.20.3":
   version "0.20.3"
   resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.20.3.tgz#3de70153f51329da1d17a220510241320c87212e"
   integrity sha512-LHEiWQPABflTyRJZBZB50WSlrWER4RtlWg9XV1+D4yZQ3+6GbLM7X1zYf4D/TQ6AJB/vLZQHEnbhS0LuKcNqfA==
@@ -6287,10 +6287,39 @@
     markdown-it "^12.2.0"
     set-value "^4.1.0"
 
+"@graphiql/react@^0.23.0":
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/@graphiql/react/-/react-0.23.1.tgz#b1fcc7dd885e043ac92400fb599f637f0e665bc4"
+  integrity sha512-s0xeyDyaRcL5lkwloBob9vM+j5umfr+zxUvydRl3ZpIezmJiq5UXe5jRb2Rt+azHyNJ7yrcnqJgyW0MbyP9Mdw==
+  dependencies:
+    "@graphiql/toolkit" "^0.9.2"
+    "@headlessui/react" "^1.7.15"
+    "@radix-ui/react-dialog" "^1.0.4"
+    "@radix-ui/react-dropdown-menu" "^2.0.5"
+    "@radix-ui/react-tooltip" "^1.0.6"
+    "@radix-ui/react-visually-hidden" "^1.0.3"
+    "@types/codemirror" "^5.60.8"
+    clsx "^1.2.1"
+    codemirror "^5.65.3"
+    codemirror-graphql "^2.0.13"
+    copy-to-clipboard "^3.2.0"
+    framer-motion "^6.5.1"
+    graphql-language-service "^5.2.2"
+    markdown-it "^14.1.0"
+    set-value "^4.1.0"
+
 "@graphiql/toolkit@^0.9.1":
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/@graphiql/toolkit/-/toolkit-0.9.1.tgz#44bfa83aed79c8c18affac49efbb81f8e87bade3"
   integrity sha512-LVt9pdk0830so50ZnU2Znb2rclcoWznG8r8asqAENzV0U1FM1kuY0sdPpc/rBc9MmmNgnB6A+WZzDhq6dbhTHA==
+  dependencies:
+    "@n1ru4l/push-pull-async-iterable-iterator" "^3.1.0"
+    meros "^1.1.4"
+
+"@graphiql/toolkit@^0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@graphiql/toolkit/-/toolkit-0.9.2.tgz#78d8387b4be28df79fb197abd77bb0f29cc16059"
+  integrity sha512-QLPhwx9+E4JfGY+0iwFwa85OBjCJ7GHNypkQoz3pCOwAAlIpFBtXDOuLF1eH9Z08WNZSjRLL7VYW4Ci3hfTqxg==
   dependencies:
     "@n1ru4l/push-pull-async-iterable-iterator" "^3.1.0"
     meros "^1.1.4"
@@ -13335,6 +13364,14 @@ codemirror-graphql@^2.0.10:
     "@types/codemirror" "^0.0.90"
     graphql-language-service "5.2.0"
 
+codemirror-graphql@^2.0.13:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/codemirror-graphql/-/codemirror-graphql-2.1.0.tgz#f67287d19791919982a29e7ebd9954442c6f575f"
+  integrity sha512-Lm5augEJOd+7L6HXzBDmx/n7ViL8P/Dt0ba21X0JLeaMMEWtcG1SOvIdeI35St9ADOGdu/eMOg7aciX/RnWDFA==
+  dependencies:
+    "@types/codemirror" "^0.0.90"
+    graphql-language-service "5.3.0"
+
 codemirror@^5.65.3:
   version "5.65.13"
   resolved "https://registry.yarnpkg.com/codemirror/-/codemirror-5.65.13.tgz#c098a6f409db8b5a7c5722788bd9fa3bb2367f2e"
@@ -14461,6 +14498,11 @@ dayjs@^1.10.4:
   version "1.11.7"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.7.tgz#4b296922642f70999544d1144a2c25730fce63e2"
   integrity sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==
+
+debounce-promise@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/debounce-promise/-/debounce-promise-3.1.2.tgz#320fb8c7d15a344455cd33cee5ab63530b6dc7c5"
+  integrity sha512-rZHcgBkbYavBeD9ej6sP56XfG53d51CD4dnaw989YX/nZ/ZJfgRx/9ePKmTNiUiyQvh4mtrMoS3OAWW+yoYtpg==
 
 debounce@^1.2.0:
   version "1.2.1"
@@ -17067,6 +17109,15 @@ graphql-language-service@5.2.0, graphql-language-service@^5.2.0:
   resolved "https://registry.yarnpkg.com/graphql-language-service/-/graphql-language-service-5.2.0.tgz#cfe22b2e911292d724451580632c67d908e5606a"
   integrity sha512-o/ZgTS0pBxWm3hSF4+6GwiV1//DxzoLWEbS38+jqpzzy1d/QXBidwQuVYTOksclbtOJZ3KR/tZ8fi/tI6VpVMg==
   dependencies:
+    nullthrows "^1.0.0"
+    vscode-languageserver-types "^3.17.1"
+
+graphql-language-service@5.3.0, graphql-language-service@^5.2.2:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/graphql-language-service/-/graphql-language-service-5.3.0.tgz#e99da78b129e30bc6e2a3fd897f7df4ab23b2fee"
+  integrity sha512-gCQIIy7lM9CB1KPLEb+DNZLczA9zuTLEOJE2hEQZTFYInogdmMDRa6RAkvM4LL0LcgcS+3uPs6KtHlcjCqRbUg==
+  dependencies:
+    debounce-promise "^3.1.2"
     nullthrows "^1.0.0"
     vscode-languageserver-types "^3.17.1"
 
@@ -19761,6 +19812,13 @@ linkify-it@^3.0.1:
   dependencies:
     uc.micro "^1.0.1"
 
+linkify-it@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-5.0.0.tgz#9ef238bfa6dc70bd8e7f9572b52d369af569b421"
+  integrity sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==
+  dependencies:
+    uc.micro "^2.0.0"
+
 linkify-react@4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/linkify-react/-/linkify-react-4.1.3.tgz#461d348b4bdab3fcd0452ae1b5bbc22536395b97"
@@ -20234,6 +20292,18 @@ markdown-it@^12.2.0:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
+markdown-it@^14.1.0:
+  version "14.1.0"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-14.1.0.tgz#3c3c5992883c633db4714ccb4d7b5935d98b7d45"
+  integrity sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==
+  dependencies:
+    argparse "^2.0.1"
+    entities "^4.4.0"
+    linkify-it "^5.0.0"
+    mdurl "^2.0.0"
+    punycode.js "^2.3.1"
+    uc.micro "^2.1.0"
+
 markdown-table@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/markdown-table/-/markdown-table-3.0.3.tgz#e6331d30e493127e031dd385488b5bd326e4a6bd"
@@ -20427,6 +20497,11 @@ mdurl@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
   integrity sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==
+
+mdurl@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-2.0.0.tgz#80676ec0433025dd3e17ee983d0fe8de5a2237e0"
+  integrity sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -23302,6 +23377,11 @@ pump@^3.0.0:
   dependencies:
     end-of-stream "^1.1.0"
     once "^1.3.1"
+
+punycode.js@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/punycode.js/-/punycode.js-2.3.1.tgz#6b53e56ad75588234e79f4affa90972c7dd8cdb7"
+  integrity sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==
 
 punycode@1.3.2:
   version "1.3.2"
@@ -26539,6 +26619,11 @@ uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
   integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
+
+uc.micro@^2.0.0, uc.micro@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-2.1.0.tgz#f8d3f7d0ec4c3dea35a7e3c8efa4cb8b45c9e7ee"
+  integrity sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==
 
 uglify-js@^3.1.4:
   version "3.17.4"
