@@ -4964,7 +4964,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/plugin-scaffolder-common@^1.5.4", "@backstage/plugin-scaffolder-common@^1.5.5":
+"@backstage/plugin-scaffolder-common@^1.5.5":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.5.5.tgz#4bc0aae0a125b383223f2725595f471e678afbf7"
   integrity sha512-3ugY2bjW9zF6oeutIagmTht6PkJmHTmV9DP3VZdZSEvmW8mqR3tQkoUuJ1GmFm6LOMNnMUKxC2XqoKM7NSaCgA==
@@ -4996,18 +4996,18 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-react@^1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.10.0.tgz#3f439cae9622a379fbfc4c3c9f0cd1b12f89156f"
-  integrity sha512-rfYFlp9Tq9NIuSSLyNQa0KZfqrv/hsSIoUn0qGpMYgK4yIeS3KZNbbzsurmt8ldBtwzvWAR2pacftpWDcL6jkg==
+"@backstage/plugin-scaffolder-react@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.11.0.tgz#198ce945840234dbbd622040503949ef35beaaee"
+  integrity sha512-y9Lfo6HdBXU4kJ1uLBCHeFhuTdJayjcyYgn8vjxj5hdfGMtQ5rqXKDNOMV5ovz77K1jovWIPuiD3/v7+4mXtVw==
   dependencies:
-    "@backstage/catalog-client" "^1.6.5"
-    "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-components" "^0.14.9"
+    "@backstage/catalog-client" "^1.6.6"
+    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/core-components" "^0.14.10"
     "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/plugin-catalog-react" "^1.12.2"
-    "@backstage/plugin-permission-react" "^0.4.24"
-    "@backstage/plugin-scaffolder-common" "^1.5.4"
+    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/plugin-permission-react" "^0.4.25"
+    "@backstage/plugin-scaffolder-common" "^1.5.5"
     "@backstage/theme" "^0.5.6"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.8"
@@ -5021,6 +5021,7 @@
     "@rjsf/validator-ajv8" "5.18.5"
     "@types/json-schema" "^7.0.9"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
+    ajv-errors "^3.0.0"
     classnames "^2.2.6"
     flatted "3.3.1"
     humanize-duration "^3.25.1"
@@ -5036,24 +5037,24 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.23.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.23.0.tgz#ffdf0ee5e7ce27ec151907f7f833bc08376d8c9f"
-  integrity sha512-gz8QakYcjnanhovOHKLcl3+ZN4eTu5XyH9X1os4bK+16dfHtZw4smLA0rPKR9vnVT7yVDeNkp6oUJ1jj+REDjA==
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.24.0.tgz#ce43c3851151de6db3e8ec4720d3bce56742a71e"
+  integrity sha512-vYB2G9MzvxmGk37S8dHDJ04IVnybYjiu9a3pXK8Jl98HGnRu+yqK/arZ3fvp3hYCrQQhYfEYAEDKByvwZn91pA==
   dependencies:
-    "@backstage/catalog-client" "^1.6.5"
-    "@backstage/catalog-model" "^1.5.0"
-    "@backstage/core-compat-api" "^0.2.7"
-    "@backstage/core-components" "^0.14.9"
+    "@backstage/catalog-client" "^1.6.6"
+    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/core-compat-api" "^0.2.8"
+    "@backstage/core-components" "^0.14.10"
     "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.7"
-    "@backstage/integration" "^1.13.0"
-    "@backstage/integration-react" "^1.1.29"
-    "@backstage/plugin-catalog-common" "^1.0.25"
-    "@backstage/plugin-catalog-react" "^1.12.2"
-    "@backstage/plugin-permission-react" "^0.4.24"
-    "@backstage/plugin-scaffolder-common" "^1.5.4"
-    "@backstage/plugin-scaffolder-react" "^1.10.0"
+    "@backstage/frontend-plugin-api" "^0.7.0"
+    "@backstage/integration" "^1.14.0"
+    "@backstage/integration-react" "^1.1.30"
+    "@backstage/plugin-catalog-common" "^1.0.26"
+    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/plugin-permission-react" "^0.4.25"
+    "@backstage/plugin-scaffolder-common" "^1.5.5"
+    "@backstage/plugin-scaffolder-react" "^1.11.0"
     "@backstage/types" "^1.1.1"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
