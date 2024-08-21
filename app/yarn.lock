@@ -3572,23 +3572,23 @@
     semver "^7.5.3"
     zod "^3.22.4"
 
-"@backstage/cli@^0.26.0":
-  version "0.26.11"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.26.11.tgz#7b0af99608cec9e867f00c9c4797829925ac53b1"
-  integrity sha512-HBvLNEMDBtQ3pd3pvNbxXUoP2zTexElw64mNs2PMYpPSvnyvtx0wsoFDdSUtFF+vnYlfqvg2FaNqLbSKEJjSjQ==
+"@backstage/cli@^0.27.0":
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.27.0.tgz#cc958adb23344330a7a2b7b4c4bb8188b0636274"
+  integrity sha512-NL4nJ+H9HFba21t8sJ7quv7oqYoEFn2VWJJlwbQ3IHGTTvZwiYEFsKL8eJb7KzjXgY5Pela6AgyrNaQGgcp9Wg==
   dependencies:
-    "@backstage/catalog-model" "^1.5.0"
+    "@backstage/catalog-model" "^1.6.0"
     "@backstage/cli-common" "^0.1.14"
     "@backstage/cli-node" "^0.2.7"
     "@backstage/config" "^1.2.0"
-    "@backstage/config-loader" "^1.8.1"
+    "@backstage/config-loader" "^1.9.0"
     "@backstage/errors" "^1.2.4"
     "@backstage/eslint-plugin" "^0.1.8"
-    "@backstage/integration" "^1.13.0"
+    "@backstage/integration" "^1.14.0"
     "@backstage/release-manifests" "^0.0.11"
     "@backstage/types" "^1.1.1"
     "@manypkg/get-packages" "^1.1.3"
-    "@module-federation/enhanced" "^0.1.19"
+    "@module-federation/enhanced" "^0.3.5"
     "@octokit/graphql" "^5.0.0"
     "@octokit/graphql-schema" "^13.7.0"
     "@octokit/oauth-app" "^4.2.0"
@@ -3656,7 +3656,7 @@
     lodash "^4.17.21"
     mini-css-extract-plugin "^2.4.2"
     minimatch "^9.0.0"
-    node-fetch "^2.6.7"
+    node-fetch "^2.7.0"
     node-libs-browser "^2.2.1"
     npm-packlist "^5.0.0"
     ora "^5.3.0"
@@ -7314,14 +7314,21 @@
   resolved "https://registry.yarnpkg.com/@microsoft/fetch-event-source/-/fetch-event-source-2.0.1.tgz#9ceecc94b49fbaa15666e38ae8587f64acce007d"
   integrity sha512-W6CLUJ2eBMw3Rec70qrsEW0jOm/3twwJv21mrmj2yORiaVmVYGS4sSS5yUwvQc1ZlDLYGPnClVWmUUMagKNsfA==
 
-"@module-federation/dts-plugin@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/dts-plugin/-/dts-plugin-0.1.21.tgz#dd5c843a93266ea9442ef1ff000fc4f53e699a42"
-  integrity sha512-o0floS9ZN6i9C3Jmx0O65LasJga03ejxtzjIALzJUJR6fKykOP/Bm39MaBNk/MHoFrgnx0q6SVmARBjINcvPjA==
+"@module-federation/bridge-react-webpack-plugin@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/bridge-react-webpack-plugin/-/bridge-react-webpack-plugin-0.3.5.tgz#dad1f684a0e2234da8f667b068744626c9a66768"
+  integrity sha512-lpyxyLQHRseendP9KvRQFxmswzibmA/9WNXjAJssBDnRyYq6EIYm2kBxKYyummR9n1F/96MtRDCbpObfXmyXqw==
   dependencies:
-    "@module-federation/managers" "0.1.21"
-    "@module-federation/sdk" "0.1.21"
-    "@module-federation/third-party-dts-extractor" "0.1.21"
+    "@module-federation/sdk" "0.3.5"
+
+"@module-federation/dts-plugin@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/dts-plugin/-/dts-plugin-0.3.5.tgz#6f5a03ed47e18fa73ebf94b1fead34579292c09e"
+  integrity sha512-2AN4ZoU8haEmvMhoS+xiTh0OG61m7OyIqYKnz7MaCeKMFPVQESTWZ6754QYHtUCzAvq04cYuXwISnyS8DUYu2Q==
+  dependencies:
+    "@module-federation/managers" "0.3.5"
+    "@module-federation/sdk" "0.3.5"
+    "@module-federation/third-party-dts-extractor" "0.3.5"
     adm-zip "^0.5.10"
     ansi-colors "^4.1.3"
     axios "^1.6.7"
@@ -7333,88 +7340,91 @@
     log4js "6.9.1"
     node-schedule "2.1.1"
     rambda "^9.1.0"
-    ws "8.17.0"
+    ws "8.17.1"
 
-"@module-federation/enhanced@^0.1.19":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/enhanced/-/enhanced-0.1.21.tgz#1a4d8d6c3824d9cac15882a809a9b68ffc03cbec"
-  integrity sha512-FUrwcxj6qdyDG6RhaUR1vhO4aJq8/ZtvWxi4Hf9QTE7yLsBY87cCV0FD0bsYLN5femuik53Q7f3Zw/WxQ8u6Qg==
+"@module-federation/enhanced@^0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/enhanced/-/enhanced-0.3.5.tgz#a83931f7f82c4cbcc91b00908214aa8aa53ab6b1"
+  integrity sha512-eheVoCd5dsIuqhi9ehtw+S1EHkdUMX2gIMMopJQqsOBY2/S91b1sake8DDkrwAQ5KAjWj6IzsQ+XIIpoTZFldA==
   dependencies:
-    "@module-federation/dts-plugin" "0.1.21"
-    "@module-federation/managers" "0.1.21"
-    "@module-federation/manifest" "0.1.21"
-    "@module-federation/rspack" "0.1.21"
-    "@module-federation/runtime-tools" "0.1.21"
-    "@module-federation/sdk" "0.1.21"
+    "@module-federation/bridge-react-webpack-plugin" "0.3.5"
+    "@module-federation/dts-plugin" "0.3.5"
+    "@module-federation/managers" "0.3.5"
+    "@module-federation/manifest" "0.3.5"
+    "@module-federation/rspack" "0.3.5"
+    "@module-federation/runtime-tools" "0.3.5"
+    "@module-federation/sdk" "0.3.5"
+    btoa "^1.2.1"
     upath "2.0.1"
 
-"@module-federation/managers@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/managers/-/managers-0.1.21.tgz#c0ca089453308371f285b43a28b0bfe58ff61dfd"
-  integrity sha512-rmN379q8SIovzZBK3s9z1KE84wXgeJR83cFdHJo/1xDAiou7WneW/fyefIvMsGN61hfFxygHoK0GcgXinFq9GA==
+"@module-federation/managers@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/managers/-/managers-0.3.5.tgz#3407c1500d290b7a1dab3c9036e8752828edff9c"
+  integrity sha512-gd9qE7VgER9B1AyFuiJCBcmghZp4F5fyOvBfA1Hcd7HwQT2wt1hSJgWa0OFnuiJbthq4KKNjiJLFTY/b3pTZbw==
   dependencies:
-    "@module-federation/sdk" "0.1.21"
+    "@module-federation/sdk" "0.3.5"
     find-pkg "2.0.0"
     fs-extra "9.1.0"
 
-"@module-federation/manifest@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/manifest/-/manifest-0.1.21.tgz#11cc876a1da7f8aba8d68b35bcdeeca5ab8aa372"
-  integrity sha512-L4iz5Y3qKJzz0bEAG6bDpPy+hHToHyW5xk8XhLJWFGVuXHjEHBl+cvE8tUAZkuWrhHrEmZBGHeHFxlDvdCKMjg==
+"@module-federation/manifest@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/manifest/-/manifest-0.3.5.tgz#633bec8c23183e727141ab10f8c03fb972a7aab5"
+  integrity sha512-Ky6h3JIu4w5WFfWo4G5pi0VwYRFiohOr1MGhkmoGQM75RBC0btU880eVcGFL8rd9ag2WoTQGAANNQAcwiPtSaA==
   dependencies:
-    "@module-federation/dts-plugin" "0.1.21"
-    "@module-federation/managers" "0.1.21"
-    "@module-federation/sdk" "0.1.21"
+    "@module-federation/dts-plugin" "0.3.5"
+    "@module-federation/managers" "0.3.5"
+    "@module-federation/sdk" "0.3.5"
     chalk "3.0.0"
     find-pkg "2.0.0"
 
-"@module-federation/rspack@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/rspack/-/rspack-0.1.21.tgz#8085b50840b3cf6fc48fb2f5e24671dcc6207a52"
-  integrity sha512-30bmfb7tCQ8Uu4UKbapoSNNo+52a/rF3Nkje3/lv7xcmW/HGC2+/XJvckITo28jWsl5bzYe+pAu7XSExEAC0Ew==
+"@module-federation/rspack@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/rspack/-/rspack-0.3.5.tgz#f2455eb69f1040af1e624e30f92691dea50c36f1"
+  integrity sha512-LVHepCTar2n72oK317nlNSOmVNV3yEApzwxNvbLwJ4+d7Rihl1bu9t+vu/D81zyQuSEu5bw/Ce3XdDYSqeKikw==
   dependencies:
-    "@module-federation/dts-plugin" "0.1.21"
-    "@module-federation/managers" "0.1.21"
-    "@module-federation/manifest" "0.1.21"
-    "@module-federation/runtime-tools" "0.1.21"
-    "@module-federation/sdk" "0.1.21"
+    "@module-federation/bridge-react-webpack-plugin" "0.3.5"
+    "@module-federation/dts-plugin" "0.3.5"
+    "@module-federation/managers" "0.3.5"
+    "@module-federation/manifest" "0.3.5"
+    "@module-federation/runtime-tools" "0.3.5"
+    "@module-federation/sdk" "0.3.5"
 
-"@module-federation/runtime-tools@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/runtime-tools/-/runtime-tools-0.1.21.tgz#0e3e2168bde378cd5d6745b41befeddcd5bdbe3e"
-  integrity sha512-anayDx/wiL80XhD+CPTVvpYvKc4CNbEIy9fGoOCbMQKaKZhgDDE1461fy5abpgJphtj9NoUgCIpEn/O5fHNIfA==
+"@module-federation/runtime-tools@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/runtime-tools/-/runtime-tools-0.3.5.tgz#384f5b6591f83bdd0d55487a4a58c12198f4f8c3"
+  integrity sha512-jpHzbWbwOk0KWfMk/r9PoNbSFLFdOGyZesksFGEjWh5voENoXHo62gRy6K5jGgdlzWMVGwOGLfhMbP+4YB/THw==
   dependencies:
-    "@module-federation/runtime" "0.1.21"
-    "@module-federation/webpack-bundler-runtime" "0.1.21"
+    "@module-federation/runtime" "0.3.5"
+    "@module-federation/webpack-bundler-runtime" "0.3.5"
 
-"@module-federation/runtime@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/runtime/-/runtime-0.1.21.tgz#1d233b29dd136488f2ba682017b53f13e015788a"
-  integrity sha512-/p4BhZ0SnjJuiL0wwu+FebFgIUJ9vM+oCY7CyprUHImyi/Y23ulI61WNWMVrKQGgdMoXQDQCL8RH4EnrVP2ZFw==
+"@module-federation/runtime@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/runtime/-/runtime-0.3.5.tgz#d9c5c03a4650640ae5264185827e9c1a4bf8cb86"
+  integrity sha512-/3trW4KzuAAJ1FqBwWf+O8ORckd8ogxh7a1jzJnxNS9CbJuTWK8pgPKs5ZNDY/P3Hj/JvJ8koCoQ7otS0p3Ppw==
   dependencies:
-    "@module-federation/sdk" "0.1.21"
+    "@module-federation/sdk" "0.3.5"
 
-"@module-federation/sdk@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/sdk/-/sdk-0.1.21.tgz#adb15c38ddfea65f45bd989a94c3a575c8df6991"
-  integrity sha512-r7xPiAm+O4e+8Zvw+8b4ToeD0D0VJD004nHmt+Y8r/l98J2eA6di72Vn1FeyjtQbCrFtiMw3ts/dlqtcmIBipw==
+"@module-federation/sdk@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/sdk/-/sdk-0.3.5.tgz#d526c05b2499180b9df7f35cb3971bda9cbfe6db"
+  integrity sha512-rszYAZOMTqkN8HEls7Z6quE8p0WHMKgY8tXEojNb8XKWbIf95znQgipGbAZivG84k+Lzmvvizm450bMWVOwb8Q==
 
-"@module-federation/third-party-dts-extractor@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/third-party-dts-extractor/-/third-party-dts-extractor-0.1.21.tgz#1c37aa4057ae618cb4b0dd5968e9adb3a7ed4744"
-  integrity sha512-gf+8Ah+/3Fs7jgOycVYDBe6o/tDh/+k7WpaeaQGnRV2p7bkrqfZ07g3IoB/kza1VEJFH4SV3u3VmKD7eB5BjQw==
+"@module-federation/third-party-dts-extractor@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/third-party-dts-extractor/-/third-party-dts-extractor-0.3.5.tgz#87c03a44f378d2b4a7903d944055dcdfd1c9cffe"
+  integrity sha512-mhZT5Mbfs3UrbpUqsu1/ceJrqgRbSrlqV1FOLcgxIq+ppINfvWe7eB/U9qIYBinHdpuknW95NwbPbvhcY/9yMA==
   dependencies:
     find-pkg "2.0.0"
     fs-extra "9.1.0"
     resolve "1.22.8"
 
-"@module-federation/webpack-bundler-runtime@0.1.21":
-  version "0.1.21"
-  resolved "https://registry.yarnpkg.com/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.1.21.tgz#022d96900b0e71c817593d2e08d4f087afd6974d"
-  integrity sha512-WJg133fvC8PMm3RRCul9+bzaMgyTYD7QpseDBscIWyKdZB80wMBTXuRKbKMwujLXHEPCJX+rkgGwolECnSuCiA==
+"@module-federation/webpack-bundler-runtime@0.3.5":
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.3.5.tgz#443f8064e6c09f57c211114d73f34305bfaa4d1d"
+  integrity sha512-l3VswgdWScAl5ml4rdp9x0B5tzhLTA3aSAc+9gdN/VkUnCik28K9kmLY8nBAAT7XlLyCvaY8AEQumcSKC0vgnA==
   dependencies:
-    "@module-federation/runtime" "0.1.21"
-    "@module-federation/sdk" "0.1.21"
+    "@module-federation/runtime" "0.3.5"
+    "@module-federation/sdk" "0.3.5"
 
 "@motionone/animation@^10.12.0":
   version "10.16.3"
@@ -11974,7 +11984,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
   dependencies:
     "@backstage/app-defaults" "^1.3.0"
     "@backstage/catalog-model" "^1.3.0"
-    "@backstage/cli" "^0.26.0"
+    "@backstage/cli" "^0.27.0"
     "@backstage/core-app-api" "^1.7.0"
     "@backstage/core-components" "^0.14.0"
     "@backstage/core-plugin-api" "^1.5.1"
@@ -12829,6 +12839,11 @@ btoa-lite@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/btoa-lite/-/btoa-lite-1.0.0.tgz#337766da15801210fdd956c22e9c6891ab9d0337"
   integrity sha512-gvW7InbIyF8AicrqWoptdW08pUxuhq8BEgowNajy9RhiE86fmGAGl+bLKo6oB8QP0CkqHLowfN0oJdKC/J6LbA==
+
+btoa@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/btoa/-/btoa-1.2.1.tgz#01a9909f8b2c93f6bf680ba26131eb30f7fa3d73"
+  integrity sha512-SB4/MIGlsiVkMcHmT+pSmIPoNDoHg+7cMzmt3Uxt628MTz2487DKSqK/fuhFBrkuqrYv5UCEnACpF4dTFNKc/g==
 
 buffer-crc32@^0.2.1, buffer-crc32@~0.2.3:
   version "0.2.13"
@@ -27580,10 +27595,10 @@ write-pkg@4.0.0:
     type-fest "^0.4.1"
     write-json-file "^3.2.0"
 
-ws@8.17.0:
-  version "8.17.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.0.tgz#d145d18eca2ed25aaf791a183903f7be5e295fea"
-  integrity sha512-uJq6108EgZMAl20KagGkzCKfMEjxmKvZHG7Tlq0Z6nOky7YF7aq4mOx6xK8TJ/i1LeK4Qus7INktacctDgY8Ow==
+ws@8.17.1:
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
+  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
 ws@^7.4.6:
   version "7.5.9"
