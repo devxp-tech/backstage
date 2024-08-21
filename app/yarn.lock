@@ -5192,7 +5192,7 @@
     "@backstage/plugin-permission-common" "^0.8.1"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.7.13", "@backstage/plugin-search-react@^1.7.14":
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.7.14":
   version "1.7.14"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.7.14.tgz#f7a74881288eab7a131e7663b9e65ece6cfa7289"
   integrity sha512-CLZd+x//LTOKBnVh+KyN4IqemoCwvXonKYPw13lZcd170kL7zEfK9Odn/qsQsBPZHhCoLaNI4D4c8UXUh6l6Fg==
@@ -5213,18 +5213,18 @@
     react-use "^17.3.2"
 
 "@backstage/plugin-search@^1.2.0":
-  version "1.4.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.14.tgz#2b9a697266e32993d9b66cb88ee54661e7fd3f8a"
-  integrity sha512-ZPghP7LtUHQIh5Ia/zV74IkOYaFPRo2fIL7OT3a/mA4sodW/c1bMjGRSVeRVgeWZC2ozJoO1ZYvyod7amN4qtg==
+  version "1.4.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.15.tgz#e44b6a38e18aa02dc2a82216731bb9a770e1b04c"
+  integrity sha512-KB64JBVtKIXDtbbZIXD3zAxuHinl7dyZ9wEkfktD817Du9B1b01VdHXDkvffZoEaHmsKjyZjW4+0KeyBZAP3hQ==
   dependencies:
-    "@backstage/core-compat-api" "^0.2.7"
-    "@backstage/core-components" "^0.14.9"
+    "@backstage/core-compat-api" "^0.2.8"
+    "@backstage/core-components" "^0.14.10"
     "@backstage/core-plugin-api" "^1.9.3"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.6.7"
-    "@backstage/plugin-catalog-react" "^1.12.2"
-    "@backstage/plugin-search-common" "^1.2.13"
-    "@backstage/plugin-search-react" "^1.7.13"
+    "@backstage/frontend-plugin-api" "^0.7.0"
+    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/plugin-search-common" "^1.2.14"
+    "@backstage/plugin-search-react" "^1.7.14"
     "@backstage/types" "^1.1.1"
     "@backstage/version-bridge" "^1.0.8"
     "@material-ui/core" "^4.12.2"
