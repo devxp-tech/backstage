@@ -4298,9 +4298,9 @@
     cross-fetch "^4.0.0"
 
 "@backstage/plugin-catalog-backend-module-github@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.7.0.tgz#03b4a41a8d9d05b066ada2c54777d70fc2fec7f9"
-  integrity sha512-TDLCQMSVmhc635PwHratLAn6n2b/6VuOVHYFY7pzUvoZ0959+12gXREQliMptUiHcHEAw6ei7hkwIQyeQVvqYg==
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.7.1.tgz#0c561350535e7d2404a4720ded6746d66af3dd9a"
+  integrity sha512-ez5UOSlnc0XWsFIfFHFxu9c9lafgSVannImkCjpEl7bo340vtrpS16BCRwPw+IyS5s/cRLONqsY/vB19AS0Bdg==
   dependencies:
     "@backstage/backend-common" "^0.24.0"
     "@backstage/backend-plugin-api" "^0.8.0"
@@ -4308,7 +4308,7 @@
     "@backstage/catalog-model" "^1.6.0"
     "@backstage/config" "^1.2.0"
     "@backstage/integration" "^1.14.0"
-    "@backstage/plugin-catalog-backend" "^1.25.0"
+    "@backstage/plugin-catalog-backend" "^1.25.1"
     "@backstage/plugin-catalog-common" "^1.0.26"
     "@backstage/plugin-catalog-node" "^1.12.5"
     "@backstage/plugin-events-node" "^0.3.9"
@@ -4331,10 +4331,10 @@
     "@backstage/plugin-catalog-node" "^1.12.5"
     "@backstage/plugin-scaffolder-common" "^1.5.5"
 
-"@backstage/plugin-catalog-backend@^1.25.0", "@backstage/plugin-catalog-backend@^1.9.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.25.0.tgz#3dab05574416005da559406eaf0645cf23654b69"
-  integrity sha512-aMCkJNpDvsazUZXV1KOdR7bBwJUuDJLMdBCjF7twe/fP4xPgBQuBLZqOHT+UEDhOr7d0dDKFyX68Pt4aR7+/tw==
+"@backstage/plugin-catalog-backend@^1.25.1", "@backstage/plugin-catalog-backend@^1.9.0":
+  version "1.25.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.25.1.tgz#88a7040b8d40ec6572fe53a455fec72be46a979d"
+  integrity sha512-mqUadLgsltVz5S3OwFSuCCJXTF5tB588tkAwa8saKddNMfBEezJAmziVmHg26PPQtfTRr8NDr1HqNa/PxS4h0w==
   dependencies:
     "@backstage/backend-common" "^0.24.0"
     "@backstage/backend-openapi-utils" "^0.1.16"
