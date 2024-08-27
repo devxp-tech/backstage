@@ -3634,12 +3634,12 @@
     zod "^3.22.4"
 
 "@backstage/backend-tasks@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.6.0.tgz#088b8f4aac183998e26d4dc0f1791be077026f01"
-  integrity sha512-DNI3ZucjvnG+LrRlbRZvMbxb+dvutUGG3VKU8FesTE1g14xBaWKgU1gcYWoYnx7Ro0n/iMkwYa1OwTYlniqxBQ==
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-tasks/-/backend-tasks-0.6.1.tgz#5e85f1a2f192c30b771f2e487bb116f7b72e1fcd"
+  integrity sha512-8qipw1v8GpsQcbsPleIXv5pYrI/2pRZbet2XVv7mk7HpgjIkEoTRDtNV/Z6fL/IQZvyOuXPoUnzCDBcMI7Ipew==
   dependencies:
-    "@backstage/backend-common" "^0.24.0"
-    "@backstage/backend-plugin-api" "^0.8.0"
+    "@backstage/backend-common" "^0.24.1"
+    "@backstage/backend-plugin-api" "^0.8.1"
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
@@ -4372,6 +4372,29 @@
     zod-to-json-schema "^3.21.4"
 
 "@backstage/plugin-auth-node@^0.5.0", "@backstage/plugin-auth-node@^0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.5.1.tgz#1637cda18bd98cabdb1d57cb8f678cd1b05f6b7b"
+  integrity sha512-GDudLG6nJrHAX9ot41wvgCnDJlN+nrOtxY2JwEJ1txX1GZD1a67oDI7vpnZ8Bdb/kXZMBVRstCR4XT47CdJFkg==
+  dependencies:
+    "@backstage/backend-common" "^0.24.1"
+    "@backstage/backend-plugin-api" "^0.8.1"
+    "@backstage/catalog-client" "^1.6.6"
+    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/config" "^1.2.0"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/types" "^1.1.1"
+    "@types/express" "*"
+    "@types/passport" "^1.0.3"
+    express "^4.17.1"
+    jose "^5.0.0"
+    lodash "^4.17.21"
+    node-fetch "^2.7.0"
+    passport "^0.7.0"
+    winston "^3.2.1"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
+"@backstage/plugin-auth-node@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.5.1.tgz#1637cda18bd98cabdb1d57cb8f678cd1b05f6b7b"
   integrity sha512-GDudLG6nJrHAX9ot41wvgCnDJlN+nrOtxY2JwEJ1txX1GZD1a67oDI7vpnZ8Bdb/kXZMBVRstCR4XT47CdJFkg==
