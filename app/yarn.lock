@@ -3965,17 +3965,17 @@
     swagger-ui-react "^5.0.0"
 
 "@backstage/plugin-app-backend@^0.3.44":
-  version "0.3.72"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.72.tgz#58ca879dafc6865f486c78bf5407ace66ba5863b"
-  integrity sha512-PyZ3/sf4xkLX+pV/K9TgnPLlHfrykiQlYNPxBc13Zw+nUF4idQZwG9tMhCiay82mTgzOGxx0ad8gfkbw4qNRew==
+  version "0.3.73"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.3.73.tgz#7d30169541b9361d508182cb1b06e3b64f3a0beb"
+  integrity sha512-i37uwT4iRc1wIZi/aOUMpdXjUIdTLIc0TUSQqP1qbPKfG2TeFiptTKmgK2p1EMBWxOdUvrmGLd+jWYpboNgZwg==
   dependencies:
-    "@backstage/backend-common" "^0.24.0"
-    "@backstage/backend-plugin-api" "^0.8.0"
+    "@backstage/backend-common" "^0.24.1"
+    "@backstage/backend-plugin-api" "^0.8.1"
     "@backstage/config" "^1.2.0"
     "@backstage/config-loader" "^1.9.0"
     "@backstage/errors" "^1.2.4"
-    "@backstage/plugin-app-node" "^0.1.23"
-    "@backstage/plugin-auth-node" "^0.5.0"
+    "@backstage/plugin-app-node" "^0.1.24"
+    "@backstage/plugin-auth-node" "^0.5.1"
     "@backstage/types" "^1.1.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
@@ -3988,12 +3988,12 @@
     luxon "^3.0.0"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.23":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.23.tgz#660ce281988118a0090e5146e9caaeecb16d6162"
-  integrity sha512-/waDfaiCEkoxxqmW6MSizIsGKSl3jUc1Me0raVl8IdKqtkbSHbqY+d2pPApOl2SIUqGJ3qtlo1YmI1m2o28Z+w==
+"@backstage/plugin-app-node@^0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.24.tgz#2d102b468da2123541caa5a918dd715806a11e1d"
+  integrity sha512-cKYm+EZQvpE3k+HnP2jZSHs3vUS/OsDg/R9pqC/vRpiLMUP1HTPyAU356L4Ln5V3cDtaPnfUCPGYei2Z+Ffwiw==
   dependencies:
-    "@backstage/backend-plugin-api" "^0.8.0"
+    "@backstage/backend-plugin-api" "^0.8.1"
     "@backstage/config-loader" "^1.9.0"
     "@types/express" "^4.17.6"
     express "^4.17.1"
