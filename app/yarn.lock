@@ -8810,15 +8810,17 @@
     lodash-es "^4.17.21"
 
 "@roadiehq/backstage-plugin-argo-cd@^2.2.12":
-  version "2.6.6"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.6.6.tgz#45c0ebd9c95e84d078872c493e348dcbb424e544"
-  integrity sha512-3wC6nyp7bg9ALO7w/DRQnRCxI84Y//4ssAe5C9QKdTZctTx8GMl3rAGOYqBHm1nGDDG7yx2QxL5O20MGKIFJKw==
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.7.0.tgz#7a10be43f0a072909b310a914c1b50abfb90e5b5"
+  integrity sha512-ZtNQMgrWcRK8W4WU+AD0TTkA7OmAcQwFPJP8EJ/x6xbCa6eC8lLR5O3SQYjZXIHFsW9e7T7K0imHBpvYnNFfkg==
   dependencies:
-    "@backstage/catalog-model" "^1.4.5"
-    "@backstage/core-components" "^0.14.6"
-    "@backstage/core-plugin-api" "^1.9.2"
-    "@backstage/plugin-catalog-react" "^1.11.3"
-    "@backstage/theme" "^0.5.3"
+    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/core-compat-api" "^0.2.8"
+    "@backstage/core-components" "^0.14.10"
+    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/frontend-plugin-api" "^0.7.0"
+    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/theme" "^0.5.6"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
