@@ -5544,20 +5544,20 @@
     react-use "^17.3.2"
 
 "@backstage/plugin-search@^1.2.0":
-  version "1.4.15"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.15.tgz#e44b6a38e18aa02dc2a82216731bb9a770e1b04c"
-  integrity sha512-KB64JBVtKIXDtbbZIXD3zAxuHinl7dyZ9wEkfktD817Du9B1b01VdHXDkvffZoEaHmsKjyZjW4+0KeyBZAP3hQ==
+  version "1.4.16"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.16.tgz#44ffa10dd30a48537ac4f83477482daf3566320e"
+  integrity sha512-M3SBlQqk+mQoaxps5Nilx+N0z685KuSswSjlvyRAbuVU++PEqxrdP9mkbwNhBLJS1Tfka/k9LTQEFlJp5gNbfg==
   dependencies:
-    "@backstage/core-compat-api" "^0.2.8"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/core-compat-api" "^0.3.0"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.7.0"
-    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/frontend-plugin-api" "^0.8.0"
+    "@backstage/plugin-catalog-react" "^1.13.0"
     "@backstage/plugin-search-common" "^1.2.14"
-    "@backstage/plugin-search-react" "^1.7.14"
+    "@backstage/plugin-search-react" "^1.8.0"
     "@backstage/types" "^1.1.1"
-    "@backstage/version-bridge" "^1.0.8"
+    "@backstage/version-bridge" "^1.0.9"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
@@ -5874,14 +5874,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/types/-/types-1.1.1.tgz#c9ccb30357005e7fb5fa2ac140198059976eb076"
   integrity sha512-1cUGu+FwiJZCBOuecd0BOhIRkQYllb+7no9hHhxpAsx/DvsPGMVQMGOMvtdTycdT9SQ5MuSyFwI9wpXp2DwVvQ==
 
-"@backstage/version-bridge@^1.0.3", "@backstage/version-bridge@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.8.tgz#c6664708bcd20744e7b2c440a03f1e44f7c4a2a1"
-  integrity sha512-f4u5YEq/+TLe/W4UnsiD8u15qcuyFx2tuO/RDrJ2c/ulm4TuSeEcupMs7b9oa2Pge5IQAISadz0em1c+VDIB+g==
-  dependencies:
-    "@types/react" "^16.13.1 || ^17.0.0"
-
-"@backstage/version-bridge@^1.0.9":
+"@backstage/version-bridge@^1.0.3", "@backstage/version-bridge@^1.0.8", "@backstage/version-bridge@^1.0.9":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.9.tgz#1369e168dce806422134c3bafb9da5bad4776e49"
   integrity sha512-UqTBxKgNK5HyVzlyVOESd+9J26rF/OJeTrOMrTiReJMGKf8DUCLNDJ7+DbDxIPwSfl5wNbEBEyFAkk9iLK0OoQ==
