@@ -4585,13 +4585,13 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.21.4"
 
-"@backstage/plugin-auth-react@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-react/-/plugin-auth-react-0.1.5.tgz#3b2e1bdbf203f98eea49dc3e6cf59ac3b520f04b"
-  integrity sha512-kMgQiLo+exWKyDX/o34nFYTS9dZNRWuNZBFoGR8hxDHH+mbMBb4gkwXP1WlMDTT1FsyVYwLAQ/a3EY0hn1NADA==
+"@backstage/plugin-auth-react@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-react/-/plugin-auth-react-0.1.6.tgz#71746d05568b0e5510ae6e52eac1842dadfb27c2"
+  integrity sha512-pnaJXU2Xd/1O8370NtTiPwYkOPOZrtUMOUBWG93mLZL9eaXavFiiYHFFvg92EZSKk5U7HxJBTSU+ViJH2z54hQ==
   dependencies:
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/errors" "^1.2.4"
     "@material-ui/core" "^4.9.13"
     "@react-hookz/web" "^24.0.0"
@@ -5715,16 +5715,16 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.7.tgz#b8ee09f94ae90f1a805cf824284ef60a1963bdc0"
-  integrity sha512-SU+u6I4NBTDqCRv5WnMHD5rc7ZQEiYtqN0IKjORf4MJNzSERZo8IYKr0/etQFj2OENxk8kPLA22FTFgA8cCdeg==
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.7", "@backstage/plugin-techdocs-react@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.8.tgz#33fe4acf8c7d7f6bfd4cd2ba297ddabcf6748f20"
+  integrity sha512-7md0d93sGyx0lGKbFpFpQEX0jgy581UxyDUcjISTZMtH3QOReyq31r0Vnse0weoIeDof/xzLVx9AcjJ7XvRvVw==
   dependencies:
-    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/catalog-model" "^1.7.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/version-bridge" "^1.0.8"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
+    "@backstage/version-bridge" "^1.0.9"
     "@material-ui/core" "^4.12.2"
     "@material-ui/styles" "^4.11.0"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
@@ -5734,26 +5734,26 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-techdocs@^1.6.1":
-  version "1.10.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs/-/plugin-techdocs-1.10.8.tgz#9c9a0622d87ac82ca3716351d4c881a6e756310f"
-  integrity sha512-Ya/EDpLvHg2UIJvLsrZ2TJ4a0JLWMyOJ6FygnGAKhxg86bMIriRXD9u6U1RiUHvUEGkM7bRe5QE+i+zM504Oeg==
+  version "1.10.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs/-/plugin-techdocs-1.10.9.tgz#bdf044de5018e3073db6a35175d7af3766f1094f"
+  integrity sha512-gyZYh79FqLB6alSZp2aMikNocOxq+PyOBFqf17CVwm/eAHxQI40KLSAAJKu4Sy7IC0JhdD6fjRHZLbfendhRjw==
   dependencies:
-    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/catalog-model" "^1.7.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-compat-api" "^0.2.8"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/core-compat-api" "^0.3.0"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.7.0"
-    "@backstage/integration" "^1.14.0"
-    "@backstage/integration-react" "^1.1.30"
-    "@backstage/plugin-auth-react" "^0.1.5"
-    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/frontend-plugin-api" "^0.8.0"
+    "@backstage/integration" "^1.15.0"
+    "@backstage/integration-react" "^1.1.31"
+    "@backstage/plugin-auth-react" "^0.1.6"
+    "@backstage/plugin-catalog-react" "^1.13.0"
     "@backstage/plugin-search-common" "^1.2.14"
-    "@backstage/plugin-search-react" "^1.7.14"
+    "@backstage/plugin-search-react" "^1.8.0"
     "@backstage/plugin-techdocs-common" "^0.1.0"
-    "@backstage/plugin-techdocs-react" "^1.2.7"
-    "@backstage/theme" "^0.5.6"
+    "@backstage/plugin-techdocs-react" "^1.2.8"
+    "@backstage/theme" "^0.5.7"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
