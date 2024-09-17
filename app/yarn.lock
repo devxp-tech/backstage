@@ -5299,19 +5299,18 @@
     "@backstage/plugin-search-common" "^1.2.14"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.34"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.34.tgz#0e4a299978b4f4182ae058dde7c18ec06802843e"
-  integrity sha512-WtJheSH3WDhbmlYwG0pQqJLZ3Q7AtZL0xh5dNXU3V6BjyR8QOzPuDzzTeykRgMCF9KPYpwGvDlA7YajiUrgqbg==
+  version "0.5.35"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.35.tgz#291ee85761df13247a35b18d46cc41f396f1060c"
+  integrity sha512-F8GlfJA5QxVl4iY/U8KewScUkGUl6vNAQdoMiZ6krq8RxKbJcktKTO549aNtnuefQ5ztyQ/kLhhkblnYrvVF9g==
   dependencies:
-    "@backstage/backend-common" "^0.24.1"
-    "@backstage/backend-plugin-api" "^0.8.1"
+    "@backstage/backend-common" "^0.25.0"
+    "@backstage/backend-plugin-api" "^1.0.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/plugin-search-backend-node" "^1.3.1"
+    "@backstage/plugin-search-backend-node" "^1.3.2"
     "@backstage/plugin-search-common" "^1.2.14"
     knex "^3.0.0"
     lodash "^4.17.21"
     uuid "^9.0.0"
-    winston "^3.2.1"
 
 "@backstage/plugin-search-backend-module-techdocs@^0.2.2":
   version "0.2.2"
@@ -5333,7 +5332,7 @@
     node-fetch "^2.7.0"
     p-limit "^3.1.0"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.1", "@backstage/plugin-search-backend-node@^1.3.2":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.2":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.2.tgz#62c5b4d08c65534071dfbd5d07a3c8454bc5352f"
   integrity sha512-WqgL5Q/JejVGPvwu70+xYNlgfkmWR/IgYCfX0A2HqChgX3Z4SblRb8kRzbnpHU6in0HWa+AqsryOYlgnClwt6A==
@@ -5382,7 +5381,7 @@
     "@backstage/plugin-permission-common" "^0.8.1"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.7.14", "@backstage/plugin-search-react@^1.8.0":
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.8.0.tgz#1ee6b2cce6416d29608c2d110c1ed4a7c37e5fc6"
   integrity sha512-2zKJ0HBiy1CC7PFzI2IF9xu07oDd98XZjMwnYP1AVnW9IT2X9GPIU2lMewZL8nht9KgodBiLcdNOHHNqKYgqbA==
