@@ -3051,15 +3051,15 @@
     to-fast-properties "^2.0.0"
 
 "@backstage/app-defaults@^1.3.0":
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.10.tgz#34931c564c5c6404f0a89b3f4457ccea877772f2"
-  integrity sha512-fv/wZdD0kRFhDhRVpckPUdQ/tkWXI2QwvOv9j/9fbCDlwuNigGq0hvLw671yiOo+rDnNAQqLLt6RKJe0Cs8w3Q==
+  version "1.5.11"
+  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.5.11.tgz#597ecbb0219bea6adde3f54c82e1bfaf0219238b"
+  integrity sha512-kXyRRKd3K7eEHP8xLf3B6zkYvk3UX6hSuhD+fq5Um6+DGzXRJ9S1w1UJDOQcCBGj7KI3a0Vn+Q7rY0Hfy9xXyQ==
   dependencies:
-    "@backstage/core-app-api" "^1.14.2"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/plugin-permission-react" "^0.4.25"
-    "@backstage/theme" "^0.5.6"
+    "@backstage/core-app-api" "^1.15.0"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
+    "@backstage/plugin-permission-react" "^0.4.26"
+    "@backstage/theme" "^0.5.7"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
@@ -3961,15 +3961,15 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/types" "^1.1.1"
 
-"@backstage/core-app-api@^1.14.2", "@backstage/core-app-api@^1.7.0":
-  version "1.14.2"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.14.2.tgz#e41176d84aaaefec68446f3ca39bc38e4c15729b"
-  integrity sha512-WdhUOzPqa4JXIBDbpTS9eqabR3MgIrAfX0YAFGFh8lA2awe1ZDrYOmkX1PQSR5j+4rrJZ4z8QUqZOgK+/j4UsQ==
+"@backstage/core-app-api@^1.14.2", "@backstage/core-app-api@^1.15.0", "@backstage/core-app-api@^1.7.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.15.0.tgz#d121fcb8b93e9043302f23646fb8ec2dcdb8171b"
+  integrity sha512-Pgw1n3Aqv/TuYI3S9eg18/zrUJYWle19VFskubmPGS4eVF5rmN5VQxIz7R84K/CoJ22W6d/qCvWPJeD3SDwmYw==
   dependencies:
     "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/types" "^1.1.1"
-    "@backstage/version-bridge" "^1.0.8"
+    "@backstage/version-bridge" "^1.0.9"
     "@types/prop-types" "^15.7.3"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     history "^5.0.0"
