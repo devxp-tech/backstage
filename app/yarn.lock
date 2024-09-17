@@ -4244,36 +4244,6 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/integration@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.0.tgz#feeb43a3d35ce9812f5eadf00fb6a5755a7d6cec"
-  integrity sha512-fsBsjuDWM4rG/r4Y5JKA7s464ltyxWcYhqqP29synXdMK//UXgdEn88zmJsO/XbEb5Y8FGagQCJB6XfCr9nJzw==
-  dependencies:
-    "@azure/identity" "^4.0.0"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@octokit/auth-app" "^4.0.0"
-    "@octokit/rest" "^19.0.3"
-    cross-fetch "^4.0.0"
-    git-url-parse "^14.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-
-"@backstage/integration@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.0.tgz#feeb43a3d35ce9812f5eadf00fb6a5755a7d6cec"
-  integrity sha512-fsBsjuDWM4rG/r4Y5JKA7s464ltyxWcYhqqP29synXdMK//UXgdEn88zmJsO/XbEb5Y8FGagQCJB6XfCr9nJzw==
-  dependencies:
-    "@azure/identity" "^4.0.0"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@octokit/auth-app" "^4.0.0"
-    "@octokit/rest" "^19.0.3"
-    cross-fetch "^4.0.0"
-    git-url-parse "^14.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-
 "@backstage/plugin-api-docs@^0.11.0":
   version "0.11.9"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.11.9.tgz#32fd8a9c185138ac50fd1384b379055da2f3d68a"
@@ -4719,15 +4689,6 @@
     "@backstage/plugin-permission-common" "^0.8.1"
     "@backstage/plugin-search-common" "^1.2.14"
 
-"@backstage/plugin-catalog-common@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.0.tgz#dffb884175e608df9a94e412c73fd83efe6dd65a"
-  integrity sha512-1ZRxFVCQfp68uhKu4Ks+grvjJ+O/QAsAJwGOrwDSvizMlnIcN/z9v/DZUfB5zsLKniGmJOfY06SnRABXYP1Xgw==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/plugin-permission-common" "^0.8.1"
-    "@backstage/plugin-search-common" "^1.2.14"
-
 "@backstage/plugin-catalog-graph@^0.4.0":
   version "0.4.8"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.8.tgz#c0857ddfdd3402723e9ffa240daf529ec7d51ef6"
@@ -4752,22 +4713,22 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-catalog-import@^0.12.0":
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.12.2.tgz#64ec773e788ef7f7a238f69ce660d6b513f761c8"
-  integrity sha512-ZZHK7esakkBByoZtNP18HmVW3ozoqXCSwvErUdtxQ4xSkzGMvQyripVerRDte/cvkTvhC+AMBNcuQKxm53tMYQ==
+  version "0.12.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.12.3.tgz#2bf022e2571289670b1e80bb3da79a16c71095b8"
+  integrity sha512-bTeE610AbFWpTggb+OGFWeqmAu92N0/30a0rLnyVYI3Xb0p6yt7AsrlGgMFAGwKWUl8ADBwWh8+VYDrcI9lkJA==
   dependencies:
-    "@backstage/catalog-client" "^1.6.6"
-    "@backstage/catalog-model" "^1.6.0"
+    "@backstage/catalog-client" "^1.7.0"
+    "@backstage/catalog-model" "^1.7.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-compat-api" "^0.2.8"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/core-compat-api" "^0.3.0"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.7.0"
-    "@backstage/integration" "^1.14.0"
-    "@backstage/integration-react" "^1.1.30"
-    "@backstage/plugin-catalog-common" "^1.0.26"
-    "@backstage/plugin-catalog-react" "^1.12.3"
+    "@backstage/frontend-plugin-api" "^0.8.0"
+    "@backstage/integration" "^1.15.0"
+    "@backstage/integration-react" "^1.1.31"
+    "@backstage/plugin-catalog-common" "^1.1.0"
+    "@backstage/plugin-catalog-react" "^1.13.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
@@ -4948,7 +4909,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-kubernetes-common@^0.8.2", "@backstage/plugin-kubernetes-common@^0.8.3":
+"@backstage/plugin-kubernetes-common@^0.8.3":
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.8.3.tgz#0c64f2d1d57edb1998d55b637e67340904c1a7f7"
   integrity sha512-ZJ+Hbt/1sZ2O8WKMj4iZtzAk5bflSD4L8rqwcsEWH7pAXqhtjBxHFEHBSvyi0pDS/Q4qxmxauSvCByAfgmvnVQ==
