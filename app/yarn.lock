@@ -3647,7 +3647,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.14.tgz#2291520acfbac860a05dd48fc3b876d5cd789b76"
   integrity sha512-4kGWGrFuxoaCne2aHCOVW+vi8y2MLEMEj785SEApMG2J8jXJXUuIOzWw0MrN0pM1FqBXDb6aeQd+bmQMK/Ci+w==
 
-"@backstage/cli-node@^0.2.6", "@backstage/cli-node@^0.2.7", "@backstage/cli-node@^0.2.8":
+"@backstage/cli-node@^0.2.6", "@backstage/cli-node@^0.2.8":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.8.tgz#66a1484e9747edb1f2600dcf1e6789525b07bc5a"
   integrity sha512-bIbDTdaPCw3jw3/phCIu4Fi+2P007iIpXLIVCNje7e9J4zXD/RLD6f788+aqTQwDKg6hw/XNy46vZohCCxg10g==
@@ -5387,12 +5387,12 @@
     qs "^6.9.4"
     react-use "^17.2.4"
 
-"@backstage/plugin-signals-react@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.4.tgz#37dbba59de44ab2485645875d9550b242ebc71bb"
-  integrity sha512-ckR1QbJlV7zF+Z8nrFSQUDvgXDQRYko8EOIKhJAgWmLHqzCMfUE3sBWFTc8QXljPzbQXqCfeuHqpvPsPQ7m7mg==
+"@backstage/plugin-signals-react@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.5.tgz#37a2e725e1dc79986660c913a34ea8c4a0cb5d4d"
+  integrity sha512-PiLxHR8WwCZscuSf5Ctia4mw3UTBe5HX+2kiq6pcmEeWtddyKJyxjCdNc6BpG0bVNZ4U83LlIEsxpsPD17nchg==
   dependencies:
-    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.4"
 
@@ -5628,20 +5628,20 @@
   integrity sha512-1zLm0746Oay5SaT6B/ydrMzMxQQO0G415T9IAo8np0nbwkFQM69VtXYDz6J0S0oZMkfPqlpV7mIJyrJrPZdjxQ==
 
 "@backstage/plugin-user-settings@^0.8.0":
-  version "0.8.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.11.tgz#55462fa4ce09a0f39fae8b09a80fc7a1d919bdf5"
-  integrity sha512-mFuGQKb5XL9GNw3VHcLOj0BNwa3X8+jY3lx3xZRYgC45aW6JE8zme2Drrf42Nw436stHV2Tf8IS3I5Lg+cROUA==
+  version "0.8.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.12.tgz#10e15744e32eee8e55cfaec94c68ab0c9c3bceaf"
+  integrity sha512-V8jpLJqJ1VWkO6SnL+U37FS/vu+nXZ6dsdyCHc28hhRDLu7iu6fRAC6t+SEMsMKG4owCNXBr83wI26Q2Wh9KUQ==
   dependencies:
-    "@backstage/core-app-api" "^1.14.2"
-    "@backstage/core-compat-api" "^0.2.8"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
+    "@backstage/core-app-api" "^1.15.0"
+    "@backstage/core-compat-api" "^0.3.0"
+    "@backstage/core-components" "^0.15.0"
+    "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.7.0"
-    "@backstage/plugin-catalog-react" "^1.12.3"
-    "@backstage/plugin-signals-react" "^0.0.4"
+    "@backstage/frontend-plugin-api" "^0.8.0"
+    "@backstage/plugin-catalog-react" "^1.13.0"
+    "@backstage/plugin-signals-react" "^0.0.5"
     "@backstage/plugin-user-settings-common" "^0.0.1"
-    "@backstage/theme" "^0.5.6"
+    "@backstage/theme" "^0.5.7"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
