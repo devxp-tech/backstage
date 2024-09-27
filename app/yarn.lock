@@ -4090,6 +4090,18 @@
     "@material-ui/icons" "^4.9.1"
     "@types/react" "^16.13.1 || ^17.0.0"
 
+"@backstage/integration-react@^1.1.32":
+  version "1.1.32"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.32.tgz#f4b3369ab96f59e024f67a400f33f5305fdc9b30"
+  integrity sha512-L/LZLK1mKKIWpN9FwK+IHxlK3R2TNu+rvHvxnKHotVPM4H/oT0veYNdQOJn91erF+t8BtOC/PfOmGY+SdenYQg==
+  dependencies:
+    "@backstage/config" "^1.2.0"
+    "@backstage/core-plugin-api" "^1.9.4"
+    "@backstage/integration" "^1.15.0"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@types/react" "^16.13.1 || ^17.0.0"
+
 "@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0":
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.0.tgz#feeb43a3d35ce9812f5eadf00fb6a5755a7d6cec"
@@ -4842,16 +4854,16 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-kubernetes@^0.11.0":
-  version "0.11.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.14.tgz#a2aeaba8d32297cdd5b521ad4927f19ac3fb72f3"
-  integrity sha512-c+ICf/Y3n0SLtQAGv3ui0RjjY7Isd4eR3YD44wpDnb+2KSsAeWQbpybyUvIjxlicWeVSudmJ6GRrAzmX8ozR4g==
+  version "0.11.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.11.15.tgz#228629110bec92292102443fb9f2a2ec24d034df"
+  integrity sha512-SyhBelsxmeNLWyXOhQEsp2FDbk6fNhDsoN9iV9bnle6mDhvnR4/IKCHGX9Ao3Q+cSW3IIGERFzuDf5PKuLVDyg==
   dependencies:
     "@backstage/catalog-model" "^1.7.0"
     "@backstage/core-compat-api" "^0.3.0"
     "@backstage/core-components" "^0.15.0"
     "@backstage/core-plugin-api" "^1.9.4"
     "@backstage/frontend-plugin-api" "^0.8.0"
-    "@backstage/plugin-catalog-react" "^1.13.0"
+    "@backstage/plugin-catalog-react" "^1.13.1"
     "@backstage/plugin-kubernetes-common" "^0.8.3"
     "@backstage/plugin-kubernetes-react" "^0.4.3"
     "@kubernetes-models/apimachinery" "^1.1.0"
