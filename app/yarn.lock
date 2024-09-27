@@ -4066,31 +4066,7 @@
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.1.30", "@backstage/integration-react@^1.1.31":
-  version "1.1.32"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.32.tgz#f4b3369ab96f59e024f67a400f33f5305fdc9b30"
-  integrity sha512-L/LZLK1mKKIWpN9FwK+IHxlK3R2TNu+rvHvxnKHotVPM4H/oT0veYNdQOJn91erF+t8BtOC/PfOmGY+SdenYQg==
-  dependencies:
-    "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/integration" "^1.15.0"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    "@types/react" "^16.13.1 || ^17.0.0"
-
-"@backstage/integration-react@^1.1.32":
-  version "1.1.32"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.32.tgz#f4b3369ab96f59e024f67a400f33f5305fdc9b30"
-  integrity sha512-L/LZLK1mKKIWpN9FwK+IHxlK3R2TNu+rvHvxnKHotVPM4H/oT0veYNdQOJn91erF+t8BtOC/PfOmGY+SdenYQg==
-  dependencies:
-    "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/integration" "^1.15.0"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    "@types/react" "^16.13.1 || ^17.0.0"
-
-"@backstage/integration-react@^1.1.32":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.1.30", "@backstage/integration-react@^1.1.31", "@backstage/integration-react@^1.1.32":
   version "1.1.32"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.32.tgz#f4b3369ab96f59e024f67a400f33f5305fdc9b30"
   integrity sha512-L/LZLK1mKKIWpN9FwK+IHxlK3R2TNu+rvHvxnKHotVPM4H/oT0veYNdQOJn91erF+t8BtOC/PfOmGY+SdenYQg==
@@ -5203,16 +5179,16 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-react@^1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.12.0.tgz#23cf9fe32cd7698f676212d0a35f549472db1f29"
-  integrity sha512-1RmHnsQ8P4E4VUk2Rcb5bJpyNRr3YoJi5TauWhkO1oXDFYWnvGobDQ8BJybcmbVGWRUgK8uWlJek9xaYV4f6rg==
+"@backstage/plugin-scaffolder-react@^1.12.1":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.12.1.tgz#c7543eb1bbf636ede69c4b69c87f4fa38d991bad"
+  integrity sha512-1oViuz2tg1ww+yaK19GPEvqxZgCqXgjkjJ/YSYsgtwWxTXnVzZ13TsBYiKCn1+ZNBUiaUkJWXxgRgBmxITg8iA==
   dependencies:
     "@backstage/catalog-client" "^1.7.0"
     "@backstage/catalog-model" "^1.7.0"
     "@backstage/core-components" "^0.15.0"
     "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/plugin-catalog-react" "^1.13.0"
+    "@backstage/plugin-catalog-react" "^1.13.1"
     "@backstage/plugin-permission-react" "^0.4.26"
     "@backstage/plugin-scaffolder-common" "^1.5.6"
     "@backstage/theme" "^0.5.7"
@@ -5244,9 +5220,9 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.25.0.tgz#5f95ff2f20cf90ac201a99d3c495f41f74d58ecb"
-  integrity sha512-no+1lTdZrfUSqAVca37YE4JvLaSLFfouHN7vfF3MruOJnbhOmiPqNqTGIzHZsdhuDucxvc08P2pzJnwDWkryzg==
+  version "1.25.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.25.1.tgz#9de1f907aaac56555925b629e1efd4aeee3bd5dc"
+  integrity sha512-7v4WX6MfxL/x8RoHP7/NWuOa0TiHxhf9O51ktSUtjYMFjkqvb0kH8PdOYdtawFZvTrN8013H1i9JWCAtrdx69w==
   dependencies:
     "@backstage/catalog-client" "^1.7.0"
     "@backstage/catalog-model" "^1.7.0"
@@ -5256,12 +5232,12 @@
     "@backstage/errors" "^1.2.4"
     "@backstage/frontend-plugin-api" "^0.8.0"
     "@backstage/integration" "^1.15.0"
-    "@backstage/integration-react" "^1.1.31"
+    "@backstage/integration-react" "^1.1.32"
     "@backstage/plugin-catalog-common" "^1.1.0"
-    "@backstage/plugin-catalog-react" "^1.13.0"
+    "@backstage/plugin-catalog-react" "^1.13.1"
     "@backstage/plugin-permission-react" "^0.4.26"
     "@backstage/plugin-scaffolder-common" "^1.5.6"
-    "@backstage/plugin-scaffolder-react" "^1.12.0"
+    "@backstage/plugin-scaffolder-react" "^1.12.1"
     "@backstage/types" "^1.1.1"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
