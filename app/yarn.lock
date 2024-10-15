@@ -4796,30 +4796,29 @@
     zen-observable "^0.10.0"
 
 "@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.23.1":
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.23.1.tgz#0c31a6498152a52b85efbd37c90ec74090e22cf1"
-  integrity sha512-QxyzHOBh8Fz2PwJ6kX6PHyslhboeXKRAmOi/HrigpIC6AJxHc5GhLX1r6IRBHr7d9HZNYbLtOGS9BHqFL9Hv6w==
+  version "1.24.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.24.0.tgz#e70675fbe941e672c2b19e3d3a01c7f46fb8695e"
+  integrity sha512-8SMAG0TFyXP/XkYaYc0DL0LzxwcetXecqsEu8OxcfPl6SaXvhfiAw3eodGTPuVrhBotCz7wHCZW4Y6gn8iJwxA==
   dependencies:
-    "@backstage/catalog-client" "^1.7.0"
+    "@backstage/catalog-client" "^1.7.1"
     "@backstage/catalog-model" "^1.7.0"
-    "@backstage/core-compat-api" "^0.3.0"
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
+    "@backstage/core-compat-api" "^0.3.1"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.8.0"
-    "@backstage/integration-react" "^1.1.32"
+    "@backstage/frontend-plugin-api" "^0.9.0"
+    "@backstage/integration-react" "^1.2.0"
     "@backstage/plugin-catalog-common" "^1.1.0"
-    "@backstage/plugin-catalog-react" "^1.13.1"
-    "@backstage/plugin-permission-react" "^0.4.26"
+    "@backstage/plugin-catalog-react" "^1.14.0"
+    "@backstage/plugin-permission-react" "^0.4.27"
     "@backstage/plugin-scaffolder-common" "^1.5.6"
     "@backstage/plugin-search-common" "^1.2.14"
-    "@backstage/plugin-search-react" "^1.8.0"
+    "@backstage/plugin-search-react" "^1.8.1"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
     "@mui/utils" "^5.14.15"
-    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     dataloader "^2.0.0"
     expiry-map "^2.0.0"
     history "^5.0.0"
@@ -5515,7 +5514,7 @@
     "@backstage/plugin-permission-common" "^0.8.1"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.0":
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.0", "@backstage/plugin-search-react@^1.8.1":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.8.1.tgz#111499e6234ae7eb281dd402a459b64de36a415d"
   integrity sha512-k4qYK6+CI/MJncrlA46e5hs/fCELwdpOKpRzNSV14nJVRULFZY05czkGcwod83GI3ngIZ9VD/hno1OuysQ4TCQ==
