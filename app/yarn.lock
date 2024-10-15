@@ -4187,19 +4187,7 @@
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.1.30", "@backstage/integration-react@^1.1.32":
-  version "1.1.32"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.1.32.tgz#f4b3369ab96f59e024f67a400f33f5305fdc9b30"
-  integrity sha512-L/LZLK1mKKIWpN9FwK+IHxlK3R2TNu+rvHvxnKHotVPM4H/oT0veYNdQOJn91erF+t8BtOC/PfOmGY+SdenYQg==
-  dependencies:
-    "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/integration" "^1.15.0"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    "@types/react" "^16.13.1 || ^17.0.0"
-
-"@backstage/integration-react@^1.2.0":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.1.30", "@backstage/integration-react@^1.1.32", "@backstage/integration-react@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.0.tgz#11ac231650f69136667c22966aad6aca940e2b2e"
   integrity sha512-Apl8zplxEbejbniyT232YUWCTCulWJT0D5E/aD69O5F2c5IVb+6gI6VUW4Spn5KFYhVrjunmSsfhmHWCSsdsGA==
@@ -4210,22 +4198,7 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.0.tgz#feeb43a3d35ce9812f5eadf00fb6a5755a7d6cec"
-  integrity sha512-fsBsjuDWM4rG/r4Y5JKA7s464ltyxWcYhqqP29synXdMK//UXgdEn88zmJsO/XbEb5Y8FGagQCJB6XfCr9nJzw==
-  dependencies:
-    "@azure/identity" "^4.0.0"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@octokit/auth-app" "^4.0.0"
-    "@octokit/rest" "^19.0.3"
-    cross-fetch "^4.0.0"
-    git-url-parse "^14.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-
-"@backstage/integration@^1.15.1":
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.15.1":
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.1.tgz#ee85ac915d7d561276c5ce43afa166393ab5deb0"
   integrity sha512-qV6XNmuiTX7WOtf39jRxDZAVNxdqy6pRYNGNAz8oiS7NlOdkcpg4t6ERJtrgmdaxYNCpQraZLJXER2eT4aTtWA==
@@ -5683,19 +5656,19 @@
   integrity sha512-HlRuOdsrQ6cZJa1ClRxTn/b4Rl5qznfjWx8Y7bjIVAHL4j4hGecl8PO7rntqivxPybtQJKUfNxuWyJNkhFJ1Kg==
 
 "@backstage/plugin-techdocs-module-addons-contrib@^1.0.12":
-  version "1.1.15"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.15.tgz#e98c63514cc5596202fc3cf7c2b6866d6568beb2"
-  integrity sha512-OIzEJIrW/15tHv4B3vzneatPlv8i0B5sMLf99c+8r051kEl4QgY9KmZHoc5zEfNtAndgWlUX5n5JbMJFrfxXAQ==
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.16.tgz#024a9ba91fd96a0139fe965e743f2e146b5688c8"
+  integrity sha512-UGIBZdqwLVWEZsbQTm/ub8dHEu2mho6W3QfIv4LK8e4g4HkafaJm2ai2Q23cAz3Yrl4eDd7Z+eoav4yBqnv+zA==
   dependencies:
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/integration" "^1.15.0"
-    "@backstage/integration-react" "^1.1.32"
-    "@backstage/plugin-techdocs-react" "^1.2.8"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
+    "@backstage/integration" "^1.15.1"
+    "@backstage/integration-react" "^1.2.0"
+    "@backstage/plugin-techdocs-react" "^1.2.9"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@react-hookz/web" "^24.0.0"
-    git-url-parse "^14.0.0"
+    git-url-parse "^15.0.0"
     photoswipe "^5.3.7"
 
 "@backstage/plugin-techdocs-node@^1.12.11":
@@ -5733,19 +5706,18 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.8.tgz#33fe4acf8c7d7f6bfd4cd2ba297ddabcf6748f20"
-  integrity sha512-7md0d93sGyx0lGKbFpFpQEX0jgy581UxyDUcjISTZMtH3QOReyq31r0Vnse0weoIeDof/xzLVx9AcjJ7XvRvVw==
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.8", "@backstage/plugin-techdocs-react@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.9.tgz#fde98d1bb8b6ce41329f0cd70675010619560501"
+  integrity sha512-d0DruinWYywT20hirtQTG11rrMqnJARYVY2krt94MLR/cy7BDtGA0C/aHBYJLZTacpRQaeaFV6ahO5HK8BPmLA==
   dependencies:
     "@backstage/catalog-model" "^1.7.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/version-bridge" "^1.0.9"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
+    "@backstage/version-bridge" "^1.0.10"
     "@material-ui/core" "^4.12.2"
     "@material-ui/styles" "^4.11.0"
-    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     jss "~10.10.0"
     lodash "^4.17.21"
     react-helmet "6.1.0"
