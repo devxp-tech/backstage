@@ -3178,45 +3178,6 @@
     winston "^3.2.1"
     winston-transport "^4.5.0"
 
-"@backstage/backend-app-api@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-app-api/-/backend-app-api-1.0.1.tgz#2b31c49994d21d771f5092f63d5e14872ac64d93"
-  integrity sha512-vv5IkDB1xtDr4S7DOlHcmIezZXgxPvHV92TuiiCsJ4/AxhufX7IJjqMYBNVsknx6WR3cTwRNTEZPnaGNxxUNIg==
-  dependencies:
-    "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.0.1"
-    "@backstage/cli-common" "^0.1.14"
-    "@backstage/config" "^1.2.0"
-    "@backstage/config-loader" "^1.9.1"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/plugin-auth-node" "^0.5.3"
-    "@backstage/plugin-permission-node" "^0.8.4"
-    "@backstage/types" "^1.1.1"
-    "@manypkg/get-packages" "^1.1.3"
-    compression "^1.7.4"
-    cookie "^0.7.0"
-    cors "^2.8.5"
-    express "^4.17.1"
-    express-promise-router "^4.1.0"
-    helmet "^6.0.0"
-    jose "^5.0.0"
-    knex "^3.0.0"
-    lodash "^4.17.21"
-    logform "^2.3.2"
-    luxon "^3.0.0"
-    minimatch "^9.0.0"
-    minimist "^1.2.5"
-    morgan "^1.10.0"
-    node-fetch "^2.7.0"
-    node-forge "^1.3.1"
-    path-to-regexp "^8.0.0"
-    selfsigned "^2.0.0"
-    stoppable "^1.1.0"
-    triple-beam "^1.4.1"
-    uuid "^9.0.0"
-    winston "^3.2.1"
-    winston-transport "^4.5.0"
-
 "@backstage/backend-common@^0.21.7":
   version "0.21.7"
   resolved "https://registry.yarnpkg.com/@backstage/backend-common/-/backend-common-0.21.7.tgz#5ae796d8adccebc484edeeb2326464c28e14849e"
@@ -3490,82 +3451,6 @@
     yn "^4.0.0"
 
 "@backstage/backend-defaults@^0.5.0", "@backstage/backend-defaults@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.5.1.tgz#0d1e2e6a81d5a8d058b36fc7b6f6d322d7f6fe93"
-  integrity sha512-Qjwos8u5bUe1T14XHB5wmT7lL7EGqrrIo/YB38OdspWpg0vM21gfhs8+JneNsSrdutqyQZOQzB3QzExzrD0/Qw==
-  dependencies:
-    "@aws-sdk/abort-controller" "^3.347.0"
-    "@aws-sdk/client-codecommit" "^3.350.0"
-    "@aws-sdk/client-s3" "^3.350.0"
-    "@aws-sdk/credential-providers" "^3.350.0"
-    "@aws-sdk/types" "^3.347.0"
-    "@backstage/backend-app-api" "^1.0.1"
-    "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-dev-utils" "^0.1.5"
-    "@backstage/backend-plugin-api" "^1.0.1"
-    "@backstage/cli-common" "^0.1.14"
-    "@backstage/cli-node" "^0.2.9"
-    "@backstage/config" "^1.2.0"
-    "@backstage/config-loader" "^1.9.1"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/integration" "^1.15.1"
-    "@backstage/integration-aws-node" "^0.1.12"
-    "@backstage/plugin-auth-node" "^0.5.3"
-    "@backstage/plugin-events-node" "^0.4.1"
-    "@backstage/plugin-permission-node" "^0.8.4"
-    "@backstage/types" "^1.1.1"
-    "@google-cloud/storage" "^7.0.0"
-    "@keyv/memcache" "^1.3.5"
-    "@keyv/redis" "^2.5.3"
-    "@manypkg/get-packages" "^1.1.3"
-    "@octokit/rest" "^19.0.3"
-    "@opentelemetry/api" "^1.3.0"
-    "@types/cors" "^2.8.6"
-    "@types/express" "^4.17.6"
-    archiver "^7.0.0"
-    base64-stream "^1.0.0"
-    better-sqlite3 "^11.0.0"
-    compression "^1.7.4"
-    concat-stream "^2.0.0"
-    cookie "^0.7.0"
-    cors "^2.8.5"
-    cron "^3.0.0"
-    express "^4.17.1"
-    express-promise-router "^4.1.0"
-    fs-extra "^11.2.0"
-    git-url-parse "^15.0.0"
-    helmet "^6.0.0"
-    isomorphic-git "^1.23.0"
-    jose "^5.0.0"
-    keyv "^4.5.2"
-    knex "^3.0.0"
-    lodash "^4.17.21"
-    logform "^2.3.2"
-    luxon "^3.0.0"
-    minimatch "^9.0.0"
-    minimist "^1.2.5"
-    morgan "^1.10.0"
-    mysql2 "^3.0.0"
-    node-fetch "^2.7.0"
-    node-forge "^1.3.1"
-    p-limit "^3.1.0"
-    path-to-regexp "^8.0.0"
-    pg "^8.11.3"
-    pg-connection-string "^2.3.0"
-    pg-format "^1.0.4"
-    raw-body "^2.4.1"
-    selfsigned "^2.0.0"
-    stoppable "^1.1.0"
-    tar "^6.1.12"
-    triple-beam "^1.4.1"
-    uuid "^9.0.0"
-    winston "^3.2.1"
-    winston-transport "^4.5.0"
-    yauzl "^3.0.0"
-    yn "^4.0.0"
-    zod "^3.22.4"
-
-"@backstage/backend-defaults@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.5.1.tgz#0d1e2e6a81d5a8d058b36fc7b6f6d322d7f6fe93"
   integrity sha512-Qjwos8u5bUe1T14XHB5wmT7lL7EGqrrIo/YB38OdspWpg0vM21gfhs8+JneNsSrdutqyQZOQzB3QzExzrD0/Qw==
@@ -4680,54 +4565,6 @@
     zod-to-json-schema "^3.21.4"
     zod-validation-error "^3.4.0"
 
-"@backstage/plugin-auth-node@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.5.3.tgz#7d3a27d3c2961f1b6e1c82c224176ed1e4134b64"
-  integrity sha512-+v0YAbVVyMhnZEKmoyxAgkl34sBAf2YK99uYFpMr5rJqYrFAT8U+b/pHf9wfr2sbEIIbgKu0/DA6i/nuDxgk6Q==
-  dependencies:
-    "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.0.1"
-    "@backstage/catalog-client" "^1.7.1"
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/types" "^1.1.1"
-    "@types/express" "*"
-    "@types/passport" "^1.0.3"
-    express "^4.17.1"
-    jose "^5.0.0"
-    lodash "^4.17.21"
-    node-fetch "^2.7.0"
-    passport "^0.7.0"
-    winston "^3.2.1"
-    zod "^3.22.4"
-    zod-to-json-schema "^3.21.4"
-    zod-validation-error "^3.4.0"
-
-"@backstage/plugin-auth-node@^0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.5.3.tgz#7d3a27d3c2961f1b6e1c82c224176ed1e4134b64"
-  integrity sha512-+v0YAbVVyMhnZEKmoyxAgkl34sBAf2YK99uYFpMr5rJqYrFAT8U+b/pHf9wfr2sbEIIbgKu0/DA6i/nuDxgk6Q==
-  dependencies:
-    "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.0.1"
-    "@backstage/catalog-client" "^1.7.1"
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/types" "^1.1.1"
-    "@types/express" "*"
-    "@types/passport" "^1.0.3"
-    express "^4.17.1"
-    jose "^5.0.0"
-    lodash "^4.17.21"
-    node-fetch "^2.7.0"
-    passport "^0.7.0"
-    winston "^3.2.1"
-    zod "^3.22.4"
-    zod-to-json-schema "^3.21.4"
-    zod-validation-error "^3.4.0"
-
 "@backstage/plugin-auth-react@^0.1.6":
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-react/-/plugin-auth-react-0.1.6.tgz#71746d05568b0e5510ae6e52eac1842dadfb27c2"
@@ -5202,23 +5039,6 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-permission-node@^0.8.0", "@backstage/plugin-permission-node@^0.8.3", "@backstage/plugin-permission-node@^0.8.4":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.8.4.tgz#8e1f43d4e3c9ea13b53c3704bff4a463e3d10463"
-  integrity sha512-kv5PvJTTZ2cS/f7LXClmRKAj6vKJXPr0iQ8SiETAbC6V7WAkdhbeJSor8SQnS+ULpEA0RbBgr6pv/eg/BeRYVQ==
-  dependencies:
-    "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.0.1"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/plugin-auth-node" "^0.5.3"
-    "@backstage/plugin-permission-common" "^0.8.1"
-    "@types/express" "^4.17.6"
-    express "^4.17.1"
-    express-promise-router "^4.1.0"
-    zod "^3.22.4"
-    zod-to-json-schema "^3.20.4"
-
-"@backstage/plugin-permission-node@^0.8.4":
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.8.4.tgz#8e1f43d4e3c9ea13b53c3704bff4a463e3d10463"
   integrity sha512-kv5PvJTTZ2cS/f7LXClmRKAj6vKJXPr0iQ8SiETAbC6V7WAkdhbeJSor8SQnS+ULpEA0RbBgr6pv/eg/BeRYVQ==
@@ -9331,11 +9151,6 @@
   integrity sha512-DcIM6JiZklDyHF6CRD1FTXzuggAkQ+3Ncq2Wln7Kdih8GV6ZIeN9JfS6ZaQxpQUxan8/4n0J2V/R7nMeiSrb2Q==
   dependencies:
     "@react-hookz/deep-equal" "^1.0.4"
-
-"@remix-run/router@1.19.2":
-  version "1.19.2"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.19.2.tgz#0c896535473291cb41f152c180bedd5680a3b273"
-  integrity sha512-baiMx18+IMuD1yyvOGaHM9QrVUPGGG0jC+z+IPHnRJWUAUvaKuWKyE8gjDj2rzv3sz9zOGoRSPgeBVHRhZnBlA==
 
 "@remix-run/router@1.20.0":
   version "1.20.0"
@@ -24912,21 +24727,14 @@ react-resize-detector@^2.3.0:
     resize-observer-polyfill "^1.5.0"
 
 react-router-dom@^6.3.0:
-  version "6.26.2"
-  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.26.2.tgz#a6e3b0cbd6bfd508e42b9342099d015a0ac59680"
-  integrity sha512-z7YkaEW0Dy35T3/QKPYB1LjMK2R1fxnHO8kWpUMTBdfVzZrWOiY9a7CtN8HqdWtDUWd5FY6Dl8HFsqVwH4uOtQ==
+  version "6.27.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.27.0.tgz#8d7972a425fd75f91c1e1ff67e47240c5752dc3f"
+  integrity sha512-+bvtFWMC0DgAFrfKXKG9Fc+BcXWRUO1aJIihbB79xaeq0v5UzfvnM5houGUm1Y461WVRcgAQ+Clh5rdb1eCx4g==
   dependencies:
-    "@remix-run/router" "1.19.2"
-    react-router "6.26.2"
+    "@remix-run/router" "1.20.0"
+    react-router "6.27.0"
 
-react-router@6.26.2:
-  version "6.26.2"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.26.2.tgz#2f0a68999168954431cdc29dd36cec3b6fa44a7e"
-  integrity sha512-tvN1iuT03kHgOFnLPfLJ8V95eijteveqdOSk+srqfePtQvqCExB8eHOYnlilbOcyJyKnYkr1vJvf7YqotAJu1A==
-  dependencies:
-    "@remix-run/router" "1.19.2"
-
-react-router@^6.3.0:
+react-router@6.27.0, react-router@^6.3.0:
   version "6.27.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.27.0.tgz#db292474926c814c996c0ff3ef0162d1f9f60ed4"
   integrity sha512-YA+HGZXz4jaAkVoYBE98VQl+nVzI+cVI2Oj/06F5ZM+0u3TgedN9Y9kmMRo2mnkSK2nCpNQn0DVob4HCsY/WLw==
