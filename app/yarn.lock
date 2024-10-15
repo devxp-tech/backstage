@@ -3677,17 +3677,7 @@
     uuid "^9.0.0"
     zod "^3.22.4"
 
-"@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.6.4", "@backstage/catalog-client@^1.6.5", "@backstage/catalog-client@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.7.0.tgz#6cf719564554d079a090d9cc564666b2a0489054"
-  integrity sha512-eLClwNocHfZ3u/5mMh5i/fTZUxMlSzMO41Y4YTS6dYZozvAMPaOcsNRWUXiYLllIhn6NOITupu6hND9LyOE4pQ==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/errors" "^1.2.4"
-    cross-fetch "^4.0.0"
-    uri-template "^2.0.0"
-
-"@backstage/catalog-client@^1.7.1":
+"@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.6.4", "@backstage/catalog-client@^1.6.5", "@backstage/catalog-client@^1.7.0", "@backstage/catalog-client@^1.7.1":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.7.1.tgz#f85f4cfee20a25be556cc572e12f58e4b8cb1309"
   integrity sha512-vVhrn5Ytohea6in4A7c0UdBGANo/i7CaJwWrlE0J2ocC9ltUNzvULm8iOWa2B5EGSJGNtywldWQKVh2Bj2whnw==
@@ -3890,6 +3880,24 @@
     "@backstage/types" "^1.1.1"
 
 "@backstage/core-app-api@^1.15.0", "@backstage/core-app-api@^1.15.1", "@backstage/core-app-api@^1.7.0":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.15.1.tgz#943ddc967166e90529d52aa5401b582f92a73eaf"
+  integrity sha512-jlJsRuoOs6BfwnGlG63iUj3eJqjut5NSceergqAp1inFM9uDrFSn9JNtXwUqP6xrEcXGRRslowTSf1/dWkmAoA==
+  dependencies:
+    "@backstage/config" "^1.2.0"
+    "@backstage/core-plugin-api" "^1.10.0"
+    "@backstage/types" "^1.1.1"
+    "@backstage/version-bridge" "^1.0.10"
+    "@types/prop-types" "^15.7.3"
+    history "^5.0.0"
+    i18next "^22.4.15"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-use "^17.2.4"
+    zen-observable "^0.10.0"
+    zod "^3.22.4"
+
+"@backstage/core-app-api@^1.15.1":
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.15.1.tgz#943ddc967166e90529d52aa5401b582f92a73eaf"
   integrity sha512-jlJsRuoOs6BfwnGlG63iUj3eJqjut5NSceergqAp1inFM9uDrFSn9JNtXwUqP6xrEcXGRRslowTSf1/dWkmAoA==
@@ -4755,22 +4763,21 @@
     "@backstage/plugin-search-common" "^1.2.14"
 
 "@backstage/plugin-catalog-graph@^0.4.0":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.10.tgz#841e81595e47e61aca6bbfd7037c350a99370797"
-  integrity sha512-fQ2JNqo1Jbz0SS+8ta4AARDHue9aJ5LyVQPSLNbEX5ikBZEvJHanLY/oueUDJ89eD0AVimw9W627vVxRiGXDbw==
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.11.tgz#c12e460d528ee6eb9dcb80419f26027c3ba7f5c9"
+  integrity sha512-mRSXDmga3eVRN/CGM5E01I1SgPjr2k6j17IYHEw7rPuH8Su2IkrAeacsWKlvLVdha55ywDDQ+B68EgHjkD0cXQ==
   dependencies:
-    "@backstage/catalog-client" "^1.7.0"
+    "@backstage/catalog-client" "^1.7.1"
     "@backstage/catalog-model" "^1.7.0"
-    "@backstage/core-compat-api" "^0.3.0"
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
-    "@backstage/frontend-plugin-api" "^0.8.0"
-    "@backstage/plugin-catalog-react" "^1.13.1"
+    "@backstage/core-compat-api" "^0.3.1"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
+    "@backstage/frontend-plugin-api" "^0.9.0"
+    "@backstage/plugin-catalog-react" "^1.14.0"
     "@backstage/types" "^1.1.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
-    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     classnames "^2.3.1"
     lodash "^4.17.15"
     p-limit "^3.1.0"
