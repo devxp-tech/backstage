@@ -5495,7 +5495,7 @@
     "@backstage/plugin-permission-common" "^0.8.1"
     "@backstage/types" "^1.1.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.0", "@backstage/plugin-search-react@^1.8.1":
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.1":
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.8.1.tgz#111499e6234ae7eb281dd402a459b64de36a415d"
   integrity sha512-k4qYK6+CI/MJncrlA46e5hs/fCELwdpOKpRzNSV14nJVRULFZY05czkGcwod83GI3ngIZ9VD/hno1OuysQ4TCQ==
@@ -5515,23 +5515,22 @@
     react-use "^17.3.2"
 
 "@backstage/plugin-search@^1.2.0":
-  version "1.4.17"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.17.tgz#0aeea99d3dfe90d419c74622ddca317ad7514fbb"
-  integrity sha512-91jbbIaoJDY1XFPvV9BKuf0W2/xGk0V0anD2E2JOQ266aBXdwYR/3d7qzbeWSMylPWCaQZ0DBIdPR6H/ykrIGg==
+  version "1.4.18"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.18.tgz#fda4e835aee554e81405652f9b3211c2ba390f1b"
+  integrity sha512-uGAG4Hv5sSikZWUFh2eEtT4/l4Jbn52x+ymoZYakSVRltWrGILcoLHhChrlq3X9js4FyRd5gY9RzXkhtb1xpdg==
   dependencies:
-    "@backstage/core-compat-api" "^0.3.0"
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
+    "@backstage/core-compat-api" "^0.3.1"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.8.0"
-    "@backstage/plugin-catalog-react" "^1.13.1"
+    "@backstage/frontend-plugin-api" "^0.9.0"
+    "@backstage/plugin-catalog-react" "^1.14.0"
     "@backstage/plugin-search-common" "^1.2.14"
-    "@backstage/plugin-search-react" "^1.8.0"
+    "@backstage/plugin-search-react" "^1.8.1"
     "@backstage/types" "^1.1.1"
-    "@backstage/version-bridge" "^1.0.9"
+    "@backstage/version-bridge" "^1.0.10"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
-    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
     qs "^6.9.4"
     react-use "^17.2.4"
 
