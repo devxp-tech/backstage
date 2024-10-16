@@ -4176,7 +4176,7 @@
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.1.30", "@backstage/integration-react@^1.1.32", "@backstage/integration-react@^1.2.0":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.1.30", "@backstage/integration-react@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.0.tgz#11ac231650f69136667c22966aad6aca940e2b2e"
   integrity sha512-Apl8zplxEbejbniyT232YUWCTCulWJT0D5E/aD69O5F2c5IVb+6gI6VUW4Spn5KFYhVrjunmSsfhmHWCSsdsGA==
@@ -4709,28 +4709,27 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-catalog-import@^0.12.0":
-  version "0.12.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.12.4.tgz#39615a189f1cb92ce7c3f71ba39c0a75afe9dda0"
-  integrity sha512-NJktdgHlHfHI3aqi+p/QJhjXSj8q+IQMQFUQ2aw4JAHnZgtEdp/uJNWZam5hHSD4nYgQr9GR6kmnAFKURjhK2Q==
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.12.5.tgz#d49505f2cb1f7dcd3bfa0ba5043ffa78a9f03c72"
+  integrity sha512-2mpXtLYOqUQH1pNCPy+8gfr+pqs9ILBn/kx7fwDYiEDNRjiaLR3a20ybeEqveFL2fF6wBhjmHlrYgkgLZEx7Zw==
   dependencies:
-    "@backstage/catalog-client" "^1.7.0"
+    "@backstage/catalog-client" "^1.7.1"
     "@backstage/catalog-model" "^1.7.0"
     "@backstage/config" "^1.2.0"
-    "@backstage/core-compat-api" "^0.3.0"
-    "@backstage/core-components" "^0.15.0"
-    "@backstage/core-plugin-api" "^1.9.4"
+    "@backstage/core-compat-api" "^0.3.1"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
     "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.8.0"
-    "@backstage/integration" "^1.15.0"
-    "@backstage/integration-react" "^1.1.32"
+    "@backstage/frontend-plugin-api" "^0.9.0"
+    "@backstage/integration" "^1.15.1"
+    "@backstage/integration-react" "^1.2.0"
     "@backstage/plugin-catalog-common" "^1.1.0"
-    "@backstage/plugin-catalog-react" "^1.13.1"
+    "@backstage/plugin-catalog-react" "^1.14.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
     "@octokit/rest" "^19.0.3"
-    "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
-    git-url-parse "^14.0.0"
+    git-url-parse "^15.0.0"
     js-base64 "^3.6.0"
     lodash "^4.17.21"
     react-hook-form "^7.12.2"
