@@ -3450,10 +3450,10 @@
     yauzl "^3.0.0"
     yn "^4.0.0"
 
-"@backstage/backend-defaults@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.5.1.tgz#0d1e2e6a81d5a8d058b36fc7b6f6d322d7f6fe93"
-  integrity sha512-Qjwos8u5bUe1T14XHB5wmT7lL7EGqrrIo/YB38OdspWpg0vM21gfhs8+JneNsSrdutqyQZOQzB3QzExzrD0/Qw==
+"@backstage/backend-defaults@^0.5.1", "@backstage/backend-defaults@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-defaults/-/backend-defaults-0.5.2.tgz#664c61155c498c03d3e3138609df95e265b38476"
+  integrity sha512-xDjRefLqkBuIlxAtYwG0pwvVkfUa7z5/iB2m9iuYkiXqGUpPtofu9+XZhif2R2GppYtsAGMTFnaltcxxENkPKQ==
   dependencies:
     "@aws-sdk/abort-controller" "^3.347.0"
     "@aws-sdk/client-codecommit" "^3.350.0"
@@ -3472,7 +3472,7 @@
     "@backstage/integration" "^1.15.1"
     "@backstage/integration-aws-node" "^0.1.12"
     "@backstage/plugin-auth-node" "^0.5.3"
-    "@backstage/plugin-events-node" "^0.4.1"
+    "@backstage/plugin-events-node" "^0.4.2"
     "@backstage/plugin-permission-node" "^0.8.4"
     "@backstage/types" "^1.1.1"
     "@google-cloud/storage" "^7.0.0"
@@ -4809,6 +4809,17 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
+"@backstage/plugin-events-node@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-events-node/-/plugin-events-node-0.4.2.tgz#07fb6cd07cee42258dd957b93aff5f1744c46776"
+  integrity sha512-rh18Z1pbHALAMoovkru/9BY2OjL5aAZGRzVDlB7ZjSs2nocHG0ky2t1VuSSs4IvdcKzLsLfBtjeNHk+MVA2QKw==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.0.1"
+    "@backstage/errors" "^1.2.4"
+    "@backstage/types" "^1.1.1"
+    cross-fetch "^4.0.0"
+    uri-template "^2.0.0"
+
 "@backstage/plugin-github-actions@^0.6.0":
   version "0.6.16"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-github-actions/-/plugin-github-actions-0.6.16.tgz#67b3093abf1c98ec4e6431dbf8fd442fd305326b"
@@ -5429,11 +5440,11 @@
     p-limit "^3.1.0"
 
 "@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.3":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.3.tgz#34609d647390f5982b885a94d50245f39bfb4d01"
-  integrity sha512-ri9iIEPQsvJUQTeJUHsg7PF+Pn4pChE4vDyKfxSII4VzZD4oIU61PCr+qbOJfVOuhGNCd7X0dobW5n6Ku2rkGQ==
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.4.tgz#ef5d807596d78de7afcf04e34d8aa527c62286a2"
+  integrity sha512-8jaAtew2hYC4Fi/FLM19hztrOaxxrDAXQbuTZXYZKfKukF1V5Y6GburMAcVTz0NsgG6r86vLBiXjdkL8PEHxfQ==
   dependencies:
-    "@backstage/backend-defaults" "^0.5.1"
+    "@backstage/backend-defaults" "^0.5.2"
     "@backstage/backend-plugin-api" "^1.0.1"
     "@backstage/config" "^1.2.0"
     "@backstage/errors" "^1.2.4"
