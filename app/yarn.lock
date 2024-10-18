@@ -5286,10 +5286,10 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-react@^1.13.0":
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.13.0.tgz#3cedb829063cacf136c8eaaf65ff2de5db98f071"
-  integrity sha512-lcUeWT0UFLf3CUoZnK4E2aXAZFB8EZigQbITdOYPJSEAOTYmWiUxlMIjzf98PfJhTVC2LKxZiPzGtxSqSosBoA==
+"@backstage/plugin-scaffolder-react@^1.13.1":
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.13.1.tgz#327eb2fd5602c60498cfad0abbae37b2fa74079c"
+  integrity sha512-2sKb0QHJeuJOPKeFhva2DGIGio8fRvphNv61vnMYC84w/CAw/ZEvIrmMarecAWJqsaE9I2fJXmnAdHSTxBzW7g==
   dependencies:
     "@backstage/catalog-client" "^1.7.1"
     "@backstage/catalog-model" "^1.7.0"
@@ -5327,9 +5327,9 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.26.0.tgz#d828b1ad57166de950de60cdddc394bf589fcc34"
-  integrity sha512-BSlPnHP1mNfJykIhQrTNL8BDmB8Q9Khl74ORI59DuQieC/aO7vEHv+PItQT3RmaxBBt4CrmSnFjnVrmgG5aj2Q==
+  version "1.26.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.26.1.tgz#aa711d0002201d4c98f9ddf6f842fa7a99273ad2"
+  integrity sha512-zXYOs4q82D2csmzLLZ6veUgn6CADG177aGhY1JEZ2KsQIEtA9qVX1GF8pQ9qoq4zG/oqxYn+nzLjMpRZowHTpQ==
   dependencies:
     "@backstage/catalog-client" "^1.7.1"
     "@backstage/catalog-model" "^1.7.0"
@@ -5344,7 +5344,7 @@
     "@backstage/plugin-catalog-react" "^1.14.0"
     "@backstage/plugin-permission-react" "^0.4.27"
     "@backstage/plugin-scaffolder-common" "^1.5.6"
-    "@backstage/plugin-scaffolder-react" "^1.13.0"
+    "@backstage/plugin-scaffolder-react" "^1.13.1"
     "@backstage/types" "^1.1.1"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
