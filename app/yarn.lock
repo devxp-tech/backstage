@@ -3886,7 +3886,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-compat-api@^0.2.4", "@backstage/core-compat-api@^0.2.8":
+"@backstage/core-compat-api@^0.2.4":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.2.8.tgz#438ffaf8a615247d2c3b90e7bcae08f7c65d3849"
   integrity sha512-nHZmn8O2ik+H1IZxRq/giFCFUOwlvbHzqekHrgaCe8yC6n05JnOYeHtNN23s8AE5AM3v3veUkZmk0TXcKtOJlg==
@@ -9259,17 +9259,17 @@
     lodash-es "^4.17.21"
 
 "@roadiehq/backstage-plugin-argo-cd@^2.2.12":
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.8.4.tgz#26a3d8812f3113ceb6e63ec950d56c69fe83db22"
-  integrity sha512-FFjNwdVabOqJocBtfRBdWn0/FnORcdKapHhGsLUWopMi/RN+T5FuhRf7ldgy9+m07gILEwDPHsPaMNBkB7t+5A==
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.8.5.tgz#52c8c6cd0a2cf2bc059200d46f9df2549f8a1cb4"
+  integrity sha512-wVaDB0oqDm1scOTuqjqp3Pqkn+hYqWxr5j0pCKk/Ixcm35Q2T4Pq708QZikUqNFe0JvDMLF6OPYCdkrw2sSoHQ==
   dependencies:
-    "@backstage/catalog-model" "^1.6.0"
-    "@backstage/core-compat-api" "^0.2.8"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/frontend-plugin-api" "^0.7.0"
-    "@backstage/plugin-catalog-react" "^1.12.3"
-    "@backstage/theme" "^0.5.6"
+    "@backstage/catalog-model" "^1.7.0"
+    "@backstage/core-compat-api" "^0.3.1"
+    "@backstage/core-components" "^0.15.1"
+    "@backstage/core-plugin-api" "^1.10.0"
+    "@backstage/frontend-plugin-api" "^0.9.0"
+    "@backstage/plugin-catalog-react" "^1.14.0"
+    "@backstage/theme" "^0.6.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
