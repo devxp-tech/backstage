@@ -4401,17 +4401,6 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration-react@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.1.tgz#0a510997c9fbe26c903184191a577f20af521328"
-  integrity sha512-crjtcGLmTal6oqKx/06bwYzs1S/4miWY4kkO5iQPO6JQO4M5t7vlUYFv5B280b3tcWXh9dhmejtOvYEw+PTNuw==
-  dependencies:
-    "@backstage/config" "^1.3.0"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/integration" "^1.15.2"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-
 "@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.15.1":
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.1.tgz#ee85ac915d7d561276c5ce43afa166393ab5deb0"
@@ -4926,15 +4915,6 @@
     "@backstage/plugin-permission-common" "^0.8.2"
     "@backstage/plugin-search-common" "^1.2.15"
 
-"@backstage/plugin-catalog-common@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.1.tgz#367af94a4517e8f7d812b7caee9e727bb4956aee"
-  integrity sha512-jMOeKKNVTjVn5B/Oc5w3FxiKU/YvUanqw0pDxCOmimwQms+88Gpakh/EmWuCx3UU2J74hFKse/U6iS4MAALMiQ==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/plugin-permission-common" "^0.8.2"
-    "@backstage/plugin-search-common" "^1.2.15"
-
 "@backstage/plugin-catalog-graph@^0.4.0":
   version "0.4.12"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.12.tgz#7b913392f69e20bf9fbdc012f1184993d0a268c2"
@@ -5240,17 +5220,17 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-org@^0.6.7":
-  version "0.6.31"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.31.tgz#7b04de771264cdc157ecc4f92a36a4e5caa960e5"
-  integrity sha512-KsAMqo0PYBQNiA1R7fJy0NsDvMB7jhiMQ9DYIApl2kC5gB9Xc03BUjXYzhqnmY3UyMwXuZQpzr+IsEKEobL3eA==
+  version "0.6.32"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-org/-/plugin-org-0.6.32.tgz#58887ea0207536578039392f1bf5e90400350ff6"
+  integrity sha512-enQbmbSHrsgFZbfVye1SYoUWYwJm+1Id0YspUX3Ml1pG7kqyPVXlC7YkhSaeViC9OAY6WPLP6kn//YgG3o30iw==
   dependencies:
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/core-compat-api" "^0.3.1"
-    "@backstage/core-components" "^0.15.1"
-    "@backstage/core-plugin-api" "^1.10.0"
-    "@backstage/frontend-plugin-api" "^0.9.0"
-    "@backstage/plugin-catalog-common" "^1.1.0"
-    "@backstage/plugin-catalog-react" "^1.14.0"
+    "@backstage/catalog-model" "^1.7.1"
+    "@backstage/core-compat-api" "^0.3.2"
+    "@backstage/core-components" "^0.16.0"
+    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/frontend-plugin-api" "^0.9.1"
+    "@backstage/plugin-catalog-common" "^1.1.1"
+    "@backstage/plugin-catalog-react" "^1.14.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
@@ -5350,16 +5330,6 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.27", "@backstage/plugin-permission-react@^0.4.28":
-  version "0.4.28"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.28.tgz#e9148b8dfc60047b72cfd0fff3139ec397a57a38"
-  integrity sha512-i0y8LnXELXGv0PNKg1Mz/y0+Hi9/tJtybwZHdYLNx+kmLv252djw3rUmdhsgb/ra/t5oFJKWZLrXO1ZuEB9XxQ==
-  dependencies:
-    "@backstage/config" "^1.3.0"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/plugin-permission-common" "^0.8.2"
-    swr "^2.0.0"
-
-"@backstage/plugin-permission-react@^0.4.28":
   version "0.4.28"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.28.tgz#e9148b8dfc60047b72cfd0fff3139ec397a57a38"
   integrity sha512-i0y8LnXELXGv0PNKg1Mz/y0+Hi9/tJtybwZHdYLNx+kmLv252djw3rUmdhsgb/ra/t5oFJKWZLrXO1ZuEB9XxQ==
