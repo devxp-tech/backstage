@@ -4190,14 +4190,14 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.0", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.0.tgz#84f578cd5708dafaea8f5eb6bdde6faa613d316c"
-  integrity sha512-WidRpDgvjD9vde+VO2nTx3cG/rtmrFIxM4aszBcBYa/9weNw8q2LplI2+Mrc8O3MH2yBH8Ba66eDtaDF8fbFwQ==
+"@backstage/core-plugin-api@^1.10.0", "@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.1.tgz#04cd87fc5262e1f1d7a574761a2cd9161ba1a50a"
+  integrity sha512-/hXKYZBzW9Kf5MgfdU4Dtfj2UyVVZ3F+ghm2WYIW7KgoI6EiZ4Ovwmpo9VYEj6kwQCAruKrqrPVhqtHVR/1Sog==
   dependencies:
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/types" "^1.1.1"
+    "@backstage/config" "^1.3.0"
+    "@backstage/errors" "^1.2.5"
+    "@backstage/types" "^1.2.0"
     "@backstage/version-bridge" "^1.0.10"
     history "^5.0.0"
 
@@ -4330,32 +4330,17 @@
     "@backstage/errors" "^1.2.5"
 
 "@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.0.tgz#11ac231650f69136667c22966aad6aca940e2b2e"
-  integrity sha512-Apl8zplxEbejbniyT232YUWCTCulWJT0D5E/aD69O5F2c5IVb+6gI6VUW4Spn5KFYhVrjunmSsfhmHWCSsdsGA==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.1.tgz#0a510997c9fbe26c903184191a577f20af521328"
+  integrity sha512-crjtcGLmTal6oqKx/06bwYzs1S/4miWY4kkO5iQPO6JQO4M5t7vlUYFv5B280b3tcWXh9dhmejtOvYEw+PTNuw==
   dependencies:
-    "@backstage/config" "^1.2.0"
-    "@backstage/core-plugin-api" "^1.10.0"
-    "@backstage/integration" "^1.15.1"
+    "@backstage/config" "^1.3.0"
+    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/integration" "^1.15.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.15.1":
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.1.tgz#ee85ac915d7d561276c5ce43afa166393ab5deb0"
-  integrity sha512-qV6XNmuiTX7WOtf39jRxDZAVNxdqy6pRYNGNAz8oiS7NlOdkcpg4t6ERJtrgmdaxYNCpQraZLJXER2eT4aTtWA==
-  dependencies:
-    "@azure/identity" "^4.0.0"
-    "@backstage/config" "^1.2.0"
-    "@backstage/errors" "^1.2.4"
-    "@octokit/auth-app" "^4.0.0"
-    "@octokit/rest" "^19.0.3"
-    cross-fetch "^4.0.0"
-    git-url-parse "^15.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-
-"@backstage/integration@^1.15.2":
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.15.1", "@backstage/integration@^1.15.2":
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.15.2.tgz#2f534ab8f6cc1e686654fee99770c5018acdc491"
   integrity sha512-cCigk62u4Ikkr3J/APf0ZFpT5F7HCM/iT+hJh4n9a/ufipu945X5QfgO7odsTL5uG8YgzbU1xl25W/Z/PGuWIw==
