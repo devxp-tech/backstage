@@ -5599,13 +5599,13 @@
     qs "^6.9.4"
     react-use "^17.2.4"
 
-"@backstage/plugin-signals-react@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.6.tgz#51e0fd5bace17fec7bef0ebe3cb7dcd337c5c7a2"
-  integrity sha512-fWvDGNlvgvtxGknzlfrliChFdvzquMKpcz2aBMxKvFYnupv10DkMOvzr28U9FCpTUSwv5W8XgS4zV/UnvZa/hQ==
+"@backstage/plugin-signals-react@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.7.tgz#b46bdd486e94460e426a30bb458c9e126870e9d9"
+  integrity sha512-yND/JgBJCo26Km90beMHPlBl4o+GAVo3vKPw1UWUGMsS4oEV/nZpuj7IkYY0vPUcgb6esH3XQ9PNCD4TJGByYA==
   dependencies:
-    "@backstage/core-plugin-api" "^1.10.0"
-    "@backstage/types" "^1.1.1"
+    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/types" "^1.2.0"
     "@material-ui/core" "^4.12.4"
 
 "@backstage/plugin-sonarqube-backend@^0.2.0":
@@ -5838,22 +5838,22 @@
   integrity sha512-1zLm0746Oay5SaT6B/ydrMzMxQQO0G415T9IAo8np0nbwkFQM69VtXYDz6J0S0oZMkfPqlpV7mIJyrJrPZdjxQ==
 
 "@backstage/plugin-user-settings@^0.8.0":
-  version "0.8.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.14.tgz#96bf0a3260e6bd6a955b8dfc7bcfef1d9961fff3"
-  integrity sha512-t17GsxZuS1bXvmFn/JT2yUnrZHQyXIQ5RISYkReiB/DKFbT9VgFypU0dvLMHX+6vKWmRx8Lv6N+FH+sN//KkmA==
+  version "0.8.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.15.tgz#1b676b9de59f21dd1b46a13e8f5ce95991ddce05"
+  integrity sha512-0mDEX+zKnFADn9TjWQI8nowQchOh0XfpBL4b5ES7O7Vc6UnxcWWm0G4jrCtK3kg0cJznXbaK9emE5cEuC/zueQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/core-app-api" "^1.15.1"
-    "@backstage/core-compat-api" "^0.3.1"
-    "@backstage/core-components" "^0.15.1"
-    "@backstage/core-plugin-api" "^1.10.0"
-    "@backstage/errors" "^1.2.4"
-    "@backstage/frontend-plugin-api" "^0.9.0"
-    "@backstage/plugin-catalog-react" "^1.14.0"
-    "@backstage/plugin-signals-react" "^0.0.6"
+    "@backstage/catalog-model" "^1.7.1"
+    "@backstage/core-app-api" "^1.15.2"
+    "@backstage/core-compat-api" "^0.3.2"
+    "@backstage/core-components" "^0.16.0"
+    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/errors" "^1.2.5"
+    "@backstage/frontend-plugin-api" "^0.9.1"
+    "@backstage/plugin-catalog-react" "^1.14.1"
+    "@backstage/plugin-signals-react" "^0.0.7"
     "@backstage/plugin-user-settings-common" "^0.0.1"
-    "@backstage/theme" "^0.6.0"
-    "@backstage/types" "^1.1.1"
+    "@backstage/theme" "^0.6.1"
+    "@backstage/types" "^1.2.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
