@@ -5153,10 +5153,10 @@
     node-fetch "^2.7.0"
     yaml "^2.0.0"
 
-"@backstage/plugin-scaffolder-backend-module-bitbucket@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend-module-bitbucket/-/plugin-scaffolder-backend-module-bitbucket-0.3.2.tgz#3934eec6641056347b0cd3c0562fa2ad4db05a5b"
-  integrity sha512-VdZJgkpNE21dnJE13Sxxjd5fWkvhTTSVOPmjPOpi1AE7O7S2weee6spugUv4qqTs7NUwP3hFr2CgbHtHy1JhNg==
+"@backstage/plugin-scaffolder-backend-module-bitbucket@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend-module-bitbucket/-/plugin-scaffolder-backend-module-bitbucket-0.3.3.tgz#1ff81a2d442b4740052e87f2f11f02e94bed9858"
+  integrity sha512-Phu7zVfXAO6s/EB9SRNNvSKp7jBcsLQI216diQKf9tm85dffhBy/JMuVu1uQb3+7MdFfsgx1fX06CznnXp0oMw==
   dependencies:
     "@backstage/backend-plugin-api" "^1.0.2"
     "@backstage/config" "^1.3.0"
@@ -5234,9 +5234,9 @@
     zod "^3.22.4"
 
 "@backstage/plugin-scaffolder-backend@^1.13.1":
-  version "1.27.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.27.0.tgz#5c9afd59e3f4d9176b681ab9bca27300539beb61"
-  integrity sha512-OnJ78JdPQMKBTDruaPqHR9dq12LNXtZnMLjuINFqQujXnZGvovjEHOubDPPkpEjOx/un+rG32g8Kc+iyMeGWWg==
+  version "1.27.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.27.1.tgz#ca4fef421161fc7e554e23059ec21ca9e92a494a"
+  integrity sha512-ztcRCYeHJvf7WctUdH5X3C39wrxbwrMOotPmRLAoDFoVsTmOso88eIeo2ftqIkGhr98ChtqpI98VZyXNo4FMjQ==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
     "@backstage/backend-defaults" "^0.5.3"
@@ -5253,7 +5253,7 @@
     "@backstage/plugin-permission-common" "^0.8.2"
     "@backstage/plugin-permission-node" "^0.8.5"
     "@backstage/plugin-scaffolder-backend-module-azure" "^0.2.2"
-    "@backstage/plugin-scaffolder-backend-module-bitbucket" "^0.3.2"
+    "@backstage/plugin-scaffolder-backend-module-bitbucket" "^0.3.3"
     "@backstage/plugin-scaffolder-backend-module-bitbucket-cloud" "^0.2.2"
     "@backstage/plugin-scaffolder-backend-module-bitbucket-server" "^0.2.2"
     "@backstage/plugin-scaffolder-backend-module-gerrit" "^0.2.2"
