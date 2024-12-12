@@ -3714,9 +3714,9 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.29.1":
-  version "0.29.2"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.29.2.tgz#f2d671d8597d16a4909d1ce0c607582c46832328"
-  integrity sha512-+fSOvJPI0oS8bCAeidsBZ0Kf4m0nFH8cFbk20Xr37KBQFqo1uxorht1j49HbGVIvM+vt+/mrMh1Xq9okRSfquA==
+  version "0.29.3"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.29.3.tgz#fb5c85d634e2ceedd202448756cc4734052baaab"
+  integrity sha512-aYinwxiCCTdik5odWCCc9S5z6EuutK1LZ5CCmUOSwh3wPmX6gdpbg3w2LuZfDs2c6dEFOOiXg/Sjz6HUN4exPA==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/cli-common" "^0.1.15"
@@ -3764,7 +3764,7 @@
     commander "^12.0.0"
     cross-fetch "^4.0.0"
     cross-spawn "^7.0.3"
-    css-loader "^7.0.0"
+    css-loader "^6.5.1"
     ctrlc-windows "^2.1.0"
     esbuild "^0.24.0"
     esbuild-loader "^4.0.0"
@@ -14934,10 +14934,10 @@ css-in-js-utils@^3.1.0:
   dependencies:
     hyphenate-style-name "^1.0.3"
 
-css-loader@^7.0.0:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-7.1.2.tgz#64671541c6efe06b0e22e750503106bdd86880f8"
-  integrity sha512-6WvYYn7l/XEGN8Xu2vWFt9nVzrCn39vKyTEFf/ExEyoksJjjSZV/0/35XPlMbpnr6VGhZIUg5yJrL8tGfes/FA==
+css-loader@^6.5.1:
+  version "6.11.0"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.11.0.tgz#33bae3bf6363d0a7c2cf9031c96c744ff54d85ba"
+  integrity sha512-CTJ+AEQJjq5NzLga5pE39qdiSV56F8ywCIsqNIRF0r7BDgWsN25aazToqAFg7ZrtA/U016xudB3ffgweORxX7g==
   dependencies:
     icss-utils "^5.1.0"
     postcss "^8.4.33"
