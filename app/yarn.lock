@@ -3696,7 +3696,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.15.tgz#20ea69cdee5025bdbdba38492ec174b1d8d470e3"
   integrity sha512-z+jMq5h+J1ruZ0IC610QFfSQxLk3IGSL1pZ/xnEIbyohaak+eeOZCyNzKBLwQrBDnIFCdmMoq69/Vrejo2hPeA==
 
-"@backstage/cli-node@^0.2.10", "@backstage/cli-node@^0.2.11", "@backstage/cli-node@^0.2.6":
+"@backstage/cli-node@^0.2.11", "@backstage/cli-node@^0.2.6":
   version "0.2.11"
   resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.11.tgz#75f23f3cde49359560c3acbe4456b5c901557252"
   integrity sha512-+scQ8KYXAr5HoQHLCI5XfOZn18PEb2tljnEjO0ri8snf8IhGNnP7t5W0AEBvIQIoKgK61ubvqXJk6CyTfnUQFw==
@@ -3829,7 +3829,7 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1", "@backstage/config-loader@^1.9.2", "@backstage/config-loader@^1.9.3":
+"@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1", "@backstage/config-loader@^1.9.3":
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.9.3.tgz#0fe9ea981e46e5db7cb82724aa5b048e999dbc77"
   integrity sha512-U6mzR/PtjJlp4VDdhx1IEYuvz1iBfk05EDDiE7sxN08OQ73epTfwz4dhRRpbPDCxxULIM8XJ+iuOPMBQK0fbAg==
@@ -3859,7 +3859,7 @@
     "@backstage/types" "^1.2.0"
     ms "^2.1.3"
 
-"@backstage/core-app-api@^1.15.2", "@backstage/core-app-api@^1.15.3", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.15.3", "@backstage/core-app-api@^1.7.0":
   version "1.15.3"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.15.3.tgz#4e6893015de82e155a820447ffd5f7d25c88edf4"
   integrity sha512-RVxsCXg+S0Qk0mE88BR1BNDmPFksZxqB7ghmUAU733Hd1kowJcoONxPJPXWts6mvOgMgkrDcZbtyqF3xWziDNg==
@@ -5801,25 +5801,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/release-manifests/-/release-manifests-0.0.12.tgz#2057c3546f9727daddde2f3e06aecee635565d50"
   integrity sha512-qJDQXVvggK9OjaiGyAK6Scpga0Mq6tKKOgtrwqWHzdkNjvM9Klp0UZtluF8B7e3fc9l8mBX8BVIcrzinlKg2lQ==
 
-"@backstage/test-utils@^1.3.0":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.7.2.tgz#11ed81ae8af2c41b34b4b3a2ba605ee9c509fa42"
-  integrity sha512-U9GIctlOq8H7y7l2BuBSVNhoqgPzHHUbpZ6hSa65jbPGPsvhxpOK6q1aZXj5MCxI/WzaFE6oKnzsZodsCXS/Fg==
-  dependencies:
-    "@backstage/config" "^1.3.0"
-    "@backstage/core-app-api" "^1.15.2"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/plugin-permission-common" "^0.8.2"
-    "@backstage/plugin-permission-react" "^0.4.28"
-    "@backstage/theme" "^0.6.2"
-    "@backstage/types" "^1.2.0"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    cross-fetch "^4.0.0"
-    i18next "^22.4.15"
-    zen-observable "^0.10.0"
-
-"@backstage/test-utils@^1.7.3":
+"@backstage/test-utils@^1.3.0", "@backstage/test-utils@^1.7.3":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.7.3.tgz#91a7df4479acbd69aad94f9c32f5abb9ee60181c"
   integrity sha512-crjV2xAD5Nm9d99D0VBhyRbNV31OMCxlL4iyEitVbp0xKViyPx/yeMDH+lQaQTuNP0wYgdD9C1UPewgZGeWiJw==
