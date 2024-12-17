@@ -4148,6 +4148,14 @@
     "@backstage/types" "^1.2.0"
     serialize-error "^8.0.1"
 
+"@backstage/errors@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.6.tgz#843a73d03433089f0a3b8a4530a53be013c34c6c"
+  integrity sha512-Zmpet5DS5670RHXIFUY/fcJbUxRbS1D/l+Ai7V9k3qGQw7TfCrtu5hiGaBAi1EjjJ0xdA8L9Y3Smyc7nDWB/YQ==
+  dependencies:
+    "@backstage/types" "^1.2.0"
+    serialize-error "^8.0.1"
+
 "@backstage/eslint-plugin@^0.1.10":
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.10.tgz#8f786ccc3c315dfe9b1cd3aa6d8435fd266a0574"
@@ -5846,14 +5854,14 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.11":
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.11.tgz#4e767b7a8770aecd71860da0628a37dd565933ab"
-  integrity sha512-tI2tvw6nfGBkhRhHVRA7y5M7PwEcZOio6pYsSOJVIGypfCRQQvmY1fvQOGcdJDYm1CCMTOv08iOg77wcrhMqSw==
+  version "1.2.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.12.tgz#344ff97accf1f66fb28cb8ba5968428242137eae"
+  integrity sha512-Z7M29J5upScDy6nliknhXer5iQnwDKkKuEVpbKJol6FGVqr6AGVTZd+ZObDAsXgOZEX3VQRA8F09GZnNIgTl3w==
   dependencies:
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/config" "^1.3.0"
-    "@backstage/core-components" "^0.16.1"
-    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/catalog-model" "^1.7.2"
+    "@backstage/config" "^1.3.1"
+    "@backstage/core-components" "^0.16.2"
+    "@backstage/core-plugin-api" "^1.10.2"
     "@backstage/version-bridge" "^1.0.10"
     "@material-ui/core" "^4.12.2"
     "@material-ui/styles" "^4.11.0"
