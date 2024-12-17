@@ -3675,21 +3675,21 @@
     zod "^3.22.4"
 
 "@backstage/catalog-client@^1.4.1", "@backstage/catalog-client@^1.6.4", "@backstage/catalog-client@^1.6.5", "@backstage/catalog-client@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.8.0.tgz#a618569abc552cadade18e29ce24e57ed0502fdc"
-  integrity sha512-+0DPzVwkJCTxY28VvUH7yg2087/JSyGZ7iHHShI40HAbsCitd5woJnmYa+2O1B8PuJxFbAYoZesh4uARp58NKg==
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.9.0.tgz#01ea350488f2f116fc223f7e78ab742e559b733c"
+  integrity sha512-c7nns3Qju97CNZZCxHZmQr2W8bJmLbLi2axVjtI12J4nrb3T3wCgByjyuAF6hPmUPyYvZLL812X5+SDqMOX5uQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/errors" "^1.2.5"
+    "@backstage/catalog-model" "^1.7.2"
+    "@backstage/errors" "^1.2.6"
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
-"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.6.0", "@backstage/catalog-model@^1.7.0", "@backstage/catalog-model@^1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.1.tgz#ac158f9e66f559614ea5546f01a66bb03090663b"
-  integrity sha512-TdtcpMzMMcSXlmJylEG2KbEHwxhd9XkxnvUFPKaF35Q6PjV9MhERw4qBSrINCzaIU5zn8baiyQBbg6j93r+kyA==
+"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.6.0", "@backstage/catalog-model@^1.7.0", "@backstage/catalog-model@^1.7.1", "@backstage/catalog-model@^1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.2.tgz#728ef1a338db72be6f20eb15683bf8f68fe487c6"
+  integrity sha512-/qyU3hyRakv+tNDMFp5bRpGUYPgJs1xwM+vDN1NIzSTqtJNU3K4heBL1hDlBNlthQ3BgNZVInUEMk589XN/PWA==
   dependencies:
-    "@backstage/errors" "^1.2.5"
+    "@backstage/errors" "^1.2.6"
     "@backstage/types" "^1.2.0"
     ajv "^8.10.0"
     lodash "^4.17.21"
@@ -4085,10 +4085,10 @@
     "@backstage/version-bridge" "^1.0.10"
     history "^5.0.0"
 
-"@backstage/errors@^1.1.5", "@backstage/errors@^1.2.4", "@backstage/errors@^1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.5.tgz#447177ac5a5e904b5d54019f6f14eda3c1073177"
-  integrity sha512-JoLzSdCt5uHPYvC/aR/UE10+d1WlTEsR0L7xWBgcTluC9VUpFmV5W15bNL+ckZHi14nQV3V1DOk9uhsR1ER45w==
+"@backstage/errors@^1.1.5", "@backstage/errors@^1.2.4", "@backstage/errors@^1.2.5", "@backstage/errors@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@backstage/errors/-/errors-1.2.6.tgz#843a73d03433089f0a3b8a4530a53be013c34c6c"
+  integrity sha512-Zmpet5DS5670RHXIFUY/fcJbUxRbS1D/l+Ai7V9k3qGQw7TfCrtu5hiGaBAi1EjjJ0xdA8L9Y3Smyc7nDWB/YQ==
   dependencies:
     "@backstage/types" "^1.2.0"
     serialize-error "^8.0.1"
