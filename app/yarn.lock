@@ -9474,15 +9474,15 @@
     recharts "^1.8.5"
 
 "@roadiehq/backstage-plugin-security-insights@^2.3.2":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-2.4.1.tgz#d94fa739dd098089a065b48cffc0932a73b7eedc"
-  integrity sha512-ALMAK0HSUPp+rLQrgfCCm5sYLIJwaHxfxHZVGe+2JtNGuN3fMLUndv5bdWObonljff7GZtvFc+SSn9+E/cFqQA==
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-2.4.2.tgz#1f1ab045d5a5c9739986327e163f88d54386ca69"
+  integrity sha512-SkjVNn37jF/33ghQ8FM9Elt4DIodRHMowuqJmxi++YDiL7vpCVQNAngB1oLKfo4Ahm506pdkNpORQ+IcuJZwcQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.0"
-    "@backstage/core-components" "^0.15.1"
-    "@backstage/core-plugin-api" "^1.10.0"
-    "@backstage/plugin-catalog-react" "^1.14.0"
-    "@backstage/theme" "^0.6.0"
+    "@backstage/catalog-model" "^1.7.1"
+    "@backstage/core-components" "^0.16.1"
+    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/plugin-catalog-react" "^1.14.2"
+    "@backstage/theme" "^0.6.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.45"
@@ -9491,7 +9491,6 @@
     cross-fetch "^3.1.4"
     history "^5.0.0"
     luxon "^3.0.0"
-    moment "^2.27.0"
     react-minimal-pie-chart "^8.2.0"
     react-use "^17.2.4"
 
@@ -22215,11 +22214,6 @@ modify-values@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
-
-moment@^2.27.0:
-  version "2.29.4"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
-  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 moo@^0.5.0:
   version "0.5.2"
