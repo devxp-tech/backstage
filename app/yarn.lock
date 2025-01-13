@@ -4195,7 +4195,7 @@
     "@backstage/config" "^1.3.1"
     "@backstage/errors" "^1.2.6"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.0", "@backstage/integration-react@^1.2.2":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.0", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.2.tgz#1683517baaca8bcfb20ff887bc07b60c6243402f"
   integrity sha512-M/tk92/gzfRZIh6ver8oRqkl3E98qjGH5+zf6+8BvXGuC3F/TuLPNx2Ey83BPIJkf4qvOJYVyMAk/X6vGumAZQ==
@@ -9475,14 +9475,15 @@
     react-use-dimensions "^1.2.1"
     recharts "^1.8.5"
 
-"@roadiehq/backstage-plugin-security-insights@^2.3.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-2.4.2.tgz#1f1ab045d5a5c9739986327e163f88d54386ca69"
-  integrity sha512-SkjVNn37jF/33ghQ8FM9Elt4DIodRHMowuqJmxi++YDiL7vpCVQNAngB1oLKfo4Ahm506pdkNpORQ+IcuJZwcQ==
+"@roadiehq/backstage-plugin-security-insights@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.0.0.tgz#03762324c7bc132a3c0a8e8a227aa5aab777ebc9"
+  integrity sha512-B1ubG3M5Dd5Id9UJhvKRRi1xRXn30VX2dKFHo7bcC48U0jfJ5T1yczauvjZE8XbXIaJCS1EzCcz5xHqwmxIWpA==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/core-components" "^0.16.1"
     "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/integration-react" "^1.2.1"
     "@backstage/plugin-catalog-react" "^1.14.2"
     "@backstage/theme" "^0.6.2"
     "@material-ui/core" "^4.12.2"
@@ -12651,7 +12652,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     "@roadiehq/backstage-plugin-github-insights" "^2.3.10"
     "@roadiehq/backstage-plugin-github-pull-requests" "^2.5.8"
     "@roadiehq/backstage-plugin-prometheus" "^2.4.6"
-    "@roadiehq/backstage-plugin-security-insights" "^2.3.2"
+    "@roadiehq/backstage-plugin-security-insights" "^3.0.0"
     history "^5.0.0"
     react "^18.3.1"
     react-dom "^18.2.0"
