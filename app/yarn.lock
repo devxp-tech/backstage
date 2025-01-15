@@ -4566,14 +4566,14 @@
     zod-to-json-schema "^3.21.4"
     zod-validation-error "^3.4.0"
 
-"@backstage/plugin-auth-react@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-react/-/plugin-auth-react-0.1.10.tgz#dd567b0d8eb5e245cba69b0cfea16131dea43d4d"
-  integrity sha512-MVe8AeWFpldmpViZAvyw0fKnaS6hSRFwCFxDKvzVtAi22zYnZJJUoJlPAmV4zTB5Tx4d46NOdCBN1euirC0D0Q==
+"@backstage/plugin-auth-react@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-react/-/plugin-auth-react-0.1.11.tgz#5fbae28a9c05450f8003e48d799f9c1355cf565e"
+  integrity sha512-Y42EDfkfAvq61H/vtjVik4UJQqRwpG5Q/pU14QIw0Bm2GYfNzFcmFrxTF32yaAY/6mpfgtxG/Cn8N+B3l1TCkA==
   dependencies:
-    "@backstage/core-components" "^0.16.2"
-    "@backstage/core-plugin-api" "^1.10.2"
-    "@backstage/errors" "^1.2.6"
+    "@backstage/core-components" "^0.16.3"
+    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/errors" "^1.2.7"
     "@material-ui/core" "^4.9.13"
     "@react-hookz/web" "^24.0.0"
 
@@ -5467,7 +5467,7 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/plugin-search-common@^1.2.16", "@backstage/plugin-search-common@^1.2.17":
+"@backstage/plugin-search-common@^1.2.17":
   version "1.2.17"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.17.tgz#785db1d1bebae1ec22bc03ad4546df1124a848db"
   integrity sha512-7wVfYCIFGI6JmTf/v43Odwdmyn3glngYa35pPRIJcFYEEmDyoeq3u9vR6A9dzpUtmKBjNJp6/3ILRYQmCkx1Pw==
@@ -5475,7 +5475,7 @@
     "@backstage/plugin-permission-common" "^0.8.4"
     "@backstage/types" "^1.2.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.4", "@backstage/plugin-search-react@^1.8.5":
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.8.5.tgz#c847ffc0ec3af0d6887d36745ed55edff58825c4"
   integrity sha512-bFJ+6Zt+W9OKuitojkiGOyCfeKpUcEvWExQgHP4x17Rix4OHSYnQ5mN3gmqrEnk6Gq44Ji0eibjVnQEC6GZmxg==
@@ -5665,7 +5665,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.12":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.12", "@backstage/plugin-techdocs-react@^1.2.13":
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.13.tgz#86518b8504ec93268ee3e96d105c115e3fb23eb4"
   integrity sha512-5ouxKuvpktnRPUJWxNz7JTlJOMGBimvzh4eT4yZh/JDQKIEE2mfXJeyXhhGiANqVFqNghb52OXHeF8Z8SSlI4g==
@@ -5683,25 +5683,25 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-techdocs@^1.6.1":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs/-/plugin-techdocs-1.12.0.tgz#ad23bda5e57614cf95461c6ad4021721386acf96"
-  integrity sha512-QjcJ+EhskfuJ7qhueuETK8iKtEViG60kPMgrEiBeL+JVMt5LBYBCCwL8D82HQ1v64TC4c60DQyy1RXQEH/u2Ng==
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs/-/plugin-techdocs-1.12.1.tgz#57bf4394fa9cf0c9a511869340ca408f25acb98e"
+  integrity sha512-BzAq3mYbtKAf+HVA9UMXNBO+/lYdAWtEyzaGyWxQkpV8QwVSGnTZCsD/qkZZ+6+KjIp/9UN6S/JVVynV1+pj0g==
   dependencies:
-    "@backstage/catalog-model" "^1.7.2"
-    "@backstage/config" "^1.3.1"
-    "@backstage/core-compat-api" "^0.3.4"
-    "@backstage/core-components" "^0.16.2"
-    "@backstage/core-plugin-api" "^1.10.2"
-    "@backstage/errors" "^1.2.6"
-    "@backstage/frontend-plugin-api" "^0.9.3"
-    "@backstage/integration" "^1.16.0"
-    "@backstage/integration-react" "^1.2.2"
-    "@backstage/plugin-auth-react" "^0.1.10"
-    "@backstage/plugin-catalog-react" "^1.15.0"
-    "@backstage/plugin-search-common" "^1.2.16"
-    "@backstage/plugin-search-react" "^1.8.4"
+    "@backstage/catalog-model" "^1.7.3"
+    "@backstage/config" "^1.3.2"
+    "@backstage/core-compat-api" "^0.3.5"
+    "@backstage/core-components" "^0.16.3"
+    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/frontend-plugin-api" "^0.9.4"
+    "@backstage/integration" "^1.16.1"
+    "@backstage/integration-react" "^1.2.3"
+    "@backstage/plugin-auth-react" "^0.1.11"
+    "@backstage/plugin-catalog-react" "^1.15.1"
+    "@backstage/plugin-search-common" "^1.2.17"
+    "@backstage/plugin-search-react" "^1.8.5"
     "@backstage/plugin-techdocs-common" "^0.1.0"
-    "@backstage/plugin-techdocs-react" "^1.2.12"
+    "@backstage/plugin-techdocs-react" "^1.2.13"
     "@backstage/theme" "^0.6.3"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
