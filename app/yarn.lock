@@ -5075,14 +5075,15 @@
     swr "^2.0.0"
 
 "@backstage/plugin-proxy-backend@^0.5.0":
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.5.9.tgz#0fcc42574b7572fc52137593b81735cb8ce5080c"
-  integrity sha512-cmz+a3ZpPbmfXYjJzPb7UQ7QYsrJzdT5Qw8dTT0yOa8q9CbZyCbaUrEDfWG9a2JwECQz8qBLJJvHNmN4VgTVSA==
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.5.10.tgz#4aa8de5e61403d4712eac22a947af9e6fecea784"
+  integrity sha512-IHMCWhEF9gMkd2vfITgS5AFgRh6xPVwgSWhcj5tm4QUPyRcOhhCNPmnrrSzvEEKj9pC+91jOOE4+FB1fsERZoQ==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.1.0"
-    "@backstage/config" "^1.3.1"
-    "@backstage/types" "^1.2.0"
+    "@backstage/backend-plugin-api" "^1.1.1"
+    "@backstage/config" "^1.3.2"
+    "@backstage/plugin-proxy-node" "^0.1.0"
+    "@backstage/types" "^1.2.1"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     express-promise-router "^4.1.0"
@@ -5093,6 +5094,14 @@
     yaml "^2.0.0"
     yn "^4.0.0"
     yup "^1.0.0"
+
+"@backstage/plugin-proxy-node@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-node/-/plugin-proxy-node-0.1.0.tgz#f9b0d4aba1a634b1fc0f00449e984ae2984fd4bc"
+  integrity sha512-Jtev2MbKcieLOe7aeuBY19IONilR35Hi4k514Tv0PC7vQGqtp0oJJRrPVc6dIVpBuyNf1hGGvxOcDiX0EDjLPA==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.1.1"
+    http-proxy-middleware "^2.0.0"
 
 "@backstage/plugin-scaffolder-backend-module-azure@^0.2.5":
   version "0.2.5"
