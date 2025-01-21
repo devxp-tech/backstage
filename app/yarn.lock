@@ -9395,14 +9395,14 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.0.1.tgz#a2041d97e71ae9310f0d89cd7b300c7232fd6628"
-  integrity sha512-Juf/3EDc+VecrysXbSMYkyyf0iVi9mxiUx8jUN6GvK9U9VSN2ujWz33Qhc9m2PNsi9UQtUM+d4nZefqYJ2+cOw==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.1.2.tgz#752f2012b2680c63c8a6bbec0317830833db5335"
+  integrity sha512-/z1JOSRcJY2J/8TsTJ0vvpy659to0Vu9xKwBEeEQBMkA1pIdSwWG4dopJyuSRokG2gZ4mEcolkkZMc/o1nymgQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/core-components" "^0.16.1"
     "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/integration" "^1.15.2"
+    "@backstage/integration" "^1.16.1"
     "@backstage/integration-react" "^1.2.1"
     "@backstage/plugin-catalog-react" "^1.14.2"
     "@backstage/theme" "^0.6.2"
@@ -9412,6 +9412,7 @@
     "@material-ui/lab" "4.0.0-alpha.45"
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
+    "@roadiehq/github-auth-utils-react" "^1.0.0"
     git-url-parse "^14.0.0"
     history "^5.0.0"
     immer "9.0.7"
