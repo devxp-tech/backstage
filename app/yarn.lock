@@ -9420,14 +9420,14 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^3.0.0":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.0.1.tgz#557a4cd9858a8bf80da19363f7c54d1016e1148b"
-  integrity sha512-SxvddG4iz6yT8hAldZoBx3koks0IMfxec4j4zhNiThp4msIG5nr1ODCp75J10O0l+uhKdK/pHyglh+Vlbk6imw==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.2.0.tgz#b072795b0d6df7917aca5b178a4e54446781baa1"
+  integrity sha512-IGN65ZiFEmRvPi05MeRRKvr1LZSt2vHIOkS8VeQPX7VsqLj2PipNgPO+7KoocSaVMVJCJAmCKzXUKcH7+ih8Zw==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/core-components" "^0.16.1"
     "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/integration" "^1.15.2"
+    "@backstage/integration" "^1.16.1"
     "@backstage/integration-react" "^1.2.1"
     "@backstage/plugin-catalog-react" "^1.14.2"
     "@backstage/plugin-home-react" "^0.1.20"
@@ -9436,6 +9436,7 @@
     "@material-ui/lab" "^4.0.0-alpha.60"
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
+    "@roadiehq/github-auth-utils-react" "^1.0.0"
     "@types/node-fetch" "^2.5.7"
     git-url-parse "^14.0.0"
     history "^5.0.0"
