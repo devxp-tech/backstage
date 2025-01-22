@@ -4164,7 +4164,7 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.15.2", "@backstage/integration@^1.16.1":
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.16.1":
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.16.1.tgz#0282c7f4d5ef63479a838a39401750adde43032a"
   integrity sha512-HDJo+TTiup/vj308plzQSo12kFk3BIY6fSPm9V1FgijDRq5145+iMcJAhQf/dGMIykXTQ+Dsc+FMJfCPO5VRMA==
@@ -9470,9 +9470,9 @@
     recharts "^1.8.5"
 
 "@roadiehq/backstage-plugin-security-insights@^3.0.0":
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.1.1.tgz#f975833caaa50b8b8091fad5a4a11e422a87d826"
-  integrity sha512-5sFfFKNyd8AScr4Li1KkzZKtjwnjKAG36Xuw8DFbH5gXbEPXKr+tYi/Jd7nM3n/U9l5VaC5E9ULbyV1CA6dYXQ==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.1.2.tgz#31f23aa54ac860a448611b385f5b6c42ef11d564"
+  integrity sha512-bTVzDDi34g9SdQvUPUFyeto1YiuIxzEPt2CMkhu9m1yVpE9IVr82jgJpBHTQMnFbTEso2xW+hnWEYQw6PNWziQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/core-components" "^0.16.1"
@@ -9485,7 +9485,7 @@
     "@material-ui/lab" "^4.0.0-alpha.45"
     "@octokit/graphql" "^5.0.0"
     "@octokit/rest" "^19.0.3"
-    "@roadiehq/github-auth-utils-react" "^1.0.0"
+    "@roadiehq/github-auth-utils-react" "^1.0.1"
     cross-fetch "^3.1.4"
     git-url-parse "^16.0.0"
     history "^5.0.0"
@@ -9493,7 +9493,7 @@
     react-minimal-pie-chart "^8.2.0"
     react-use "^17.2.4"
 
-"@roadiehq/github-auth-utils-react@^1.0.0":
+"@roadiehq/github-auth-utils-react@^1.0.0", "@roadiehq/github-auth-utils-react@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.0.1.tgz#a1a13388419f2468d2d121c08581ddf46bc7765c"
   integrity sha512-JytB6qqnmFUbClzeca6VztK0WtCl08jiBYclXNq+j3qA3wosodDAcXjDlNLN/Glkn/iwg9oh1RSWq5CuYNohMg==
