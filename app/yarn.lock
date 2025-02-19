@@ -3972,7 +3972,7 @@
     "@backstage/types" "^1.2.1"
     ms "^2.1.3"
 
-"@backstage/core-app-api@^1.15.4", "@backstage/core-app-api@^1.15.5", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.15.5", "@backstage/core-app-api@^1.7.0":
   version "1.15.5"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.15.5.tgz#531f47e30f44ce67e7e2e356dff59f12debecd89"
   integrity sha512-ApcWPmJRyiS4TlTlvQXFrNmKhu4P++pN281LKdEOEpkvFKaV0ds5rdtgDJ5vC2fnSLjaW+HMCl+VDMT+Wfc1BQ==
@@ -4295,20 +4295,20 @@
     luxon "^3.0.0"
 
 "@backstage/plugin-api-docs@^0.12.0":
-  version "0.12.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.12.3.tgz#b7b32f24e6d59b31fbbc82a783caf68b28c06ca7"
-  integrity sha512-lRlvTPkL16wVBvvC/Efw+iexFyL0W1F0O/dzT+yWYq+oTukwB00+VPHU/xwxKUeKV6Ic9qPXNldudtrRG98MgQ==
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.12.4.tgz#ce08c37af7b149055844e9d3fc6b06c9efe62bd5"
+  integrity sha512-D3ejZN8kAkZC5ZJ/ycJb3l4vyRb7hoQqPujw3ZZ7wJ4Ew6sL+F/mF7n9a3Aic/W54Up50RAgvhtvJf+mqGlyQA==
   dependencies:
     "@asyncapi/react-component" "^2.3.3"
     "@backstage/catalog-model" "^1.7.3"
-    "@backstage/core-compat-api" "^0.3.5"
-    "@backstage/core-components" "^0.16.3"
-    "@backstage/core-plugin-api" "^1.10.3"
-    "@backstage/frontend-plugin-api" "^0.9.4"
-    "@backstage/plugin-catalog" "^1.26.1"
+    "@backstage/core-compat-api" "^0.3.6"
+    "@backstage/core-components" "^0.16.4"
+    "@backstage/core-plugin-api" "^1.10.4"
+    "@backstage/frontend-plugin-api" "^0.9.5"
+    "@backstage/plugin-catalog" "^1.27.0"
     "@backstage/plugin-catalog-common" "^1.1.3"
-    "@backstage/plugin-catalog-react" "^1.15.1"
-    "@backstage/plugin-permission-react" "^0.4.30"
+    "@backstage/plugin-catalog-react" "^1.15.2"
+    "@backstage/plugin-permission-react" "^0.4.31"
     "@graphiql/react" "^0.23.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -4886,7 +4886,7 @@
     yaml "^2.0.0"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.26.1":
+"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.27.0":
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.27.0.tgz#5531ad428cd880dcca0317759b84abae2b0b070c"
   integrity sha512-b851PMap66dLxPRDCsdzmMiYiSiKijJLVL3M/FaB87+KHqzCQ5Gu7qx40uGgUKhaQZvkyE5IgqoC3lqBzReqBA==
