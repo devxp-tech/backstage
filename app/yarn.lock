@@ -4027,15 +4027,15 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.2", "@backstage/core-plugin-api@^1.10.3", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.3.tgz#232b3a19b574dd85ab146081bb587d03d871e9ef"
-  integrity sha512-Wxd9SGXOfpaQacHkzNVlBmDPtjKQJeUjZKrXgaoc3IDE5hnCViQprULLOmuBTtmDrgnGxKLKOKTe88c3nPggGQ==
+"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.2", "@backstage/core-plugin-api@^1.10.3", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.10.4"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.4.tgz#478f2a1914be4cbba7c35092611903e3e6091012"
+  integrity sha512-9yjV1425+ZOrxQg+mCKy8a0IiFMoqthLglI58d3fHpMCj+9zIbc++wkk+DHRtn8F/S2NyM4iwb3/7e2Dn0NEEQ==
   dependencies:
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.1"
-    "@backstage/version-bridge" "^1.0.10"
+    "@backstage/version-bridge" "^1.0.11"
     history "^5.0.0"
 
 "@backstage/errors@^1.1.5", "@backstage/errors@^1.2.4", "@backstage/errors@^1.2.7":
@@ -5029,12 +5029,12 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.30":
-  version "0.4.30"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.30.tgz#92e7eb6f175fcb84415b5cff7f83a6a98687d104"
-  integrity sha512-mVH6Sz6JJVfk38tE4UiRUr5dvNgTZunJxvDwWvY9uzz0hZF45lREJEthKnq7naB0Hn1s5GbGJ8d2taPY+EiC+g==
+  version "0.4.31"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.31.tgz#5fa6f789a9548219685a4a93eb6b648f170ed390"
+  integrity sha512-EaBFFugz93RY9YJBqje6VmmkvsSVAIT91i2l1b2gimj26mnBVcjnRdqUhFo7Aixkn7a1yY+k2ryUSWLAYlqXtQ==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/core-plugin-api" "^1.10.4"
     "@backstage/plugin-permission-common" "^0.8.4"
     swr "^2.0.0"
 
@@ -5818,6 +5818,11 @@
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.10.tgz#f3f383a27e11a60b382ef1ad411d43a476535ac7"
   integrity sha512-KjKhUYGdYADtuhBgkWb2FeQY1xYd/q20GtwWlGBCeXqZAswbGV2I25Kc0UJ4sxDaNIIeNOkzBfPXhriMMQFwkQ==
+
+"@backstage/version-bridge@^1.0.11":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.11.tgz#ea05424799bae78bc3e27e3b4fe88e3f8d819974"
+  integrity sha512-gigfUgs6cLWAkU5EZp6C4hwSp7UsYMXf2W6EcLPn/IQAzeO77v2y+SEhWa0MBrfAgxQdEdvcztRCCkTdiXWcxQ==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
