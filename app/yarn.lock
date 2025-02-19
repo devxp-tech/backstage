@@ -4866,13 +4866,13 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@backstage/plugin-home-react@^0.1.22":
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-home-react/-/plugin-home-react-0.1.22.tgz#ee5a33d12eabc64c8cdfd696635a1bbc21ca44f0"
-  integrity sha512-v03LWyzVR3y5JxRFPXor+gZwAItKagrA+EoMcvvxuG4kLCqvKzKMWBIcHM1kYlt34PQK9VaFecQUSBKKAGs1Bg==
+"@backstage/plugin-home-react@^0.1.20":
+  version "0.1.23"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-home-react/-/plugin-home-react-0.1.23.tgz#1fe92f620915d736dde703dee22d2a3289a20b77"
+  integrity sha512-+WWmNz72zZRkuVTooBbnCD3hm1jBtn3s2hzGm9v2V6PLHiulM7LRPfiGas5+/gs8I0swWu2QcsP8q1ji/AvrrA==
   dependencies:
-    "@backstage/core-components" "^0.16.3"
-    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/core-components" "^0.16.4"
+    "@backstage/core-plugin-api" "^1.10.4"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@rjsf/utils" "5.23.2"
@@ -5904,6 +5904,11 @@
   integrity sha512-0GkrZthoIkUzoeop+8fZZk2MWlLd1q0LB59tMarsjw7ccMtFYR96jhlf1qGvcbw7Gn5ETtJfTC2C1aUzvgvF+w==
 
 "@backstage/version-bridge@^1.0.10", "@backstage/version-bridge@^1.0.11", "@backstage/version-bridge@^1.0.3", "@backstage/version-bridge@^1.0.8":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.11.tgz#ea05424799bae78bc3e27e3b4fe88e3f8d819974"
+  integrity sha512-gigfUgs6cLWAkU5EZp6C4hwSp7UsYMXf2W6EcLPn/IQAzeO77v2y+SEhWa0MBrfAgxQdEdvcztRCCkTdiXWcxQ==
+
+"@backstage/version-bridge@^1.0.11":
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.11.tgz#ea05424799bae78bc3e27e3b4fe88e3f8d819974"
   integrity sha512-gigfUgs6cLWAkU5EZp6C4hwSp7UsYMXf2W6EcLPn/IQAzeO77v2y+SEhWa0MBrfAgxQdEdvcztRCCkTdiXWcxQ==
@@ -9515,17 +9520,17 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^3.0.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.3.0.tgz#1ec800eb9f7c84e544fbc15f89fc14a1d7f75c9f"
-  integrity sha512-ad9n7XY2sbbtJCN2ErCsbceU+0InCGRnkBePL5HbGKLtDHFEgAlvfcWHQOxUWifFC43MXgBRy038bJCnLGD4qg==
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.4.0.tgz#098bc423e719743e907fe9693430d220b9325f5d"
+  integrity sha512-HLC1tNnT2LMoViK161UufkOX3N0c92xut/OiVCM67VXCDf2oFzTYfzbsUlQvwzvul8SjkAlgZ8qycxTikehwcQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/core-components" "^0.16.3"
-    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/catalog-model" "^1.7.1"
+    "@backstage/core-components" "^0.16.1"
+    "@backstage/core-plugin-api" "^1.10.1"
     "@backstage/integration" "^1.16.1"
-    "@backstage/integration-react" "^1.2.3"
-    "@backstage/plugin-catalog-react" "^1.15.1"
-    "@backstage/plugin-home-react" "^0.1.22"
+    "@backstage/integration-react" "^1.2.1"
+    "@backstage/plugin-catalog-react" "^1.14.2"
+    "@backstage/plugin-home-react" "^0.1.20"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.60"
