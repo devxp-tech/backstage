@@ -4174,13 +4174,13 @@
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.3.tgz#62f744ace86a780f2a9ee4d971135d9f1a165212"
-  integrity sha512-F/tJXnvxIZQtB5P5emhhdSsq5TGgZBLjKyk4sfbNQsl2DGAhmcgK3piyvf/nPR1SMsXxTO8LVg6/QZk9eq9RBQ==
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.3", "@backstage/integration-react@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.4.tgz#2c7d70c773512190aaeced9ce20453922fa72176"
+  integrity sha512-WVvQL3HZ43zElwvnhuRQrolQ82FlcPTV1UnGyFHSgp7RXj9NFZ5D0glbGNTqXVwKtqFQspaE62v8YjHAsufgTQ==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/core-plugin-api" "^1.10.4"
     "@backstage/integration" "^1.16.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -4732,22 +4732,22 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-catalog-import@^0.12.0":
-  version "0.12.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.12.9.tgz#49f60c955c712540012fa880f95d0535eb303ba7"
-  integrity sha512-Y+yKfTX4LXnzoF4yUxFEgI6iVPRcFYOjcbs4Wj0Lv11gHt12VcdPY2vU6/o7Bsf5F8qBqunChGkZgN1yVX4jug==
+  version "0.12.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-import/-/plugin-catalog-import-0.12.10.tgz#d506e937803ba08be181a8882791bfa01f39455a"
+  integrity sha512-SkODR3Wjgtc3WzouDwNBUitEI/FX0Ow6P5ZHSiY4NLuTWUla2ikV2+tXjUCFwPM4Go8BYnb9azpqIwm/LBHVcw==
   dependencies:
     "@backstage/catalog-client" "^1.9.1"
     "@backstage/catalog-model" "^1.7.3"
     "@backstage/config" "^1.3.2"
-    "@backstage/core-compat-api" "^0.3.5"
-    "@backstage/core-components" "^0.16.3"
-    "@backstage/core-plugin-api" "^1.10.3"
+    "@backstage/core-compat-api" "^0.3.6"
+    "@backstage/core-components" "^0.16.4"
+    "@backstage/core-plugin-api" "^1.10.4"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.9.4"
+    "@backstage/frontend-plugin-api" "^0.9.5"
     "@backstage/integration" "^1.16.1"
-    "@backstage/integration-react" "^1.2.3"
+    "@backstage/integration-react" "^1.2.4"
     "@backstage/plugin-catalog-common" "^1.1.3"
-    "@backstage/plugin-catalog-react" "^1.15.1"
+    "@backstage/plugin-catalog-react" "^1.15.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
@@ -5116,6 +5116,16 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.30":
+  version "0.4.31"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.31.tgz#5fa6f789a9548219685a4a93eb6b648f170ed390"
+  integrity sha512-EaBFFugz93RY9YJBqje6VmmkvsSVAIT91i2l1b2gimj26mnBVcjnRdqUhFo7Aixkn7a1yY+k2ryUSWLAYlqXtQ==
+  dependencies:
+    "@backstage/config" "^1.3.2"
+    "@backstage/core-plugin-api" "^1.10.4"
+    "@backstage/plugin-permission-common" "^0.8.4"
+    swr "^2.0.0"
+
+"@backstage/plugin-permission-react@^0.4.31":
   version "0.4.31"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.31.tgz#5fa6f789a9548219685a4a93eb6b648f170ed390"
   integrity sha512-EaBFFugz93RY9YJBqje6VmmkvsSVAIT91i2l1b2gimj26mnBVcjnRdqUhFo7Aixkn7a1yY+k2ryUSWLAYlqXtQ==
@@ -5939,6 +5949,11 @@
   integrity sha512-0GkrZthoIkUzoeop+8fZZk2MWlLd1q0LB59tMarsjw7ccMtFYR96jhlf1qGvcbw7Gn5ETtJfTC2C1aUzvgvF+w==
 
 "@backstage/version-bridge@^1.0.10", "@backstage/version-bridge@^1.0.11", "@backstage/version-bridge@^1.0.3", "@backstage/version-bridge@^1.0.8":
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.11.tgz#ea05424799bae78bc3e27e3b4fe88e3f8d819974"
+  integrity sha512-gigfUgs6cLWAkU5EZp6C4hwSp7UsYMXf2W6EcLPn/IQAzeO77v2y+SEhWa0MBrfAgxQdEdvcztRCCkTdiXWcxQ==
+
+"@backstage/version-bridge@^1.0.11":
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/@backstage/version-bridge/-/version-bridge-1.0.11.tgz#ea05424799bae78bc3e27e3b4fe88e3f8d819974"
   integrity sha512-gigfUgs6cLWAkU5EZp6C4hwSp7UsYMXf2W6EcLPn/IQAzeO77v2y+SEhWa0MBrfAgxQdEdvcztRCCkTdiXWcxQ==
