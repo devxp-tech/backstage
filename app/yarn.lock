@@ -5529,22 +5529,22 @@
     lodash "^4.17.21"
     uuid "^11.0.0"
 
-"@backstage/plugin-search-backend-module-techdocs@^0.3.5":
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-techdocs/-/plugin-search-backend-module-techdocs-0.3.5.tgz#4affa745cdcf5b2d46e148256dac37c52c232a9f"
-  integrity sha512-2x4AQzSMc9g3kZdpL7o+E4FTqKk2MSzmM6yxECXrnFTm9jDJLEtV4+3u39pYpXAiED9Jzffb/z5xkTHvJOpbRA==
+"@backstage/plugin-search-backend-module-techdocs@^0.3.6":
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-techdocs/-/plugin-search-backend-module-techdocs-0.3.6.tgz#258b332cd134bf64d34375922154544bed2ad6eb"
+  integrity sha512-cV6QojPP5SvFVq2wrzd5hmWFZ0RlHyDzNZeAKZ+tbr8x55DxEKtjv/pZPQRlSe7nFzotahc0AOiUkTGFgKNPeQ==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.1.1"
+    "@backstage/backend-plugin-api" "^1.2.0"
     "@backstage/catalog-client" "^1.9.1"
     "@backstage/catalog-model" "^1.7.3"
     "@backstage/config" "^1.3.2"
     "@backstage/plugin-catalog-common" "^1.1.3"
-    "@backstage/plugin-catalog-node" "^1.15.1"
+    "@backstage/plugin-catalog-node" "^1.16.0"
     "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-search-backend-node" "^1.3.7"
+    "@backstage/plugin-search-backend-node" "^1.3.8"
     "@backstage/plugin-search-common" "^1.2.17"
-    "@backstage/plugin-techdocs-node" "^1.12.16"
+    "@backstage/plugin-techdocs-node" "^1.13.0"
     lodash "^4.17.21"
     p-limit "^3.1.0"
 
@@ -5704,23 +5704,23 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-techdocs-backend@^1.6.1":
-  version "1.11.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-backend/-/plugin-techdocs-backend-1.11.5.tgz#4ddb7b989bdf81a493def3cf50e217f69edd6d35"
-  integrity sha512-2ntk3qnndd7MA0VsOEF8hW9FlfigBzpI0Ak/P7S2qaqct5FbEp7ZpMgUfsTcPctEtdkuVfgVlX+yT8dhlicXhA==
+  version "1.11.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-backend/-/plugin-techdocs-backend-1.11.6.tgz#7aa230bc6496376384636a72992329e6f891fb15"
+  integrity sha512-9LWpmbcMTB18RqWsUzHeValv43YrHrQoFNEtUuQ91226Q8rLEFu3Si9lzCdVix8E5J4yJVctfxQaeeTlgzduag==
   dependencies:
     "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.1.1"
+    "@backstage/backend-plugin-api" "^1.2.0"
     "@backstage/catalog-client" "^1.9.1"
     "@backstage/catalog-model" "^1.7.3"
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
     "@backstage/integration" "^1.16.1"
     "@backstage/plugin-catalog-common" "^1.1.3"
-    "@backstage/plugin-catalog-node" "^1.15.1"
+    "@backstage/plugin-catalog-node" "^1.16.0"
     "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-search-backend-module-techdocs" "^0.3.5"
+    "@backstage/plugin-search-backend-module-techdocs" "^0.3.6"
     "@backstage/plugin-techdocs-common" "^0.1.0"
-    "@backstage/plugin-techdocs-node" "^1.12.16"
+    "@backstage/plugin-techdocs-node" "^1.13.0"
     "@types/express" "^4.17.6"
     express "^4.17.1"
     express-promise-router "^4.1.0"
@@ -5751,10 +5751,10 @@
     git-url-parse "^15.0.0"
     photoswipe "^5.3.7"
 
-"@backstage/plugin-techdocs-node@^1.12.16":
-  version "1.12.16"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-node/-/plugin-techdocs-node-1.12.16.tgz#4ab7f840fbb620f80c3cddde1510097bb809d1c4"
-  integrity sha512-WOCq0PKfcsq+FjUEnLG9oxgVlIz/BJ/olIZHSNq6cT8zQKd8NdP2D5ruBTvBxZK1Q1ZPSnaI1kVdqEFtJIYoWA==
+"@backstage/plugin-techdocs-node@^1.13.0":
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-node/-/plugin-techdocs-node-1.13.0.tgz#7d037d6364a6d72c327b05f9c8e69fd5b6b3b927"
+  integrity sha512-e75XcHJhEtasIsXQEikDk2u7gVki3uOfwU1j4L9eFrXRFOTIm75hp8vE/s+fxcVXVncxJmfbykqaV91Q7vlwkA==
   dependencies:
     "@aws-sdk/client-s3" "^3.350.0"
     "@aws-sdk/credential-providers" "^3.350.0"
@@ -5762,7 +5762,7 @@
     "@aws-sdk/types" "^3.347.0"
     "@azure/identity" "^4.0.0"
     "@azure/storage-blob" "^12.5.0"
-    "@backstage/backend-plugin-api" "^1.1.1"
+    "@backstage/backend-plugin-api" "^1.2.0"
     "@backstage/catalog-model" "^1.7.3"
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
