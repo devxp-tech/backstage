@@ -3682,7 +3682,7 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
-"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.6.0", "@backstage/catalog-model@^1.7.1", "@backstage/catalog-model@^1.7.3":
+"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.1", "@backstage/catalog-model@^1.7.3":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.3.tgz#c74f680cbdbe4209a4a9c17de34b1949f1d19a2d"
   integrity sha512-eqSRo7briHyVXMBkNdgQ8rdrw5W2LZifqrIabGwjcvoV8YDG2hFBuCPfqpdpfsgeCIk45iyXilTi9rg1Nt1fgw==
@@ -4744,7 +4744,7 @@
     "@backstage/plugin-permission-node" "^0.8.8"
     "@backstage/types" "^1.2.1"
 
-"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.12.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.15.2", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
+"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.15.2", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.15.2.tgz#18dea12450ff0dfc29302cfeeb15801f7378c5fb"
   integrity sha512-ouILpQ6GM9Lusk7VOFaqPxuA1+PcoRbQEpXiKGhaw3/wERDLXSgJga+mnFb1wR98PAswol/aEDTteg43Q5NvfQ==
@@ -9510,21 +9510,18 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-prometheus@^2.4.6":
-  version "2.11.3"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-2.11.3.tgz#bbf538de794c405fa6b3e904f74458266263a894"
-  integrity sha512-QXDIq3/ziWqaBOWRKEobHfmulwEdbw96bi85Lx4yfsJCbIbdWmv+/ueTOuYn2ijf8ffM0lQB8ITuAM9vpLDfdQ==
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-2.11.4.tgz#47365b1ee4fb394ba097863eabef22a6a1ac8741"
+  integrity sha512-46awtGf0zdIesr4S7wEnuYjOb6d/m7n7cnOqGRzWAED7fvTl6AEVH1SqIQ6kM2dXs3A6xit3FruX7IKxJMdkPA==
   dependencies:
-    "@backstage/catalog-model" "^1.6.0"
-    "@backstage/core-components" "^0.14.10"
-    "@backstage/core-plugin-api" "^1.9.3"
-    "@backstage/plugin-catalog-react" "^1.12.3"
-    "@backstage/theme" "^0.5.6"
+    "@backstage/catalog-model" "^1.7.1"
+    "@backstage/core-components" "^0.16.1"
+    "@backstage/core-plugin-api" "^1.10.1"
+    "@backstage/plugin-catalog-react" "^1.14.2"
+    "@backstage/theme" "^0.6.2"
     "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
     "@types/recharts" "^1.8.14"
-    classnames "^2.2.6"
-    history "^5.0.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
     nunjucks "^3.2.4"
