@@ -8879,14 +8879,7 @@
   dependencies:
     "@octokit/openapi-types" "^19.1.0"
 
-"@octokit/types@^13.0.0", "@octokit/types@^13.1.0":
-  version "13.7.0"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-13.7.0.tgz#22d0e26a8c9f53599bfb907213d8ccde547f36aa"
-  integrity sha512-BXfRP+3P3IN6fd4uF3SniaHKOO4UXWBfkdR3vA8mIvaoO/wLjGN5qivUtW0QRitBHHMcfC41SLhNVYIZZE+wkA==
-  dependencies:
-    "@octokit/openapi-types" "^23.0.1"
-
-"@octokit/types@^13.7.0", "@octokit/types@^13.8.0":
+"@octokit/types@^13.0.0", "@octokit/types@^13.1.0", "@octokit/types@^13.7.0", "@octokit/types@^13.8.0":
   version "13.8.0"
   resolved "https://registry.yarnpkg.com/@octokit/types/-/types-13.8.0.tgz#3815885e5abd16ed9ffeea3dced31d37ce3f8a0a"
   integrity sha512-x7DjTIbEpEWXK99DMd01QfWy0hd5h4EN+Q7shkdKds3otGQP+oWE/y0A76i1OvH9fygo4ddvNf7ZvF0t78P98A==
@@ -9483,9 +9476,9 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^3.0.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.4.0.tgz#098bc423e719743e907fe9693430d220b9325f5d"
-  integrity sha512-HLC1tNnT2LMoViK161UufkOX3N0c92xut/OiVCM67VXCDf2oFzTYfzbsUlQvwzvul8SjkAlgZ8qycxTikehwcQ==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.4.1.tgz#6fb1fa823f5464a32d6cdb6d469cca1a10928f5e"
+  integrity sha512-Q9QGYddycjNuUUAXnH/LL8+md+LAjrtXfrFjNZ2b0mNU3yAyuNy5E22u+5zFkswfzZhtre1IPMNS+uSCEbLMkA==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/core-components" "^0.16.1"
@@ -9499,14 +9492,11 @@
     "@material-ui/lab" "^4.0.0-alpha.60"
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
-    "@roadiehq/github-auth-utils-react" "^1.0.1"
-    "@types/node-fetch" "^2.5.7"
+    "@roadiehq/github-auth-utils-react" "^1.0.2"
     git-url-parse "^14.0.0"
-    history "^5.0.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
     msw "^1.0.1"
-    node-fetch "^2.6.1"
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-prometheus@^2.4.6":
@@ -9556,16 +9546,14 @@
     react-minimal-pie-chart "^8.2.0"
     react-use "^17.2.4"
 
-"@roadiehq/github-auth-utils-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.0.1.tgz#a1a13388419f2468d2d121c08581ddf46bc7765c"
-  integrity sha512-JytB6qqnmFUbClzeca6VztK0WtCl08jiBYclXNq+j3qA3wosodDAcXjDlNLN/Glkn/iwg9oh1RSWq5CuYNohMg==
+"@roadiehq/github-auth-utils-react@^1.0.1", "@roadiehq/github-auth-utils-react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.0.2.tgz#0a907d55051e63529551e4386e06f210985e26f5"
+  integrity sha512-uiW2k5jLu0xtt1aI6LPUL40TZcFkUopcyXsus9YW2zraCRHRv9aoy7VE22C7RySskauxAjcLOkhucqdK7LOHEw==
   dependencies:
     "@backstage/core-components" "^0.16.1"
     "@backstage/core-plugin-api" "^1.10.1"
     "@backstage/integration-react" "^1.2.1"
-    "@backstage/plugin-catalog-react" "^1.14.2"
-    "@date-io/core" "2.10.7"
     "@material-ui/core" "^4.12.2"
     zustand "^4.5.6"
 
@@ -11543,7 +11531,7 @@
   dependencies:
     "@types/express" "*"
 
-"@types/node-fetch@^2.5.0", "@types/node-fetch@^2.5.7", "@types/node-fetch@^2.6.9":
+"@types/node-fetch@^2.5.0", "@types/node-fetch@^2.6.9":
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.12.tgz#8ab5c3ef8330f13100a7479e2cd56d3386830a03"
   integrity sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==
