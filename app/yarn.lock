@@ -6022,11 +6022,6 @@
   resolved "https://registry.yarnpkg.com/@date-io/core/-/core-1.3.13.tgz#90c71da493f20204b7a972929cc5c482d078b3fa"
   integrity sha512-AlEKV7TxjeK+jxWVKcCFrfYAk8spX9aCyiToFIiLPtfQbsjmRGLIhb5VZgptQcJdHtLXo7+m0DuurwFgUToQuA==
 
-"@date-io/core@2.10.7":
-  version "2.10.7"
-  resolved "https://registry.yarnpkg.com/@date-io/core/-/core-2.10.7.tgz#0fe1fa0ef02c827919e23c2802a4b25589ac522d"
-  integrity sha512-EG/1qDiQvd12RoNJ6H+sZcHVswC/3uMx/ySvfaJ24vB30rLjkgHggEXbgMbfgki7wMuiQ/zXI8QlmF1k3kWRGQ==
-
 "@date-io/date-fns@^1.3.13":
   version "1.3.13"
   resolved "https://registry.yarnpkg.com/@date-io/date-fns/-/date-fns-1.3.13.tgz#7798844041640ab393f7e21a7769a65d672f4735"
@@ -8879,14 +8874,7 @@
   dependencies:
     "@octokit/openapi-types" "^19.1.0"
 
-"@octokit/types@^13.0.0", "@octokit/types@^13.1.0":
-  version "13.7.0"
-  resolved "https://registry.yarnpkg.com/@octokit/types/-/types-13.7.0.tgz#22d0e26a8c9f53599bfb907213d8ccde547f36aa"
-  integrity sha512-BXfRP+3P3IN6fd4uF3SniaHKOO4UXWBfkdR3vA8mIvaoO/wLjGN5qivUtW0QRitBHHMcfC41SLhNVYIZZE+wkA==
-  dependencies:
-    "@octokit/openapi-types" "^23.0.1"
-
-"@octokit/types@^13.7.0", "@octokit/types@^13.8.0":
+"@octokit/types@^13.0.0", "@octokit/types@^13.1.0", "@octokit/types@^13.7.0", "@octokit/types@^13.8.0":
   version "13.8.0"
   resolved "https://registry.yarnpkg.com/@octokit/types/-/types-13.8.0.tgz#3815885e5abd16ed9ffeea3dced31d37ce3f8a0a"
   integrity sha512-x7DjTIbEpEWXK99DMd01QfWy0hd5h4EN+Q7shkdKds3otGQP+oWE/y0A76i1OvH9fygo4ddvNf7ZvF0t78P98A==
@@ -9458,9 +9446,9 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^3.0.0":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.1.3.tgz#8bcc041dba04be8212e880d7d774d5b8e8e706f8"
-  integrity sha512-6IOLd4K+Q8Wyd5uUPNFqhxhU1KLoau7iO/bI1LQ69dXszfHCdFx1ydkW6KAhvhi3RGPsEcb5H8db4wWmQDH+dA==
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.1.4.tgz#9eb053486873b5f16a360149105f109d0a71d5ae"
+  integrity sha512-S+bKpheJ4/6KauKLPnrlYIpA0twnnhdKEP98JnY0fRqWzJk3vPXWV6nCrvasclfsV1vD8CnUQ7RLjTRAbsaZxw==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/core-components" "^0.16.1"
@@ -9469,15 +9457,13 @@
     "@backstage/integration-react" "^1.2.1"
     "@backstage/plugin-catalog-react" "^1.14.2"
     "@backstage/theme" "^0.6.2"
-    "@date-io/core" "2.10.7"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
-    "@roadiehq/github-auth-utils-react" "^1.0.1"
+    "@roadiehq/github-auth-utils-react" "^1.0.2"
     git-url-parse "^14.0.0"
-    history "^5.0.0"
     immer "9.0.7"
     react-use "^17.2.4"
     zustand "3.6.9"
@@ -9556,16 +9542,14 @@
     react-minimal-pie-chart "^8.2.0"
     react-use "^17.2.4"
 
-"@roadiehq/github-auth-utils-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.0.1.tgz#a1a13388419f2468d2d121c08581ddf46bc7765c"
-  integrity sha512-JytB6qqnmFUbClzeca6VztK0WtCl08jiBYclXNq+j3qA3wosodDAcXjDlNLN/Glkn/iwg9oh1RSWq5CuYNohMg==
+"@roadiehq/github-auth-utils-react@^1.0.1", "@roadiehq/github-auth-utils-react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.0.2.tgz#0a907d55051e63529551e4386e06f210985e26f5"
+  integrity sha512-uiW2k5jLu0xtt1aI6LPUL40TZcFkUopcyXsus9YW2zraCRHRv9aoy7VE22C7RySskauxAjcLOkhucqdK7LOHEw==
   dependencies:
     "@backstage/core-components" "^0.16.1"
     "@backstage/core-plugin-api" "^1.10.1"
     "@backstage/integration-react" "^1.2.1"
-    "@backstage/plugin-catalog-react" "^1.14.2"
-    "@date-io/core" "2.10.7"
     "@material-ui/core" "^4.12.2"
     zustand "^4.5.6"
 
