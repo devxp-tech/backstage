@@ -9523,27 +9523,24 @@
     recharts "^1.8.5"
 
 "@roadiehq/backstage-plugin-security-insights@^3.0.0":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.1.2.tgz#31f23aa54ac860a448611b385f5b6c42ef11d564"
-  integrity sha512-bTVzDDi34g9SdQvUPUFyeto1YiuIxzEPt2CMkhu9m1yVpE9IVr82jgJpBHTQMnFbTEso2xW+hnWEYQw6PNWziQ==
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.1.3.tgz#3f97124e80a0dfa180632a76755be64655ee4974"
+  integrity sha512-x1Duw8y872XccKHOTh7hfTxlWXAi/GQgQ7PoFgo1zlxgBDR+BwThMRQm6ZYMvNeV5byPZoncs5dX2t91ONu4jw==
   dependencies:
     "@backstage/catalog-model" "^1.7.1"
     "@backstage/core-components" "^0.16.1"
     "@backstage/core-plugin-api" "^1.10.1"
     "@backstage/integration-react" "^1.2.1"
     "@backstage/plugin-catalog-react" "^1.14.2"
-    "@backstage/theme" "^0.6.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.45"
     "@octokit/graphql" "^5.0.0"
     "@octokit/rest" "^19.0.3"
-    "@roadiehq/github-auth-utils-react" "^1.0.1"
+    "@roadiehq/github-auth-utils-react" "^1.0.2"
     cross-fetch "^3.1.4"
     git-url-parse "^16.0.0"
-    history "^5.0.0"
     luxon "^3.0.0"
-    react-minimal-pie-chart "^8.2.0"
     react-use "^17.2.4"
 
 "@roadiehq/github-auth-utils-react@^1.0.1", "@roadiehq/github-auth-utils-react@^1.0.2":
@@ -11813,11 +11810,6 @@
   integrity sha512-W/iTlIkGEyTBGTEvZCey8EgQlQ5l0DwMqi3iOXlLs2kyBwYTXHKEiU6IZ5EwoRwngL8/dGYuzezSup89ttVHLw==
   dependencies:
     "@types/react" "*"
-
-"@types/svg-path-parser@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@types/svg-path-parser/-/svg-path-parser-1.1.3.tgz#659aca2e886071e5c593e06206b6254bcb811202"
-  integrity sha512-F1Y6lQIto5b2sKCseVUsFfY5J+8PIhhX4jrDVxpth4m7hwM2OdySh3iTLeR35lEhl/K4ZMEF+GDAwTl7yJcO5Q==
 
 "@types/tar@^6.1.1":
   version "6.1.13"
@@ -25616,13 +25608,6 @@ react-markdown@^8.0.0:
     unified "^10.0.0"
     unist-util-visit "^4.0.0"
     vfile "^5.0.0"
-
-react-minimal-pie-chart@^8.2.0:
-  version "8.4.0"
-  resolved "https://registry.yarnpkg.com/react-minimal-pie-chart/-/react-minimal-pie-chart-8.4.0.tgz#c784dd3dffa9aee5c5396c0cb8ece814fd02e0e8"
-  integrity sha512-A0wG+6mRjboyMxMDrzQNWp+2+GSn2ai4ERzRFHLp/OCC45PwIR1DpDVjwedawO+5AtFpzBRQKSFm3ZUxrqIEzA==
-  dependencies:
-    "@types/svg-path-parser" "^1.1.3"
 
 react-redux@^7.2.0:
   version "7.2.9"
