@@ -3617,17 +3617,17 @@
     knex "^3.0.0"
     luxon "^3.0.0"
 
-"@backstage/backend-plugin-api@^1.0.0", "@backstage/backend-plugin-api@^1.1.1", "@backstage/backend-plugin-api@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-1.2.0.tgz#060e516f706d1201ece4379e2b49af181c346f58"
-  integrity sha512-dugL00Qq+Cu4AqcUfraPZhC8jo+Pg4YPx9sKm4XIf+27ZbPBGLJMKrOmCOYpZXBKMMBY44h9/oeg5fO3RnHetg==
+"@backstage/backend-plugin-api@^1.0.0", "@backstage/backend-plugin-api@^1.1.1", "@backstage/backend-plugin-api@^1.2.0", "@backstage/backend-plugin-api@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@backstage/backend-plugin-api/-/backend-plugin-api-1.2.1.tgz#a2967fd0b1d71134159e3b28c998f71119e3757a"
+  integrity sha512-xUzauWFqrhk2cHkFiypJxY/w5YygPeXAF9UqSM+p3t2hwiyJ9bJxXZj7pXywstXEZ2mla6k0sk5FF8M6FSH4GQ==
   dependencies:
     "@backstage/cli-common" "^0.1.15"
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-auth-node" "^0.6.0"
+    "@backstage/plugin-auth-node" "^0.6.1"
     "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-permission-node" "^0.8.8"
+    "@backstage/plugin-permission-node" "^0.9.0"
     "@backstage/types" "^1.2.1"
     "@types/express" "^4.17.6"
     "@types/luxon" "^3.0.0"
@@ -4576,6 +4576,27 @@
     zod-to-json-schema "^3.21.4"
     zod-validation-error "^3.4.0"
 
+"@backstage/plugin-auth-node@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.6.1.tgz#4dbd7d9026fe1e15445dca0fdabf7210ac184f8b"
+  integrity sha512-cWgp0NlYHqsUD7hMzvCer8yEj7EYVtLiwzBOgXmVWdPD7UAi9TqsW/akMmYdm9pRgIy6atxl3kFuZQHkKQvOVA==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.2.1"
+    "@backstage/catalog-client" "^1.9.1"
+    "@backstage/catalog-model" "^1.7.3"
+    "@backstage/config" "^1.3.2"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.1"
+    "@types/express" "^4.17.6"
+    "@types/passport" "^1.0.3"
+    express "^4.17.1"
+    jose "^5.0.0"
+    lodash "^4.17.21"
+    passport "^0.7.0"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+    zod-validation-error "^3.4.0"
+
 "@backstage/plugin-auth-react@^0.1.12":
   version "0.1.12"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-react/-/plugin-auth-react-0.1.12.tgz#814ca4b8b5982e4067a823f378e5c77700b7cf25"
@@ -5053,6 +5074,22 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
+"@backstage/plugin-permission-node@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.9.0.tgz#3b8b357d2fda31d6542f0eba91cc15ff88f65fb7"
+  integrity sha512-TGMOac1VWVODYYfypA85RlMeu4Jbky6IwnSECXE6p/tXJeKzUUWl8vv6TPbRbbFyYiAXJKECmhjz33yQSHeTAw==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.2.1"
+    "@backstage/config" "^1.3.2"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/plugin-auth-node" "^0.6.1"
+    "@backstage/plugin-permission-common" "^0.8.4"
+    "@types/express" "^4.17.6"
+    express "^4.17.1"
+    express-promise-router "^4.1.0"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.20.4"
+
 "@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.31":
   version "0.4.31"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.31.tgz#5fa6f789a9548219685a4a93eb6b648f170ed390"
@@ -5440,11 +5477,11 @@
     p-limit "^3.1.0"
 
 "@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.8":
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.8.tgz#14f773764bbe88d5236306295174ec4ce0e66714"
-  integrity sha512-wL1Up9iHbUuMwBimbdgV1maeOj7hws4xddWuKUhJQYHu7NvGtTRbfupQoSK/pnlGXkKTuB8io6kZ6wtP/hLc3Q==
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.9.tgz#9b2deb3c025df436a675e701f1ffbbb5644586da"
+  integrity sha512-bvicWKGDWBl6KZWMCUDIYiKfODUeLjAVR1LCD9GTfS26WF04B4oa9IuZKqp/6bYrfkrvxDtLJmk/+1eb7LnhGg==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.2.0"
+    "@backstage/backend-plugin-api" "^1.2.1"
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
     "@backstage/plugin-permission-common" "^0.8.4"
