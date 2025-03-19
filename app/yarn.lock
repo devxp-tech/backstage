@@ -5694,15 +5694,16 @@
   integrity sha512-HlRuOdsrQ6cZJa1ClRxTn/b4Rl5qznfjWx8Y7bjIVAHL4j4hGecl8PO7rntqivxPybtQJKUfNxuWyJNkhFJ1Kg==
 
 "@backstage/plugin-techdocs-module-addons-contrib@^1.0.12":
-  version "1.1.21"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.21.tgz#6ec6c5299ee82826b84137324e38b86dbcb545c9"
-  integrity sha512-6pus7LTNJa/VVRn1Xc8davRYCJAXq2Br2q8mFkJtfdXHPl0ZXF6q+1HHTDmKSrMmPIiyNnTSzOh6+4w1Hd0Jmw==
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.22.tgz#0e31031903cf609a54cd79ecb2219215bab7767a"
+  integrity sha512-4ZdwSBVW2K+FgA5Xb45thkiaZJ7esiTTNVghx5BYEb+cSfp69FAsqkoQx3z7Q0TWyhlFNKky5FAG660gE7oKNQ==
   dependencies:
-    "@backstage/core-components" "^0.16.4"
-    "@backstage/core-plugin-api" "^1.10.4"
-    "@backstage/integration" "^1.16.1"
-    "@backstage/integration-react" "^1.2.4"
-    "@backstage/plugin-techdocs-react" "^1.2.14"
+    "@backstage/core-components" "^0.17.0"
+    "@backstage/core-plugin-api" "^1.10.5"
+    "@backstage/frontend-plugin-api" "^0.10.0"
+    "@backstage/integration" "^1.16.2"
+    "@backstage/integration-react" "^1.2.5"
+    "@backstage/plugin-techdocs-react" "^1.2.15"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@react-hookz/web" "^24.0.0"
@@ -5744,7 +5745,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.14":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.2.14", "@backstage/plugin-techdocs-react@^1.2.15":
   version "1.2.15"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.2.15.tgz#3a21c78b3b06820ac927c4403991646065155be4"
   integrity sha512-6X32IB3H6J2HVdt2/WF2iDQ3z/UFA/h2BFROP1OhLxarpOQEnWYYO0rp7bGcPoDz2SkWMwm+6nQ7AS+SD1i3iQ==
@@ -11740,9 +11741,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.13.1 || ^17.0.0", "@types/react@^16.13.1 || ^17.0.0 || ^18.0.0", "@types/react@^17":
-  version "17.0.83"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.83.tgz#b477c56387b74279281149dcf5ba2a1e2216d131"
-  integrity sha512-l0m4ArKJvmFtR4e8UmKrj1pB4tUgOhJITf+mADyF/p69Ts1YAR/E+G9XEM0mHXKVRa1dQNHseyyDNzeuAXfXQw==
+  version "17.0.84"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.84.tgz#097d532db63fe8cf152fb813c12e6386ed6b481c"
+  integrity sha512-DtgToBBNtUTNokPYGCShoDfbEtv2a0XnL1OVnShFU2d8wZ3EfI8nRwzVOeYxKUZdHdl++eX8Fmka7pDr6X+0xw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "^0.16"
