@@ -3831,7 +3831,7 @@
     "@backstage/types" "^1.2.1"
     ms "^2.1.3"
 
-"@backstage/core-app-api@^1.16.0", "@backstage/core-app-api@^1.16.1", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.16.1", "@backstage/core-app-api@^1.7.0":
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.16.1.tgz#1591621b2a2cca79035a08ede818b7e0cb307310"
   integrity sha512-0ysEGAYIoAac6ydp62eowW1dUOwrhEW6jJCQ1f/evz3XsRNS6PJ8ssDv9a9Z4SCKkBvxOj9WjDs9Aty4apGiNQ==
@@ -5829,25 +5829,7 @@
   resolved "https://registry.yarnpkg.com/@backstage/release-manifests/-/release-manifests-0.0.12.tgz#2057c3546f9727daddde2f3e06aecee635565d50"
   integrity sha512-qJDQXVvggK9OjaiGyAK6Scpga0Mq6tKKOgtrwqWHzdkNjvM9Klp0UZtluF8B7e3fc9l8mBX8BVIcrzinlKg2lQ==
 
-"@backstage/test-utils@^1.3.0":
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.7.6.tgz#4d37683b5a472100a448b4bc94f6f22237eb4f4c"
-  integrity sha512-7AQrMuBy1ERRZJZ7sYfFIyBizB2ArJopJwiMvbPvRo3cfD7J5WdQsfg8tPTpSXJ3T51QEUgtxDOk68XiH1B7tQ==
-  dependencies:
-    "@backstage/config" "^1.3.2"
-    "@backstage/core-app-api" "^1.16.0"
-    "@backstage/core-plugin-api" "^1.10.5"
-    "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-permission-react" "^0.4.32"
-    "@backstage/theme" "^0.6.4"
-    "@backstage/types" "^1.2.1"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/icons" "^4.9.1"
-    cross-fetch "^4.0.0"
-    i18next "^22.4.15"
-    zen-observable "^0.10.0"
-
-"@backstage/test-utils@^1.7.7":
+"@backstage/test-utils@^1.3.0", "@backstage/test-utils@^1.7.7":
   version "1.7.7"
   resolved "https://registry.yarnpkg.com/@backstage/test-utils/-/test-utils-1.7.7.tgz#28eb642d96abbea3832565fc36a471a19dd035b3"
   integrity sha512-b3MHQE5SLQ4zLXfgVxbtdwoSsNvUL/WWyzo8+X8hQ6ERm/FmnMcQm5zAtpZ/gldlAUPAiBIy/ZLQqxYHnQeEfw==
