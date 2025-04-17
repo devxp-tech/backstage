@@ -4135,7 +4135,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.5", "@backstage/core-plugin-api@^1.10.6", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.6", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
   version "1.10.6"
   resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.6.tgz#6f91a6ef8631285024cc50701957f760417069a9"
   integrity sha512-GDKCkbJwGUJp737eUJwBrWqWzj6R0jG8D01y6tU/KXNK1xdSitVBWXWYr2fqNxYOCwg/FhJ/ntZWB9jEzeNEBw==
@@ -4190,7 +4190,7 @@
     "@backstage/plugin-app" "^0.1.8"
     "@react-hookz/web" "^24.0.0"
 
-"@backstage/frontend-plugin-api@^0.10.0", "@backstage/frontend-plugin-api@^0.10.1":
+"@backstage/frontend-plugin-api@^0.10.1":
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.10.1.tgz#85e62b80f6d99a32b4b7100e6988b8ac0c4ed465"
   integrity sha512-A0lbFZruNF/fIM2EE5L26CoLZ1NfvanuzDPEOVrsoXufS7jvD5zKQSa+EfJk0V55IbwubDUIwb+A+P0EmT/+bg==
@@ -4275,7 +4275,7 @@
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.5", "@backstage/integration-react@^1.2.6":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.6":
   version "1.2.6"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.6.tgz#bc98a4a9eb254ea2cc115fe02af9c44ed8ac2381"
   integrity sha512-qD0X0e4FMY8IdrvckOI2LWEAc8z6qppl+xxX/LBC3WlxoJVALz59yO1/6bD0nWf96Y5w9OopDddKiKQAiyJzEg==
@@ -5416,10 +5416,10 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-react@^1.15.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.15.0.tgz#d177ad4c4955e2a9ba6148cb51832b317a875b14"
-  integrity sha512-FQiq+wASPmMs+KMRpJNaBedY4zAdR0eGllG/Jl2x+OkJz1vYUC3iC7GipfwmmqygQnTkGod9JRtQICsZDW+5Gg==
+"@backstage/plugin-scaffolder-react@^1.15.1":
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.15.1.tgz#1b42983efa60029a6c55868c7884ae981ddb8d2b"
+  integrity sha512-FEv7CM1xvUphHe/h24UvhfemWzyj5qI+DKtycaK8Sbi+WKtVrIpzNRxfbfOR96ReMVbqDRI/qEn81iXB9iGLFg==
   dependencies:
     "@backstage/catalog-client" "^1.9.1"
     "@backstage/catalog-model" "^1.7.3"
@@ -5459,9 +5459,9 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.30.0.tgz#b08b85c87d37980b475939296fd5f0e688bacd38"
-  integrity sha512-sDpaqZztJuPjktIgwKs2OrQt5TqAB50r/sSKkm8srz1odFzruCchhtZy7C0B6kKIrkPbnORxpsmDP1LBF+sdRA==
+  version "1.30.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.30.1.tgz#6673c3848985776a8ef9b178ff8db2387f1e9a1c"
+  integrity sha512-rgb3MQ21bfv7mprutPBfStjrDbnse6/EuKIj9vpT6eIGk+skt9NNmLm8dgsib4ZLomAIVGQBtL/YTC8JVCRvWA==
   dependencies:
     "@backstage/catalog-client" "^1.9.1"
     "@backstage/catalog-model" "^1.7.3"
@@ -5476,7 +5476,7 @@
     "@backstage/plugin-catalog-react" "^1.17.0"
     "@backstage/plugin-permission-react" "^0.4.33"
     "@backstage/plugin-scaffolder-common" "^1.5.10"
-    "@backstage/plugin-scaffolder-react" "^1.15.0"
+    "@backstage/plugin-scaffolder-react" "^1.15.1"
     "@backstage/types" "^1.2.1"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
