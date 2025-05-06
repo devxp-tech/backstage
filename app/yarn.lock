@@ -5982,11 +5982,6 @@
     style-mod "^4.0.0"
     w3c-keyname "^2.2.4"
 
-"@colors/colors@1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
-  integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
-
 "@colors/colors@1.6.0", "@colors/colors@^1.6.0":
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.6.0.tgz#ec6cd237440700bc23ca23087f513c75508958b0"
@@ -14250,14 +14245,14 @@ cli-spinners@^2.5.0:
   resolved "https://registry.yarnpkg.com/cli-spinners/-/cli-spinners-2.9.0.tgz#5881d0ad96381e117bbe07ad91f2008fe6ffd8db"
   integrity sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g==
 
-cli-table3@~0.6.5:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.6.5.tgz#013b91351762739c16a9567c21a04632e449bf2f"
-  integrity sha512-+W/5efTR7y5HRD7gACw9yQjqMVvEMLBHmboM/kPWam+H+Hmyrgjh6YncVKK122YZkXrLudzTuAukUw9FnMf7IQ==
+cli-table3@0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/cli-table3/-/cli-table3-0.6.1.tgz#36ce9b7af4847f288d3cdd081fbd09bf7bd237b8"
+  integrity sha512-w0q/enDHhPLq44ovMGdQeeDLvwxwavsJX7oQGYt/LrBlYsyaxyDnp6z3QzFut/6kLLKnlcUVJLrpB7KBfgG/RA==
   dependencies:
     string-width "^4.2.0"
   optionalDependencies:
-    "@colors/colors" "1.5.0"
+    colors "1.4.0"
 
 cli-truncate@^2.1.0:
   version "2.1.0"
@@ -14465,6 +14460,11 @@ colorette@^2.0.10, colorette@^2.0.16:
   version "2.0.20"
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.20.tgz#9eb793e6833067f7235902fcd3b09917a000a95a"
   integrity sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==
+
+colors@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
+  integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
 
 colorspace@1.1.x:
   version "1.1.4"
@@ -15291,9 +15291,9 @@ ctrlc-windows@^2.1.0:
   integrity sha512-OrX5KI+K+2NMN91QIhYZdW7VDO2YsSdTZW494pA7Nvw/wBdU2hz+MGP006bR978zOTrG6Q8EIeJvLJmLqc6MsQ==
 
 cypress@^14.0.0:
-  version "14.3.2"
-  resolved "https://registry.yarnpkg.com/cypress/-/cypress-14.3.2.tgz#04a6ea66c1715119ef41dda5851d75801cc1e226"
-  integrity sha512-n+yGD2ZFFKgy7I3YtVpZ7BcFYrrDMcKj713eOZdtxPttpBjCyw/R8dLlFSsJPouneGN7A/HOSRyPJ5+3/gKDoA==
+  version "14.3.3"
+  resolved "https://registry.yarnpkg.com/cypress/-/cypress-14.3.3.tgz#cbf7fbc79fd139ba55ea51a6d1ee3d9018a59ce2"
+  integrity sha512-1Rz7zc9iqLww6BysaESqUhtIuaFHS7nL3wREovAKYsNhLTfX3TbcBWHWgEz70YimH2NkSOsm4oIcJJ9HYHOlew==
   dependencies:
     "@cypress/request" "^3.0.8"
     "@cypress/xvfb" "^1.2.4"
@@ -15308,7 +15308,7 @@ cypress@^14.0.0:
     check-more-types "^2.24.0"
     ci-info "^4.1.0"
     cli-cursor "^3.1.0"
-    cli-table3 "~0.6.5"
+    cli-table3 "0.6.1"
     commander "^6.2.1"
     common-tags "^1.8.0"
     dayjs "^1.10.4"
