@@ -4054,10 +4054,10 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.6", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.6"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.6.tgz#6f91a6ef8631285024cc50701957f760417069a9"
-  integrity sha512-GDKCkbJwGUJp737eUJwBrWqWzj6R0jG8D01y6tU/KXNK1xdSitVBWXWYr2fqNxYOCwg/FhJ/ntZWB9jEzeNEBw==
+"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.6", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.7.tgz#a2323d3c060efb212db0af44b91d07515ec64e64"
+  integrity sha512-G0KdzuHGEn+eqIHu5IrDm1an4AusEC+ZRJNW/28XalVAIgjJiHfwxC/dN5D+bAqHB/V9LihzaV/hC1mGPJTfoQ==
   dependencies:
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
@@ -5065,6 +5065,19 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
+"@backstage/plugin-permission-common@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.9.0.tgz#9b51307adafd51841346cbc6ec0cc40fce55baf4"
+  integrity sha512-mTEotUJyFaztexxXKEdKROKaSG9mnVmYmsqEBU4GIVsZ1T9pFKhMSAVd6oE4rZMkTDl8tMsqs317PHmedoEYRA==
+  dependencies:
+    "@backstage/config" "^1.3.2"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.1"
+    cross-fetch "^4.0.0"
+    uuid "^11.0.0"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.20.4"
+
 "@backstage/plugin-permission-node@^0.7.32":
   version "0.7.32"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.32.tgz#e462a4c8d6d8021ae5d8ff64bec84e176641fd77"
@@ -5099,13 +5112,13 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-permission-react@^0.4.12", "@backstage/plugin-permission-react@^0.4.33":
-  version "0.4.33"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.33.tgz#bdd45213333397aaa0685971c9018d66f14d8dc5"
-  integrity sha512-8TQYbZzfXskGPhGi1AGqUeiRB/Eg3ctaKWLActLmzCY/FBvH6HJF5XiVQFDmcRcE3T9Mf3RmOtFnCa5f1CFxSw==
+  version "0.4.34"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-react/-/plugin-permission-react-0.4.34.tgz#3c8968f454f81f8a4cab550a91ba9c39425cec5e"
+  integrity sha512-nWDVY6oYux3PyNJtx2hjktSMe4qOIWgBRZLgMSXfCrWao4KLMyj1PAtJyb8NyqeJTpjxOcRadoER6ERc9yX2ag==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.6"
-    "@backstage/plugin-permission-common" "^0.8.4"
+    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/plugin-permission-common" "^0.9.0"
     swr "^2.0.0"
 
 "@backstage/plugin-proxy-backend@^0.6.0":
