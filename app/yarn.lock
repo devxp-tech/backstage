@@ -4054,10 +4054,10 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.6", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.6"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.6.tgz#6f91a6ef8631285024cc50701957f760417069a9"
-  integrity sha512-GDKCkbJwGUJp737eUJwBrWqWzj6R0jG8D01y6tU/KXNK1xdSitVBWXWYr2fqNxYOCwg/FhJ/ntZWB9jEzeNEBw==
+"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.6", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.7.tgz#a2323d3c060efb212db0af44b91d07515ec64e64"
+  integrity sha512-G0KdzuHGEn+eqIHu5IrDm1an4AusEC+ZRJNW/28XalVAIgjJiHfwxC/dN5D+bAqHB/V9LihzaV/hC1mGPJTfoQ==
   dependencies:
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
@@ -4195,20 +4195,20 @@
     "@backstage/errors" "^1.2.7"
 
 "@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.6":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.6.tgz#bc98a4a9eb254ea2cc115fe02af9c44ed8ac2381"
-  integrity sha512-qD0X0e4FMY8IdrvckOI2LWEAc8z6qppl+xxX/LBC3WlxoJVALz59yO1/6bD0nWf96Y5w9OopDddKiKQAiyJzEg==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.7.tgz#825d7d422bbb6175141949d5693fe76fc5fe74ba"
+  integrity sha512-SokRB5rXGkE4Pe9Ue6VEnxJCiqrNAUXma3gj4wsCnLnAEKOhyDaQhgAHksJ/F1aw4oeSD/2wxQzKkRE/l/Mi6Q==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.6"
-    "@backstage/integration" "^1.16.3"
+    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/integration" "^1.17.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.16.1", "@backstage/integration@^1.16.3":
-  version "1.16.3"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.16.3.tgz#f7fd0a9af8e166ebdce03921edba8902a0487237"
-  integrity sha512-vJDN+44DssA+7wCoLyeWBOn+zL68j1FsovlJthNJfaYItNbJqBwQlUugAkCtn8e65jPCEnLsBE9wfRbHgui4PQ==
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.16.1", "@backstage/integration@^1.16.3", "@backstage/integration@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.17.0.tgz#f7215d17240e6ed4a451f6d0521a0676c794b637"
+  integrity sha512-JcXIL81hBSuLGq7SLjuZnvLihqeDGCmu/M5/r1Pp3EjtbB82Ha52ebLuhmEJvBcv+TRPJbd3eqWSo7TY/UK3hQ==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@azure/storage-blob" "^12.5.0"
