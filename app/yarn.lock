@@ -4720,36 +4720,18 @@
     "@backstage/plugin-permission-common" "^0.9.0"
     "@backstage/plugin-search-common" "^1.2.18"
 
-"@backstage/plugin-catalog-common@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.4.tgz#8c0b3419264595d13bba869f7a063d0b50032e9b"
-  integrity sha512-jTUJ2RqiAjAk3eaPVMgPSeVGylLlsg4Fpl/ZktTvO4Gd6+l+DnEV4p9/sCQJYo3bj/rtc/DLh6flZKfKsnaMMQ==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.4"
-    "@backstage/plugin-permission-common" "^0.9.0"
-    "@backstage/plugin-search-common" "^1.2.18"
-
-"@backstage/plugin-catalog-common@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.4.tgz#8c0b3419264595d13bba869f7a063d0b50032e9b"
-  integrity sha512-jTUJ2RqiAjAk3eaPVMgPSeVGylLlsg4Fpl/ZktTvO4Gd6+l+DnEV4p9/sCQJYo3bj/rtc/DLh6flZKfKsnaMMQ==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.4"
-    "@backstage/plugin-permission-common" "^0.9.0"
-    "@backstage/plugin-search-common" "^1.2.18"
-
 "@backstage/plugin-catalog-graph@^0.4.0":
-  version "0.4.18"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.18.tgz#9ac70d618456f70417d46ebf1005908a2cdcbbd9"
-  integrity sha512-RLGvBzGD0SD9AbFSz6zIGPS20Bd1Ms1oNqCAJYPONlt1TT5tAEKn+c7Bth1V9e0lD06RNgw3urY4f0FJd8MHow==
+  version "0.4.19"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.19.tgz#55af701305c0f2c4306212fd8cbd0202eefb519e"
+  integrity sha512-6LWR874tT1/H2bPplctMasDIVyy4G83//BK+ltxsIuTyc4f5KHxYtRt4qzUr5o/8Nksq1UKqPtZapVVQJBcajQ==
   dependencies:
-    "@backstage/catalog-client" "^1.9.1"
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/core-compat-api" "^0.4.1"
-    "@backstage/core-components" "^0.17.1"
-    "@backstage/core-plugin-api" "^1.10.6"
-    "@backstage/frontend-plugin-api" "^0.10.1"
-    "@backstage/plugin-catalog-react" "^1.17.0"
+    "@backstage/catalog-client" "^1.10.0"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-compat-api" "^0.4.2"
+    "@backstage/core-components" "^0.17.2"
+    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/frontend-plugin-api" "^0.10.2"
+    "@backstage/plugin-catalog-react" "^1.18.0"
     "@backstage/types" "^1.2.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
