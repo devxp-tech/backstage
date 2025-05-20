@@ -4285,20 +4285,7 @@
     "@backstage/version-bridge" "^1.0.11"
     zod "^3.22.4"
 
-"@backstage/integration-aws-node@^0.1.12", "@backstage/integration-aws-node@^0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-aws-node/-/integration-aws-node-0.1.15.tgz#f499d63e7c6f85e26dd622c862fb8a416b5305eb"
-  integrity sha512-936tY7ywpDU7/+soAxSk28kNPsJuafETvTFQv3GAljBExFMMCkXiuplIUKNSPCbvNVo5V5J6Z/nyHVMNY/Wz7Q==
-  dependencies:
-    "@aws-sdk/client-sts" "^3.350.0"
-    "@aws-sdk/credential-provider-node" "^3.350.0"
-    "@aws-sdk/credential-providers" "^3.350.0"
-    "@aws-sdk/types" "^3.347.0"
-    "@aws-sdk/util-arn-parser" "^3.310.0"
-    "@backstage/config" "^1.3.2"
-    "@backstage/errors" "^1.2.7"
-
-"@backstage/integration-aws-node@^0.1.16":
+"@backstage/integration-aws-node@^0.1.12", "@backstage/integration-aws-node@^0.1.15", "@backstage/integration-aws-node@^0.1.16":
   version "0.1.16"
   resolved "https://registry.yarnpkg.com/@backstage/integration-aws-node/-/integration-aws-node-0.1.16.tgz#7cf8b0f7377be5ef29e183407ff629c5f5b391ba"
   integrity sha512-PXz3P/0rQ5+RvM0tLjbuA8UkkRh6Nh21uFZ8LRiFhGzw/TnI3bDU5GoXdSowx9qtTyKWWrFtzeg+L/Y1/iJ1CA==
@@ -4825,31 +4812,31 @@
     "@rjsf/utils" "5.23.2"
 
 "@backstage/plugin-kubernetes-backend@^0.19.0":
-  version "0.19.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.19.5.tgz#9610f8816a4c00d47eb27a0ee363e25400cdd496"
-  integrity sha512-fcrfetMC9D4SckxqUArLMsFSvJ7fAuJCBUF5Ztk1luYc2kQEhvY9T89nwaKiqBUdcsC5ePay8H0P5T7XmWEJdw==
+  version "0.19.6"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.19.6.tgz#9e83ddaf1bd57e8f2cdc3a1076c7efae1ac7191f"
+  integrity sha512-2kgJYI9YRR9/kTPp4JGIU/5rsZ0KOxIpcaVn31TzAyGWCOsUJ+xg2NX4FOK++JJpKWnoh7Zd8TFPDkk0FgSX2w==
   dependencies:
     "@aws-crypto/sha256-js" "^5.0.0"
     "@aws-sdk/credential-providers" "^3.350.0"
     "@aws-sdk/signature-v4" "^3.347.0"
     "@azure/identity" "^4.0.0"
     "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-plugin-api" "^1.3.0"
-    "@backstage/catalog-client" "^1.9.1"
-    "@backstage/catalog-model" "^1.7.3"
+    "@backstage/backend-plugin-api" "^1.3.1"
+    "@backstage/catalog-client" "^1.10.0"
+    "@backstage/catalog-model" "^1.7.4"
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
-    "@backstage/integration-aws-node" "^0.1.15"
-    "@backstage/plugin-auth-node" "^0.6.2"
-    "@backstage/plugin-catalog-node" "^1.16.3"
-    "@backstage/plugin-kubernetes-common" "^0.9.4"
-    "@backstage/plugin-kubernetes-node" "^0.2.5"
-    "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-permission-node" "^0.9.1"
+    "@backstage/integration-aws-node" "^0.1.16"
+    "@backstage/plugin-auth-node" "^0.6.3"
+    "@backstage/plugin-catalog-node" "^1.17.0"
+    "@backstage/plugin-kubernetes-common" "^0.9.5"
+    "@backstage/plugin-kubernetes-node" "^0.3.0"
+    "@backstage/plugin-permission-common" "^0.9.0"
+    "@backstage/plugin-permission-node" "^0.10.0"
     "@backstage/types" "^1.2.1"
     "@google-cloud/container" "^5.0.0"
     "@jest-mock/express" "^2.0.1"
-    "@kubernetes/client-node" "1.0.0-rc7"
+    "@kubernetes/client-node" "1.1.2"
     "@types/express" "^4.17.6"
     "@types/http-proxy-middleware" "^1.0.0"
     "@types/luxon" "^3.0.0"
@@ -4868,7 +4855,7 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-kubernetes-common@^0.9.4", "@backstage/plugin-kubernetes-common@^0.9.5":
+"@backstage/plugin-kubernetes-common@^0.9.5":
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.9.5.tgz#d10818f623439026fcba7cb6e58fc18db28a36a4"
   integrity sha512-ddYwB35qaDZwVgWW83N013cmPJcHgTBr95S4CB27YCxyhi6WyktV7oKNy7t8z04srMBMiaTLasoP+6kZn1LtIQ==
@@ -4881,16 +4868,16 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/plugin-kubernetes-node@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.2.5.tgz#bef02cdd12f96f3ae9fc422b1a947ea83f893aed"
-  integrity sha512-KpIzKLL/lgyHzTO4M0Wis9QYCFkyMdxPrgRtIqtKeRJDm3M+YyOsRWcb0ytYatTcEtjznq2JmG5b2bQg7EpVBw==
+"@backstage/plugin-kubernetes-node@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.3.0.tgz#af0fc35180622137019ed83dcfcdf1e87833a539"
+  integrity sha512-/AaB1M4s9m3KMcpAXbTI218sr/25caQI+K8jAMEpaZT35GP6kCgbPZtrkbc3UE4xvIH3b8V3xnzOYaUMmz1Gmg==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.3.0"
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/plugin-kubernetes-common" "^0.9.4"
+    "@backstage/backend-plugin-api" "^1.3.1"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/plugin-kubernetes-common" "^0.9.5"
     "@backstage/types" "^1.2.1"
-    "@kubernetes/client-node" "1.0.0-rc7"
+    "@kubernetes/client-node" "1.1.2"
     node-fetch "^2.7.0"
     winston "^3.2.1"
 
@@ -7559,31 +7546,6 @@
     ws "^8.11.0"
   optionalDependencies:
     openid-client "^5.3.0"
-
-"@kubernetes/client-node@1.0.0-rc7":
-  version "1.0.0-rc7"
-  resolved "https://registry.yarnpkg.com/@kubernetes/client-node/-/client-node-1.0.0-rc7.tgz#ea4c9c11f0bfcea841dfd542fcdbff9bf3f84888"
-  integrity sha512-s0U74yQ/nTq13xk3YI8P2y02pUm9TritjhsCIbtPYbOrG/5ti2bY2WhxxQWGx1LhiTZPEdoULtsyXI2XrIESJw==
-  dependencies:
-    "@types/js-yaml" "^4.0.1"
-    "@types/node" "^22.0.0"
-    "@types/node-fetch" "^2.6.9"
-    "@types/stream-buffers" "^3.0.3"
-    "@types/tar" "^6.1.1"
-    "@types/ws" "^8.5.4"
-    form-data "^4.0.0"
-    isomorphic-ws "^5.0.0"
-    js-yaml "^4.1.0"
-    jsonpath-plus "^10.0.0"
-    node-fetch "^2.6.9"
-    openid-client "^5.6.5"
-    rfc4648 "^1.3.0"
-    stream-buffers "^3.0.2"
-    tar "^7.0.0"
-    tmp-promise "^3.0.2"
-    tslib "^2.5.0"
-    url-parse "^1.4.3"
-    ws "^8.18.0"
 
 "@kubernetes/client-node@1.1.2":
   version "1.1.2"
@@ -23725,7 +23687,7 @@ openapi3-ts@^3.1.2:
   dependencies:
     yaml "^2.2.1"
 
-openid-client@^5.3.0, openid-client@^5.6.5:
+openid-client@^5.3.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/openid-client/-/openid-client-5.7.0.tgz#61dbea7251f561e82342278063ce37c5c05347f2"
   integrity sha512-4GCCGZt1i2kTHpwvaC/sCpTpQqDnBzDzuJcJMbH+y1Q5qI8U8RBvoSh28svarXszZHR5BAMXbJPX1PGPRE3VOA==
@@ -29004,7 +28966,7 @@ urijs@^1.19.10, urijs@^1.19.11:
   resolved "https://registry.yarnpkg.com/urijs/-/urijs-1.19.11.tgz#204b0d6b605ae80bea54bea39280cdb7c9f923cc"
   integrity sha512-HXgFDgDommxn5/bIv0cnQZsPhHDA90NPHD6+c/v21U5+Sx5hoP8+dP9IZXBU1gIfvdRfhG8cel9QNPeionfcCQ==
 
-url-parse@^1.4.3, url-parse@^1.5.10, url-parse@^1.5.3:
+url-parse@^1.5.10, url-parse@^1.5.3:
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
   integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
