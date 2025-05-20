@@ -4948,15 +4948,15 @@
     winston "^3.2.1"
     yn "^4.0.0"
 
-"@backstage/plugin-kubernetes-common@^0.9.4":
-  version "0.9.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.9.4.tgz#02cd7d3a7c7a07dffc18dab2ad5fb2018d09e7bd"
-  integrity sha512-XyUMmLHLX6ZweIFPEWu/vft1tY0A1dLzd3vOlcxRCvYw2MmLTrKVgTocdu/jItSAN7hNeWhZJ7kqO6pYMbHZgw==
+"@backstage/plugin-kubernetes-common@^0.9.4", "@backstage/plugin-kubernetes-common@^0.9.5":
+  version "0.9.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.9.5.tgz#d10818f623439026fcba7cb6e58fc18db28a36a4"
+  integrity sha512-ddYwB35qaDZwVgWW83N013cmPJcHgTBr95S4CB27YCxyhi6WyktV7oKNy7t8z04srMBMiaTLasoP+6kZn1LtIQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/plugin-permission-common" "^0.8.4"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/plugin-permission-common" "^0.9.0"
     "@backstage/types" "^1.2.1"
-    "@kubernetes/client-node" "1.0.0-rc7"
+    "@kubernetes/client-node" "1.1.2"
     kubernetes-models "^4.3.1"
     lodash "^4.17.21"
     luxon "^3.0.0"
@@ -4974,20 +4974,20 @@
     node-fetch "^2.7.0"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.5.6":
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.6.tgz#3279e748b7994f987394f796fdbdfb2958606fd6"
-  integrity sha512-GuynEVa/a4t1J84u6LvzNKzuF4Ewy3DHKMZd1AsrAVKggi6FRMJtKkcGsEhPTKNImhLZ+4ByXPexoLazmfIfLA==
+"@backstage/plugin-kubernetes-react@^0.5.7":
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.7.tgz#268c088244f414ab0aa40587dee5368b5bf6151a"
+  integrity sha512-mBL6xjMWS5yFFYaDAbwMgwxvV/ioWvKe+KDY0DeQa2T3S6oTpPGQXBS3fSZJrT+Szm0oiUTfJshZf2VcNpkKGA==
   dependencies:
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/core-components" "^0.17.1"
-    "@backstage/core-plugin-api" "^1.10.6"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-components" "^0.17.2"
+    "@backstage/core-plugin-api" "^1.10.7"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-kubernetes-common" "^0.9.4"
+    "@backstage/plugin-kubernetes-common" "^0.9.5"
     "@backstage/types" "^1.2.1"
     "@kubernetes-models/apimachinery" "^2.0.0"
     "@kubernetes-models/base" "^5.0.0"
-    "@kubernetes/client-node" "1.0.0-rc7"
+    "@kubernetes/client-node" "1.1.2"
     "@material-ui/core" "^4.9.13"
     "@material-ui/icons" "^4.11.3"
     "@material-ui/lab" "^4.0.0-alpha.61"
@@ -5002,22 +5002,22 @@
     xterm-addon-fit "^0.8.0"
 
 "@backstage/plugin-kubernetes@^0.12.0":
-  version "0.12.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.6.tgz#d1af6cf0fcb102b85ef40dc1a33346d9d3a612e2"
-  integrity sha512-uJLyojWIWSf4tEsKKddz/YFsoAKVu06ZmdQLJMZpM4nO1jwIeFzrvk7GHvVvtjsT/KpQDfaS68Fn+JheyYJ2VQ==
+  version "0.12.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.7.tgz#02a38d667e4aa234c38e521a2a0be6f2e1c85d01"
+  integrity sha512-F9mLvY6pVXSgJUKT0Rktbp0SmEelMdEgI6vqIjkaAXttMqmR6Y5mXeaQlQWF/xudGPESxmLhVSoZ227kHHVw/g==
   dependencies:
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/core-compat-api" "^0.4.1"
-    "@backstage/core-components" "^0.17.1"
-    "@backstage/core-plugin-api" "^1.10.6"
-    "@backstage/frontend-plugin-api" "^0.10.1"
-    "@backstage/plugin-catalog-react" "^1.17.0"
-    "@backstage/plugin-kubernetes-common" "^0.9.4"
-    "@backstage/plugin-kubernetes-react" "^0.5.6"
-    "@backstage/plugin-permission-react" "^0.4.33"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-compat-api" "^0.4.2"
+    "@backstage/core-components" "^0.17.2"
+    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/frontend-plugin-api" "^0.10.2"
+    "@backstage/plugin-catalog-react" "^1.18.0"
+    "@backstage/plugin-kubernetes-common" "^0.9.5"
+    "@backstage/plugin-kubernetes-react" "^0.5.7"
+    "@backstage/plugin-permission-react" "^0.4.34"
     "@kubernetes-models/apimachinery" "^2.0.0"
     "@kubernetes-models/base" "^5.0.0"
-    "@kubernetes/client-node" "1.0.0-rc7"
+    "@kubernetes/client-node" "1.1.2"
     "@material-ui/core" "^4.12.2"
     cronstrue "^2.2.0"
     js-yaml "^4.0.0"
@@ -7660,6 +7660,31 @@
     tmp-promise "^3.0.2"
     tslib "^2.5.0"
     url-parse "^1.4.3"
+    ws "^8.18.0"
+
+"@kubernetes/client-node@1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@kubernetes/client-node/-/client-node-1.1.2.tgz#a939f697db93da9fba6ff4328697c18eb4a33bbc"
+  integrity sha512-kkE0D8zB5rIQoR6SUwlHUyQtpLvrW0gXOd2MabQsql7I2oPnMA8pb50A1MWB4yH0eX29t45gxs7lOVlS0UPsiw==
+  dependencies:
+    "@types/js-yaml" "^4.0.1"
+    "@types/node" "^22.0.0"
+    "@types/node-fetch" "^2.6.9"
+    "@types/stream-buffers" "^3.0.3"
+    "@types/tar" "^6.1.1"
+    "@types/ws" "^8.5.4"
+    form-data "^4.0.0"
+    hpagent "^1.2.0"
+    isomorphic-ws "^5.0.0"
+    js-yaml "^4.1.0"
+    jsonpath-plus "^10.3.0"
+    node-fetch "^2.6.9"
+    openid-client "^6.1.3"
+    rfc4648 "^1.3.0"
+    socks-proxy-agent "^8.0.4"
+    stream-buffers "^3.0.2"
+    tar "^7.0.0"
+    tmp-promise "^3.0.2"
     ws "^8.18.0"
 
 "@leichtgewicht/ip-codec@^2.0.1":
@@ -20656,6 +20681,11 @@ jose@^5.0.0:
   resolved "https://registry.yarnpkg.com/jose/-/jose-5.2.3.tgz#071c87f9fe720cff741a403c8080b69bfe13164a"
   integrity sha512-KUXdbctm1uHVL8BYhnyHkgp3zDX5KW8ZhAKVFEfUbU2P8Alpzjb+48hHvjOdQIyPshoblhzsuqOwEEAbtHVirA==
 
+jose@^6.0.10:
+  version "6.0.11"
+  resolved "https://registry.yarnpkg.com/jose/-/jose-6.0.11.tgz#0b7ea8b3b21a1bda5e00255a044c3a0e43270882"
+  integrity sha512-QxG7EaliDARm1O1S8BGakqncGT9s25bKL1WSf6/oa17Tkqwi8D2ZNglqCF+DsYF88/rV66Q/Q2mFAy697E1DUg==
+
 js-base64@^3.6.0:
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-3.7.5.tgz#21e24cf6b886f76d6f5f165bfcd69cc55b9e3fca"
@@ -20957,6 +20987,15 @@ jsonpath-plus@7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/jsonpath-plus/-/jsonpath-plus-7.1.0.tgz#9ac63c3d32a4d91ada68d57e056cb7983e73290a"
   integrity sha512-gTaNRsPWO/K2KY6MrqaUFClF9kmuM6MFH5Dhg1VYDODgFbByw1yb7xu3hrViE/sz+dGOeMWgCzwUwQtAnCTE9g==
+
+jsonpath-plus@^10.3.0:
+  version "10.3.0"
+  resolved "https://registry.yarnpkg.com/jsonpath-plus/-/jsonpath-plus-10.3.0.tgz#59e22e4fa2298c68dfcd70659bb47f0cad525238"
+  integrity sha512-8TNmfeTCk2Le33A3vRRwtuworG/L5RrgMvdjhKZxvyShO+mBu2fP50OWUjRLNtvw344DdDarFh9buFAZs5ujeA==
+  dependencies:
+    "@jsep-plugin/assignment" "^1.3.0"
+    "@jsep-plugin/regex" "^1.0.4"
+    jsep "^1.4.0"
 
 jsonpath-plus@^6.0.1:
   version "6.0.1"
@@ -23597,6 +23636,11 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
+oauth4webapi@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/oauth4webapi/-/oauth4webapi-3.5.1.tgz#93154323df5c2e09bf8884c26693596eaaafc17a"
+  integrity sha512-txg/jZQwcbaF7PMJgY7aoxc9QuCxHVFMiEkDIJ60DwDz3PbtXPQnrzo+3X4IRYGChIwWLabRBRpf1k9hO9+xrQ==
+
 oauth@0.9.x:
   version "0.9.15"
   resolved "https://registry.yarnpkg.com/oauth/-/oauth-0.9.15.tgz#bd1fefaf686c96b75475aed5196412ff60cfb9c1"
@@ -23867,6 +23911,14 @@ openid-client@^5.2.1, openid-client@^5.3.0, openid-client@^5.5.0, openid-client@
     lru-cache "^6.0.0"
     object-hash "^2.2.0"
     oidc-token-hash "^5.0.3"
+
+openid-client@^6.1.3:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/openid-client/-/openid-client-6.5.0.tgz#434bdc1a98cf2f1e54536f897c702cac78c2ec70"
+  integrity sha512-fAfYaTnOYE2kQCqEJGX9KDObW2aw7IQy4jWpU/+3D3WoCFLbix5Hg6qIPQ6Js9r7f8jDUmsnnguRNCSw4wU/IQ==
+  dependencies:
+    jose "^6.0.10"
+    oauth4webapi "^3.5.1"
 
 optionator@^0.8.1:
   version "0.8.3"
