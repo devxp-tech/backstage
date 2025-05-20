@@ -4720,24 +4720,6 @@
     "@backstage/plugin-permission-common" "^0.9.0"
     "@backstage/plugin-search-common" "^1.2.18"
 
-"@backstage/plugin-catalog-common@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.4.tgz#8c0b3419264595d13bba869f7a063d0b50032e9b"
-  integrity sha512-jTUJ2RqiAjAk3eaPVMgPSeVGylLlsg4Fpl/ZktTvO4Gd6+l+DnEV4p9/sCQJYo3bj/rtc/DLh6flZKfKsnaMMQ==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.4"
-    "@backstage/plugin-permission-common" "^0.9.0"
-    "@backstage/plugin-search-common" "^1.2.18"
-
-"@backstage/plugin-catalog-common@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.4.tgz#8c0b3419264595d13bba869f7a063d0b50032e9b"
-  integrity sha512-jTUJ2RqiAjAk3eaPVMgPSeVGylLlsg4Fpl/ZktTvO4Gd6+l+DnEV4p9/sCQJYo3bj/rtc/DLh6flZKfKsnaMMQ==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.4"
-    "@backstage/plugin-permission-common" "^0.9.0"
-    "@backstage/plugin-search-common" "^1.2.18"
-
 "@backstage/plugin-catalog-graph@^0.4.0":
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-graph/-/plugin-catalog-graph-0.4.18.tgz#9ac70d618456f70417d46ebf1005908a2cdcbbd9"
@@ -5568,7 +5550,7 @@
     "@backstage/plugin-permission-common" "^0.9.0"
     "@backstage/types" "^1.2.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.8", "@backstage/plugin-search-react@^1.9.0":
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.0.tgz#4d1dcdc3d2de6d7741db96e2d0b5bc314fab0459"
   integrity sha512-sqmtrC2QnMwQo6xhIhsb7//7xQHJZF0Tnf3KB5xNrQCvqUQ9sHanUMN99TsGzTsDqlBgC25oqpQJTBwNJkSPWg==
@@ -11701,9 +11683,9 @@
     "@types/node" "*"
 
 "@types/node@*", "@types/node@>=12.12.47", "@types/node@>=13.7.0", "@types/node@^22.0.0":
-  version "22.15.19"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.19.tgz#ba9f321675243af0456d607fa82a4865931e0cef"
-  integrity sha512-3vMNr4TzNQyjHcRZadojpRaD9Ofr6LsonZAoQ+HMUa/9ORTPoxVIw0e0mpqWpdjj8xybyCM+oKOUH2vwFu/oEw==
+  version "22.15.20"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.20.tgz#ce4f947a8ff31120032f66d46b0851554e9f25f6"
+  integrity sha512-A6BohGFRGHAscJsTslDCA9JG7qSJr/DWUvrvY8yi9IgnGtMxCyat7vvQ//MFa0DnLsyuS3wYTpLdw4Hf+Q5JXw==
   dependencies:
     undici-types "~6.21.0"
 
