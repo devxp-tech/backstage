@@ -5339,15 +5339,15 @@
     p-limit "^3.1.0"
 
 "@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.10":
-  version "1.3.10"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.10.tgz#a68e735239694d551838d2f3788c8a3d0dc5d4d0"
-  integrity sha512-zO0ALrr4nAK9zYWWr2SikE+NrcWqzXTyF37Bs88dAblaoAkyFDTrd44bFS0NlkvG/w+LAyEpZWjsyszFdLontg==
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.11.tgz#de6c7c755cc5932fe21fa8cf4e1203546e0742c4"
+  integrity sha512-uHDw4PcCS8RrIJELUvtEulRffEizcuqLWfID0yYJOCtjVFtZoyeeaV2m9PE1FePm5+sjPNtDo7hDwws3bdrdsQ==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.3.0"
+    "@backstage/backend-plugin-api" "^1.3.1"
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-search-common" "^1.2.17"
+    "@backstage/plugin-permission-common" "^0.9.0"
+    "@backstage/plugin-search-common" "^1.2.18"
     "@types/lunr" "^2.3.3"
     lodash "^4.17.21"
     lunr "^2.3.9"
