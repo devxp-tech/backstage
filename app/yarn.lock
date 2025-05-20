@@ -4010,15 +4010,15 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-components@^0.17.0", "@backstage/core-components@^0.17.1":
-  version "0.17.1"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.17.1.tgz#6cdbdebecf9bd4c612560071712402e0940e25f3"
-  integrity sha512-ShLOTRDgL4oeaRIDV/4pfHkz7MsRbF++v6ggw0b53M3phI7TOPfnBkea3s3PBK501snG7PHy49Du8uAu8EDuAg==
+"@backstage/core-components@^0.17.0", "@backstage/core-components@^0.17.1", "@backstage/core-components@^0.17.2":
+  version "0.17.2"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.17.2.tgz#e4748f11dfbf1cba6d8cdc080836b277b2e86c26"
+  integrity sha512-nAPJpG83sEkbxxj3KNMLLvz4apcyjQk1iZRCTvU7WkSUUbdSSQH+YudwAVZCHRn1QwuU9hmaVNFfhqlNHv3TVw==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.6"
+    "@backstage/core-plugin-api" "^1.10.7"
     "@backstage/errors" "^1.2.7"
-    "@backstage/theme" "^0.6.5"
+    "@backstage/theme" "^0.6.6"
     "@backstage/version-bridge" "^1.0.11"
     "@dagrejs/dagre" "^1.1.4"
     "@date-io/core" "^1.3.13"
@@ -4109,13 +4109,13 @@
     "@backstage/plugin-app" "^0.1.8"
     "@react-hookz/web" "^24.0.0"
 
-"@backstage/frontend-plugin-api@^0.10.1":
-  version "0.10.1"
-  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.10.1.tgz#85e62b80f6d99a32b4b7100e6988b8ac0c4ed465"
-  integrity sha512-A0lbFZruNF/fIM2EE5L26CoLZ1NfvanuzDPEOVrsoXufS7jvD5zKQSa+EfJk0V55IbwubDUIwb+A+P0EmT/+bg==
+"@backstage/frontend-plugin-api@^0.10.1", "@backstage/frontend-plugin-api@^0.10.2":
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.10.2.tgz#9fc4575ef91248b2244348d60900c6ea342d8e37"
+  integrity sha512-W3aD8RMqJsBrL/3argA47/TV9tWILqsCuoEj4qNBbcdeZuy6fgS57CNrX2Utegk0omSwz6XC2OnbghH+mfMOWw==
   dependencies:
-    "@backstage/core-components" "^0.17.1"
-    "@backstage/core-plugin-api" "^1.10.6"
+    "@backstage/core-components" "^0.17.2"
+    "@backstage/core-plugin-api" "^1.10.7"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.4"
@@ -5065,6 +5065,19 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
+"@backstage/plugin-permission-common@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.9.0.tgz#9b51307adafd51841346cbc6ec0cc40fce55baf4"
+  integrity sha512-mTEotUJyFaztexxXKEdKROKaSG9mnVmYmsqEBU4GIVsZ1T9pFKhMSAVd6oE4rZMkTDl8tMsqs317PHmedoEYRA==
+  dependencies:
+    "@backstage/config" "^1.3.2"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.1"
+    cross-fetch "^4.0.0"
+    uuid "^11.0.0"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.20.4"
+
 "@backstage/plugin-permission-node@^0.7.32":
   version "0.7.32"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-node/-/plugin-permission-node-0.7.32.tgz#e462a4c8d6d8021ae5d8ff64bec84e176641fd77"
@@ -5513,24 +5526,24 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/plugin-search-common@^1.2.17":
-  version "1.2.17"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.17.tgz#785db1d1bebae1ec22bc03ad4546df1124a848db"
-  integrity sha512-7wVfYCIFGI6JmTf/v43Odwdmyn3glngYa35pPRIJcFYEEmDyoeq3u9vR6A9dzpUtmKBjNJp6/3ILRYQmCkx1Pw==
+"@backstage/plugin-search-common@^1.2.17", "@backstage/plugin-search-common@^1.2.18":
+  version "1.2.18"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.18.tgz#ee80f18f13c8c6519e1542ab3efae3367c22fe38"
+  integrity sha512-Sx0thI4Yk3KN2uZcwBPyhprPMlmYIGM8gI5Ejvot2ytMDxT74bLmcNFZahB+0qqNCpr7bMKqMaZvfV3QnovNZg==
   dependencies:
-    "@backstage/plugin-permission-common" "^0.8.4"
+    "@backstage/plugin-permission-common" "^0.9.0"
     "@backstage/types" "^1.2.1"
 
 "@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.8.8":
-  version "1.8.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.8.8.tgz#9b1d5779ba779cf807d53772c7c20c0ec26c9408"
-  integrity sha512-76NeBIOfITBRhCRALI1asFYeYZp8dVhOa/au3dOQyc2KViptKy2Ts1mSMEsBnjngu4wa0mrUYZWfv2K14DZ9yg==
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.0.tgz#4d1dcdc3d2de6d7741db96e2d0b5bc314fab0459"
+  integrity sha512-sqmtrC2QnMwQo6xhIhsb7//7xQHJZF0Tnf3KB5xNrQCvqUQ9sHanUMN99TsGzTsDqlBgC25oqpQJTBwNJkSPWg==
   dependencies:
-    "@backstage/core-components" "^0.17.1"
-    "@backstage/core-plugin-api" "^1.10.6"
-    "@backstage/frontend-plugin-api" "^0.10.1"
-    "@backstage/plugin-search-common" "^1.2.17"
-    "@backstage/theme" "^0.6.5"
+    "@backstage/core-components" "^0.17.2"
+    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/frontend-plugin-api" "^0.10.2"
+    "@backstage/plugin-search-common" "^1.2.18"
+    "@backstage/theme" "^0.6.6"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.2"
@@ -5862,10 +5875,10 @@
     "@emotion/styled" "^11.10.5"
     "@mui/material" "^5.12.2"
 
-"@backstage/theme@^0.6.2", "@backstage/theme@^0.6.4", "@backstage/theme@^0.6.5":
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.5.tgz#b72f34f60bc77136026a10d1a353f2b409e18e42"
-  integrity sha512-qNIAKUWMaFz2JwbGkYQW0URrKLYRGO8+VyWoPFTlS5SvqaNCotVO+SPHPPqkdHINMV3/16lJHXlhG0bEk2U0gg==
+"@backstage/theme@^0.6.2", "@backstage/theme@^0.6.4", "@backstage/theme@^0.6.5", "@backstage/theme@^0.6.6":
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.6.tgz#af00688a8ac5629fc9f2060fffaab8b8602e3018"
+  integrity sha512-tRAHFcR2WEA7I0FFDEAVAjoCL6UzHo+wG9+M6GipQRdWVzPltI6n7mDTaWEEb57mn2kjt5YEt4A6zwv7JuUp5Q==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
