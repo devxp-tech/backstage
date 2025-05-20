@@ -3651,10 +3651,10 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
-"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.1", "@backstage/catalog-model@^1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.3.tgz#c74f680cbdbe4209a4a9c17de34b1949f1d19a2d"
-  integrity sha512-eqSRo7briHyVXMBkNdgQ8rdrw5W2LZifqrIabGwjcvoV8YDG2hFBuCPfqpdpfsgeCIk45iyXilTi9rg1Nt1fgw==
+"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.1", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.4":
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.4.tgz#369b19bd65172ea109e736fc68fca01d4190e432"
+  integrity sha512-Fs6VESnx8tWbHvB7IBZDU9+XWSDADNKkNUv2Tb3LUqCCDmduf9YSMVK5h9GyV3s7e7QrvbB0HsS+tSRUhBvFZw==
   dependencies:
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.1"
@@ -3681,26 +3681,26 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.32.0":
-  version "0.32.0"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.32.0.tgz#6b9c929d8381a093a48a3009bfc29711fd55c1be"
-  integrity sha512-fnR6vmk44rNn5HtKIQUkdrdYmH7F57dgVTpVLdIFnlzTHO2/s/+XAxeJ3rDbYmGFHhquF9YtEN0DVdTC50fihA==
+  version "0.32.1"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.32.1.tgz#1bae7f4b9092f56600a61f449eaee9e196dd65ee"
+  integrity sha512-NuA+Snq09ytNueHHWhB69RDB0N7CqgiGD8QVGU+TEGEli/D094Caw3OwYXy6pckoz1Tau+hfmuu2Me2uExIL1g==
   dependencies:
-    "@backstage/catalog-model" "^1.7.3"
+    "@backstage/catalog-model" "^1.7.4"
     "@backstage/cli-common" "^0.1.15"
     "@backstage/cli-node" "^0.2.13"
     "@backstage/config" "^1.3.2"
-    "@backstage/config-loader" "^1.10.0"
+    "@backstage/config-loader" "^1.10.1"
     "@backstage/errors" "^1.2.7"
     "@backstage/eslint-plugin" "^0.1.10"
-    "@backstage/integration" "^1.16.3"
-    "@backstage/release-manifests" "^0.0.12"
+    "@backstage/integration" "^1.17.0"
+    "@backstage/release-manifests" "^0.0.13"
     "@backstage/types" "^1.2.1"
     "@manypkg/get-packages" "^1.1.3"
     "@module-federation/enhanced" "^0.9.0"
     "@octokit/graphql" "^5.0.0"
     "@octokit/graphql-schema" "^13.7.0"
     "@octokit/oauth-app" "^4.2.0"
-    "@octokit/request" "^6.0.0"
+    "@octokit/request" "^8.0.0"
     "@pmmmwh/react-refresh-webpack-plugin" "^0.5.7"
     "@rollup/plugin-commonjs" "^26.0.0"
     "@rollup/plugin-json" "^6.0.0"
@@ -3774,7 +3774,7 @@
     process "^0.11.10"
     raw-loader "^4.0.2"
     react-dev-utils "^12.0.0-next.60"
-    react-refresh "^0.14.0"
+    react-refresh "^0.17.0"
     recursive-readdir "^2.2.2"
     replace-in-file "^7.1.0"
     rollup "^4.27.3"
@@ -3800,10 +3800,10 @@
     zod "^3.22.4"
     zod-validation-error "^3.4.0"
 
-"@backstage/config-loader@^1.10.0", "@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.10.0.tgz#331a51050efe3996afe462dec167d28ddcea86a5"
-  integrity sha512-xxIPPIJTcQ9/IwpdGrrPC3kM68TLjlUc0A5Q2agMqV0yAYyBK/Fuuu/3D6ld/jcquqD2vQQSFGx5AkkwD58nBg==
+"@backstage/config-loader@^1.10.0", "@backstage/config-loader@^1.10.1", "@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1":
+  version "1.10.1"
+  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.10.1.tgz#58773dc58bf28b6d3a21250484c94af6e0411755"
+  integrity sha512-BxONjrt99d1o1hJNZ3RGBpacpCpiLO3xDquO9lNMaplEB7afvz7XbzfRHRztrG4IX/gr+RGccWzTY2CqjOdsyA==
   dependencies:
     "@backstage/cli-common" "^0.1.15"
     "@backstage/config" "^1.3.2"
@@ -4205,10 +4205,10 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.16.1", "@backstage/integration@^1.16.3":
-  version "1.16.3"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.16.3.tgz#f7fd0a9af8e166ebdce03921edba8902a0487237"
-  integrity sha512-vJDN+44DssA+7wCoLyeWBOn+zL68j1FsovlJthNJfaYItNbJqBwQlUugAkCtn8e65jPCEnLsBE9wfRbHgui4PQ==
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.16.1", "@backstage/integration@^1.16.3", "@backstage/integration@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.17.0.tgz#f7215d17240e6ed4a451f6d0521a0676c794b637"
+  integrity sha512-JcXIL81hBSuLGq7SLjuZnvLihqeDGCmu/M5/r1Pp3EjtbB82Ha52ebLuhmEJvBcv+TRPJbd3eqWSo7TY/UK3hQ==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@azure/storage-blob" "^12.5.0"
@@ -5823,10 +5823,10 @@
     react-use "^17.2.4"
     zen-observable "^0.10.0"
 
-"@backstage/release-manifests@^0.0.12":
-  version "0.0.12"
-  resolved "https://registry.yarnpkg.com/@backstage/release-manifests/-/release-manifests-0.0.12.tgz#2057c3546f9727daddde2f3e06aecee635565d50"
-  integrity sha512-qJDQXVvggK9OjaiGyAK6Scpga0Mq6tKKOgtrwqWHzdkNjvM9Klp0UZtluF8B7e3fc9l8mBX8BVIcrzinlKg2lQ==
+"@backstage/release-manifests@^0.0.13":
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/@backstage/release-manifests/-/release-manifests-0.0.13.tgz#2d2bac16ca657f77c641dc190523de55b4920477"
+  integrity sha512-NF+Fl1b746A9b39dQqvzC237k5/QUWcfGVMp8ZYjoQ48hrY1UdH7xiwrLB7WmhvYIMRzdjhY3uR1FM67EQFPQw==
 
 "@backstage/test-utils@^1.3.0", "@backstage/test-utils@^1.7.7":
   version "1.7.7"
@@ -25743,10 +25743,10 @@ react-redux@^8.0.5:
     react-is "^18.0.0"
     use-sync-external-store "^1.0.0"
 
-react-refresh@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.14.0.tgz#4e02825378a5f227079554d4284889354e5f553e"
-  integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
+react-refresh@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.17.0.tgz#b7e579c3657f23d04eccbe4ad2e58a8ed51e7e53"
+  integrity sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==
 
 react-remove-scroll-bar@^2.3.3:
   version "2.3.4"
