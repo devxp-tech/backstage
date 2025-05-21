@@ -4525,47 +4525,6 @@
     "@backstage/plugin-catalog-node" "^1.17.0"
     "@backstage/plugin-scaffolder-common" "^1.5.11"
 
-"@backstage/plugin-catalog-backend@^1.9.0":
-  version "1.32.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-1.32.1.tgz#18241bb44701b7e9598dbd9a5de9178b7912b3ea"
-  integrity sha512-qmwoGXUi31mg2WSkVUzMUH44KiIl74dQ5goZqg/AMaplyJkudBogyTvwwfJprSvURUyGZ4N42su5SW5S8wIZzw==
-  dependencies:
-    "@backstage/backend-common" "^0.25.0"
-    "@backstage/backend-openapi-utils" "^0.5.2"
-    "@backstage/backend-plugin-api" "^1.3.0"
-    "@backstage/catalog-client" "^1.9.1"
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/config" "^1.3.2"
-    "@backstage/errors" "^1.2.7"
-    "@backstage/integration" "^1.16.3"
-    "@backstage/plugin-catalog-common" "^1.1.3"
-    "@backstage/plugin-catalog-node" "^1.16.3"
-    "@backstage/plugin-events-node" "^0.4.10"
-    "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-permission-node" "^0.9.1"
-    "@backstage/plugin-search-backend-module-catalog" "^0.3.3"
-    "@backstage/plugin-search-common" "^1.2.17"
-    "@backstage/types" "^1.2.1"
-    "@opentelemetry/api" "^1.9.0"
-    "@types/express" "^4.17.6"
-    codeowners-utils "^1.0.2"
-    core-js "^3.6.5"
-    express "^4.17.1"
-    fast-json-stable-stringify "^2.1.0"
-    fs-extra "^11.2.0"
-    git-url-parse "^15.0.0"
-    glob "^7.1.6"
-    knex "^3.0.0"
-    lodash "^4.17.21"
-    luxon "^3.0.0"
-    minimatch "^9.0.0"
-    p-limit "^3.0.2"
-    prom-client "^15.0.0"
-    uuid "^11.0.0"
-    yaml "^2.0.0"
-    yn "^4.0.0"
-    zod "^3.22.4"
-
 "@backstage/plugin-catalog-backend@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend/-/plugin-catalog-backend-2.0.0.tgz#c67b4552d900474fd31510953887e241c1b8e3f8"
@@ -5351,22 +5310,6 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
-
-"@backstage/plugin-search-backend-module-catalog@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-catalog/-/plugin-search-backend-module-catalog-0.3.3.tgz#5df79f344fea1c86ceb5a24a3d78a1ce9df06a30"
-  integrity sha512-3ubawp4b1kV2ykBFQFQBjH8WUccGZdyGjwgMgDLWjQLWwM/9qF2+U4cB78r0kFtES7KjcIX78rNffp2aXgyjUA==
-  dependencies:
-    "@backstage/backend-plugin-api" "^1.3.0"
-    "@backstage/catalog-client" "^1.9.1"
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/config" "^1.3.2"
-    "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-catalog-common" "^1.1.3"
-    "@backstage/plugin-catalog-node" "^1.16.3"
-    "@backstage/plugin-permission-common" "^0.8.4"
-    "@backstage/plugin-search-backend-node" "^1.3.10"
-    "@backstage/plugin-search-common" "^1.2.17"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
   version "0.5.43"
