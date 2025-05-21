@@ -4326,20 +4326,20 @@
     luxon "^3.0.0"
 
 "@backstage/plugin-api-docs@^0.12.0":
-  version "0.12.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.12.6.tgz#d85e5b0801410f300e71f0a38187da25808c8df2"
-  integrity sha512-MoM70XEncFzEA/1u6RGQRnXVKwXshhevHXKX9rXPwyAdwG61TGnp8+wIJZbha9dGyN3/3yYjmIGpvjiiJ3wdvA==
+  version "0.12.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.12.7.tgz#964058a99d04631bf264724073c8cd2a95a69395"
+  integrity sha512-TWvEqmX3F3b19XcLB1hDIZkIGWOVlwH0P/oBTALhGuJVUowQ4ryvdt4wV0QeuL0ZdgH+uADOEu3qpTsibpt/2A==
   dependencies:
     "@asyncapi/react-component" "^2.3.3"
-    "@backstage/catalog-model" "^1.7.3"
-    "@backstage/core-compat-api" "^0.4.1"
-    "@backstage/core-components" "^0.17.1"
-    "@backstage/core-plugin-api" "^1.10.6"
-    "@backstage/frontend-plugin-api" "^0.10.1"
-    "@backstage/plugin-catalog" "^1.29.0"
-    "@backstage/plugin-catalog-common" "^1.1.3"
-    "@backstage/plugin-catalog-react" "^1.17.0"
-    "@backstage/plugin-permission-react" "^0.4.33"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-compat-api" "^0.4.2"
+    "@backstage/core-components" "^0.17.2"
+    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/frontend-plugin-api" "^0.10.2"
+    "@backstage/plugin-catalog" "^1.30.0"
+    "@backstage/plugin-catalog-common" "^1.1.4"
+    "@backstage/plugin-catalog-react" "^1.18.0"
+    "@backstage/plugin-permission-react" "^0.4.34"
     "@graphiql/react" "^0.23.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
@@ -4731,7 +4731,7 @@
     yaml "^2.0.0"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.29.0":
+"@backstage/plugin-catalog@^1.10.0", "@backstage/plugin-catalog@^1.30.0":
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog/-/plugin-catalog-1.30.0.tgz#88c6504d760c69fd83a3679fa7dc6de260cbdcde"
   integrity sha512-3KWLmRTP/9yc6uLfuhdJ+hJq9Id20ZKAwyoxppS0bHdHtar7C2p1Fmz7MlncIB21XoiC0BeaLvol5A5IXggAhQ==
@@ -11653,9 +11653,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.13.1 || ^17.0.0", "@types/react@^16.13.1 || ^17.0.0 || ^18.0.0", "@types/react@^17":
-  version "17.0.85"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.85.tgz#1f1abf89083e731d82469a3a59ec57ea93cc476b"
-  integrity sha512-5oBDUsRDsrYq4DdyHaL99gE1AJCfuDhyxqF6/55fvvOIRkp1PpKuwJ+aMiGJR+GJt7YqMNclPROTHF20vY2cXA==
+  version "17.0.86"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.86.tgz#1486fb5ddef22ab4cbd3c5b3d033eb913c31d372"
+  integrity sha512-lPFuSjA85jecet6D4ZsPvCFuSrz6g2hkTSUw8MM0x5z2EndPV/itGnYQ39abjxd7F+cAcxLGtKQjnLn9cNUz3g==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "^0.16"
