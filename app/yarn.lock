@@ -4388,16 +4388,16 @@
     react-use "^17.2.4"
 
 "@backstage/plugin-auth-backend@^0.25.0":
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend/-/plugin-auth-backend-0.25.0.tgz#2c2cd9d5a045bbcc76eee97fe224f1643d8a70c4"
-  integrity sha512-fv+A7tfwkH/Viss6DCypvPh7cuGG3bu4hKrxC32D2Vw4zOFV4WTNnT2jkb0+SCgzUorqEIfzeUdd4Le152XwZg==
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-backend/-/plugin-auth-backend-0.25.1.tgz#64aace82ada47aa415c98e4d93d0065280ede2f7"
+  integrity sha512-hR9wBh1+HPS3cMPtPjaD6Z4xauUVB10qDFwBm08BjxO3O/sFXXQYMDpMkU3AyFaFdSxmVJ+q7RpYqBR5ltexdg==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.3.1"
+    "@backstage/backend-plugin-api" "^1.4.0"
     "@backstage/catalog-model" "^1.7.4"
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-auth-node" "^0.6.3"
-    "@backstage/plugin-catalog-node" "^1.17.0"
+    "@backstage/plugin-auth-node" "^0.6.4"
+    "@backstage/plugin-catalog-node" "^1.17.1"
     "@backstage/types" "^1.2.1"
     "@google-cloud/firestore" "^7.0.0"
     connect-session-knex "^4.0.0"
