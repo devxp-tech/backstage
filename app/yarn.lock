@@ -3820,10 +3820,10 @@
     semver "^7.5.3"
     zod "^3.22.4"
 
-"@backstage/cli@^0.32.0":
-  version "0.32.1"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.32.1.tgz#1bae7f4b9092f56600a61f449eaee9e196dd65ee"
-  integrity sha512-NuA+Snq09ytNueHHWhB69RDB0N7CqgiGD8QVGU+TEGEli/D094Caw3OwYXy6pckoz1Tau+hfmuu2Me2uExIL1g==
+"@backstage/cli@^0.33.0":
+  version "0.33.0"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.33.0.tgz#b8327e5cd4a3ad39a03c942e41ece1ddcc8ed9c4"
+  integrity sha512-+f3PJTJ7qw5pXSmuS2Fsjd2dsV5yfmeBzq7nQtx0e2fh4fIZdjEA8ivWN8wNZbkTBrpxltEPEoh+1jzTE0ANsQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.4"
     "@backstage/cli-common" "^0.1.15"
@@ -3831,7 +3831,7 @@
     "@backstage/config" "^1.3.2"
     "@backstage/config-loader" "^1.10.1"
     "@backstage/errors" "^1.2.7"
-    "@backstage/eslint-plugin" "^0.1.10"
+    "@backstage/eslint-plugin" "^0.1.11"
     "@backstage/integration" "^1.17.0"
     "@backstage/release-manifests" "^0.0.13"
     "@backstage/types" "^1.2.1"
@@ -4231,10 +4231,10 @@
     "@backstage/types" "^1.2.1"
     serialize-error "^8.0.1"
 
-"@backstage/eslint-plugin@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.10.tgz#8f786ccc3c315dfe9b1cd3aa6d8435fd266a0574"
-  integrity sha512-5TFU4/loQpPKPiuOyqhaFNvl1GpkHzIU40Z7WdMmnrrbMkoYxtg2yRttwb17ckF8lRp3wqvi72yvW1lqHA+ahw==
+"@backstage/eslint-plugin@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.11.tgz#4b0c30a0873f150c82ed045547140ddd5c901c9b"
+  integrity sha512-O0y38HL4/IwfbP4bDuOthlaB6Sq1N92uXqpaAZ7SV+g9H9trKok3FMQomrJ9BoRwnYoopIrId8kIjFvrgL4/dA==
   dependencies:
     "@manypkg/get-packages" "^1.1.3"
     minimatch "^9.0.0"
@@ -12741,7 +12741,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
   dependencies:
     "@backstage/app-defaults" "^1.3.0"
     "@backstage/catalog-model" "^1.3.0"
-    "@backstage/cli" "^0.32.0"
+    "@backstage/cli" "^0.33.0"
     "@backstage/core-app-api" "^1.7.0"
     "@backstage/core-components" "^0.17.0"
     "@backstage/core-plugin-api" "^1.5.1"
