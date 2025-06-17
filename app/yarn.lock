@@ -4012,13 +4012,13 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-components@^0.17.0", "@backstage/core-components@^0.17.2":
-  version "0.17.2"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.17.2.tgz#e4748f11dfbf1cba6d8cdc080836b277b2e86c26"
-  integrity sha512-nAPJpG83sEkbxxj3KNMLLvz4apcyjQk1iZRCTvU7WkSUUbdSSQH+YudwAVZCHRn1QwuU9hmaVNFfhqlNHv3TVw==
+"@backstage/core-components@^0.17.0", "@backstage/core-components@^0.17.2", "@backstage/core-components@^0.17.3":
+  version "0.17.3"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.17.3.tgz#e5e97ff0600a769b99be589683cba892b09383d6"
+  integrity sha512-3RFC7eauO8dQDuwYKmSbknNC+RbqBlDEViN7Bxxdm2rt5u2tprDAUNvkMds28fKqhcOhWv4MC+OEYef5+pc/lQ==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/core-plugin-api" "^1.10.8"
     "@backstage/errors" "^1.2.7"
     "@backstage/theme" "^0.6.6"
     "@backstage/version-bridge" "^1.0.11"
@@ -4056,10 +4056,10 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.7"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.7.tgz#a2323d3c060efb212db0af44b91d07515ec64e64"
-  integrity sha512-G0KdzuHGEn+eqIHu5IrDm1an4AusEC+ZRJNW/28XalVAIgjJiHfwxC/dN5D+bAqHB/V9LihzaV/hC1mGPJTfoQ==
+"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.10.8", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.10.8"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.8.tgz#87ca8b68778784292fed65159a6fd721f2de92e4"
+  integrity sha512-p3qJ9oV+6KdaRNiODNkpZQZc5B2P4rMdQ5w/dQ58Vtg+B5ofCU4YxjOHGefsIkyMCQU2Cqqczdv3E6USql2BCA==
   dependencies:
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
@@ -4111,13 +4111,13 @@
     "@backstage/plugin-app" "^0.1.9"
     "@react-hookz/web" "^24.0.0"
 
-"@backstage/frontend-plugin-api@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.10.2.tgz#9fc4575ef91248b2244348d60900c6ea342d8e37"
-  integrity sha512-W3aD8RMqJsBrL/3argA47/TV9tWILqsCuoEj4qNBbcdeZuy6fgS57CNrX2Utegk0omSwz6XC2OnbghH+mfMOWw==
+"@backstage/frontend-plugin-api@^0.10.2", "@backstage/frontend-plugin-api@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.10.3.tgz#ad9b502870a4f21e2c309117b78e4a95b48be41d"
+  integrity sha512-AE4nzR4gUekTx92lq7/AUUJKE5z/GCv4Q/iFsa6jJ4hmhPNZIk6+s20KzZiu85cVwMGsV3wSdNsNKMCRJVeCyw==
   dependencies:
-    "@backstage/core-components" "^0.17.2"
-    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.4"
@@ -5293,13 +5293,13 @@
     "@backstage/types" "^1.2.1"
 
 "@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.0.tgz#4d1dcdc3d2de6d7741db96e2d0b5bc314fab0459"
-  integrity sha512-sqmtrC2QnMwQo6xhIhsb7//7xQHJZF0Tnf3KB5xNrQCvqUQ9sHanUMN99TsGzTsDqlBgC25oqpQJTBwNJkSPWg==
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.1.tgz#62003d745dbb2098f6506136b5655f0fd14ee7ac"
+  integrity sha512-PBY9L9ToamYvIzMCpfJXPPkZB1ybm24OBYJnAnt/8d7shRNjUb6WhzM1STvn6HOGYy1pCs8x7tyYzvfexXa5jw==
   dependencies:
-    "@backstage/core-components" "^0.17.2"
-    "@backstage/core-plugin-api" "^1.10.7"
-    "@backstage/frontend-plugin-api" "^0.10.2"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
+    "@backstage/frontend-plugin-api" "^0.10.3"
     "@backstage/plugin-search-common" "^1.2.18"
     "@backstage/theme" "^0.6.6"
     "@backstage/types" "^1.2.1"
