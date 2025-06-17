@@ -4056,10 +4056,10 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.7"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.7.tgz#a2323d3c060efb212db0af44b91d07515ec64e64"
-  integrity sha512-G0KdzuHGEn+eqIHu5IrDm1an4AusEC+ZRJNW/28XalVAIgjJiHfwxC/dN5D+bAqHB/V9LihzaV/hC1mGPJTfoQ==
+"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.10.8", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.10.8"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.8.tgz#87ca8b68778784292fed65159a6fd721f2de92e4"
+  integrity sha512-p3qJ9oV+6KdaRNiODNkpZQZc5B2P4rMdQ5w/dQ58Vtg+B5ofCU4YxjOHGefsIkyMCQU2Cqqczdv3E6USql2BCA==
   dependencies:
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
@@ -4197,12 +4197,12 @@
     "@backstage/errors" "^1.2.7"
 
 "@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.7.tgz#825d7d422bbb6175141949d5693fe76fc5fe74ba"
-  integrity sha512-SokRB5rXGkE4Pe9Ue6VEnxJCiqrNAUXma3gj4wsCnLnAEKOhyDaQhgAHksJ/F1aw4oeSD/2wxQzKkRE/l/Mi6Q==
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.8.tgz#c5745e6a954945a360c7ca658b5c37f6dca3788a"
+  integrity sha512-JvM+6VUNnLKX+afLis1Zd/n5dpPuqz1CNPpPt4dQPGKqMalDLsWfak7k7kYbbdmQ8/8MkRvG9OBFvZRtV6cBJA==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/core-plugin-api" "^1.10.8"
     "@backstage/integration" "^1.17.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
