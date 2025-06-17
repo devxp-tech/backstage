@@ -3833,12 +3833,12 @@
     ms "^2.1.3"
 
 "@backstage/core-app-api@^1.17.0", "@backstage/core-app-api@^1.7.0":
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.17.0.tgz#f5d632e81ef123d11a6827283214fdd6a77a0ef2"
-  integrity sha512-ti5W1bA4hQqN80kx8RRJWeLlaj1aNmxFgKysnplSPxDR7XNkTiNBBdVveJnDiC82fnZTdLQox7TRrLGVoKl4+A==
+  version "1.17.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.17.1.tgz#ba6b8f0a28b28a6a4b92f4f64a67f2d4ed94de2e"
+  integrity sha512-iEIZwevlWtRJH+/KFoWBQiRkPlsGL+AjIw0YUt50e2duIhfJ7IxXNmPPstkqQHHFczoA6qJqHQjtY6+VV1/YWA==
   dependencies:
     "@backstage/config" "^1.3.2"
-    "@backstage/core-plugin-api" "^1.10.7"
+    "@backstage/core-plugin-api" "^1.10.8"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@types/prop-types" "^15.7.3"
@@ -4056,10 +4056,10 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.7"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.7.tgz#a2323d3c060efb212db0af44b91d07515ec64e64"
-  integrity sha512-G0KdzuHGEn+eqIHu5IrDm1an4AusEC+ZRJNW/28XalVAIgjJiHfwxC/dN5D+bAqHB/V9LihzaV/hC1mGPJTfoQ==
+"@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.7", "@backstage/core-plugin-api@^1.10.8", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.10.8"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.8.tgz#87ca8b68778784292fed65159a6fd721f2de92e4"
+  integrity sha512-p3qJ9oV+6KdaRNiODNkpZQZc5B2P4rMdQ5w/dQ58Vtg+B5ofCU4YxjOHGefsIkyMCQU2Cqqczdv3E6USql2BCA==
   dependencies:
     "@backstage/config" "^1.3.2"
     "@backstage/errors" "^1.2.7"
