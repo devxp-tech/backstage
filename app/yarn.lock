@@ -5262,14 +5262,14 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.45"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.45.tgz#c667b1b3830623ca37c5f779ec085f50dffba0dc"
-  integrity sha512-QHy8ytm8oaOPElx20/2spzDwPYzdghkwzqiIHZe2OZ6bovEfFIhIqLeAr+GeNfbkl/XZijSBQN9cbRFqQlgf9A==
+  version "0.5.46"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.46.tgz#69cd018acdb8cf6be8c5e494c68a330e83cde8ba"
+  integrity sha512-dScEc+3ytfrQ/73o+5kYR7xtm9Ahci6ZVm73w3zL/Wcyn9+xZHmDwRRuI/gbZYKdOUzCahqMilqIZXuZRR3n8Q==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.4.0"
-    "@backstage/config" "^1.3.2"
-    "@backstage/plugin-search-backend-node" "^1.3.12"
-    "@backstage/plugin-search-common" "^1.2.18"
+    "@backstage/backend-plugin-api" "^1.4.1"
+    "@backstage/config" "^1.3.3"
+    "@backstage/plugin-search-backend-node" "^1.3.13"
+    "@backstage/plugin-search-common" "^1.2.19"
     knex "^3.0.0"
     lodash "^4.17.21"
     uuid "^11.0.0"
@@ -5292,16 +5292,16 @@
     lodash "^4.17.21"
     p-limit "^3.1.0"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.12":
-  version "1.3.12"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.12.tgz#0b42555f3a5966eddabd792d101f43917476b8ad"
-  integrity sha512-z9Q26c6iJe5aNomHlL9CK+yfYUpqxQDzf0S4Q37E64qytM1iz8eY2FEx6WqXZAuv6mI5+Eqj8c/hHd7GSUeZtA==
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.12", "@backstage/plugin-search-backend-node@^1.3.13":
+  version "1.3.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.13.tgz#8a16f86daf2721b3fb9d90d5407cfab82e09f498"
+  integrity sha512-A0/ZR4lfYVXfMz9pa0qBJjmMa2nqgZSroPvdp8v2ZFClacLk8RF5pjX7H+Gaovil2x4EtHoNy9sWd1ELJfJh4w==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.4.0"
-    "@backstage/config" "^1.3.2"
+    "@backstage/backend-plugin-api" "^1.4.1"
+    "@backstage/config" "^1.3.3"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-permission-common" "^0.9.0"
-    "@backstage/plugin-search-common" "^1.2.18"
+    "@backstage/plugin-permission-common" "^0.9.1"
+    "@backstage/plugin-search-common" "^1.2.19"
     "@types/lunr" "^2.3.3"
     lodash "^4.17.21"
     lunr "^2.3.9"
