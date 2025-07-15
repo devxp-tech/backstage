@@ -3660,9 +3660,9 @@
     uri-template "^2.0.0"
 
 "@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.1", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.4":
-  version "1.7.4"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.4.tgz#369b19bd65172ea109e736fc68fca01d4190e432"
-  integrity sha512-Fs6VESnx8tWbHvB7IBZDU9+XWSDADNKkNUv2Tb3LUqCCDmduf9YSMVK5h9GyV3s7e7QrvbB0HsS+tSRUhBvFZw==
+  version "1.7.5"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.5.tgz#dcd989e5df217653ca37c69685d38f2eea1601d8"
+  integrity sha512-N++huwyhB2GhMBT0KREFE0OvC/jI+oztCbm8Z5BKMMTccXd/wurqF7643UMsUp7hzzKi/Dxh/u9OpDdZTG9h0g==
   dependencies:
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.1"
@@ -12341,17 +12341,7 @@ ajv@^6.10.0, ajv@^6.12.2, ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-ajv@^8.0.0, ajv@^8.10.0, ajv@^8.11.0, ajv@^8.11.2, ajv@^8.12.0, ajv@^8.6.0, ajv@^8.6.3, ajv@^8.9.0:
-  version "8.12.0"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.12.0.tgz#d1a0527323e22f53562c567c00991577dfbe19d1"
-  integrity sha512-sRu1kpcO9yLtYxBKvqfTeh9KzZEwO3STyX1HT+4CaDzC6HpTGYhIhPIzj9XuKU7KYDwnaeh5hcOwjy1QuJzBPA==
-  dependencies:
-    fast-deep-equal "^3.1.1"
-    json-schema-traverse "^1.0.0"
-    require-from-string "^2.0.2"
-    uri-js "^4.2.2"
-
-ajv@^8.0.1, ajv@^8.16.0, ajv@^8.17.1:
+ajv@^8.0.0, ajv@^8.0.1, ajv@^8.10.0, ajv@^8.11.0, ajv@^8.11.2, ajv@^8.12.0, ajv@^8.16.0, ajv@^8.17.1, ajv@^8.6.0, ajv@^8.6.3, ajv@^8.9.0:
   version "8.17.1"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.17.1.tgz#37d9a5c776af6bc92d7f4f9510eba4c0a60d11a6"
   integrity sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==
