@@ -3829,10 +3829,10 @@
     typescript-json-schema "^0.65.0"
     yaml "^2.0.0"
 
-"@backstage/config@^1.0.7", "@backstage/config@^1.2.0", "@backstage/config@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.3.2.tgz#ddea2f7646fba459316566dad770af9265dd1241"
-  integrity sha512-9na5EAf5AJzrwAysnIbNqFmPN1ES9IiUwy9uGMhwFzxXeHjDz+RAmiqFYFL6tNMwuFwrW1zxpvzKAUXvvYDe6Q==
+"@backstage/config@^1.0.7", "@backstage/config@^1.2.0", "@backstage/config@^1.3.2", "@backstage/config@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.3.3.tgz#75b6a85615b129d311782c2c64962a111695bea3"
+  integrity sha512-r/5QyeC/w0gaV6MY1gL1B64n1rRYdXEGrgiA6c/SlPtzM+7eY+ORQkXdfIctG09uHqPHdLamvoZcdvEbmhY2NQ==
   dependencies:
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.1"
@@ -4063,11 +4063,11 @@
     zod "^3.22.4"
 
 "@backstage/core-plugin-api@^1.10.1", "@backstage/core-plugin-api@^1.10.4", "@backstage/core-plugin-api@^1.10.8", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.8"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.8.tgz#87ca8b68778784292fed65159a6fd721f2de92e4"
-  integrity sha512-p3qJ9oV+6KdaRNiODNkpZQZc5B2P4rMdQ5w/dQ58Vtg+B5ofCU4YxjOHGefsIkyMCQU2Cqqczdv3E6USql2BCA==
+  version "1.10.9"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.9.tgz#012250a2669b9841676e9a8a2b10122a57eebd22"
+  integrity sha512-4PVBDSjwomnIOgTdxPqWLEDv+db79CWfGRhOuwC5ghpHlhORvfwGgANF8hMHYhEL0BHUHzPjnvU1pcIdAinBsQ==
   dependencies:
-    "@backstage/config" "^1.3.2"
+    "@backstage/config" "^1.3.3"
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
