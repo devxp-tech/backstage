@@ -3518,7 +3518,7 @@
     openapi-merge "^1.3.2"
     openapi3-ts "^3.1.2"
 
-"@backstage/backend-openapi-utils@^0.5.4", "@backstage/backend-openapi-utils@^0.5.5":
+"@backstage/backend-openapi-utils@^0.5.5":
   version "0.5.5"
   resolved "https://registry.yarnpkg.com/@backstage/backend-openapi-utils/-/backend-openapi-utils-0.5.5.tgz#62793264d12c709e4d0abf7ca00061bf914b535c"
   integrity sha512-oIn7rKF+FYM2bOqiuxUbwQkkde2w7QMXbnT+SbNkX4ssSD6CAvsQ/HycxBwCjbw5EXx7NtCnekB/q+QMEb4ppQ==
@@ -5285,19 +5285,19 @@
     uuid "^11.0.0"
 
 "@backstage/plugin-search-backend@^2.0.0":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-2.0.3.tgz#0bcd12b2e5638127d5ee5568f05a094a7366cd81"
-  integrity sha512-Cy0ghpTJTFzPgEAo9gg0g1zWnSCwJwVwX+O7ky9MaQbheaX2nJ5guOfbUJvtszbAg8FN+1YqMuvcKDyLfBgf/Q==
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-2.0.4.tgz#f84f14cd58707def5cbef5e1f4f3a1e909d9607e"
+  integrity sha512-F71rj+BWAdkd74rZdj7ghGpm8+o+gmyFgfC+P6tWZdC7TQB+kC2fWpARFcIb1B0urDPWXZbLRWInTcoLymCQCw==
   dependencies:
-    "@backstage/backend-defaults" "^0.11.0"
-    "@backstage/backend-openapi-utils" "^0.5.4"
-    "@backstage/backend-plugin-api" "^1.4.0"
-    "@backstage/config" "^1.3.2"
+    "@backstage/backend-defaults" "^0.11.1"
+    "@backstage/backend-openapi-utils" "^0.5.5"
+    "@backstage/backend-plugin-api" "^1.4.1"
+    "@backstage/config" "^1.3.3"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-permission-common" "^0.9.0"
-    "@backstage/plugin-permission-node" "^0.10.1"
-    "@backstage/plugin-search-backend-node" "^1.3.12"
-    "@backstage/plugin-search-common" "^1.2.18"
+    "@backstage/plugin-permission-common" "^0.9.1"
+    "@backstage/plugin-permission-node" "^0.10.2"
+    "@backstage/plugin-search-backend-node" "^1.3.13"
+    "@backstage/plugin-search-common" "^1.2.19"
     "@backstage/types" "^1.2.1"
     dataloader "^2.0.0"
     express "^4.17.1"
