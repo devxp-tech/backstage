@@ -4202,7 +4202,7 @@
     "@backstage/config" "^1.3.3"
     "@backstage/errors" "^1.2.7"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.9":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.8", "@backstage/integration-react@^1.2.9":
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.9.tgz#b75df9e8d9e987a53a5791684badab3e5c8eca6c"
   integrity sha512-Q78rFvB0G4bsJPrAo4WhHY6EEwgVof+T2xIA775GZoHWKBco/kUeNplGpBZHFJUniKXO/Xj6124h3q12bvb2lg==
@@ -4563,7 +4563,7 @@
     lodash "^4.17.21"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
+"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.0", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.19.1.tgz#db02ecf79bf821e308df9380d222e0ddc96f15e7"
   integrity sha512-3J4x6bhpCT9PVqlbDMDmioS5f0MS4NHNt+hccuDrVrStEmkALX5bloFuO6N+KQntcS5vtEpdUIvnQ9Spmm0dZQ==
@@ -4665,13 +4665,14 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@backstage/plugin-home-react@^0.1.20":
-  version "0.1.23"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-home-react/-/plugin-home-react-0.1.23.tgz#1fe92f620915d736dde703dee22d2a3289a20b77"
-  integrity sha512-+WWmNz72zZRkuVTooBbnCD3hm1jBtn3s2hzGm9v2V6PLHiulM7LRPfiGas5+/gs8I0swWu2QcsP8q1ji/AvrrA==
+"@backstage/plugin-home-react@^0.1.27":
+  version "0.1.28"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-home-react/-/plugin-home-react-0.1.28.tgz#41b6b3f19696eece618010c06f4176ffd28b7d19"
+  integrity sha512-4wweLVcnwJrhDIepXjFp0eXzH9/U1uq+GtCLfWyvqKNJ6KKWvmnd+nhi4y9x5MUP3MeA97g8m0r8wxM6Iq91Qg==
   dependencies:
-    "@backstage/core-components" "^0.16.4"
-    "@backstage/core-plugin-api" "^1.10.4"
+    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-plugin-api" "^1.10.9"
+    "@backstage/frontend-plugin-api" "^0.10.4"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@rjsf/utils" "5.23.2"
@@ -9313,23 +9314,23 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^3.0.0":
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.4.2.tgz#4578492d0e6bfd65a4920bf0458e3d60f26dc112"
-  integrity sha512-FRkQNM3G5Tmck6E5UKrOhegUFQNldbtFOvfSKS9F4MB10pGVTRvDQR2d+fGd+N5L8jEYkOau+Jq6NgVGd41uvA==
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.5.0.tgz#ce1e5a15df369573e58dda429dc7f72e1d5ae641"
+  integrity sha512-PWs7AnzutVS1HANe1cX0TWWjOrGcGYrlymntivLUpHwU4PEiYpfK4PMFXJj9yy1yTDwCe5ZSzkdJ1Sxs41tQpg==
   dependencies:
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/core-components" "^0.16.1"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/integration" "^1.16.1"
-    "@backstage/integration-react" "^1.2.1"
-    "@backstage/plugin-catalog-react" "^1.14.2"
-    "@backstage/plugin-home-react" "^0.1.20"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
+    "@backstage/integration" "^1.17.0"
+    "@backstage/integration-react" "^1.2.8"
+    "@backstage/plugin-catalog-react" "^1.19.0"
+    "@backstage/plugin-home-react" "^0.1.27"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.60"
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
-    "@roadiehq/github-auth-utils-react" "^1.0.2"
+    "@roadiehq/github-auth-utils-react" "^1.1.0"
     git-url-parse "^14.0.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
@@ -9377,14 +9378,14 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@roadiehq/github-auth-utils-react@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.0.2.tgz#0a907d55051e63529551e4386e06f210985e26f5"
-  integrity sha512-uiW2k5jLu0xtt1aI6LPUL40TZcFkUopcyXsus9YW2zraCRHRv9aoy7VE22C7RySskauxAjcLOkhucqdK7LOHEw==
+"@roadiehq/github-auth-utils-react@^1.0.2", "@roadiehq/github-auth-utils-react@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.1.0.tgz#c132ed7b56789bcb999ad773b3489f8120b703f5"
+  integrity sha512-LzlSlnslhdEGMIdBkuSQJL0NmsUcZ9644QsO9hscktvrXXET4/YWuiAaQxD6wWVXzdzklQP2VPUGDcwafzyprQ==
   dependencies:
-    "@backstage/core-components" "^0.16.1"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/integration-react" "^1.2.1"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
+    "@backstage/integration-react" "^1.2.8"
     "@material-ui/core" "^4.12.2"
     zustand "^4.5.6"
 
