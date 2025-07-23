@@ -4202,7 +4202,7 @@
     "@backstage/config" "^1.3.3"
     "@backstage/errors" "^1.2.7"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.9":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.1", "@backstage/integration-react@^1.2.8", "@backstage/integration-react@^1.2.9":
   version "1.2.9"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.9.tgz#b75df9e8d9e987a53a5791684badab3e5c8eca6c"
   integrity sha512-Q78rFvB0G4bsJPrAo4WhHY6EEwgVof+T2xIA775GZoHWKBco/kUeNplGpBZHFJUniKXO/Xj6124h3q12bvb2lg==
@@ -4563,7 +4563,7 @@
     lodash "^4.17.21"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
+"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.0", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.19.1.tgz#db02ecf79bf821e308df9380d222e0ddc96f15e7"
   integrity sha512-3J4x6bhpCT9PVqlbDMDmioS5f0MS4NHNt+hccuDrVrStEmkALX5bloFuO6N+KQntcS5vtEpdUIvnQ9Spmm0dZQ==
@@ -9357,34 +9357,34 @@
     recharts "^1.8.5"
 
 "@roadiehq/backstage-plugin-security-insights@^3.0.0":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.1.3.tgz#3f97124e80a0dfa180632a76755be64655ee4974"
-  integrity sha512-x1Duw8y872XccKHOTh7hfTxlWXAi/GQgQ7PoFgo1zlxgBDR+BwThMRQm6ZYMvNeV5byPZoncs5dX2t91ONu4jw==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.2.0.tgz#0df6207029f10b70f352d250201694bc9c2d4d47"
+  integrity sha512-QXj/eNunVPep3B8CMrryrFR/jwC8ARplf3Sk+atJIf03gvQruSY38TwYNnH4YwWkyOdUqDM5JMbj6YXL9rbkHw==
   dependencies:
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/core-components" "^0.16.1"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/integration-react" "^1.2.1"
-    "@backstage/plugin-catalog-react" "^1.14.2"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
+    "@backstage/integration-react" "^1.2.8"
+    "@backstage/plugin-catalog-react" "^1.19.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.45"
     "@octokit/graphql" "^5.0.0"
     "@octokit/rest" "^19.0.3"
-    "@roadiehq/github-auth-utils-react" "^1.0.2"
+    "@roadiehq/github-auth-utils-react" "^1.1.0"
     cross-fetch "^3.1.4"
     git-url-parse "^16.0.0"
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@roadiehq/github-auth-utils-react@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.0.2.tgz#0a907d55051e63529551e4386e06f210985e26f5"
-  integrity sha512-uiW2k5jLu0xtt1aI6LPUL40TZcFkUopcyXsus9YW2zraCRHRv9aoy7VE22C7RySskauxAjcLOkhucqdK7LOHEw==
+"@roadiehq/github-auth-utils-react@^1.0.2", "@roadiehq/github-auth-utils-react@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.1.0.tgz#c132ed7b56789bcb999ad773b3489f8120b703f5"
+  integrity sha512-LzlSlnslhdEGMIdBkuSQJL0NmsUcZ9644QsO9hscktvrXXET4/YWuiAaQxD6wWVXzdzklQP2VPUGDcwafzyprQ==
   dependencies:
-    "@backstage/core-components" "^0.16.1"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/integration-react" "^1.2.1"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
+    "@backstage/integration-react" "^1.2.8"
     "@material-ui/core" "^4.12.2"
     zustand "^4.5.6"
 
