@@ -3867,17 +3867,7 @@
     "@types/react" "^16.13.1 || ^17.0.0"
     lodash "^4.17.21"
 
-"@backstage/core-compat-api@^0.3.3":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.3.6.tgz#41dc582a4ff9501e91bae048829aae7dfe638bf2"
-  integrity sha512-ybXU+sYHOrhadhHr3HUrC5xGc1uIAcRafc8qFW8tAbf5jMtEZZW+Yf59p8YvHu8G4r+WEapmAwo5V8pWlSYj/g==
-  dependencies:
-    "@backstage/core-plugin-api" "^1.10.4"
-    "@backstage/frontend-plugin-api" "^0.9.5"
-    "@backstage/version-bridge" "^1.0.11"
-    lodash "^4.17.21"
-
-"@backstage/core-compat-api@^0.4.4":
+"@backstage/core-compat-api@^0.4.3", "@backstage/core-compat-api@^0.4.4":
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.4.4.tgz#863dbc270d441b06277780efe23454b9e28edeaf"
   integrity sha512-Ub5W9RFnhs4HuAmdYxbhLS8qC+Yq0RNLGFDypNUh5/ZVCPq4wb2j40ADL2gLuSBsqyYYVAsWauDuiFSEQJWalw==
@@ -4117,7 +4107,7 @@
     "@backstage/plugin-app" "^0.1.11"
     "@react-hookz/web" "^24.0.0"
 
-"@backstage/frontend-plugin-api@^0.10.4":
+"@backstage/frontend-plugin-api@^0.10.3", "@backstage/frontend-plugin-api@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.10.4.tgz#f53dbd3bad4bc152a6a98ffb4d692e35dc3cf74a"
   integrity sha512-nC9IecJFbPkC0G8+GYolX3k0IE9prWelhE5N76zDmlW17niB5w270RZopGbhEOEvRiuZrIJk6iXU5ukFbdw8FQ==
@@ -4157,20 +4147,6 @@
     "@backstage/version-bridge" "^1.0.8"
     "@material-ui/core" "^4.12.4"
     "@types/react" "^16.13.1 || ^17.0.0 || ^18.0.0"
-    lodash "^4.17.21"
-    zod "^3.22.4"
-    zod-to-json-schema "^3.21.4"
-
-"@backstage/frontend-plugin-api@^0.9.2", "@backstage/frontend-plugin-api@^0.9.5":
-  version "0.9.5"
-  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.9.5.tgz#c8723701d0231f331e2b36b06b3446baa6c039fe"
-  integrity sha512-CtKX7thcCXnyYxWKjXhZttUAuS5VQv8r9u3NJpYJ8rbpqMJzchi00UvADR9dygdJWXVfMPM7k2en6ZHkwhjlZQ==
-  dependencies:
-    "@backstage/core-components" "^0.16.4"
-    "@backstage/core-plugin-api" "^1.10.4"
-    "@backstage/types" "^1.2.1"
-    "@backstage/version-bridge" "^1.0.11"
-    "@material-ui/core" "^4.12.4"
     lodash "^4.17.21"
     zod "^3.22.4"
     zod-to-json-schema "^3.21.4"
@@ -4563,7 +4539,7 @@
     lodash "^4.17.21"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
+"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.0", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.19.1.tgz#db02ecf79bf821e308df9380d222e0ddc96f15e7"
   integrity sha512-3J4x6bhpCT9PVqlbDMDmioS5f0MS4NHNt+hccuDrVrStEmkALX5bloFuO6N+KQntcS5vtEpdUIvnQ9Spmm0dZQ==
@@ -9269,16 +9245,16 @@
     lodash-es "^4.17.21"
 
 "@roadiehq/backstage-plugin-argo-cd@^2.2.12":
-  version "2.9.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.9.1.tgz#43597266d932b4d26cd9ef77292a02b4c481b6fb"
-  integrity sha512-XWgwryLEAbao+42MzycPON2OArzv8TYfONNKju5wVzWI6WvgPdgvLmblQY4sO4h8UR4xMNByC2s9Zvu/7wntGA==
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.10.0.tgz#9b0a6343d9bc8e6c019eceafc665626bf409b49e"
+  integrity sha512-DSawEPZenJkvRWundxlhM78ka7oVJ53a4U2IthIL7E1m0lYInoTcnZnDii9siwdDOydCMePicgkW1kb+Yctc/A==
   dependencies:
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/core-compat-api" "^0.3.3"
-    "@backstage/core-components" "^0.16.1"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/frontend-plugin-api" "^0.9.2"
-    "@backstage/plugin-catalog-react" "^1.14.2"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-compat-api" "^0.4.3"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
+    "@backstage/frontend-plugin-api" "^0.10.3"
+    "@backstage/plugin-catalog-react" "^1.19.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     cross-fetch "^3.1.4"
