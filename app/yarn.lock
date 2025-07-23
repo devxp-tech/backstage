@@ -4563,7 +4563,7 @@
     lodash "^4.17.21"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
+"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.14.2", "@backstage/plugin-catalog-react@^1.19.0", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.19.1.tgz#db02ecf79bf821e308df9380d222e0ddc96f15e7"
   integrity sha512-3J4x6bhpCT9PVqlbDMDmioS5f0MS4NHNt+hccuDrVrStEmkALX5bloFuO6N+KQntcS5vtEpdUIvnQ9Spmm0dZQ==
@@ -9337,15 +9337,15 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-prometheus@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-3.0.0.tgz#ba809e77d64aa970f97ac1a7c0743ef1419385b9"
-  integrity sha512-87ODFXOnTGLfwlNsQUVSIy0iUCKZfEFsm5+6mVpfmHmD9kJMRA491MGD50aD2t68ylZYApFJDBsyA587EU5inw==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-prometheus/-/backstage-plugin-prometheus-3.1.0.tgz#1be762f936e967e5f0bbf62d488e03ce3fcebdd3"
+  integrity sha512-34PNDbZkKzE4pmzoJ/GFJ7Hoa30XQo5xvAXBzS/EhGRxHsu+EecqZi1ZVhDseA1K9aekzfVfKbIjT/97LSDFYQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.1"
-    "@backstage/core-components" "^0.16.1"
-    "@backstage/core-plugin-api" "^1.10.1"
-    "@backstage/plugin-catalog-react" "^1.14.2"
-    "@backstage/theme" "^0.6.2"
+    "@backstage/catalog-model" "^1.7.4"
+    "@backstage/core-components" "^0.17.3"
+    "@backstage/core-plugin-api" "^1.10.8"
+    "@backstage/plugin-catalog-react" "^1.19.0"
+    "@backstage/theme" "^0.6.6"
     "@material-ui/core" "^4.12.2"
     "@material-ui/lab" "4.0.0-alpha.45"
     "@types/recharts" "^1.8.14"
