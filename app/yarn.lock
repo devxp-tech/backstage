@@ -2953,6 +2953,16 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
+"@backstage/catalog-client@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.11.0.tgz#263492fd4970bc7724c317c018a78d5a08c0a544"
+  integrity sha512-pt4ETl+ljdcPpGjavlOzB9yjNRxxLVuYdVzlhB+ZUeZk6BzvwlFgdnKHvk8OizPCSCgCdVb10ZGYvoUnEmCemg==
+  dependencies:
+    "@backstage/catalog-model" "^1.7.5"
+    "@backstage/errors" "^1.2.7"
+    cross-fetch "^4.0.0"
+    uri-template "^2.0.0"
+
 "@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.4", "@backstage/catalog-model@^1.7.5":
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.5.tgz#dcd989e5df217653ca37c69685d38f2eea1601d8"
@@ -4598,16 +4608,16 @@
     "@backstage/plugin-permission-common" "^0.9.1"
     "@backstage/types" "^1.2.1"
 
-"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.2.tgz#5b367d6d5b855af6eb72bc487785e542d60b149b"
-  integrity sha512-8mnI6/02jH92OWAlOKUKhLd27poaI5+GHIe0/m9ygujZNgW5O0Sk/WRT+L9+Fj1+5+FsuTBTlKvy7T74fXPSxw==
+"@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.9.2", "@backstage/plugin-search-react@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.3.tgz#48db0f0fe793c7753abbbf56cef3cf04206df450"
+  integrity sha512-xWZIBSRCus+W2JcmR1RtKy1XBlnDD/kgu8EQ7uoK3zurCQpj8+ArwLQpW/8Y9ZvW7AXBU6oqcXP1ygml9cYmUw==
   dependencies:
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/frontend-plugin-api" "^0.10.4"
+    "@backstage/frontend-plugin-api" "^0.11.0"
     "@backstage/plugin-search-common" "^1.2.19"
-    "@backstage/theme" "^0.6.7"
+    "@backstage/theme" "^0.6.8"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.2"
@@ -4619,18 +4629,18 @@
     uuid "^11.0.2"
 
 "@backstage/plugin-search@^1.2.0":
-  version "1.4.28"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.28.tgz#07956559f2ae946baeb5fd08e9b47102a69ad85c"
-  integrity sha512-yigqdmUWQHhRxJaW0VAvlozn80wfJeJvCZTnPMoBQJkTq/M8DP66J9k20DV4PUE6K7lkRGn+DVlIm7Biot+pdg==
+  version "1.4.29"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.4.29.tgz#b4bb0a3bf148b13f76a2bead434d8fad16c6a4d1"
+  integrity sha512-D78b1Wz+wbpo+tGxFzMPMOqGVKsbEsqNF1KNr0EH5s8rmHfuYt+KAwU8z3UNuHJXedPkAbxUBXoJ3r9FD2vq6Q==
   dependencies:
-    "@backstage/core-compat-api" "^0.4.4"
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-compat-api" "^0.5.0"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.10.4"
-    "@backstage/plugin-catalog-react" "^1.19.1"
+    "@backstage/frontend-plugin-api" "^0.11.0"
+    "@backstage/plugin-catalog-react" "^1.20.0"
     "@backstage/plugin-search-common" "^1.2.19"
-    "@backstage/plugin-search-react" "^1.9.2"
+    "@backstage/plugin-search-react" "^1.9.3"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.2"
@@ -4959,6 +4969,15 @@
     "@mui/material" "^5.12.2"
 
 "@backstage/theme@^0.6.6", "@backstage/theme@^0.6.7":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.8.tgz#703088101ca20205d77de6a688881e909dd57ae4"
+  integrity sha512-hNUoOjirVIVht6GbDFt6vEej4hA7Kq3trJmyWhKuAKndPD+azjhzMOnGM7Rzj5qIkJeCNB6qcC89+NV6no1HzA==
+  dependencies:
+    "@emotion/react" "^11.10.5"
+    "@emotion/styled" "^11.10.5"
+    "@mui/material" "^5.12.2"
+
+"@backstage/theme@^0.6.8":
   version "0.6.8"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.8.tgz#703088101ca20205d77de6a688881e909dd57ae4"
   integrity sha512-hNUoOjirVIVht6GbDFt6vEej4hA7Kq3trJmyWhKuAKndPD+azjhzMOnGM7Rzj5qIkJeCNB6qcC89+NV6no1HzA==
