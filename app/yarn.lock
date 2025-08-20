@@ -4441,7 +4441,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-common@^1.6.0", "@backstage/plugin-scaffolder-common@^1.7.0":
+"@backstage/plugin-scaffolder-common@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.7.0.tgz#35f8282e294c58123aaf56c813f89218c8157b83"
   integrity sha512-ym+8dcUzsl4nOovWOcR2uCfsuJnqUdR/Fnyi82mO3Msp/Og4RtgMWmr8rj8KsEfLPm+dyQoYLhmGFv0PACDeMA==
@@ -4484,20 +4484,20 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-scaffolder-react@^1.18.0":
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.18.0.tgz#8db8936b757ce790b18e4bf264a9f75b7d62624e"
-  integrity sha512-v10NRn/Wz1kg12Nz+qD6gFUAFZIZw8gggLe0zjmauDNLClBGXBft+F4BFxYQ5xN0IZYzouJrVhnZBmlaOI8ejA==
+"@backstage/plugin-scaffolder-react@^1.19.0":
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.19.0.tgz#25db7e74310acf2fc81a706f080364e0d28cdd54"
+  integrity sha512-PYc61hCwIBbMV4tGsE+ty3j77jzoJzd1jXDdujN2wUhkYPV9xaDcENUXU4S7yvW0HuG6b8wf/uy/zEX4ur2Aew==
   dependencies:
-    "@backstage/catalog-client" "^1.10.2"
+    "@backstage/catalog-client" "^1.11.0"
     "@backstage/catalog-model" "^1.7.5"
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/frontend-plugin-api" "^0.10.4"
-    "@backstage/plugin-catalog-react" "^1.19.1"
+    "@backstage/frontend-plugin-api" "^0.11.0"
+    "@backstage/plugin-catalog-react" "^1.20.0"
     "@backstage/plugin-permission-react" "^0.4.36"
-    "@backstage/plugin-scaffolder-common" "^1.6.0"
-    "@backstage/theme" "^0.6.7"
+    "@backstage/plugin-scaffolder-common" "^1.7.0"
+    "@backstage/theme" "^0.6.8"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.2"
@@ -4527,24 +4527,24 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.33.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.33.0.tgz#00b4b0e7e7c5b8ddf338930a599df5c29ef846c8"
-  integrity sha512-yX3DA4ZaYqCXsRJbqnPKIMqN825yjD8nB87yY5LBo4xg68Lv1683Q0nwy6gHY7fCMLwLzeLCuQdjP4UWhvLQ/g==
+  version "1.34.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.34.0.tgz#7faca6840e12e94c531037d8f4bdb99c7c6247f1"
+  integrity sha512-ze8QRNTP+jwCS9Pl50JzkSEpx2bm0D0IoVzxp5Gvy+IuV5Tn3qoPa5axcioA1ocM15iHOYAozL98mXWvcn4UWw==
   dependencies:
-    "@backstage/catalog-client" "^1.10.2"
+    "@backstage/catalog-client" "^1.11.0"
     "@backstage/catalog-model" "^1.7.5"
-    "@backstage/core-compat-api" "^0.4.4"
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-compat-api" "^0.5.0"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.10.4"
+    "@backstage/frontend-plugin-api" "^0.11.0"
     "@backstage/integration" "^1.17.1"
     "@backstage/integration-react" "^1.2.9"
     "@backstage/plugin-catalog-common" "^1.1.5"
-    "@backstage/plugin-catalog-react" "^1.19.1"
+    "@backstage/plugin-catalog-react" "^1.20.0"
     "@backstage/plugin-permission-react" "^0.4.36"
-    "@backstage/plugin-scaffolder-common" "^1.6.0"
-    "@backstage/plugin-scaffolder-react" "^1.18.0"
+    "@backstage/plugin-scaffolder-common" "^1.7.0"
+    "@backstage/plugin-scaffolder-react" "^1.19.0"
     "@backstage/types" "^1.2.1"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
@@ -4552,7 +4552,6 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
-    "@microsoft/fetch-event-source" "^2.0.1"
     "@react-hookz/web" "^24.0.0"
     "@rjsf/core" "5.23.2"
     "@rjsf/material-ui" "5.23.2"
@@ -4570,10 +4569,10 @@
     luxon "^3.0.0"
     qs "^6.9.4"
     react-resizable "^3.0.5"
+    react-resizable-panels "^3.0.4"
     react-use "^17.2.4"
     react-window "^1.8.10"
     yaml "^2.0.0"
-    zen-observable "^0.10.0"
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
@@ -24669,6 +24668,11 @@ react-remove-scroll@2.5.5:
     tslib "^2.1.0"
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
+
+react-resizable-panels@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-resizable-panels/-/react-resizable-panels-3.0.4.tgz#8ad4b3cf07a5a6d665e8379e502ffb8f8c8a79f9"
+  integrity sha512-8Y4KNgV94XhUvI2LeByyPIjoUJb71M/0hyhtzkHaqpVHs+ZQs8b627HmzyhmVYi3C9YP6R+XD1KmG7hHjEZXFQ==
 
 react-resizable@^3.0.5:
   version "3.0.5"
