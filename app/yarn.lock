@@ -3964,15 +3964,15 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-components@^0.17.0", "@backstage/core-components@^0.17.3", "@backstage/core-components@^0.17.4":
-  version "0.17.4"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.17.4.tgz#9001215e070f95a0e27c8776b8ee73f1de142b9d"
-  integrity sha512-vEh4ll+aYTTtCn46Y3p2GQ0ZApYJEugXJl5Q705w2AM8TfjpWz1JaN9kxG8nC4TkoyLX2n5StaIpg+BtWfi1HA==
+"@backstage/core-components@^0.17.0", "@backstage/core-components@^0.17.3", "@backstage/core-components@^0.17.4", "@backstage/core-components@^0.17.5":
+  version "0.17.5"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.17.5.tgz#bb7f52537fbe738c281291633d3a4b48edca299c"
+  integrity sha512-rFEeQH46BWx040aIsZ5VBmIgVzILWvQwhlCKRMZj09Yo9eLQnM6B5KTLD2wo5MeohZqwPY2Dmd/y+O8FyjvVVQ==
   dependencies:
     "@backstage/config" "^1.3.3"
     "@backstage/core-plugin-api" "^1.10.9"
     "@backstage/errors" "^1.2.7"
-    "@backstage/theme" "^0.6.7"
+    "@backstage/theme" "^0.6.8"
     "@backstage/version-bridge" "^1.0.11"
     "@dagrejs/dagre" "^1.1.4"
     "@date-io/core" "^1.3.13"
@@ -3989,8 +3989,8 @@
     d3-shape "^3.0.0"
     d3-zoom "^3.0.0"
     js-yaml "^4.1.0"
-    linkify-react "4.1.3"
-    linkifyjs "4.1.3"
+    linkify-react "4.3.2"
+    linkifyjs "4.3.2"
     lodash "^4.17.21"
     pluralize "^8.0.0"
     qs "^6.9.4"
@@ -4069,6 +4069,20 @@
   integrity sha512-nC9IecJFbPkC0G8+GYolX3k0IE9prWelhE5N76zDmlW17niB5w270RZopGbhEOEvRiuZrIJk6iXU5ukFbdw8FQ==
   dependencies:
     "@backstage/core-components" "^0.17.4"
+    "@backstage/core-plugin-api" "^1.10.9"
+    "@backstage/types" "^1.2.1"
+    "@backstage/version-bridge" "^1.0.11"
+    "@material-ui/core" "^4.12.4"
+    lodash "^4.17.21"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
+"@backstage/frontend-plugin-api@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.11.0.tgz#53f258180ed30c3a17d781f06b7fe9960816e969"
+  integrity sha512-NOQ6c3vjwWKqU6vvbgwSQW0RvbSn1D7kIFut6sctjSkNNWzQ5nULclBap6sPQZsHwXqG+MqDdG46g4po6MRK4A==
+  dependencies:
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
@@ -5235,15 +5249,15 @@
     "@backstage/types" "^1.2.1"
 
 "@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.2.tgz#5b367d6d5b855af6eb72bc487785e542d60b149b"
-  integrity sha512-8mnI6/02jH92OWAlOKUKhLd27poaI5+GHIe0/m9ygujZNgW5O0Sk/WRT+L9+Fj1+5+FsuTBTlKvy7T74fXPSxw==
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.9.3.tgz#48db0f0fe793c7753abbbf56cef3cf04206df450"
+  integrity sha512-xWZIBSRCus+W2JcmR1RtKy1XBlnDD/kgu8EQ7uoK3zurCQpj8+ArwLQpW/8Y9ZvW7AXBU6oqcXP1ygml9cYmUw==
   dependencies:
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/frontend-plugin-api" "^0.10.4"
+    "@backstage/frontend-plugin-api" "^0.11.0"
     "@backstage/plugin-search-common" "^1.2.19"
-    "@backstage/theme" "^0.6.7"
+    "@backstage/theme" "^0.6.8"
     "@backstage/types" "^1.2.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.2"
@@ -5576,10 +5590,10 @@
     "@emotion/styled" "^11.10.5"
     "@mui/material" "^5.12.2"
 
-"@backstage/theme@^0.6.6", "@backstage/theme@^0.6.7":
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.7.tgz#861add4ac04dd9324ee232494ee90e2ce9f2280c"
-  integrity sha512-sXtX3btb/bCUZXB1Hduc5VPZZ9dB7X9ikYkVs0nXz9UrQTVg7hvobi+0dV/HxGs5kYGBlu/OpaPAJk5DtJ6SSQ==
+"@backstage/theme@^0.6.6", "@backstage/theme@^0.6.7", "@backstage/theme@^0.6.8":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.8.tgz#703088101ca20205d77de6a688881e909dd57ae4"
+  integrity sha512-hNUoOjirVIVht6GbDFt6vEej4hA7Kq3trJmyWhKuAKndPD+azjhzMOnGM7Rzj5qIkJeCNB6qcC89+NV6no1HzA==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
@@ -21275,10 +21289,20 @@ linkify-react@4.1.3:
   resolved "https://registry.yarnpkg.com/linkify-react/-/linkify-react-4.1.3.tgz#461d348b4bdab3fcd0452ae1b5bbc22536395b97"
   integrity sha512-rhI3zM/fxn5BfRPHfi4r9N7zgac4vOIxub1wHIWXLA5ENTMs+BGaIaFO1D1PhmxgwhIKmJz3H7uCP0Dg5JwSlA==
 
+linkify-react@4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/linkify-react/-/linkify-react-4.3.2.tgz#8d47fb0ad96ab5b38c07bfbebdcbc57794430693"
+  integrity sha512-mi744h1hf+WDsr+paJgSBBgYNLMWNSHyM9V9LVUo03RidNGdw1VpI7Twnt+K3pEh3nIzB4xiiAgZxpd61ItKpQ==
+
 linkifyjs@4.1.3:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/linkifyjs/-/linkifyjs-4.1.3.tgz#0edbc346428a7390a23ea2e5939f76112c9ae07f"
   integrity sha512-auMesunaJ8yfkHvK4gfg1K0SaKX/6Wn9g2Aac/NwX+l5VdmFZzo/hdPGxEOETj+ryRa4/fiOPjeeKURSAJx1sg==
+
+linkifyjs@4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/linkifyjs/-/linkifyjs-4.3.2.tgz#d97eb45419aabf97ceb4b05a7adeb7b8c8ade2b1"
+  integrity sha512-NT1CJtq3hHIreOianA8aSXn6Cw0JzYOuDQbOrSPe7gqFnCpKP++MQe3ODgO3oh2GJFORkAAdqredOa60z63GbA==
 
 listr2@^3.8.3:
   version "3.14.0"
