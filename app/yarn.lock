@@ -2923,6 +2923,16 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
+"@backstage/catalog-client@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.11.0.tgz#263492fd4970bc7724c317c018a78d5a08c0a544"
+  integrity sha512-pt4ETl+ljdcPpGjavlOzB9yjNRxxLVuYdVzlhB+ZUeZk6BzvwlFgdnKHvk8OizPCSCgCdVb10ZGYvoUnEmCemg==
+  dependencies:
+    "@backstage/catalog-model" "^1.7.5"
+    "@backstage/errors" "^1.2.7"
+    cross-fetch "^4.0.0"
+    uri-template "^2.0.0"
+
 "@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.4", "@backstage/catalog-model@^1.7.5":
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.5.tgz#dcd989e5df217653ca37c69685d38f2eea1601d8"
@@ -4813,21 +4823,21 @@
   integrity sha512-1zLm0746Oay5SaT6B/ydrMzMxQQO0G415T9IAo8np0nbwkFQM69VtXYDz6J0S0oZMkfPqlpV7mIJyrJrPZdjxQ==
 
 "@backstage/plugin-user-settings@^0.8.0":
-  version "0.8.24"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.24.tgz#6c587e13bf42dcb38cb51f1e2815dbc660034523"
-  integrity sha512-mNWIwToU7ZosIXsePULhigQIxIxK69dorpsQvXxdsqUe3BCgVcBF4Q3Fwo+XxWgAtAz+1Aha0lyN0Cp3G9ZT8g==
+  version "0.8.25"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.25.tgz#b500b8649a90b10971240d52579df5a5636303e6"
+  integrity sha512-uMPQqVB7uU/3wf7nO/c+v2uB9kmu57g2nSUPG04mx7b5M6S4ufS+iAqZ4BMexVGKX7PPHosFC+WAU911Zx4OKQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
     "@backstage/core-app-api" "^1.18.0"
-    "@backstage/core-compat-api" "^0.4.4"
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-compat-api" "^0.5.0"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.10.4"
-    "@backstage/plugin-catalog-react" "^1.19.1"
+    "@backstage/frontend-plugin-api" "^0.11.0"
+    "@backstage/plugin-catalog-react" "^1.20.0"
     "@backstage/plugin-signals-react" "^0.0.15"
     "@backstage/plugin-user-settings-common" "^0.0.1"
-    "@backstage/theme" "^0.6.7"
+    "@backstage/theme" "^0.6.8"
     "@backstage/types" "^1.2.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
