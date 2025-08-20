@@ -2973,6 +2973,16 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
+"@backstage/catalog-client@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.11.0.tgz#263492fd4970bc7724c317c018a78d5a08c0a544"
+  integrity sha512-pt4ETl+ljdcPpGjavlOzB9yjNRxxLVuYdVzlhB+ZUeZk6BzvwlFgdnKHvk8OizPCSCgCdVb10ZGYvoUnEmCemg==
+  dependencies:
+    "@backstage/catalog-model" "^1.7.5"
+    "@backstage/errors" "^1.2.7"
+    cross-fetch "^4.0.0"
+    uri-template "^2.0.0"
+
 "@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.4", "@backstage/catalog-model@^1.7.5":
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.5.tgz#dcd989e5df217653ca37c69685d38f2eea1601d8"
@@ -4052,13 +4062,13 @@
     node-fetch "^2.7.0"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.5.9":
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.9.tgz#104a71dc6116453039d697554a5fb0f4c23dfb33"
-  integrity sha512-hmbtgAys3GIwnbtOLIQo3H8Tq2R2DEJsDscCKahq8o7Y7goFpDgai7K4kP5PGS90lRwyeGElHSwAW3fy82E/ew==
+"@backstage/plugin-kubernetes-react@^0.5.10":
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.10.tgz#0b68dd21c2c0f9db2f27acd0ed3845ac4a1f8c7d"
+  integrity sha512-CHkTz1wWtwy5z8WgIwgWyJlkkfDc0NR57P4W34at30UcDs6DAGJ0NsxVeobZHnDNOuN8AAiSerAvV+0oS98Dlg==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
     "@backstage/errors" "^1.2.7"
     "@backstage/plugin-kubernetes-common" "^0.9.6"
@@ -4080,18 +4090,18 @@
     react-use "^17.4.0"
 
 "@backstage/plugin-kubernetes@^0.12.0":
-  version "0.12.9"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.9.tgz#8b7174c506948f1f725d137100bd5651fcddd13d"
-  integrity sha512-kRU8d5iJiUvNNnLt51lITMMvOFf0JcV8ln8ag3lgUDej30GiYr9zEIRsjq/69vkgVUX68DzEJRaRDTZGJec+Cg==
+  version "0.12.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.10.tgz#809697570544d737fe067862eef36e25b1e60b87"
+  integrity sha512-aYzD1xLo3ZxqbJ/KB+KZTe5Z76OGde7mNol2L8RdDpMg/p/BTAxcJI8+/DgyJfdLz7qVb7mTWl+Vo7j54TLdyg==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
-    "@backstage/core-compat-api" "^0.4.4"
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-compat-api" "^0.5.0"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/frontend-plugin-api" "^0.10.4"
-    "@backstage/plugin-catalog-react" "^1.19.1"
+    "@backstage/frontend-plugin-api" "^0.11.0"
+    "@backstage/plugin-catalog-react" "^1.20.0"
     "@backstage/plugin-kubernetes-common" "^0.9.6"
-    "@backstage/plugin-kubernetes-react" "^0.5.9"
+    "@backstage/plugin-kubernetes-react" "^0.5.10"
     "@backstage/plugin-permission-react" "^0.4.36"
     "@kubernetes-models/apimachinery" "^2.0.0"
     "@kubernetes-models/base" "^5.0.0"
@@ -5016,6 +5026,15 @@
     "@mui/material" "^5.12.2"
 
 "@backstage/theme@^0.6.6", "@backstage/theme@^0.6.7":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.8.tgz#703088101ca20205d77de6a688881e909dd57ae4"
+  integrity sha512-hNUoOjirVIVht6GbDFt6vEej4hA7Kq3trJmyWhKuAKndPD+azjhzMOnGM7Rzj5qIkJeCNB6qcC89+NV6no1HzA==
+  dependencies:
+    "@emotion/react" "^11.10.5"
+    "@emotion/styled" "^11.10.5"
+    "@mui/material" "^5.12.2"
+
+"@backstage/theme@^0.6.8":
   version "0.6.8"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.8.tgz#703088101ca20205d77de6a688881e909dd57ae4"
   integrity sha512-hNUoOjirVIVht6GbDFt6vEej4hA7Kq3trJmyWhKuAKndPD+azjhzMOnGM7Rzj5qIkJeCNB6qcC89+NV6no1HzA==
