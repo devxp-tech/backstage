@@ -2923,16 +2923,6 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
-"@backstage/catalog-client@^1.11.0":
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-client/-/catalog-client-1.11.0.tgz#263492fd4970bc7724c317c018a78d5a08c0a544"
-  integrity sha512-pt4ETl+ljdcPpGjavlOzB9yjNRxxLVuYdVzlhB+ZUeZk6BzvwlFgdnKHvk8OizPCSCgCdVb10ZGYvoUnEmCemg==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.5"
-    "@backstage/errors" "^1.2.7"
-    cross-fetch "^4.0.0"
-    uri-template "^2.0.0"
-
 "@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.4", "@backstage/catalog-model@^1.7.5":
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.5.tgz#dcd989e5df217653ca37c69685d38f2eea1601d8"
@@ -4681,16 +4671,16 @@
   integrity sha512-MWYW1uVweSJQkI9it2g0xM/4YfykS0GzIlbA3D9YawQIfqQ7UCdsblKHt2Xb3eWLrk+itWrp4IXbW2bUa02DyA==
 
 "@backstage/plugin-techdocs-module-addons-contrib@^1.0.12":
-  version "1.1.26"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.26.tgz#de9efac85c3e84c4437ef2739168063a099240a9"
-  integrity sha512-/n8iDz/doDOW/NsJQnRwU8L/y73gkkFpLBHRLx9IROxdbzIZsHUlPReDnY4rdmJZlXllJrwBzganS/AAU9xb7w==
+  version "1.1.27"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.27.tgz#8feb6a5a51816c23cd08c7abaa5d7bd907809995"
+  integrity sha512-5SIknS/VUhuLE6HBcAo1TdPOa0IyeOkeH40Rktm4tpGvI+7CEj+bQilP8Wez1OljKm64YTrkP8m+04WVPrRrFA==
   dependencies:
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/frontend-plugin-api" "^0.10.4"
+    "@backstage/frontend-plugin-api" "^0.11.0"
     "@backstage/integration" "^1.17.1"
     "@backstage/integration-react" "^1.2.9"
-    "@backstage/plugin-techdocs-react" "^1.3.1"
+    "@backstage/plugin-techdocs-react" "^1.3.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@react-hookz/web" "^24.0.0"
@@ -4732,7 +4722,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.1", "@backstage/plugin-techdocs-react@^1.3.2":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.2":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.2.tgz#f8797e9e7132a4b433e1c93d84f3e6171d7dc5c8"
   integrity sha512-LR6nxBQzxlzgz0cvifMY0GiGTbAPAgZg/81S3ojWVJjoRh1f7J9LUg2yhtgdt516Di5ENV7xeUSJQ5IzF5MQ3w==
