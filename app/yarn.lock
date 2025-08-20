@@ -5461,15 +5461,15 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.1":
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.1.tgz#e649d36ce15ff2257426152b9128cc673936e323"
-  integrity sha512-WJeHnob2t+n8VBGBP7NZb6G80T18p4Md/SGFJElomjyvKVa8OcjABDrgNIWdrfWAQiaBA8E61yJ9ZYm48PvZow==
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.2.tgz#f8797e9e7132a4b433e1c93d84f3e6171d7dc5c8"
+  integrity sha512-LR6nxBQzxlzgz0cvifMY0GiGTbAPAgZg/81S3ojWVJjoRh1f7J9LUg2yhtgdt516Di5ENV7xeUSJQ5IzF5MQ3w==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
     "@backstage/config" "^1.3.3"
-    "@backstage/core-components" "^0.17.4"
+    "@backstage/core-components" "^0.17.5"
     "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/frontend-plugin-api" "^0.10.4"
+    "@backstage/frontend-plugin-api" "^0.11.0"
     "@backstage/plugin-techdocs-common" "^0.1.1"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.2"
@@ -5631,6 +5631,15 @@
     "@mui/material" "^5.12.2"
 
 "@backstage/theme@^0.6.6", "@backstage/theme@^0.6.7":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.8.tgz#703088101ca20205d77de6a688881e909dd57ae4"
+  integrity sha512-hNUoOjirVIVht6GbDFt6vEej4hA7Kq3trJmyWhKuAKndPD+azjhzMOnGM7Rzj5qIkJeCNB6qcC89+NV6no1HzA==
+  dependencies:
+    "@emotion/react" "^11.10.5"
+    "@emotion/styled" "^11.10.5"
+    "@mui/material" "^5.12.2"
+
+"@backstage/theme@^0.6.8":
   version "0.6.8"
   resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.6.8.tgz#703088101ca20205d77de6a688881e909dd57ae4"
   integrity sha512-hNUoOjirVIVht6GbDFt6vEej4hA7Kq3trJmyWhKuAKndPD+azjhzMOnGM7Rzj5qIkJeCNB6qcC89+NV6no1HzA==
