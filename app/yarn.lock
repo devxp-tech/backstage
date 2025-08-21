@@ -3902,9 +3902,9 @@
     "@rjsf/utils" "5.23.2"
 
 "@backstage/plugin-kubernetes-backend@^0.20.0":
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.20.0.tgz#ddaf9224cf44068e4693e1d3a162324fca4663c6"
-  integrity sha512-8iAA9PlgRc3KR6nNbO7etHWdBo5ZQUaCv0ldiQxr3/Gd4Nrefe3juwojpHsWXrbPPfPA3A9ja4d+Vi7AUyHZ/A==
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.20.1.tgz#57bae9d1700322e94d2bfbc85a61167d6653ab54"
+  integrity sha512-RhCd3U+DdzDqyl8MwoNOdqvuXjtmTUiAPuxFFCYDce16MiYu6HXVbnstddlT/r0esna2AuxQSboB2P5Ie6/RBQ==
   dependencies:
     "@aws-crypto/sha256-js" "^5.0.0"
     "@aws-sdk/credential-providers" "^3.350.0"
@@ -17750,18 +17750,7 @@ http-proxy-middleware@*:
     is-plain-obj "^3.0.0"
     micromatch "^4.0.5"
 
-http-proxy-middleware@^2.0.0, http-proxy-middleware@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-2.0.6.tgz#e1a4dd6979572c7ab5a4e4b55095d1f32a74963f"
-  integrity sha512-ya/UeJ6HVBYxrgYotAZo1KvPWlgB48kUJLDePFeneHsVujFaW5WNj2NgWCAE//B1Dl02BIfYlpNgBy8Kf8Rjmw==
-  dependencies:
-    "@types/http-proxy" "^1.17.8"
-    http-proxy "^1.18.1"
-    is-glob "^4.0.1"
-    is-plain-obj "^3.0.0"
-    micromatch "^4.0.2"
-
-http-proxy-middleware@^2.0.9:
+http-proxy-middleware@^2.0.0, http-proxy-middleware@^2.0.6, http-proxy-middleware@^2.0.9:
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/http-proxy-middleware/-/http-proxy-middleware-2.0.9.tgz#e9e63d68afaa4eee3d147f39149ab84c0c2815ef"
   integrity sha512-c1IyJYLYppU574+YI7R4QyX2ystMtVXZwIdzazUIPIJsHuWNd+mho2j+bKoHftndicGj9yh+xjd+l0yj7VeT1Q==
