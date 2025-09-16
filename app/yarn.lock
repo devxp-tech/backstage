@@ -3282,14 +3282,14 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.10.8", "@backstage/core-plugin-api@^1.10.9", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.10.9"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.10.9.tgz#012250a2669b9841676e9a8a2b10122a57eebd22"
-  integrity sha512-4PVBDSjwomnIOgTdxPqWLEDv+db79CWfGRhOuwC5ghpHlhORvfwGgANF8hMHYhEL0BHUHzPjnvU1pcIdAinBsQ==
+"@backstage/core-plugin-api@^1.10.8", "@backstage/core-plugin-api@^1.10.9", "@backstage/core-plugin-api@^1.11.0", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.11.0.tgz#7ac9a4c4f626e8a5ff43728c7510299515507b74"
+  integrity sha512-7ppzD+sWmUMhxlfmez50y+RSJ7Pjtml7MwCdOeN2S2zCG6fIf0E9XenIGCOje7J2+u3Yn5n8ipMV8VxWn29MHg==
   dependencies:
     "@backstage/config" "^1.3.3"
     "@backstage/errors" "^1.2.7"
-    "@backstage/types" "^1.2.1"
+    "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.11"
     history "^5.0.0"
 
@@ -3424,20 +3424,20 @@
     "@backstage/errors" "^1.2.7"
 
 "@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.8", "@backstage/integration-react@^1.2.9":
-  version "1.2.9"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.9.tgz#b75df9e8d9e987a53a5791684badab3e5c8eca6c"
-  integrity sha512-Q78rFvB0G4bsJPrAo4WhHY6EEwgVof+T2xIA775GZoHWKBco/kUeNplGpBZHFJUniKXO/Xj6124h3q12bvb2lg==
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.10.tgz#52c3ce1a10a713b60e7b9f3125c559e194a64d1b"
+  integrity sha512-KfUeA5tm1gOlmjJAMAWv/s/1uvURghjUsXtQBOojkTee4LKHJlpqgHryJmBnPDh9GY7j7yjMFKs0aDX3T5L69w==
   dependencies:
     "@backstage/config" "^1.3.3"
-    "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/integration" "^1.17.1"
+    "@backstage/core-plugin-api" "^1.11.0"
+    "@backstage/integration" "^1.18.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.17.0", "@backstage/integration@^1.17.1":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.17.1.tgz#c48c6966bc59b25b4d2e8d98790862064839fc57"
-  integrity sha512-15UmnFwDne4Hm5j0q7kNN2bvDW7ZObaxbO465p7l6YvQBTyqTWK3+G5tcyT4SqdGbja/j35YsyLQe9WXSWZ80Q==
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.17.0", "@backstage/integration@^1.17.1", "@backstage/integration@^1.18.0":
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.18.0.tgz#8f400e5a22b7ccad6dba049f2c494c03b4ae0de7"
+  integrity sha512-2s6zdY3xo8F9mYREjY0myWj/BCCBH7FSX+abCxmhv8GZT7i446FhWWYg44FI9eoxdTT/xNRTebMulxA4zQmGzw==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@azure/storage-blob" "^12.5.0"
@@ -4904,6 +4904,11 @@
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@backstage/types/-/types-1.2.1.tgz#8c15c71e6b629806d3dc00227aaa4fd1c19cef16"
   integrity sha512-0GkrZthoIkUzoeop+8fZZk2MWlLd1q0LB59tMarsjw7ccMtFYR96jhlf1qGvcbw7Gn5ETtJfTC2C1aUzvgvF+w==
+
+"@backstage/types@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@backstage/types/-/types-1.2.2.tgz#280e3dec7be5bcddc54ee0e8a024a2768d274692"
+  integrity sha512-gCctHIL3VSCKiffbWDq4Zl2n7g8NPO/dD2ksdOEm9KzWfb5AubsfQzakoKjZ8XvmdaY9jY7j1yRmHSjAqq7rBA==
 
 "@backstage/version-bridge@^1.0.11", "@backstage/version-bridge@^1.0.3", "@backstage/version-bridge@^1.0.8":
   version "1.0.11"
