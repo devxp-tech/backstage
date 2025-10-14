@@ -4664,14 +4664,14 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.47"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.47.tgz#ae2afcb4f80b0871f2628e549f3f79e32cbe8347"
-  integrity sha512-dGuQQzFoPssYXJKPB66PhmaURV5hKQbta2s2bntyOsVEEENZPq8LVTTCotOEBNa2/PkIwJFXcSURT0LeGi9Wvw==
+  version "0.5.49"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.49.tgz#d9239dbd06995a36a0513d38ab16bbfe690ae69d"
+  integrity sha512-5lkPs9Nsi2Q3WIZIOR/4KXv4MvkvWcc2heZ3GTAiX6NuEbNHSsbSZCKGFoHzvKqNMD7S9IMRbG3/xmn+PcKQMQ==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.4.2"
-    "@backstage/config" "^1.3.3"
-    "@backstage/plugin-search-backend-node" "^1.3.14"
-    "@backstage/plugin-search-common" "^1.2.19"
+    "@backstage/backend-plugin-api" "^1.4.4"
+    "@backstage/config" "^1.3.5"
+    "@backstage/plugin-search-backend-node" "^1.3.16"
+    "@backstage/plugin-search-common" "^1.2.20"
     knex "^3.0.0"
     lodash "^4.17.21"
     uuid "^11.0.0"
@@ -4694,23 +4694,7 @@
     lodash "^4.17.21"
     p-limit "^3.1.0"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.14":
-  version "1.3.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.14.tgz#1b0b6a5eae2915bc9768f94e29e283f62b60bdd3"
-  integrity sha512-+X4/DP1T8KnhCXTKUtcXeGqpkdyGJm347DxEIuvJ7xR51BCKnDo0gkYFD98FY2bo7TdzXp4txAiWaFmyZiRHhw==
-  dependencies:
-    "@backstage/backend-plugin-api" "^1.4.2"
-    "@backstage/config" "^1.3.3"
-    "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-permission-common" "^0.9.1"
-    "@backstage/plugin-search-common" "^1.2.19"
-    "@types/lunr" "^2.3.3"
-    lodash "^4.17.21"
-    lunr "^2.3.9"
-    ndjson "^2.0.0"
-    uuid "^11.0.0"
-
-"@backstage/plugin-search-backend-node@^1.3.16":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.14", "@backstage/plugin-search-backend-node@^1.3.16":
   version "1.3.16"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.3.16.tgz#a42d4692baf6e15c65a8550236d9e78bb4a26da2"
   integrity sha512-Zy+KmnmYKt21NSRo5mnj3bPNw/w/yD68En98VGhL4QIBYlPgqieprWypvqVT8ZGaAf2zCizfZLE3lrJdgXN7NA==
