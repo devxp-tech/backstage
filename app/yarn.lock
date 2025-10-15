@@ -2358,15 +2358,15 @@
     to-fast-properties "^2.0.0"
 
 "@backstage/app-defaults@^1.3.0":
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.6.5.tgz#3f333a188059fe6c6458af623dc6887e6962481a"
-  integrity sha512-iDUBKiNMw1F43L43Zpqq9WYbuWXqfuaAMS0zbAQTRVClc4MV+4HemJl2xoW7Dm/zUgz8AVbLFI0czJBYAIy+fg==
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.7.1.tgz#6d819c3304b3509ad12c3078551a58b37a084433"
+  integrity sha512-c8b+iVAndJkvMau791o183JLzPfZqDRfx6q5dmc2zzE8Wf9C3Laf6rBmOiWxzDmdwMuA9RqWcTsROe3dL6LffA==
   dependencies:
-    "@backstage/core-app-api" "^1.18.0"
-    "@backstage/core-components" "^0.17.5"
-    "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/plugin-permission-react" "^0.4.36"
-    "@backstage/theme" "^0.6.8"
+    "@backstage/core-app-api" "^1.19.1"
+    "@backstage/core-components" "^0.18.2"
+    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/plugin-permission-react" "^0.4.37"
+    "@backstage/theme" "^0.7.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
@@ -3102,7 +3102,7 @@
     "@backstage/types" "^1.2.2"
     ms "^2.1.3"
 
-"@backstage/core-app-api@^1.18.0", "@backstage/core-app-api@^1.19.1", "@backstage/core-app-api@^1.7.0":
+"@backstage/core-app-api@^1.19.1", "@backstage/core-app-api@^1.7.0":
   version "1.19.1"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.19.1.tgz#f454ae6afa9c49906ecb24b97585d2d3e257ecdf"
   integrity sha512-tguH6alkK17L315DcO+pK0P6j2YViPKsjvOwL2Y97OsLAMu5bGcEsNwoT+zrKvjVrzgNBP7KnsCbjSAFY3weeg==
