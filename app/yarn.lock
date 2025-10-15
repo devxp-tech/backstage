@@ -4272,22 +4272,22 @@
     swr "^2.0.0"
 
 "@backstage/plugin-proxy-backend@^0.6.0":
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.6.5.tgz#b314eaf7881be68a1b492d4f5dafed0bd6949a3b"
-  integrity sha512-LlG8C49FqTQUC4SrRjxCVZO8zwrU5m2vXoPjDBd8Vah0bt5gER5EiUS3bI9ki6Vm0ziRQazj7yhU6vBJB/i98Q==
+  version "0.6.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-backend/-/plugin-proxy-backend-0.6.7.tgz#e1bdd4cd19c4ec21ff6811ca8e315d527ef9a926"
+  integrity sha512-fsm/EF33+pSwzS+qrfOXSc4//Vh3t2NGmOzxsapNFH/5ykZvdB1sXNLhHq7c9wyWjMSmu0d+trucESUssAnIvw==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.4.2"
-    "@backstage/plugin-proxy-node" "^0.1.7"
-    "@backstage/types" "^1.2.1"
+    "@backstage/backend-plugin-api" "^1.4.4"
+    "@backstage/plugin-proxy-node" "^0.1.9"
+    "@backstage/types" "^1.2.2"
     express-promise-router "^4.1.0"
     http-proxy-middleware "^2.0.0"
 
-"@backstage/plugin-proxy-node@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-node/-/plugin-proxy-node-0.1.7.tgz#4812cd99d560cd83cda7f749f99cb1042445d8a2"
-  integrity sha512-R+uZBoYJYTITGCfuIMVAi4b5dDn3fylAa/LayJ398l3gUOIn2nkSgeo76Ul4bGe9qkkO4kga+V6P7AcV0Ji7YA==
+"@backstage/plugin-proxy-node@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-proxy-node/-/plugin-proxy-node-0.1.9.tgz#3107ec7001aef667daca5e21e3023e3353c785bf"
+  integrity sha512-GasmTdm4xPuANO+og+8qe6AcVaziTHAtU57zLysrrmNatnVwntOtl+aMaPrSEA/aOQ1qwIKdvZRkrnZ/C8MV/g==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.4.2"
+    "@backstage/backend-plugin-api" "^1.4.4"
     http-proxy-middleware "^2.0.0"
 
 "@backstage/plugin-scaffolder-backend-module-azure@^0.2.14":
