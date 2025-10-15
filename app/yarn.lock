@@ -3052,25 +3052,22 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.34.0":
-  version "0.34.1"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.34.1.tgz#f171e2f98bbd2925a6111251a3aeac27f638be05"
-  integrity sha512-NKd4p3Hi0D4tO6H/vQkRkRCPzSI4zkzEfUIa03p1QEepMJjXbUoC9P0H7KIjBLI2On3nV/LF+c/kKYvwnJ72/w==
+  version "0.34.4"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.34.4.tgz#a5efaa0721c76f47ec59822805ebd27155af30c2"
+  integrity sha512-ht6vTOkdqHkK+Oc4ZU4nnUR77SUbk2HWFtYTZatsC+RhzGOajQxXwRFk6gQTylRNQ8TeLvX50rXmmIUXTP8cxA==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
     "@backstage/cli-common" "^0.1.15"
     "@backstage/cli-node" "^0.2.14"
-    "@backstage/config" "^1.3.3"
-    "@backstage/config-loader" "^1.10.2"
+    "@backstage/config" "^1.3.5"
+    "@backstage/config-loader" "^1.10.5"
     "@backstage/errors" "^1.2.7"
-    "@backstage/eslint-plugin" "^0.1.11"
-    "@backstage/integration" "^1.17.1"
+    "@backstage/eslint-plugin" "^0.1.12"
+    "@backstage/integration" "^1.18.1"
     "@backstage/release-manifests" "^0.0.13"
-    "@backstage/types" "^1.2.1"
+    "@backstage/types" "^1.2.2"
     "@manypkg/get-packages" "^1.1.3"
     "@module-federation/enhanced" "^0.9.0"
-    "@octokit/graphql" "^5.0.0"
-    "@octokit/graphql-schema" "^13.7.0"
-    "@octokit/oauth-app" "^4.2.0"
     "@octokit/request" "^8.0.0"
     "@rollup/plugin-commonjs" "^26.0.0"
     "@rollup/plugin-json" "^6.0.0"
@@ -3437,10 +3434,10 @@
     "@backstage/types" "^1.2.1"
     serialize-error "^8.0.1"
 
-"@backstage/eslint-plugin@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.11.tgz#4b0c30a0873f150c82ed045547140ddd5c901c9b"
-  integrity sha512-O0y38HL4/IwfbP4bDuOthlaB6Sq1N92uXqpaAZ7SV+g9H9trKok3FMQomrJ9BoRwnYoopIrId8kIjFvrgL4/dA==
+"@backstage/eslint-plugin@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.12.tgz#bc656b299b25f5d8854040e62a9fb57be38a8cd0"
+  integrity sha512-jgG+VF/t8rWSth2Q1BI8kNYKJRsV8k35fzFVPYfdybwejGcqxmJKzVUwbNCyhDKio0Y3ZwfZbohjiaHo+vk50A==
   dependencies:
     "@manypkg/get-packages" "^1.1.3"
     minimatch "^9.0.0"
@@ -7759,14 +7756,6 @@
   resolved "https://registry.yarnpkg.com/@octokit/auth-token/-/auth-token-4.0.0.tgz#40d203ea827b9f17f42a29c6afb93b7745ef80c7"
   integrity sha512-tY/msAuJo6ARbK6SPIxZrPBms3xPbfwBrulZe0Wtr/DIY9lje2HeV1uoebShn6mx7SjCHif6EjMvoREj+gZ+SA==
 
-"@octokit/auth-unauthenticated@^3.0.0":
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/@octokit/auth-unauthenticated/-/auth-unauthenticated-3.0.5.tgz#a562bffd6ca0d0e80541eaf9f9b89b8d53020228"
-  integrity sha512-yH2GPFcjrTvDWPwJWWCh0tPPtTL5SMgivgKPA+6v/XmYN6hGQkAto8JtZibSKOpf8ipmeYhLNWQ2UgW0GYILCw==
-  dependencies:
-    "@octokit/request-error" "^3.0.0"
-    "@octokit/types" "^9.0.0"
-
 "@octokit/auth-unauthenticated@^5.0.0":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@octokit/auth-unauthenticated/-/auth-unauthenticated-5.0.1.tgz#d8032211728333068b2e07b53997c29e59a03507"
@@ -7775,7 +7764,7 @@
     "@octokit/request-error" "^5.0.0"
     "@octokit/types" "^12.0.0"
 
-"@octokit/core@^4.0.0", "@octokit/core@^4.2.1":
+"@octokit/core@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@octokit/core/-/core-4.2.1.tgz#fee6341ad0ce60c29cc455e056cd5b500410a588"
   integrity sha512-tEDxFx8E38zF3gT7sSMDrT1tGumDgsw5yPG6BBh/X+5ClIQfMH/Yqocxz1PnHx6CHyF6pxmovUTOfZAUvQ0Lvw==
@@ -7818,14 +7807,6 @@
     "@octokit/types" "^13.1.0"
     universal-user-agent "^6.0.0"
 
-"@octokit/graphql-schema@^13.7.0":
-  version "13.10.0"
-  resolved "https://registry.yarnpkg.com/@octokit/graphql-schema/-/graphql-schema-13.10.0.tgz#7e47d846a7f3f0f57e23ad5fcd75dcfd57fea967"
-  integrity sha512-D9ci/oCYOIea/AFmWUxD67aMaoMw392Nu4sxaO+kW+w/aeDeyECpGuztzXASyCn53ROPTweAg1fk7Payzmu5xQ==
-  dependencies:
-    graphql "^16.0.0"
-    graphql-tag "^2.10.3"
-
 "@octokit/graphql@^5.0.0":
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/@octokit/graphql/-/graphql-5.0.6.tgz#9eac411ac4353ccc5d3fca7d76736e6888c5d248"
@@ -7842,21 +7823,6 @@
   dependencies:
     "@octokit/request" "^8.3.0"
     "@octokit/types" "^13.0.0"
-    universal-user-agent "^6.0.0"
-
-"@octokit/oauth-app@^4.2.0":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@octokit/oauth-app/-/oauth-app-4.2.2.tgz#41ff9e672f3d486f18e97d2e4fd00589b1fb928b"
-  integrity sha512-/jsPd43Yu2UXJ4XGq9KyOjPj5kNWQ5pfVzeDEfIVE8ENchyIPS+/IY2a8b0+OQSAsBKBLTHVp9m51RfGHmPZlw==
-  dependencies:
-    "@octokit/auth-oauth-app" "^5.0.0"
-    "@octokit/auth-oauth-user" "^2.0.0"
-    "@octokit/auth-unauthenticated" "^3.0.0"
-    "@octokit/core" "^4.0.0"
-    "@octokit/oauth-authorization-url" "^5.0.0"
-    "@octokit/oauth-methods" "^2.0.0"
-    "@types/aws-lambda" "^8.10.83"
-    fromentries "^1.3.1"
     universal-user-agent "^6.0.0"
 
 "@octokit/oauth-app@^6.0.0":
@@ -16702,11 +16668,6 @@ from@~0:
   resolved "https://registry.yarnpkg.com/from/-/from-0.1.7.tgz#83c60afc58b9c56997007ed1a768b3ab303a44fe"
   integrity sha512-twe20eF1OxVxp/ML/kq2p1uc6KvFK/+vs8WjEbeKmV2He22MKm7YF2ANIt+EOqhJ5L3K/SuuPhk0hWQDjOM23g==
 
-fromentries@^1.3.1:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/fromentries/-/fromentries-1.3.2.tgz#e4bca6808816bf8f93b52750f1127f5a6fd86e3a"
-  integrity sha512-cHEpEQHUg0f8XdtZCc2ZAhrHzKzT0MrFUTcvx+hfxYu7rGMDc5SKoXFh+n4YigxsHXRzc6OrCshdR1bWH6HHyg==
-
 front-matter@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/front-matter/-/front-matter-4.0.2.tgz#b14e54dc745cfd7293484f3210d15ea4edd7f4d5"
@@ -17400,7 +17361,7 @@ graphql-subscriptions@^1.1.0:
   dependencies:
     iterall "^1.3.0"
 
-graphql-tag@^2.10.3, graphql-tag@^2.12.6:
+graphql-tag@^2.12.6:
   version "2.12.6"
   resolved "https://registry.yarnpkg.com/graphql-tag/-/graphql-tag-2.12.6.tgz#d441a569c1d2537ef10ca3d1633b48725329b5f1"
   integrity sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==
