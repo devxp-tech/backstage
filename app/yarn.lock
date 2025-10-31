@@ -8777,34 +8777,34 @@
     recharts "^1.8.5"
 
 "@roadiehq/backstage-plugin-security-insights@^3.0.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.2.0.tgz#0df6207029f10b70f352d250201694bc9c2d4d47"
-  integrity sha512-QXj/eNunVPep3B8CMrryrFR/jwC8ARplf3Sk+atJIf03gvQruSY38TwYNnH4YwWkyOdUqDM5JMbj6YXL9rbkHw==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.3.0.tgz#1640c600c65d0b335a560799dc7beb673be65937"
+  integrity sha512-z46t92EzQsWvSkGv3AKnHWQ0y1UTyVQHhov87dxDVWjvCGt7hv/tjezVJsONBk4jzOx6TxXZbrTNi16hRzdefw==
   dependencies:
-    "@backstage/catalog-model" "^1.7.4"
-    "@backstage/core-components" "^0.17.3"
-    "@backstage/core-plugin-api" "^1.10.8"
-    "@backstage/integration-react" "^1.2.8"
-    "@backstage/plugin-catalog-react" "^1.19.0"
+    "@backstage/catalog-model" "^1.7.5"
+    "@backstage/core-components" "^0.18.2"
+    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/integration-react" "^1.2.11"
+    "@backstage/plugin-catalog-react" "^1.21.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "^4.0.0-alpha.45"
     "@octokit/graphql" "^5.0.0"
     "@octokit/rest" "^19.0.3"
-    "@roadiehq/github-auth-utils-react" "^1.1.0"
+    "@roadiehq/github-auth-utils-react" "^1.2.0"
     cross-fetch "^3.1.4"
     git-url-parse "^16.0.0"
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@roadiehq/github-auth-utils-react@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.1.0.tgz#c132ed7b56789bcb999ad773b3489f8120b703f5"
-  integrity sha512-LzlSlnslhdEGMIdBkuSQJL0NmsUcZ9644QsO9hscktvrXXET4/YWuiAaQxD6wWVXzdzklQP2VPUGDcwafzyprQ==
+"@roadiehq/github-auth-utils-react@^1.1.0", "@roadiehq/github-auth-utils-react@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.2.0.tgz#4d95a8e7439444370bfadf9308b94d3fd9f4a65c"
+  integrity sha512-jhV2KluZUfSYB8jiiMCC/4a7l8cGlZvOMVWS4tICe+q8r+8LMjS6I9Y1H+iXASuqsmRxeyz10gUMM4gbhtEE4A==
   dependencies:
-    "@backstage/core-components" "^0.17.3"
-    "@backstage/core-plugin-api" "^1.10.8"
-    "@backstage/integration-react" "^1.2.8"
+    "@backstage/core-components" "^0.18.2"
+    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/integration-react" "^1.2.11"
     "@material-ui/core" "^4.12.2"
     zustand "^4.5.6"
 
