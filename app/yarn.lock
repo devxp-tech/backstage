@@ -8710,23 +8710,23 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^3.0.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.2.0.tgz#482a1102cfedf7df0c12cb7ce120ad8e0c1dd161"
-  integrity sha512-pLKKPH8vkmXZythRRj86RcXlOlTdvJm6K0lWDOI2HSLL5/B/xz+wDZ7U2YLOQv8+JQDdpq+hyfU0XPyNheC9BQ==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.3.0.tgz#62dfb9d45d37743f16ee80c61966c61e5587f150"
+  integrity sha512-xOkmu8N6Zv/wPuJLrEWDYubtR92dq28Z20NSnqdq071fi3JM1XErMfzoEZFePsDBDEwWTr8y+nXgoCZmpVupNQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.4"
-    "@backstage/core-components" "^0.17.3"
-    "@backstage/core-plugin-api" "^1.10.8"
-    "@backstage/integration" "^1.17.0"
-    "@backstage/integration-react" "^1.2.8"
-    "@backstage/plugin-catalog-react" "^1.19.0"
-    "@backstage/theme" "^0.6.6"
+    "@backstage/catalog-model" "^1.7.5"
+    "@backstage/core-components" "^0.18.2"
+    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/integration" "^1.18.1"
+    "@backstage/integration-react" "^1.2.11"
+    "@backstage/plugin-catalog-react" "^1.21.2"
+    "@backstage/theme" "^0.7.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.45"
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
-    "@roadiehq/github-auth-utils-react" "^1.1.0"
+    "@roadiehq/github-auth-utils-react" "^1.2.0"
     git-url-parse "^14.0.0"
     immer "9.0.7"
     react-use "^17.2.4"
@@ -8797,14 +8797,14 @@
     luxon "^3.0.0"
     react-use "^17.2.4"
 
-"@roadiehq/github-auth-utils-react@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.1.0.tgz#c132ed7b56789bcb999ad773b3489f8120b703f5"
-  integrity sha512-LzlSlnslhdEGMIdBkuSQJL0NmsUcZ9644QsO9hscktvrXXET4/YWuiAaQxD6wWVXzdzklQP2VPUGDcwafzyprQ==
+"@roadiehq/github-auth-utils-react@^1.1.0", "@roadiehq/github-auth-utils-react@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/github-auth-utils-react/-/github-auth-utils-react-1.2.0.tgz#4d95a8e7439444370bfadf9308b94d3fd9f4a65c"
+  integrity sha512-jhV2KluZUfSYB8jiiMCC/4a7l8cGlZvOMVWS4tICe+q8r+8LMjS6I9Y1H+iXASuqsmRxeyz10gUMM4gbhtEE4A==
   dependencies:
-    "@backstage/core-components" "^0.17.3"
-    "@backstage/core-plugin-api" "^1.10.8"
-    "@backstage/integration-react" "^1.2.8"
+    "@backstage/core-components" "^0.18.2"
+    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/integration-react" "^1.2.11"
     "@material-ui/core" "^4.12.2"
     zustand "^4.5.6"
 
