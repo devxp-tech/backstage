@@ -3131,17 +3131,6 @@
     "@types/react" "^16.13.1 || ^17.0.0"
     lodash "^4.17.21"
 
-"@backstage/core-compat-api@^0.4.3":
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.4.4.tgz#863dbc270d441b06277780efe23454b9e28edeaf"
-  integrity sha512-Ub5W9RFnhs4HuAmdYxbhLS8qC+Yq0RNLGFDypNUh5/ZVCPq4wb2j40ADL2gLuSBsqyYYVAsWauDuiFSEQJWalw==
-  dependencies:
-    "@backstage/core-plugin-api" "^1.10.9"
-    "@backstage/frontend-plugin-api" "^0.10.4"
-    "@backstage/plugin-catalog-react" "^1.19.1"
-    "@backstage/version-bridge" "^1.0.11"
-    lodash "^4.17.21"
-
 "@backstage/core-compat-api@^0.5.3":
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.5.3.tgz#3e72aedc033544eca8e3cfe3bb1c6053eb09b755"
@@ -3384,7 +3373,7 @@
     "@backstage/plugin-app" "^0.3.1"
     "@react-hookz/web" "^24.0.0"
 
-"@backstage/frontend-plugin-api@^0.10.3", "@backstage/frontend-plugin-api@^0.10.4":
+"@backstage/frontend-plugin-api@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.10.4.tgz#f53dbd3bad4bc152a6a98ffb4d692e35dc3cf74a"
   integrity sha512-nC9IecJFbPkC0G8+GYolX3k0IE9prWelhE5N76zDmlW17niB5w270RZopGbhEOEvRiuZrIJk6iXU5ukFbdw8FQ==
@@ -3831,7 +3820,7 @@
     lodash "^4.17.21"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.19.0", "@backstage/plugin-catalog-react@^1.19.1", "@backstage/plugin-catalog-react@^1.21.2", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
+"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.19.0", "@backstage/plugin-catalog-react@^1.21.2", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
   version "1.21.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.21.2.tgz#ffb165a847fb0469356313121f232ff6616ff0ec"
   integrity sha512-uxtXNlOgrlG0VD4h6ZgilSMVn3Pvc1SH1+4wSk7x4kZJImQ+vK08svvdDgupwf+XDQ89iYNqDjeTwzw8nIK1LA==
@@ -8689,16 +8678,16 @@
     lodash-es "^4.17.21"
 
 "@roadiehq/backstage-plugin-argo-cd@^2.2.12":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.11.0.tgz#4d18addee1fb5c0aa8710631f71f098e2ab52d91"
-  integrity sha512-EF1hZRaTwOV6Rd5S7Hu/vgKAkr5vsMtT5iYp19SRM7Mpf6Qe7efiQtCRUw+Ab2b1qlLmKok5dqyaetf4WfN/NA==
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-argo-cd/-/backstage-plugin-argo-cd-2.12.0.tgz#9e29d05f646c9a38418cd0f96d907a3092dbb7e7"
+  integrity sha512-kZGROZ6sX13nkcJvdMYbFYxPqYzQdnzVeSfyDFIQW5zM/j1yuosRPN8dYjJoeJkE8UW7X9zzM3mpQXuwR9UzvQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.4"
-    "@backstage/core-compat-api" "^0.4.3"
-    "@backstage/core-components" "^0.17.3"
-    "@backstage/core-plugin-api" "^1.10.8"
-    "@backstage/frontend-plugin-api" "^0.10.3"
-    "@backstage/plugin-catalog-react" "^1.19.0"
+    "@backstage/catalog-model" "^1.7.5"
+    "@backstage/core-compat-api" "^0.5.3"
+    "@backstage/core-components" "^0.18.2"
+    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/frontend-plugin-api" "^0.12.1"
+    "@backstage/plugin-catalog-react" "^1.21.2"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     cross-fetch "^3.1.4"
