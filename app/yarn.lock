@@ -8632,13 +8632,15 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^3.0.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.3.0.tgz#62dfb9d45d37743f16ee80c61966c61e5587f150"
-  integrity sha512-xOkmu8N6Zv/wPuJLrEWDYubtR92dq28Z20NSnqdq071fi3JM1XErMfzoEZFePsDBDEwWTr8y+nXgoCZmpVupNQ==
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.4.0.tgz#74129cb72ee3fdf29a62f860f7bd36d9f69e3b96"
+  integrity sha512-txMKCQIQBUnqj1vpBaSPo+C9UTfEA7gXAWOFg3dGOSQEQLrH3w8U/P3qNFy1r2sf20v0gU30uhxjta6RKb3apA==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
+    "@backstage/core-compat-api" "^0.5.3"
     "@backstage/core-components" "^0.18.2"
     "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/frontend-plugin-api" "^0.12.1"
     "@backstage/integration" "^1.18.1"
     "@backstage/integration-react" "^1.2.11"
     "@backstage/plugin-catalog-react" "^1.21.2"
