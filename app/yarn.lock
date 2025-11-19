@@ -2935,13 +2935,13 @@
     cross-fetch "^4.0.0"
     uri-template "^2.0.0"
 
-"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.5":
-  version "1.7.5"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.5.tgz#dcd989e5df217653ca37c69685d38f2eea1601d8"
-  integrity sha512-N++huwyhB2GhMBT0KREFE0OvC/jI+oztCbm8Z5BKMMTccXd/wurqF7643UMsUp7hzzKi/Dxh/u9OpDdZTG9h0g==
+"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.5", "@backstage/catalog-model@^1.7.6":
+  version "1.7.6"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.6.tgz#2c2770f37d17f577fe20875fbb44750ae29c7110"
+  integrity sha512-EaMl9kA+hJhwLz0lTZihA+66mN4PEmE4j5GDxX4Pntjjv/utIQ2kTBfWRgBL1BOayKtfeXKoe19ZoKb7mPYQwQ==
   dependencies:
     "@backstage/errors" "^1.2.7"
-    "@backstage/types" "^1.2.1"
+    "@backstage/types" "^1.2.2"
     ajv "^8.10.0"
     lodash "^4.17.21"
 
@@ -3097,6 +3097,15 @@
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.3.5.tgz#744fa60e604c59a53b68b3135e1ec4c4a5e44810"
   integrity sha512-ZVj/3V5RDEhrxuzcTJNiZj3c/CJLG+Xdo9qlTTxHKnDbfHV6PXY6QBY7Zh/KMsIK6OKaYQpWuV+qEwZUAMiiwA==
+  dependencies:
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    ms "^2.1.3"
+
+"@backstage/config@^1.3.6":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.3.6.tgz#1b5d8797cbb02518c1ce30bdc2265c392c8811f4"
+  integrity sha512-aq/xPfF1+gEBhlQnCS6L+4dzPzM+pKd47AyljMOmcX1SstnK38YErNJvMg47bJOtxQhtxEW6lyZ1aIui6XO4/A==
   dependencies:
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.2"
@@ -3688,13 +3697,13 @@
     zod "^3.22.4"
 
 "@backstage/plugin-catalog-common@^1.0.13", "@backstage/plugin-catalog-common@^1.1.6":
-  version "1.1.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.6.tgz#3d2ebcab481d397be76398b898ab3d21295805ec"
-  integrity sha512-2E6zLLgHbImKC3qTha0gjr/8u9WA03DnqzZ0uKt8Esg3DsVxQLA6Z9+AQY9U1cNHrh1dtCCznN9hIoiUuLHtwQ==
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-common/-/plugin-catalog-common-1.1.7.tgz#1ce830537eb119d2006b0e5c8abb5d5a5ec30eb6"
+  integrity sha512-HIU99MiXvPpUbdsdNtXo+sLo+eMcePjnj8eqIZ9JAkTmod+wGV38T96cYJlyevp4tix80djz8qyuc2FjJTY5LQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.5"
-    "@backstage/plugin-permission-common" "^0.9.2"
-    "@backstage/plugin-search-common" "^1.2.20"
+    "@backstage/catalog-model" "^1.7.6"
+    "@backstage/plugin-permission-common" "^0.9.3"
+    "@backstage/plugin-search-common" "^1.2.21"
 
 "@backstage/plugin-catalog-graph@^0.5.2":
   version "0.5.2"
@@ -4032,12 +4041,12 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.20.4"
 
-"@backstage/plugin-permission-common@^0.9.0", "@backstage/plugin-permission-common@^0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.9.2.tgz#25ed28288bc2f305ae63148c41df70cb00ad0ffa"
-  integrity sha512-lnt/P5+JL9OiqB/oXc0+7+H7MrT/eNu32BmCWBN1T97R5MdaA7cJrWqFignvleMobaAyJJDvObKJDWuNoqhSIg==
+"@backstage/plugin-permission-common@^0.9.0", "@backstage/plugin-permission-common@^0.9.2", "@backstage/plugin-permission-common@^0.9.3":
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.9.3.tgz#b2da01483b5934b54fa1aba2f300e19828dd7882"
+  integrity sha512-QB9HtU4DlKyWaQFJvwiiURej1GYeMn4fB38lsVmvHuFTxraMIwEgoHjSjzdCFBBItrOUl4FILaaIZBtJGei9vA==
   dependencies:
-    "@backstage/config" "^1.3.5"
+    "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.2"
     cross-fetch "^4.0.0"
@@ -4487,12 +4496,12 @@
     yn "^4.0.0"
     zod "^3.22.4"
 
-"@backstage/plugin-search-common@^1.2.20":
-  version "1.2.20"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.20.tgz#65d3feff13391010c84c6d92abd473225ac6f5b1"
-  integrity sha512-U2vr1E71a5egIiCMhRHTKxPD1bUo6MB5RpJ9PwfUBjBOKZlcHI1UUo+v0mlVyU+FYy1stZW4fQwlJvCdd05Zgg==
+"@backstage/plugin-search-common@^1.2.20", "@backstage/plugin-search-common@^1.2.21":
+  version "1.2.21"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-common/-/plugin-search-common-1.2.21.tgz#425c08785e20fc37dd07ae68b166ef74b781c422"
+  integrity sha512-3M42J4R+qenDSO2fJhHq6V/NN5dFOYBEwuCLKZWPj+4gpeXYdLXaEEF0qTu9oZJqjjQYFrU1k6p1nfw7Ltwaag==
   dependencies:
-    "@backstage/plugin-permission-common" "^0.9.2"
+    "@backstage/plugin-permission-common" "^0.9.3"
     "@backstage/types" "^1.2.2"
 
 "@backstage/plugin-search-react@^1.5.2", "@backstage/plugin-search-react@^1.9.5":
@@ -10959,13 +10968,13 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.13.1 || ^17.0.0", "@types/react@^16.13.1 || ^17.0.0 || ^18.0.0", "@types/react@^17":
-  version "17.0.89"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.89.tgz#09e6986fd1eb49483d9ff4ed0a1b556218d046c7"
-  integrity sha512-I98SaDCar5lvEYl80ClRIUztH/hyWHR+I2f+5yTVp/MQ205HgYkA2b5mVdry/+nsEIrf8I65KA5V/PASx68MsQ==
+  version "17.0.90"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.90.tgz#38b72ea265c7ea369cf2998b406f850f6f665825"
+  integrity sha512-P9beVR/x06U9rCJzSxtENnOr4BrbJ6VrsrDTc+73TtHv9XHhryXKbjGRB+6oooB2r0G/pQkD/S4dHo/7jUfwFw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "^0.16"
-    csstype "^3.0.2"
+    csstype "^3.2.2"
 
 "@types/recharts@^1.8.14":
   version "1.8.24"
@@ -14291,6 +14300,11 @@ csstype@^3.0.2, csstype@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
+
+csstype@^3.2.2:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
+  integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
 
 ctrlc-windows@^2.1.0:
   version "2.1.0"
