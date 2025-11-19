@@ -2950,14 +2950,14 @@
   resolved "https://registry.yarnpkg.com/@backstage/cli-common/-/cli-common-0.1.15.tgz#20ea69cdee5025bdbdba38492ec174b1d8d470e3"
   integrity sha512-z+jMq5h+J1ruZ0IC610QFfSQxLk3IGSL1pZ/xnEIbyohaak+eeOZCyNzKBLwQrBDnIFCdmMoq69/Vrejo2hPeA==
 
-"@backstage/cli-node@^0.2.14", "@backstage/cli-node@^0.2.6":
-  version "0.2.14"
-  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.14.tgz#9abab84b8494f5f8ebaa0b6fc6a3a30228c70c13"
-  integrity sha512-p9Vpv5Yj+PF1OGhh6eSqbPTw+opmWyqpUXqMapO8RCPDmrPADELc9crWwXv6M3JFSmLHi++VrRiVle9BY+2Qmg==
+"@backstage/cli-node@^0.2.14", "@backstage/cli-node@^0.2.15", "@backstage/cli-node@^0.2.6":
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/@backstage/cli-node/-/cli-node-0.2.15.tgz#5179683c5e52f46d6f88082a37b2e33c4021cd4f"
+  integrity sha512-KYWSidGanRUGAVGYFv0vcmmsn6RyL+9ZRJxzTFrLHgrou8nAE9BN4qL/yEUMGyJrIzvP0FDsxO/j/ngpHTOBNA==
   dependencies:
     "@backstage/cli-common" "^0.1.15"
     "@backstage/errors" "^1.2.7"
-    "@backstage/types" "^1.2.1"
+    "@backstage/types" "^1.2.2"
     "@manypkg/get-packages" "^1.1.3"
     "@yarnpkg/parsers" "^3.0.0"
     fs-extra "^11.2.0"
@@ -2965,18 +2965,18 @@
     zod "^3.22.4"
 
 "@backstage/cli@^0.34.0":
-  version "0.34.4"
-  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.34.4.tgz#a5efaa0721c76f47ec59822805ebd27155af30c2"
-  integrity sha512-ht6vTOkdqHkK+Oc4ZU4nnUR77SUbk2HWFtYTZatsC+RhzGOajQxXwRFk6gQTylRNQ8TeLvX50rXmmIUXTP8cxA==
+  version "0.34.5"
+  resolved "https://registry.yarnpkg.com/@backstage/cli/-/cli-0.34.5.tgz#51946a0eb3733411b184dbb374b3e83e351f1a91"
+  integrity sha512-taJHFGwbNQZezItKYedTSful5x04Hy3qKuO+ZSz3y5DFVZqGIMgnMqhXKb9mAiDkrdVvm3rq/vUlzFBBFlw1nw==
   dependencies:
-    "@backstage/catalog-model" "^1.7.5"
+    "@backstage/catalog-model" "^1.7.6"
     "@backstage/cli-common" "^0.1.15"
-    "@backstage/cli-node" "^0.2.14"
-    "@backstage/config" "^1.3.5"
-    "@backstage/config-loader" "^1.10.5"
+    "@backstage/cli-node" "^0.2.15"
+    "@backstage/config" "^1.3.6"
+    "@backstage/config-loader" "^1.10.6"
     "@backstage/errors" "^1.2.7"
-    "@backstage/eslint-plugin" "^0.1.12"
-    "@backstage/integration" "^1.18.1"
+    "@backstage/eslint-plugin" "^0.2.0"
+    "@backstage/integration" "^1.18.2"
     "@backstage/release-manifests" "^0.0.13"
     "@backstage/types" "^1.2.2"
     "@manypkg/get-packages" "^1.1.3"
@@ -3072,13 +3072,13 @@
     zod "^3.22.4"
     zod-validation-error "^3.4.0"
 
-"@backstage/config-loader@^1.10.5", "@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1":
-  version "1.10.5"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.10.5.tgz#c0d1643e577ba918b94b91ec703ee06ad6a34280"
-  integrity sha512-cx86pkbUPo80fQYzpoxJMj3bNS2ZwVk8lkMnzlrvbfnCcNCkEvuTwisniU0ung9GfAMvVUF0jWx5JJnxG8dYyQ==
+"@backstage/config-loader@^1.10.5", "@backstage/config-loader@^1.10.6", "@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1":
+  version "1.10.6"
+  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.10.6.tgz#696cf3781dbbc58937078098b8796c2d241e1fa9"
+  integrity sha512-lzvVw4lWf/iyEJktucVK9MFJmmhkJ0N1iYcYlvZqydVSv8c7lq379ddDMPROfOWWOVT1qgxoQw2Es8O+2+55wA==
   dependencies:
     "@backstage/cli-common" "^0.1.15"
-    "@backstage/config" "^1.3.5"
+    "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.2"
     "@types/json-schema" "^7.0.6"
@@ -3313,10 +3313,10 @@
     "@backstage/types" "^1.2.1"
     serialize-error "^8.0.1"
 
-"@backstage/eslint-plugin@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.1.12.tgz#bc656b299b25f5d8854040e62a9fb57be38a8cd0"
-  integrity sha512-jgG+VF/t8rWSth2Q1BI8kNYKJRsV8k35fzFVPYfdybwejGcqxmJKzVUwbNCyhDKio0Y3ZwfZbohjiaHo+vk50A==
+"@backstage/eslint-plugin@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@backstage/eslint-plugin/-/eslint-plugin-0.2.0.tgz#b1e1e1427bd3f84d435d5e023e94bca041cf2bb0"
+  integrity sha512-nlZvYbRQckkBl6y/g/nyq5ODfCgNCaIZsv9JJQEF4qgYW72MYKR/+ebPNauVbsPqNU844mQzxQALQJ9zzuFqSA==
   dependencies:
     "@manypkg/get-packages" "^1.1.3"
     minimatch "^9.0.0"
