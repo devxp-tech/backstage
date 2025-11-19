@@ -4558,12 +4558,12 @@
     qs "^6.9.4"
     react-use "^17.2.4"
 
-"@backstage/plugin-signals-react@^0.0.16":
-  version "0.0.16"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.16.tgz#e1c5a6f19b713ee2f9584880d44189dfa3384b1c"
-  integrity sha512-GnDLhguxAfvqQ3OOIcPpiH7i0bpHlouokgP2NKghZ/8C7j0S67zwkURVmcuIKbfdJSV0hRvNP5wTFJSiK7nWMw==
+"@backstage/plugin-signals-react@^0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.17.tgz#88c1e8f8304bea7680f24e6e8d30c27196d5c6ec"
+  integrity sha512-cB5a8BHcQ9t+t+Rd+q+jepVxAJA1EOn0VVl6LeyUvwMIOJ1QDCLusa62aPFWLTYqegCywTTEZuYzcBXG4izaUA==
   dependencies:
-    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/core-plugin-api" "^1.12.0"
     "@backstage/types" "^1.2.2"
     "@material-ui/core" "^4.12.4"
 
@@ -4800,19 +4800,19 @@
   integrity sha512-1zLm0746Oay5SaT6B/ydrMzMxQQO0G415T9IAo8np0nbwkFQM69VtXYDz6J0S0oZMkfPqlpV7mIJyrJrPZdjxQ==
 
 "@backstage/plugin-user-settings@^0.8.0":
-  version "0.8.28"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.28.tgz#4947bb302f3373f3c94b2288df6a3cc2fe14d45c"
-  integrity sha512-JI8auPQGsIyGehiscNu5rWDfHREXO3pW+3oX9xkM0YX/5KqstlMMfKLqI84WHibQhdNV3ChL7cB4QgEUOz5b4g==
+  version "0.8.29"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.29.tgz#d8838b2133115450b7745d9f5bfaf600e94d6f6d"
+  integrity sha512-zDqvpOU4xdM9i2G5XXBf+LxxsMdPCZblsq/e5ZLDwa5YT+PPbwowV1HRCj0Eyh7g/+r+rRqAz2FVWC0OiqfFsA==
   dependencies:
-    "@backstage/catalog-model" "^1.7.5"
-    "@backstage/core-app-api" "^1.19.1"
-    "@backstage/core-compat-api" "^0.5.3"
-    "@backstage/core-components" "^0.18.2"
-    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/catalog-model" "^1.7.6"
+    "@backstage/core-app-api" "^1.19.2"
+    "@backstage/core-compat-api" "^0.5.4"
+    "@backstage/core-components" "^0.18.3"
+    "@backstage/core-plugin-api" "^1.12.0"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.12.1"
-    "@backstage/plugin-catalog-react" "^1.21.2"
-    "@backstage/plugin-signals-react" "^0.0.16"
+    "@backstage/frontend-plugin-api" "^0.13.0"
+    "@backstage/plugin-catalog-react" "^1.21.3"
+    "@backstage/plugin-signals-react" "^0.0.17"
     "@backstage/plugin-user-settings-common" "^0.0.1"
     "@backstage/theme" "^0.7.0"
     "@backstage/types" "^1.2.2"
