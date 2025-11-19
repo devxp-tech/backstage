@@ -3093,10 +3093,10 @@
     typescript-json-schema "^0.65.0"
     yaml "^2.0.0"
 
-"@backstage/config@^1.0.7", "@backstage/config@^1.2.0", "@backstage/config@^1.3.2", "@backstage/config@^1.3.5":
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.3.5.tgz#744fa60e604c59a53b68b3135e1ec4c4a5e44810"
-  integrity sha512-ZVj/3V5RDEhrxuzcTJNiZj3c/CJLG+Xdo9qlTTxHKnDbfHV6PXY6QBY7Zh/KMsIK6OKaYQpWuV+qEwZUAMiiwA==
+"@backstage/config@^1.0.7", "@backstage/config@^1.2.0", "@backstage/config@^1.3.2", "@backstage/config@^1.3.5", "@backstage/config@^1.3.6":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.3.6.tgz#1b5d8797cbb02518c1ce30bdc2265c392c8811f4"
+  integrity sha512-aq/xPfF1+gEBhlQnCS6L+4dzPzM+pKd47AyljMOmcX1SstnK38YErNJvMg47bJOtxQhtxEW6lyZ1aIui6XO4/A==
   dependencies:
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.2"
@@ -3229,12 +3229,12 @@
     zod "^3.22.4"
 
 "@backstage/core-components@^0.18.2":
-  version "0.18.2"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.18.2.tgz#283a7b91682d622ceedb5be9ce8dde68486859bb"
-  integrity sha512-Ty/OfglS/nEJqTeEsch5Gj2JxSn1hoGnR7nzCCeBO1lfKN65LSyMwHSwQpED52xda0u3uun9dmYnwa8W1EOmMQ==
+  version "0.18.3"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.18.3.tgz#827b5e8dfa17fc5fa529b4b478b72727707cc7ef"
+  integrity sha512-xO4vFICGk0oQCMYjh8hO5aRw7/RUUtIUi1i31GnIrTOgR4jokpvceppkqUjeggi+0j6UMCMyaXdYJiqszqem6g==
   dependencies:
-    "@backstage/config" "^1.3.5"
-    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/config" "^1.3.6"
+    "@backstage/core-plugin-api" "^1.12.0"
     "@backstage/errors" "^1.2.7"
     "@backstage/theme" "^0.7.0"
     "@backstage/version-bridge" "^1.0.11"
@@ -3273,16 +3273,17 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.11.1.tgz#038a6c238bdb7d2f9f3eb5df14e64395c726bec9"
-  integrity sha512-+U7c24XR01E7ZYjjMBmT+FFAslkk7CmxuHyQ3FUFF3DSR8R9kR5Tmo9KgbGg+LXe2h3v8f03bLJrjFk8OMKnHA==
+"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.12.0", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.12.0.tgz#f42deaedf03cc9015cc8f295d5c95a8682949825"
+  integrity sha512-hPAwZm+uKdRHmEyaLjJOZ9+3mcay6lLV14cggDCRhoEk5HN7jyX/gnJMipurmVlkvcpHtCm5xea6OxUAByaM3A==
   dependencies:
-    "@backstage/config" "^1.3.5"
+    "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.11"
     history "^5.0.0"
+    zod "^3.22.4"
 
 "@backstage/errors@^1.1.5", "@backstage/errors@^1.2.4", "@backstage/errors@^1.2.7":
   version "1.2.7"
@@ -10959,13 +10960,13 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^16.13.1 || ^17.0.0", "@types/react@^16.13.1 || ^17.0.0 || ^18.0.0", "@types/react@^17":
-  version "17.0.89"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.89.tgz#09e6986fd1eb49483d9ff4ed0a1b556218d046c7"
-  integrity sha512-I98SaDCar5lvEYl80ClRIUztH/hyWHR+I2f+5yTVp/MQ205HgYkA2b5mVdry/+nsEIrf8I65KA5V/PASx68MsQ==
+  version "17.0.90"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.90.tgz#38b72ea265c7ea369cf2998b406f850f6f665825"
+  integrity sha512-P9beVR/x06U9rCJzSxtENnOr4BrbJ6VrsrDTc+73TtHv9XHhryXKbjGRB+6oooB2r0G/pQkD/S4dHo/7jUfwFw==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "^0.16"
-    csstype "^3.0.2"
+    csstype "^3.2.2"
 
 "@types/recharts@^1.8.14":
   version "1.8.24"
@@ -13201,12 +13202,7 @@ cjs-module-lexer@^1.0.0:
   resolved "https://registry.yarnpkg.com/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
   integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
 
-classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
-  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
-
-classnames@^2.5.1:
+classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1, classnames@^2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
   integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
@@ -14291,6 +14287,11 @@ csstype@^3.0.2, csstype@^3.1.2:
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
+
+csstype@^3.2.2:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.2.3.tgz#ec48c0f3e993e50648c86da559e2610995cf989a"
+  integrity sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==
 
 ctrlc-windows@^2.1.0:
   version "2.1.0"
@@ -24105,11 +24106,6 @@ pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.7.0:
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
 
-prismjs@^1.27.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.29.0.tgz#f113555a8fa9b57c35e637bba27509dcf802dd12"
-  integrity sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==
-
 prismjs@^1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.30.0.tgz#d9709969d9d4e16403f6f348c63553b19f0975a9"
@@ -24841,18 +24837,7 @@ react-style-singleton@^2.2.1:
     invariant "^2.2.4"
     tslib "^2.0.0"
 
-react-syntax-highlighter@^15.4.5:
-  version "15.5.0"
-  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.5.0.tgz#4b3eccc2325fa2ec8eff1e2d6c18fa4a9e07ab20"
-  integrity sha512-+zq2myprEnQmH5yw6Gqc8lD55QHnpKaU8TOcFeC/Lg/MQSs8UknEA0JC4nTZGFAXC2J2Hyj/ijJ7NlabyPi2gg==
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    highlight.js "^10.4.1"
-    lowlight "^1.17.0"
-    prismjs "^1.27.0"
-    refractor "^3.6.0"
-
-react-syntax-highlighter@^15.6.1:
+react-syntax-highlighter@^15.4.5, react-syntax-highlighter@^15.6.1:
   version "15.6.6"
   resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.6.6.tgz#77417c81ebdc554300d0332800a2e1efe5b1190b"
   integrity sha512-DgXrc+AZF47+HvAPEmn7Ua/1p10jNoVZVI/LoPiYdtY+OM+/nG5yefLHKJwdKqY1adMuHFbeyBaG9j64ML7vTw==
