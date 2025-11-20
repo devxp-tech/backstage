@@ -3927,7 +3927,7 @@
     luxon "^3.0.0"
     node-fetch "^2.7.0"
 
-"@backstage/plugin-kubernetes-common@^0.9.7", "@backstage/plugin-kubernetes-common@^0.9.8":
+"@backstage/plugin-kubernetes-common@^0.9.8":
   version "0.9.8"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.9.8.tgz#7f083b8ad8e045e50a3694640239f10b31d658b7"
   integrity sha512-qda+jeIvNwFGXy3MGdGUG1WwRg7SIVG435a+O8VM6zNLuNC3xTfuZlT3PrwlrNzmo9WAPFJujRRdph7OGUP9hA==
@@ -3953,20 +3953,20 @@
     node-fetch "^2.7.0"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.5.12":
-  version "0.5.12"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.12.tgz#9c884b6827228bf0d704a940388c847b633aa2a9"
-  integrity sha512-/e1X9AC+9udZixvkPy79QUEeeRPOqSMIe0/gdPhrk8Vn0RMH78u6rzlo1ggdYrKCqcCS1jAesu32lGqQJQszHw==
+"@backstage/plugin-kubernetes-react@^0.5.13":
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.13.tgz#bc99e512d8eb8cda8d66c924b55488bdc69d71f9"
+  integrity sha512-5U2Pyr4aXIRku1BZPR3Nn1ZyhKhRH+gfIQQ7a8b7bbWREUROA5uqWjS9cJ1njD3tL6CYTSBrziPYa2vXdBEvAQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.5"
-    "@backstage/core-components" "^0.18.2"
-    "@backstage/core-plugin-api" "^1.11.1"
+    "@backstage/catalog-model" "^1.7.6"
+    "@backstage/core-components" "^0.18.3"
+    "@backstage/core-plugin-api" "^1.12.0"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-kubernetes-common" "^0.9.7"
+    "@backstage/plugin-kubernetes-common" "^0.9.8"
     "@backstage/types" "^1.2.2"
     "@kubernetes-models/apimachinery" "^2.0.0"
     "@kubernetes-models/base" "^5.0.0"
-    "@kubernetes/client-node" "1.1.2"
+    "@kubernetes/client-node" "1.4.0"
     "@material-ui/core" "^4.9.13"
     "@material-ui/icons" "^4.11.3"
     "@material-ui/lab" "^4.0.0-alpha.61"
@@ -3981,19 +3981,19 @@
     react-use "^17.4.0"
 
 "@backstage/plugin-kubernetes@^0.12.0":
-  version "0.12.12"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.12.tgz#be69955375043c509918fab61681d28b597ddca4"
-  integrity sha512-CrgrEbv633aaDJxhaUmycoT8QrRDcKs2VfRSUTtFrew7dBc7aSqZ9jU5K9IzTwuhYkMEGTX0Rg3pLH98N68hlw==
+  version "0.12.13"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.13.tgz#bdedf30ba1ee8d133596a95cddd9d923c0d2f54c"
+  integrity sha512-wAg0OM8qn14fw9nCLlhNeVmofrRLYf7UysqHn4diHxN0+4YotA1ibttv4dXra99mXtAln+Y8FtirjxEs5yz2MA==
   dependencies:
-    "@backstage/catalog-model" "^1.7.5"
-    "@backstage/core-compat-api" "^0.5.3"
-    "@backstage/core-components" "^0.18.2"
-    "@backstage/core-plugin-api" "^1.11.1"
-    "@backstage/frontend-plugin-api" "^0.12.1"
-    "@backstage/plugin-catalog-react" "^1.21.2"
-    "@backstage/plugin-kubernetes-common" "^0.9.7"
-    "@backstage/plugin-kubernetes-react" "^0.5.12"
-    "@backstage/plugin-permission-react" "^0.4.37"
+    "@backstage/catalog-model" "^1.7.6"
+    "@backstage/core-compat-api" "^0.5.4"
+    "@backstage/core-components" "^0.18.3"
+    "@backstage/core-plugin-api" "^1.12.0"
+    "@backstage/frontend-plugin-api" "^0.13.0"
+    "@backstage/plugin-catalog-react" "^1.21.3"
+    "@backstage/plugin-kubernetes-common" "^0.9.8"
+    "@backstage/plugin-kubernetes-react" "^0.5.13"
+    "@backstage/plugin-permission-react" "^0.4.38"
     "@material-ui/core" "^4.12.2"
 
 "@backstage/plugin-org@^0.6.7":
@@ -6683,31 +6683,6 @@
     ws "^8.11.0"
   optionalDependencies:
     openid-client "^5.3.0"
-
-"@kubernetes/client-node@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@kubernetes/client-node/-/client-node-1.1.2.tgz#a939f697db93da9fba6ff4328697c18eb4a33bbc"
-  integrity sha512-kkE0D8zB5rIQoR6SUwlHUyQtpLvrW0gXOd2MabQsql7I2oPnMA8pb50A1MWB4yH0eX29t45gxs7lOVlS0UPsiw==
-  dependencies:
-    "@types/js-yaml" "^4.0.1"
-    "@types/node" "^22.0.0"
-    "@types/node-fetch" "^2.6.9"
-    "@types/stream-buffers" "^3.0.3"
-    "@types/tar" "^6.1.1"
-    "@types/ws" "^8.5.4"
-    form-data "^4.0.0"
-    hpagent "^1.2.0"
-    isomorphic-ws "^5.0.0"
-    js-yaml "^4.1.0"
-    jsonpath-plus "^10.3.0"
-    node-fetch "^2.6.9"
-    openid-client "^6.1.3"
-    rfc4648 "^1.3.0"
-    socks-proxy-agent "^8.0.4"
-    stream-buffers "^3.0.2"
-    tar "^7.0.0"
-    tmp-promise "^3.0.2"
-    ws "^8.18.0"
 
 "@kubernetes/client-node@1.4.0":
   version "1.4.0"
@@ -10831,7 +10806,7 @@
   dependencies:
     "@types/express" "*"
 
-"@types/node-fetch@^2.5.0", "@types/node-fetch@^2.6.9":
+"@types/node-fetch@^2.5.0":
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/@types/node-fetch/-/node-fetch-2.6.12.tgz#8ab5c3ef8330f13100a7479e2cd56d3386830a03"
   integrity sha512-8nneRWKCg3rMtF69nLQJnOYUcbafYeFSjqkw3jCRLsqkWFlHaoQrr5mXmofFGOx3DKn7UfmBMyov8ySvLRVldA==
@@ -10879,13 +10854,6 @@
   integrity sha512-r7wNXakLeSsGT0H1AU863vS2wa5wBOK4bWMjZz2wj+8nBx+m5PeIn0k8AloSLpRuiwdRQZwarZqHE4FNArPuJQ==
   dependencies:
     undici-types "~5.26.4"
-
-"@types/node@^22.0.0":
-  version "22.15.30"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.15.30.tgz#3a20431783e28dd0b0326f84ab386a2ec81d921d"
-  integrity sha512-6Q7lr06bEHdlfplU6YRbgG1SFBdlsfNC4/lX+SkhiTs0cpJkOElmWls8PxDFv4yY/xKb8Y6SO0OmSX4wgqTZbA==
-  dependencies:
-    undici-types "~6.21.0"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -11113,14 +11081,6 @@
   dependencies:
     "@types/react" "*"
 
-"@types/tar@^6.1.1":
-  version "6.1.13"
-  resolved "https://registry.yarnpkg.com/@types/tar/-/tar-6.1.13.tgz#9b5801c02175344101b4b91086ab2bbc8e93a9b6"
-  integrity sha512-IznnlmU5f4WcGTh2ltRu/Ijpmk8wiWXfF0VA4s+HPjHZgvFggk1YaIkbo5krX/zUCzWF8N/l4+W/LNxnvAJ8nw==
-  dependencies:
-    "@types/node" "*"
-    minipass "^4.0.0"
-
 "@types/tern@*":
   version "0.23.7"
   resolved "https://registry.yarnpkg.com/@types/tern/-/tern-0.23.7.tgz#f3c27fb7d6db5e86d7f069e7d5124bfa677a5b2d"
@@ -11193,13 +11153,6 @@
   version "8.5.4"
   resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.4.tgz#bb10e36116d6e570dd943735f86c933c1587b8a5"
   integrity sha512-zdQDHKUgcX/zBc4GrwsE/7dVdAD8JR4EuiAXiiUhhfyIJXXb2+PrGshFyeXWQPMmmZ2XxgaqclgpIC7eTXc1mg==
-  dependencies:
-    "@types/node" "*"
-
-"@types/ws@^8.5.4":
-  version "8.5.13"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.13.tgz#6414c280875e2691d0d1e080b05addbf5cb91e20"
-  integrity sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA==
   dependencies:
     "@types/node" "*"
 
@@ -21904,7 +21857,7 @@ minipass@^3.0.0:
   dependencies:
     yallist "^4.0.0"
 
-minipass@^4.0.0, minipass@^4.2.4:
+minipass@^4.2.4:
   version "4.2.8"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.2.8.tgz#f0010f64393ecfc1d1ccb5f582bcaf45f48e1a3a"
   integrity sha512-fNzuVyifolSLFL4NzpF+wEF4qrgqaaKX0haXPQEdQ7NKAN+WecoKMHV09YcuL/DHxrUsYQOK3MiuDf7Ip2OXfQ==
@@ -27275,7 +27228,7 @@ tar@6.2.1, tar@^6.1.11, tar@^6.1.12:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 
-tar@^7.0.0, tar@^7.4.3, tar@^7.5.2:
+tar@^7.4.3, tar@^7.5.2:
   version "7.5.2"
   resolved "https://registry.yarnpkg.com/tar/-/tar-7.5.2.tgz#115c061495ec51ff3c6745ff8f6d0871c5b1dedc"
   integrity sha512-7NyxrTE4Anh8km8iEy7o0QYPs+0JKBTj5ZaqHg6B39erLg0qYXN3BijtShwbsNSvQ+LN75+KV+C4QR/f6Gwnpg==
@@ -27451,13 +27404,6 @@ tldts@^6.1.32:
   dependencies:
     tldts-core "^6.1.58"
 
-tmp-promise@^3.0.2:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/tmp-promise/-/tmp-promise-3.0.3.tgz#60a1a1cc98c988674fcbfd23b6e3367bdeac4ce7"
-  integrity sha512-RwM7MoPojPxsOBYnyd2hy0bxtIlVrihNs9pj5SUvY8Zz1sQcQG2tG1hSr8PDxfgEB8RNKDhqbIlroIarSNDNsQ==
-  dependencies:
-    tmp "^0.2.0"
-
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -27465,7 +27411,7 @@ tmp@^0.0.33:
   dependencies:
     os-tmpdir "~1.0.2"
 
-tmp@^0.2.0, tmp@~0.2.1, tmp@~0.2.4:
+tmp@~0.2.1, tmp@~0.2.4:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.2.5.tgz#b06bcd23f0f3c8357b426891726d16015abfd8f8"
   integrity sha512-voyz6MApa1rQGUxT3E+BK7/ROe8itEx7vD8/HEvt4xwXucvQ5G5oeEiHkmHZJuBO21RpOf+YYm9MOivj709jow==
@@ -28050,11 +27996,6 @@ undici-types@~5.26.4:
   version "5.26.5"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-5.26.5.tgz#bcd539893d00b56e964fd2657a4866b221a65617"
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
-
-undici-types@~6.21.0:
-  version "6.21.0"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.21.0.tgz#691d00af3909be93a7faa13be61b3a5b50ef12cb"
-  integrity sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==
 
 undici-types@~7.16.0:
   version "7.16.0"
