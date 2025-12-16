@@ -3224,14 +3224,14 @@
     zod "^3.22.4"
 
 "@backstage/core-components@^0.18.2", "@backstage/core-components@^0.18.3":
-  version "0.18.3"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.18.3.tgz#827b5e8dfa17fc5fa529b4b478b72727707cc7ef"
-  integrity sha512-xO4vFICGk0oQCMYjh8hO5aRw7/RUUtIUi1i31GnIrTOgR4jokpvceppkqUjeggi+0j6UMCMyaXdYJiqszqem6g==
+  version "0.18.4"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.18.4.tgz#5db3bce90c8b9890e8b6b2fe1df8050cdd160d67"
+  integrity sha512-x2dy8CGXclN5sHKIn6CyxCo99Wk245mX3AsrXoHNr2BCRBL4U7Pv62hlbTtAsdyO41+Fzbc33ZXnjQSdpnGwWw==
   dependencies:
     "@backstage/config" "^1.3.6"
-    "@backstage/core-plugin-api" "^1.12.0"
+    "@backstage/core-plugin-api" "^1.12.1"
     "@backstage/errors" "^1.2.7"
-    "@backstage/theme" "^0.7.0"
+    "@backstage/theme" "^0.7.1"
     "@backstage/version-bridge" "^1.0.11"
     "@dagrejs/dagre" "^1.1.4"
     "@date-io/core" "^1.3.13"
@@ -3268,13 +3268,14 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.12.0", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.12.0.tgz#f42deaedf03cc9015cc8f295d5c95a8682949825"
-  integrity sha512-hPAwZm+uKdRHmEyaLjJOZ9+3mcay6lLV14cggDCRhoEk5HN7jyX/gnJMipurmVlkvcpHtCm5xea6OxUAByaM3A==
+"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.12.0", "@backstage/core-plugin-api@^1.12.1", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.12.1.tgz#3114159b2998b300b2d588f248c04a9018a9a83b"
+  integrity sha512-SxESH+BsjX10e3XsmqSZIr7dyLxE9T44lyqYqjt8hDFG7/Dh3LADYty5jI6BXzctWYOKFIKUfnpTsk+iv4w4hQ==
   dependencies:
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
+    "@backstage/frontend-plugin-api" "^0.13.2"
     "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.11"
     history "^5.0.0"
@@ -3350,6 +3351,17 @@
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.4"
     lodash "^4.17.21"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
+"@backstage/frontend-plugin-api@^0.13.2":
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.13.2.tgz#8bceef07b9de73365a8137af52031d66f70f2376"
+  integrity sha512-bEZjeBvTCGNNDiuB44riq1g/ayPWV5kxXZlIK5No+lnqYco5qraN4TKWjhjUmNSJIQ57/97Cc1QSC02QS+bt1Q==
+  dependencies:
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    "@backstage/version-bridge" "^1.0.11"
     zod "^3.22.4"
     zod-to-json-schema "^3.21.4"
 
@@ -4817,10 +4829,10 @@
     "@emotion/styled" "^11.10.5"
     "@mui/material" "^5.12.2"
 
-"@backstage/theme@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.7.0.tgz#c075dd04e2589d4062a5540c13567ae3f8939245"
-  integrity sha512-qcziVo96fdwchLPQXlL/87wYty+N+BkXpxXC/e+rxG3ofB619qzH0n78WQPgf+hGp8eVNwXjhQhsPOw7ec0ohA==
+"@backstage/theme@^0.7.0", "@backstage/theme@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@backstage/theme/-/theme-0.7.1.tgz#e187a6aeba11a72a26e480639c6a4365e899dfa3"
+  integrity sha512-JC2EUqfV198SzNT0B/E7MrnQuR5ML3qCz1FMDNd1qGoXNRBtBsSlPPJMcmuRsz7tM2BN+Vnbr7KkRPNbEnCYkQ==
   dependencies:
     "@emotion/react" "^11.10.5"
     "@emotion/styled" "^11.10.5"
@@ -24153,11 +24165,6 @@ pretty-format@^29.0.0, pretty-format@^29.5.0, pretty-format@^29.7.0:
     ansi-styles "^5.0.0"
     react-is "^18.0.0"
 
-prismjs@^1.27.0:
-  version "1.29.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.29.0.tgz#f113555a8fa9b57c35e637bba27509dcf802dd12"
-  integrity sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==
-
 prismjs@^1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.30.0.tgz#d9709969d9d4e16403f6f348c63553b19f0975a9"
@@ -24889,18 +24896,7 @@ react-style-singleton@^2.2.1:
     invariant "^2.2.4"
     tslib "^2.0.0"
 
-react-syntax-highlighter@^15.4.5:
-  version "15.5.0"
-  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.5.0.tgz#4b3eccc2325fa2ec8eff1e2d6c18fa4a9e07ab20"
-  integrity sha512-+zq2myprEnQmH5yw6Gqc8lD55QHnpKaU8TOcFeC/Lg/MQSs8UknEA0JC4nTZGFAXC2J2Hyj/ijJ7NlabyPi2gg==
-  dependencies:
-    "@babel/runtime" "^7.3.1"
-    highlight.js "^10.4.1"
-    lowlight "^1.17.0"
-    prismjs "^1.27.0"
-    refractor "^3.6.0"
-
-react-syntax-highlighter@^15.6.1:
+react-syntax-highlighter@^15.4.5, react-syntax-highlighter@^15.6.1:
   version "15.6.6"
   resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-15.6.6.tgz#77417c81ebdc554300d0332800a2e1efe5b1190b"
   integrity sha512-DgXrc+AZF47+HvAPEmn7Ua/1p10jNoVZVI/LoPiYdtY+OM+/nG5yefLHKJwdKqY1adMuHFbeyBaG9j64ML7vTw==
