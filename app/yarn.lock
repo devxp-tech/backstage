@@ -3268,13 +3268,14 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.12.0", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.12.0.tgz#f42deaedf03cc9015cc8f295d5c95a8682949825"
-  integrity sha512-hPAwZm+uKdRHmEyaLjJOZ9+3mcay6lLV14cggDCRhoEk5HN7jyX/gnJMipurmVlkvcpHtCm5xea6OxUAByaM3A==
+"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.12.0", "@backstage/core-plugin-api@^1.12.1", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.12.1.tgz#3114159b2998b300b2d588f248c04a9018a9a83b"
+  integrity sha512-SxESH+BsjX10e3XsmqSZIr7dyLxE9T44lyqYqjt8hDFG7/Dh3LADYty5jI6BXzctWYOKFIKUfnpTsk+iv4w4hQ==
   dependencies:
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
+    "@backstage/frontend-plugin-api" "^0.13.2"
     "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.11"
     history "^5.0.0"
@@ -3353,6 +3354,17 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.21.4"
 
+"@backstage/frontend-plugin-api@^0.13.2":
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.13.2.tgz#8bceef07b9de73365a8137af52031d66f70f2376"
+  integrity sha512-bEZjeBvTCGNNDiuB44riq1g/ayPWV5kxXZlIK5No+lnqYco5qraN4TKWjhjUmNSJIQ57/97Cc1QSC02QS+bt1Q==
+  dependencies:
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    "@backstage/version-bridge" "^1.0.11"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
 "@backstage/frontend-plugin-api@^0.6.4":
   version "0.6.7"
   resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.6.7.tgz#73bbc30f6f1b5acc31b9f17fd31d957498f497fb"
@@ -3411,20 +3423,20 @@
     "@backstage/errors" "^1.2.7"
 
 "@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.11", "@backstage/integration-react@^1.2.12":
-  version "1.2.12"
-  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.12.tgz#9d282ac77afd27fa684fb1b9dcb687b874cfee1f"
-  integrity sha512-rF8f7+figF2Z7GDIOkoGyI0bBeby+lmlFyVEcQnQfkE9dEH+nlEUYw8yS5Bfx2eIIUyPMY2eVQPyuEUwR92HKQ==
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.13.tgz#743d33654d72bce84f3d5b6376008e3d6e71ec5c"
+  integrity sha512-l1+wI4w5zWO4WxhhJY1C5cY005AYP2gfkUfyzVpx8EHVdeSFPv1KPBCmETGXzKI7hgZ4K6jzL+sIynDxKY8ZFQ==
   dependencies:
     "@backstage/config" "^1.3.6"
-    "@backstage/core-plugin-api" "^1.12.0"
-    "@backstage/integration" "^1.18.2"
+    "@backstage/core-plugin-api" "^1.12.1"
+    "@backstage/integration" "^1.19.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.18.1", "@backstage/integration@^1.18.2":
-  version "1.18.2"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.18.2.tgz#9646aa34fec5e07df47d6cb1b8d09eaf4859bbbf"
-  integrity sha512-yG+BOM1RXeuf3zddIARTqkFLL1zFIj7rTvqb6Z3WXQJD4uSJ+MW7ulDXTLWUzelAtxKd8axAj3hB3TPhblPX2A==
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.18.1", "@backstage/integration@^1.18.2", "@backstage/integration@^1.19.0":
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.19.0.tgz#f456e16214e61a3b66b1c4544b1c165aaf0258eb"
+  integrity sha512-WR9cFbDr1WCoI1jML/zt9wrZCSqQCbQ61CNAi/fYYv5SiDbhhpOVm56qr+5BZjowKRr6qmcuzu9Vb6HpSDbwTw==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@azure/storage-blob" "^12.5.0"
