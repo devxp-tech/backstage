@@ -4631,18 +4631,17 @@
     uuid "^11.0.2"
 
 "@backstage/plugin-search@^1.2.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.5.0.tgz#fa7c8d0c5a5e234cc8483ab93afc83581ca8e609"
-  integrity sha512-crvTJUvge1c9hS+/b0k7WpeeldLtPuDgOEA/Exby/TEh4rfIWFgRPT8/vQ+PrBqvqSU2mNaUz72CJgyB3E9KLw==
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.5.1.tgz#15d5a7938b50f6c47bac0c3013f38767a1f1b25f"
+  integrity sha512-hiwbMhAgQlFRYWzI3+CRuhVQzhMMZZXwhU+JXBclv+6V6ViYRPvX3TWqaABgL8Y0qTy4KxNbHlCnl2XuWdsb/g==
   dependencies:
-    "@backstage/core-compat-api" "^0.5.4"
-    "@backstage/core-components" "^0.18.3"
-    "@backstage/core-plugin-api" "^1.12.0"
+    "@backstage/core-components" "^0.18.4"
+    "@backstage/core-plugin-api" "^1.12.1"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.13.0"
-    "@backstage/plugin-catalog-react" "^1.21.3"
+    "@backstage/frontend-plugin-api" "^0.13.2"
+    "@backstage/plugin-catalog-react" "^1.21.4"
     "@backstage/plugin-search-common" "^1.2.21"
-    "@backstage/plugin-search-react" "^1.10.0"
+    "@backstage/plugin-search-react" "^1.10.1"
     "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.11"
     "@material-ui/core" "^4.12.2"
