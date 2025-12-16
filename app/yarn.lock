@@ -3200,6 +3200,27 @@
     typescript-json-schema "^0.67.0"
     yaml "^2.0.0"
 
+"@backstage/config-loader@^1.10.7":
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.10.7.tgz#7fa6b1cb2b73b37c7c0d0b5d0b76f05e5e51cbf9"
+  integrity sha512-X/x4lBeLd6ByPv5lVa8d8TZh9INWa1mYuRzsvnchLd2oin3hL/RFH3em606Mkb/V+SdvgChpY8+h58laXvxxDA==
+  dependencies:
+    "@backstage/cli-common" "^0.1.16"
+    "@backstage/config" "^1.3.6"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    "@types/json-schema" "^7.0.6"
+    ajv "^8.10.0"
+    chokidar "^3.5.2"
+    fs-extra "^11.2.0"
+    json-schema "^0.4.0"
+    json-schema-merge-allof "^0.8.1"
+    json-schema-traverse "^1.0.0"
+    lodash "^4.17.21"
+    minimist "^1.2.5"
+    typescript-json-schema "^0.67.0"
+    yaml "^2.0.0"
+
 "@backstage/config@^1.0.7", "@backstage/config@^1.2.0", "@backstage/config@^1.3.2", "@backstage/config@^1.3.6":
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/@backstage/config/-/config-1.3.6.tgz#1b5d8797cbb02518c1ce30bdc2265c392c8811f4"
@@ -3560,6 +3581,22 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
+"@backstage/integration@^1.19.0":
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.19.0.tgz#f456e16214e61a3b66b1c4544b1c165aaf0258eb"
+  integrity sha512-WR9cFbDr1WCoI1jML/zt9wrZCSqQCbQ61CNAi/fYYv5SiDbhhpOVm56qr+5BZjowKRr6qmcuzu9Vb6HpSDbwTw==
+  dependencies:
+    "@azure/identity" "^4.0.0"
+    "@azure/storage-blob" "^12.5.0"
+    "@backstage/config" "^1.3.6"
+    "@backstage/errors" "^1.2.7"
+    "@octokit/auth-app" "^4.0.0"
+    "@octokit/rest" "^19.0.3"
+    cross-fetch "^4.0.0"
+    git-url-parse "^15.0.0"
+    lodash "^4.17.21"
+    luxon "^3.0.0"
+
 "@backstage/plugin-api-docs@^0.13.0":
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-api-docs/-/plugin-api-docs-0.13.2.tgz#e91eb73ceedae8bdbfe86974afb544fadcf13319"
@@ -3711,6 +3748,27 @@
     zod-validation-error "^3.4.0"
 
 "@backstage/plugin-auth-node@^0.6.0", "@backstage/plugin-auth-node@^0.6.10", "@backstage/plugin-auth-node@^0.6.9":
+  version "0.6.10"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.6.10.tgz#4aa97621f5bbe8d052f3ca79d1bd9cbbd35e85d2"
+  integrity sha512-Hi8ZxKzs0GS37a0KTpPf3DyhQ8TdexwH+UtgNxOPn6nBuoONOeW75EQO4CoJ12oT6DmIJ0t6ZXAqIe4kt93QOw==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.6.0"
+    "@backstage/catalog-client" "^1.12.1"
+    "@backstage/catalog-model" "^1.7.6"
+    "@backstage/config" "^1.3.6"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    "@types/express" "^4.17.6"
+    "@types/passport" "^1.0.3"
+    express "^4.22.0"
+    jose "^5.0.0"
+    lodash "^4.17.21"
+    passport "^0.7.0"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+    zod-validation-error "^3.4.0"
+
+"@backstage/plugin-auth-node@^0.6.10":
   version "0.6.10"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-auth-node/-/plugin-auth-node-0.6.10.tgz#4aa97621f5bbe8d052f3ca79d1bd9cbbd35e85d2"
   integrity sha512-Hi8ZxKzs0GS37a0KTpPf3DyhQ8TdexwH+UtgNxOPn6nBuoONOeW75EQO4CoJ12oT6DmIJ0t6ZXAqIe4kt93QOw==
@@ -3982,6 +4040,21 @@
     zen-observable "^0.10.0"
 
 "@backstage/plugin-events-node@^0.4.17", "@backstage/plugin-events-node@^0.4.18":
+  version "0.4.18"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-events-node/-/plugin-events-node-0.4.18.tgz#e62eb6f2ce7aa5dc3ca8b63b6177182fb45ff8db"
+  integrity sha512-PHxS5X8r6cI3BglafvLL7tR7OD2axuWqj0myO/Ls58X5ZS8uplmffRuWE59t509E8MBe6fQCyO6epYWVFjvyYg==
+  dependencies:
+    "@backstage/backend-plugin-api" "^1.6.0"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    "@types/content-type" "^1.1.8"
+    "@types/express" "^4.17.6"
+    content-type "^1.0.5"
+    cross-fetch "^4.0.0"
+    express "^4.22.0"
+    uri-template "^2.0.0"
+
+"@backstage/plugin-events-node@^0.4.18":
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-events-node/-/plugin-events-node-0.4.18.tgz#e62eb6f2ce7aa5dc3ca8b63b6177182fb45ff8db"
   integrity sha512-PHxS5X8r6cI3BglafvLL7tR7OD2axuWqj0myO/Ls58X5ZS8uplmffRuWE59t509E8MBe6fQCyO6epYWVFjvyYg==
@@ -4593,22 +4666,22 @@
     uuid "^11.0.0"
 
 "@backstage/plugin-search-backend@^2.0.0":
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-2.0.8.tgz#15b26a7bbc425af0f7333ba4b2bfda52043e6b34"
-  integrity sha512-JOFtLrA2yYY+qWMIHT0P3eJQEfR+btoDFEypXzR595QM46kCbnDTsIz/GNq8kHG4LrB4ukTIDtcLvhyW1cGjaw==
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend/-/plugin-search-backend-2.0.9.tgz#ba6750fe1d68ec7e7998369088731714b9dd0e39"
+  integrity sha512-EV+J1Qd2cUt066MfgsUOGOV6epsqEMGWbFXe8m6x5imwV7aEv+8Sneo/C+XGDvSyu70lYgMu/1d5EVb/vXG5hg==
   dependencies:
-    "@backstage/backend-defaults" "^0.13.1"
-    "@backstage/backend-openapi-utils" "^0.6.3"
-    "@backstage/backend-plugin-api" "^1.5.0"
+    "@backstage/backend-defaults" "^0.14.0"
+    "@backstage/backend-openapi-utils" "^0.6.4"
+    "@backstage/backend-plugin-api" "^1.6.0"
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
     "@backstage/plugin-permission-common" "^0.9.3"
-    "@backstage/plugin-permission-node" "^0.10.6"
-    "@backstage/plugin-search-backend-node" "^1.3.17"
+    "@backstage/plugin-permission-node" "^0.10.7"
+    "@backstage/plugin-search-backend-node" "^1.4.0"
     "@backstage/plugin-search-common" "^1.2.21"
     "@backstage/types" "^1.2.2"
     dataloader "^2.0.0"
-    express "^4.17.1"
+    express "^4.22.0"
     lodash "^4.17.21"
     qs "^6.10.1"
     yn "^4.0.0"
@@ -28225,6 +28298,21 @@ types-ramda@^0.30.1:
   integrity sha512-1HTsf5/QVRmLzcGfldPFvkVsAdi1db1BBKzi7iW3KBUlOICg/nKnFS+jGqDJS3YD8VsWbAh7JiHeBvbsw8RPxA==
   dependencies:
     ts-toolbelt "^9.6.0"
+
+typescript-json-schema@^0.67.0:
+  version "0.67.1"
+  resolved "https://registry.yarnpkg.com/typescript-json-schema/-/typescript-json-schema-0.67.1.tgz#e894a540a38bf6b07d1e3ec66764d43ac85df34b"
+  integrity sha512-vKTZB/RoYTIBdVP7E7vrgHMCssBuhja91wQy498QIVhvfRimaOgjc98uwAXmZ7mbLUytJmOSbF11wPz+ByQeXg==
+  dependencies:
+    "@types/json-schema" "^7.0.9"
+    "@types/node" "^18.11.9"
+    glob "^7.1.7"
+    path-equal "^1.2.5"
+    safe-stable-stringify "^2.2.0"
+    ts-node "^10.9.1"
+    typescript "~5.5.0"
+    vm2 "^3.10.0"
+    yargs "^17.1.1"
 
 typescript-json-schema@^0.67.0:
   version "0.67.1"
