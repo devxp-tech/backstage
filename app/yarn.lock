@@ -2351,15 +2351,15 @@
     to-fast-properties "^2.0.0"
 
 "@backstage/app-defaults@^1.3.0":
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.7.2.tgz#acd4eed97bbcc1d56f544e92e0718489954f0256"
-  integrity sha512-mgngymQMZ1h1CZFx9AtQphQdMZDzS8H8ycHxwt12jlwI3xYArwBg40GGgJAc4sLs/Vcc5tR9fl+6T+ve1jveZQ==
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/@backstage/app-defaults/-/app-defaults-1.7.3.tgz#14ddc8d1606829453332e33245eaf620cd902b24"
+  integrity sha512-qV3N5aCJQCuSmO1xVpwzhqstAFUlHQZL5kZ+BqJTmcPBoZWZzkOwwFa14f9VMQczWoUCgW3OtuYZMHs2ZI+N1g==
   dependencies:
-    "@backstage/core-app-api" "^1.19.2"
-    "@backstage/core-components" "^0.18.3"
-    "@backstage/core-plugin-api" "^1.12.0"
-    "@backstage/plugin-permission-react" "^0.4.38"
-    "@backstage/theme" "^0.7.0"
+    "@backstage/core-app-api" "^1.19.3"
+    "@backstage/core-components" "^0.18.4"
+    "@backstage/core-plugin-api" "^1.12.1"
+    "@backstage/plugin-permission-react" "^0.4.39"
+    "@backstage/theme" "^0.7.1"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
@@ -3455,6 +3455,17 @@
     zod-to-json-schema "^3.21.4"
 
 "@backstage/frontend-plugin-api@^0.13.0", "@backstage/frontend-plugin-api@^0.13.2":
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.13.2.tgz#8bceef07b9de73365a8137af52031d66f70f2376"
+  integrity sha512-bEZjeBvTCGNNDiuB44riq1g/ayPWV5kxXZlIK5No+lnqYco5qraN4TKWjhjUmNSJIQ57/97Cc1QSC02QS+bt1Q==
+  dependencies:
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    "@backstage/version-bridge" "^1.0.11"
+    zod "^3.22.4"
+    zod-to-json-schema "^3.21.4"
+
+"@backstage/frontend-plugin-api@^0.13.2":
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.13.2.tgz#8bceef07b9de73365a8137af52031d66f70f2376"
   integrity sha512-bEZjeBvTCGNNDiuB44riq1g/ayPWV5kxXZlIK5No+lnqYco5qraN4TKWjhjUmNSJIQ57/97Cc1QSC02QS+bt1Q==
