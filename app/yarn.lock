@@ -1337,7 +1337,7 @@
     "@aws-sdk/types" "3.357.0"
     tslib "^2.5.0"
 
-"@aws-sdk/signature-v4@3.357.0", "@aws-sdk/signature-v4@^3.347.0":
+"@aws-sdk/signature-v4@3.357.0":
   version "3.357.0"
   resolved "https://registry.yarnpkg.com/@aws-sdk/signature-v4/-/signature-v4-3.357.0.tgz#31093e87fda10bee92b6b2784cdba9af9af89e7d"
   integrity sha512-itt4/Jh9FqnzK30qIjXFBvM4J7zN4S/AAqsRMnaX7U4f/MV+1YxQHmzimpdMnsCXXs2jqFqKVRu6DewxJ3nbxg==
@@ -3209,25 +3209,7 @@
     "@backstage/types" "^1.2.2"
     ms "^2.1.3"
 
-"@backstage/core-app-api@^1.19.2", "@backstage/core-app-api@^1.7.0":
-  version "1.19.3"
-  resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.19.3.tgz#9104a8797e83d411ba9cf69f92c8fa06f6181a9f"
-  integrity sha512-xqF0go5fdf/o74CuFJW8zMi9CJi5qp4N1arFCGpnKTLGUcVWatZHH+SLLiPqsB4xriKQslSMxyEbcQI9zGkOdw==
-  dependencies:
-    "@backstage/config" "^1.3.6"
-    "@backstage/core-plugin-api" "^1.12.1"
-    "@backstage/types" "^1.2.2"
-    "@backstage/version-bridge" "^1.0.11"
-    "@types/prop-types" "^15.7.3"
-    history "^5.0.0"
-    i18next "^22.4.15"
-    lodash "^4.17.21"
-    prop-types "^15.7.2"
-    react-use "^17.2.4"
-    zen-observable "^0.10.0"
-    zod "^3.22.4"
-
-"@backstage/core-app-api@^1.19.3":
+"@backstage/core-app-api@^1.19.2", "@backstage/core-app-api@^1.19.3", "@backstage/core-app-api@^1.7.0":
   version "1.19.3"
   resolved "https://registry.yarnpkg.com/@backstage/core-app-api/-/core-app-api-1.19.3.tgz#9104a8797e83d411ba9cf69f92c8fa06f6181a9f"
   integrity sha512-xqF0go5fdf/o74CuFJW8zMi9CJi5qp4N1arFCGpnKTLGUcVWatZHH+SLLiPqsB4xriKQslSMxyEbcQI9zGkOdw==
@@ -3473,17 +3455,6 @@
     zod-to-json-schema "^3.21.4"
 
 "@backstage/frontend-plugin-api@^0.13.0", "@backstage/frontend-plugin-api@^0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.13.2.tgz#8bceef07b9de73365a8137af52031d66f70f2376"
-  integrity sha512-bEZjeBvTCGNNDiuB44riq1g/ayPWV5kxXZlIK5No+lnqYco5qraN4TKWjhjUmNSJIQ57/97Cc1QSC02QS+bt1Q==
-  dependencies:
-    "@backstage/errors" "^1.2.7"
-    "@backstage/types" "^1.2.2"
-    "@backstage/version-bridge" "^1.0.11"
-    zod "^3.22.4"
-    zod-to-json-schema "^3.21.4"
-
-"@backstage/frontend-plugin-api@^0.13.2":
   version "0.13.2"
   resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.13.2.tgz#8bceef07b9de73365a8137af52031d66f70f2376"
   integrity sha512-bEZjeBvTCGNNDiuB44riq1g/ayPWV5kxXZlIK5No+lnqYco5qraN4TKWjhjUmNSJIQ57/97Cc1QSC02QS+bt1Q==
@@ -4026,32 +3997,32 @@
     "@material-ui/icons" "^4.9.1"
     "@rjsf/utils" "5.23.2"
 
-"@backstage/plugin-kubernetes-backend@^0.20.0":
-  version "0.20.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.20.4.tgz#1c1a62ba5fabb3e8c16e1a6e57e8dbac1a51bd4c"
-  integrity sha512-ZgLjALN5GhmQAdyAIe1lBM6m5Ipq1kM6OtAdn5K1y9UMbrb12IGBPK0PJdpb8ceWQSzmu0oSxYv3aM3Fbz94aA==
+"@backstage/plugin-kubernetes-backend@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-backend/-/plugin-kubernetes-backend-0.21.0.tgz#b5c6c6bd8d246425a26ffdf59a44ef3e0eba23d1"
+  integrity sha512-oRX8Vy7FZI5Dd9ZWTrnXxFU1yPhmdShrbqkHKK/uhCvT4A2KwyPLKMJLp4+VWR72Qbp7zfgvkGFIMSxHZCibhA==
   dependencies:
     "@aws-crypto/sha256-js" "^5.0.0"
     "@aws-sdk/credential-providers" "^3.350.0"
-    "@aws-sdk/signature-v4" "^3.347.0"
     "@azure/identity" "^4.0.0"
-    "@backstage/backend-plugin-api" "^1.5.0"
+    "@backstage/backend-plugin-api" "^1.6.0"
     "@backstage/catalog-client" "^1.12.1"
     "@backstage/catalog-model" "^1.7.6"
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
     "@backstage/integration-aws-node" "^0.1.19"
-    "@backstage/plugin-catalog-node" "^1.20.0"
-    "@backstage/plugin-kubernetes-common" "^0.9.8"
-    "@backstage/plugin-kubernetes-node" "^0.3.6"
+    "@backstage/plugin-catalog-node" "^1.20.1"
+    "@backstage/plugin-kubernetes-common" "^0.9.9"
+    "@backstage/plugin-kubernetes-node" "^0.4.0"
     "@backstage/plugin-permission-common" "^0.9.3"
-    "@backstage/plugin-permission-node" "^0.10.6"
+    "@backstage/plugin-permission-node" "^0.10.7"
     "@backstage/types" "^1.2.2"
     "@google-cloud/container" "^5.0.0"
     "@jest-mock/express" "^2.0.1"
     "@kubernetes/client-node" "1.4.0"
+    "@smithy/signature-v4" "^4.1.0"
     "@types/http-proxy-middleware" "^1.0.0"
-    express "^4.17.1"
+    express "^4.22.0"
     express-promise-router "^4.1.0"
     fs-extra "^11.2.0"
     http-proxy-middleware "^2.0.6"
@@ -4059,10 +4030,10 @@
     luxon "^3.0.0"
     node-fetch "^2.7.0"
 
-"@backstage/plugin-kubernetes-common@^0.9.8":
-  version "0.9.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.9.8.tgz#7f083b8ad8e045e50a3694640239f10b31d658b7"
-  integrity sha512-qda+jeIvNwFGXy3MGdGUG1WwRg7SIVG435a+O8VM6zNLuNC3xTfuZlT3PrwlrNzmo9WAPFJujRRdph7OGUP9hA==
+"@backstage/plugin-kubernetes-common@^0.9.8", "@backstage/plugin-kubernetes-common@^0.9.9":
+  version "0.9.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-common/-/plugin-kubernetes-common-0.9.9.tgz#db81f11097bf6044b7e104c74d9203d0eca7afe1"
+  integrity sha512-o2z8+zE3poIMgNdDmgTV1CvcduW5+H1tZqnMPwL0g5zHdQivRxKolarRKBSFEqusuCJfYaEcPBclXd6uIIxqVQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.6"
     "@backstage/plugin-permission-common" "^0.9.3"
@@ -4072,16 +4043,17 @@
     lodash "^4.17.21"
     luxon "^3.0.0"
 
-"@backstage/plugin-kubernetes-node@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.3.6.tgz#a4b87192cb4839f7c56fdff9bd6a0a15b4b365b7"
-  integrity sha512-Op+Ck+e+42lz9RSOj7WxK6zzsGsRM0AxB7HfX5jimqOkGk7H/YswFDolbKVf+6RlEzOuYaGsUbskmbjReePNlg==
+"@backstage/plugin-kubernetes-node@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-node/-/plugin-kubernetes-node-0.4.0.tgz#a6810b338c4d07036abf90d0286fee5f842af438"
+  integrity sha512-wbKuxNSHdEUQ0NH2eC1b9PspvD3hyn5Su2iwz4qWVSbbMoXUfFPAO7Zdd9p4THN9ewQBr9GoR4nfMkozwPszBg==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.5.0"
+    "@backstage/backend-plugin-api" "^1.6.0"
     "@backstage/catalog-model" "^1.7.6"
-    "@backstage/plugin-kubernetes-common" "^0.9.8"
+    "@backstage/plugin-kubernetes-common" "^0.9.9"
     "@backstage/types" "^1.2.2"
     "@kubernetes/client-node" "1.4.0"
+    "@types/express" "^4.17.6"
     node-fetch "^2.7.0"
     winston "^3.2.1"
 
@@ -9301,6 +9273,13 @@
   dependencies:
     tslib "^2.6.2"
 
+"@smithy/is-array-buffer@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@smithy/is-array-buffer/-/is-array-buffer-3.0.0.tgz#9a95c2d46b8768946a9eec7f935feaddcffa5e7a"
+  integrity sha512-+Fsu6Q6C4RSJiy81Y8eApjEB5gVtM+oFKTffg+jSuwtvomJJrhUJBu2zS8wjXSgH/g1MKEWrzyChTBe6clb5FQ==
+  dependencies:
+    tslib "^2.6.2"
+
 "@smithy/middleware-content-length@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@smithy/middleware-content-length/-/middleware-content-length-2.2.0.tgz#a82e97bd83d8deab69e07fea4512563bedb9461a"
@@ -9418,6 +9397,14 @@
     "@smithy/types" "^3.5.0"
     tslib "^2.6.2"
 
+"@smithy/protocol-http@^4.1.8":
+  version "4.1.8"
+  resolved "https://registry.yarnpkg.com/@smithy/protocol-http/-/protocol-http-4.1.8.tgz#0461758671335f65e8ff3fc0885ab7ed253819c9"
+  integrity sha512-hmgIAVyxw1LySOwkgMIUN0kjN8TG9Nc85LJeEmEE/cNEe2rkHDUWhnJf2gxcSRFLWsyqWsrZGw40ROjUogg+Iw==
+  dependencies:
+    "@smithy/types" "^3.7.2"
+    tslib "^2.6.2"
+
 "@smithy/querystring-builder@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@smithy/querystring-builder/-/querystring-builder-2.2.0.tgz#22937e19fcd0aaa1a3e614ef8cb6f8e86756a4ef"
@@ -9472,6 +9459,20 @@
     "@smithy/util-utf8" "^2.3.0"
     tslib "^2.6.2"
 
+"@smithy/signature-v4@^4.1.0":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@smithy/signature-v4/-/signature-v4-4.2.4.tgz#3501d3d09fd82768867bfc00a7be4bad62f62f4d"
+  integrity sha512-5JWeMQYg81TgU4cG+OexAWdvDTs5JDdbEZx+Qr1iPbvo91QFGzjy0IkXAKaXUHqmKUJgSHK0ZxnCkgZpzkeNTA==
+  dependencies:
+    "@smithy/is-array-buffer" "^3.0.0"
+    "@smithy/protocol-http" "^4.1.8"
+    "@smithy/types" "^3.7.2"
+    "@smithy/util-hex-encoding" "^3.0.0"
+    "@smithy/util-middleware" "^3.0.11"
+    "@smithy/util-uri-escape" "^3.0.0"
+    "@smithy/util-utf8" "^3.0.0"
+    tslib "^2.6.2"
+
 "@smithy/smithy-client@^2.5.1":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/@smithy/smithy-client/-/smithy-client-2.5.1.tgz#0fd2efff09dc65500d260e590f7541f8a387eae3"
@@ -9502,6 +9503,13 @@
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/@smithy/types/-/types-3.5.0.tgz#9589e154c50d9c5d00feb7d818112ef8fc285d6e"
   integrity sha512-QN0twHNfe8mNJdH9unwsCK13GURU7oEAZqkBI+rsvpv1jrmserO+WnLE7jidR9W/1dxwZ0u/CB01mV2Gms/K2Q==
+  dependencies:
+    tslib "^2.6.2"
+
+"@smithy/types@^3.7.2":
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/@smithy/types/-/types-3.7.2.tgz#05cb14840ada6f966de1bf9a9c7dd86027343e10"
+  integrity sha512-bNwBYYmN8Eh9RyjS1p2gW6MIhSO2rl7X9QeLM8iTdcGRP+eDiIWDt66c9IysCc22gefKszZv+ubV9qZc7hdESg==
   dependencies:
     tslib "^2.6.2"
 
@@ -9553,6 +9561,14 @@
     "@smithy/is-array-buffer" "^2.2.0"
     tslib "^2.6.2"
 
+"@smithy/util-buffer-from@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@smithy/util-buffer-from/-/util-buffer-from-3.0.0.tgz#559fc1c86138a89b2edaefc1e6677780c24594e3"
+  integrity sha512-aEOHCgq5RWFbP+UDPvPot26EJHjOC+bRgse5A8V3FSShqd5E5UN4qc7zkwsvJPPAVsf73QwYcHN1/gt/rtLwQA==
+  dependencies:
+    "@smithy/is-array-buffer" "^3.0.0"
+    tslib "^2.6.2"
+
 "@smithy/util-config-provider@^2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@smithy/util-config-provider/-/util-config-provider-2.3.0.tgz#bc79f99562d12a1f8423100ca662a6fb07cde943"
@@ -9600,12 +9616,27 @@
   dependencies:
     tslib "^2.6.2"
 
+"@smithy/util-hex-encoding@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@smithy/util-hex-encoding/-/util-hex-encoding-3.0.0.tgz#32938b33d5bf2a15796cd3f178a55b4155c535e6"
+  integrity sha512-eFndh1WEK5YMUYvy3lPlVmYY/fZcQE1D8oSf41Id2vCeIkKJXPcYDCZD+4+xViI6b1XSd7tE+s5AmXzz5ilabQ==
+  dependencies:
+    tslib "^2.6.2"
+
 "@smithy/util-middleware@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@smithy/util-middleware/-/util-middleware-2.2.0.tgz#80cfad40f6cca9ffe42a5899b5cb6abd53a50006"
   integrity sha512-L1qpleXf9QD6LwLCJ5jddGkgWyuSvWBkJwWAZ6kFkdifdso+sk3L3O1HdmPvCdnCK3IS4qWyPxev01QMnfHSBw==
   dependencies:
     "@smithy/types" "^2.12.0"
+    tslib "^2.6.2"
+
+"@smithy/util-middleware@^3.0.11":
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/@smithy/util-middleware/-/util-middleware-3.0.11.tgz#2ab5c17266b42c225e62befcffb048afa682b5bf"
+  integrity sha512-dWpyc1e1R6VoXrwLoLDd57U1z6CwNSdkM69Ie4+6uYh2GC7Vg51Qtan7ITzczuVpqezdDTKJGJB95fFvvjU/ow==
+  dependencies:
+    "@smithy/types" "^3.7.2"
     tslib "^2.6.2"
 
 "@smithy/util-retry@^2.2.0":
@@ -9659,6 +9690,14 @@
   integrity sha512-R8Rdn8Hy72KKcebgLiv8jQcQkXoLMOGGv5uI1/k0l+snqkOzQ1R0ChUBCxWMlBsFMekWjq0wRudIweFs7sKT5A==
   dependencies:
     "@smithy/util-buffer-from" "^2.2.0"
+    tslib "^2.6.2"
+
+"@smithy/util-utf8@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@smithy/util-utf8/-/util-utf8-3.0.0.tgz#1a6a823d47cbec1fd6933e5fc87df975286d9d6a"
+  integrity sha512-rUeT12bxFnplYDe815GXbq/oixEGHfRFFtcTF3YdDi/JaENIM6aSYYLJydG83UNzLXeRI5K8abYd/8Sp/QM0kA==
+  dependencies:
+    "@smithy/util-buffer-from" "^3.0.0"
     tslib "^2.6.2"
 
 "@so-ric/colorspace@^1.1.6":
