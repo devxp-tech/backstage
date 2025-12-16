@@ -4553,19 +4553,19 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
-  version "0.5.50"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.50.tgz#6733ad072b3bf46ba1c0e44873da4412f6588e1c"
-  integrity sha512-y3W6SA/5gYoN8KgIGILxYxCFG8w4wEc+X+R37cly2p/7WFUcaUvoM2uj+XkBhfAK9QiEINpzR/xio01cnSnsvg==
+  version "0.5.51"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-module-pg/-/plugin-search-backend-module-pg-0.5.51.tgz#5094c0cfd31b7502f007065e26411d47cf724741"
+  integrity sha512-1oz+ugRdvQKJALl8DtU0ys3/8JSfCM8DWeNwYymyDbmCkSgVPM37wOhz2ojur+liTr/n4DjS5WfRprpa0Tsk6w==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.5.0"
+    "@backstage/backend-plugin-api" "^1.6.0"
     "@backstage/config" "^1.3.6"
-    "@backstage/plugin-search-backend-node" "^1.3.17"
+    "@backstage/plugin-search-backend-node" "^1.4.0"
     "@backstage/plugin-search-common" "^1.2.21"
     knex "^3.0.0"
     lodash "^4.17.21"
     uuid "^11.0.0"
 
-"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.17":
+"@backstage/plugin-search-backend-node@^1.2.0", "@backstage/plugin-search-backend-node@^1.3.17", "@backstage/plugin-search-backend-node@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-backend-node/-/plugin-search-backend-node-1.4.0.tgz#ec521591f58697fca79a8cd24192cc53d3fa0540"
   integrity sha512-zztPebLhqQ1aeOrbpSLeuwlSKowyQnTZGjmxMpGZGTU27CA5VBN9IJ+PwNocug3F221LGgvYwKr+XJOp53YjNQ==
