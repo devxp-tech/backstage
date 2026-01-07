@@ -7824,11 +7824,6 @@
   resolved "https://registry.yarnpkg.com/@redis/time-series/-/time-series-1.1.0.tgz#cba454c05ec201bd5547aaf55286d44682ac8eb5"
   integrity sha512-c1Q99M5ljsIuc4YdaCwfUEXsofakb9c8+Zse2qxTadu8TalLXuAESzLvFAvNVbkmSlvlzIQOLpBCmWI9wTOt+g==
 
-"@remix-run/router@1.23.1":
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.23.1.tgz#0ce8857b024e24fc427585316383ad9d295b3a7f"
-  integrity sha512-vDbaOzF7yT2Qs4vO6XV1MHcJv+3dgR1sT+l3B8xxOVhUC336prMvqrvsLL/9Dnw2xr6Qhz4J0dmS0llNAbnUmQ==
-
 "@repeaterjs/repeater@^3.0.4":
   version "3.0.5"
   resolved "https://registry.yarnpkg.com/@repeaterjs/repeater/-/repeater-3.0.5.tgz#b77571685410217a548a9c753aa3cdfc215bfc78"
@@ -11078,7 +11073,7 @@ apg-lite@^1.0.3, apg-lite@^1.0.4:
     history "^5.0.0"
     react "^19.1.0"
     react-dom "^18.2.0"
-    react-router "^6.3.0"
+    react-router "^7.11.0"
     react-router-dom "^7.6.1"
     react-use "^17.2.4"
 
@@ -23369,20 +23364,13 @@ react-router-dom@^7.6.1:
   dependencies:
     react-router "7.11.0"
 
-react-router@7.11.0:
+react-router@7.11.0, react-router@^7.11.0:
   version "7.11.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.11.0.tgz#d3b91567fdbe910caf9064ea69b7b4d9264f2945"
   integrity sha512-uI4JkMmjbWCZc01WVP2cH7ZfSzH91JAZUDd7/nIprDgWxBV1TkkmLToFh7EbMTcMak8URFRa2YoBL/W8GWnCTQ==
   dependencies:
     cookie "^1.0.1"
     set-cookie-parser "^2.6.0"
-
-react-router@^6.3.0:
-  version "6.30.2"
-  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.30.2.tgz#c78a3b40f7011f49a373b1df89492e7d4ec12359"
-  integrity sha512-H2Bm38Zu1bm8KUE5NVWRMzuIyAV8p/JrOaBJAwVmp37AXG72+CZJlEBw6pdn9i5TBgLMhNDgijS4ZlblpHyWTA==
-  dependencies:
-    "@remix-run/router" "1.23.1"
 
 react-side-effect@^2.1.0:
   version "2.1.2"
