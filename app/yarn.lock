@@ -7898,9 +7898,9 @@
     react-use "^17.2.4"
 
 "@roadiehq/backstage-plugin-github-insights@^3.0.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.4.0.tgz#74129cb72ee3fdf29a62f860f7bd36d9f69e3b96"
-  integrity sha512-txMKCQIQBUnqj1vpBaSPo+C9UTfEA7gXAWOFg3dGOSQEQLrH3w8U/P3qNFy1r2sf20v0gU30uhxjta6RKb3apA==
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-insights/-/backstage-plugin-github-insights-3.4.1.tgz#b8bb64e7ea57915202ddaeb225c75338d062f608"
+  integrity sha512-liuT0yFtAQcujVzBkS1fEbG+biJ6emq97jK1S39UPAtSX3C8msol6ugt0f/AbNajbwm5Eozm+7ZP9fyLLWj+hQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
     "@backstage/core-compat-api" "^0.5.3"
@@ -7917,7 +7917,7 @@
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
     "@roadiehq/github-auth-utils-react" "^1.2.0"
-    git-url-parse "^14.0.0"
+    git-url-parse "^16.1.0"
     immer "9.0.7"
     react-use "^17.2.4"
     zustand "3.6.9"
@@ -16273,10 +16273,10 @@ git-up@^7.0.0:
     is-ssh "^1.4.0"
     parse-url "^8.1.0"
 
-git-up@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/git-up/-/git-up-8.0.0.tgz#674d398f95c4f70b4193f3f3d87c73cf28c2bee1"
-  integrity sha512-uBI8Zdt1OZlrYfGcSVroLJKgyNNXlgusYFzHk614lTasz35yg2PVpL1RMy0LOO2dcvF9msYW3pRfUSmafZNrjg==
+git-up@^8.1.0:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/git-up/-/git-up-8.1.1.tgz#06262adadb89a4a614d2922d803a0eda054be8c5"
+  integrity sha512-FDenSF3fVqBYSaJoYy1KSc2wosx0gCvKP+c+PRBht7cAaiCeQlBtfBDX9vgnNOHmdePlSFITVcn4pFfcgNvx3g==
   dependencies:
     is-ssh "^1.4.0"
     parse-url "^9.2.0"
@@ -16295,12 +16295,12 @@ git-url-parse@^15.0.0:
   dependencies:
     git-up "^7.0.0"
 
-git-url-parse@^16.0.0:
-  version "16.0.0"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-16.0.0.tgz#04dcc54197ad9aa2c92795b32be541d217c11f70"
-  integrity sha512-Y8iAF0AmCaqXc6a5GYgPQW9ESbncNLOL+CeQAJRhmWUOmnPkKpBYeWYp4mFd3LA5j53CdGDdslzX12yEBVHQQg==
+git-url-parse@^16.0.0, git-url-parse@^16.1.0:
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-16.1.0.tgz#3bb6f378a2ba2903c4d8b1cdec004aa85a7ab66f"
+  integrity sha512-cPLz4HuK86wClEW7iDdeAKcCVlWXmrLpb2L+G9goW0Z1dtpNS6BXXSOckUTlJT/LDQViE1QZKstNORzHsLnobw==
   dependencies:
-    git-up "^8.0.0"
+    git-up "^8.1.0"
 
 gitconfiglocal@^1.0.0:
   version "1.0.0"
