@@ -7966,9 +7966,9 @@
     recharts "^1.8.5"
 
 "@roadiehq/backstage-plugin-security-insights@^3.0.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.3.0.tgz#1640c600c65d0b335a560799dc7beb673be65937"
-  integrity sha512-z46t92EzQsWvSkGv3AKnHWQ0y1UTyVQHhov87dxDVWjvCGt7hv/tjezVJsONBk4jzOx6TxXZbrTNi16hRzdefw==
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-security-insights/-/backstage-plugin-security-insights-3.3.1.tgz#c8bed1662965a815ff4ebee37fe7376a81a78b73"
+  integrity sha512-iygZil/+U0DLQrh3qpf5iBGZwYizmGUtVOsZrU12ESRKLkS1X0iAqKtzMrNAkViK+zoAq4z5nyZjiz3+kyCRoA==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
     "@backstage/core-components" "^0.18.2"
@@ -7982,7 +7982,7 @@
     "@octokit/rest" "^19.0.3"
     "@roadiehq/github-auth-utils-react" "^1.2.0"
     cross-fetch "^3.1.4"
-    git-url-parse "^16.0.0"
+    git-url-parse "^16.1.0"
     luxon "^3.0.0"
     react-use "^17.2.4"
 
@@ -16295,7 +16295,7 @@ git-url-parse@^15.0.0:
   dependencies:
     git-up "^7.0.0"
 
-git-url-parse@^16.0.0, git-url-parse@^16.1.0:
+git-url-parse@^16.1.0:
   version "16.1.0"
   resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-16.1.0.tgz#3bb6f378a2ba2903c4d8b1cdec004aa85a7ab66f"
   integrity sha512-cPLz4HuK86wClEW7iDdeAKcCVlWXmrLpb2L+G9goW0Z1dtpNS6BXXSOckUTlJT/LDQViE1QZKstNORzHsLnobw==
