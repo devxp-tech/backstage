@@ -7923,9 +7923,9 @@
     zustand "3.6.9"
 
 "@roadiehq/backstage-plugin-github-pull-requests@^3.0.0":
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.6.1.tgz#4518240c2669f211a06f4ed1c9305e92b658bdc4"
-  integrity sha512-L8ZjfK0Kq9ifNS4ohvdyhqmXGqlLxPUwneegfCG7vNGse4/ZxGjNia0eg22ALGSC7lLb0tr7YcG1sxv2CWSgbQ==
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/@roadiehq/backstage-plugin-github-pull-requests/-/backstage-plugin-github-pull-requests-3.6.2.tgz#2a8287bf81846a876b153bdc0d8ca881a17c2a44"
+  integrity sha512-sxUZH0if8vQ08w1ddeXuKL4/oBFgigb9O+7J+dqbczROj7f7QH0SGx/zQrbzM1t2Zqjzoivz0WySJ4gG2zwsGg==
   dependencies:
     "@backstage/catalog-model" "^1.7.5"
     "@backstage/core-components" "^0.18.2"
@@ -7940,7 +7940,7 @@
     "@octokit/rest" "^19.0.3"
     "@octokit/types" "^9.0.0"
     "@roadiehq/github-auth-utils-react" "^1.2.0"
-    git-url-parse "^14.0.0"
+    git-url-parse "^16.1.0"
     lodash "^4.17.21"
     luxon "^3.0.0"
     react-use "^17.2.4"
