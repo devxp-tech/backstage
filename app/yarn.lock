@@ -4070,9 +4070,9 @@
     uuid "^11.0.2"
 
 "@backstage/plugin-search@^1.2.0":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.5.1.tgz#15d5a7938b50f6c47bac0c3013f38767a1f1b25f"
-  integrity sha512-hiwbMhAgQlFRYWzI3+CRuhVQzhMMZZXwhU+JXBclv+6V6ViYRPvX3TWqaABgL8Y0qTy4KxNbHlCnl2XuWdsb/g==
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.5.2.tgz#7580bf299e16184d7e2c4bc83ed020cdb340a389"
+  integrity sha512-gCalVR6baZSnrjGjFmRKKt1Ngcfqd9UcaG5RawtCHVWNgPOcu0101bbLijHN2zbSZCgQ9Stf+YDtTiuf9MtSLQ==
   dependencies:
     "@backstage/core-components" "^0.18.4"
     "@backstage/core-plugin-api" "^1.12.1"
@@ -22872,14 +22872,7 @@ qs@6.13.0:
   dependencies:
     side-channel "^1.0.6"
 
-qs@^6.10.1, qs@^6.10.3, qs@^6.11.2, qs@^6.12.2, qs@^6.12.3, qs@^6.14.0, qs@^6.9.4, qs@~6.14.0:
-  version "6.14.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.14.0.tgz#c63fa40680d2c5c941412a0e899c89af60c0a930"
-  integrity sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==
-  dependencies:
-    side-channel "^1.1.0"
-
-qs@~6.14.1:
+qs@^6.10.1, qs@^6.10.3, qs@^6.11.2, qs@^6.12.2, qs@^6.12.3, qs@^6.14.0, qs@^6.9.4, qs@~6.14.0, qs@~6.14.1:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.14.1.tgz#a41d85b9d3902f31d27861790506294881871159"
   integrity sha512-4EK3+xJl8Ts67nLYNwqw/dsFVnCf+qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M+SnMjdtXGQQ==
