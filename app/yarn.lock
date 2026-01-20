@@ -3215,14 +3215,14 @@
     cross-fetch "^4.0.0"
 
 "@backstage/plugin-catalog-backend-module-github@^0.12.0":
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.12.0.tgz#a7cabd48fd3b73d56f7f9a274a66fa3bd4e3405f"
-  integrity sha512-2x88Umk0vcheYjzvWDIK8LbuvqPUmCR9qHlC/VDF59emrdvEmhSQb+I8MiwkuI2salF7DvTVk0HgRus5D6nJbQ==
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.12.1.tgz#1413f187c0475727e97cbb6685245e0957fbe0b1"
+  integrity sha512-kfRJyPpSZ/yG5i9gO8LfEvlRk7bqxcIBeS0rSRGRpDzwySEWqU8eLiQl3WPvjVZrR0rJoG/mq0yefqu6BDCj4w==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.6.0"
+    "@backstage/backend-plugin-api" "^1.6.1"
     "@backstage/catalog-model" "^1.7.6"
     "@backstage/config" "^1.3.6"
-    "@backstage/integration" "^1.19.0"
+    "@backstage/integration" "^1.19.2"
     "@backstage/plugin-catalog-common" "^1.1.7"
     "@backstage/plugin-catalog-node" "^1.20.1"
     "@backstage/plugin-events-node" "^0.4.18"
