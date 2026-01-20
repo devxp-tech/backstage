@@ -3606,9 +3606,9 @@
     zod-to-json-schema "^3.20.4"
 
 "@backstage/plugin-permission-common@^0.9.0", "@backstage/plugin-permission-common@^0.9.3":
-  version "0.9.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.9.3.tgz#b2da01483b5934b54fa1aba2f300e19828dd7882"
-  integrity sha512-QB9HtU4DlKyWaQFJvwiiURej1GYeMn4fB38lsVmvHuFTxraMIwEgoHjSjzdCFBBItrOUl4FILaaIZBtJGei9vA==
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-permission-common/-/plugin-permission-common-0.9.4.tgz#a8ddb1dcbed8f90046ba0305dff8c18b1758f586"
+  integrity sha512-TOXY9Y45SUHLdmGyRm6RIvx0RSvmaUg/YA0htaaEqKSPwzI+g/vOLIrXNbAyIVUaL0CrveOv8GBjBW8Xolodpw==
   dependencies:
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
@@ -3616,7 +3616,7 @@
     cross-fetch "^4.0.0"
     uuid "^11.0.0"
     zod "^3.22.4"
-    zod-to-json-schema "^3.20.4"
+    zod-to-json-schema "^3.25.1"
 
 "@backstage/plugin-permission-node@^0.10.0", "@backstage/plugin-permission-node@^0.10.7":
   version "0.10.7"
@@ -27489,10 +27489,10 @@ zip-stream@^6.0.1:
     compress-commons "^6.0.2"
     readable-stream "^4.0.0"
 
-zod-to-json-schema@^3.20.4, zod-to-json-schema@^3.21.4:
-  version "3.21.4"
-  resolved "https://registry.yarnpkg.com/zod-to-json-schema/-/zod-to-json-schema-3.21.4.tgz#de97c5b6d4a25e9d444618486cb55c0c7fb949fd"
-  integrity sha512-fjUZh4nQ1s6HMccgIeE0VP4QG/YRGPmyjO9sAh890aQKPEk3nqbfUXhMFaC+Dr5KvYBm8BCyvfpZf2jY9aGSsw==
+zod-to-json-schema@^3.20.4, zod-to-json-schema@^3.21.4, zod-to-json-schema@^3.25.1:
+  version "3.25.1"
+  resolved "https://registry.yarnpkg.com/zod-to-json-schema/-/zod-to-json-schema-3.25.1.tgz#7f24962101a439ddade2bf1aeab3c3bfec7d84ba"
+  integrity sha512-pM/SU9d3YAggzi6MtR4h7ruuQlqKtad8e9S0fmxcMi+ueAK5Korys/aWcV9LIIHTVbj01NdzxcnXSN+O74ZIVA==
 
 zod-validation-error@^3.4.0:
   version "3.4.0"
