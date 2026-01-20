@@ -4062,7 +4062,7 @@
     "@backstage/plugin-permission-common" "^0.9.3"
     "@backstage/types" "^1.2.2"
 
-"@backstage/plugin-search-react@^1.10.1", "@backstage/plugin-search-react@^1.10.2", "@backstage/plugin-search-react@^1.5.2":
+"@backstage/plugin-search-react@^1.10.2", "@backstage/plugin-search-react@^1.5.2":
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.10.2.tgz#32088646a8f864471d9e06e018f8573a9fd4111f"
   integrity sha512-FdtxYrzNQ+INvIoryKvtENH9WU+ach5b54GcLqx5UKP6nJxw+qLxt6DlayXEaH+yy6wM1Dmw9gP4RrGt2DKnmQ==
@@ -4336,17 +4336,17 @@
   integrity sha512-1zLm0746Oay5SaT6B/ydrMzMxQQO0G415T9IAo8np0nbwkFQM69VtXYDz6J0S0oZMkfPqlpV7mIJyrJrPZdjxQ==
 
 "@backstage/plugin-user-settings@^0.8.0":
-  version "0.8.30"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.30.tgz#377311274ca0a6a75d678c213527e0f04c7ee675"
-  integrity sha512-Z51+dR4R2uaqmOtPIUu9WY678jjy5TAgpb0FPXNkO5o10ufUTVoRoE24VFCVgoABGqzUtM3ruYsJMowzDvrDAg==
+  version "0.8.31"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.8.31.tgz#f0feafcb9369c7b4344c75d00fdfc7225c842d5a"
+  integrity sha512-tWQPysjLTQDqmvVC5WVsEy0kFBzu224T3iR2POcqdl4YSCEjzgwTyQ6XPTgkz1f6o9VHpxef3Kh8CjGOl0m3ng==
   dependencies:
     "@backstage/catalog-model" "^1.7.6"
     "@backstage/core-app-api" "^1.19.3"
-    "@backstage/core-components" "^0.18.4"
+    "@backstage/core-components" "^0.18.5"
     "@backstage/core-plugin-api" "^1.12.1"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.13.2"
-    "@backstage/plugin-catalog-react" "^1.21.4"
+    "@backstage/frontend-plugin-api" "^0.13.3"
+    "@backstage/plugin-catalog-react" "^1.21.5"
     "@backstage/plugin-signals-react" "^0.0.18"
     "@backstage/plugin-user-settings-common" "^0.0.1"
     "@backstage/theme" "^0.7.1"
