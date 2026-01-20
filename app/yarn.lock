@@ -3531,13 +3531,13 @@
     node-fetch "^2.7.0"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.5.14":
-  version "0.5.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.14.tgz#505ff70fada7cc164638c2b32672e1e357aa5d11"
-  integrity sha512-TcozkNgfCbCWezakiryePCeCtwd0coVCgJd65fhJ3eW4MgC1bR5QLFzrX11WJIOWo+XYyjkpGhS3k/ypsFwiYQ==
+"@backstage/plugin-kubernetes-react@^0.5.15":
+  version "0.5.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.15.tgz#42364024f026c0eb1a3cf4c95ef2c40b6dbb0fb0"
+  integrity sha512-bI3D6tCHLmNa8gt9MooDqZzfpRPQS8frEOoIYffI0vKLPn/Fv3rNkxIOX/bSe5u6uPn9elK/Jmnb4Fn1PWO5OQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.6"
-    "@backstage/core-components" "^0.18.4"
+    "@backstage/core-components" "^0.18.5"
     "@backstage/core-plugin-api" "^1.12.1"
     "@backstage/errors" "^1.2.7"
     "@backstage/plugin-kubernetes-common" "^0.9.9"
@@ -3559,17 +3559,17 @@
     react-use "^17.4.0"
 
 "@backstage/plugin-kubernetes@^0.12.0":
-  version "0.12.14"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.14.tgz#e57f8c822065241ee8b4c2f429feff956eaca293"
-  integrity sha512-EeGjoWeBd/eZ++uVIioGXcq2ww8uNDw5V1rId7p0zY5PD4qtCEYN76jTtYObnOPuBDjNl4CLunSE5ZqFI/xwvg==
+  version "0.12.15"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.15.tgz#73953753118bf637a20cfe9fcdbae8fdd7f7b49d"
+  integrity sha512-zAatZ7d0Ee7GMIjF03O+HyJVHrP3gQZR8enZYZMjY8uBdo4TwMIYxn+B+KLvXm/XP0tNnkDk4qeaagSUX+0kWQ==
   dependencies:
     "@backstage/catalog-model" "^1.7.6"
-    "@backstage/core-components" "^0.18.4"
+    "@backstage/core-components" "^0.18.5"
     "@backstage/core-plugin-api" "^1.12.1"
-    "@backstage/frontend-plugin-api" "^0.13.2"
-    "@backstage/plugin-catalog-react" "^1.21.4"
+    "@backstage/frontend-plugin-api" "^0.13.3"
+    "@backstage/plugin-catalog-react" "^1.21.5"
     "@backstage/plugin-kubernetes-common" "^0.9.9"
-    "@backstage/plugin-kubernetes-react" "^0.5.14"
+    "@backstage/plugin-kubernetes-react" "^0.5.15"
     "@backstage/plugin-permission-react" "^0.4.39"
     "@material-ui/core" "^4.12.2"
 
