@@ -2987,7 +2987,7 @@
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
 
-"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.11", "@backstage/integration-react@^1.2.13", "@backstage/integration-react@^1.2.14":
+"@backstage/integration-react@^1.1.12", "@backstage/integration-react@^1.1.26", "@backstage/integration-react@^1.2.11", "@backstage/integration-react@^1.2.14":
   version "1.2.14"
   resolved "https://registry.yarnpkg.com/@backstage/integration-react/-/integration-react-1.2.14.tgz#7298809a0c396b34ea1e90f701c718cb900800be"
   integrity sha512-DX2kXDdOCWbkhoyDplyYygBKGOIzcYlnvAkeFiG6VaaoNTz4mgAlpO0LPcT/5z3vcRSF/SxlQZGVhs++GgN2kw==
@@ -2998,7 +2998,7 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.18.1", "@backstage/integration@^1.19.0", "@backstage/integration@^1.19.2":
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.18.1", "@backstage/integration@^1.19.2":
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.19.2.tgz#a68dd9c015dfbbeaab366e1c7d5c49cd2afc7062"
   integrity sha512-7Ct7vBEN6vBDdPOn3Oy9z8VV0mWZvXsW89vOEHWdtZ+TqirPpqhkTMU9vKBg9MROEmuy+rJQfuwz8yQIAojM8Q==
@@ -3867,7 +3867,7 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.25.1"
 
-"@backstage/plugin-scaffolder-common@^1.7.4", "@backstage/plugin-scaffolder-common@^1.7.5":
+"@backstage/plugin-scaffolder-common@^1.7.5":
   version "1.7.5"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-common/-/plugin-scaffolder-common-1.7.5.tgz#4d7d9269f1a783ce9ab78b2c2b93876363bba7fb"
   integrity sha512-9XGQRoMiRdzvx3bXjFQlrBZFsxgSD5gqtzljzPMipoiAlJDUebUpnIvqd/QKifDRlo6CNwKCaRjdyabERqxczA==
@@ -3910,19 +3910,19 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.25.1"
 
-"@backstage/plugin-scaffolder-react@^1.19.4":
-  version "1.19.4"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.19.4.tgz#0b0a4ad5e8bcfc2ae1113a0715d2e58f40102c2b"
-  integrity sha512-TrJO3wrdtmJ49t5aPBqbQ0hUV3Y1mjr68Manal0DPiR83QMmdYG2xWKSZy8pDVypnyujvQBeENFxv7/jsAcxSg==
+"@backstage/plugin-scaffolder-react@^1.19.5":
+  version "1.19.5"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-react/-/plugin-scaffolder-react-1.19.5.tgz#38c7cde1848855620ffe6cdb6b3b251faba8c91d"
+  integrity sha512-2k43a7Teq+cd2ccRLSQX42hFaInKo9sXTo+6yixya7rs0RscQIVlq7OVV2F2EzeoLJ/NUOqqEoepC2jR68xWVw==
   dependencies:
     "@backstage/catalog-client" "^1.12.1"
     "@backstage/catalog-model" "^1.7.6"
-    "@backstage/core-components" "^0.18.4"
+    "@backstage/core-components" "^0.18.5"
     "@backstage/core-plugin-api" "^1.12.1"
-    "@backstage/frontend-plugin-api" "^0.13.2"
-    "@backstage/plugin-catalog-react" "^1.21.4"
+    "@backstage/frontend-plugin-api" "^0.13.3"
+    "@backstage/plugin-catalog-react" "^1.21.5"
     "@backstage/plugin-permission-react" "^0.4.39"
-    "@backstage/plugin-scaffolder-common" "^1.7.4"
+    "@backstage/plugin-scaffolder-common" "^1.7.5"
     "@backstage/theme" "^0.7.1"
     "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.11"
@@ -3950,28 +3950,28 @@
     use-immer "^0.11.0"
     zen-observable "^0.10.0"
     zod "^3.22.4"
-    zod-to-json-schema "^3.20.4"
+    zod-to-json-schema "^3.25.1"
 
 "@backstage/plugin-scaffolder@^1.13.0":
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.35.0.tgz#93c67188fb141512fc48a063394356252a7e3309"
-  integrity sha512-LyGLv08NpbvjfjcYzzK8KenqD1CC/Rwe3vnAreuUGlX4SeBsFlPTOpJSgy+pR9cdMCSzFI8EALDc+/PanfineQ==
+  version "1.35.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder/-/plugin-scaffolder-1.35.1.tgz#7e3b43393b9261d981d6e3dea3f993b7a64fb9de"
+  integrity sha512-jDxS8eXOLLMnQq0bodhgcKVin58ot55K6riilfRbgRlWJCAVm//FPXlvpt1LEbzl70pJ0X3mnRGk2LJWtHuuaQ==
   dependencies:
     "@backstage/catalog-client" "^1.12.1"
     "@backstage/catalog-model" "^1.7.6"
-    "@backstage/core-components" "^0.18.4"
+    "@backstage/core-components" "^0.18.5"
     "@backstage/core-plugin-api" "^1.12.1"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.13.2"
-    "@backstage/integration" "^1.19.0"
-    "@backstage/integration-react" "^1.2.13"
+    "@backstage/frontend-plugin-api" "^0.13.3"
+    "@backstage/integration" "^1.19.2"
+    "@backstage/integration-react" "^1.2.14"
     "@backstage/plugin-catalog-common" "^1.1.7"
-    "@backstage/plugin-catalog-react" "^1.21.4"
+    "@backstage/plugin-catalog-react" "^1.21.5"
     "@backstage/plugin-permission-react" "^0.4.39"
-    "@backstage/plugin-scaffolder-common" "^1.7.4"
-    "@backstage/plugin-scaffolder-react" "^1.19.4"
+    "@backstage/plugin-scaffolder-common" "^1.7.5"
+    "@backstage/plugin-scaffolder-react" "^1.19.5"
     "@backstage/plugin-techdocs-common" "^0.1.1"
-    "@backstage/plugin-techdocs-react" "^1.3.6"
+    "@backstage/plugin-techdocs-react" "^1.3.7"
     "@backstage/types" "^1.2.2"
     "@codemirror/language" "^6.0.0"
     "@codemirror/legacy-modes" "^6.1.0"
@@ -4001,7 +4001,7 @@
     react-window "^1.8.10"
     yaml "^2.0.0"
     zod "^3.22.4"
-    zod-to-json-schema "^3.20.4"
+    zod-to-json-schema "^3.25.1"
 
 "@backstage/plugin-search-backend-module-pg@^0.5.5":
   version "0.5.51"
@@ -4247,7 +4247,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.6", "@backstage/plugin-techdocs-react@^1.3.7":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.7":
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.7.tgz#5c4b57a275f2fb6105a7b3ad442e5bde58085248"
   integrity sha512-7kQLqVCuFomPWTY3PntBAPWvxMeBOTQO6Rga7Dbc7ENBzqmdhodcs82RT5UNuwqhG4taNhyg2FVJZDpJceEjLw==
