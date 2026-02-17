@@ -2811,7 +2811,7 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-components@^0.18.2", "@backstage/core-components@^0.18.4", "@backstage/core-components@^0.18.5", "@backstage/core-components@^0.18.6":
+"@backstage/core-components@^0.18.2", "@backstage/core-components@^0.18.4", "@backstage/core-components@^0.18.5", "@backstage/core-components@^0.18.6", "@backstage/core-components@^0.18.7":
   version "0.18.7"
   resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.18.7.tgz#c82bd953f70e77dda3e70409cb357c56d84aac27"
   integrity sha512-oyIooPWylFTwJI2DsaaTVbcHSs9OYMxdUGQwbwq3qtAA1AEn6fq1pu+8kWovULEu+okjOpekLp6N26gZMIsbJg==
@@ -4132,17 +4132,17 @@
     "@backstage/types" "^1.2.2"
 
 "@backstage/plugin-search-react@^1.10.2", "@backstage/plugin-search-react@^1.5.2":
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.10.2.tgz#32088646a8f864471d9e06e018f8573a9fd4111f"
-  integrity sha512-FdtxYrzNQ+INvIoryKvtENH9WU+ach5b54GcLqx5UKP6nJxw+qLxt6DlayXEaH+yy6wM1Dmw9gP4RrGt2DKnmQ==
+  version "1.10.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search-react/-/plugin-search-react-1.10.3.tgz#6178f2ea355760b45869d85661648a8471969b73"
+  integrity sha512-dG8XGXZp9v3z+FwqP2r+hJdiPyVkb2cIs/wvfDS8L9aE22ZmAATuj9EOlHw00YOSHJI+QugrwMwMgQGnyFiCew==
   dependencies:
-    "@backstage/core-components" "^0.18.5"
-    "@backstage/core-plugin-api" "^1.12.1"
-    "@backstage/frontend-plugin-api" "^0.13.3"
-    "@backstage/plugin-search-common" "^1.2.21"
-    "@backstage/theme" "^0.7.1"
+    "@backstage/core-components" "^0.18.7"
+    "@backstage/core-plugin-api" "^1.12.3"
+    "@backstage/frontend-plugin-api" "^0.14.0"
+    "@backstage/plugin-search-common" "^1.2.22"
+    "@backstage/theme" "^0.7.2"
     "@backstage/types" "^1.2.2"
-    "@backstage/version-bridge" "^1.0.11"
+    "@backstage/version-bridge" "^1.0.12"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
