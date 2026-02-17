@@ -4369,16 +4369,16 @@
   integrity sha512-MWYW1uVweSJQkI9it2g0xM/4YfykS0GzIlbA3D9YawQIfqQ7UCdsblKHt2Xb3eWLrk+itWrp4IXbW2bUa02DyA==
 
 "@backstage/plugin-techdocs-module-addons-contrib@^1.0.12":
-  version "1.1.32"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.32.tgz#56b08fe0711367b21e9fbc1491a3750b528b6c2f"
-  integrity sha512-39t0lEKg5v7LF4rVUZxA4YeogSOsNyJCcUXa1/FcYXrfp4iGGpT0hsN1tpiX5qzrJO6y8saY9G+JOfSwtikIkg==
+  version "1.1.33"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-module-addons-contrib/-/plugin-techdocs-module-addons-contrib-1.1.33.tgz#de72dd9cd5e55cabef0a3b7e6395514acf5a125b"
+  integrity sha512-OOAVlnW4c1t73InFZWb/ezk5Z29vvU8EmN9USD8dqExtGBdJNC4zRpagbMrHrg+/jdD0lBaNH3ltPDoWgYGPWQ==
   dependencies:
-    "@backstage/core-components" "^0.18.5"
-    "@backstage/core-plugin-api" "^1.12.1"
-    "@backstage/frontend-plugin-api" "^0.13.3"
-    "@backstage/integration" "^1.19.2"
-    "@backstage/integration-react" "^1.2.14"
-    "@backstage/plugin-techdocs-react" "^1.3.7"
+    "@backstage/core-components" "^0.18.7"
+    "@backstage/core-plugin-api" "^1.12.3"
+    "@backstage/frontend-plugin-api" "^0.14.0"
+    "@backstage/integration" "^1.20.0"
+    "@backstage/integration-react" "^1.2.15"
+    "@backstage/plugin-techdocs-react" "^1.3.8"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@react-hookz/web" "^24.0.0"
@@ -4420,26 +4420,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.7":
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.7.tgz#5c4b57a275f2fb6105a7b3ad442e5bde58085248"
-  integrity sha512-7kQLqVCuFomPWTY3PntBAPWvxMeBOTQO6Rga7Dbc7ENBzqmdhodcs82RT5UNuwqhG4taNhyg2FVJZDpJceEjLw==
-  dependencies:
-    "@backstage/catalog-model" "^1.7.6"
-    "@backstage/config" "^1.3.6"
-    "@backstage/core-components" "^0.18.5"
-    "@backstage/core-plugin-api" "^1.12.1"
-    "@backstage/frontend-plugin-api" "^0.13.3"
-    "@backstage/plugin-techdocs-common" "^0.1.1"
-    "@backstage/version-bridge" "^1.0.11"
-    "@material-ui/core" "^4.12.2"
-    "@material-ui/styles" "^4.11.0"
-    jss "~10.10.0"
-    lodash "^4.17.21"
-    react-helmet "6.1.0"
-    react-use "^17.2.4"
-
-"@backstage/plugin-techdocs-react@^1.3.8":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.7", "@backstage/plugin-techdocs-react@^1.3.8":
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.8.tgz#5f7c42c663d46ddd9c7cdf6e0ae55771f71bce5c"
   integrity sha512-8GkEwEnckWoD6wwCCdpNcnQ5C3/dIbeiwyk117n20HdffHO4ajT32paqDtPpcxe/5IRthh9qpOgnoEVg0/JrEA==
