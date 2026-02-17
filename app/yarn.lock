@@ -4226,19 +4226,19 @@
     uuid "^11.0.2"
 
 "@backstage/plugin-search@^1.2.0":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.5.3.tgz#8070197851c2382a76c4b62e3f0505f1e775ce2b"
-  integrity sha512-tepreTliEYErmz5NRo4W1Z+DVK+vvHqSzQXZ9DhwxhwRiVoi6U64K8KMSa6c4SvNwSf7hQMOfsCC8j+rDpVelQ==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-search/-/plugin-search-1.6.0.tgz#4727240c60aa65cba51fe4b60e24d1b891698db7"
+  integrity sha512-zqVyGgwyqp93TTVRDAGzWbDWWKWjazob0tz7na1w8WFFVMswLKoSAY+GKmqp8WkVY9menvJkZP696Al7QbmL9g==
   dependencies:
-    "@backstage/core-components" "^0.18.5"
-    "@backstage/core-plugin-api" "^1.12.1"
+    "@backstage/core-components" "^0.18.7"
+    "@backstage/core-plugin-api" "^1.12.3"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.13.3"
-    "@backstage/plugin-catalog-react" "^1.21.5"
-    "@backstage/plugin-search-common" "^1.2.21"
-    "@backstage/plugin-search-react" "^1.10.2"
+    "@backstage/frontend-plugin-api" "^0.14.0"
+    "@backstage/plugin-catalog-react" "^2.0.0"
+    "@backstage/plugin-search-common" "^1.2.22"
+    "@backstage/plugin-search-react" "^1.10.3"
     "@backstage/types" "^1.2.2"
-    "@backstage/version-bridge" "^1.0.11"
+    "@backstage/version-bridge" "^1.0.12"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     qs "^6.9.4"
