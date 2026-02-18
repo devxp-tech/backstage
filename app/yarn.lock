@@ -3175,24 +3175,29 @@
     cross-fetch "^4.0.0"
 
 "@backstage/plugin-catalog-backend-module-github@^0.12.0":
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.12.1.tgz#1413f187c0475727e97cbb6685245e0957fbe0b1"
-  integrity sha512-kfRJyPpSZ/yG5i9gO8LfEvlRk7bqxcIBeS0rSRGRpDzwySEWqU8eLiQl3WPvjVZrR0rJoG/mq0yefqu6BDCj4w==
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-backend-module-github/-/plugin-catalog-backend-module-github-0.12.2.tgz#b068462e6d514f690acb95bbec59ee21e1c99ce5"
+  integrity sha512-vk8vQCEMQ6AmO792knImLhrhkkuaq/gtvQSe53Ne556cDJA5/OclrkaOvls63wb0Lqb5u/aEJJl0iJkmV6cD7g==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.6.1"
+    "@backstage/backend-plugin-api" "^1.7.0"
     "@backstage/catalog-model" "^1.7.6"
     "@backstage/config" "^1.3.6"
-    "@backstage/integration" "^1.19.2"
-    "@backstage/plugin-catalog-common" "^1.1.7"
-    "@backstage/plugin-catalog-node" "^1.20.1"
-    "@backstage/plugin-events-node" "^0.4.18"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/integration" "^1.20.0"
+    "@backstage/plugin-catalog-common" "^1.1.8"
+    "@backstage/plugin-catalog-node" "^2.0.0"
+    "@backstage/plugin-events-node" "^0.4.19"
+    "@backstage/types" "^1.2.2"
+    "@octokit/auth-callback" "^5.0.0"
     "@octokit/core" "^5.2.0"
     "@octokit/graphql" "^7.0.2"
     "@octokit/plugin-throttling" "^8.1.3"
     "@octokit/rest" "^19.0.3"
+    "@octokit/webhooks-types" "^7.6.1"
     git-url-parse "^15.0.0"
     lodash "^4.17.21"
     minimatch "^9.0.0"
+    octokit "^3.0.0"
     uuid "^11.0.0"
 
 "@backstage/plugin-catalog-backend-module-scaffolder-entity-model@^0.2.17":
@@ -7031,6 +7036,11 @@
     universal-github-app-jwt "^1.1.2"
     universal-user-agent "^6.0.0"
 
+"@octokit/auth-callback@^5.0.0":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@octokit/auth-callback/-/auth-callback-5.0.1.tgz#56ea9e1f76d46d4e78c9598381a93d34f22bf44d"
+  integrity sha512-rT7A8hxCX49loNL66OD6SZDMv9Te0CkTewxUGC110diBsPZuiUmdww4LM6mY0VISu7y9b5D4IWzsZetFglmIew==
+
 "@octokit/auth-oauth-app@^5.0.0":
   version "5.0.5"
   resolved "https://registry.yarnpkg.com/@octokit/auth-oauth-app/-/auth-oauth-app-5.0.5.tgz#be2a93d72835133b4866ac4721aa628849475525"
@@ -7450,6 +7460,11 @@
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@octokit/webhooks-types/-/webhooks-types-7.1.0.tgz#d533dea253416e02dd6c2bfab25e533295bd5d3f"
   integrity sha512-y92CpG4kFFtBBjni8LHoV12IegJ+KFxLgKRengrVjKmGE5XMeCuGvlfRe75lTRrgXaG6XIWJlFpIDTlkoJsU8w==
+
+"@octokit/webhooks-types@^7.6.1":
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/@octokit/webhooks-types/-/webhooks-types-7.6.1.tgz#bc96371057c2d54c982c9f8f642655b26cd588eb"
+  integrity sha512-S8u2cJzklBC0FgTwWVLaM8tMrDuDMVE4xiTK4EYXM9GntyvrdbSoxqDQa+Fh57CCNApyIpyeqPhhFEmHPfrXgw==
 
 "@octokit/webhooks@^10.9.2":
   version "10.9.2"
