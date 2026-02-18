@@ -2704,20 +2704,7 @@
     "@types/react" "^16.13.1 || ^17.0.0"
     lodash "^4.17.21"
 
-"@backstage/core-compat-api@^0.5.3", "@backstage/core-compat-api@^0.5.7":
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.5.7.tgz#fdc3779fdd407d6de823ebd24a0dc7edfc747f1e"
-  integrity sha512-Ck4OGL2FCgMvp/HEPNHxty3ADbCfyOWVMv7/smxGFskOB1GRv3bxtT4MkfITk9U7jrpYbL8plx08BsQ2dstL3A==
-  dependencies:
-    "@backstage/core-plugin-api" "^1.12.2"
-    "@backstage/frontend-plugin-api" "^0.13.4"
-    "@backstage/plugin-catalog-react" "^1.21.6"
-    "@backstage/types" "^1.2.2"
-    "@backstage/version-bridge" "^1.0.11"
-    lodash "^4.17.21"
-    zod "^3.25.76"
-
-"@backstage/core-compat-api@^0.5.8":
+"@backstage/core-compat-api@^0.5.3", "@backstage/core-compat-api@^0.5.7", "@backstage/core-compat-api@^0.5.8":
   version "0.5.8"
   resolved "https://registry.yarnpkg.com/@backstage/core-compat-api/-/core-compat-api-0.5.8.tgz#41ec346e6ae6c86dd21ea92fb482bc05785a540e"
   integrity sha512-GWqoQHZc0/bcqJcC1AYkYeKXLhAq43AeLwGwPfhkDgZKsFLJwn09hRjy22LNKaGDN+AXGbUzmuem6cDBmDxxHA==
@@ -3451,7 +3438,7 @@
     lodash "^4.17.21"
     yaml "^2.0.0"
 
-"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.21.2", "@backstage/plugin-catalog-react@^1.21.5", "@backstage/plugin-catalog-react@^1.21.6", "@backstage/plugin-catalog-react@^1.4.0", "@backstage/plugin-catalog-react@^1.5.0":
+"@backstage/plugin-catalog-react@^1.11.3", "@backstage/plugin-catalog-react@^1.21.2", "@backstage/plugin-catalog-react@^1.21.5", "@backstage/plugin-catalog-react@^1.4.0":
   version "1.21.6"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-catalog-react/-/plugin-catalog-react-1.21.6.tgz#bd9cf0816d8c3596acdea0a67a190a1af4675895"
   integrity sha512-miWlG4f+7PUiSB3FDL66ss3k92VAMIBlxbGjXziSVdqcf4bYuG+9hqOkXvetFkrInMe65gX7tNb9YL5dThTw3A==
@@ -4372,7 +4359,7 @@
     recursive-readdir "^2.2.2"
     winston "^3.2.1"
 
-"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.7", "@backstage/plugin-techdocs-react@^1.3.8":
+"@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.8":
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.8.tgz#5f7c42c663d46ddd9c7cdf6e0ae55771f71bce5c"
   integrity sha512-8GkEwEnckWoD6wwCCdpNcnQ5C3/dIbeiwyk117n20HdffHO4ajT32paqDtPpcxe/5IRthh9qpOgnoEVg0/JrEA==
@@ -12504,7 +12491,7 @@ apg-lite@^1.0.3, apg-lite@^1.0.4:
     "@backstage/plugin-catalog-common" "^1.0.13"
     "@backstage/plugin-catalog-graph" "^0.5.2"
     "@backstage/plugin-catalog-import" "^0.13.0"
-    "@backstage/plugin-catalog-react" "^1.5.0"
+    "@backstage/plugin-catalog-react" "^2.0.0"
     "@backstage/plugin-github-actions" "^0.6.0"
     "@backstage/plugin-kubernetes" "^0.12.0"
     "@backstage/plugin-org" "^0.6.7"
