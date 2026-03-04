@@ -2936,10 +2936,10 @@
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
 
-"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.18.1", "@backstage/integration@^1.20.0":
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.20.0.tgz#5a56638daeb783ce7831d0011613f90d9a70b539"
-  integrity sha512-2SatYZM/2zwh3/dPJVbWhKZRx0iQKqy90GJUNHe61ntedj0vwfv62Wuf2RNnsFrpn5wsewUUpbFfQ0lrYZxARA==
+"@backstage/integration@^1.10.0", "@backstage/integration@^1.13.0", "@backstage/integration@^1.14.0", "@backstage/integration@^1.15.0", "@backstage/integration@^1.18.1", "@backstage/integration@^1.20.0", "@backstage/integration@^1.20.1":
+  version "1.20.1"
+  resolved "https://registry.yarnpkg.com/@backstage/integration/-/integration-1.20.1.tgz#6a3b4eba069734d1abf2f779ce0b6c483051a35b"
+  integrity sha512-rfYMauJAq0BcEPcAm3em/NJC8Gvu3WzRfbgr3onEdjEc0/hEE2ffXmTcMSZykieltV3IAMHwfF2UBm0eV+hOhQ==
   dependencies:
     "@azure/identity" "^4.0.0"
     "@azure/storage-blob" "^12.5.0"
@@ -3827,16 +3827,16 @@
     zod "^3.25.76"
 
 "@backstage/plugin-scaffolder-backend@^3.0.0":
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-3.1.3.tgz#f9b59255fa5fc753045893cf43ccaa87631457d2"
-  integrity sha512-cgVAWWj3+TBAF4nL/tUKHBiQi8TcwgtPrC7d6Ul2WFXus+B3f8q2/kuB0SVF7XQmihUwqzajYQwndF1VTCHW9A==
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-3.1.4.tgz#3017733635c9a26647ca47ea083066a9f62044a9"
+  integrity sha512-zb2PlQcXx4zrIPWBmFMoUyadUmoZtFKTb22nhXk5uyWcsegOdaiTLeZjola3Mkw0T0bMl3vWqDoefpCTWxMI4Q==
   dependencies:
     "@backstage/backend-openapi-utils" "^0.6.6"
     "@backstage/backend-plugin-api" "^1.7.0"
     "@backstage/catalog-model" "^1.7.6"
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
-    "@backstage/integration" "^1.20.0"
+    "@backstage/integration" "^1.20.1"
     "@backstage/plugin-auth-node" "^0.6.13"
     "@backstage/plugin-bitbucket-cloud-common" "^0.3.7"
     "@backstage/plugin-catalog-backend-module-scaffolder-entity-model" "^0.2.17"
