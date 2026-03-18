@@ -2416,10 +2416,10 @@
     lodash "^4.17.21"
     uri-template "^2.0.0"
 
-"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.5", "@backstage/catalog-model@^1.7.6":
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.6.tgz#2c2770f37d17f577fe20875fbb44750ae29c7110"
-  integrity sha512-EaMl9kA+hJhwLz0lTZihA+66mN4PEmE4j5GDxX4Pntjjv/utIQ2kTBfWRgBL1BOayKtfeXKoe19ZoKb7mPYQwQ==
+"@backstage/catalog-model@^1.2.1", "@backstage/catalog-model@^1.3.0", "@backstage/catalog-model@^1.4.5", "@backstage/catalog-model@^1.5.0", "@backstage/catalog-model@^1.7.3", "@backstage/catalog-model@^1.7.5", "@backstage/catalog-model@^1.7.6", "@backstage/catalog-model@^1.7.7":
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/@backstage/catalog-model/-/catalog-model-1.7.7.tgz#3047b4a95c316039fdaa7bf0f9a4029a255e9c67"
+  integrity sha512-hqZZ4JgTqqQel3t/1EyqHHTF/Zl4d+AVhm77XMxJLRJaST/wOUK9tzBbQnAbE5uDNlNxV0m1+PZ/XTTMSA2FaQ==
   dependencies:
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.2"
@@ -2714,13 +2714,13 @@
     zen-observable "^0.10.0"
     zod "^3.22.4"
 
-"@backstage/core-components@^0.18.2", "@backstage/core-components@^0.18.6", "@backstage/core-components@^0.18.7":
-  version "0.18.7"
-  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.18.7.tgz#c82bd953f70e77dda3e70409cb357c56d84aac27"
-  integrity sha512-oyIooPWylFTwJI2DsaaTVbcHSs9OYMxdUGQwbwq3qtAA1AEn6fq1pu+8kWovULEu+okjOpekLp6N26gZMIsbJg==
+"@backstage/core-components@^0.18.2", "@backstage/core-components@^0.18.6", "@backstage/core-components@^0.18.7", "@backstage/core-components@^0.18.8":
+  version "0.18.8"
+  resolved "https://registry.yarnpkg.com/@backstage/core-components/-/core-components-0.18.8.tgz#55b8ca3895e5d8b289a7ae4f841423f22382a913"
+  integrity sha512-3qwYgwC1UG0M2+lXQy2pWpM2V8ishhbfbiJoLNAAxD6nqmwyyMH1wT9f0BX1XYzbShaJuZ7Nd6AdIHMXQ313NQ==
   dependencies:
     "@backstage/config" "^1.3.6"
-    "@backstage/core-plugin-api" "^1.12.3"
+    "@backstage/core-plugin-api" "^1.12.4"
     "@backstage/errors" "^1.2.7"
     "@backstage/theme" "^0.7.2"
     "@backstage/version-bridge" "^1.0.12"
@@ -2760,20 +2760,20 @@
     rehype-sanitize "^5.0.0"
     remark-gfm "^3.0.1"
     zen-observable "^0.10.0"
-    zod "^3.25.76"
+    zod "^3.25.76 || ^4.0.0"
 
-"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.12.1", "@backstage/core-plugin-api@^1.12.2", "@backstage/core-plugin-api@^1.12.3", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
-  version "1.12.3"
-  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.12.3.tgz#c3697a32db3267c411cf5a2059fe3f833adf6810"
-  integrity sha512-PhnPEc5qVF+2g0/2k9c9rSVECPj5v6BZZ9Bd1xlDNEqblDqysr2AFrPcPLXF/IwMVXgOhl18v1ibGQ2LSrMT4w==
+"@backstage/core-plugin-api@^1.11.1", "@backstage/core-plugin-api@^1.12.1", "@backstage/core-plugin-api@^1.12.2", "@backstage/core-plugin-api@^1.12.3", "@backstage/core-plugin-api@^1.12.4", "@backstage/core-plugin-api@^1.5.0", "@backstage/core-plugin-api@^1.5.1", "@backstage/core-plugin-api@^1.9.2", "@backstage/core-plugin-api@^1.9.3":
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/@backstage/core-plugin-api/-/core-plugin-api-1.12.4.tgz#9a0151b0aed2fdeb1a2be24ad88af84ef79c7004"
+  integrity sha512-1vWR9LsvrqTk+j6LdmACTErBmzG29irNlwP4lLRiiJu8gsapoGmv3Y+luRkjYHXA6/YeZ1g5kWR9A7TDfNYzWg==
   dependencies:
     "@backstage/config" "^1.3.6"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.14.0"
+    "@backstage/frontend-plugin-api" "^0.15.0"
     "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.12"
     history "^5.0.0"
-    zod "^3.25.76"
+    zod "^3.25.76 || ^4.0.0"
 
 "@backstage/errors@^1.1.5", "@backstage/errors@^1.2.4", "@backstage/errors@^1.2.7":
   version "1.2.7"
@@ -2800,6 +2800,17 @@
     "@backstage/errors" "^1.2.7"
     "@backstage/types" "^1.2.2"
     zod "^3.25.76"
+    zod-validation-error "^4.0.2"
+
+"@backstage/filter-predicates@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@backstage/filter-predicates/-/filter-predicates-0.1.1.tgz#4593460811b588c7762968ea66bb0f200a7daf99"
+  integrity sha512-JqnTkHy+InIbdTCoPl7wQTkrnnOik9zIhLqQlIWe1pTs6JmI9JD/x34dhiEZTy4ybBRp2Gi+AyfKlG4/ijPaLw==
+  dependencies:
+    "@backstage/config" "^1.3.6"
+    "@backstage/errors" "^1.2.7"
+    "@backstage/types" "^1.2.2"
+    zod "^3.25.76 || ^4.0.0"
     zod-validation-error "^4.0.2"
 
 "@backstage/frontend-app-api@^0.14.1":
@@ -2865,6 +2876,18 @@
     "@backstage/types" "^1.2.2"
     "@backstage/version-bridge" "^1.0.12"
     zod "^3.25.76"
+    zod-to-json-schema "^3.25.1"
+
+"@backstage/frontend-plugin-api@^0.15.0":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@backstage/frontend-plugin-api/-/frontend-plugin-api-0.15.0.tgz#9e33e4630b419677227c020029f73061ed2e2a5c"
+  integrity sha512-wKCSAYkFL5q/55w7tEniu9mGAHldCFJPd97ju5wC1QoARxUuEP8SEYn4WHmavFA/EDumD3BSUnRcxyusQXSzQg==
+  dependencies:
+    "@backstage/errors" "^1.2.7"
+    "@backstage/filter-predicates" "^0.1.1"
+    "@backstage/types" "^1.2.2"
+    "@backstage/version-bridge" "^1.0.12"
+    zod "^3.25.76 || ^4.0.0"
     zod-to-json-schema "^3.25.1"
 
 "@backstage/frontend-plugin-api@^0.6.4":
@@ -4260,15 +4283,15 @@
     winston "^3.2.1"
 
 "@backstage/plugin-techdocs-react@^1.1.5", "@backstage/plugin-techdocs-react@^1.3.8":
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.8.tgz#5f7c42c663d46ddd9c7cdf6e0ae55771f71bce5c"
-  integrity sha512-8GkEwEnckWoD6wwCCdpNcnQ5C3/dIbeiwyk117n20HdffHO4ajT32paqDtPpcxe/5IRthh9qpOgnoEVg0/JrEA==
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-techdocs-react/-/plugin-techdocs-react-1.3.9.tgz#d7ff504f8b1b4bcff0a40982d4ce7949795a9b0c"
+  integrity sha512-Tgn3/1Q0lwz5MKWswyiVmNhoffd2BEKcLQmGg8c5TujdFaNci+JdT65ZL+hUpDn6tVv55QoQhd9ji2fCJQTViQ==
   dependencies:
-    "@backstage/catalog-model" "^1.7.6"
+    "@backstage/catalog-model" "^1.7.7"
     "@backstage/config" "^1.3.6"
-    "@backstage/core-components" "^0.18.7"
-    "@backstage/core-plugin-api" "^1.12.3"
-    "@backstage/frontend-plugin-api" "^0.14.0"
+    "@backstage/core-components" "^0.18.8"
+    "@backstage/core-plugin-api" "^1.12.4"
+    "@backstage/frontend-plugin-api" "^0.15.0"
     "@backstage/plugin-techdocs-common" "^0.1.1"
     "@backstage/version-bridge" "^1.0.12"
     "@material-ui/core" "^4.12.2"
@@ -28575,7 +28598,7 @@ zod@^3.22.4, zod@^3.25.76:
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.76.tgz#26841c3f6fd22a6a2760e7ccb719179768471e34"
   integrity sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==
 
-zod@^4.3.5:
+"zod@^3.25.76 || ^4.0.0", zod@^4.3.5:
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/zod/-/zod-4.3.6.tgz#89c56e0aa7d2b05107d894412227087885ab112a"
   integrity sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==
