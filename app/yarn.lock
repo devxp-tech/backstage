@@ -4503,12 +4503,12 @@
     qs "^6.9.4"
     react-use "^17.2.4"
 
-"@backstage/plugin-signals-react@^0.0.19":
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.19.tgz#0ae419d043dab80c52a9ab3c6f083f7576e7e169"
-  integrity sha512-UAOo6GgA3wQEJu8YhgFLAtkY2XfqmKmEFVUjRILrdJ60Edyzn+i6gPrRXFD/VxkKrYAatHSLvbJtmHOZeClONw==
+"@backstage/plugin-signals-react@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-signals-react/-/plugin-signals-react-0.0.20.tgz#f6431cc43260e25f023fe160fb21f451b1be31c2"
+  integrity sha512-5iuK2Dj++vZUU2QhxJspsVPYR5+z1N/3krgauz4Vw8oWR1a7BYVWXPguoVrFeN/hzkOZYAloguzDwpKgsK0LdA==
   dependencies:
-    "@backstage/core-plugin-api" "^1.12.3"
+    "@backstage/core-plugin-api" "^1.12.4"
     "@backstage/types" "^1.2.2"
     "@material-ui/core" "^4.12.4"
 
@@ -4739,21 +4739,22 @@
     "@backstage/types" "^1.2.2"
 
 "@backstage/plugin-user-settings@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.9.0.tgz#8d573b396c4e246fba135adfd8f71385c65e5537"
-  integrity sha512-1DE2m8Lb1J4Rn2zZEpHpCIyRZYNmZQGPIn7h08iTeDODTQV9hF2oENcp37vjZ9JtjcHqvYQagfaU8HDmgMHKeA==
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-user-settings/-/plugin-user-settings-0.9.1.tgz#6aff38b2f379d4434750c211c7c8ac0364097032"
+  integrity sha512-D6CS4Vkx9yJWmIURrlLx22tEbhcLIe3ZSie/uWXaIk6bmnL+yGsMwG7i7wFQczS5m8TrHBZRu0ddcAavlPCaMg==
   dependencies:
-    "@backstage/catalog-model" "^1.7.6"
-    "@backstage/core-app-api" "^1.19.5"
-    "@backstage/core-components" "^0.18.7"
-    "@backstage/core-plugin-api" "^1.12.3"
+    "@backstage/catalog-model" "^1.7.7"
+    "@backstage/core-app-api" "^1.19.6"
+    "@backstage/core-components" "^0.18.8"
+    "@backstage/core-plugin-api" "^1.12.4"
     "@backstage/errors" "^1.2.7"
-    "@backstage/frontend-plugin-api" "^0.14.0"
-    "@backstage/plugin-catalog-react" "^2.0.0"
-    "@backstage/plugin-signals-react" "^0.0.19"
+    "@backstage/frontend-plugin-api" "^0.15.0"
+    "@backstage/plugin-catalog-react" "^2.1.0"
+    "@backstage/plugin-signals-react" "^0.0.20"
     "@backstage/plugin-user-settings-common" "^0.1.0"
     "@backstage/theme" "^0.7.2"
     "@backstage/types" "^1.2.2"
+    "@backstage/ui" "^0.13.0"
     "@material-ui/core" "^4.12.2"
     "@material-ui/icons" "^4.9.1"
     "@material-ui/lab" "4.0.0-alpha.61"
