@@ -2778,28 +2778,7 @@
     sucrase "^3.20.2"
     yaml "^2.0.0"
 
-"@backstage/config-loader@^1.10.8", "@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1":
-  version "1.10.8"
-  resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.10.8.tgz#f194bd2f7e66096a8dd1e82413b20427e387454c"
-  integrity sha512-Ax8txHipla0+WaxPBDtwIBu6DoXQswjh1/+2bvIzJREjkCh9mctosJ72ZbPWxAoOhvr6DpCPlqPzg1pfho5aTg==
-  dependencies:
-    "@backstage/cli-common" "^0.1.18"
-    "@backstage/config" "^1.3.6"
-    "@backstage/errors" "^1.2.7"
-    "@backstage/types" "^1.2.2"
-    "@types/json-schema" "^7.0.6"
-    ajv "^8.10.0"
-    chokidar "^3.5.2"
-    fs-extra "^11.2.0"
-    json-schema "^0.4.0"
-    json-schema-merge-allof "^0.8.1"
-    json-schema-traverse "^1.0.0"
-    lodash "^4.17.21"
-    minimist "^1.2.5"
-    typescript-json-schema "^0.67.0"
-    yaml "^2.0.0"
-
-"@backstage/config-loader@^1.10.9":
+"@backstage/config-loader@^1.10.9", "@backstage/config-loader@^1.8.0", "@backstage/config-loader@^1.8.1", "@backstage/config-loader@^1.9.0", "@backstage/config-loader@^1.9.1":
   version "1.10.9"
   resolved "https://registry.yarnpkg.com/@backstage/config-loader/-/config-loader-1.10.9.tgz#6e3d7d6fa6fdb0733ef296d135a871da4883c537"
   integrity sha512-NQ1IgXg5OIMDg1yZSbYRwskkDv2ctMAThjUgxpDF1QUgiat6/Gdd07J0+9PWRmNaeYjrblN8M9NwPKh5Y/272Q==
@@ -3264,16 +3243,16 @@
     swagger-ui-react "^5.27.1"
 
 "@backstage/plugin-app-backend@^0.5.0":
-  version "0.5.11"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.5.11.tgz#1b35041ab1446fb37ecb396f4878e61743459687"
-  integrity sha512-YRUs5+MG/YOiPWNcW19g30nwdNHHDqtHvkcDko0TxmhUTziNJ/sYmaDG8x2QVsEEaH9ZP19T9HYXdvopCQXXLw==
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-backend/-/plugin-app-backend-0.5.12.tgz#c886c99b6a901419a8a3bea3dc51afea1eb07fce"
+  integrity sha512-Nfhm4AurrC82xkO5fHcsZK/TtL7tATAHQpdaRsGotTy9huzBsLyMSz0WMsFtBjRq/r2fEKR0VieQI8XzE7HZJw==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.7.0"
+    "@backstage/backend-plugin-api" "^1.8.0"
     "@backstage/config" "^1.3.6"
-    "@backstage/config-loader" "^1.10.8"
+    "@backstage/config-loader" "^1.10.9"
     "@backstage/errors" "^1.2.7"
-    "@backstage/plugin-app-node" "^0.1.42"
-    "@backstage/plugin-auth-node" "^0.6.13"
+    "@backstage/plugin-app-node" "^0.1.43"
+    "@backstage/plugin-auth-node" "^0.6.14"
     "@backstage/types" "^1.2.2"
     express "^4.22.0"
     express-promise-router "^4.1.0"
@@ -3285,13 +3264,13 @@
     luxon "^3.0.0"
     yn "^4.0.0"
 
-"@backstage/plugin-app-node@^0.1.42":
-  version "0.1.42"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.42.tgz#13accad6f97b98a9e248b0a90587173b43df332a"
-  integrity sha512-VeuVdomYG9tp8IQ+jxJiuvzyfIvvNsHMSiwlCFWRUvn8y72NAhiMtBDw1MUtaHrqaQpJ7PIRYf7ltRnRcVdLLg==
+"@backstage/plugin-app-node@^0.1.43":
+  version "0.1.43"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-app-node/-/plugin-app-node-0.1.43.tgz#2eaf76678c1cba16e4935ac0e8b0c186076779be"
+  integrity sha512-riums7kkJ1RWq1FCDxtpOq7/aCBMcBDtQwqakjnh1UR4YsxNEPKET8bF+MbtN1QPc3C4jQKokWnJ0QEkDDhzvQ==
   dependencies:
-    "@backstage/backend-plugin-api" "^1.7.0"
-    "@backstage/config-loader" "^1.10.8"
+    "@backstage/backend-plugin-api" "^1.8.0"
+    "@backstage/config-loader" "^1.10.9"
     "@types/express" "^4.17.6"
     express "^4.22.0"
     fs-extra "^11.2.0"
