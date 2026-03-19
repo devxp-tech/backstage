@@ -3866,14 +3866,14 @@
     node-fetch "^2.7.0"
     winston "^3.2.1"
 
-"@backstage/plugin-kubernetes-react@^0.5.16":
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.16.tgz#5cce1f6759cf4229deb1ce7043164993d23e5744"
-  integrity sha512-MSTItUqFbIqsKLZDZbrQuiduczLhG7UKggSAs42tzFGML2BXOxNcm8S1qvAUATVC4AQjMm4cg/LFqfPdbRRK9g==
+"@backstage/plugin-kubernetes-react@^0.5.17":
+  version "0.5.17"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes-react/-/plugin-kubernetes-react-0.5.17.tgz#3b1ceb60b6d4ed0c9958321e37f783f1a63c1c13"
+  integrity sha512-BATkYDI/+zrgtcYxQw6rhXPNGp5+7icxLECI84Q/JGFnDm7GVhI7W5FX67kbtLR8Kc6Yr/qdWy8hz2GY9m0Fvw==
   dependencies:
-    "@backstage/catalog-model" "^1.7.6"
-    "@backstage/core-components" "^0.18.7"
-    "@backstage/core-plugin-api" "^1.12.3"
+    "@backstage/catalog-model" "^1.7.7"
+    "@backstage/core-components" "^0.18.8"
+    "@backstage/core-plugin-api" "^1.12.4"
     "@backstage/errors" "^1.2.7"
     "@backstage/plugin-kubernetes-common" "^0.9.10"
     "@backstage/types" "^1.2.2"
@@ -3894,18 +3894,18 @@
     react-use "^17.4.0"
 
 "@backstage/plugin-kubernetes@^0.12.0":
-  version "0.12.16"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.16.tgz#6ce0a0ea72fc82d9d6305002ab971fc5199bd49c"
-  integrity sha512-w598HkMf2khXZoN/PiPdfymxr8xk0Kio3HRvuzojXADbhr0QK+zIkMChAwh5mvASwgi8InMCm9raVy4R4y7i3A==
+  version "0.12.17"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-kubernetes/-/plugin-kubernetes-0.12.17.tgz#34195db47bd0bf1fe60b454680f5018b7d6e09ce"
+  integrity sha512-ycMeNXNjhWQXS/OK8nQEldSgQaGUt7/SB6m31EOaU7N8V/HeFjyPQI2G8yy2s1HRkiC5S4ADPZ8rIpxlhpW6NA==
   dependencies:
-    "@backstage/catalog-model" "^1.7.6"
-    "@backstage/core-components" "^0.18.7"
-    "@backstage/core-plugin-api" "^1.12.3"
-    "@backstage/frontend-plugin-api" "^0.14.0"
-    "@backstage/plugin-catalog-react" "^2.0.0"
+    "@backstage/catalog-model" "^1.7.7"
+    "@backstage/core-components" "^0.18.8"
+    "@backstage/core-plugin-api" "^1.12.4"
+    "@backstage/frontend-plugin-api" "^0.15.0"
+    "@backstage/plugin-catalog-react" "^2.1.0"
     "@backstage/plugin-kubernetes-common" "^0.9.10"
-    "@backstage/plugin-kubernetes-react" "^0.5.16"
-    "@backstage/plugin-permission-react" "^0.4.40"
+    "@backstage/plugin-kubernetes-react" "^0.5.17"
+    "@backstage/plugin-permission-react" "^0.4.41"
     "@material-ui/core" "^4.12.2"
 
 "@backstage/plugin-org@^0.7.0":
