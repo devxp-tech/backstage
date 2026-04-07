@@ -3941,9 +3941,9 @@
     http-proxy-middleware "^2.0.0"
 
 "@backstage/plugin-scaffolder-backend@^3.0.0":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-3.2.0.tgz#b90a8553ff37d5c8971a18dbd325a94ea32101d8"
-  integrity sha512-T2qN9gJp+mLcM9N8y81Pv3sCUGVXI0k1v4e9CnoeJT2KhRsmnJ25XdRB3UzdNEphDhdVhSzi5g+JWglWSie/Wg==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-3.3.0.tgz#8aed27300ca6ec1f13b7924b3f71bc5967510b7f"
+  integrity sha512-HRDq5W7eBX7TniHy6mDJwsjSN60/SOeyTZbNFB40hq3WbpVimmFnDDWSmcj6KrNw3HTNz6spu6a3c/GU/QXRpg==
   dependencies:
     "@backstage/backend-openapi-utils" "^0.6.7"
     "@backstage/backend-plugin-api" "^1.8.0"
@@ -3956,7 +3956,7 @@
     "@backstage/plugin-permission-common" "^0.9.7"
     "@backstage/plugin-permission-node" "^0.10.11"
     "@backstage/plugin-scaffolder-common" "^2.0.0"
-    "@backstage/plugin-scaffolder-node" "^0.13.0"
+    "@backstage/plugin-scaffolder-node" "^0.13.1"
     "@backstage/types" "^1.2.2"
     "@opentelemetry/api" "^1.9.0"
     "@types/luxon" "^3.0.0"
@@ -3999,16 +3999,17 @@
     uri-template "^2.0.0"
     zen-observable "^0.10.0"
 
-"@backstage/plugin-scaffolder-node@^0.13.0":
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-node/-/plugin-scaffolder-node-0.13.0.tgz#abe463aad01dab4285c793db9a4f1dc0e7a0671c"
-  integrity sha512-ixe8E18+mcBjZYruqVi1U1up2DHVoTFly5tc2oxKgNaad4W/cESLlthHCPxma12s33Alk/AVF30X4DMPUzJidQ==
+"@backstage/plugin-scaffolder-node@^0.13.1":
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-node/-/plugin-scaffolder-node-0.13.1.tgz#7c67a4182964ba350e03624815df78ea3c044353"
+  integrity sha512-sGNQTuYmTYTLOGOo+I/rmJswS5Ip/LnElR1qiZaqXfCrFK7IqzwT/DiX6qo3I4tdmFUSXiObQ7r4aJi+SES6Vg==
   dependencies:
     "@backstage/backend-plugin-api" "^1.8.0"
     "@backstage/catalog-model" "^1.7.7"
     "@backstage/errors" "^1.2.7"
     "@backstage/integration" "^2.0.0"
     "@backstage/plugin-permission-common" "^0.9.7"
+    "@backstage/plugin-permission-node" "^0.10.11"
     "@backstage/plugin-scaffolder-common" "^2.0.0"
     "@backstage/types" "^1.2.2"
     "@isomorphic-git/pgp-plugin" "^0.0.7"
