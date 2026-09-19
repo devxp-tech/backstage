@@ -97,8 +97,7 @@ techdocs:
       bucketName: ${TECHDOCS_BUCKET}
       region: ${AWS_REGION}
       credentials:
-        accessKeyId: ${AWS_ACCESS_KEY_ID}
-        secretAccessKey: ${AWS_SECRET_ACCESS_KEY}
+        roleArn: ${AWS_ROLEARN}
 
 proxy:
   endpoints:
